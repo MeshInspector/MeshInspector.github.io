@@ -171,12 +171,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a339e38c56c4709ed12f877a0b026a659" id="r_a339e38c56c4709ed12f877a0b026a659"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a339e38c56c4709ed12f877a0b026a659">SplashWindow</a> (std::string name)</td></tr>
 <tr class="separator:a339e38c56c4709ed12f877a0b026a659"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8219c57ea7f0cab0fb236ab58fbcb5f" id="r_aa8219c57ea7f0cab0fb236ab58fbcb5f"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8219c57ea7f0cab0fb236ab58fbcb5f">~SplashWindow</a> ()</td></tr>
+<tr class="memdesc:aa8219c57ea7f0cab0fb236ab58fbcb5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thread should be stopped before destructor.  <br /></td></tr>
 <tr class="separator:aa8219c57ea7f0cab0fb236ab58fbcb5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0ce424272b846ce5f6cf1f9116f1742" id="r_af0ce424272b846ce5f6cf1f9116f1742"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0ce424272b846ce5f6cf1f9116f1742">start</a> ()</td></tr>
 <tr class="separator:af0ce424272b846ce5f6cf1f9116f1742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12f3e91e4d3acf7a279458baf304721a" id="r_a12f3e91e4d3acf7a279458baf304721a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12f3e91e4d3acf7a279458baf304721a">stop</a> ()</td></tr>
+<tr class="memdesc:a12f3e91e4d3acf7a279458baf304721a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes splash window if it is still opened.  <br /></td></tr>
 <tr class="separator:a12f3e91e4d3acf7a279458baf304721a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a017a42c7599e421ba51d913f9c9c0a5c" id="r_a017a42c7599e421ba51d913f9c9c0a5c"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a017a42c7599e421ba51d913f9c9c0a5c">minimumTimeSec</a> () const</td></tr>
+<tr class="memdesc:a017a42c7599e421ba51d913f9c9c0a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns minimum time in seconds, splash screen to be present.  <br /></td></tr>
 <tr class="separator:a017a42c7599e421ba51d913f9c9c0a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
@@ -190,7 +193,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a302e1b3310c1ee684e3de1d7a239e964" id="r_a302e1b3310c1ee684e3de1d7a239e964"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a302e1b3310c1ee684e3de1d7a239e964">terminate_</a> { false }</td></tr>
 <tr class="separator:a302e1b3310c1ee684e3de1d7a239e964"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Base class to run splash window in new thread override it's private functions and provide it Viever::LaunchParams </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a339e38c56c4709ed12f877a0b026a659" name="a339e38c56c4709ed12f877a0b026a659"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a339e38c56c4709ed12f877a0b026a659">&#9670;&#160;</a></span>SplashWindow()</h2>
 
@@ -231,6 +236,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Thread should be stopped before destructor. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -257,6 +264,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns minimum time in seconds, splash screen to be present. </p>
+
 </div>
 </div>
 <a id="af0ce424272b846ce5f6cf1f9116f1742" name="af0ce424272b846ce5f6cf1f9116f1742"></a>
@@ -273,6 +282,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Starts splash window in new thread, non blocking window will be closed in destructor of this class, or if <code>frame_</code> func returns false. or manually with <code>stop</code> function </p>
 
 </div>
 </div>
@@ -290,6 +300,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Closes splash window if it is still opened. </p>
 
 </div>
 </div>

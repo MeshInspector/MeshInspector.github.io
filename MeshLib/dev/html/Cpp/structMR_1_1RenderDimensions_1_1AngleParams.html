@@ -159,12 +159,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae12fd753d7b41f3585a8be7f6267b05c" id="r_ae12fd753d7b41f3585a8be7f6267b05c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1RenderDimensions_1_1CommonParams.html">CommonParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae12fd753d7b41f3585a8be7f6267b05c">common</a></td></tr>
 <tr class="separator:ae12fd753d7b41f3585a8be7f6267b05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa85ef6d1b0b31db4da15d765aaa3aaea" id="r_aa85ef6d1b0b31db4da15d765aaa3aaea"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa85ef6d1b0b31db4da15d765aaa3aaea">center</a></td></tr>
+<tr class="memdesc:aa85ef6d1b0b31db4da15d765aaa3aaea"><td class="mdescLeft">&#160;</td><td class="mdescRight">The center point.  <br /></td></tr>
 <tr class="separator:aa85ef6d1b0b31db4da15d765aaa3aaea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a1739ccf9799082e97640d3942cd5a0" id="r_a3a1739ccf9799082e97640d3942cd5a0"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a1739ccf9799082e97640d3942cd5a0">rays</a></td></tr>
 <tr class="separator:a3a1739ccf9799082e97640d3942cd5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd45525e6d0f8a47a34a30c3a2596270" id="r_acd45525e6d0f8a47a34a30c3a2596270"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd45525e6d0f8a47a34a30c3a2596270">isConical</a> = false</td></tr>
+<tr class="memdesc:acd45525e6d0f8a47a34a30c3a2596270"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this is a conical angle. The middle line between the rays is preserved, but the rays themselves can be rotated.  <br /></td></tr>
 <tr class="separator:acd45525e6d0f8a47a34a30c3a2596270"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaace7c14d6dc2100d4e3e7555158c162" id="r_aaace7c14d6dc2100d4e3e7555158c162"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaace7c14d6dc2100d4e3e7555158c162">shouldVisualizeRay</a> { true, true }</td></tr>
+<tr class="memdesc:aaace7c14d6dc2100d4e3e7555158c162"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether we should draw a ray from the center point to better visualize the angle. Enable this if there isn't already a line object there.  <br /></td></tr>
 <tr class="separator:aaace7c14d6dc2100d4e3e7555158c162"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -179,6 +182,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The center point. </p>
 
 </div>
 </div>
@@ -208,6 +213,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Whether this is a conical angle. The middle line between the rays is preserved, but the rays themselves can be rotated. </p>
+
 </div>
 </div>
 <a id="a3a1739ccf9799082e97640d3942cd5a0" name="a3a1739ccf9799082e97640d3942cd5a0"></a>
@@ -221,6 +228,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The two rays. Use the length of the shorter ray as the arc radius. </p>
 
 </div>
 </div>
@@ -235,6 +243,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Whether we should draw a ray from the center point to better visualize the angle. Enable this if there isn't already a line object there. </p>
 
 </div>
 </div>

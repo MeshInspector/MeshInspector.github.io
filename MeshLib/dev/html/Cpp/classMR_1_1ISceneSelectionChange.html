@@ -152,6 +152,9 @@ $(function(){initNavTree('classMR_1_1ISceneSelectionChange.html',''); initResiza
 </div><!--header-->
 <div class="contents">
 
+<p>Interface for processing scene state change in RibbonItems.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRSceneSelectionChange_8h_source.html">MRSceneSelectionChange.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::ISceneSelectionChange:</div>
@@ -161,8 +164,8 @@ $(function(){initNavTree('classMR_1_1ISceneSelectionChange.html',''); initResiza
  <div class="center">
   <img src="classMR_1_1ISceneSelectionChange.png" usemap="#MR::ISceneSelectionChange_map" alt=""/>
   <map id="MR::ISceneSelectionChange_map" name="MR::ISceneSelectionChange_map">
-<area href="classMR_1_1SceneSelectionChangeClose.html" alt="MR::SceneSelectionChangeClose" shape="rect" coords="0,56,562,80"/>
-<area href="classMR_1_1SceneSelectionChangeRestart.html" alt="MR::SceneSelectionChangeRestart" shape="rect" coords="572,56,1134,80"/>
+<area href="classMR_1_1SceneSelectionChangeClose.html" title="close on state change" alt="MR::SceneSelectionChangeClose" shape="rect" coords="0,56,562,80"/>
+<area href="classMR_1_1SceneSelectionChangeRestart.html" title="restart on state change" alt="MR::SceneSelectionChangeRestart" shape="rect" coords="572,56,1134,80"/>
 <area href="classMR_1_1StateBasePlugin.html" alt="MR::StateBasePlugin" shape="rect" coords="1144,56,1706,80"/>
 <area href="classMR_1_1StateListenerPlugin.html" alt="MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;" shape="rect" coords="572,112,1134,136"/>
 <area href="classMR_1_1StateListenerPlugin.html" alt="MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;" shape="rect" coords="1144,112,1706,136"/>
@@ -179,7 +182,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0e5a18c4e15ba23a7536d1511cb823b6" id="r_a0e5a18c4e15ba23a7536d1511cb823b6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e5a18c4e15ba23a7536d1511cb823b6">updateSelection</a> (const std::vector&lt; std::shared_ptr&lt; const <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;)</td></tr>
 <tr class="separator:a0e5a18c4e15ba23a7536d1511cb823b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Interface for processing scene state change in RibbonItems. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a46ed29a0c79bdfb7de53ea802fee042c" name="a46ed29a0c79bdfb7de53ea802fee042c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a46ed29a0c79bdfb7de53ea802fee042c">&#9670;&#160;</a></span>~ISceneSelectionChange()</h2>
 
@@ -228,6 +233,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>do something on selection change, args - newly selected objects </p>
 
 <p>Reimplemented in <a class="el" href="classMR_1_1SceneSelectionChangeClose.html#accb011d3020704157238d133e6ac990d">MR::SceneSelectionChangeClose</a>, and <a class="el" href="classMR_1_1SceneSelectionChangeRestart.html#ae03b497a188281988804ecd125fd8f7c">MR::SceneSelectionChangeRestart</a>.</p>
 

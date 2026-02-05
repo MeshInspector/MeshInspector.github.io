@@ -21,6 +21,7 @@ var structMR_1_1Quaternion =
     [ "operator-", "structMR_1_1Quaternion.html#a6bcd112f89bf5f4ce825eb989ce05c59", null ],
     [ "operator/=", "structMR_1_1Quaternion.html#a7a8a7853bf5bb6ec9a6c108009d9a8e3", null ],
     [ "dot", "structMR_1_1Quaternion.html#a24a478c9463275d440061899c3630a32", null ],
+    [ "getCanonicalQuaternions", "structMR_1_1Quaternion.html#a7e3a85611c622741c25fb2e88d485908", null ],
     [ "getClosestCanonicalQuaternion", "structMR_1_1Quaternion.html#ab2b1ae64873308ff0f9efd8dbcffcde6", null ],
     [ "operator*", "structMR_1_1Quaternion.html#a0267d5aee3f765c24fb3f40ad811f9b4", null ],
     [ "orthonormalized", "structMR_1_1Quaternion.html#a425f39c2e989a446889597e5692a0416", null ],

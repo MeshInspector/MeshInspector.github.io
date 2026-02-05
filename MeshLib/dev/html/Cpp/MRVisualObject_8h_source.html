@@ -162,8 +162,6 @@ $(function(){initNavTree('MRVisualObject_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">// Note! Must use `MRMESH_CLASS` on this enum and all enums that extend this one,</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment">// otherwise you&#39;ll get silent wrong behavior on Mac.</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">enum class</span> <a class="code hl_define" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a> <a class="code hl_enumerationRef" href="../Csharp/classMR.html#a93c701ffcc6efc02cd75b0925eb9c829">VisualizeMaskType</a></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>{</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="MRVisualObject_8h.html#a53d6f8ccb0015ea020228de41cfd2162">   22</a></span>    <a class="code hl_variable" href="MRVisualObject_8h.html#a53d6f8ccb0015ea020228de41cfd2162">Visibility</a>,</div>
@@ -174,29 +172,15 @@ $(function(){initNavTree('MRVisualObject_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="MRVisualObject_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983">   27</a></span>    <a class="code hl_variable" href="MRFeatureObject_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983">_count</a> [[maybe_unused]],</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment">// If a type derived from `VisualObject` wants to extend `VisualizeMaskType`, it must create a separate enum and specialize this to `true` for it.</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment">// NOTE! All those enums can start from 0, don&#39;t worry about collisions.</span></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="structMR_1_1IsVisualizeMaskEnum.html">   32</a></span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt; <span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1IsVisualizeMaskEnum.html">IsVisualizeMaskEnum</a> : std::false_type {};</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="structMR_1_1IsVisualizeMaskEnum_3_01VisualizeMaskType_01_4.html">   33</a></span><span class="keyword">template</span> &lt;&gt; <span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1IsVisualizeMaskEnum.html">IsVisualizeMaskEnum</a>&lt;VisualizeMaskType&gt; : std::true_type {};</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">// Wraps `IsVisualizeMaskEnum` and adds some sanity checks.</span></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="conceptMR_1_1AnyVisualizeMaskEnumType.html">   37</a></span><span class="keyword">concept </span><a class="code hl_concept" href="conceptMR_1_1AnyVisualizeMaskEnumType.html">AnyVisualizeMaskEnumType</a> =</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    IsVisualizeMaskEnum&lt;T&gt;::value &amp;&amp;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    std::is_same_v&lt;std::underlying_type_t&lt;T&gt;, <span class="keywordtype">int</span>&gt; &amp;&amp;</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    std::is_same_v&lt;T, std::remove_cvref_t&lt;T&gt;&gt;;</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment">// Stores a `VisualizeMaskType` or any other enum that extends it (i.e. which specializes `IsVisualizeMaskEnum`).</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">// To extract the value, do this:</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment">//     if ( auto value = x.tryGet&lt;MyEnum&gt;() )</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment">//     {</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment">//         switch ( *value )</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="comment">//         {</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment">//             case MyEnum::foo: ...</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">//             case MyEnum::bar: ...</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment">//         }</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment">//     }</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">//     else // forward to the parent class</span></div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">class </span>AnyVisualizeMaskEnum</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>{</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    std::type_index type_;</div>
@@ -224,7 +208,7 @@ $(function(){initNavTree('MRVisualObject_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    DIRTY_NONE = 0x0000,</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    DIRTY_POSITION = 0x0001,</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    DIRTY_UV = 0x0002,</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    DIRTY_VERTS_RENDER_NORMAL = 0x0004, <span class="comment">//&lt; gl normals</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    DIRTY_VERTS_RENDER_NORMAL = 0x0004, </div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    DIRTY_FACES_RENDER_NORMAL = 0x0008, </div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    DIRTY_CORNERS_RENDER_NORMAL = 0x0010, </div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    DIRTY_RENDER_NORMALS = DIRTY_VERTS_RENDER_NORMAL | DIRTY_FACES_RENDER_NORMAL | DIRTY_CORNERS_RENDER_NORMAL,</div>
@@ -386,8 +370,8 @@ $(function(){initNavTree('MRVisualObject_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>    ViewportMask depthTest_ = ViewportMask::all();</div>
 <div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span> </div>
 <div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>    <span class="keywordtype">float</span> shininess_{35.0f}; </div>
-<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>    <span class="keywordtype">float</span> specularStrength_{ 0.5f }; <span class="comment">// reflection intensity</span></div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>    <span class="keywordtype">float</span> ambientStrength_{ 0.1f }; <span class="comment">//non - directional light intensity</span></div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>    <span class="keywordtype">float</span> specularStrength_{ 0.5f }; </div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>    <span class="keywordtype">float</span> ambientStrength_{ 0.1f }; </div>
 <div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span> </div>
 <div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>    ColoringType coloringType_{ColoringType::SolidColor};</div>
 <div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>    ViewportProperty&lt;Color&gt; selectedColor_;</div>
@@ -409,14 +393,12 @@ $(function(){initNavTree('MRVisualObject_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span> </div>
 <div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">void</span> setAllVisualizeProperties_( <span class="keyword">const</span> AllVisualizeProperties&amp; properties, std::size_t&amp; pos );</div>
 <div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span> </div>
-<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>    <span class="comment">// Derived classes should use this to implement `setAllVisualizeProperties()`.</span></div>
 <div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>    <span class="keyword">template</span> &lt;AnyVisualizeMaskEnumType T&gt;</div>
 <div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>    <span class="keywordtype">void</span> setAllVisualizePropertiesForEnum( <span class="keyword">const</span> AllVisualizeProperties&amp; properties, std::size_t&amp; pos )</div>
 <div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>    {</div>
 <div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>        <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; int( T::_count ); i++ )</div>
 <div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>            setVisualizePropertyMask( T( i ), properties[pos++] );</div>
 <div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>    }</div>
-<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>    <span class="comment">// Derived classes should use this to implement `getAllVisualizeProperties()`.</span></div>
 <div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>    <span class="keyword">template</span> &lt;AnyVisualizeMaskEnumType T&gt;</div>
 <div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>    <span class="keywordtype">void</span> getAllVisualizePropertiesForEnum( AllVisualizeProperties&amp; properties )<span class="keyword"> const</span></div>
 <div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span><span class="keyword">    </span>{</div>
@@ -426,7 +408,7 @@ $(function(){initNavTree('MRVisualObject_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>    }</div>
 <div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span> </div>
 <div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>    <span class="keyword">mutable</span> Dirty dirty_; <span class="comment">// private dirty, to force all using setDirtyFlags, instead of direct change</span></div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>    <span class="keyword">mutable</span> Dirty dirty_; </div>
 <div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span> </div>
 <div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>    <span class="keyword">mutable</span> Box3f boundingBoxCache_;</div>
 <div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span> </div>
@@ -436,10 +418,10 @@ $(function(){initNavTree('MRVisualObject_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>};</div>
 <div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span> </div>
 <div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span> </div>
-<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>} </div>
 <div class="ttc" id="aMRColor_8h_html"><div class="ttname"><a href="MRColor_8h.html">MRColor.h</a></div></div>
 <div class="ttc" id="aMREnums_8h_html"><div class="ttname"><a href="MREnums_8h.html">MREnums.h</a></div></div>
-<div class="ttc" id="aMRFeatureObject_8h_html_a69c4cff6b9a1cd95c71fc56b8dd9a983"><div class="ttname"><a href="MRFeatureObject_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983">_count</a></div><div class="ttdeci">_count</div><div class="ttdef"><b>Definition</b> MRFeatureObject.h:87</div></div>
+<div class="ttc" id="aMRFeatureObject_8h_html_a69c4cff6b9a1cd95c71fc56b8dd9a983"><div class="ttname"><a href="MRFeatureObject_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983">_count</a></div><div class="ttdeci">_count</div><div class="ttdoc">If true, show additional details on the name tag, such as point coordinates. Not all features use thi...</div><div class="ttdef"><b>Definition</b> MRFeatureObject.h:87</div></div>
 <div class="ttc" id="aMRIRenderObject_8h_html"><div class="ttname"><a href="MRIRenderObject_8h.html">MRIRenderObject.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:87</div></div>
@@ -455,11 +437,11 @@ $(function(){initNavTree('MRVisualObject_8h_source.html',''); initResizable(true
 <div class="ttc" id="aclassMR_1_1AnyVisualizeMaskEnum_html_a8b303efc4b359c355a6281397afe0711"><div class="ttname"><a href="../Csharp/classMR_1_1AnyVisualizeMaskEnum.html#a8b303efc4b359c355a6281397afe0711">MR::AnyVisualizeMaskEnum::AnyVisualizeMaskEnum</a></div><div class="ttdeci">unsafe AnyVisualizeMaskEnum(MR.Const_AnyVisualizeMaskEnum _other)</div></div>
 <div class="ttc" id="aclassMR_1_1Dirty_html_a0df442d7b9184dfb6c24eb5bd214787a"><div class="ttname"><a href="../Csharp/classMR_1_1Dirty.html#a0df442d7b9184dfb6c24eb5bd214787a">MR::Dirty::f</a></div><div class="ttdeci">new unsafe ref uint f</div></div>
 <div class="ttc" id="aclassMR_1_1Dirty_html_a0f210d9ad150a32bfbd850e6a6f5ba7f"><div class="ttname"><a href="../Csharp/classMR_1_1Dirty.html#a0f210d9ad150a32bfbd850e6a6f5ba7f">MR::Dirty::Dirty</a></div><div class="ttdeci">unsafe Dirty()</div></div>
-<div class="ttc" id="aclassMR_html_a93c701ffcc6efc02cd75b0925eb9c829"><div class="ttname"><a href="../Csharp/classMR.html#a93c701ffcc6efc02cd75b0925eb9c829">MR::VisualizeMaskType</a></div><div class="ttdeci">VisualizeMaskType</div><div class="ttdef"><b>Definition</b> MRVisualObject.h:21</div></div>
+<div class="ttc" id="aclassMR_html_a93c701ffcc6efc02cd75b0925eb9c829"><div class="ttname"><a href="../Csharp/classMR.html#a93c701ffcc6efc02cd75b0925eb9c829">MR::VisualizeMaskType</a></div><div class="ttdeci">VisualizeMaskType</div></div>
 <div class="ttc" id="aclassMR_html_afdc8eb214c61d43e8ef39575a19d0e29"><div class="ttname"><a href="../Csharp/classMR.html#afdc8eb214c61d43e8ef39575a19d0e29">MR::DirtyFlags</a></div><div class="ttdeci">DirtyFlags</div></div>
-<div class="ttc" id="aconceptMR_1_1AnyVisualizeMaskEnumType_html"><div class="ttname"><a href="conceptMR_1_1AnyVisualizeMaskEnumType.html">MR::AnyVisualizeMaskEnumType</a></div><div class="ttdef"><b>Definition</b> MRVisualObject.h:37</div></div>
+<div class="ttc" id="aconceptMR_1_1AnyVisualizeMaskEnumType_html"><div class="ttname"><a href="conceptMR_1_1AnyVisualizeMaskEnumType.html">MR::AnyVisualizeMaskEnumType</a></div><div class="ttdoc">Wraps IsVisualizeMaskEnum and adds some sanity checks.</div><div class="ttdef"><b>Definition</b> MRVisualObject.h:37</div></div>
 <div class="ttc" id="agroup__VisualObjectGroup_html_ga1f6aeed936aa967b17cba0997d30ff7f"><div class="ttname"><a href="group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f">MR::AllVisualizeProperties</a></div><div class="ttdeci">std::vector&lt; ViewportMask &gt; AllVisualizeProperties</div><div class="ttdef"><b>Definition</b> MRVisualObject.h:72</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_a0c5969d14f5411daa31fa79f04bedfe1"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a0c5969d14f5411daa31fa79f04bedfe1">mrmeshpy::AllVisualizeProperties</a></div><div class="ttdeci">AllVisualizeProperties</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_a9ee1db556a8c20bda08add64497250c6"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a9ee1db556a8c20bda08add64497250c6">mrmeshpy::heapBytes</a></div><div class="ttdeci">int heapBytes(std_vector_Color vec)</div></div>
 <div class="ttc" id="astructMR_1_1IsVisualizeMaskEnum_html"><div class="ttname"><a href="structMR_1_1IsVisualizeMaskEnum.html">MR::IsVisualizeMaskEnum</a></div><div class="ttdef"><b>Definition</b> MRVisualObject.h:32</div></div>

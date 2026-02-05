@@ -164,6 +164,7 @@ $(function(){initNavTree('MRObjectLoad_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -191,8 +192,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga01ad9a53501f3ed7609ba0a65b9ff422"><td class="mdescLeft">&#160;</td><td class="mdescRight">load all objects (or any type: mesh, lines, points, voxels or scene) from file  <br /></td></tr>
 <tr class="separator:ga01ad9a53501f3ed7609ba0a65b9ff422"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa2082792bceb5a2dd3b18ff5693f0441" id="r_gaa2082792bceb5a2dd3b18ff5693f0441"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gaa2082792bceb5a2dd3b18ff5693f0441">MR::isSupportedFileInSubfolders</a> (const std::filesystem::path &amp;folder)</td></tr>
+<tr class="memdesc:gaa2082792bceb5a2dd3b18ff5693f0441"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if there are any supported files folder and subfolders  <br /></td></tr>
 <tr class="separator:gaa2082792bceb5a2dd3b18ff5693f0441"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga873b67818008b890a9733f438d361235" id="r_ga873b67818008b890a9733f438d361235"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt; LoadedObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga873b67818008b890a9733f438d361235">MR::loadSceneFromAnySupportedFormat</a> (const std::filesystem::path &amp;path, const ProgressCallback &amp;callback={})</td></tr>
+<tr class="memdesc:ga873b67818008b890a9733f438d361235"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to load scene from every format listed in SceneFormatFilters  <br /></td></tr>
 <tr class="separator:ga873b67818008b890a9733f438d361235"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5058cc4a63ce3a27970db1903d9c221d" id="r_ga5058cc4a63ce3a27970db1903d9c221d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt; LoadedObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga5058cc4a63ce3a27970db1903d9c221d">MR::deserializeObjectTree</a> (const std::filesystem::path &amp;path, const FolderCallback &amp;postDecompress={}, const ProgressCallback &amp;progressCb={})</td></tr>
 <tr class="memdesc:ga5058cc4a63ce3a27970db1903d9c221d"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads objects tree from given scene file (zip/mru)  <br /></td></tr>

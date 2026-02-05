@@ -176,6 +176,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1Features_1_1Primitives.html">Primitives</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1Features_1_1SubfeatureInfo.html">SubfeatureInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes a single feature produced by <code><a class="el" href="#a97570d41ec01a7111b742503bdc2c5dc">forEachSubfeature()</a></code>. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1Features_1_1Traits.html">Traits</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,11 +184,13 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="concepts" name="concepts"></a>
 Concepts</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptMR_1_1Features_1_1MeasureSupported.html">MeasureSupported</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether you can measure two primitives relative to one another. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:acbd075b92fa1a44ed1751506cecb9b3a" id="r_acbd075b92fa1a44ed1751506cecb9b3a"><td class="memItemLeft" align="right" valign="top">Primitives::Sphere&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbd075b92fa1a44ed1751506cecb9b3a">toPrimitive</a> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;point)</td></tr>
+<tr class="memdesc:acbd075b92fa1a44ed1751506cecb9b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Those map various <a class="elRef" href="../Csharp/classMR.html">MR</a> types to our primitives. Some of those are identity functions.  <br /></td></tr>
 <tr class="separator:acbd075b92fa1a44ed1751506cecb9b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b8fe8c172363793d31c8bbc29e9fdb2" id="r_a4b8fe8c172363793d31c8bbc29e9fdb2"><td class="memItemLeft" align="right" valign="top">Primitives::Sphere&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b8fe8c172363793d31c8bbc29e9fdb2">toPrimitive</a> (const <a class="elRef" href="../Csharp/classMR_1_1Sphere3f.html">Sphere3f</a> &amp;sphere)</td></tr>
 <tr class="separator:a4b8fe8c172363793d31c8bbc29e9fdb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,8 +212,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a8d70d3465b40dfe88c3a3fb7210afee0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>a</code> is the center of the base, <code>b</code> is the pointy end.  <br /></td></tr>
 <tr class="separator:a8d70d3465b40dfe88c3a3fb7210afee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeb9d21a824a2dd94d682b54ab1862d2" id="r_aeeb9d21a824a2dd94d682b54ab1862d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; Primitives::Variant &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeb9d21a824a2dd94d682b54ab1862d2">primitiveFromObject</a> (const <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &amp;object)</td></tr>
+<tr class="memdesc:aeeb9d21a824a2dd94d682b54ab1862d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns null if the object type is unknown. This overload ignores the parent xf.  <br /></td></tr>
 <tr class="separator:aeeb9d21a824a2dd94d682b54ab1862d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8f22bea18d05dc887187f02a89188a6" id="r_ab8f22bea18d05dc887187f02a89188a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; Primitives::Variant &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8f22bea18d05dc887187f02a89188a6">primitiveFromObjectWithWorldXf</a> (const <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &amp;object)</td></tr>
+<tr class="memdesc:ab8f22bea18d05dc887187f02a89188a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns null if the object type is unknown. This overload respects the parent's <code>worldXf()</code>.  <br /></td></tr>
 <tr class="separator:ab8f22bea18d05dc887187f02a89188a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49fd9207c07aaf09dab5aa90ea742cbb" id="r_a49fd9207c07aaf09dab5aa90ea742cbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1FeatureObject.html">FeatureObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49fd9207c07aaf09dab5aa90ea742cbb">primitiveToObject</a> (const Primitives::Variant &amp;primitive, float infiniteExtent)</td></tr>
 <tr class="separator:a49fd9207c07aaf09dab5aa90ea742cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,27 +228,35 @@ Functions</h2></td></tr>
 <tr class="memitem:a65e870c3bf2b91e5fdaf05b63c27009a" id="r_a65e870c3bf2b91e5fdaf05b63c27009a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Primitives::Variant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65e870c3bf2b91e5fdaf05b63c27009a">transformPrimitive</a> (const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;xf, const Primitives::Variant &amp;primitive)</td></tr>
 <tr class="separator:a65e870c3bf2b91e5fdaf05b63c27009a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ef217cccdf314a4441a435f229650af" id="r_a6ef217cccdf314a4441a435f229650af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ef217cccdf314a4441a435f229650af">toString</a> (MeasureResult::Status status)</td></tr>
+<tr class="memdesc:a6ef217cccdf314a4441a435f229650af"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>MeasureResult::Status</code> enum to string.  <br /></td></tr>
 <tr class="separator:a6ef217cccdf314a4441a435f229650af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f7d6b7fed16c703a284c2013da802e2" id="r_a1f7d6b7fed16c703a284c2013da802e2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a1f7d6b7fed16c703a284c2013da802e2"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1f7d6b7fed16c703a284c2013da802e2">name</a> (const T &amp;primitive)</td></tr>
+<tr class="memdesc:a1f7d6b7fed16c703a284c2013da802e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get name of a <code><a class="elRef" href="../Csharp/classMR_1_1Features_1_1Primitives.html">Primitives</a>::...</code> class (can depend on its parameters).  <br /></td></tr>
 <tr class="separator:a1f7d6b7fed16c703a284c2013da802e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64ffcca649e7365b125b54b414b4e3a1" id="r_a64ffcca649e7365b125b54b414b4e3a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64ffcca649e7365b125b54b414b4e3a1">name</a> (const Primitives::Variant &amp;var)</td></tr>
+<tr class="memdesc:a64ffcca649e7365b125b54b414b4e3a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same but for a variant.  <br /></td></tr>
 <tr class="separator:a64ffcca649e7365b125b54b414b4e3a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39b347d1c16a0e596d16c09cc7839ded" id="r_a39b347d1c16a0e596d16c09cc7839ded"><td class="memTemplParams" colspan="2">template&lt;typename A , typename B &gt; <br />
 requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:a39b347d1c16a0e596d16c09cc7839ded"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/classMR_1_1Features_1_1MeasureResult.html">MeasureResult</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a39b347d1c16a0e596d16c09cc7839ded">measure</a> (const A &amp;a, const B &amp;b)</td></tr>
+<tr class="memdesc:a39b347d1c16a0e596d16c09cc7839ded"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measures stuff between two primitives. (Two types from <code><a class="elRef" href="../Csharp/classMR_1_1Features_1_1Primitives.html">Primitives</a>::...</code>.)  <br /></td></tr>
 <tr class="separator:a39b347d1c16a0e596d16c09cc7839ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada065f0f7c5b74946d5ae2826df2bf0d" id="r_ada065f0f7c5b74946d5ae2826df2bf0d"><td class="memTemplParams" colspan="2">template&lt;typename B &gt; </td></tr>
 <tr class="memitem:ada065f0f7c5b74946d5ae2826df2bf0d"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/classMR_1_1Features_1_1MeasureResult.html">MeasureResult</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ada065f0f7c5b74946d5ae2826df2bf0d">measure</a> (const Primitives::Variant &amp;a, const B &amp;b)</td></tr>
+<tr class="memdesc:ada065f0f7c5b74946d5ae2826df2bf0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same, but with a variant as the first argument.  <br /></td></tr>
 <tr class="separator:ada065f0f7c5b74946d5ae2826df2bf0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ae032d9a48f5e4e7669748c12b6f05c" id="r_a8ae032d9a48f5e4e7669748c12b6f05c"><td class="memTemplParams" colspan="2">template&lt;typename A &gt; </td></tr>
 <tr class="memitem:a8ae032d9a48f5e4e7669748c12b6f05c"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/classMR_1_1Features_1_1MeasureResult.html">MeasureResult</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a8ae032d9a48f5e4e7669748c12b6f05c">measure</a> (const A &amp;a, const Primitives::Variant &amp;b)</td></tr>
+<tr class="memdesc:a8ae032d9a48f5e4e7669748c12b6f05c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same, but with a variant as the second argument.  <br /></td></tr>
 <tr class="separator:a8ae032d9a48f5e4e7669748c12b6f05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acba878d0a966299305f4db971b3896b7" id="r_acba878d0a966299305f4db971b3896b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Csharp/classMR_1_1Features_1_1MeasureResult.html">MeasureResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acba878d0a966299305f4db971b3896b7">measure</a> (const Primitives::Variant &amp;a, const Primitives::Variant &amp;b)</td></tr>
+<tr class="memdesc:acba878d0a966299305f4db971b3896b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same, but with variants as both argument.  <br /></td></tr>
 <tr class="separator:acba878d0a966299305f4db971b3896b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97570d41ec01a7111b742503bdc2c5dc" id="r_a97570d41ec01a7111b742503bdc2c5dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97570d41ec01a7111b742503bdc2c5dc">forEachSubfeature</a> (const Features::Primitives::Variant &amp;feature, const SubfeatureFunc &amp;func)</td></tr>
 <tr class="separator:a97570d41ec01a7111b742503bdc2c5dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d8f9dc8288a74b574ebe08113e9f6cf" id="r_a5d8f9dc8288a74b574ebe08113e9f6cf"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d8f9dc8288a74b574ebe08113e9f6cf">forEachVisualSubfeature</a> (const Features::Primitives::Variant &amp;params, const Features::SubfeatureFunc &amp;func)</td></tr>
+<tr class="memdesc:a5d8f9dc8288a74b574ebe08113e9f6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is similar to <code><a class="el" href="#a97570d41ec01a7111b742503bdc2c5dc">Features::forEachSubfeature</a></code>, but slightly adjusted to be suitable for visualization.  <br /></td></tr>
 <tr class="separator:a5d8f9dc8288a74b574ebe08113e9f6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -265,6 +278,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Decomposes a feature to its subfeatures, by calling <code>func()</code> on each subfeature. This only returns the direct subfeatures. You can call this recursively to obtain all features, but beware of duplicates (there's no easy way to filter them). </p>
 
 </div>
 </div>
@@ -286,6 +300,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>This is similar to <code><a class="el" href="#a97570d41ec01a7111b742503bdc2c5dc">Features::forEachSubfeature</a></code>, but slightly adjusted to be suitable for visualization. </p>
 
 </div>
 </div>
@@ -319,6 +335,12 @@ requires MeasureSupported&lt;A, B&gt;</div>
 </table>
 </div><div class="memdoc">
 
+<p>Measures stuff between two primitives. (Two types from <code><a class="elRef" href="../Csharp/classMR_1_1Features_1_1Primitives.html">Primitives</a>::...</code>.) </p>
+<p>Catch non-finite distance.</p>
+<p>Check that we got the correct distance here. Note that the distance is signed, so we apply <code>abs</code> to it to compare it properly.</p>
+<p>Catch non-finite angle.</p>
+<p>Check that the angle normals are normalized.</p>
+
 </div>
 </div>
 <a id="a8ae032d9a48f5e4e7669748c12b6f05c" name="a8ae032d9a48f5e4e7669748c12b6f05c"></a>
@@ -349,6 +371,8 @@ template&lt;typename A &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Same, but with a variant as the second argument. </p>
 
 </div>
 </div>
@@ -381,6 +405,8 @@ template&lt;typename B &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Same, but with a variant as the first argument. </p>
+
 </div>
 </div>
 <a id="acba878d0a966299305f4db971b3896b7" name="acba878d0a966299305f4db971b3896b7"></a>
@@ -410,6 +436,8 @@ template&lt;typename B &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Same, but with variants as both argument. </p>
+
 </div>
 </div>
 <a id="a64ffcca649e7365b125b54b414b4e3a1" name="a64ffcca649e7365b125b54b414b4e3a1"></a>
@@ -434,6 +462,8 @@ template&lt;typename B &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Same but for a variant. </p>
 
 </div>
 </div>
@@ -461,6 +491,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get name of a <code><a class="elRef" href="../Csharp/classMR_1_1Features_1_1Primitives.html">Primitives</a>::...</code> class (can depend on its parameters). </p>
 
 </div>
 </div>
@@ -595,6 +627,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Returns null if the object type is unknown. This overload ignores the parent xf. </p>
+
 </div>
 </div>
 <a id="ab8f22bea18d05dc887187f02a89188a6" name="ab8f22bea18d05dc887187f02a89188a6"></a>
@@ -619,6 +653,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns null if the object type is unknown. This overload respects the parent's <code>worldXf()</code>. </p>
 
 </div>
 </div>
@@ -648,6 +684,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Can return null on some primitive configurations. <code>infiniteExtent</code> is how large we make "infinite" objects. Half-infinite objects divide this by 2. </p>
 
 </div>
 </div>
@@ -799,6 +836,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Those map various <a class="elRef" href="../Csharp/classMR.html">MR</a> types to our primitives. Some of those are identity functions. </p>
+
 </div>
 </div>
 <a id="a6ef217cccdf314a4441a435f229650af" name="a6ef217cccdf314a4441a435f229650af"></a>
@@ -823,6 +862,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p><code>MeasureResult::Status</code> enum to string. </p>
 
 </div>
 </div>
@@ -910,6 +951,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Transform a primitive by an xf. Non-uniform scaling and skewing are not supported. </p>
 
 </div>
 </div>

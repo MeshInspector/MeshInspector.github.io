@@ -183,7 +183,6 @@ $(function(){initNavTree('MRMeshIntersect_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">struct </span>MultiRayMeshIntersectResult</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>{</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="comment">// outputs (each one if optional) for every ray:</span></div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    BitSet * <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MultiRayMeshIntersectResult.html#a697c4e6e62007458abb67c319d787edc">intersectingRays</a> = <span class="keyword">nullptr</span>;         </div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    std::vector&lt;float&gt; * <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MultiRayMeshIntersectResult.html#acc8d1677b570543589d2fe42e4eaf6da">rayDistances</a> = <span class="keyword">nullptr</span>;    </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    std::vector&lt;FaceId&gt; * <a class="code hl_propertyRef" href="../Csharp/classMR_1_1MultiRayMeshIntersectResult.html#a7cb70fc3acd1f293810ea45c04c2255d">isectFaces</a> = <span class="keyword">nullptr</span>;  </div>
@@ -192,12 +191,10 @@ $(function(){initNavTree('MRMeshIntersect_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>};</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="group__AABBTreeGroup.html#ga041f851064ebbb5159343f98539fc045">   65</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="group__AABBTreeGroup.html#ga041f851064ebbb5159343f98539fc045">multiRayMeshIntersect</a>(</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="comment">// input:</span></div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a>&amp; meshPart, </div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keyword">const</span> std::vector&lt;Vector3f&gt;&amp; origins, </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keyword">const</span> std::vector&lt;Vector3f&gt;&amp; dirs,    </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1MultiRayMeshIntersectResult.html">MultiRayMeshIntersectResult</a>&amp; result, </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="comment">// advanced options:</span></div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordtype">float</span> rayStart = 0.0f, <span class="keywordtype">float</span> rayEnd = FLT_MAX,</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">bool</span> closestIntersect = <span class="keyword">true</span>, </div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keyword">const</span> FacePredicate &amp; validFaces = {} </div>
@@ -242,7 +239,7 @@ $(function(){initNavTree('MRMeshIntersect_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    std::vector&lt;FaceId&gt; * fsVec = <span class="keyword">nullptr</span> );</div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>} </div>
 <div class="ttc" id="aMRLine3_8h_html"><div class="ttname"><a href="MRLine3_8h.html">MRLine3.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
 <div class="ttc" id="aMRMeshPart_8h_html"><div class="ttname"><a href="MRMeshPart_8h.html">MRMeshPart.h</a></div></div>
@@ -279,7 +276,7 @@ $(function(){initNavTree('MRMeshIntersect_8h_source.html',''); initResizable(tru
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga9222ec2d954badb7ee5874321a084eb6"><div class="ttname"><a href="group__AABBTreeGroup.html#ga9222ec2d954badb7ee5874321a084eb6">MR::Line3fMesh</a></div><div class="ttdeci">Line3Mesh&lt; float &gt; Line3fMesh</div><div class="ttdef"><b>Definition</b> MRMeshIntersect.h:92</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_gac20cf6ba073a7db1e2df313fb87d9517"><div class="ttname"><a href="group__AABBTreeGroup.html#gac20cf6ba073a7db1e2df313fb87d9517">MR::MeshIntersectionCallback</a></div><div class="ttdeci">std::function&lt; bool(const MeshIntersectionResult &amp;)&gt; MeshIntersectionCallback</div><div class="ttdef"><b>Definition</b> MRMeshIntersect.h:105</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_gac978c520f500c1e3dad2ddaff7a333f0"><div class="ttname"><a href="group__AABBTreeGroup.html#gac978c520f500c1e3dad2ddaff7a333f0">MR::rayMeshIntersectAll</a></div><div class="ttdeci">MRMESH_API void rayMeshIntersectAll(const MeshPart &amp;meshPart, const Line3f &amp;line, MeshIntersectionCallback callback, float rayStart=0.0f, float rayEnd=FLT_MAX, const IntersectionPrecomputes&lt; float &gt; *prec=nullptr)</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1IntersectionPrecomputes_html"><div class="ttname"><a href="structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a></div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:504</div></div>
 <div class="ttc" id="astructMR_1_1Line3Mesh_html"><div class="ttname"><a href="structMR_1_1Line3Mesh.html">MR::Line3Mesh</a></div><div class="ttdef"><b>Definition</b> MRMeshIntersect.h:85</div></div>
 <div class="ttc" id="astructMR_1_1Line3Mesh_html_a0de1e3305b0aa64219ac2de3c2abb2f3"><div class="ttname"><a href="structMR_1_1Line3Mesh.html#a0de1e3305b0aa64219ac2de3c2abb2f3">MR::Line3Mesh::line</a></div><div class="ttdeci">Line3&lt; T &gt; line</div><div class="ttdoc">in the reference frame of mesh</div><div class="ttdef"><b>Definition</b> MRMeshIntersect.h:86</div></div>

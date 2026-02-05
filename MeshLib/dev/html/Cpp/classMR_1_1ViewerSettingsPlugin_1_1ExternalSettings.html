@@ -152,6 +152,9 @@ $(function(){initNavTree('classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.ht
 </div><!--header-->
 <div class="contents">
 
+<p>basic class of external settings  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRViewerSettingsPlugin_8h_source.html">MRViewerSettingsPlugin.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -159,15 +162,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab3fe6a46824654fabde6d6f501eb8141" id="r_ab3fe6a46824654fabde6d6f501eb8141"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3fe6a46824654fabde6d6f501eb8141">~ExternalSettings</a> ()</td></tr>
 <tr class="separator:ab3fe6a46824654fabde6d6f501eb8141"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b40b2d1d9febe79a58c0f64f8aaf704" id="r_a2b40b2d1d9febe79a58c0f64f8aaf704"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b40b2d1d9febe79a58c0f64f8aaf704">getName</a> () const =0</td></tr>
+<tr class="memdesc:a2b40b2d1d9febe79a58c0f64f8aaf704"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the name of the setting, which is a unique value  <br /></td></tr>
 <tr class="separator:a2b40b2d1d9febe79a58c0f64f8aaf704"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5824d8d06eee687e2f907f59db61f96" id="r_ab5824d8d06eee687e2f907f59db61f96"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5824d8d06eee687e2f907f59db61f96">draw</a> ()=0</td></tr>
+<tr class="memdesc:ab5824d8d06eee687e2f907f59db61f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">the function of drawing the configuration <a class="el" href="namespaceMR_1_1UI.html">UI</a>  <br /></td></tr>
 <tr class="separator:ab5824d8d06eee687e2f907f59db61f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5daa51d87dc540fd02b52303e05cbe20" id="r_a5daa51d87dc540fd02b52303e05cbe20"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5daa51d87dc540fd02b52303e05cbe20">reset</a> ()</td></tr>
+<tr class="memdesc:a5daa51d87dc540fd02b52303e05cbe20"><td class="mdescLeft">&#160;</td><td class="mdescRight">restore the settings to their default values  <br /></td></tr>
 <tr class="separator:a5daa51d87dc540fd02b52303e05cbe20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefce61dfeb872bbe04d722fc13f1a0ac" id="r_aefce61dfeb872bbe04d722fc13f1a0ac"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefce61dfeb872bbe04d722fc13f1a0ac">separatorName</a> () const</td></tr>
+<tr class="memdesc:aefce61dfeb872bbe04d722fc13f1a0ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">if not overriden this setting will be drawn in tools block  <br /></td></tr>
 <tr class="separator:aefce61dfeb872bbe04d722fc13f1a0ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>basic class of external settings </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab3fe6a46824654fabde6d6f501eb8141" name="ab3fe6a46824654fabde6d6f501eb8141"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab3fe6a46824654fabde6d6f501eb8141">&#9670;&#160;</a></span>~ExternalSettings()</h2>
 
@@ -217,6 +226,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>the function of drawing the configuration <a class="el" href="namespaceMR_1_1UI.html">UI</a> </p>
+
 </div>
 </div>
 <a id="a2b40b2d1d9febe79a58c0f64f8aaf704" name="a2b40b2d1d9febe79a58c0f64f8aaf704"></a>
@@ -241,6 +252,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>returns the name of the setting, which is a unique value </p>
 
 </div>
 </div>
@@ -267,6 +280,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>restore the settings to their default values </p>
+
 </div>
 </div>
 <a id="aefce61dfeb872bbe04d722fc13f1a0ac" name="aefce61dfeb872bbe04d722fc13f1a0ac"></a>
@@ -291,6 +306,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>if not overriden this setting will be drawn in tools block </p>
 
 </div>
 </div>

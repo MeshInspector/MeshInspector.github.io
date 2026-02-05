@@ -161,14 +161,17 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ac96e5a8845f39132130d9eddc3454385" id="r_ac96e5a8845f39132130d9eddc3454385"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac96e5a8845f39132130d9eddc3454385">point</a></td></tr>
 <tr class="separator:ac96e5a8845f39132130d9eddc3454385"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac542eb79cceb0b5afb0d5017b72cd552" id="r_ac542eb79cceb0b5afb0d5017b72cd552"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac542eb79cceb0b5afb0d5017b72cd552">align</a> = ImVec2( 1, 1 )</td></tr>
+<tr class="memdesc:ac542eb79cceb0b5afb0d5017b72cd552"><td class="mdescLeft">&#160;</td><td class="mdescRight">The world point.  <br /></td></tr>
 <tr class="separator:ac542eb79cceb0b5afb0d5017b72cd552"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ab7fef3f21c5bd1bd25a4c95f645e13" id="r_a6ab7fef3f21c5bd1bd25a4c95f645e13"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ab7fef3f21c5bd1bd25a4c95f645e13">referencePoint</a></td></tr>
+<tr class="memdesc:a6ab7fef3f21c5bd1bd25a4c95f645e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">If specified, we're comparing <code>point</code> against this position.  <br /></td></tr>
 <tr class="separator:a6ab7fef3f21c5bd1bd25a4c95f645e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba30935609c38d5f95567ac57c0c404f" id="r_aba30935609c38d5f95567ac57c0c404f"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba30935609c38d5f95567ac57c0c404f">referenceNormal</a></td></tr>
 <tr class="separator:aba30935609c38d5f95567ac57c0c404f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f121ad1c8bf6dae5c94c8fd8db92f3b" id="r_a3f121ad1c8bf6dae5c94c8fd8db92f3b"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1RenderDimensions_1_1Tolerance.html">Tolerance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f121ad1c8bf6dae5c94c8fd8db92f3b">tolerance</a></td></tr>
 <tr class="separator:a3f121ad1c8bf6dae5c94c8fd8db92f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e497a083e2528f951bf48ea00473a3f" id="r_a7e497a083e2528f951bf48ea00473a3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e497a083e2528f951bf48ea00473a3f">capIsVisible</a> = true</td></tr>
+<tr class="memdesc:a7e497a083e2528f951bf48ea00473a3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to draw the cap or not.  <br /></td></tr>
 <tr class="separator:a7e497a083e2528f951bf48ea00473a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -184,6 +187,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The world point. </p>
+<p>[1,1] to display the text to the bottom-right of the point, [-1,-1] to display it to the top-left. Typically either X or Y here should be 1 or -1. </p>
+
 </div>
 </div>
 <a id="a7e497a083e2528f951bf48ea00473a3f" name="a7e497a083e2528f951bf48ea00473a3f"></a>
@@ -197,6 +203,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Whether to draw the cap or not. </p>
 
 </div>
 </div>
@@ -239,6 +247,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Only makes sense if <code>referencePoint</code> is set. If specified, we're measuring along this normal. Otherwise we're using eucledian distance. This doesn't need to be normalized. </p>
 
 </div>
 </div>
@@ -254,6 +263,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>If specified, we're comparing <code>point</code> against this position. </p>
+
 </div>
 </div>
 <a id="a3f121ad1c8bf6dae5c94c8fd8db92f3b" name="a3f121ad1c8bf6dae5c94c8fd8db92f3b"></a>
@@ -267,6 +278,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Tolerances. Only make sense if <code>referencePoint</code> is set. The <code>.negative</code> here only makes sense if <code>referenceNormal</code> is also set. </p>
 
 </div>
 </div>

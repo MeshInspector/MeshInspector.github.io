@@ -153,10 +153,8 @@ $(function(){initNavTree('MRMacOSOpenDocumentsHandler_8h_source.html',''); initR
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#ifdef __APPLE__</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">// A trick to set custom handler for openFile&amp;openFiles in GLFW&#39;s class</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">// https://github.com/glfw/glfw/issues/1024#issuecomment-522667555</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">@interface </span>GLFWCustomDelegate : NSObject</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>+ (void)load; <span class="comment">// load is called before even main() is run (as part of objc class registration)</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>+ (void)load; </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">@end</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#endif</span></div>

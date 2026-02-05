@@ -160,6 +160,7 @@ Public Types</h2></td></tr>
 <tr class="memitem:aa39d9c285d46ac3ce70aea92db6f9bf2" id="r_aa39d9c285d46ac3ce70aea92db6f9bf2"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa39d9c285d46ac3ce70aea92db6f9bf2">Mode</a> { <a class="el" href="#aa39d9c285d46ac3ce70aea92db6f9bf2a63ef76e0056281d3d3b501b7bbf98129">Leaves</a>
 , <a class="el" href="#aa39d9c285d46ac3ce70aea92db6f9bf2aa67f2c9d056f29b94521c17b838b9756">Tiles</a>
  }</td></tr>
+<tr class="memdesc:aa39d9c285d46ac3ce70aea92db6f9bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mode of parallel_reduce.  <a href="#aa39d9c285d46ac3ce70aea92db6f9bf2">More...</a><br /></td></tr>
 <tr class="separator:aa39d9c285d46ac3ce70aea92db6f9bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -169,6 +170,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9c5219708895771c264ae1e50fca117e" id="r_a9c5219708895771c264ae1e50fca117e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c5219708895771c264ae1e50fca117e">add</a> (size_t l, size_t t)</td></tr>
 <tr class="separator:a9c5219708895771c264ae1e50fca117e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a991fa7ee78ee9b1a15c198de60ee6c99" id="r_a991fa7ee78ee9b1a15c198de60ee6c99"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a991fa7ee78ee9b1a15c198de60ee6c99">reportProgress</a> () const</td></tr>
+<tr class="memdesc:a991fa7ee78ee9b1a15c198de60ee6c99"><td class="mdescLeft">&#160;</td><td class="mdescRight">retorts progress if called from main thread, otherwise do nothing  <br /></td></tr>
 <tr class="separator:a991fa7ee78ee9b1a15c198de60ee6c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -193,6 +195,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Mode of parallel_reduce. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa39d9c285d46ac3ce70aea92db6f9bf2a63ef76e0056281d3d3b501b7bbf98129" name="aa39d9c285d46ac3ce70aea92db6f9bf2a63ef76e0056281d3d3b501b7bbf98129"></a>Leaves&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa39d9c285d46ac3ce70aea92db6f9bf2aa67f2c9d056f29b94521c17b838b9756" name="aa39d9c285d46ac3ce70aea92db6f9bf2aa67f2c9d056f29b94521c17b838b9756"></a>Tiles&#160;</td><td class="fielddoc"></td></tr>
@@ -262,6 +266,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>if leaves mode add <code>l</code> to counter, if tiles mode - add <code>t</code> to counter </p>
 
 </div>
 </div>
@@ -287,6 +292,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>retorts progress if called from main thread, otherwise do nothing </p>
 
 </div>
 </div>

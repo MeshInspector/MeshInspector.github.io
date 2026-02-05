@@ -152,6 +152,9 @@ $(function(){initNavTree('structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetIn
 </div><!--header-->
 <div class="contents">
 
+<p>Don't strictly need this, but MSVC warns otherwise.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRDrawViewportWidgetsItem_8h_source.html">MRDrawViewportWidgetsItem.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -159,11 +162,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad627febe7e37f3fde1d2de58f8256a99" id="r_ad627febe7e37f3fde1d2de58f8256a99"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad627febe7e37f3fde1d2de58f8256a99">~ViewportWidgetInterface</a> ()=default</td></tr>
 <tr class="separator:ad627febe7e37f3fde1d2de58f8256a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f2685014b15a95ca7d4909b987de44e" id="r_a8f2685014b15a95ca7d4909b987de44e"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f2685014b15a95ca7d4909b987de44e">viewportId</a> () const =0</td></tr>
+<tr class="memdesc:a8f2685014b15a95ca7d4909b987de44e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Don't strictly need this, but MSVC warns otherwise.  <br /></td></tr>
 <tr class="separator:a8f2685014b15a95ca7d4909b987de44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab677748a84ab64369812ae2caebcf4e6" id="r_ab677748a84ab64369812ae2caebcf4e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab677748a84ab64369812ae2caebcf4e6">addButton</a> (float order, std::string name, bool active, std::string icon, std::string tooltip, std::function&lt; void()&gt; onClick)=0</td></tr>
 <tr class="separator:ab677748a84ab64369812ae2caebcf4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Don't strictly need this, but MSVC warns otherwise. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad627febe7e37f3fde1d2de58f8256a99" name="ad627febe7e37f3fde1d2de58f8256a99"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad627febe7e37f3fde1d2de58f8256a99">&#9670;&#160;</a></span>~ViewportWidgetInterface()</h2>
 
@@ -236,6 +242,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Register a new button. They will be sorted by <code>order</code> (then by name) ascending, left-to-right. The <code>onClick</code> callback will be called late, make sure it doens't dangle the captures. <code>active</code> only affects how the button is rendered. </p>
 
 </div>
 </div>
@@ -261,6 +268,9 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Don't strictly need this, but MSVC warns otherwise. </p>
+<p>Which viewport we're dealing with. </p>
 
 </div>
 </div>

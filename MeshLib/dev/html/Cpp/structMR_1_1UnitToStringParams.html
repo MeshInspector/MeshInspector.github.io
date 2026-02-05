@@ -153,6 +153,9 @@ $(function(){initNavTree('structMR_1_1UnitToStringParams.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 
+<p>Controls how a value with a unit is converted to a string.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRUnits_8h_source.html">MRUnits.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -160,38 +163,55 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a7154a0976d68f4cf955516bbd1e8c3db" id="r_a7154a0976d68f4cf955516bbd1e8c3db"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7154a0976d68f4cf955516bbd1e8c3db">decorationFormatString</a> = &quot;{}&quot;</td></tr>
 <tr class="separator:a7154a0976d68f4cf955516bbd1e8c3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a484658a85c5d115a7ced9935b886f6f6" id="r_a484658a85c5d115a7ced9935b886f6f6"><td class="memItemLeft" align="right" valign="top">std::optional&lt; E &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a484658a85c5d115a7ced9935b886f6f6">sourceUnit</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().sourceUnit</td></tr>
+<tr class="memdesc:a484658a85c5d115a7ced9935b886f6f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">&mdash; Units:  <br /></td></tr>
 <tr class="separator:a484658a85c5d115a7ced9935b886f6f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1da9d705a2210ae748df1e41d865a2a" id="r_ac1da9d705a2210ae748df1e41d865a2a"><td class="memItemLeft" align="right" valign="top">std::optional&lt; E &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1da9d705a2210ae748df1e41d865a2a">targetUnit</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().targetUnit</td></tr>
+<tr class="memdesc:ac1da9d705a2210ae748df1e41d865a2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The measurement unit of the resulting string. If null, no conversion is performed, and the unit name is taken from <code>sourceUnit</code> if any.  <br /></td></tr>
 <tr class="separator:ac1da9d705a2210ae748df1e41d865a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a946e3167ad791810a532295b6ac6ef8c" id="r_a946e3167ad791810a532295b6ac6ef8c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a946e3167ad791810a532295b6ac6ef8c">unitSuffix</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().unitSuffix</td></tr>
+<tr class="memdesc:a946e3167ad791810a532295b6ac6ef8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to show the unit suffix.  <br /></td></tr>
 <tr class="separator:a946e3167ad791810a532295b6ac6ef8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3df844b2da042b64d299fefa1b4dd1e9" id="r_a3df844b2da042b64d299fefa1b4dd1e9"><td class="memItemLeft" align="right" valign="top">NumberStyle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df844b2da042b64d299fefa1b4dd1e9">style</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().style</td></tr>
+<tr class="memdesc:a3df844b2da042b64d299fefa1b4dd1e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">&mdash; Precision:  <br /></td></tr>
 <tr class="separator:a3df844b2da042b64d299fefa1b4dd1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f9d2ff9175ae13c5b2fb39d68ec515d" id="r_a0f9d2ff9175ae13c5b2fb39d68ec515d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f9d2ff9175ae13c5b2fb39d68ec515d">precision</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().precision</td></tr>
+<tr class="memdesc:a0f9d2ff9175ae13c5b2fb39d68ec515d"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many digits of precision.  <br /></td></tr>
 <tr class="separator:a0f9d2ff9175ae13c5b2fb39d68ec515d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0658fb5d00066d0553cabc7a7979e8c" id="r_af0658fb5d00066d0553cabc7a7979e8c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0658fb5d00066d0553cabc7a7979e8c">plusSign</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().plusSign</td></tr>
+<tr class="memdesc:af0658fb5d00066d0553cabc7a7979e8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">&mdash; Other:  <br /></td></tr>
 <tr class="separator:af0658fb5d00066d0553cabc7a7979e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ecdb60e898b38b2adfcc70f54678543" id="r_a6ecdb60e898b38b2adfcc70f54678543"><td class="memItemLeft" align="right" valign="top">ZeroMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ecdb60e898b38b2adfcc70f54678543">zeroMode</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().zeroMode</td></tr>
+<tr class="memdesc:a6ecdb60e898b38b2adfcc70f54678543"><td class="mdescLeft">&#160;</td><td class="mdescRight">How to deal with zeroes.  <br /></td></tr>
 <tr class="separator:a6ecdb60e898b38b2adfcc70f54678543"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5c03b75a184cdc31e4591f61fddedf9" id="r_af5c03b75a184cdc31e4591f61fddedf9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5c03b75a184cdc31e4591f61fddedf9">unicodeMinusSign</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().unicodeMinusSign</td></tr>
+<tr class="memdesc:af5c03b75a184cdc31e4591f61fddedf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use a pretty Unicode minus sign instead of the ASCII <code>-</code>.  <br /></td></tr>
 <tr class="separator:af5c03b75a184cdc31e4591f61fddedf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d8034b7086f9f2abcfdbbcfbc6c8f80" id="r_a8d8034b7086f9f2abcfdbbcfbc6c8f80"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d8034b7086f9f2abcfdbbcfbc6c8f80">thousandsSeparator</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().thousandsSeparator</td></tr>
+<tr class="memdesc:a8d8034b7086f9f2abcfdbbcfbc6c8f80"><td class="mdescLeft">&#160;</td><td class="mdescRight">If non-zero, this character is inserted between every three digits to the left of the decimal point.  <br /></td></tr>
 <tr class="separator:a8d8034b7086f9f2abcfdbbcfbc6c8f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac05c469a00e9e986895d9f12d7ffd44b" id="r_ac05c469a00e9e986895d9f12d7ffd44b"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac05c469a00e9e986895d9f12d7ffd44b">thousandsSeparatorFrac</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().thousandsSeparatorFrac</td></tr>
+<tr class="memdesc:ac05c469a00e9e986895d9f12d7ffd44b"><td class="mdescLeft">&#160;</td><td class="mdescRight">If non-zero, this character is inserted between every three digits to the right of the decimal point.  <br /></td></tr>
 <tr class="separator:ac05c469a00e9e986895d9f12d7ffd44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09eebb06769bb4dc52058f79fae207bd" id="r_a09eebb06769bb4dc52058f79fae207bd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09eebb06769bb4dc52058f79fae207bd">leadingZero</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().leadingZero</td></tr>
+<tr class="memdesc:a09eebb06769bb4dc52058f79fae207bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">If false, remove zero before the fractional point (<code>.5</code> instead of <code>0.5</code>).  <br /></td></tr>
 <tr class="separator:a09eebb06769bb4dc52058f79fae207bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7b05ea81d83729b2b8510464247942c" id="r_ae7b05ea81d83729b2b8510464247942c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7b05ea81d83729b2b8510464247942c">stripTrailingZeroes</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().stripTrailingZeroes</td></tr>
+<tr class="memdesc:ae7b05ea81d83729b2b8510464247942c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove trailing zeroes after the fractional point. If the point becomes the last symbol, remove the point too.  <br /></td></tr>
 <tr class="separator:ae7b05ea81d83729b2b8510464247942c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d95d4ba6210441527d210b9e677228f" id="r_a2d95d4ba6210441527d210b9e677228f"><td class="memItemLeft" align="right" valign="top">std::conditional_t&lt; std::is_same_v&lt; E, AngleUnit &gt;, DegreesMode, <a class="el" href="structMR_1_1detail_1_1Units_1_1Empty.html">detail::Units::Empty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d95d4ba6210441527d210b9e677228f">degreesMode</a> = <a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt;E&gt;().degreesMode</td></tr>
+<tr class="memdesc:a2d95d4ba6210441527d210b9e677228f"><td class="mdescLeft">&#160;</td><td class="mdescRight">When printing degrees, this lets you display arcminutes and possibly arcseconds. Ignored for everything else.  <br /></td></tr>
 <tr class="separator:a2d95d4ba6210441527d210b9e677228f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
 <tr class="memitem:ae183c6cb52762dc16f91e61c2be6df24" id="r_ae183c6cb52762dc16f91e61c2be6df24"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae183c6cb52762dc16f91e61c2be6df24">operator==</a> (const <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a> &amp;, const <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a> &amp;)=default</td></tr>
+<tr class="memdesc:ae183c6cb52762dc16f91e61c2be6df24"><td class="mdescLeft">&#160;</td><td class="mdescRight">If you add new fields there, update the initializer for <code>defaultUnitToStringParams</code> in <code>MRUnits.cpp</code>.  <br /></td></tr>
 <tr class="separator:ae183c6cb52762dc16f91e61c2be6df24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Friends And Related Symbol Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;UnitEnum E&gt;<br />
+struct MR::UnitToStringParams&lt; E &gt;</div><p>Controls how a value with a unit is converted to a string. </p>
+</div><h2 class="groupheader">Friends And Related Symbol Documentation</h2>
 <a id="ae183c6cb52762dc16f91e61c2be6df24" name="ae183c6cb52762dc16f91e61c2be6df24"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae183c6cb52762dc16f91e61c2be6df24">&#9670;&#160;</a></span>operator==</h2>
 
@@ -221,6 +241,8 @@ template&lt;UnitEnum E&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>If you add new fields there, update the initializer for <code>defaultUnitToStringParams</code> in <code>MRUnits.cpp</code>. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -237,6 +259,7 @@ template&lt;UnitEnum E&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The resulting string is wrapped in this. Do NOT use this for custom unit suffixes! Add them as actual units instead. </p>
 
 </div>
 </div>
@@ -254,6 +277,8 @@ template&lt;UnitEnum E&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>When printing degrees, this lets you display arcminutes and possibly arcseconds. Ignored for everything else. </p>
+
 </div>
 </div>
 <a id="a09eebb06769bb4dc52058f79fae207bd" name="a09eebb06769bb4dc52058f79fae207bd"></a>
@@ -269,6 +294,8 @@ template&lt;UnitEnum E&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>If false, remove zero before the fractional point (<code>.5</code> instead of <code>0.5</code>). </p>
 
 </div>
 </div>
@@ -286,6 +313,9 @@ template&lt;UnitEnum E&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>&mdash; Other: </p>
+<p>Show the <code>+</code> sign on positive numbers. </p>
+
 </div>
 </div>
 <a id="a0f9d2ff9175ae13c5b2fb39d68ec515d" name="a0f9d2ff9175ae13c5b2fb39d68ec515d"></a>
@@ -301,6 +331,8 @@ template&lt;UnitEnum E&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>How many digits of precision. </p>
 
 </div>
 </div>
@@ -318,6 +350,9 @@ template&lt;UnitEnum E&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>&mdash; Units: </p>
+<p>The measurement unit of the input value. If null, no conversion is performed. </p>
+
 </div>
 </div>
 <a id="ae7b05ea81d83729b2b8510464247942c" name="ae7b05ea81d83729b2b8510464247942c"></a>
@@ -333,6 +368,8 @@ template&lt;UnitEnum E&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Remove trailing zeroes after the fractional point. If the point becomes the last symbol, remove the point too. </p>
 
 </div>
 </div>
@@ -350,6 +387,9 @@ template&lt;UnitEnum E&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>&mdash; Precision: </p>
+<p>The output style. (Scientific notation or not, fixed-precision or not.) </p>
+
 </div>
 </div>
 <a id="ac1da9d705a2210ae748df1e41d865a2a" name="ac1da9d705a2210ae748df1e41d865a2a"></a>
@@ -365,6 +405,8 @@ template&lt;UnitEnum E&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The measurement unit of the resulting string. If null, no conversion is performed, and the unit name is taken from <code>sourceUnit</code> if any. </p>
 
 </div>
 </div>
@@ -382,6 +424,8 @@ template&lt;UnitEnum E&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>If non-zero, this character is inserted between every three digits to the left of the decimal point. </p>
+
 </div>
 </div>
 <a id="ac05c469a00e9e986895d9f12d7ffd44b" name="ac05c469a00e9e986895d9f12d7ffd44b"></a>
@@ -397,6 +441,8 @@ template&lt;UnitEnum E&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>If non-zero, this character is inserted between every three digits to the right of the decimal point. </p>
 
 </div>
 </div>
@@ -414,6 +460,8 @@ template&lt;UnitEnum E&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Use a pretty Unicode minus sign instead of the ASCII <code>-</code>. </p>
+
 </div>
 </div>
 <a id="a946e3167ad791810a532295b6ac6ef8c" name="a946e3167ad791810a532295b6ac6ef8c"></a>
@@ -430,6 +478,8 @@ template&lt;UnitEnum E&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Whether to show the unit suffix. </p>
+
 </div>
 </div>
 <a id="a6ecdb60e898b38b2adfcc70f54678543" name="a6ecdb60e898b38b2adfcc70f54678543"></a>
@@ -445,6 +495,8 @@ template&lt;UnitEnum E&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>How to deal with zeroes. </p>
 
 </div>
 </div>

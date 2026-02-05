@@ -221,7 +221,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1a384521c17e759cfdf6662d29194aa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the shader to render transparent mesh in the given mode.  <br /></td></tr>
 <tr class="separator:a1a384521c17e759cfdf6662d29194aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This class holds all shaders that are used in the program creates shader on access if it is needed holds shared memory buffer for loading to GPU </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a51ef10d476eb1492c1b758ef79a42482" name="a51ef10d476eb1492c1b758ef79a42482"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51ef10d476eb1492c1b758ef79a42482">&#9670;&#160;</a></span>GLuint</h2>
 
@@ -252,7 +254,8 @@ Static Public Member Functions</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748a08843a96f833cac3bc0bc62deaf83ced" name="a00a040d6d7d04967fe9f892d8cb76748a08843a96f833cac3bc0bc62deaf83ced"></a>Mesh&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748a053f32c954efcc79e4f09a4a38c33394" name="a00a040d6d7d04967fe9f892d8cb76748a053f32c954efcc79e4f09a4a38c33394"></a>Picker&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748aa76d8d9ca69ec851888af009542e7a43" name="a00a040d6d7d04967fe9f892d8cb76748aa76d8d9ca69ec851888af009542e7a43"></a>MeshDesktopPicker&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748a4ff8bf111fd16263689af440a3663054" name="a00a040d6d7d04967fe9f892d8cb76748a4ff8bf111fd16263689af440a3663054"></a>AlphaSortMesh&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748a4ff8bf111fd16263689af440a3663054" name="a00a040d6d7d04967fe9f892d8cb76748a4ff8bf111fd16263689af440a3663054"></a>AlphaSortMesh&#160;</td><td class="fielddoc"><p>only for non corner-based mode </p>
+</td></tr>
 <tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748a1e35ffa9624e0286d760cbbf53161738" name="a00a040d6d7d04967fe9f892d8cb76748a1e35ffa9624e0286d760cbbf53161738"></a>DepthPeelMesh&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748a11882a836d50f9561bb278de58bb03b8" name="a00a040d6d7d04967fe9f892d8cb76748a11882a836d50f9561bb278de58bb03b8"></a>Points&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748adbdfa98b07873648901b2ae59bf64d69" name="a00a040d6d7d04967fe9f892d8cb76748adbdfa98b07873648901b2ae59bf64d69"></a>AlphaSortPoints&#160;</td><td class="fielddoc"></td></tr>
@@ -267,7 +270,8 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748aebc53627d3ae664c54b4138c2dddb33a" name="a00a040d6d7d04967fe9f892d8cb76748aebc53627d3ae664c54b4138c2dddb33a"></a>AdditionalLines&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748ab6a9e51cc79b46152f149e9555907255" name="a00a040d6d7d04967fe9f892d8cb76748ab6a9e51cc79b46152f149e9555907255"></a>AdditionalPoints&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748a9803632f2ffd6df4b9c59affbd0ee7c9" name="a00a040d6d7d04967fe9f892d8cb76748a9803632f2ffd6df4b9c59affbd0ee7c9"></a>AdditionalPointsNoOffset&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748a7ad2916ddd2b56f175adb1d02889d8e8" name="a00a040d6d7d04967fe9f892d8cb76748a7ad2916ddd2b56f175adb1d02889d8e8"></a>AdditionalQuad&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748a7ad2916ddd2b56f175adb1d02889d8e8" name="a00a040d6d7d04967fe9f892d8cb76748a7ad2916ddd2b56f175adb1d02889d8e8"></a>AdditionalQuad&#160;</td><td class="fielddoc"><p>special shader for old intel gpu (Intel HD 4000) </p>
+</td></tr>
 <tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748a5bc4ec66f8a611b115c0cbc051229e9e" name="a00a040d6d7d04967fe9f892d8cb76748a5bc4ec66f8a611b115c0cbc051229e9e"></a>ViewportBorder&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748af448014484bd7a149f086a8cc030daff" name="a00a040d6d7d04967fe9f892d8cb76748af448014484bd7a149f086a8cc030daff"></a>AlphaSortOverlayQuad&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a00a040d6d7d04967fe9f892d8cb76748a878764d5da2f9dcefa74fe1d43db0896" name="a00a040d6d7d04967fe9f892d8cb76748a878764d5da2f9dcefa74fe1d43db0896"></a>ShadowOverlayQuad&#160;</td><td class="fielddoc"></td></tr>

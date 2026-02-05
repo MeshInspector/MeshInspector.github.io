@@ -1,6 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"classMR_1_1DirectionWidget.html#a919a4e2843ebcd0667b6572ba9d03caa":[6,0,2,0,2,84,27],
 "classMR_1_1DirectionWidget.html#aa01b946f8079c3f2095a1fb5b019e275":[6,0,1,0,1,112,3],
 "classMR_1_1DirectionWidget.html#aa01b946f8079c3f2095a1fb5b019e275":[6,0,2,0,2,84,3],
 "classMR_1_1DirectionWidget.html#aa6740ac9480b8cb2330ae4e01ff0b534":[6,0,1,0,1,112,18],
@@ -112,8 +111,6 @@ var NAVTREEINDEX18 =
 "classMR_1_1EdgeLengthMesh.html#add454eb6806e41aed595b8efa5588839":[6,0,0,7,0,5],
 "classMR_1_1EdgePathsBuilderT.html":[6,0,1,0,1,127],
 "classMR_1_1EdgePathsBuilderT.html":[6,0,2,0,2,99],
-"classMR_1_1EdgePathsBuilderT.html#a245a1aca92a23d5b494706916ea2554e":[6,0,1,0,1,127,9],
-"classMR_1_1EdgePathsBuilderT.html#a245a1aca92a23d5b494706916ea2554e":[6,0,2,0,2,99,9],
 "classMR_1_1EdgePathsBuilderT.html#a336db542a3c1e1aafb7a7e132ee4a508":[6,0,1,0,1,127,5],
 "classMR_1_1EdgePathsBuilderT.html#a336db542a3c1e1aafb7a7e132ee4a508":[6,0,2,0,2,99,5],
 "classMR_1_1EdgePathsBuilderT.html#a424ce31cf3ac73240ffd491872efa6fb":[6,0,1,0,1,127,4],
@@ -140,6 +137,8 @@ var NAVTREEINDEX18 =
 "classMR_1_1EdgePathsBuilderT.html#ad30700907c0223d6668cc9e5910765c3":[6,0,2,0,2,99,13],
 "classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc":[6,0,1,0,1,127,8],
 "classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc":[6,0,2,0,2,99,8],
+"classMR_1_1EdgePathsBuilderT.html#aea92fec5827dfbf63c822a8d495c2d96":[6,0,1,0,1,127,9],
+"classMR_1_1EdgePathsBuilderT.html#aea92fec5827dfbf63c822a8d495c2d96":[6,0,2,0,2,99,9],
 "classMR_1_1EdgeTri.html":[6,0,0,1,17],
 "classMR_1_1EdgeTri.html#a745dfd57a31af7f128c8d62c2080289b":[6,0,0,1,17,0],
 "classMR_1_1EdgeTri.html#a7610b4fa511e4cd0f9608df8b2c3652a":[6,0,0,1,17,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX18 =
 "classMR_1_1FindProjectionOnPointsSettings.html#a99dc2a7d9a715f087c42a8baa67491fc":[6,0,0,1,29,1],
 "classMR_1_1FindProjectionOnPointsSettings.html#aaefefdbe5255b54029b22a1788375642":[6,0,0,1,29,5],
 "classMR_1_1FindProjectionOnPointsSettings.html#abef84fb0f410d26d99d8a886d1c0a0b3":[6,0,0,1,29,10],
-"classMR_1_1FindProjectionOnPointsSettings.html#ae3192751bc405bc750438702ff6d3f85":[6,0,0,1,29,2]
+"classMR_1_1FindProjectionOnPointsSettings.html#ae3192751bc405bc750438702ff6d3f85":[6,0,0,1,29,2],
+"classMR_1_1FindProjectionOnPointsSettings.html#ae7e68ebe84cce6921c62907010ceda5a":[6,0,0,1,29,4]
 };

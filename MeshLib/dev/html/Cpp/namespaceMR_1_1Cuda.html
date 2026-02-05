@@ -178,10 +178,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a481800f210dd09851992846af357b7e2" id="r_a481800f210dd09851992846af357b7e2"><td class="memItemLeft" align="right" valign="top">MRCUDA_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a481800f210dd09851992846af357b7e2">isCudaAvailable</a> (int *driverVersion=nullptr, int *runtimeVersion=nullptr, int *computeMajor=nullptr, int *computeMinor=nullptr)</td></tr>
 <tr class="separator:a481800f210dd09851992846af357b7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3d6344c4c9b5959665fdde2ddc4a838" id="r_ae3d6344c4c9b5959665fdde2ddc4a838"><td class="memItemLeft" align="right" valign="top">MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3d6344c4c9b5959665fdde2ddc4a838">getCudaAvailableMemory</a> ()</td></tr>
+<tr class="memdesc:ae3d6344c4c9b5959665fdde2ddc4a838"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns available GPU memory in bytes.  <br /></td></tr>
 <tr class="separator:ae3d6344c4c9b5959665fdde2ddc4a838"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fed8d0688936d46135f8dad5f3497ee" id="r_a2fed8d0688936d46135f8dad5f3497ee"><td class="memItemLeft" align="right" valign="top">MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fed8d0688936d46135f8dad5f3497ee">getCudaSafeMemoryLimit</a> ()</td></tr>
+<tr class="memdesc:a2fed8d0688936d46135f8dad5f3497ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns maximum safe amount of free GPU memory that will be used for dynamic-sized buffers.  <br /></td></tr>
 <tr class="separator:a2fed8d0688936d46135f8dad5f3497ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45296cef05363425e0b1271f76436597" id="r_a45296cef05363425e0b1271f76436597"><td class="memItemLeft" align="right" valign="top">MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45296cef05363425e0b1271f76436597">maxBufferSize</a> (size_t availableBytes, size_t elementCount, size_t elementBytes)</td></tr>
+<tr class="memdesc:a45296cef05363425e0b1271f76436597"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns maximum buffer size in elements that can be allocated with given memory limit.  <br /></td></tr>
 <tr class="separator:a45296cef05363425e0b1271f76436597"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef610d07cea3f8cabc78d63878b53bc8" id="r_aef610d07cea3f8cabc78d63878b53bc8"><td class="memItemLeft" align="right" valign="top">MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef610d07cea3f8cabc78d63878b53bc8">maxBufferSizeAlignedByBlock</a> (size_t availableBytes, const <a class="elRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a> &amp;blockDims, size_t elementBytes)</td></tr>
 <tr class="separator:aef610d07cea3f8cabc78d63878b53bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,6 +197,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a57e91a18687a893997356f499e9a7e94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes memory consumption of distanceMapFromContours function.  <br /></td></tr>
 <tr class="separator:a57e91a18687a893997356f499e9a7e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe48634df88da1f3afd905bbea765155" id="r_abe48634df88da1f3afd905bbea765155"><td class="memItemLeft" align="right" valign="top">MRCUDA_API float3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe48634df88da1f3afd905bbea765155">fromVec</a> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;v)</td></tr>
+<tr class="memdesc:abe48634df88da1f3afd905bbea765155"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy from CPU to GPU structs  <br /></td></tr>
 <tr class="separator:abe48634df88da1f3afd905bbea765155"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3847533ea91606e4e7a4068edd599d86" id="r_a3847533ea91606e4e7a4068edd599d86"><td class="memItemLeft" align="right" valign="top">MRCUDA_API int3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3847533ea91606e4e7a4068edd599d86">fromVec</a> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3i.html">Vector3i</a> &amp;v)</td></tr>
 <tr class="separator:a3847533ea91606e4e7a4068edd599d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,13 +233,16 @@ Functions</h2></td></tr>
 <tr class="memitem:af763aea7896baa102ab7715278d93231" id="r_af763aea7896baa102ab7715278d93231"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="elRef" href="../Csharp/classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af763aea7896baa102ab7715278d93231">findSkyRays</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;terrain, const <a class="elRef" href="../Csharp/classMR_1_1VertCoords.html">VertCoords</a> &amp;samples, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;validSamples, const std::vector&lt; <a class="elRef" href="../Csharp/classMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;skyPatches, std::vector&lt; <a class="elRef" href="../Csharp/classMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a> &gt; *outIntersections=nullptr)</td></tr>
 <tr class="separator:af763aea7896baa102ab7715278d93231"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07684cc6b916a645e4ed28757498d51a" id="r_a07684cc6b916a645e4ed28757498d51a"><td class="memItemLeft" align="right" valign="top">MRCUDA_API Expected&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07684cc6b916a645e4ed28757498d51a">negatePicture</a> (<a class="elRef" href="../Csharp/classMR_1_1Image.html">MR::Image</a> &amp;image)</td></tr>
+<tr class="memdesc:a07684cc6b916a645e4ed28757498d51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function inverts <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> value (255 - value in each channel except alpha)  <br /></td></tr>
 <tr class="separator:a07684cc6b916a645e4ed28757498d51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5caa3c21e1c35ac6d6dd2eb125484783" id="r_a5caa3c21e1c35ac6d6dd2eb125484783"><td class="memItemLeft" align="right" valign="top">MRCUDA_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5caa3c21e1c35ac6d6dd2eb125484783">loadMRCudaDll</a> ()</td></tr>
+<tr class="memdesc:a5caa3c21e1c35ac6d6dd2eb125484783"><td class="mdescLeft">&#160;</td><td class="mdescRight">call this function to load MRCuda shared library  <br /></td></tr>
 <tr class="separator:a5caa3c21e1c35ac6d6dd2eb125484783"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a770259831b49f60068c30df5121056c9" id="r_a770259831b49f60068c30df5121056c9"><td class="memItemLeft" align="right" valign="top">struct MR_BIND_IGNORE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a770259831b49f60068c30df5121056c9">PointCloudDataHolder</a></td></tr>
+<tr class="memdesc:a770259831b49f60068c30df5121056c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">struct from MRPointCloud.cuh  <br /></td></tr>
 <tr class="separator:a770259831b49f60068c30df5121056c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -585,6 +592,8 @@ template&lt;typename BufferType , typename InputIt , typename GPUFunc , typename
       </table>
 </div><div class="memdoc">
 
+<p>copy from CPU to GPU structs </p>
+
 </div>
 </div>
 <a id="a3847533ea91606e4e7a4068edd599d86" name="a3847533ea91606e4e7a4068edd599d86"></a>
@@ -636,6 +645,8 @@ template&lt;typename BufferType , typename InputIt , typename GPUFunc , typename
       </table>
 </div><div class="memdoc">
 
+<p>Returns available GPU memory in bytes. </p>
+
 </div>
 </div>
 <a id="a2fed8d0688936d46135f8dad5f3497ee" name="a2fed8d0688936d46135f8dad5f3497ee"></a>
@@ -652,6 +663,8 @@ template&lt;typename BufferType , typename InputIt , typename GPUFunc , typename
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns maximum safe amount of free GPU memory that will be used for dynamic-sized buffers. </p>
 
 </div>
 </div>
@@ -683,6 +696,7 @@ template&lt;typename BufferType , typename InputIt , typename GPUFunc , typename
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Returns true if <a class="el" href="namespaceMR_1_1Cuda.html">Cuda</a> is present on this GPU optional out maximum driver supported version optional out current runtime version optional out compute capability major version optional out compute capability minor version </p>
 
 </div>
 </div>
@@ -700,6 +714,8 @@ template&lt;typename BufferType , typename InputIt , typename GPUFunc , typename
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>call this function to load MRCuda shared library </p>
 
 </div>
 </div>
@@ -727,6 +743,8 @@ template&lt;typename BufferType , typename InputIt , typename GPUFunc , typename
       </table>
 </div><div class="memdoc">
 
+<p>Returns maximum buffer size in elements that can be allocated with given memory limit. </p>
+
 </div>
 </div>
 <a id="aef610d07cea3f8cabc78d63878b53bc8" name="aef610d07cea3f8cabc78d63878b53bc8"></a>
@@ -752,6 +770,7 @@ template&lt;typename BufferType , typename InputIt , typename GPUFunc , typename
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Returns maximum buffer size in elements that can be allocated with given memory limit The size is aligned to the block dimensions </p>
 
 </div>
 </div>
@@ -795,6 +814,8 @@ template&lt;typename BufferType , typename InputIt , typename GPUFunc , typename
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>This function inverts <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> value (255 - value in each channel except alpha) </p>
 
 </div>
 </div>
@@ -893,6 +914,8 @@ template&lt;typename BufferType , typename InputIt , typename GPUFunc , typename
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>struct from MRPointCloud.cuh </p>
 
 </div>
 </div>

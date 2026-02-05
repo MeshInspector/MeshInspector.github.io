@@ -162,7 +162,7 @@ $(function(){initNavTree('classMR_1_1RedoMenuItem.html',''); initResizable(true)
   <img src="classMR_1_1RedoMenuItem.png" usemap="#MR::RedoMenuItem_map" alt=""/>
   <map id="MR::RedoMenuItem_map" name="MR::RedoMenuItem_map">
 <area href="classMR_1_1RibbonMenuItem.html" alt="MR::RibbonMenuItem" shape="rect" coords="0,56,140,80"/>
-<area href="classMR_1_1ISceneStateCheck.html" alt="MR::ISceneStateCheck" shape="rect" coords="0,0,140,24"/>
+<area href="classMR_1_1ISceneStateCheck.html" title="Interface for checking scene state, to determine availability, also can return string with requiremen..." alt="MR::ISceneStateCheck" shape="rect" coords="0,0,140,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -171,10 +171,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4899cc7ca225d5bc473aedd72f99b18b" id="r_a4899cc7ca225d5bc473aedd72f99b18b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4899cc7ca225d5bc473aedd72f99b18b">RedoMenuItem</a> ()</td></tr>
 <tr class="separator:a4899cc7ca225d5bc473aedd72f99b18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36ed5986c45fa790cafed4df8b0d3536" id="r_a36ed5986c45fa790cafed4df8b0d3536"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36ed5986c45fa790cafed4df8b0d3536">action</a> () override</td></tr>
+<tr class="memdesc:a36ed5986c45fa790cafed4df8b0d3536"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if state of item changed  <br /></td></tr>
 <tr class="separator:a36ed5986c45fa790cafed4df8b0d3536"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f4b5aa48593d39bfb57474d6fcc2ad5" id="r_a7f4b5aa48593d39bfb57474d6fcc2ad5"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f4b5aa48593d39bfb57474d6fcc2ad5">isAvailable</a> (const std::vector&lt; std::shared_ptr&lt; const <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &gt; &amp;) const override</td></tr>
+<tr class="memdesc:a7f4b5aa48593d39bfb57474d6fcc2ad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement  <br /></td></tr>
 <tr class="separator:a7f4b5aa48593d39bfb57474d6fcc2ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8de54e498c94d2adea1613dd73e9a818" id="r_a8de54e498c94d2adea1613dd73e9a818"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8de54e498c94d2adea1613dd73e9a818">getDynamicTooltip</a> () const override</td></tr>
+<tr class="memdesc:a8de54e498c94d2adea1613dd73e9a818"><td class="mdescLeft">&#160;</td><td class="mdescRight">return not-empty string with tooltip that shall replace the static tooltip from json  <br /></td></tr>
 <tr class="separator:a8de54e498c94d2adea1613dd73e9a818"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1RibbonMenuItem"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1RibbonMenuItem')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1RibbonMenuItem.html">MR::RibbonMenuItem</a></td></tr>
 <tr class="memitem:a957422a15704b2f8854bfd0b2d1ae76d inherit pub_methods_classMR_1_1RibbonMenuItem" id="r_a957422a15704b2f8854bfd0b2d1ae76d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenuItem.html#a957422a15704b2f8854bfd0b2d1ae76d">MR_DELETE_MOVE</a> (<a class="el" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a>)</td></tr>
@@ -184,8 +187,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac8074b75f1c764d041b11210b5b7541c inherit pub_methods_classMR_1_1RibbonMenuItem" id="r_ac8074b75f1c764d041b11210b5b7541c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenuItem.html#ac8074b75f1c764d041b11210b5b7541c">~RibbonMenuItem</a> ()=default</td></tr>
 <tr class="separator:ac8074b75f1c764d041b11210b5b7541c inherit pub_methods_classMR_1_1RibbonMenuItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b30bb82fe11901e3d971d3b761f5bf2 inherit pub_methods_classMR_1_1RibbonMenuItem" id="r_a3b30bb82fe11901e3d971d3b761f5bf2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenuItem.html#a3b30bb82fe11901e3d971d3b761f5bf2">isActive</a> () const</td></tr>
+<tr class="memdesc:a3b30bb82fe11901e3d971d3b761f5bf2 inherit pub_methods_classMR_1_1RibbonMenuItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">for state items returns true if activated  <br /></td></tr>
 <tr class="separator:a3b30bb82fe11901e3d971d3b761f5bf2 inherit pub_methods_classMR_1_1RibbonMenuItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9fd2cbdcf5356c6fbb093464568afdc inherit pub_methods_classMR_1_1RibbonMenuItem" id="r_ac9fd2cbdcf5356c6fbb093464568afdc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenuItem.html#ac9fd2cbdcf5356c6fbb093464568afdc">blocking</a> () const</td></tr>
+<tr class="memdesc:ac9fd2cbdcf5356c6fbb093464568afdc inherit pub_methods_classMR_1_1RibbonMenuItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if this item is blocking (only one blocking item can be active at once)  <br /></td></tr>
 <tr class="separator:ac9fd2cbdcf5356c6fbb093464568afdc inherit pub_methods_classMR_1_1RibbonMenuItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf4ea13c8983c44214b92a066e8b7659 inherit pub_methods_classMR_1_1RibbonMenuItem" id="r_abf4ea13c8983c44214b92a066e8b7659"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenuItem.html#abf4ea13c8983c44214b92a066e8b7659">name</a> () const</td></tr>
 <tr class="separator:abf4ea13c8983c44214b92a066e8b7659 inherit pub_methods_classMR_1_1RibbonMenuItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,6 +199,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab499c9049737793e6b1994048b99952c inherit pub_methods_classMR_1_1RibbonMenuItem" id="r_ab499c9049737793e6b1994048b99952c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenuItem.html#ab499c9049737793e6b1994048b99952c">setRibbonItemType</a> (RibbonItemType <a class="el" href="classMR_1_1RibbonMenuItem.html#a15b6a4b9f191b8716be1199364bb74e0">type</a>)</td></tr>
 <tr class="separator:ab499c9049737793e6b1994048b99952c inherit pub_methods_classMR_1_1RibbonMenuItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15b6a4b9f191b8716be1199364bb74e0 inherit pub_methods_classMR_1_1RibbonMenuItem" id="r_a15b6a4b9f191b8716be1199364bb74e0"><td class="memItemLeft" align="right" valign="top">virtual RibbonItemType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenuItem.html#a15b6a4b9f191b8716be1199364bb74e0">type</a> () const</td></tr>
+<tr class="memdesc:a15b6a4b9f191b8716be1199364bb74e0 inherit pub_methods_classMR_1_1RibbonMenuItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of this item, base <a class="el" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a> can be only button  <br /></td></tr>
 <tr class="separator:a15b6a4b9f191b8716be1199364bb74e0 inherit pub_methods_classMR_1_1RibbonMenuItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af417cbe66b6559e5df0122377c5a3628 inherit pub_methods_classMR_1_1RibbonMenuItem" id="r_af417cbe66b6559e5df0122377c5a3628"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenuItem.html#af417cbe66b6559e5df0122377c5a3628">setDropItemsFromItemList</a> (const MenuItemsList &amp;itemsList)</td></tr>
 <tr class="separator:af417cbe66b6559e5df0122377c5a3628 inherit pub_methods_classMR_1_1RibbonMenuItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -256,6 +262,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>returns true if state of item changed </p>
+
 <p>Implements <a class="el" href="classMR_1_1RibbonMenuItem.html#a4af847e120965263839d2628cf7dd979">MR::RibbonMenuItem</a>.</p>
 
 </div>
@@ -283,6 +291,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>return not-empty string with tooltip that shall replace the static tooltip from json </p>
+
 <p>Reimplemented from <a class="el" href="classMR_1_1RibbonMenuItem.html#a88f1487695e2012ebb1cacbc1a59775a">MR::RibbonMenuItem</a>.</p>
 
 </div>
@@ -309,6 +319,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1ISceneStateCheck.html#adedf10c80ddfebcb456559fa828065c0">MR::ISceneStateCheck</a>.</p>
 

@@ -170,6 +170,7 @@ $(function(){initNavTree('classMR_1_1ObjectTransformWidget.html',''); initResiza
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html">ChangeXfAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">History action for TransformWidget.  <a href="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -178,6 +179,7 @@ Public Types</h2></td></tr>
 , <a class="el" href="#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935">AxisScaling</a>
 , <a class="el" href="#ae637cb1b88edaa19f6495ccbb94d8ca8ae3086e312b06e7d525b05c5fe88c3454">UniformScaling</a>
  }</td></tr>
+<tr class="memdesc:ae637cb1b88edaa19f6495ccbb94d8ca8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform operation applying to object while dragging an axis. This parameter does not apply to active operation.  <a href="#ae637cb1b88edaa19f6495ccbb94d8ca8">More...</a><br /></td></tr>
 <tr class="separator:ae637cb1b88edaa19f6495ccbb94d8ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -187,16 +189,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac815cb12bfdb99a8a650143d34de17ad" id="r_ac815cb12bfdb99a8a650143d34de17ad"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac815cb12bfdb99a8a650143d34de17ad">reset</a> ()</td></tr>
 <tr class="separator:ac815cb12bfdb99a8a650143d34de17ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0823ffe9059c2fb1d57757cb82579a6" id="r_ab0823ffe9059c2fb1d57757cb82579a6"><td class="memItemLeft" align="right" valign="top">ControlBit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0823ffe9059c2fb1d57757cb82579a6">getTransformModeMask</a> (<a class="elRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a> id={}) const</td></tr>
+<tr class="memdesc:ab0823ffe9059c2fb1d57757cb82579a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns current transform mode mask.  <br /></td></tr>
 <tr class="separator:ab0823ffe9059c2fb1d57757cb82579a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcaee844badd2f2b918d558053da6e7e" id="r_afcaee844badd2f2b918d558053da6e7e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcaee844badd2f2b918d558053da6e7e">setTransformMode</a> (ControlBit mask, <a class="elRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a> id={})</td></tr>
+<tr class="memdesc:afcaee844badd2f2b918d558053da6e7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets transform mode mask (enabling or disabling corresponding widget controls)  <br /></td></tr>
 <tr class="separator:afcaee844badd2f2b918d558053da6e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80fb43258823d107074fb68a3f1c411d" id="r_a80fb43258823d107074fb68a3f1c411d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae637cb1b88edaa19f6495ccbb94d8ca8">AxisTransformMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80fb43258823d107074fb68a3f1c411d">getAxisTransformMode</a> () const</td></tr>
+<tr class="memdesc:a80fb43258823d107074fb68a3f1c411d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns current axis transform mode (translate/scale object while dragging an axis)  <br /></td></tr>
 <tr class="separator:a80fb43258823d107074fb68a3f1c411d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec0ff434beabde629460e566c23beb5c" id="r_aec0ff434beabde629460e566c23beb5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec0ff434beabde629460e566c23beb5c">setAxisTransformMode</a> (<a class="el" href="#ae637cb1b88edaa19f6495ccbb94d8ca8">AxisTransformMode</a> mode)</td></tr>
+<tr class="memdesc:aec0ff434beabde629460e566c23beb5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets current axis transform mode (translate/scale object while dragging an axis)  <br /></td></tr>
 <tr class="separator:aec0ff434beabde629460e566c23beb5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaadf59451391760eaa2882c90d79f5b" id="r_aaaadf59451391760eaa2882c90d79f5b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaadf59451391760eaa2882c90d79f5b">getRootObject</a> () const</td></tr>
+<tr class="memdesc:aaaadf59451391760eaa2882c90d79f5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns root object of widget.  <br /></td></tr>
 <tr class="separator:aaaadf59451391760eaa2882c90d79f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebfb068e75e8789d13365be5f6185026" id="r_aebfb068e75e8789d13365be5f6185026"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1ITransformControls.html">ITransformControls</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebfb068e75e8789d13365be5f6185026">getControls</a> () const</td></tr>
+<tr class="memdesc:aebfb068e75e8789d13365be5f6185026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns controls object, that visualize widget.  <br /></td></tr>
 <tr class="separator:aebfb068e75e8789d13365be5f6185026"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9585eb2995d4b43669cb86533fecf4c" id="r_ae9585eb2995d4b43669cb86533fecf4c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ae9585eb2995d4b43669cb86533fecf4c"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ae9585eb2995d4b43669cb86533fecf4c">getControlsAs</a> () const</td></tr>
@@ -208,16 +216,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae251d733beed21672b8754f369937dca" id="r_ae251d733beed21672b8754f369937dca"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae251d733beed21672b8754f369937dca">followObjVisibility</a> (const std::weak_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; &amp;obj)</td></tr>
 <tr class="separator:ae251d733beed21672b8754f369937dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0815d7c982b35b0dbe7f2e0abc9d583" id="r_af0815d7c982b35b0dbe7f2e0abc9d583"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0815d7c982b35b0dbe7f2e0abc9d583">setScaleTooltipCallback</a> (std::function&lt; void(float)&gt; callback)</td></tr>
+<tr class="memdesc:af0815d7c982b35b0dbe7f2e0abc9d583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets callback that will be called in draw function during scaling with current scale arg.  <br /></td></tr>
 <tr class="separator:af0815d7c982b35b0dbe7f2e0abc9d583"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd0c05bb93bc949b222c2721ad1d4b70" id="r_acd0c05bb93bc949b222c2721ad1d4b70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd0c05bb93bc949b222c2721ad1d4b70">setTranslateTooltipCallback</a> (std::function&lt; void(float)&gt; callback)</td></tr>
+<tr class="memdesc:acd0c05bb93bc949b222c2721ad1d4b70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets callback that will be called in draw function during translation with current shift arg.  <br /></td></tr>
 <tr class="separator:acd0c05bb93bc949b222c2721ad1d4b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3582cec258b537faa908e62e50ca0eb8" id="r_a3582cec258b537faa908e62e50ca0eb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3582cec258b537faa908e62e50ca0eb8">setRotateTooltipCallback</a> (std::function&lt; void(float)&gt; callback)</td></tr>
+<tr class="memdesc:a3582cec258b537faa908e62e50ca0eb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets callback that will be called in draw function during rotation with current angle in rad.  <br /></td></tr>
 <tr class="separator:a3582cec258b537faa908e62e50ca0eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a955e4e19a2da3a72cc42d41baaa73ad2" id="r_a955e4e19a2da3a72cc42d41baaa73ad2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a955e4e19a2da3a72cc42d41baaa73ad2">setStopModifyCallback</a> (std::function&lt; void()&gt; callback)</td></tr>
+<tr class="memdesc:a955e4e19a2da3a72cc42d41baaa73ad2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets callback that will be called when modification of widget stops.  <br /></td></tr>
 <tr class="separator:a955e4e19a2da3a72cc42d41baaa73ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d16d1f66d6e6a84e9ca9d18e68d2a03" id="r_a2d16d1f66d6e6a84e9ca9d18e68d2a03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d16d1f66d6e6a84e9ca9d18e68d2a03">setStartModifyCallback</a> (std::function&lt; void()&gt; callback)</td></tr>
+<tr class="memdesc:a2d16d1f66d6e6a84e9ca9d18e68d2a03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets callback that will be called when modification of widget starts.  <br /></td></tr>
 <tr class="separator:a2d16d1f66d6e6a84e9ca9d18e68d2a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3134eccba5998667c2b96764ceb6d88f" id="r_a3134eccba5998667c2b96764ceb6d88f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3134eccba5998667c2b96764ceb6d88f">setAddXfCallback</a> (std::function&lt; void(const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;)&gt; callback)</td></tr>
+<tr class="memdesc:a3134eccba5998667c2b96764ceb6d88f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets callback that will be called when widget gets additive transform.  <br /></td></tr>
 <tr class="separator:a3134eccba5998667c2b96764ceb6d88f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af009bd74e0f49b4a2efc1ddcf659e58a" id="r_af009bd74e0f49b4a2efc1ddcf659e58a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af009bd74e0f49b4a2efc1ddcf659e58a">setApproveXfCallback</a> (std::function&lt; bool(const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;)&gt; callback)</td></tr>
 <tr class="separator:af009bd74e0f49b4a2efc1ddcf659e58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,7 +243,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acfa598489bfbc3b88c84b029213d042c inherit pub_methods_structMR_1_1MultiListener" id="r_acfa598489bfbc3b88c84b029213d042c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#acfa598489bfbc3b88c84b029213d042c">disconnect</a> ()</td></tr>
 <tr class="separator:acfa598489bfbc3b88c84b029213d042c inherit pub_methods_structMR_1_1MultiListener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Visual widget to modify transform present in scene (ancillary), subscribes to viewer events </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ae637cb1b88edaa19f6495ccbb94d8ca8" name="ae637cb1b88edaa19f6495ccbb94d8ca8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae637cb1b88edaa19f6495ccbb94d8ca8">&#9670;&#160;</a></span>AxisTransformMode</h2>
 
@@ -241,10 +257,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Transform operation applying to object while dragging an axis. This parameter does not apply to active operation. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510" name="ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510"></a>AxisTranslation&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935" name="ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935"></a>AxisScaling&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae637cb1b88edaa19f6495ccbb94d8ca8ae3086e312b06e7d525b05c5fe88c3454" name="ae637cb1b88edaa19f6495ccbb94d8ca8ae3086e312b06e7d525b05c5fe88c3454"></a>UniformScaling&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510" name="ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510"></a>AxisTranslation&#160;</td><td class="fielddoc"><p>object moves along an axis </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935" name="ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935"></a>AxisScaling&#160;</td><td class="fielddoc"><p>object inflates or deflates along an axis depending on drag direction (away from center or toward center respectively) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae637cb1b88edaa19f6495ccbb94d8ca8ae3086e312b06e7d525b05c5fe88c3454" name="ae637cb1b88edaa19f6495ccbb94d8ca8ae3086e312b06e7d525b05c5fe88c3454"></a>UniformScaling&#160;</td><td class="fielddoc"><p>object inflates or deflates along all axes depending on drag direction (away from center or toward center respectively) </p>
+</td></tr>
 </table>
 
 </div>
@@ -273,6 +294,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Creates transform widget around given box and applies given xf subscribes to viewer events controls: class that is responsible for visualization if controls is empty default <a class="el" href="classMR_1_1TransformControls.html" title="Basic implementation of ITransformControls.">TransformControls</a> is used </p>
 
 </div>
 </div>
@@ -290,6 +312,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Subscribes to object visibility, and behave like its child if obj argument is null, stop following </p>
 
 </div>
 </div>
@@ -316,6 +339,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns current axis transform mode (translate/scale object while dragging an axis) </p>
+
 </div>
 </div>
 <a id="aebfb068e75e8789d13365be5f6185026" name="aebfb068e75e8789d13365be5f6185026"></a>
@@ -340,6 +365,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns controls object, that visualize widget. </p>
 
 </div>
 </div>
@@ -410,6 +437,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Returns root object of widget. </p>
+
 </div>
 </div>
 <a id="ab0823ffe9059c2fb1d57757cb82579a6" name="ab0823ffe9059c2fb1d57757cb82579a6"></a>
@@ -435,6 +464,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Returns current transform mode mask. </p>
+
 </div>
 </div>
 <a id="ac815cb12bfdb99a8a650143d34de17ad" name="ac815cb12bfdb99a8a650143d34de17ad"></a>
@@ -451,6 +482,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Removes widget from scene and clears all widget objects unsubscribes from viewer events </p>
 
 </div>
 </div>
@@ -477,6 +509,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Sets callback that will be called when widget gets additive transform. </p>
+
 </div>
 </div>
 <a id="af009bd74e0f49b4a2efc1ddcf659e58a" name="af009bd74e0f49b4a2efc1ddcf659e58a"></a>
@@ -501,6 +535,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Sets callback that will be called when widget gets additive transform The callback should return true to approve transform and false to reject it </p>
 
 </div>
 </div>
@@ -527,6 +562,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Sets current axis transform mode (translate/scale object while dragging an axis) </p>
+
 </div>
 </div>
 <a id="ab22daeb26cd1e936593d97d63cc407b5" name="ab22daeb26cd1e936593d97d63cc407b5"></a>
@@ -547,6 +584,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Changes controls xf (controls will affect object in basis of new xf) note that rotation is applied around 0 coordinate in world space, so use xfAround to process rotation around user defined center non-uniform scale will be converted to uniform one based on initial box diagonal </p>
 
 </div>
 </div>
@@ -573,6 +611,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Sets callback that will be called in draw function during rotation with current angle in rad. </p>
+
 </div>
 </div>
 <a id="af0815d7c982b35b0dbe7f2e0abc9d583" name="af0815d7c982b35b0dbe7f2e0abc9d583"></a>
@@ -597,6 +637,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Sets callback that will be called in draw function during scaling with current scale arg. </p>
 
 </div>
 </div>
@@ -623,6 +665,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Sets callback that will be called when modification of widget starts. </p>
+
 </div>
 </div>
 <a id="a955e4e19a2da3a72cc42d41baaa73ad2" name="a955e4e19a2da3a72cc42d41baaa73ad2"></a>
@@ -648,6 +692,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Sets callback that will be called when modification of widget stops. </p>
+
 </div>
 </div>
 <a id="afcaee844badd2f2b918d558053da6e7e" name="afcaee844badd2f2b918d558053da6e7e"></a>
@@ -668,6 +714,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets transform mode mask (enabling or disabling corresponding widget controls) </p>
 
 </div>
 </div>
@@ -693,6 +741,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Sets callback that will be called in draw function during translation with current shift arg. </p>
 
 </div>
 </div>

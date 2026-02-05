@@ -152,6 +152,9 @@ $(function(){initNavTree('classMR_1_1SceneTextureGL.html',''); initResizable(tru
 </div><!--header-->
 <div class="contents">
 
+<p>Class for rendering 3d scene into texture.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRSceneTextureGL_8h_source.html">MRSceneTextureGL.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -159,19 +162,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af29aa94c5d0f28fabf5baa5aeefd075e" id="r_af29aa94c5d0f28fabf5baa5aeefd075e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af29aa94c5d0f28fabf5baa5aeefd075e">bind</a> (bool clear)</td></tr>
 <tr class="separator:af29aa94c5d0f28fabf5baa5aeefd075e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a980051db961ed739c8b5ef5a4a470058" id="r_a980051db961ed739c8b5ef5a4a470058"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a980051db961ed739c8b5ef5a4a470058">unbind</a> ()</td></tr>
+<tr class="memdesc:a980051db961ed739c8b5ef5a4a470058"><td class="mdescLeft">&#160;</td><td class="mdescRight">binds default framebuffer (and read/draw framebuffers)  <br /></td></tr>
 <tr class="separator:a980051db961ed739c8b5ef5a4a470058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c04619df20d551fd4e79257bcf83a31" id="r_a7c04619df20d551fd4e79257bcf83a31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c04619df20d551fd4e79257bcf83a31">reset</a> (const <a class="elRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a> &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, int msaaPow, bool depthTexture)</td></tr>
 <tr class="separator:a7c04619df20d551fd4e79257bcf83a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81ce2688f5c1199861bcbd627db71b78" id="r_a81ce2688f5c1199861bcbd627db71b78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81ce2688f5c1199861bcbd627db71b78">copyTexture</a> ()</td></tr>
+<tr class="memdesc:a81ce2688f5c1199861bcbd627db71b78"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy texture so <a class="el" href="#ad3c55cbc78f657dbba1f5ce06e0183b4" title="renders texture">draw()</a> can render it  <br /></td></tr>
 <tr class="separator:a81ce2688f5c1199861bcbd627db71b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3c55cbc78f657dbba1f5ce06e0183b4" id="r_ad3c55cbc78f657dbba1f5ce06e0183b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3c55cbc78f657dbba1f5ce06e0183b4">draw</a> ()</td></tr>
+<tr class="memdesc:ad3c55cbc78f657dbba1f5ce06e0183b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">renders texture  <br /></td></tr>
 <tr class="separator:ad3c55cbc78f657dbba1f5ce06e0183b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afada1d5c821061119918954bebf336b7" id="r_afada1d5c821061119918954bebf336b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afada1d5c821061119918954bebf336b7">isBound</a> () const</td></tr>
+<tr class="memdesc:afada1d5c821061119918954bebf336b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if texture is bound  <br /></td></tr>
 <tr class="separator:afada1d5c821061119918954bebf336b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a836d98d945612682a4e3d1b6455cf766" id="r_a836d98d945612682a4e3d1b6455cf766"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1FramebufferData.html">FramebufferData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a836d98d945612682a4e3d1b6455cf766">getFramebuffer</a> ()</td></tr>
 <tr class="separator:a836d98d945612682a4e3d1b6455cf766"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for rendering 3d scene into texture. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="af29aa94c5d0f28fabf5baa5aeefd075e" name="af29aa94c5d0f28fabf5baa5aeefd075e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af29aa94c5d0f28fabf5baa5aeefd075e">&#9670;&#160;</a></span>bind()</h2>
 
@@ -186,6 +195,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>binds this framebuffer as main rendering target clears it if <code>clear</code> flag is set </p>
 
 </div>
 </div>
@@ -204,6 +214,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>copy texture so <a class="el" href="#ad3c55cbc78f657dbba1f5ce06e0183b4" title="renders texture">draw()</a> can render it </p>
+
 </div>
 </div>
 <a id="ad3c55cbc78f657dbba1f5ce06e0183b4" name="ad3c55cbc78f657dbba1f5ce06e0183b4"></a>
@@ -220,6 +232,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>renders texture </p>
 
 </div>
 </div>
@@ -271,6 +285,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>return true if texture is bound </p>
+
 </div>
 </div>
 <a id="a7c04619df20d551fd4e79257bcf83a31" name="a7c04619df20d551fd4e79257bcf83a31"></a>
@@ -296,6 +312,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>if present-&gt; del();gen(); otherwise just gen() msaaPow - 2^msaaPow samples, msaaPow &lt; 0 - use same default amount of samples </p>
 
 </div>
 </div>
@@ -313,6 +330,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>binds default framebuffer (and read/draw framebuffers) </p>
 
 </div>
 </div>

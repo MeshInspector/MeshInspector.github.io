@@ -183,6 +183,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7f45a82a0ee6d9a89d3a963dab365a42" id="r_a7f45a82a0ee6d9a89d3a963dab365a42"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f45a82a0ee6d9a89d3a963dab365a42">setCudaAvailable</a> (bool val, int maxDriverVersion, int runtimeVersion, int computeMajor, int computeMinor)</td></tr>
+<tr class="memdesc:a7f45a82a0ee6d9a89d3a963dab365a42"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup functions  <br /></td></tr>
 <tr class="separator:a7f45a82a0ee6d9a89d3a963dab365a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affb391ba6cec66e0381d79bec8195620" id="r_affb391ba6cec66e0381d79bec8195620"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affb391ba6cec66e0381d79bec8195620">setCudaFreeMemoryFunc</a> (<a class="el" href="#aa67f49b71c900e67a603dc5a6960d567">CudaFreeMemoryFunc</a> freeMemFunc)</td></tr>
 <tr class="separator:affb391ba6cec66e0381d79bec8195620"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,26 +202,37 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6b05db405eed8439e8b297e11b86eaf8" id="r_a6b05db405eed8439e8b297e11b86eaf8"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b05db405eed8439e8b297e11b86eaf8">isCudaSupportedByPlarform</a> ()</td></tr>
 <tr class="separator:a6b05db405eed8439e8b297e11b86eaf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b3062a65de8df3b5336f6010328183b" id="r_a8b3062a65de8df3b5336f6010328183b"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b3062a65de8df3b5336f6010328183b">isCudaAvailable</a> ()</td></tr>
+<tr class="memdesc:a8b3062a65de8df3b5336f6010328183b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if CUDA is available on this computer.  <br /></td></tr>
 <tr class="separator:a8b3062a65de8df3b5336f6010328183b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73cec5d251bf8a933f7bbb57ceff8cac" id="r_a73cec5d251bf8a933f7bbb57ceff8cac"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73cec5d251bf8a933f7bbb57ceff8cac">getCudaMaxDriverSupportedVersion</a> ()</td></tr>
+<tr class="memdesc:a73cec5d251bf8a933f7bbb57ceff8cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns maximum supported by driver version.  <br /></td></tr>
 <tr class="separator:a73cec5d251bf8a933f7bbb57ceff8cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22f2e3065225dbd1e7adab428312a568" id="r_a22f2e3065225dbd1e7adab428312a568"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22f2e3065225dbd1e7adab428312a568">getCudaRuntimeVersion</a> ()</td></tr>
+<tr class="memdesc:a22f2e3065225dbd1e7adab428312a568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns version of current runtime.  <br /></td></tr>
 <tr class="separator:a22f2e3065225dbd1e7adab428312a568"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a969ac1d544a8ae3f3da000c21dc1f636" id="r_a969ac1d544a8ae3f3da000c21dc1f636"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a969ac1d544a8ae3f3da000c21dc1f636">getComputeCapabilityMajor</a> ()</td></tr>
+<tr class="memdesc:a969ac1d544a8ae3f3da000c21dc1f636"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Compute Capability major version of current device.  <br /></td></tr>
 <tr class="separator:a969ac1d544a8ae3f3da000c21dc1f636"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c46fd25467fd740916991f960b16903" id="r_a3c46fd25467fd740916991f960b16903"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c46fd25467fd740916991f960b16903">getComputeCapabilityMinor</a> ()</td></tr>
+<tr class="memdesc:a3c46fd25467fd740916991f960b16903"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Compute Capability minor version of current device.  <br /></td></tr>
 <tr class="separator:a3c46fd25467fd740916991f960b16903"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a229a41b2ffd3856ad7a70bc5b63466d3" id="r_a229a41b2ffd3856ad7a70bc5b63466d3"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a229a41b2ffd3856ad7a70bc5b63466d3">getCudaFreeMemory</a> ()</td></tr>
+<tr class="memdesc:a229a41b2ffd3856ad7a70bc5b63466d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns number of free bytes on cuda.  <br /></td></tr>
 <tr class="separator:a229a41b2ffd3856ad7a70bc5b63466d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1644759ef8ab1cfac0b06466eeba89d" id="r_ad1644759ef8ab1cfac0b06466eeba89d"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::unique_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1644759ef8ab1cfac0b06466eeba89d">getCudaFastWindingNumber</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memdesc:ad1644759ef8ab1cfac0b06466eeba89d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns cuda implementation of <a class="elRef" href="../Csharp/classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a>.  <br /></td></tr>
 <tr class="separator:ad1644759ef8ab1cfac0b06466eeba89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dfafd5666c1d3f63c6648cfa0729bf3" id="r_a4dfafd5666c1d3f63c6648cfa0729bf3"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::unique_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dfafd5666c1d3f63c6648cfa0729bf3">getCudaPointsToMeshProjector</a> ()</td></tr>
+<tr class="memdesc:a4dfafd5666c1d3f63c6648cfa0729bf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns cuda implementation of <a class="elRef" href="../Csharp/classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a>.  <br /></td></tr>
 <tr class="separator:a4dfafd5666c1d3f63c6648cfa0729bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe315b0c9b2660fa7346dc01151aa2ef" id="r_afe315b0c9b2660fa7346dc01151aa2ef"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::unique_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1IPointsProjector.html">IPointsProjector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe315b0c9b2660fa7346dc01151aa2ef">getCudaPointsProjector</a> ()</td></tr>
+<tr class="memdesc:afe315b0c9b2660fa7346dc01151aa2ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns cuda implementation of <a class="elRef" href="../Csharp/classMR_1_1IPointsProjector.html">IPointsProjector</a>.  <br /></td></tr>
 <tr class="separator:afe315b0c9b2660fa7346dc01151aa2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae617704b3b516d08ad6ab1e72366fcd8" id="r_ae617704b3b516d08ad6ab1e72366fcd8"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="#a7acccf65074e9ea99f88143c0ba0816a">CudaPointsToDistanceVolumeCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae617704b3b516d08ad6ab1e72366fcd8">getCudaPointsToDistanceVolumeCallback</a> ()</td></tr>
+<tr class="memdesc:ae617704b3b516d08ad6ab1e72366fcd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns cuda implementation of PointsToDistanceVolumeCallback.  <br /></td></tr>
 <tr class="separator:ae617704b3b516d08ad6ab1e72366fcd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf0736da1e4fe6d916099fc0c9e31170" id="r_acf0736da1e4fe6d916099fc0c9e31170"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="#ab4da14893aa8c8e22579f15c1bb64991">CudaPointsToDistanceVolumeByPartsCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf0736da1e4fe6d916099fc0c9e31170">getCudaPointsToDistanceVolumeByPartsCallback</a> ()</td></tr>
+<tr class="memdesc:acf0736da1e4fe6d916099fc0c9e31170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns cuda implementation of PointsToDistanceVolumeByPartsCallback.  <br /></td></tr>
 <tr class="separator:acf0736da1e4fe6d916099fc0c9e31170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ebbabd593e562275835f7b2baa2e36b" id="r_a0ebbabd593e562275835f7b2baa2e36b"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::unique_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1IComputeToolDistance.html">IComputeToolDistance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ebbabd593e562275835f7b2baa2e36b">getCudaComputeToolDistance</a> ()</td></tr>
 <tr class="memdesc:a0ebbabd593e562275835f7b2baa2e36b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns CUDA implementation of <a class="elRef" href="../Csharp/classMR_1_1IComputeToolDistance.html">IComputeToolDistance</a>.  <br /></td></tr>
@@ -477,6 +489,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns Compute Capability major version of current device. </p>
+
 </div>
 </div>
 <a id="a3c46fd25467fd740916991f960b16903" name="a3c46fd25467fd740916991f960b16903"></a>
@@ -501,6 +515,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns Compute Capability minor version of current device. </p>
 
 </div>
 </div>
@@ -554,6 +570,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns cuda implementation of <a class="elRef" href="../Csharp/classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a>. </p>
+
 </div>
 </div>
 <a id="a229a41b2ffd3856ad7a70bc5b63466d3" name="a229a41b2ffd3856ad7a70bc5b63466d3"></a>
@@ -578,6 +596,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns number of free bytes on cuda. </p>
 
 </div>
 </div>
@@ -604,6 +624,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns maximum supported by driver version. </p>
+
 </div>
 </div>
 <a id="afe315b0c9b2660fa7346dc01151aa2ef" name="afe315b0c9b2660fa7346dc01151aa2ef"></a>
@@ -628,6 +650,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns cuda implementation of <a class="elRef" href="../Csharp/classMR_1_1IPointsProjector.html">IPointsProjector</a>. </p>
 
 </div>
 </div>
@@ -654,6 +678,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns cuda implementation of PointsToDistanceVolumeByPartsCallback. </p>
+
 </div>
 </div>
 <a id="ae617704b3b516d08ad6ab1e72366fcd8" name="ae617704b3b516d08ad6ab1e72366fcd8"></a>
@@ -678,6 +704,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns cuda implementation of PointsToDistanceVolumeCallback. </p>
 
 </div>
 </div>
@@ -704,6 +732,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns cuda implementation of <a class="elRef" href="../Csharp/classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a>. </p>
+
 </div>
 </div>
 <a id="a22f2e3065225dbd1e7adab428312a568" name="a22f2e3065225dbd1e7adab428312a568"></a>
@@ -728,6 +758,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns version of current runtime. </p>
 
 </div>
 </div>
@@ -754,6 +786,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns true if CUDA is available on this computer. </p>
+
 </div>
 </div>
 <a id="a6b05db405eed8439e8b297e11b86eaf8" name="a6b05db405eed8439e8b297e11b86eaf8"></a>
@@ -778,6 +812,7 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Returns true if this platform supports CUDA (true for Windows and Linux, false for macOS and WebAssembly) </p><dl class="section note"><dt>Note</dt><dd>that <code><a class="el" href="#a8b3062a65de8df3b5336f6010328183b" title="Returns true if CUDA is available on this computer.">isCudaAvailable()</a></code> should still be checked on supported platforms </dd></dl>
 
 </div>
 </div>
@@ -899,6 +934,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>setup functions </p>
 
 </div>
 </div>

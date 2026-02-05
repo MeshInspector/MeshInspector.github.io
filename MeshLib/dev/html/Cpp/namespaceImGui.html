@@ -182,6 +182,7 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a265e606cad7268f09dacbeeb9b6be3d5" id="r_a265e606cad7268f09dacbeeb9b6be3d5"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a265e606cad7268f09dacbeeb9b6be3d5">PlaneWidgetFlags</a> { <a class="el" href="#a265e606cad7268f09dacbeeb9b6be3d5a6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0
 , <a class="el" href="#a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac">DisableVisibility</a> = 1
  }</td></tr>
+<tr class="memdesc:a265e606cad7268f09dacbeeb9b6be3d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for the <code>Plane( <a class="el" href="classMR_1_1PlaneWidget.html">MR::PlaneWidget</a>&amp; ... )</code> function.  <a href="#a265e606cad7268f09dacbeeb9b6be3d5">More...</a><br /></td></tr>
 <tr class="separator:a265e606cad7268f09dacbeeb9b6be3d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -211,6 +212,7 @@ Functions</h2></td></tr>
 <tr class="separator:a4e3833bf7761da4ac20ca9397fbdbc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01e8908c9ff42e3510168251a97f1d48" id="r_a01e8908c9ff42e3510168251a97f1d48"><td class="memTemplParams" colspan="2">template&lt;typename Getter , typename Setter &gt; </td></tr>
 <tr class="memitem:a01e8908c9ff42e3510168251a97f1d48"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a01e8908c9ff42e3510168251a97f1d48">Checkbox</a> (const char *label, Getter get, Setter set)</td></tr>
+<tr class="memdesc:a01e8908c9ff42e3510168251a97f1d48"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw check-box that takes initial value from Getter and then saves the final value in Setter  <br /></td></tr>
 <tr class="separator:a01e8908c9ff42e3510168251a97f1d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab9ea83bb6bf2bc7f7bb8d0c582bd9a9" id="r_aab9ea83bb6bf2bc7f7bb8d0c582bd9a9"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab9ea83bb6bf2bc7f7bb8d0c582bd9a9">PlotCustomHistogram</a> (const char *str_id, std::function&lt; float(int idx)&gt; values_getter, std::function&lt; void(int idx)&gt; tooltip, std::function&lt; void(int idx)&gt; on_click, int values_count, int values_offset=0, float scale_min=FLT_MAX, float scale_max=FLT_MAX, ImVec2 frame_size=ImVec2(0, 0), int selectedBarId=-1, int hoveredBarId=-1, const std::vector&lt; <a class="el" href="structImGui_1_1HistogramGridLine.html">HistogramGridLine</a> &gt; &amp;gridIndexes={}, const std::vector&lt; <a class="el" href="structImGui_1_1HistogramGridLine.html">HistogramGridLine</a> &gt; &amp;gridValues={})</td></tr>
 <tr class="separator:aab9ea83bb6bf2bc7f7bb8d0c582bd9a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -282,7 +284,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a57f161b33d858badb4201fbedd7b3163"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if <a class="el" href="namespaceImGui.html">ImGui</a> Multi Viewport enabled  <br /></td></tr>
 <tr class="separator:a57f161b33d858badb4201fbedd7b3163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Extend <a class="el" href="namespaceImGui.html">ImGui</a> by populating its namespace directly</p>
+<p>Code snippets taken from there: <a href="https:///">https:///</a> eliasdaler.github.io/using-imgui-with-sfml-pt2/ </p>
+</div><h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a27ee05a9e60f4c26c369f0331134f682" name="a27ee05a9e60f4c26c369f0331134f682"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a27ee05a9e60f4c26c369f0331134f682">&#9670;&#160;</a></span>PaletteChanges</h2>
 
@@ -307,9 +312,12 @@ values are bits </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754" name="a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682a526d688f37a86d3c3f27d0c5016eb71d" name="a27ee05a9e60f4c26c369f0331134f682a526d688f37a86d3c3f27d0c5016eb71d"></a>Reset&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b" name="a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b"></a>Texture&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258" name="a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258"></a>Ranges&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680" name="a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b" name="a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b"></a>Texture&#160;</td><td class="fielddoc"><p>reset palette </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258" name="a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258"></a>Ranges&#160;</td><td class="fielddoc"><p>texture and legend must be updated </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680" name="a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"><p>uv-coordinates must be recomputed for the same values </p>
+</td></tr>
 </table>
 
 </div>
@@ -333,9 +341,12 @@ values are bits </p>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Parameters for the <code>Plane( <a class="el" href="classMR_1_1PlaneWidget.html">MR::PlaneWidget</a>&amp; ... )</code> function. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a265e606cad7268f09dacbeeb9b6be3d5a6adf97f83acf6453d4a6a4b1070f3754" name="a265e606cad7268f09dacbeeb9b6be3d5a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac" name="a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac"></a>DisableVisibility&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac" name="a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac"></a>DisableVisibility&#160;</td><td class="fielddoc"><p>Default setup. </p>
+</td></tr>
 </table>
 
 </div>
@@ -485,6 +496,8 @@ template&lt;typename Getter , typename Setter &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>draw check-box that takes initial value from Getter and then saves the final value in Setter </p>
 
 </div>
 </div>
@@ -1197,6 +1210,7 @@ value can't be changed if bs has no any valid value </dd></dl>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>similar to ImGui::InputInt but 1) value on output is forced to be in [min,max] range; 2) tooltip about valid range is shown when the item is active </p>
 
 </div>
 </div>
@@ -1482,7 +1496,7 @@ can load and save palette preset. </p><dl class="params"><dt>Parameters</dt><dd>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>mask of changes, if it has <a class="el" href="#a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b">PaletteChanges::Texture</a> bit - object requires texture update, if it has <a class="el" href="#a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258">PaletteChanges::Ranges</a> uv coordinates should be recalculated and updated in object </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>mask of changes, if it has <a class="el" href="#a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b" title="reset palette">PaletteChanges::Texture</a> bit - object requires texture update, if it has <a class="el" href="#a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258" title="texture and legend must be updated">PaletteChanges::Ranges</a> uv coordinates should be recalculated and updated in object </dd></dl>
 
 </div>
 </div>

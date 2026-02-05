@@ -231,6 +231,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af1debf021b9bc68d02c2905e0527ab11" id="r_af1debf021b9bc68d02c2905e0527ab11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1debf021b9bc68d02c2905e0527ab11">computeBoundingBox</a> (const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; *toWorld=nullptr) const</td></tr>
 <tr class="separator:af1debf021b9bc68d02c2905e0527ab11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e23e900e2959a7be3356ae3e71c017a" id="r_a6e23e900e2959a7be3356ae3e71c017a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e23e900e2959a7be3356ae3e71c017a">findCenterFromPoints</a> () const</td></tr>
+<tr class="memdesc:a6e23e900e2959a7be3356ae3e71c017a"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes average position of all valid polyline vertices  <br /></td></tr>
 <tr class="separator:a6e23e900e2959a7be3356ae3e71c017a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a850c5acb1d7b21b7652c8b44f7e53965" id="r_a850c5acb1d7b21b7652c8b44f7e53965"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a850c5acb1d7b21b7652c8b44f7e53965">transform</a> (const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; &amp;xf)</td></tr>
 <tr class="memdesc:a850c5acb1d7b21b7652c8b44f7e53965"><td class="mdescLeft">&#160;</td><td class="mdescRight">applies given transformation to all valid polyline vertices  <br /></td></tr>
@@ -238,6 +239,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a17426532df4513648d6e3d0212e8f334" id="r_a17426532df4513648d6e3d0212e8f334"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Csharp/structMR_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17426532df4513648d6e3d0212e8f334">splitEdge</a> (<a class="elRef" href="../Csharp/structMR_1_1EdgeId.html">EdgeId</a> e, const V &amp;newVertPos)</td></tr>
 <tr class="separator:a17426532df4513648d6e3d0212e8f334"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee0339a19861aa52dd86eceea3e805b8" id="r_aee0339a19861aa52dd86eceea3e805b8"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/structMR_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee0339a19861aa52dd86eceea3e805b8">splitEdge</a> (<a class="elRef" href="../Csharp/structMR_1_1EdgeId.html">EdgeId</a> e)</td></tr>
+<tr class="memdesc:aee0339a19861aa52dd86eceea3e805b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">same, but split given edge on two equal parts  <br /></td></tr>
 <tr class="separator:aee0339a19861aa52dd86eceea3e805b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31c2d8e3b6a9e6729084fbb4221d8d57" id="r_a31c2d8e3b6a9e6729084fbb4221d8d57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31c2d8e3b6a9e6729084fbb4221d8d57">invalidateCaches</a> ()</td></tr>
 <tr class="memdesc:a31c2d8e3b6a9e6729084fbb4221d8d57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidates caches (e.g. aabb-tree) after a change in polyline.  <br /></td></tr>
@@ -941,6 +943,8 @@ template&lt;typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>computes average position of all valid polyline vertices </p>
+
 </div>
 </div>
 <a id="addf7be82ffec83205ba7adcd66001c5b" name="addf7be82ffec83205ba7adcd66001c5b"></a>
@@ -1216,6 +1220,8 @@ template&lt;typename V &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>same, but split given edge on two equal parts </p>
 
 </div>
 </div>

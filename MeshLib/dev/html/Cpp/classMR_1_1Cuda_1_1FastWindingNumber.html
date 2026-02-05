@@ -172,7 +172,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:afed4d0df31eef8da93ca2d843c3a8a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs this from AABB tree of given mesh;  <br /></td></tr>
 <tr class="separator:afed4d0df31eef8da93ca2d843c3a8a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c175130af9cbdf1fac5b175f1f44ae3" id="r_a5c175130af9cbdf1fac5b175f1f44ae3"><td class="memItemLeft" align="right" valign="top">MRCUDA_API Expected&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c175130af9cbdf1fac5b175f1f44ae3">calcFromVector</a> (std::vector&lt; float &gt; &amp;res, const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt; &amp;points, float beta, <a class="elRef" href="../Csharp/structMR_1_1FaceId.html">FaceId</a> skipFace, const ProgressCallback &amp;cb) override</td></tr>
-<tr class="memdesc:a5c175130af9cbdf1fac5b175f1f44ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in the points from given vector  <br /></td></tr>
+<tr class="memdesc:a5c175130af9cbdf1fac5b175f1f44ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">see methods' descriptions in <a class="elRef" href="../Csharp/classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a>  <br /></td></tr>
 <tr class="separator:a5c175130af9cbdf1fac5b175f1f44ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f11c9de4efd17bdc6ac47d85b97c079" id="r_a2f11c9de4efd17bdc6ac47d85b97c079"><td class="memItemLeft" align="right" valign="top">MRCUDA_API Expected&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f11c9de4efd17bdc6ac47d85b97c079">calcSelfIntersections</a> (<a class="elRef" href="../Csharp/classMR_1_1FaceBitSet.html">FaceBitSet</a> &amp;res, float beta, const ProgressCallback &amp;cb) override</td></tr>
 <tr class="memdesc:a2f11c9de4efd17bdc6ac47d85b97c079"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected  <br /></td></tr>
@@ -184,7 +184,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aeb495c4eda1b8be00020369fc04f7159"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point  <br /></td></tr>
 <tr class="separator:aeb495c4eda1b8be00020369fc04f7159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a62210342991fb5c15a7f7627fbbd45" id="r_a2a62210342991fb5c15a7f7627fbbd45"><td class="memItemLeft" align="right" valign="top">MRCUDA_API Expected&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a62210342991fb5c15a7f7627fbbd45">calcFromGridByParts</a> (GridByPartsFunc resFunc, const <a class="elRef" href="../Csharp/structMR_1_1Vector3i.html">Vector3i</a> &amp;dims, const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;gridToMeshXf, float beta, int layerOverlap, const ProgressCallback &amp;cb) override</td></tr>
-<tr class="memdesc:a2a62210342991fb5c15a7f7627fbbd45"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in each point from a three-dimensional grid  <br /></td></tr>
+<tr class="memdesc:a2a62210342991fb5c15a7f7627fbbd45"><td class="mdescLeft">&#160;</td><td class="mdescRight">see methods' descriptions in <a class="elRef" href="../Csharp/classMR_1_1IFastWindingNumberByParts.html">IFastWindingNumberByParts</a>  <br /></td></tr>
 <tr class="separator:a2a62210342991fb5c15a7f7627fbbd45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa58e46d5a0d4b887dfc6f4edddafa860" id="r_aa58e46d5a0d4b887dfc6f4edddafa860"><td class="memItemLeft" align="right" valign="top">MRCUDA_API Expected&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa58e46d5a0d4b887dfc6f4edddafa860">calcFromGridWithDistancesByParts</a> (GridByPartsFunc resFunc, const <a class="elRef" href="../Csharp/structMR_1_1Vector3i.html">Vector3i</a> &amp;dims, const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;gridToMeshXf, const <a class="elRef" href="../Csharp/classMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;options, int layerOverlap, const ProgressCallback &amp;cb) override</td></tr>
 <tr class="memdesc:aa58e46d5a0d4b887dfc6f4edddafa860"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point  <br /></td></tr>
@@ -341,17 +341,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>calculates winding numbers in each point from a three-dimensional grid </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">resFunc</td><td>callback that gets a block of resulting winding numbers</td></tr>
-    <tr><td class="paramname">dims</td><td>dimensions of the grid</td></tr>
-    <tr><td class="paramname">gridToMeshXf</td><td>transform from integer grid locations to voxel's centers in mesh reference frame</td></tr>
-    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more</td></tr>
-    <tr><td class="paramname">layerOverlap</td><td>overlap between two blocks of the grid, set as XY layer count</td></tr>
-  </table>
-  </dd>
-</dl>
+<p>see methods' descriptions in <a class="elRef" href="../Csharp/classMR_1_1IFastWindingNumberByParts.html">IFastWindingNumberByParts</a> </p>
 
 <p>Implements <a class="elRef" href="../Csharp/classMR_1_1IFastWindingNumberByParts.html">MR::IFastWindingNumberByParts</a>.</p>
 
@@ -516,16 +506,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>calculates winding numbers in the points from given vector </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">res</td><td>resulting winding numbers, will be resized automatically</td></tr>
-    <tr><td class="paramname">points</td><td>incoming points</td></tr>
-    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more</td></tr>
-    <tr><td class="paramname">skipFace</td><td>this triangle (if it is close to <code>q</code>) will be skipped from summation</td></tr>
-  </table>
-  </dd>
-</dl>
+<p>see methods' descriptions in <a class="elRef" href="../Csharp/classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a> </p>
 
 <p>Implements <a class="elRef" href="../Csharp/classMR_1_1IFastWindingNumber.html">MR::IFastWindingNumber</a>.</p>
 

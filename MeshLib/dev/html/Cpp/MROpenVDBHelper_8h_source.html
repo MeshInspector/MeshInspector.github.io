@@ -157,8 +157,6 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRProgressCallback_8h.html">MRMesh/MRProgressCallback.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#if defined(MR_PARSING_FOR_ANY_BINDINGS) || defined(MR_COMPILING_ANY_BINDINGS)</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">// We call functions from those files below. Without those includes, I get undefined references in the bindings, when importing them.</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// Maybe we should include those unconditionally, I&#39;m not entirely sure.</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;openvdb/tools/ChangeBackground.h&gt;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;openvdb/tools/Prune.h&gt;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;openvdb/tools/SignedFloodFill.h&gt;</span></div>
@@ -256,7 +254,6 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>            <span class="keywordflow">if</span> ( interrupt() ) <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>            <a class="code hl_typedef" href="classMR_1_1RangeProcessor.html#a992a8a190daef18cd5ee2c4fe6ecb004">TileIterT</a> i = r.iterator();</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>            <span class="comment">// Skip voxels and background tiles.</span></div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>            <span class="keywordflow">if</span> ( !i.isTileValue() ) <span class="keywordflow">continue</span>;</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>            <span class="keywordflow">if</span> ( !i.isValueOn() &amp;&amp; openvdb::math::isApproxEqual( *i, mOutTree-&gt;background() ) ) <span class="keywordflow">continue</span>;</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
@@ -264,7 +261,6 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>            i.getBoundingBox( bbox );</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>            <span class="keywordflow">if</span> ( !mBBox.empty() )</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>            {</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>                <span class="comment">// Intersect the tile&#39;s bounding box with mBBox.</span></div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>                bbox = openvdb::math::CoordBBox(</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>                    openvdb::math::Coord::maxComponent( bbox.min(), mBBox.min() ),</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>                    openvdb::math::Coord::minComponent( bbox.max(), mBBox.max() ) );</div>
@@ -290,7 +286,7 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <span class="keywordtype">bool</span> interrupt()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> mInterrupt &amp;&amp; mInterrupt(); }</div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    <span class="keyword">const</span> <span class="keywordtype">bool</span> mIsRoot; <span class="comment">// true if mOutTree is the top-level tree</span></div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    <span class="keyword">const</span> <span class="keywordtype">bool</span> mIsRoot; </div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    Transformer mXform;</div>
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    openvdb::math::CoordBBox mBBox;</div>
 <div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    <span class="keyword">const</span> TreeT&amp; mInTree;</div>
@@ -330,7 +326,6 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno"><a class="line" href="classMR_1_1RangeProgress.html">  172</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1RangeProgress.html">RangeProgress</a></div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>{</div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    <span class="comment">// Mode of parallel_reduce</span></div>
 <div class="foldopen" id="foldopen00176" data-start="{" data-end="};">
 <div class="line"><a id="l00176" name="l00176"></a><span class="lineno"><a class="line" href="classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2">  176</a></span>    <span class="keyword">enum class</span> <a class="code hl_enumeration" href="classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2">Mode</a></div>
 <div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    {</div>
@@ -347,8 +342,6 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>        progressThreadId_ = std::this_thread::get_id();</div>
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    }</div>
 </div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    <span class="comment">// if leaves mode add `l` to counter,</span></div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    <span class="comment">// if tiles mode - add `t` to counter</span></div>
 <div class="foldopen" id="foldopen00190" data-start="{" data-end="}">
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno"><a class="line" href="classMR_1_1RangeProgress.html#a9c5219708895771c264ae1e50fca117e">  190</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RangeProgress.html#a9c5219708895771c264ae1e50fca117e">add</a>( <span class="keywordtype">size_t</span> l, <span class="keywordtype">size_t</span> t )</div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    {</div>
@@ -358,7 +351,6 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>            counter_.fetch_add( t );</div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    }</div>
 </div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    <span class="comment">// retorts progress if called from main thread, otherwise do nothing</span></div>
 <div class="foldopen" id="foldopen00198" data-start="{" data-end="}">
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno"><a class="line" href="classMR_1_1RangeProgress.html#a991fa7ee78ee9b1a15c198de60ee6c99">  198</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1RangeProgress.html#a991fa7ee78ee9b1a15c198de60ee6c99">reportProgress</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span><span class="keyword">    </span>{</div>
@@ -464,7 +456,6 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>            }</div>
 <div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span> </div>
 <div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>            <a class="code hl_typedef" href="classMR_1_1RangeProcessorSingle.html#a96c2bef18796f6c8b109f9104a29b2dc">TileIterT</a> i = r.iterator();</div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>            <span class="comment">// Skip voxels and background tiles.</span></div>
 <div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>            <span class="keywordflow">if</span> ( !i.isTileValue() ) <span class="keywordflow">continue</span>;</div>
 <div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>            <span class="keywordflow">if</span> ( !i.isValueOn() ) <span class="keywordflow">continue</span>;</div>
 <div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span> </div>
@@ -586,7 +577,7 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00404" name="l00404"></a><span class="lineno">  404</span>    RangeProcessC calcCount( grid.evalActiveVoxelBoundingBox(), grid.tree(), proc );</div>
 <div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span> </div>
 <div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span>    <span class="keyword">typename</span> RangeProcessC::TileIterT tileIter = grid.tree().cbeginValueAll();</div>
-<div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span>    tileIter.setMaxDepth( tileIter.getLeafDepth() - 1 ); <span class="comment">// skip leaf nodes</span></div>
+<div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span>    tileIter.setMaxDepth( tileIter.getLeafDepth() - 1 ); </div>
 <div class="line"><a id="l00408" name="l00408"></a><span class="lineno">  408</span>    <span class="keyword">typename</span> RangeProcessC::TileRange tileRange( tileIter );</div>
 <div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span>    tbb::parallel_reduce( tileRange, calcCount );</div>
 <div class="line"><a id="l00410" name="l00410"></a><span class="lineno">  410</span>    <span class="keyword">typename</span> RangeProcessC::LeafRange leafRange( grid.tree().cbeginLeaf() );</div>
@@ -599,7 +590,7 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span>}</div>
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
-<div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:14</div></div>
+<div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdoc">see explanation in MRMesh/MRMeshFwd.h</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:14</div></div>
 <div class="ttc" id="aclassMR_1_1RangeCounter_html"><div class="ttname"><a href="classMR_1_1RangeCounter.html">MR::RangeCounter</a></div><div class="ttdoc">functor to calculate tile and leaf valid nodes count</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:365</div></div>
 <div class="ttc" id="aclassMR_1_1RangeCounter_html_a2843b3697415f694e48b3921d0b244d8"><div class="ttname"><a href="classMR_1_1RangeCounter.html#a2843b3697415f694e48b3921d0b244d8">MR::RangeCounter::LeafIterT</a></div><div class="ttdeci">typename TreeT::LeafCIter LeafIterT</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:369</div></div>
 <div class="ttc" id="aclassMR_1_1RangeCounter_html_a310cccaba672fdf60cd4fd64f7718b2e"><div class="ttname"><a href="classMR_1_1RangeCounter.html#a310cccaba672fdf60cd4fd64f7718b2e">MR::RangeCounter::TileIterT</a></div><div class="ttdeci">typename TreeT::ValueAllCIter TileIterT</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:370</div></div>
@@ -646,9 +637,9 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="ttc" id="aclassMR_1_1RangeProcessor_html_ae9524032175e7503af1f3c23a7d5b962"><div class="ttname"><a href="classMR_1_1RangeProcessor.html#ae9524032175e7503af1f3c23a7d5b962">MR::RangeProcessor::operator()</a></div><div class="ttdeci">void operator()(const LeafRange &amp;rCRef)</div><div class="ttdoc">Transform each leaf node in the given range.</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:75</div></div>
 <div class="ttc" id="aclassMR_1_1RangeProcessor_html_aed071231ed6be0d204432f731c462517"><div class="ttname"><a href="classMR_1_1RangeProcessor.html#aed071231ed6be0d204432f731c462517">MR::RangeProcessor::RangeProcessor</a></div><div class="ttdeci">RangeProcessor(const openvdb::math::CoordBBox &amp;b, const TreeT &amp;inT, TreeT &amp;outT, const Transformer &amp;xform)</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:44</div></div>
 <div class="ttc" id="aclassMR_1_1RangeProgress_html"><div class="ttname"><a href="classMR_1_1RangeProgress.html">MR::RangeProgress</a></div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:173</div></div>
-<div class="ttc" id="aclassMR_1_1RangeProgress_html_a991fa7ee78ee9b1a15c198de60ee6c99"><div class="ttname"><a href="classMR_1_1RangeProgress.html#a991fa7ee78ee9b1a15c198de60ee6c99">MR::RangeProgress::reportProgress</a></div><div class="ttdeci">bool reportProgress() const</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:198</div></div>
+<div class="ttc" id="aclassMR_1_1RangeProgress_html_a991fa7ee78ee9b1a15c198de60ee6c99"><div class="ttname"><a href="classMR_1_1RangeProgress.html#a991fa7ee78ee9b1a15c198de60ee6c99">MR::RangeProgress::reportProgress</a></div><div class="ttdeci">bool reportProgress() const</div><div class="ttdoc">retorts progress if called from main thread, otherwise do nothing</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:198</div></div>
 <div class="ttc" id="aclassMR_1_1RangeProgress_html_a9c5219708895771c264ae1e50fca117e"><div class="ttname"><a href="classMR_1_1RangeProgress.html#a9c5219708895771c264ae1e50fca117e">MR::RangeProgress::add</a></div><div class="ttdeci">void add(size_t l, size_t t)</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:190</div></div>
-<div class="ttc" id="aclassMR_1_1RangeProgress_html_aa39d9c285d46ac3ce70aea92db6f9bf2"><div class="ttname"><a href="classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2">MR::RangeProgress::Mode</a></div><div class="ttdeci">Mode</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:177</div></div>
+<div class="ttc" id="aclassMR_1_1RangeProgress_html_aa39d9c285d46ac3ce70aea92db6f9bf2"><div class="ttname"><a href="classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2">MR::RangeProgress::Mode</a></div><div class="ttdeci">Mode</div><div class="ttdoc">Mode of parallel_reduce.</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:177</div></div>
 <div class="ttc" id="aclassMR_1_1RangeProgress_html_aa39d9c285d46ac3ce70aea92db6f9bf2a63ef76e0056281d3d3b501b7bbf98129"><div class="ttname"><a href="classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2a63ef76e0056281d3d3b501b7bbf98129">MR::RangeProgress::Mode::Leaves</a></div><div class="ttdeci">@ Leaves</div></div>
 <div class="ttc" id="aclassMR_1_1RangeProgress_html_aa39d9c285d46ac3ce70aea92db6f9bf2aa67f2c9d056f29b94521c17b838b9756"><div class="ttname"><a href="classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2aa67f2c9d056f29b94521c17b838b9756">MR::RangeProgress::Mode::Tiles</a></div><div class="ttdeci">@ Tiles</div></div>
 <div class="ttc" id="aclassMR_1_1RangeProgress_html_aa3ba5b5d4dddbf923bc92f56310c747b"><div class="ttname"><a href="classMR_1_1RangeProgress.html#aa3ba5b5d4dddbf923bc92f56310c747b">MR::RangeProgress::RangeProgress</a></div><div class="ttdeci">RangeProgress(ProgressCallback cb, size_t size, Mode mode)</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:181</div></div>
@@ -658,7 +649,7 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="ttc" id="aclassMR_1_1ShiftTransformer_html_a2462275abc34da748597b3ebccd9f961"><div class="ttname"><a href="classMR_1_1ShiftTransformer.html#a2462275abc34da748597b3ebccd9f961">MR::ShiftTransformer::setShift</a></div><div class="ttdeci">void setShift(const openvdb::math::Coord &amp;shift)</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:163</div></div>
 <div class="ttc" id="aclassMR_1_1ShiftTransformer_html_a25779f4d269609b5b8a197c243b7a19c"><div class="ttname"><a href="classMR_1_1ShiftTransformer.html#a25779f4d269609b5b8a197c243b7a19c">MR::ShiftTransformer::InTreeAccessor</a></div><div class="ttdeci">typename openvdb::tree::ValueAccessor&lt; const TreeT &gt; InTreeAccessor</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:153</div></div>
 <div class="ttc" id="aclassMR_1_1ShiftTransformer_html_ab7175d7b506f4e42478b9365b5b2ddbf"><div class="ttname"><a href="classMR_1_1ShiftTransformer.html#ab7175d7b506f4e42478b9365b5b2ddbf">MR::ShiftTransformer::ValueT</a></div><div class="ttdeci">typename TreeT::ValueType ValueT</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:155</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a306ff1f62992b3eb33c446913b64188a"><div class="ttname"><a href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">MR::size</a></div><div class="ttdeci">ImVec2 size(const ViewportRectangle &amp;rect)</div><div class="ttdef"><b>Definition</b> MRViewport.h:29</div></div>
 <div class="ttc" id="anamespaceMR_html_acfa8fd2ddb974a4ed6a3b2d9dd0168c2"><div class="ttname"><a href="namespaceMR.html#acfa8fd2ddb974a4ed6a3b2d9dd0168c2">MR::translateToZero</a></div><div class="ttdeci">MRVOXELS_API void translateToZero(openvdb::FloatGrid &amp;grid)</div></div>
 <div class="ttc" id="anamespaceMR_html_af4556fd56cc32c8b7e8e343664cba8ad"><div class="ttname"><a href="namespaceMR.html#af4556fd56cc32c8b7e8e343664cba8ad">MR::calculateRangeSize</a></div><div class="ttdeci">RangeSize calculateRangeSize(const GridT &amp;grid)</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:398</div></div>

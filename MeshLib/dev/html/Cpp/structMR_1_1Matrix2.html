@@ -237,6 +237,7 @@ Friends</h2></td></tr>
 <tr class="memitem:ab522018f571de9816ecde1763d1d7905" id="r_ab522018f571de9816ecde1763d1d7905"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab522018f571de9816ecde1763d1d7905">operator!=</a> (const <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:ab522018f571de9816ecde1763d1d7905"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4582c7f7c321b30a99860d0448973d1" id="r_af4582c7f7c321b30a99860d0448973d1"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4582c7f7c321b30a99860d0448973d1">operator+</a> (const <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; &amp;b) -&gt; <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; decltype(std::declval&lt; T &gt;()+std::declval&lt; T &gt;())&gt;</td></tr>
+<tr class="memdesc:af4582c7f7c321b30a99860d0448973d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">NOTE: We use <code>std::declval()</code> in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping <code>a.x</code> and such. TODO fix this when we update libclang.  <br /></td></tr>
 <tr class="separator:af4582c7f7c321b30a99860d0448973d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fe0fec3f29fad03e275e85faeead7c4" id="r_a3fe0fec3f29fad03e275e85faeead7c4"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fe0fec3f29fad03e275e85faeead7c4">operator-</a> (const <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; &amp;b) -&gt; <a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; decltype(std::declval&lt; T &gt;() - std::declval&lt; T &gt;())&gt;</td></tr>
 <tr class="separator:a3fe0fec3f29fad03e275e85faeead7c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -547,6 +548,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Calling <code>sqrt</code> this way to hopefully support boost.multiprecision numbers. Returning <code>auto</code> to not break on integral types.</p>
 
 </div>
 </div>
@@ -1065,6 +1067,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>NOTE: We use <code>std::declval()</code> in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping <code>a.x</code> and such. TODO fix this when we update libclang. </p>
 
 </div>
 </div>

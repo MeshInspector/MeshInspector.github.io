@@ -153,11 +153,15 @@ $(function(){initNavTree('structMR_1_1GcodeProcessor_1_1MoveAction.html',''); in
 </div><!--header-->
 <div class="contents">
 
+<p>structure that stores information about the movement of the tool, specified by some string of commands  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRGcodeProcessor_8h_source.html">MRGcodeProcessor.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9c37820f22dbbb3c0a9fc9b01369abbc" id="r_a9c37820f22dbbb3c0a9fc9b01369abbc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c37820f22dbbb3c0a9fc9b01369abbc">valid</a> () const</td></tr>
+<tr class="memdesc:a9c37820f22dbbb3c0a9fc9b01369abbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if operation was parsed without warnings  <br /></td></tr>
 <tr class="separator:a9c37820f22dbbb3c0a9fc9b01369abbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85b84c7e86dfe85baf10dcab2f46c9d6" id="r_a85b84c7e86dfe85baf10dcab2f46c9d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85b84c7e86dfe85baf10dcab2f46c9d6">operator bool</a> () const</td></tr>
 <tr class="separator:a85b84c7e86dfe85baf10dcab2f46c9d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,11 +173,14 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a3d704b08012c57fec93ba58808ee3421" id="r_a3d704b08012c57fec93ba58808ee3421"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d704b08012c57fec93ba58808ee3421">toolDirection</a></td></tr>
 <tr class="separator:a3d704b08012c57fec93ba58808ee3421"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31e8f3ca925b988d46df24c5b5bf8ddd" id="r_a31e8f3ca925b988d46df24c5b5bf8ddd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31e8f3ca925b988d46df24c5b5bf8ddd">idle</a> = true</td></tr>
+<tr class="memdesc:a31e8f3ca925b988d46df24c5b5bf8ddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">tool direction for each point from action.path  <br /></td></tr>
 <tr class="separator:a31e8f3ca925b988d46df24c5b5bf8ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a084a7529a3f6202733cdf15bef0d70df" id="r_a084a7529a3f6202733cdf15bef0d70df"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a084a7529a3f6202733cdf15bef0d70df">feedrate</a> = 100.f</td></tr>
 <tr class="separator:a084a7529a3f6202733cdf15bef0d70df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>structure that stores information about the movement of the tool, specified by some string of commands </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a85b84c7e86dfe85baf10dcab2f46c9d6" name="a85b84c7e86dfe85baf10dcab2f46c9d6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a85b84c7e86dfe85baf10dcab2f46c9d6">&#9670;&#160;</a></span>operator bool()</h2>
 
@@ -222,6 +229,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>return true if operation was parsed without warnings </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -264,6 +273,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>tool direction for each point from action.path </p>
 
 </div>
 </div>

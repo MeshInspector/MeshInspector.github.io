@@ -173,6 +173,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>This can be null if the reference value isn't set, or something else is wrong. This can match whatever is set via <code>get/setComparisonReferenceValue()</code>, but not necessarily. E.g. for point coordinates, those functions act on the reference coordinates (three optional floats), but this number is always zero, and the <code>value</code> is the distance to those coordinates. </p>
 
 </div>
 </div>

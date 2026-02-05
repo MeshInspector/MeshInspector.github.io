@@ -167,8 +167,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1cba71d0b9b3f78aff8c080d214b074f" id="r_a1cba71d0b9b3f78aff8c080d214b074f"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cba71d0b9b3f78aff8c080d214b074f">cameraSpace</a></td></tr>
 <tr class="separator:a1cba71d0b9b3f78aff8c080d214b074f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a137079597c74de0d73863a07b3a88f12" id="r_a137079597c74de0d73863a07b3a88f12"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a137079597c74de0d73863a07b3a88f12">worldSpace</a></td></tr>
+<tr class="memdesc:a137079597c74de0d73863a07b3a88f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">World space: applied model transform to Mesh(Point Cloud) vertices xyz[-inf, inf].  <br /></td></tr>
 <tr class="separator:a137079597c74de0d73863a07b3a88f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9386798c3dc480332b26b1432b3d9b22" id="r_a9386798c3dc480332b26b1432b3d9b22"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9386798c3dc480332b26b1432b3d9b22">obj</a></td></tr>
+<tr class="memdesc:a9386798c3dc480332b26b1432b3d9b22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Model space: coordinates as they stored in the model of <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a>.  <br /></td></tr>
 <tr class="separator:a9386798c3dc480332b26b1432b3d9b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad49d9386ce331c43283a72c316c3b457" id="r_ad49d9386ce331c43283a72c316c3b457"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/classMR_1_1PointOnFace.html">PointOnFace</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad49d9386ce331c43283a72c316c3b457">pof</a></td></tr>
 <tr class="separator:ad49d9386ce331c43283a72c316c3b457"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,6 +187,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Camera space: applied view affine transform to world points xyz[-inf, inf]. [0, 0, 0] middle point of the viewport on Dnear. X axis goes on the right. Y axis goes up. Z axis goes backward. </p>
 
 </div>
 </div>
@@ -199,6 +202,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Clip space: viewport xyz[-1.f, 1.f]. [0, 0, -1] middle point of the viewport on Dnear. [0, 0, 1] middle point of the viewport on Dfar. [-1, -1, -1] is lower left Dnear corner; [1, 1, 1] is upper right Dfar corner </p>
 
 </div>
 </div>
@@ -213,6 +217,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Model space: coordinates as they stored in the model of <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a>. </p>
 
 </div>
 </div>
@@ -241,6 +247,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Screen space: window x[0, window.width] y[0, window.height]. [0,0] top-left corner of the window Z [0,1] - 0 is Dnear, 1 is Dfar </p>
 
 </div>
 </div>
@@ -269,6 +276,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="classMR_1_1Viewport.html">Viewport</a> space: viewport x[0, viewport.width] y[0, viewport.height]. [0,0] top-left corner of the viewport with that <a class="el" href="classMR_1_1Id.html" title="stores index of some element, it is made as template class to avoid mixing faces, edges and vertices">Id</a> Z [0,1] - 0 is Dnear, 1 is Dfar </p>
 
 </div>
 </div>
@@ -283,6 +291,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>World space: applied model transform to Mesh(Point Cloud) vertices xyz[-inf, inf]. </p>
 
 </div>
 </div>

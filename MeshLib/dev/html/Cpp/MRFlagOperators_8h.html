@@ -157,10 +157,13 @@ $(function(){initNavTree('MRFlagOperators_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:afbd9348d27fb58bbb0befb3db34fab6a" id="r_afbd9348d27fb58bbb0befb3db34fab6a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbd9348d27fb58bbb0befb3db34fab6a">MR_MAKE_FLAG_OPERATORS</a>(T)&#160;&#160;&#160;<a class="el" href="#abc349ef0c3d9277a9d2a531f89b5cfb8">MR_MAKE_FLAG_OPERATORS_CUSTOM</a>( static, T )</td></tr>
+<tr class="memdesc:afbd9348d27fb58bbb0befb3db34fab6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates operators for a enum (at namespace scope).  <br /></td></tr>
 <tr class="separator:afbd9348d27fb58bbb0befb3db34fab6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f6a28b80b13e71ba9ae42246c99ba1e" id="r_a9f6a28b80b13e71ba9ae42246c99ba1e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f6a28b80b13e71ba9ae42246c99ba1e">MR_MAKE_FLAG_OPERATORS_IN_CLASS</a>(T)&#160;&#160;&#160;<a class="el" href="#abc349ef0c3d9277a9d2a531f89b5cfb8">MR_MAKE_FLAG_OPERATORS_CUSTOM</a>( friend, T )</td></tr>
+<tr class="memdesc:a9f6a28b80b13e71ba9ae42246c99ba1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates operators for a enum (at class scope).  <br /></td></tr>
 <tr class="separator:a9f6a28b80b13e71ba9ae42246c99ba1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc349ef0c3d9277a9d2a531f89b5cfb8" id="r_abc349ef0c3d9277a9d2a531f89b5cfb8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc349ef0c3d9277a9d2a531f89b5cfb8">MR_MAKE_FLAG_OPERATORS_CUSTOM</a>(prefix,  T)</td></tr>
+<tr class="memdesc:abc349ef0c3d9277a9d2a531f89b5cfb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates operators for a enum (with a custom prefix before each function).  <br /></td></tr>
 <tr class="separator:abc349ef0c3d9277a9d2a531f89b5cfb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -178,6 +181,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Generates operators for a enum (at namespace scope). </p>
 
 </div>
 </div>
@@ -210,6 +215,8 @@ Macros</h2></td></tr>
 <div class="ttc" id="aMRImGuiVectorOperators_8h_html_a0425e1276bc89216995e7248830eb39a"><div class="ttname"><a href="MRImGuiVectorOperators_8h.html#a0425e1276bc89216995e7248830eb39a">operator*=</a></div><div class="ttdeci">constexpr A &amp; operator*=(A &amp;a, B b)</div><div class="ttdef"><b>Definition</b> MRImGuiVectorOperators.h:114</div></div>
 <div class="ttc" id="aMRImGuiVectorOperators_8h_html_a6bfc05fae3fc578b2825f581c6f5407f"><div class="ttname"><a href="MRImGuiVectorOperators_8h.html#a6bfc05fae3fc578b2825f581c6f5407f">operator*</a></div><div class="ttdeci">constexpr auto operator*(A a, B b)</div><div class="ttdef"><b>Definition</b> MRImGuiVectorOperators.h:107</div></div>
 </div><!-- fragment -->
+<p>Generates operators for a enum (with a custom prefix before each function). </p>
+
 </div>
 </div>
 <a id="a9f6a28b80b13e71ba9ae42246c99ba1e" name="a9f6a28b80b13e71ba9ae42246c99ba1e"></a>
@@ -226,6 +233,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Generates operators for a enum (at class scope). </p>
 
 </div>
 </div>

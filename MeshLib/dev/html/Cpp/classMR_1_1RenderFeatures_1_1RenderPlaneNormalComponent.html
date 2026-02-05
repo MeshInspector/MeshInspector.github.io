@@ -152,6 +152,9 @@ $(function(){initNavTree('classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponen
 </div><!--header-->
 <div class="contents">
 
+<p>This renderobject draws a plane normal for the target object.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRRenderFeatureObjects_8h_source.html">MRRenderFeatureObjects.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::RenderFeatures::RenderPlaneNormalComponent:</div>
@@ -175,6 +178,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0b2fbdd12c14ae1cc48b2f16430d75f2" id="r_a0b2fbdd12c14ae1cc48b2f16430d75f2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b2fbdd12c14ae1cc48b2f16430d75f2">RenderPlaneNormalComponent</a> (const <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &amp;object)</td></tr>
 <tr class="separator:a0b2fbdd12c14ae1cc48b2f16430d75f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a879e1173ef7bfb15f7742f2bbf9191eb" id="r_a879e1173ef7bfb15f7742f2bbf9191eb"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a879e1173ef7bfb15f7742f2bbf9191eb">render</a> (const <a class="elRef" href="../Csharp/classMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params) override</td></tr>
+<tr class="memdesc:a879e1173ef7bfb15f7742f2bbf9191eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if something was rendered, or false if nothing to render.  <br /></td></tr>
 <tr class="separator:a879e1173ef7bfb15f7742f2bbf9191eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a25f7b901d90a80b7e6de43f0c00d53" id="r_a8a25f7b901d90a80b7e6de43f0c00d53"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a25f7b901d90a80b7e6de43f0c00d53">renderPicker</a> (const <a class="elRef" href="../Csharp/classMR_1_1ModelBaseRenderParams.html">ModelBaseRenderParams</a> &amp;params, unsigned geomId) override</td></tr>
 <tr class="separator:a8a25f7b901d90a80b7e6de43f0c00d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,8 +273,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a74b9993ac9ec597c75dcaa9867e97114 inherit pro_methods_classMR_1_1RenderMeshObject" id="r_a74b9993ac9ec597c75dcaa9867e97114"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RenderMeshObject.html#a74b9993ac9ec597c75dcaa9867e97114">drawMesh_</a> (bool solid, <a class="elRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a> viewportId, bool picker=false) const</td></tr>
 <tr class="separator:a74b9993ac9ec597c75dcaa9867e97114 inherit pro_methods_classMR_1_1RenderMeshObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25ce65cf24e73a9b094c4ea775ab9710 inherit pro_methods_classMR_1_1RenderMeshObject" id="r_a25ce65cf24e73a9b094c4ea775ab9710"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RenderMeshObject.html#a25ce65cf24e73a9b094c4ea775ab9710">initBuffers_</a> ()</td></tr>
+<tr class="memdesc:a25ce65cf24e73a9b094c4ea775ab9710 inherit pro_methods_classMR_1_1RenderMeshObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new set of OpenGL buffer objects.  <br /></td></tr>
 <tr class="separator:a25ce65cf24e73a9b094c4ea775ab9710 inherit pro_methods_classMR_1_1RenderMeshObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e92f378f23062d1117a5f705c975fa4 inherit pro_methods_classMR_1_1RenderMeshObject" id="r_a4e92f378f23062d1117a5f705c975fa4"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RenderMeshObject.html#a4e92f378f23062d1117a5f705c975fa4">freeBuffers_</a> ()</td></tr>
+<tr class="memdesc:a4e92f378f23062d1117a5f705c975fa4 inherit pro_methods_classMR_1_1RenderMeshObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the OpenGL buffer objects.  <br /></td></tr>
 <tr class="separator:a4e92f378f23062d1117a5f705c975fa4 inherit pro_methods_classMR_1_1RenderMeshObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe7b4ee6ee91312d898e283b022cf5e0 inherit pro_methods_classMR_1_1RenderMeshObject" id="r_abe7b4ee6ee91312d898e283b022cf5e0"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RenderMeshObject.html#abe7b4ee6ee91312d898e283b022cf5e0">update_</a> (<a class="elRef" href="../Csharp/classMR_1_1ViewportMask.html">ViewportMask</a> mask)</td></tr>
 <tr class="separator:abe7b4ee6ee91312d898e283b022cf5e0 inherit pro_methods_classMR_1_1RenderMeshObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -358,13 +364,17 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a26ce599435acc57f19832bae104fde43 inherit pro_attribs_classMR_1_1RenderMeshObject" id="r_a26ce599435acc57f19832bae104fde43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RenderMeshObject.html#a26ce599435acc57f19832bae104fde43">dirtyPointPos_</a> = false</td></tr>
 <tr class="separator:a26ce599435acc57f19832bae104fde43 inherit pro_attribs_classMR_1_1RenderMeshObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9497665a3752c1392372f7259db26d4a inherit pro_attribs_classMR_1_1RenderMeshObject" id="r_a9497665a3752c1392372f7259db26d4a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RenderMeshObject.html#a9497665a3752c1392372f7259db26d4a">dirty_</a> { 0 }</td></tr>
+<tr class="memdesc:a9497665a3752c1392372f7259db26d4a inherit pro_attribs_classMR_1_1RenderMeshObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks dirty buffers that need to be uploaded to OpenGL.  <br /></td></tr>
 <tr class="separator:a9497665a3752c1392372f7259db26d4a inherit pro_attribs_classMR_1_1RenderMeshObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59ecce80e0a471b2f17c0b6f9d9582e8 inherit pro_attribs_classMR_1_1RenderMeshObject" id="r_a59ecce80e0a471b2f17c0b6f9d9582e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RenderMeshObject.html#a59ecce80e0a471b2f17c0b6f9d9582e8">dirtyEdges_</a> { false }</td></tr>
+<tr class="memdesc:a59ecce80e0a471b2f17c0b6f9d9582e8 inherit pro_attribs_classMR_1_1RenderMeshObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">...  <br /></td></tr>
 <tr class="separator:a59ecce80e0a471b2f17c0b6f9d9582e8 inherit pro_attribs_classMR_1_1RenderMeshObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd5c5688fbd6d8c41b11f9295ba8d5ca inherit pro_attribs_classMR_1_1RenderMeshObject" id="r_afd5c5688fbd6d8c41b11f9295ba8d5ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RenderMeshObject.html#afd5c5688fbd6d8c41b11f9295ba8d5ca">cornerMode</a> = false</td></tr>
 <tr class="separator:afd5c5688fbd6d8c41b11f9295ba8d5ca inherit pro_attribs_classMR_1_1RenderMeshObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This renderobject draws a plane normal for the target object. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0b2fbdd12c14ae1cc48b2f16430d75f2" name="a0b2fbdd12c14ae1cc48b2f16430d75f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0b2fbdd12c14ae1cc48b2f16430d75f2">&#9670;&#160;</a></span>RenderPlaneNormalComponent()</h2>
 
@@ -405,6 +415,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns true if something was rendered, or false if nothing to render. </p>
+<p>These functions do: 1) bind data 2) pass shaders arguments 3) draw data </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1RenderFeatures_1_1RenderFeatureComponent.html#aac7d0eb9a73f28680925b75d122b66a4">MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectMesh, RenderMeshObject &gt;</a>.</p>
 

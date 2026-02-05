@@ -161,10 +161,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0fe291e46a58cddf57661fe94f5a2a47" id="r_a0fe291e46a58cddf57661fe94f5a2a47"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fe291e46a58cddf57661fe94f5a2a47">~ShadowsGL</a> ()</td></tr>
 <tr class="separator:a0fe291e46a58cddf57661fe94f5a2a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa49107de3327a7c3585b3d42b97fbfb1" id="r_aa49107de3327a7c3585b3d42b97fbfb1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa49107de3327a7c3585b3d42b97fbfb1">enable</a> (bool on)</td></tr>
+<tr class="memdesc:aa49107de3327a7c3585b3d42b97fbfb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">subscribe to viewer events on enable, unsubscribe on disable  <br /></td></tr>
 <tr class="separator:aa49107de3327a7c3585b3d42b97fbfb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbfb18c734f6d41741dcdd84a9031e95" id="r_afbfb18c734f6d41741dcdd84a9031e95"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbfb18c734f6d41741dcdd84a9031e95">isEnabled</a> () const</td></tr>
 <tr class="separator:afbfb18c734f6d41741dcdd84a9031e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37112847b6740a4ff382b4ea87a89fa9" id="r_a37112847b6740a4ff382b4ea87a89fa9"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37112847b6740a4ff382b4ea87a89fa9">getShadowShift</a> () const</td></tr>
+<tr class="memdesc:a37112847b6740a4ff382b4ea87a89fa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">shift in screen space  <br /></td></tr>
 <tr class="separator:a37112847b6740a4ff382b4ea87a89fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f96229c0027acb80974fbeccb9fff4d" id="r_a1f96229c0027acb80974fbeccb9fff4d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f96229c0027acb80974fbeccb9fff4d">setShadowShift</a> (const <a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> &amp;shift)</td></tr>
 <tr class="separator:a1f96229c0027acb80974fbeccb9fff4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,7 +183,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af9db8ab9dcc3eb53d435f5c2da5425f0" id="r_af9db8ab9dcc3eb53d435f5c2da5425f0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9db8ab9dcc3eb53d435f5c2da5425f0">setQuality</a> (float quality)</td></tr>
 <tr class="separator:af9db8ab9dcc3eb53d435f5c2da5425f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This class allows do draw shadows for objects in scene draws scene into texture buffer, than make shadow from: draw shadow and than draw texture with scene </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0fe291e46a58cddf57661fe94f5a2a47" name="a0fe291e46a58cddf57661fe94f5a2a47"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0fe291e46a58cddf57661fe94f5a2a47">&#9670;&#160;</a></span>~ShadowsGL()</h2>
 
@@ -214,6 +218,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>subscribe to viewer events on enable, unsubscribe on disable </p>
 
 </div>
 </div>
@@ -264,6 +270,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>value that describes blur quality, blur texture downscaling coefficient (0,1] 1 - is maximum quality, but it can affect performance on embedded systems 0.25 - recommended value </p>
 
 </div>
 </div>
@@ -314,6 +321,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>shift in screen space </p>
 
 </div>
 </div>

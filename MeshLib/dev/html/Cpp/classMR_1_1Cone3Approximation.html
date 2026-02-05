@@ -159,9 +159,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9d2c7bacbeba26d79da0394635646651" id="r_a9d2c7bacbeba26d79da0394635646651"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d2c7bacbeba26d79da0394635646651">Cone3Approximation</a> ()=default</td></tr>
 <tr class="separator:a9d2c7bacbeba26d79da0394635646651"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c6a542eabe69884f78ec5044ab1df50" id="r_a7c6a542eabe69884f78ec5044ab1df50"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c6a542eabe69884f78ec5044ab1df50">solve</a> (const std::vector&lt; <a class="el" href="structMR_1_1Vector3.html">MR::Vector3</a>&lt; T &gt; &gt; &amp;points, <a class="el" href="classMR_1_1Cone3.html">Cone3</a>&lt; T &gt; &amp;cone, const <a class="elRef" href="../Csharp/classMR_1_1Cone3ApproximationParams.html">Cone3ApproximationParams</a> &amp;params={})</td></tr>
+<tr class="memdesc:a7c6a542eabe69884f78ec5044ab1df50"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns RMS for original points  <br /></td></tr>
 <tr class="separator:a7c6a542eabe69884f78ec5044ab1df50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+class MR::Cone3Approximation&lt; T &gt;</div><p>Class for approximation cloud point by cone. We will calculate the initial approximation of the cone and then use a minimizer to refine the parameters. minimizer is LevenbergMarquardt now. TODO: Possible we could add GaussNewton in future. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9d2c7bacbeba26d79da0394635646651" name="a9d2c7bacbeba26d79da0394635646651"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d2c7bacbeba26d79da0394635646651">&#9670;&#160;</a></span>Cone3Approximation()</h2>
 
@@ -223,6 +227,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>returns RMS for original points </p>
 
 </div>
 </div>

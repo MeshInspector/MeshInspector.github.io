@@ -153,6 +153,9 @@ $(function(){initNavTree('structMR_1_1ObjectComparableWithReference_1_1Compariso
 </div><!--header-->
 <div class="contents">
 
+<p>This can't be <code>std::optional&lt;Var&gt;</code>, because we still need the variant to know the correct type.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRObjectComparableWithReference_8h_source.html">MRObjectComparableWithReference.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -165,9 +168,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a8efb7f0e3b145e075d5c168695ee5698" id="r_a8efb7f0e3b145e075d5c168695ee5698"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8efb7f0e3b145e075d5c168695ee5698">isSet</a> = false</td></tr>
 <tr class="separator:a8efb7f0e3b145e075d5c168695ee5698"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd15c83314b1e4ade65944996e7f5026" id="r_abd15c83314b1e4ade65944996e7f5026"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab6bd7006ecd86f31248360a557a17d09">Var</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd15c83314b1e4ade65944996e7f5026">var</a></td></tr>
+<tr class="memdesc:abd15c83314b1e4ade65944996e7f5026"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <code>isSet == false</code>, this will hold zeroes, or some other default values.  <br /></td></tr>
 <tr class="separator:abd15c83314b1e4ade65944996e7f5026"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This can't be <code>std::optional&lt;Var&gt;</code>, because we still need the variant to know the correct type. </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ab6bd7006ecd86f31248360a557a17d09" name="ab6bd7006ecd86f31248360a557a17d09"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab6bd7006ecd86f31248360a557a17d09">&#9670;&#160;</a></span>Var</h2>
 
@@ -208,6 +214,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>If <code>isSet == false</code>, this will hold zeroes, or some other default values. </p>
 
 </div>
 </div>

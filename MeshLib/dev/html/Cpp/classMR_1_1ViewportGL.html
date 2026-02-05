@@ -154,6 +154,9 @@ $(function(){initNavTree('classMR_1_1ViewportGL.html',''); initResizable(true); 
 </div><!--header-->
 <div class="contents">
 
+<p>This class holds data needed to render viewport primitives and accumulative picker via OpenGL.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRViewportGL_8h_source.html">MRViewportGL.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -161,8 +164,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportGL_1_1BasePickResult.html">BasePickResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportGL_1_1PickParameters.html">PickParameters</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters of objects picking.  <a href="structMR_1_1ViewportGL_1_1PickParameters.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportGL_1_1PickResult.html">PickResult</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Result of object picking.  <a href="structMR_1_1ViewportGL_1_1PickResult.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html">ScaledPickRes</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,6 +188,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a97a437675447882da60c694f40cc9e56" id="r_a97a437675447882da60c694f40cc9e56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97a437675447882da60c694f40cc9e56">ViewportGL</a> ()=default</td></tr>
 <tr class="separator:a97a437675447882da60c694f40cc9e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a376cf69e021d79c6a54e63168253e3c0" id="r_a376cf69e021d79c6a54e63168253e3c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a376cf69e021d79c6a54e63168253e3c0">ViewportGL</a> (const <a class="el" href="classMR_1_1ViewportGL.html">ViewportGL</a> &amp;)</td></tr>
+<tr class="memdesc:a376cf69e021d79c6a54e63168253e3c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy operators do nothing, not to share GL data.  <br /></td></tr>
 <tr class="separator:a376cf69e021d79c6a54e63168253e3c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6d0b135cd7ea98a92eac23f1bac3642" id="r_af6d0b135cd7ea98a92eac23f1bac3642"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportGL.html">ViewportGL</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6d0b135cd7ea98a92eac23f1bac3642">operator=</a> (const <a class="el" href="classMR_1_1ViewportGL.html">ViewportGL</a> &amp;)</td></tr>
 <tr class="separator:af6d0b135cd7ea98a92eac23f1bac3642"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,23 +199,31 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a33a67bdad47aeacb17a644f0c65f53ec" id="r_a33a67bdad47aeacb17a644f0c65f53ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33a67bdad47aeacb17a644f0c65f53ec">~ViewportGL</a> ()</td></tr>
 <tr class="separator:a33a67bdad47aeacb17a644f0c65f53ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2b114c03f1a2659e1e2eba7421c5aad" id="r_ac2b114c03f1a2659e1e2eba7421c5aad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2b114c03f1a2659e1e2eba7421c5aad">init</a> ()</td></tr>
+<tr class="memdesc:ac2b114c03f1a2659e1e2eba7421c5aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize all GL buffers and arrays.  <br /></td></tr>
 <tr class="separator:ac2b114c03f1a2659e1e2eba7421c5aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb0e2182b6dc110fa0c6d0a45b199076" id="r_aeb0e2182b6dc110fa0c6d0a45b199076"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb0e2182b6dc110fa0c6d0a45b199076">free</a> ()</td></tr>
+<tr class="memdesc:aeb0e2182b6dc110fa0c6d0a45b199076"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free all GL data.  <br /></td></tr>
 <tr class="separator:aeb0e2182b6dc110fa0c6d0a45b199076"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afccb2d900dfbc38ee4f10461bcc74539" id="r_afccb2d900dfbc38ee4f10461bcc74539"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afccb2d900dfbc38ee4f10461bcc74539">drawBorder</a> (const <a class="elRef" href="../Csharp/structMR_1_1Box2f.html">Box2f</a> &amp;rect, const <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &amp;color) const</td></tr>
+<tr class="memdesc:afccb2d900dfbc38ee4f10461bcc74539"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds and draws viewport border.  <br /></td></tr>
 <tr class="separator:afccb2d900dfbc38ee4f10461bcc74539"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35ccca6814c2d2d405ce84f40381147c" id="r_a35ccca6814c2d2d405ce84f40381147c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35ccca6814c2d2d405ce84f40381147c">fillViewport</a> (const <a class="elRef" href="../Csharp/structMR_1_1Box2f.html">Box2f</a> &amp;rect, const <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &amp;color) const</td></tr>
+<tr class="memdesc:a35ccca6814c2d2d405ce84f40381147c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills viewport with given color (clear frame buffer)  <br /></td></tr>
 <tr class="separator:a35ccca6814c2d2d405ce84f40381147c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b2f4b4002b1881eca93bde98fe86979" id="r_a4b2f4b4002b1881eca93bde98fe86979"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b2f4b4002b1881eca93bde98fe86979">checkInit</a> () const</td></tr>
+<tr class="memdesc:a4b2f4b4002b1881eca93bde98fe86979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that members have been initialized.  <br /></td></tr>
 <tr class="separator:a4b2f4b4002b1881eca93bde98fe86979"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc105ddae2f4b963448775271221ed8f" id="r_abc105ddae2f4b963448775271221ed8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a79d22916ef4534d1503a4433e40d44c1">PickResults</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc105ddae2f4b963448775271221ed8f">pickObjects</a> (const <a class="el" href="structMR_1_1ViewportGL_1_1PickParameters.html">PickParameters</a> &amp;params, const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a> &gt; &amp;picks) const</td></tr>
+<tr class="memdesc:abc105ddae2f4b963448775271221ed8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find picked object, face id and z coordinate, of objects given in parameters (works for vector of picks)  <br /></td></tr>
 <tr class="separator:abc105ddae2f4b963448775271221ed8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd079aa214c396ca3db1f0cdc83fb5d0" id="r_afd079aa214c396ca3db1f0cdc83fb5d0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; unsigned &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd079aa214c396ca3db1f0cdc83fb5d0">findUniqueObjectsInRect</a> (const <a class="el" href="structMR_1_1ViewportGL_1_1PickParameters.html">PickParameters</a> &amp;params, const <a class="elRef" href="../Csharp/structMR_1_1Box2i.html">Box2i</a> &amp;rect, int maxRenderResolutionSide) const</td></tr>
 <tr class="separator:afd079aa214c396ca3db1f0cdc83fb5d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd238d185cc770e343e9fd80e4e1095a" id="r_afd238d185cc770e343e9fd80e4e1095a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html">ScaledPickRes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd238d185cc770e343e9fd80e4e1095a">pickObjectsInRect</a> (const <a class="el" href="structMR_1_1ViewportGL_1_1PickParameters.html">PickParameters</a> &amp;params, const <a class="elRef" href="../Csharp/structMR_1_1Box2i.html">Box2i</a> &amp;rect, int maxRenderResolutionSide) const</td></tr>
 <tr class="separator:afd238d185cc770e343e9fd80e4e1095a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This class holds data needed to render viewport primitives and accumulative picker via OpenGL. </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a28aa3f7360b6d73987f11ccc02b6a51e" name="a28aa3f7360b6d73987f11ccc02b6a51e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a28aa3f7360b6d73987f11ccc02b6a51e">&#9670;&#160;</a></span>BasePickResults</h2>
 
@@ -315,6 +329,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Copy operators do nothing, not to share GL data. </p>
+
 </div>
 </div>
 <a id="a16c05e1b059689d7bc4ed8d5e6673ac0" name="a16c05e1b059689d7bc4ed8d5e6673ac0"></a>
@@ -375,6 +391,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Check that members have been initialized. </p>
+
 </div>
 </div>
 <a id="afccb2d900dfbc38ee4f10461bcc74539" name="afccb2d900dfbc38ee4f10461bcc74539"></a>
@@ -396,6 +414,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Binds and draws viewport border. </p>
+
 </div>
 </div>
 <a id="a35ccca6814c2d2d405ce84f40381147c" name="a35ccca6814c2d2d405ce84f40381147c"></a>
@@ -416,6 +436,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Fills viewport with given color (clear frame buffer) </p>
 
 </div>
 </div>
@@ -442,6 +464,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Find unique objects in given rect (return vector of ids of objects from params) if maxRenderResolutionSide less then current rect size, downscale rendering for better performance </p>
 
 </div>
 </div>
@@ -460,6 +483,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Free all GL data. </p>
+
 </div>
 </div>
 <a id="ac2b114c03f1a2659e1e2eba7421c5aad" name="ac2b114c03f1a2659e1e2eba7421c5aad"></a>
@@ -476,6 +501,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Initialize all GL buffers and arrays. </p>
 
 </div>
 </div>
@@ -548,6 +575,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Find picked object, face id and z coordinate, of objects given in parameters (works for vector of picks) </p>
+
 </div>
 </div>
 <a id="afd238d185cc770e343e9fd80e4e1095a" name="afd238d185cc770e343e9fd80e4e1095a"></a>
@@ -573,6 +602,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Pick all pixels in rect if maxRenderResolutionSide less then current rect size, downscale rendering for better performance </p>
 
 </div>
 </div>

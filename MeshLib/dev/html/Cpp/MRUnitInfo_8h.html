@@ -165,11 +165,13 @@ $(function(){initNavTree('MRUnitInfo_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1UnitInfo.html">MR::UnitInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information about a single measurement unit. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1detail.html">MR::detail</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,6 +181,7 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="concepts" name="concepts"></a>
 Concepts</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptMR_1_1UnitEnum.html">MR::UnitEnum</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether <code>E</code> is one of the unit enums: NoUnit, LengthUnit, AngleUnit, ... <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptMR_1_1detail_1_1Units_1_1Scalar.html">MR::detail::Units::Scalar</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,12 +189,15 @@ Concepts</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a51e60d4d94856e5e896a7a222e68986e" id="r_a51e60d4d94856e5e896a7a222e68986e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51e60d4d94856e5e896a7a222e68986e">DETAIL_MR_UNIT_ENUMS</a>(X)&#160;&#160;&#160;X(NoUnit) X(LengthUnit) X(AngleUnit) X(PixelSizeUnit) X(RatioUnit) X(TimeUnit) X(MovementSpeedUnit) X(AreaUnit) X(VolumeUnit) X(InvLengthUnit)</td></tr>
+<tr class="memdesc:a51e60d4d94856e5e896a7a222e68986e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of all unit enums, for internal use.  <br /></td></tr>
 <tr class="separator:a51e60d4d94856e5e896a7a222e68986e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31e02139b1a4eba58d1b3368303217c1" id="r_a31e02139b1a4eba58d1b3368303217c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31e02139b1a4eba58d1b3368303217c1">DETAIL_MR_UNIT_VALUE_TYPES</a>(X, ...)</td></tr>
 <tr class="separator:a31e02139b1a4eba58d1b3368303217c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bd0e9453da08815bd042baada75c822" id="r_a0bd0e9453da08815bd042baada75c822"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bd0e9453da08815bd042baada75c822">MR_X</a>(E)&#160;&#160;&#160;|| std::same_as&lt;T, E&gt;</td></tr>
+<tr class="memdesc:a0bd0e9453da08815bd042baada75c822"><td class="mdescLeft">&#160;</td><td class="mdescRight">ignore for bindings to prevent GCC14 error: undefined symbol: <em>ZN2MR11getUnitInfoITkNS_8UnitEnumENS_8TimeUnitEEERKNS_8UnitInfoET</em>  <br /></td></tr>
 <tr class="separator:a0bd0e9453da08815bd042baada75c822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bd0e9453da08815bd042baada75c822" id="r_a0bd0e9453da08815bd042baada75c822"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bd0e9453da08815bd042baada75c822">MR_X</a>(E)&#160;&#160;&#160;template &lt;&gt; [[nodiscard]] <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR_BIND_IGNORE const UnitInfo&amp; getUnitInfo( E unit );</td></tr>
+<tr class="memdesc:a0bd0e9453da08815bd042baada75c822"><td class="mdescLeft">&#160;</td><td class="mdescRight">ignore for bindings to prevent GCC14 error: undefined symbol: <em>ZN2MR11getUnitInfoITkNS_8UnitEnumENS_8TimeUnitEEERKNS_8UnitInfoET</em>  <br /></td></tr>
 <tr class="separator:a0bd0e9453da08815bd042baada75c822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
@@ -204,18 +210,22 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a6443d7b50482979e4b2287d29423ee25" id="r_a6443d7b50482979e4b2287d29423ee25"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E&gt; </td></tr>
 <tr class="memitem:a6443d7b50482979e4b2287d29423ee25"><td class="memTemplItemLeft" align="right" valign="top">const <a class="elRef" href="../Csharp/classMR_1_1UnitInfo.html">UnitInfo</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6443d7b50482979e4b2287d29423ee25">MR::getUnitInfo</a> (E unit)=delete</td></tr>
+<tr class="memdesc:a6443d7b50482979e4b2287d29423ee25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns information about a single measurement unit.  <br /></td></tr>
 <tr class="separator:a6443d7b50482979e4b2287d29423ee25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7223f0b55060f4ce1f1e6f9c37ff0867" id="r_a7223f0b55060f4ce1f1e6f9c37ff0867"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E&gt; </td></tr>
 <tr class="memitem:a7223f0b55060f4ce1f1e6f9c37ff0867"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7223f0b55060f4ce1f1e6f9c37ff0867">MR::unitsAreEquivalent</a> (E a, E b)</td></tr>
+<tr class="memdesc:a7223f0b55060f4ce1f1e6f9c37ff0867"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if converting a value between units <code>a</code> and <code>b</code> doesn't change its value.  <br /></td></tr>
 <tr class="separator:a7223f0b55060f4ce1f1e6f9c37ff0867"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c2948849a79593059ba5c880d5ae050" id="r_a0c2948849a79593059ba5c880d5ae050"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E&gt; </td></tr>
 <tr class="memitem:a0c2948849a79593059ba5c880d5ae050"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0c2948849a79593059ba5c880d5ae050">MR::unitsAreEquivalent</a> (const std::optional&lt; E &gt; &amp;a, const std::optional&lt; E &gt; &amp;b)</td></tr>
+<tr class="memdesc:a0c2948849a79593059ba5c880d5ae050"><td class="mdescLeft">&#160;</td><td class="mdescRight">This version also returns true if <code>a</code> or <code>b</code> is null.  <br /></td></tr>
 <tr class="separator:a0c2948849a79593059ba5c880d5ae050"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc1dac35ba49a323ad136b896517b3b3" id="r_abc1dac35ba49a323ad136b896517b3b3"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, typename T &gt; </td></tr>
 <tr class="memitem:abc1dac35ba49a323ad136b896517b3b3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceMR_1_1detail_1_1Units.html#aec57db09655986b2ed959d498edc6f2a">detail::Units::MakeFloatingPoint</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abc1dac35ba49a323ad136b896517b3b3">MR::convertUnits</a> (E from, E to, const T &amp;value)</td></tr>
 <tr class="separator:abc1dac35ba49a323ad136b896517b3b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab07c2e27cb1322b5471e253ff9e52a0d" id="r_ab07c2e27cb1322b5471e253ff9e52a0d"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, typename T &gt; </td></tr>
 <tr class="memitem:ab07c2e27cb1322b5471e253ff9e52a0d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceMR_1_1detail_1_1Units.html#aec57db09655986b2ed959d498edc6f2a">detail::Units::MakeFloatingPoint</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab07c2e27cb1322b5471e253ff9e52a0d">MR::convertUnits</a> (const std::optional&lt; E &gt; &amp;from, const std::optional&lt; E &gt; &amp;to, const T &amp;value)</td></tr>
+<tr class="memdesc:ab07c2e27cb1322b5471e253ff9e52a0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This version is a no-op if <code>from</code> or <code>to</code> is null.  <br /></td></tr>
 <tr class="separator:ab07c2e27cb1322b5471e253ff9e52a0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -233,6 +243,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>A list of all unit enums, for internal use. </p>
 
 </div>
 </div>
@@ -260,7 +272,8 @@ Functions</h2></td></tr>
 <div class="line">    X(<span class="keywordtype">int</span>         ,__VA_ARGS__) X(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>        ,__VA_ARGS__) \</div>
 <div class="line">    X(<span class="keywordtype">long</span>        ,__VA_ARGS__) X(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>       ,__VA_ARGS__) \</div>
 <div class="line">    X(<span class="keywordtype">long</span> <span class="keywordtype">long</span>   ,__VA_ARGS__) X(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span>  ,__VA_ARGS__)</div>
-</div><!-- fragment -->
+</div><!-- fragment --><p>All supported value types for <code>valueToString()</code>. Not using <code>__VA_OPT__(,)</code> here to support legacy MSVC preprocessor. </p>
+
 </div>
 </div>
 <a id="a0bd0e9453da08815bd042baada75c822" name="a0bd0e9453da08815bd042baada75c822"></a>
@@ -278,6 +291,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>ignore for bindings to prevent GCC14 error: undefined symbol: <em>ZN2MR11getUnitInfoITkNS_8UnitEnumENS_8TimeUnitEEERKNS_8UnitInfoET</em> </p>
+
 </div>
 </div>
 <a id="a0bd0e9453da08815bd042baada75c822" name="a0bd0e9453da08815bd042baada75c822"></a>
@@ -294,6 +309,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>ignore for bindings to prevent GCC14 error: undefined symbol: <em>ZN2MR11getUnitInfoITkNS_8UnitEnumENS_8TimeUnitEEERKNS_8UnitInfoET</em> </p>
 
 </div>
 </div>

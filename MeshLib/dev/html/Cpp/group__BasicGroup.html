@@ -264,6 +264,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga042aeb0c2011b3bc175a13e96a447a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga33e26ce0b4711944b757408b0ab339a5" id="r_ga33e26ce0b4711944b757408b0ab339a5"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename ... F&gt; </td></tr>
 <tr class="memitem:ga33e26ce0b4711944b757408b0ab339a5"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga33e26ce0b4711944b757408b0ab339a5">MR::BitSetParallelForAllRanged</a> (const BS &amp;bs, F &amp;&amp;... f)</td></tr>
+<tr class="memdesc:ga33e26ce0b4711944b757408b0ab339a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">namespace <a class="el" href="namespaceMR_1_1BitSetParallel.html">BitSetParallel</a>  <br /></td></tr>
 <tr class="separator:ga33e26ce0b4711944b757408b0ab339a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga82bab0dac0d1604747ecff512e8a091a" id="r_ga82bab0dac0d1604747ecff512e8a091a"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename L , typename ... F&gt; </td></tr>
 <tr class="memitem:ga82bab0dac0d1604747ecff512e8a091a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga82bab0dac0d1604747ecff512e8a091a">MR::BitSetParallelForAllRanged</a> (const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;... f)</td></tr>
@@ -361,6 +362,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:gae9a27addfa702ba60eeaca8d967e2d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts wide null terminating string to UTF8-encoded string  <br /></td></tr>
 <tr class="separator:gae9a27addfa702ba60eeaca8d967e2d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaeaebbb2f1efd81e84ec37217bb4edf4c" id="r_gaeaebbb2f1efd81e84ec37217bb4edf4c"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeaebbb2f1efd81e84ec37217bb4edf4c">MR::asString</a> (const std::string &amp;s)</td></tr>
+<tr class="memdesc:gaeaebbb2f1efd81e84ec37217bb4edf4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::u8string is not defined  <br /></td></tr>
 <tr class="separator:gaeaebbb2f1efd81e84ec37217bb4edf4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa7dfbd8929d54cde238ceb82f7836fcc" id="r_gaa7dfbd8929d54cde238ceb82f7836fcc"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa7dfbd8929d54cde238ceb82f7836fcc">MR::asU8String</a> (const std::string &amp;s)</td></tr>
 <tr class="separator:gaa7dfbd8929d54cde238ceb82f7836fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -442,6 +444,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>std::u8string is not defined </p>
 
 </div>
 </div>
@@ -758,6 +762,8 @@ template&lt;typename BS , typename ... F&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>namespace <a class="el" href="namespaceMR_1_1BitSetParallel.html">BitSetParallel</a> </p>
 <p>executes given function f( bit, subBitRange ) for each bit in bitRange in parallel threads, where (subBitRange) are the bits that will be processed by the same thread; it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
 
 </div>
@@ -1282,6 +1288,8 @@ template&lt;typename ... Ts&gt; </div>
 </div><div class="memdoc">
 
 <p>returns the amount of memory given HashMap occupies on heap </p>
+<p>from parallel_hashmap/phmap.h: The control state and slot array are stored contiguously in a shared heap allocation. The layout of this allocation is: <code>capacity()</code> control bytes, one sentinel control byte, <code>Group::kWidth - 1</code> cloned control bytes, &lt;possible padding&gt;, <code>capacity()</code> slots</p>
+<p>the usage of phmap::priv::Group::kWidth here will require inclusion of phmap.h</p>
 
 </div>
 </div>
@@ -2166,7 +2174,7 @@ template&lt;typename I , typename L , typename F , typename ... Cb&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Redirects stdcout stdcerr stdclog to default logger </p><dl class="section note"><dt>Note</dt><dd>do not call this function directly if you use <a class="el" href="namespaceMR.html#a1e251c5988273136d8a8cf12655f3f0d">MR::setupLoggerByDefault()</a> </dd></dl>
+<p>Redirects stdcout stdcerr stdclog to default logger </p><dl class="section note"><dt>Note</dt><dd>do not call this function directly if you use <a class="el" href="namespaceMR.html#a1e251c5988273136d8a8cf12655f3f0d" title="_WIN32">MR::setupLoggerByDefault()</a> </dd></dl>
 
 </div>
 </div>

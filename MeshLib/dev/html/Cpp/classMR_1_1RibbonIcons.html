@@ -153,6 +153,9 @@ $(function(){initNavTree('classMR_1_1RibbonIcons.html',''); initResizable(true);
 </div><!--header-->
 <div class="contents">
 
+<p>this class holds icons for ribbon items  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRRibbonIcons_8h_source.html">MRRibbonIcons.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -175,13 +178,18 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9719cda5e63b461becae03d081f6c564" id="r_a9719cda5e63b461becae03d081f6c564"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9719cda5e63b461becae03d081f6c564">load</a> ()</td></tr>
+<tr class="memdesc:a9719cda5e63b461becae03d081f6c564"><td class="mdescLeft">&#160;</td><td class="mdescRight">this should be called once on start of program (called in <a class="el" href="classMR_1_1RibbonMenu.html#a75ae516e9ba2cc3916a137c3b723da57" title="This function is called when the viewer is initialized (no mesh will be loaded at this stage)">RibbonMenu::init</a>)  <br /></td></tr>
 <tr class="separator:a9719cda5e63b461becae03d081f6c564"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af834f6c83c9f7dd9c55a0a6aa20a8e45" id="r_af834f6c83c9f7dd9c55a0a6aa20a8e45"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af834f6c83c9f7dd9c55a0a6aa20a8e45">free</a> ()</td></tr>
+<tr class="memdesc:af834f6c83c9f7dd9c55a0a6aa20a8e45"><td class="mdescLeft">&#160;</td><td class="mdescRight">this should be called once before program stops (called in <a class="el" href="classMR_1_1RibbonMenu.html#a304f2add3b4e9221b6accdcf46c2bb68" title="This function is called before shutdown.">RibbonMenu::shutdown</a>)  <br /></td></tr>
 <tr class="separator:af834f6c83c9f7dd9c55a0a6aa20a8e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a679b258211e9754bfe36635ba6a2eca2" id="r_a679b258211e9754bfe36635ba6a2eca2"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const <a class="el" href="classMR_1_1ImGuiImage.html">ImGuiImage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a679b258211e9754bfe36635ba6a2eca2">findByName</a> (const std::string &amp;name, float <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, <a class="el" href="#acd06ecfde8f0637bb01c0d36d8605bef">ColorType</a> colorType, <a class="el" href="#a2d10e82f8fd5c6cc53279374e9bd3931">IconType</a> iconType)</td></tr>
+<tr class="memdesc:a679b258211e9754bfe36635ba6a2eca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds icon with best fitting size, if there is no returns nullptr  <br /></td></tr>
 <tr class="separator:a679b258211e9754bfe36635ba6a2eca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>this class holds icons for ribbon items </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="acd06ecfde8f0637bb01c0d36d8605bef" name="acd06ecfde8f0637bb01c0d36d8605bef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acd06ecfde8f0637bb01c0d36d8605bef">&#9670;&#160;</a></span>ColorType</h2>
 
@@ -229,10 +237,14 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2d10e82f8fd5c6cc53279374e9bd3931a35e029f5ff6bcc67b6ecc2e445c498f2" name="a2d10e82f8fd5c6cc53279374e9bd3931a35e029f5ff6bcc67b6ecc2e445c498f2"></a>RibbonItemIcon&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2d10e82f8fd5c6cc53279374e9bd3931af039b462df0cff215dbf650d8b6e3ce9" name="a2d10e82f8fd5c6cc53279374e9bd3931af039b462df0cff215dbf650d8b6e3ce9"></a>ObjectTypeIcon&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2d10e82f8fd5c6cc53279374e9bd3931a9343317ce8e6d82b76c743f07e14ed1d" name="a2d10e82f8fd5c6cc53279374e9bd3931a9343317ce8e6d82b76c743f07e14ed1d"></a>IndependentIcons&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2d10e82f8fd5c6cc53279374e9bd3931a2ada7b483f52be3afc92b8d3b07896d9" name="a2d10e82f8fd5c6cc53279374e9bd3931a2ada7b483f52be3afc92b8d3b07896d9"></a>Logos&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9" name="a2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2d10e82f8fd5c6cc53279374e9bd3931af039b462df0cff215dbf650d8b6e3ce9" name="a2d10e82f8fd5c6cc53279374e9bd3931af039b462df0cff215dbf650d8b6e3ce9"></a>ObjectTypeIcon&#160;</td><td class="fielddoc"><p>have four sizes </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a2d10e82f8fd5c6cc53279374e9bd3931a9343317ce8e6d82b76c743f07e14ed1d" name="a2d10e82f8fd5c6cc53279374e9bd3931a9343317ce8e6d82b76c743f07e14ed1d"></a>IndependentIcons&#160;</td><td class="fielddoc"><p>have two sizes </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a2d10e82f8fd5c6cc53279374e9bd3931a2ada7b483f52be3afc92b8d3b07896d9" name="a2d10e82f8fd5c6cc53279374e9bd3931a2ada7b483f52be3afc92b8d3b07896d9"></a>Logos&#160;</td><td class="fielddoc"><p>have two sizes </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9" name="a2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"><p>have two sizes </p>
+</td></tr>
 </table>
 
 </div>
@@ -275,6 +287,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>finds icon with best fitting size, if there is no returns nullptr </p>
+
 </div>
 </div>
 <a id="af834f6c83c9f7dd9c55a0a6aa20a8e45" name="af834f6c83c9f7dd9c55a0a6aa20a8e45"></a>
@@ -300,6 +314,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>this should be called once before program stops (called in <a class="el" href="classMR_1_1RibbonMenu.html#a304f2add3b4e9221b6accdcf46c2bb68" title="This function is called before shutdown.">RibbonMenu::shutdown</a>) </p>
+
 </div>
 </div>
 <a id="a9719cda5e63b461becae03d081f6c564" name="a9719cda5e63b461becae03d081f6c564"></a>
@@ -324,6 +340,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>this should be called once on start of program (called in <a class="el" href="classMR_1_1RibbonMenu.html#a75ae516e9ba2cc3916a137c3b723da57" title="This function is called when the viewer is initialized (no mesh will be loaded at this stage)">RibbonMenu::init</a>) </p>
 
 </div>
 </div>

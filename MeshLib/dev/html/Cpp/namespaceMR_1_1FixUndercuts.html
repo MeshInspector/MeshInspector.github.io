@@ -477,6 +477,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Changes mesh: Fills all holes first, then: fixes undercuts (in selected area) via prolonging widest points down Requires to update RenderObject after using upDirection is in mesh space voxelSize - size of voxel in mesh rasterization, precision grows with lower voxelSize bottomExtension - this parameter specifies how long should bottom prolongation be, if (bottomExtension &lt;= 0) bottomExtension = 2*voxelSize if mesh is not closed this is used to prolong hole and make bottom</p>
+<p>if voxelSize == 0.0f it will be counted automaticly </p>
 
 </div>
 </div>
@@ -508,6 +510,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Changes mesh: Fills all holes first, then: fixes undercuts via prolonging widest points down Requires to update RenderObject after using upDirection is in mesh space voxelSize - size of voxel in mesh rasterization, precision grows with lower voxelSize bottomExtension - this parameter specifies how long should bottom prolongation be, if (bottomExtension &lt;= 0) bottomExtension = 2*voxelSize if mesh is not closed this is used to prolong hole and make bottom</p>
+<p>if voxelSize == 0.0f it will be counted automaticly </p>
 
 </div>
 </div>
@@ -596,7 +600,7 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section note"><dt>Note</dt><dd>does not support wallAngle yet <hr  />
+<p><a class="elRef" href="../Csharp/classMR_1_1Parallel.html">Parallel</a> finds best of several directions defined by <a class="elRef" href="../Csharp/classMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html">ImproveDirectionParameters</a> struct </p><dl class="section note"><dt>Note</dt><dd>does not support wallAngle yet <hr  />
  Top view: / __/ -----&gt; maximum radial line Side view: | / _/ / / \/ \ \ | / _/ - maxBaseAngle |&ndash;|---&mdash;|&ndash;| | / _/ difference between two angles is baseAngleStep \ _/_/ / | / _/ __/____/ |/_/ This picture shows polarAngle = 60 deg </dd></dl>
 
 </div>

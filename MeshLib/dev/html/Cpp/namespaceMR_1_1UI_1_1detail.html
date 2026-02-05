@@ -155,8 +155,10 @@ $(function(){initNavTree('namespaceMR_1_1UI_1_1detail.html',''); initResizable(t
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="concepts" name="concepts"></a>
 Concepts</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptMR_1_1UI_1_1detail_1_1Scalar.html">Scalar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether <code>T</code> is a scalar type that we can use with our widgets. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html">VectorOrScalar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether <code>T</code> is a scalar or vector that we can use with our widgets. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html">ValidBoundForTargetType</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,8 +168,10 @@ Concepts</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a725a5cb7e447bbae4a1ae586a0f981d9" id="r_a725a5cb7e447bbae4a1ae586a0f981d9"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a725a5cb7e447bbae4a1ae586a0f981d9">setScale</a> (float newScale)</td></tr>
+<tr class="memdesc:a725a5cb7e447bbae4a1ae586a0f981d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strictly for internal use. Updates the value that <code><a class="el" href="namespaceMR_1_1UI.html#a5d2fd1d58ef16bcced4cfefc67d2c023" title="Returns the global UI scale. Use this instead of passing around the scale in parameters.">scale()</a></code> returns.  <br /></td></tr>
 <tr class="separator:a725a5cb7e447bbae4a1ae586a0f981d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94d9e7cba8a9ce853aeee7b29b563391" id="r_a94d9e7cba8a9ce853aeee7b29b563391"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94d9e7cba8a9ce853aeee7b29b563391">genericSlider</a> (const char *label, ImGuiDataType data_type, void *p_data, const void *p_min, const void *p_max, const char *format, ImGuiSliderFlags flags)</td></tr>
+<tr class="memdesc:a94d9e7cba8a9ce853aeee7b29b563391"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type-erased slider.  <br /></td></tr>
 <tr class="separator:a94d9e7cba8a9ce853aeee7b29b563391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab56fe865a416552aa6f504ce57514ae3" id="r_ab56fe865a416552aa6f504ce57514ae3"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, VectorOrScalar T, typename F &gt; </td></tr>
 <tr class="memitem:ab56fe865a416552aa6f504ce57514ae3"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab56fe865a416552aa6f504ce57514ae3">unitWidget</a> (const char *label, T &amp;v, <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; &amp;unitParams, F &amp;&amp;func)</td></tr>
@@ -218,6 +222,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>A type-erased slider. </p>
+
 </div>
 </div>
 <a id="a725a5cb7e447bbae4a1ae586a0f981d9" name="a725a5cb7e447bbae4a1ae586a0f981d9"></a>
@@ -234,6 +240,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Strictly for internal use. Updates the value that <code><a class="el" href="namespaceMR_1_1UI.html#a5d2fd1d58ef16bcced4cfefc67d2c023" title="Returns the global UI scale. Use this instead of passing around the scale in parameters.">scale()</a></code> returns. </p>
 
 </div>
 </div>
@@ -275,6 +283,7 @@ template&lt;UnitEnum E, VectorOrScalar T, typename F &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>A common code for sliders and other widgets dealing with measurement units. <code>E</code> must be explicitly set to a measurement unit enum. The other template parameters are deduced. <code>label</code> is the widget label, <code>v</code> is the target value. <code>func</code> draws the widget for an individual scalar. We call it more than once for vectors. <code>func</code> is <code>( const char* label, auto&amp; elem, int i ) -&gt; bool</code>. It receives <code>elem</code> already converted to the display units (so you must convert min/max bounds manually). <code>i</code> is the element index for vectors. When <code>v</code> is integral, <code>func</code> will be instantiated for both integral and floating-point element type. The latter is required if we're doing conversions. NOTE: For integral <code>v</code>, in <code>func</code> you must look at the type of <code>elem</code> and convert your min/max bounds (etc) to the same type. Notice <code>unitParams</code> being accepted by an lvalue reference. For convenience, we reset the <code>sourceUnit</code> in it before calling the user callback, since at that point no further conversions are necessary. </p>
 
 </div>
 </div>

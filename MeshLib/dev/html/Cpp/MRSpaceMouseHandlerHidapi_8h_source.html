@@ -203,7 +203,6 @@ $(function(){initNavTree('MRSpaceMouseHandlerHidapi_8h_source.html',''); initRes
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keyword">public</span>:</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordtype">void</span> resetDevice( <a class="code hl_typedef" href="namespaceMR_1_1SpaceMouse.html#abf82e89e6fb5b9737517cfd1d6f69e18">VendorId</a> vId = 0, <a class="code hl_typedef" href="namespaceMR_1_1SpaceMouse.html#a0125a493583e2d875e2b9cb7607f9ef0">ProductId</a> pId = 0 );</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="comment">// update (rewrite its data) SpaceMouseAction if DataPacketRaw is not empty</span></div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordtype">void</span> parseRaw( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR_1_1SpaceMouse.html#afea9877496a4f6098c6687dbbae1ac62">DataPacketRaw</a>&amp; packet, <span class="keywordtype">int</span> packet_length, <a class="code hl_struct" href="structMR_1_1SpaceMouse_1_1Action.html">Action</a>&amp; action ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordtype">void</span> process( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SpaceMouse_1_1Action.html">Action</a>&amp; action );</div>
@@ -216,9 +215,9 @@ $(function(){initNavTree('MRSpaceMouseHandlerHidapi_8h_source.html',''); initRes
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">size_t</span> numMsg_ = 0;</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    std::thread listenerThread_;</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    std::atomic_bool terminateListenerThread_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    std::mutex syncThreadMutex_; <span class="comment">// which thread reads and handles SpaceMouse data</span></div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    std::condition_variable cv_; <span class="comment">// notify on thread change</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    DataPacketRaw dataPacket_;    <span class="comment">// packet from listener thread</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    std::mutex syncThreadMutex_; </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    std::condition_variable cv_; </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    DataPacketRaw dataPacket_;    </div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordtype">int</span> packetLength_ = 0;</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    std::atomic_bool active_{ <span class="keyword">false</span> };</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>};</div>

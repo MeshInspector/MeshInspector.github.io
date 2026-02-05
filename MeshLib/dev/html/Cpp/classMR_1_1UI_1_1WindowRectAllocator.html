@@ -152,6 +152,9 @@ $(function(){initNavTree('classMR_1_1UI_1_1WindowRectAllocator.html',''); initRe
 </div><!--header-->
 <div class="contents">
 
+<p>A rect allocator specifically for <a class="el" href="namespaceImGui.html">ImGui</a> windows.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRUIRectAllocator_8h_source.html">MRUIRectAllocator.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::UI::WindowRectAllocator:</div>
@@ -170,6 +173,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a38bb8cbe2433b411b130857219fc3be4" id="r_a38bb8cbe2433b411b130857219fc3be4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38bb8cbe2433b411b130857219fc3be4">setFreeNextWindowPos</a> (const char *expectedWindowName, ImVec2 defaultPos, ImGuiCond cond=ImGuiCond_Appearing, ImVec2 pivot=ImVec2())</td></tr>
 <tr class="separator:a38bb8cbe2433b411b130857219fc3be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4aa3ae308165ceab5cad3ae36dd1131" id="r_ae4aa3ae308165ceab5cad3ae36dd1131"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4aa3ae308165ceab5cad3ae36dd1131">invalidateClosedWindows</a> ()</td></tr>
+<tr class="memdesc:ae4aa3ae308165ceab5cad3ae36dd1131"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this once at the begining of <a class="el" href="namespaceImGui.html">ImGui</a> frame, to remove all closed windows from entries list.  <br /></td></tr>
 <tr class="separator:ae4aa3ae308165ceab5cad3ae36dd1131"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1UI_1_1RectAllocator"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1UI_1_1RectAllocator')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1UI_1_1RectAllocator.html">MR::UI::RectAllocator</a></td></tr>
 <tr class="memitem:a82d78572d266d3a2f29eadf99dd00f9e inherit pub_methods_classMR_1_1UI_1_1RectAllocator" id="r_a82d78572d266d3a2f29eadf99dd00f9e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UI_1_1RectAllocator.html#a82d78572d266d3a2f29eadf99dd00f9e">RectAllocator</a> ()</td></tr>
@@ -186,7 +190,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a91ef8171f989554a528459da9f0c603a inherit pub_static_methods_classMR_1_1UI_1_1RectAllocator" id="r_a91ef8171f989554a528459da9f0c603a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UI_1_1RectAllocator.html#a91ef8171f989554a528459da9f0c603a">rectRectOverlap</a> (<a class="elRef" href="../Csharp/structMR_1_1Box2f.html">Box2f</a> a, <a class="elRef" href="../Csharp/structMR_1_1Box2f.html">Box2f</a> b)</td></tr>
 <tr class="separator:a91ef8171f989554a528459da9f0c603a inherit pub_static_methods_classMR_1_1UI_1_1RectAllocator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A rect allocator specifically for <a class="el" href="namespaceImGui.html">ImGui</a> windows. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae4aa3ae308165ceab5cad3ae36dd1131" name="ae4aa3ae308165ceab5cad3ae36dd1131"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae4aa3ae308165ceab5cad3ae36dd1131">&#9670;&#160;</a></span>invalidateClosedWindows()</h2>
 
@@ -201,6 +207,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Call this once at the begining of <a class="el" href="namespaceImGui.html">ImGui</a> frame, to remove all closed windows from entries list. </p>
 
 </div>
 </div>
@@ -232,6 +240,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Call this before drawing a window. <code>expectedWindowName</code> must match the window name. The remaining parameters are forwarded to <code>ImGui::SetNextWindowPos()</code>, expect for one time where we find a free rect and use it instead. <code>cond</code> must not be <code>ImGuiCond_Always</code> (aka 0), in that case we just forward the arguments and don't try to find a rect. We automatically avoid all windows with <code>[rect_allocator_ignore]</code> anywhere after <code>##</code> in the name. </p>
 
 </div>
 </div>

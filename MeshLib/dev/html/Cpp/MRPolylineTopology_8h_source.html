@@ -153,7 +153,6 @@ $(function(){initNavTree('MRPolylineTopology_8h_source.html',''); initResizable(
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector_8h.html">MRVector.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRId_8h.html">MRId.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">// for template implementation:</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRBitSet_8h.html">MRBitSet.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
@@ -318,7 +317,7 @@ $(function(){initNavTree('MRPolylineTopology_8h_source.html',''); initResizable(
 <div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>            closed.push_back( <span class="keyword">false</span> );</div>
 <div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>        }</div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>        <span class="keywordflow">if</span> ( csize &lt; 2 )</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>            <span class="keywordflow">continue</span>; <span class="comment">// ignore contours with 0 or 1 points because of no edges in them</span></div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>            <span class="keywordflow">continue</span>; </div>
 <div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>        <a class="code hl_function" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a> += c.size();</div>
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>        <span class="keywordflow">if</span> ( closed.back() )</div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>            ++numClosed;</div>
@@ -331,7 +330,7 @@ $(function(){initNavTree('MRPolylineTopology_8h_source.html',''); initResizable(
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    {</div>
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; c = contours[i];</div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>        <span class="keywordflow">if</span> ( c.size() &lt; 2 )</div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>            <span class="keywordflow">continue</span>; <span class="comment">// ignore contours with 0 or 1 points because of no edges in them</span></div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>            <span class="keywordflow">continue</span>; </div>
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>        <span class="keyword">const</span> <span class="keyword">auto</span> e0 = <a class="code hl_functionRef" href="../Csharp/classMR_1_1PolylineTopology.html#acc90a082b163f53ba81785b2ab187bb0">makeEdge</a>();</div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>        <span class="keyword">const</span> <span class="keyword">auto</span> v0 = addPoint( c[0] );</div>
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>        <a class="code hl_functionRef" href="../Csharp/classMR_1_1PolylineTopology.html#a36e3a01b99f3c3dd84f78c0d18297d76">setOrg</a>( e0, v0 );</div>
@@ -441,7 +440,7 @@ $(function(){initNavTree('MRPolylineTopology_8h_source.html',''); initResizable(
 <div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span>    EdgeId e0_, eLast_;</div>
 <div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span>};</div>
 <div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span> </div>
-<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span>} </div>
 <div class="ttc" id="aMRBitSet_8h_html"><div class="ttname"><a href="MRBitSet_8h.html">MRBitSet.h</a></div></div>
 <div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
@@ -475,7 +474,7 @@ $(function(){initNavTree('MRPolylineTopology_8h_source.html',''); initResizable(
 <div class="ttc" id="aclassMR_1_1PolylineTopology_html_acc90a082b163f53ba81785b2ab187bb0"><div class="ttname"><a href="../Csharp/classMR_1_1PolylineTopology.html#acc90a082b163f53ba81785b2ab187bb0">MR::PolylineTopology::makeEdge</a></div><div class="ttdeci">unsafe MR.EdgeId makeEdge()</div></div>
 <div class="ttc" id="aclassMR_1_1PolylineTopology_html_ae5dc1a01d4d16febb475d1ee5ee66e4c"><div class="ttname"><a href="../Csharp/classMR_1_1PolylineTopology.html#ae5dc1a01d4d16febb475d1ee5ee66e4c">MR::PolylineTopology::addPartByMask</a></div><div class="ttdeci">unsafe void addPartByMask(MR.Const_PolylineTopology from, MR.Const_UndirectedEdgeBitSet mask, MR.VertMap? outVmap=null, MR.EdgeMap? outEmap=null)</div></div>
 <div class="ttc" id="aclassMR_1_1VertBitSet_html_ae8bb30a75ff5ece916a17b7b3ea2397e"><div class="ttname"><a href="../Csharp/classMR_1_1VertBitSet.html#ae8bb30a75ff5ece916a17b7b3ea2397e">MR::VertBitSet::reserve</a></div><div class="ttdeci">unsafe void reserve(ulong numBits)</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a306ff1f62992b3eb33c446913b64188a"><div class="ttname"><a href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">MR::size</a></div><div class="ttdeci">ImVec2 size(const ViewportRectangle &amp;rect)</div><div class="ttdef"><b>Definition</b> MRViewport.h:29</div></div>
 <div class="ttc" id="astructMR_1_1EdgeId_html_a794e648ecd42678ac40949a7659012b1"><div class="ttname"><a href="../Csharp/structMR_1_1EdgeId.html#a794e648ecd42678ac40949a7659012b1">MR::EdgeId::sym</a></div><div class="ttdeci">readonly unsafe MR.EdgeId sym()</div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -161,6 +161,7 @@ $(function(){initNavTree('MRViewerFwd_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1SpaceMouse.html">MR::SpaceMouse</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,6 +169,7 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a86f52f96ec63151904d02607a5519085" id="r_a86f52f96ec63151904d02607a5519085"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86f52f96ec63151904d02607a5519085">MR_DELETE_MOVE</a>(StaticClassName)</td></tr>
+<tr class="memdesc:a86f52f96ec63151904d02607a5519085"><td class="mdescLeft">&#160;</td><td class="mdescRight">this is needed as far as MAKE_SLOT cannot be used with movable classes  <br /></td></tr>
 <tr class="separator:a86f52f96ec63151904d02607a5519085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab87250b45207cc9942d0f5a85d6cf58" id="r_aab87250b45207cc9942d0f5a85d6cf58"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab87250b45207cc9942d0f5a85d6cf58">MR_ADD_CTOR_DELETE_MOVE</a>(StaticClassName)</td></tr>
 <tr class="separator:aab87250b45207cc9942d0f5a85d6cf58"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -210,6 +212,8 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">StaticClassName(StaticClassName&amp;&amp;)noexcept = delete;\</div>
 <div class="line">StaticClassName&amp; operator=(StaticClassName&amp;&amp;)noexcept = delete</div>
 </div><!-- fragment -->
+<p>this is needed as far as MAKE_SLOT cannot be used with movable classes </p>
+
 </div>
 </div>
 </div><!-- contents -->

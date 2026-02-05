@@ -162,8 +162,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0ac964ec690237b3791e95a800bfff16" id="r_a0ac964ec690237b3791e95a800bfff16"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ac964ec690237b3791e95a800bfff16">emplace</a> (std::string name, ViewerEventCallback cb, bool skipable=false)</td></tr>
 <tr class="separator:a0ac964ec690237b3791e95a800bfff16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7786b393619359bbf34f212c51d10847" id="r_a7786b393619359bbf34f212c51d10847"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7786b393619359bbf34f212c51d10847">execute</a> ()</td></tr>
+<tr class="memdesc:a7786b393619359bbf34f212c51d10847"><td class="mdescLeft">&#160;</td><td class="mdescRight">execute all events in queue  <br /></td></tr>
 <tr class="separator:a7786b393619359bbf34f212c51d10847"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaacbdee8b3cf4b94fa853c60dee77504" id="r_aaacbdee8b3cf4b94fa853c60dee77504"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaacbdee8b3cf4b94fa853c60dee77504">popByName</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:aaacbdee8b3cf4b94fa853c60dee77504"><td class="mdescLeft">&#160;</td><td class="mdescRight">pop all events while they have this name  <br /></td></tr>
 <tr class="separator:aaacbdee8b3cf4b94fa853c60dee77504"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a011b2b74f1d6d279fe0e49dd1f4edba9" id="r_a011b2b74f1d6d279fe0e49dd1f4edba9"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a011b2b74f1d6d279fe0e49dd1f4edba9">empty</a> () const</td></tr>
 <tr class="separator:a011b2b74f1d6d279fe0e49dd1f4edba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,6 +196,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>emplace event at the end of the queue replace last skipable with new skipable </p>
 
 </div>
 </div>
@@ -229,6 +232,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>execute all events in queue </p>
+
 </div>
 </div>
 <a id="aaacbdee8b3cf4b94fa853c60dee77504" name="aaacbdee8b3cf4b94fa853c60dee77504"></a>
@@ -245,6 +250,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>pop all events while they have this name </p>
 
 </div>
 </div>

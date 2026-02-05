@@ -252,7 +252,7 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>consider a mesh where each vertex has additive weight, and this weight is linearly interpolated in mesh triangles, and the distance to a point is considered equal to (euclidean distance - weight), constructs iso-surface of such distance field corresponding to params.offset value using marching cubes </p>
+<p>consider a mesh where each vertex has additive weight, and this weight is linearly interpolated in mesh triangles, and the distance to a point is considered equal to (euclidean distance - weight), constructs iso-surface of such distance field corresponding to params.offset value using marching cubes MR_BIND_IGNORE to hide this function in Python API because calling Python's Lambda will be extremely slow anyway </p>
 
 </div>
 </div>
@@ -415,7 +415,7 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>consider a point cloud where each point has additive weight, and the distance to a point is considered equal to (euclidean distance - weight), constructs iso-surface of such distance field corresponding to params.offset value using marching cubes </p>
+<p>consider a point cloud where each point has additive weight, and the distance to a point is considered equal to (euclidean distance - weight), constructs iso-surface of such distance field corresponding to params.offset value using marching cubes MR_BIND_IGNORE to hide this function in Python API because calling Python's Lambda will be extremely slow anyway </p>
 
 </div>
 </div>

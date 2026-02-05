@@ -152,6 +152,9 @@ $(function(){initNavTree('structMR_1_1ProgressInterrupter.html',''); initResizab
 </div><!--header-->
 <div class="contents">
 
+<p>This class implements OpenVdb interrupter interface and provides ability to use MR::ProgressCallback in some OpenVdb operations.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRVDBProgressInterrupter_8h_source.html">MRVDBProgressInterrupter.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::ProgressInterrupter:</div>
@@ -171,7 +174,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a448f23c735ae1b223b8b928ff4a2deb3" id="r_a448f23c735ae1b223b8b928ff4a2deb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a448f23c735ae1b223b8b928ff4a2deb3">getWasInterrupted</a> () const</td></tr>
 <tr class="separator:a448f23c735ae1b223b8b928ff4a2deb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This class implements OpenVdb interrupter interface and provides ability to use MR::ProgressCallback in some OpenVdb operations. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad4f40f015b6a225a963200f8fced9ea8" name="ad4f40f015b6a225a963200f8fced9ea8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad4f40f015b6a225a963200f8fced9ea8">&#9670;&#160;</a></span>ProgressInterrupter()</h2>
 
@@ -245,6 +250,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>OpenVdb uses worker threads from pool, in addition to the caller thread. It is assumed that the callback is periodically called in the caller thread.</p>
 
 </div>
 </div>

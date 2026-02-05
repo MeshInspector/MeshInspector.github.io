@@ -252,7 +252,7 @@ $(function(){initNavTree('MRVoxelsVolumeCachingAccessor_8h_source.html',''); ini
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        firstLayerVoxelId_[layerIndex] = indexer_.<a class="code hl_function" href="group__VoxelGroup.html#ga1e9ca6412f80a5ce4751fb16cad4ce2c">toVoxelId</a>( Vector3i{ 0, 0, z } );</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="group__BasicGroup.html#gaf184f372f735726148d7a07cbbbb29af">ParallelFor</a>( 0, dims.y, [&amp;]( <span class="keywordtype">int</span> y )</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        {</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>            auto accessor = accessor_; <span class="comment">// only for OpenVDB accessor, which is not thread-safe</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>            auto accessor = accessor_; </div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>            auto loc = indexer_.toLoc( Vector3i{ 0, y, z } );</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>            <span class="keywordtype">size_t</span> n = size_t( y ) * dims.x;</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>            <span class="keywordflow">for</span> ( loc.pos.x = 0; loc.pos.x &lt; dims.x; ++loc.pos.x, ++loc.id, ++n )</div>
@@ -271,10 +271,10 @@ $(function(){initNavTree('MRVoxelsVolumeCachingAccessor_8h_source.html',''); ini
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>};</div>
 </div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>} </div>
 <div class="ttc" id="aMRParallelFor_8h_html"><div class="ttname"><a href="MRParallelFor_8h.html">MRParallelFor.h</a></div></div>
 <div class="ttc" id="aMRTimer_8h_html"><div class="ttname"><a href="MRTimer_8h.html">MRTimer.h</a></div></div>
-<div class="ttc" id="aMRTimer_8h_html_adf7fc408af3ac6d6583cc0ca173120ae"><div class="ttname"><a href="MRTimer_8h.html#adf7fc408af3ac6d6583cc0ca173120ae">MR_TIMER</a></div><div class="ttdeci">#define MR_TIMER</div><div class="ttdef"><b>Definition</b> MRTimer.h:56</div></div>
+<div class="ttc" id="aMRTimer_8h_html_adf7fc408af3ac6d6583cc0ca173120ae"><div class="ttname"><a href="MRTimer_8h.html#adf7fc408af3ac6d6583cc0ca173120ae">MR_TIMER</a></div><div class="ttdeci">#define MR_TIMER</div><div class="ttdoc">namespace MR</div><div class="ttdef"><b>Definition</b> MRTimer.h:56</div></div>
 <div class="ttc" id="aMRVoxelsVolumeAccess_8h_html"><div class="ttname"><a href="MRVoxelsVolumeAccess_8h.html">MRVoxelsVolumeAccess.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1VolumeIndexer_html"><div class="ttname"><a href="../Csharp/classMR_1_1VolumeIndexer.html">MR::VolumeIndexer</a></div><div class="ttdef"><b>Definition</b> MRVolumeIndexer.h:65</div></div>
 <div class="ttc" id="aclassMR_1_1VoxelLocation_html"><div class="ttname"><a href="../Csharp/classMR_1_1VoxelLocation.html">MR::VoxelLocation</a></div><div class="ttdef"><b>Definition</b> MRVolumeIndexer.h:56</div></div>
@@ -293,7 +293,7 @@ $(function(){initNavTree('MRVoxelsVolumeCachingAccessor_8h_source.html',''); ini
 <div class="ttc" id="agroup__VoxelGroup_html_ga1e9ca6412f80a5ce4751fb16cad4ce2c"><div class="ttname"><a href="group__VoxelGroup.html#ga1e9ca6412f80a5ce4751fb16cad4ce2c">MR::VolumeIndexer::toVoxelId</a></div><div class="ttdeci">VoxelId toVoxelId(const Vector3i &amp;pos) const</div><div class="ttdef"><b>Definition</b> MRVolumeIndexer.h:141</div></div>
 <div class="ttc" id="agroup__VoxelGroup_html_ga242530ea0c7771c807c769bcb292f37f"><div class="ttname"><a href="group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">MR::VolumeIndexer::dims</a></div><div class="ttdeci">const Vector3i &amp; dims() const</div><div class="ttdef"><b>Definition</b> MRVolumeIndexer.h:69</div></div>
 <div class="ttc" id="agroup__VoxelGroup_html_gaf0d94fe95fbc290e175743a06ad3d1c6"><div class="ttname"><a href="group__VoxelGroup.html#gaf0d94fe95fbc290e175743a06ad3d1c6">MR::VolumeIndexer::sizeXY</a></div><div class="ttdeci">size_t sizeXY() const</div><div class="ttdef"><b>Definition</b> MRVolumeIndexer.h:77</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_aa7718474a39816227de773e1ba6fdfa8"><div class="ttname"><a href="namespaceMR.html#aa7718474a39816227de773e1ba6fdfa8">MR::subprogress</a></div><div class="ttdeci">ProgressCallback subprogress(ProgressCallback cb, float from, float to)</div><div class="ttdoc">returns a callback that maps [0,1] linearly into [from,to] in the call to</div><div class="ttdef"><b>Definition</b> MRProgressCallback.h:49</div></div>
 <div class="ttc" id="astructMR_1_1Vector3i_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3i.html">MR::Vector3i</a></div></div>
 <div class="ttc" id="astructMR_1_1Vector3i_html_a41eae45719419d4cd84f423e343caab9"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3i.html#a41eae45719419d4cd84f423e343caab9">MR::Vector3i::y</a></div><div class="ttdeci">int y</div></div>

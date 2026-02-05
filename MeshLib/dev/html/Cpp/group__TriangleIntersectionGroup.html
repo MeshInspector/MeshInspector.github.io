@@ -272,6 +272,13 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>returns true if a plane containing edge XY separates point Z from triangle UVW </p>
+<p>now d is orthogonal to xy</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">d</td><td>approximate normal of the plane </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -312,6 +319,9 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>checks whether triangle ABC and infinite line DE intersect </p>
+<p>segment AC is located at one side of the plane DEB</p>
+<p>segment AB is located at one side of the plane DEC</p>
+<p>segment BC is located at one side of the plane DEA</p>
 
 </div>
 </div>
@@ -352,6 +362,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>checks whether triangle ABC and segment DE intersect </p>
+<p>segment DE is located at one side of the plane ABC</p>
 
 </div>
 </div>
@@ -396,6 +407,20 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>checks whether triangles ABC and DEF intersect returns false if ABC and DEF are coplanar </p>
+<p>segment DE is located at one side of the plane ABC</p>
+<p>segment FD is located at one side of the plane ABC</p>
+<p>triangle DEF is located at one side of the plane ABC</p>
+<p>segment AB is located at one side of the plane DEF</p>
+<p>segment CA is located at one side of the plane DEF</p>
+<p>triangle ABC is located at one side of the plane DEF</p>
+<p>now segments DE and FD are crossed by the plane ABC: D at one side and EF at the other</p>
+<p>now segments AB and CA are crossed by the plane DEF: A at one side and BC at the other</p>
+<p>AB segment penetrates triangle DEF since points E and F are at distinct sides of ABD</p>
+<p>DE segment penetrates triangle ABC since points B and C are at distinct sides of ADE</p>
+<p>AB and DF segments are in the same plane, and AC and DE segments are in other same plane =&gt; triangles intersect, but no edge intersect the interior of other triangle</p>
+<p>AC segment penetrates triangle DEF since points E and F are at distinct sides of ACD</p>
+<p>DF segment penetrates triangle ABC since points B and C are at distinct sides of ADF</p>
+<p>AB and DE segments are in the same plane, and AC and DF segments are in other same plane =&gt; triangles intersect, but no edge intersect the interior of other triangle</p>
 
 </div>
 </div>
@@ -440,6 +465,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>checks whether triangles ABC and DEF intersect; performs more checks to avoid false positives of simple doTrianglesIntersect </p>
+<p>direction from center to center</p>
 
 </div>
 </div>
@@ -485,6 +511,11 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>returns true if ABC and DEF overlaps or touches </p>
+<p>TODO: probably some of the checks are excessive?</p>
+<p>check if AB intersects any of DEF sides</p>
+<p>check if AC intersects any of DEF sides</p>
+<p>check if BC intersects any of DEF sides</p>
+<p>no sides intersection: either ABC fully inside DEF or vice versa</p>
 
 </div>
 </div>
@@ -759,6 +790,11 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>returns true if ABC triangle contains point P </p>
+<p>ab parallel ac</p>
+<p>fully degenerated</p>
+<p>ab ac looking in the opposite directions so check BC segm</p>
+<p>ab ac looking in the same direction and AB is longer so check AB segm</p>
+<p>ab ac looking in the same direction and AC is longer so check AC segm</p>
 
 </div>
 </div>
@@ -794,6 +830,11 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>returns true if ABC triangle contains point P </p>
+<p>ab parallel ac</p>
+<p>fully degenerated</p>
+<p>ab ac looking in the opposite directions so check BC segm</p>
+<p>ab ac looking in the same direction and AB is longer so check AB segm</p>
+<p>ab ac looking in the same direction and AC is longer so check AC segm</p>
 
 </div>
 </div>
@@ -827,6 +868,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>due to fused multiply-add (FMA): (A*B-A*B) can be different from zero, so we need epsilon</p>
+<p>U,V,W have clearly different signs, so the ray misses the triangle</p>
 
 </div>
 </div>

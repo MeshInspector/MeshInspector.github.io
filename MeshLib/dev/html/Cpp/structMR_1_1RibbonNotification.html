@@ -171,16 +171,21 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a40618c97689369cde22e2db71719697e" id="r_a40618c97689369cde22e2db71719697e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a22ab6a5e3459fed757c4443f8d3ad51a">OnButtonClick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40618c97689369cde22e2db71719697e">onButtonClick</a></td></tr>
 <tr class="separator:a40618c97689369cde22e2db71719697e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a156a1963010372c4c838def5344897ab" id="r_a156a1963010372c4c838def5344897ab"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a156a1963010372c4c838def5344897ab">buttonName</a> = &quot;OK&quot;</td></tr>
+<tr class="memdesc:a156a1963010372c4c838def5344897ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of button that will be drawn if callback is enabled.  <br /></td></tr>
 <tr class="separator:a156a1963010372c4c838def5344897ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5f28ba6936128a2d39825de578e9bb2" id="r_ae5f28ba6936128a2d39825de578e9bb2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5f28ba6936128a2d39825de578e9bb2">header</a></td></tr>
+<tr class="memdesc:ae5f28ba6936128a2d39825de578e9bb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Header of notification.  <br /></td></tr>
 <tr class="separator:ae5f28ba6936128a2d39825de578e9bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4da1179863d307c12ec913c673695c06" id="r_a4da1179863d307c12ec913c673695c06"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4da1179863d307c12ec913c673695c06">text</a></td></tr>
+<tr class="memdesc:a4da1179863d307c12ec913c673695c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text of notification.  <br /></td></tr>
 <tr class="separator:a4da1179863d307c12ec913c673695c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a3ccb0e6e8a56c16b1f5b4bf1ee2490" id="r_a9a3ccb0e6e8a56c16b1f5b4bf1ee2490"><td class="memItemLeft" align="right" valign="top">NotificationType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a3ccb0e6e8a56c16b1f5b4bf1ee2490">type</a> { NotificationType::Info }</td></tr>
+<tr class="memdesc:a9a3ccb0e6e8a56c16b1f5b4bf1ee2490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of notification.  <br /></td></tr>
 <tr class="separator:a9a3ccb0e6e8a56c16b1f5b4bf1ee2490"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f52a5c95f7b36adb01f422c470f7362" id="r_a9f52a5c95f7b36adb01f422c470f7362"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f52a5c95f7b36adb01f422c470f7362">lifeTimeSec</a> = -1.0f</td></tr>
 <tr class="separator:a9f52a5c95f7b36adb01f422c470f7362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2074bc13c9424073e04d319984ae6d49" id="r_a2074bc13c9424073e04d319984ae6d49"><td class="memItemLeft" align="right" valign="top">NotificationTagMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2074bc13c9424073e04d319984ae6d49">tags</a> = <a class="el" href="structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a4425e9774bb85a89fd5f3ef9868071a3">NotificationTags::All</a></td></tr>
+<tr class="memdesc:a2074bc13c9424073e04d319984ae6d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">it ANDs with <a class="el" href="classMR_1_1RibbonNotifier.html" title="class to hold and operate with notifications">RibbonNotifier</a> allowed tags to see if notification should be displayed  <br /></td></tr>
 <tr class="separator:a2074bc13c9424073e04d319984ae6d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
@@ -195,6 +200,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Callback for notification if it is not null, a button will be drawn, and callback will be invoked on button click </p>
 
 </div>
 </div>
@@ -213,6 +219,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>if notifications are equal to last one added, it just increment counter note that if there is present <code>onButtonClick</code> this function always returns false </p>
 
 </div>
 </div>
@@ -229,6 +236,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Name of button that will be drawn if callback is enabled. </p>
+
 </div>
 </div>
 <a id="ae5f28ba6936128a2d39825de578e9bb2" name="ae5f28ba6936128a2d39825de578e9bb2"></a>
@@ -243,6 +252,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Header of notification. </p>
+
 </div>
 </div>
 <a id="a9f52a5c95f7b36adb01f422c470f7362" name="a9f52a5c95f7b36adb01f422c470f7362"></a>
@@ -256,6 +267,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Time that notification stays visible negative value means to use default one </p>
 
 </div>
 </div>
@@ -285,6 +297,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>it ANDs with <a class="el" href="classMR_1_1RibbonNotifier.html" title="class to hold and operate with notifications">RibbonNotifier</a> allowed tags to see if notification should be displayed </p>
+
 </div>
 </div>
 <a id="a4da1179863d307c12ec913c673695c06" name="a4da1179863d307c12ec913c673695c06"></a>
@@ -299,6 +313,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Text of notification. </p>
+
 </div>
 </div>
 <a id="a9a3ccb0e6e8a56c16b1f5b4bf1ee2490" name="a9a3ccb0e6e8a56c16b1f5b4bf1ee2490"></a>
@@ -312,6 +328,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Type of notification. </p>
 
 </div>
 </div>

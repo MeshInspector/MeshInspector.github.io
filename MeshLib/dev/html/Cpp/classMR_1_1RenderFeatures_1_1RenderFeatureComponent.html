@@ -162,7 +162,7 @@ $(function(){initNavTree('classMR_1_1RenderFeatures_1_1RenderFeatureComponent.ht
   <img src="classMR_1_1RenderFeatures_1_1RenderFeatureComponent.png" usemap="#MR::RenderFeatures::RenderFeatureComponent_3C_20IsPrimary_2C_20ObjectType_2C_20RenderObjectType_20_3E_map" alt=""/>
   <map id="MR::RenderFeatures::RenderFeatureComponent_3C_20IsPrimary_2C_20ObjectType_2C_20RenderObjectType_20_3E_map" name="MR::RenderFeatures::RenderFeatureComponent_3C_20IsPrimary_2C_20ObjectType_2C_20RenderObjectType_20_3E_map">
 <area href="classMR_1_1RenderWrapObject_1_1Wrapper.html" alt="MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectType &gt;, RenderObjectType &gt;" shape="rect" coords="321,56,953,80"/>
-<area href="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html" alt="MR::RenderWrapObject::detail::SubobjectStorage&lt; ObjectType &gt;" shape="rect" coords="0,0,632,24"/>
+<area href="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html" title="Need this helper base class to make sure the subobject is initialized before the render object,..." alt="MR::RenderWrapObject::detail::SubobjectStorage&lt; ObjectType &gt;" shape="rect" coords="0,0,632,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -188,7 +188,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:aefbb8b64a400a9acc5e776111c7ae297 inherit pub_attribs_structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage" id="r_aefbb8b64a400a9acc5e776111c7ae297"><td class="memItemLeft" align="right" valign="top">ObjectType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297">subobject</a></td></tr>
 <tr class="separator:aefbb8b64a400a9acc5e776111c7ae297 inherit pub_attribs_structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;bool IsPrimary, typename ObjectType, typename RenderObjectType&gt;<br />
+class MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectType, RenderObjectType &gt;</div><p>A common base class for sub-renderobjects that are combined into the proper features. <code>ObjectType</code> is the underlying datamodel object that stores the mesh, e.g. <code><a class="elRef" href="../Csharp/classMR_1_1ObjectMesh.html">ObjectMesh</a></code>. <code>RenderObjectType</code> is the underlying render object, e.g. <code><a class="el" href="classMR_1_1RenderMeshObject.html">RenderMeshObject</a></code>. If <code>IsPrimary</code> is true, the visual properties are copied from the target datamodel object. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aac7d0eb9a73f28680925b75d122b66a4" name="aac7d0eb9a73f28680925b75d122b66a4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac7d0eb9a73f28680925b75d122b66a4">&#9670;&#160;</a></span>render()</h2>
 
@@ -275,6 +278,7 @@ template&lt;bool IsPrimary, typename ObjectType , typename RenderObjectType &gt;
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Skip rendering the secondary components (aka subfeatures) if they are disabled.</p>
 
 </div>
 </div>

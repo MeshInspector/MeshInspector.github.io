@@ -1,18 +1,14 @@
 var classMR_1_1Palette =
 [
-    [ "Histogram", "structMR_1_1Palette_1_1Histogram.html", "structMR_1_1Palette_1_1Histogram" ],
     [ "Label", "structMR_1_1Palette_1_1Label.html", "structMR_1_1Palette_1_1Label" ],
     [ "Parameters", "structMR_1_1Palette_1_1Parameters.html", "structMR_1_1Palette_1_1Parameters" ],
     [ "Palette", "classMR_1_1Palette.html#a16b8a71ea5f75f665b1fa1c24368dba3", null ],
-    [ "createUniformLabels", "classMR_1_1Palette.html#a412094b2e3a9fc3225144e5e925c5af4", null ],
     [ "draw", "classMR_1_1Palette.html#a0e327c983c4976ba67d475ce981b76c8", null ],
     [ "draw", "classMR_1_1Palette.html#a41bdb34995dc77edd7d35db3036db6c4", null ],
     [ "draw", "classMR_1_1Palette.html#a342d665441236e2eced9976b08c7e025", null ],
     [ "enableDiscretizationPercentages", "classMR_1_1Palette.html#a70655aa3bd1218427ca2534cb2fc1ddc", null ],
     [ "getColor", "classMR_1_1Palette.html#a993b22e2c8c190cfe6473013283f6c04", null ],
     [ "getDefaultNumHistogramBuckets", "classMR_1_1Palette.html#a9118290947382258ebf670ae4ed5db23", null ],
-    [ "getDiscrHistogramValues", "classMR_1_1Palette.html#ac55d20405c9488ab29ab5eac4140208e", null ],
-    [ "getHistogramValues", "classMR_1_1Palette.html#ac191d1777b98af54fc7464239e57bd1a", null ],
     [ "getInvalidColor", "classMR_1_1Palette.html#ae4429356ab627f21dea626ec383a24fa", null ],
     [ "getMaxLabelCount", "classMR_1_1Palette.html#a10a9188c6a6137b814291dc2e1d2073a", null ],
     [ "getNumHistogramBuckets", "classMR_1_1Palette.html#a17a77a955a9bb1de3a362b7d9867afb4", null ],
@@ -35,7 +31,6 @@ var classMR_1_1Palette =
     [ "setBaseColors", "classMR_1_1Palette.html#aee6fa3cea3a5b3449207a8a888addd49", null ],
     [ "setCustomLabels", "classMR_1_1Palette.html#a50944144ea783bb242d09a0601738ace", null ],
     [ "setDiscretizationNumber", "classMR_1_1Palette.html#a95993f62dda52bd555e9902cb0663a68", null ],
-    [ "setDrawDelayFrames", "classMR_1_1Palette.html#a00a0bcbe50c5eecc452fb6ea1bfd4d31", null ],
     [ "setFilterType", "classMR_1_1Palette.html#a1db62c44796f0e849665e352c9d02f61", null ],
     [ "setLabelsVisible", "classMR_1_1Palette.html#ade857d7d072e37d2311598da53b2ae73", null ],
     [ "setLegendLimits", "classMR_1_1Palette.html#a55fe096aec459b2721c9b619f977f4b2", null ],
@@ -43,5 +38,5 @@ var classMR_1_1Palette =
     [ "setNumHistogramBuckets", "classMR_1_1Palette.html#a7896773ea69981587644c20af439a0f4", null ],
     [ "setRangeMinMax", "classMR_1_1Palette.html#a7d6dd19e47f31c6e502113f4b413ff77", null ],
     [ "setRangeMinMaxNegPos", "classMR_1_1Palette.html#aa4516e9a134ac39f12c28ba08bc1b7e8", null ],
-    [ "updateStats", "classMR_1_1Palette.html#a226cbd1fa34656e41eb50cb0ee6d4e4a", null ]
+    [ "drawDelayFrames_", "classMR_1_1Palette.html#a543277b2ce6f8d3148cfdd076ea9ff08", null ]
 ];

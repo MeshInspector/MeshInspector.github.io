@@ -169,12 +169,15 @@ $(function(){initNavTree('classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html','');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7347c1740073a409a4350f361af9b816" id="r_a7347c1740073a409a4350f361af9b816"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7347c1740073a409a4350f361af9b816">preRenderViewport</a> (<a class="elRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a> viewport) override</td></tr>
+<tr class="memdesc:a7347c1740073a409a4350f361af9b816"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called before doing <code><a class="elRef" href="../Csharp/classMR_1_1IRenderObject.html#a7232b508c4785a0822786a82be485d32">IRenderObject::renderUi()</a></code> on even object in a viewport. Each viewport is rendered separately.  <br /></td></tr>
 <tr class="separator:a7347c1740073a409a4350f361af9b816"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40f36215f485498d7757d2473e6d2d64" id="r_a40f36215f485498d7757d2473e6d2d64"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40f36215f485498d7757d2473e6d2d64">postRenderViewport</a> (<a class="elRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a> viewport) override</td></tr>
+<tr class="memdesc:a40f36215f485498d7757d2473e6d2d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called after doing <code><a class="elRef" href="../Csharp/classMR_1_1IRenderObject.html#a7232b508c4785a0822786a82be485d32">IRenderObject::renderUi()</a></code> on even object in a viewport. Each viewport is rendered separately.  <br /></td></tr>
 <tr class="separator:a40f36215f485498d7757d2473e6d2d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1aa058b02893d9bc3fd3589e0dc7bf21" id="r_a1aa058b02893d9bc3fd3589e0dc7bf21"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1aa058b02893d9bc3fd3589e0dc7bf21">beginBackwardPass</a> (<a class="elRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a> viewport, UiRenderParams::UiTaskList &amp;tasks) override</td></tr>
 <tr class="separator:a1aa058b02893d9bc3fd3589e0dc7bf21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6eae746d6778e271123fb43ad2f8f4e2" id="r_a6eae746d6778e271123fb43ad2f8f4e2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6eae746d6778e271123fb43ad2f8f4e2">finishBackwardPass</a> (<a class="elRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a> viewport, const <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a> &amp;params) override</td></tr>
+<tr class="memdesc:a6eae746d6778e271123fb43ad2f8f4e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">After the backward pass is performed, the parameters should be passed back into this function.  <br /></td></tr>
 <tr class="separator:a6eae746d6778e271123fb43ad2f8f4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51953f10f06ecbdf36131c6711172452" id="r_a51953f10f06ecbdf36131c6711172452"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51953f10f06ecbdf36131c6711172452">canConsumeEvent</a> (BasicUiRenderTask::InteractionMask event) const</td></tr>
 <tr class="separator:a51953f10f06ecbdf36131c6711172452"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,6 +206,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a810c0bc5c84d12f69dbbdd1510c7ea20" id="r_a810c0bc5c84d12f69dbbdd1510c7ea20"><td class="memItemLeft" align="right" valign="top">BasicUiRenderTask::InteractionMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a810c0bc5c84d12f69dbbdd1510c7ea20">consumedInteractions</a> {}</td></tr>
+<tr class="memdesc:a810c0bc5c84d12f69dbbdd1510c7ea20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Which things are blocked by our <code>renderUi()</code> calls.  <br /></td></tr>
 <tr class="separator:a810c0bc5c84d12f69dbbdd1510c7ea20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -232,6 +236,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Returns the parameters for the <code>IRenderObject::earlyBackwardPass()</code>. This will be called exactly once per viewport, each time the <a class="el" href="namespaceMR_1_1UI.html">UI</a> in it is rendered. </p>
 
 <p>Reimplemented from <a class="elRef" href="../Csharp/classMR_1_1UiRenderManager.html">MR::UiRenderManager</a>.</p>
 
@@ -251,6 +256,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>If this returns false, the event should be allowed to pass through to other plugins, even if <a class="el" href="namespaceImGui.html">ImGui</a> wants to consume it. Pass at most one bit at a time. </p>
 
 </div>
 </div>
@@ -281,6 +287,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>After the backward pass is performed, the parameters should be passed back into this function. </p>
+
 <p>Reimplemented from <a class="elRef" href="../Csharp/classMR_1_1UiRenderManager.html">MR::UiRenderManager</a>.</p>
 
 </div>
@@ -307,6 +315,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>This is called after doing <code><a class="elRef" href="../Csharp/classMR_1_1IRenderObject.html#a7232b508c4785a0822786a82be485d32">IRenderObject::renderUi()</a></code> on even object in a viewport. Each viewport is rendered separately. </p>
 
 <p>Reimplemented from <a class="elRef" href="../Csharp/classMR_1_1UiRenderManager.html">MR::UiRenderManager</a>.</p>
 
@@ -335,6 +345,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>This is called before doing <code><a class="elRef" href="../Csharp/classMR_1_1IRenderObject.html#a7232b508c4785a0822786a82be485d32">IRenderObject::renderUi()</a></code> on even object in a viewport. Each viewport is rendered separately. </p>
+
 <p>Reimplemented from <a class="elRef" href="../Csharp/classMR_1_1UiRenderManager.html">MR::UiRenderManager</a>.</p>
 
 </div>
@@ -351,6 +363,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Which things are blocked by our <code>renderUi()</code> calls. </p>
 
 </div>
 </div>

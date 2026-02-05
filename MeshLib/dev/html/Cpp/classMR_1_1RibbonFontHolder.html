@@ -152,6 +152,9 @@ $(function(){initNavTree('classMR_1_1RibbonFontHolder.html',''); initResizable(t
 </div><!--header-->
 <div class="contents">
 
+<p>class for convenient use of ImGui::PushFont / ImGui::PopFont with ribbon fonts  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRRibbonFontHolder_8h_source.html">MRRibbonFontHolder.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -165,13 +168,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a01d7c5ec74d3ee429c64967a81e71cd6" id="r_a01d7c5ec74d3ee429c64967a81e71cd6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01d7c5ec74d3ee429c64967a81e71cd6">~RibbonFontHolder</a> ()</td></tr>
 <tr class="separator:a01d7c5ec74d3ee429c64967a81e71cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6d4d6f3f149d751840adfad266736ee" id="r_ae6d4d6f3f149d751840adfad266736ee"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6d4d6f3f149d751840adfad266736ee">pushFont</a> ()</td></tr>
+<tr class="memdesc:ae6d4d6f3f149d751840adfad266736ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">check the font for existence and push it  <br /></td></tr>
 <tr class="separator:ae6d4d6f3f149d751840adfad266736ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeb629595a49f75cd578384fc67685c1" id="r_abeb629595a49f75cd578384fc67685c1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abeb629595a49f75cd578384fc67685c1">popFont</a> ()</td></tr>
+<tr class="memdesc:abeb629595a49f75cd578384fc67685c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">check the font for existence and pop it  <br /></td></tr>
 <tr class="separator:abeb629595a49f75cd578384fc67685c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7f38353c705231ad0e835fdb1d8660d" id="r_ae7f38353c705231ad0e835fdb1d8660d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f38353c705231ad0e835fdb1d8660d">isPushed</a> ()</td></tr>
+<tr class="memdesc:ae7f38353c705231ad0e835fdb1d8660d"><td class="mdescLeft">&#160;</td><td class="mdescRight">font is pushed  <br /></td></tr>
 <tr class="separator:ae7f38353c705231ad0e835fdb1d8660d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>class for convenient use of ImGui::PushFont / ImGui::PopFont with ribbon fonts </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af0af616e535b5b8465fd39dc3c0dca7c" name="af0af616e535b5b8465fd39dc3c0dca7c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af0af616e535b5b8465fd39dc3c0dca7c">&#9670;&#160;</a></span>RibbonFontHolder() <span class="overload">[1/3]</span></h2>
 
@@ -186,6 +194,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>ctors getting font and size by ribbon font type and push it in <a class="el" href="namespaceImGui.html">ImGui</a> </p>
 
 </div>
 </div>
@@ -277,6 +286,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>font is pushed </p>
+
 </div>
 </div>
 <a id="abeb629595a49f75cd578384fc67685c1" name="abeb629595a49f75cd578384fc67685c1"></a>
@@ -294,6 +305,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>check the font for existence and pop it </p>
+
 </div>
 </div>
 <a id="ae6d4d6f3f149d751840adfad266736ee" name="ae6d4d6f3f149d751840adfad266736ee"></a>
@@ -310,6 +323,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>check the font for existence and push it </p>
 
 </div>
 </div>

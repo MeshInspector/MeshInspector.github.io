@@ -152,6 +152,9 @@ $(function(){initNavTree('classMR_1_1UI_1_1LabelRectAllocator.html',''); initRes
 </div><!--header-->
 <div class="contents">
 
+<p>A rect allocator for labels.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRUIRectAllocator_8h_source.html">MRUIRectAllocator.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::UI::LabelRectAllocator:</div>
@@ -184,7 +187,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a91ef8171f989554a528459da9f0c603a inherit pub_static_methods_classMR_1_1UI_1_1RectAllocator" id="r_a91ef8171f989554a528459da9f0c603a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UI_1_1RectAllocator.html#a91ef8171f989554a528459da9f0c603a">rectRectOverlap</a> (<a class="elRef" href="../Csharp/structMR_1_1Box2f.html">Box2f</a> a, <a class="elRef" href="../Csharp/structMR_1_1Box2f.html">Box2f</a> b)</td></tr>
 <tr class="separator:a91ef8171f989554a528459da9f0c603a inherit pub_static_methods_classMR_1_1UI_1_1RectAllocator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A rect allocator for labels. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a3b90eb278b5e53756c88dc2464876ed0" name="a3b90eb278b5e53756c88dc2464876ed0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3b90eb278b5e53756c88dc2464876ed0">&#9670;&#160;</a></span>createRect()</h2>
 
@@ -218,6 +223,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Call this every frame to maintain a rectangle. Using the same ID more than once per frame triggers an assertion. Returns the free position closest to <code>pos</code>. Separate label lists are maintained per viewport. If <code>forceExactPosition == true</code>, the input position is returned unchanged, but the rect is still added to the internal list to push away other rects. </p>
 
 </div>
 </div>

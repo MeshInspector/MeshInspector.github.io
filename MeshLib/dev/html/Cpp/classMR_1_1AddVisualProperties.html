@@ -181,9 +181,14 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a534fe1b7809ccb50abd437a88b6c1412" id="r_a534fe1b7809ccb50abd437a88b6c1412"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="elRef" href="../Csharp/classMR_1_1ViewportMask.html">ViewportMask</a>, sizeof...(Properties)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a534fe1b7809ccb50abd437a88b6c1412">propertyMasks_</a></td></tr>
+<tr class="memdesc:a534fe1b7809ccb50abd437a88b6c1412"><td class="mdescLeft">&#160;</td><td class="mdescRight">All enabled by default.  <br /></td></tr>
 <tr class="separator:a534fe1b7809ccb50abd437a88b6c1412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename BaseObjectType, auto ... Properties&gt;<br />
+requires ( <a class="el" href="structMR_1_1IsVisualizeMaskEnum.html">IsVisualizeMaskEnum</a>&lt;decltype(Properties)&gt;::value &amp;&amp; ... )<br />
+class MR::AddVisualProperties&lt; BaseObjectType, Properties &gt;</div><p>Inherits from a datamodel object, adding some visual property masks to it. <code>BaseObjectType</code> is the datamodel type to inherit from. <code>Properties...</code> is the list of properties to add. Each must be a value from a enum marked as <code><a class="el" href="structMR_1_1IsVisualizeMaskEnum.html">IsVisualizeMaskEnum</a></code>. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7fc99037212a4beaeec730ca98373554" name="a7fc99037212a4beaeec730ca98373554"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7fc99037212a4beaeec730ca98373554">&#9670;&#160;</a></span>getAllVisualizeProperties()</h2>
 
@@ -324,6 +329,8 @@ template&lt;typename BaseObjectType , auto ... Properties&gt; </div>
 <div class="line">        <span class="keywordflow">return</span> ret;</div>
 <div class="line">    }()</div>
 </div><!-- fragment -->
+<p>All enabled by default. </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

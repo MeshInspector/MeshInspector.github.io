@@ -463,6 +463,13 @@ Classes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>finds the path from a vertex in start-triangle to a vertex in finish-triangle, so that the length start-first_vertex-...-last_vertex-finish is shortest in euclidean metric; using A* modification of Dijkstra algorithm, which is faster for near linear path; if no path can be found then empty path is returned </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outPathFinish</td><td>if the path is found then its start vertex will be written here (even if start vertex is the same as finish vertex and the path is empty)  </td></tr>
+    <tr><td class="paramname">maxPathLen</td><td>if the path is found then its finish vertex will be written here (even if start vertex is the same as finish vertex and the path is empty) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -553,6 +560,13 @@ Classes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>finds the path from a vertex in start-triangle to a vertex in finish-triangle, so that the length start-first_vertex-...-last_vertex-finish is shortest in euclidean metric; using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both start and finish, which is faster for long paths; if no path can be found then empty path is returned </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outPathFinish</td><td>if the path is found then its start vertex will be written here (even if start vertex is the same as finish vertex and the path is empty)  </td></tr>
+    <tr><td class="paramname">maxPathLen</td><td>if the path is found then its finish vertex will be written here (even if start vertex is the same as finish vertex and the path is empty) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -750,6 +764,13 @@ Classes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>finds the smallest metric path from one of start vertices to one of the finish vertices, using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both starts and finishes, which is faster for long paths; if no path can be found then empty path is returned </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outPathFinish</td><td>if the path is found then its start vertex will be written here (even if start vertex is the same as finish vertex and the path is empty)  </td></tr>
+    <tr><td class="paramname">maxPathMetric</td><td>if the path is found then its finish vertex will be written here (even if start vertex is the same as finish vertex and the path is empty) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

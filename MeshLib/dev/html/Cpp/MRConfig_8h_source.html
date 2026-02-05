@@ -242,12 +242,11 @@ $(function(){initNavTree('MRConfig_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    Json::Value config_;</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    std::filesystem::path filePath_;</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="comment">// prolong logger life</span></div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    std::shared_ptr&lt;spdlog::logger&gt; loggerHandle_ = <a class="code hl_function" href="classMR_1_1Logger.html#aac7549309d09f2c9a41818a18c1b0e50">Logger::instance</a>().<a class="code hl_function" href="classMR_1_1Logger.html#ac5d54247fea49f7312322217b9c8620b">getSpdLogger</a>();</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>};</div>
 </div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>} </div>
 <div class="ttc" id="aMRColor_8h_html"><div class="ttname"><a href="MRColor_8h.html">MRColor.h</a></div></div>
 <div class="ttc" id="aMRLog_8h_html"><div class="ttname"><a href="MRLog_8h.html">MRLog.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
@@ -289,7 +288,7 @@ $(function(){initNavTree('MRConfig_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="aclassMR_1_1Logger_html_aac7549309d09f2c9a41818a18c1b0e50"><div class="ttname"><a href="classMR_1_1Logger.html#aac7549309d09f2c9a41818a18c1b0e50">MR::Logger::instance</a></div><div class="ttdeci">static MRMESH_API Logger &amp; instance()</div></div>
 <div class="ttc" id="aclassMR_1_1Logger_html_ac5d54247fea49f7312322217b9c8620b"><div class="ttname"><a href="classMR_1_1Logger.html#ac5d54247fea49f7312322217b9c8620b">MR::Logger::getSpdLogger</a></div><div class="ttdeci">MRMESH_API const std::shared_ptr&lt; spdlog::logger &gt; &amp; getSpdLogger() const</div><div class="ttdoc">store this pointer if need to prolong logger life time (necessary to log something from destructors)</div></div>
 <div class="ttc" id="aclassMR_1_1ViewportMask_html"><div class="ttname"><a href="../Csharp/classMR_1_1ViewportMask.html">MR::ViewportMask</a></div><div class="ttdef"><b>Definition</b> MRViewportId.h:42</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Color_html"><div class="ttname"><a href="../Csharp/structMR_1_1Color.html">MR::Color</a></div><div class="ttdef"><b>Definition</b> MRColor.h:9</div></div>
 <div class="ttc" id="astructMR_1_1Color_html_a3a4dcb18596d43cf10bf75e59ac4462e"><div class="ttname"><a href="../Csharp/structMR_1_1Color.html#a3a4dcb18596d43cf10bf75e59ac4462e">MR::Color::black</a></div><div class="ttdeci">static MR.Color black()</div></div>
 <div class="ttc" id="astructMR_1_1Vector2i_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector2i.html">MR::Vector2i</a></div></div>

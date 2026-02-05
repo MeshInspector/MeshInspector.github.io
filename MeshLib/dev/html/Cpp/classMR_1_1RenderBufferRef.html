@@ -152,6 +152,9 @@ $(function(){initNavTree('classMR_1_1RenderBufferRef.html',''); initResizable(tr
 </div><!--header-->
 <div class="contents">
 
+<p>provides access to shared buffer with type casting  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRRenderHelpers_8h_source.html">MRRenderHelpers.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -161,17 +164,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9ef74c7c5c8784c3ba97c00757557b9f" id="r_a9ef74c7c5c8784c3ba97c00757557b9f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ef74c7c5c8784c3ba97c00757557b9f">RenderBufferRef</a> (T *<a class="el" href="#a83514f8c96c2dd11af082fa0aac85927">data</a>, std::size_t <a class="el" href="#acebacbff1abf583d126240b1b7ccf6ea">glSize</a>, bool <a class="el" href="#af2f9934c38612f16da90a865122e6119">dirty</a>)</td></tr>
 <tr class="separator:a9ef74c7c5c8784c3ba97c00757557b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd6a6d54cfc1f72dc7ecca75f9897146" id="r_afd6a6d54cfc1f72dc7ecca75f9897146"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd6a6d54cfc1f72dc7ecca75f9897146">operator[]</a> (std::size_t i) const noexcept</td></tr>
+<tr class="memdesc:afd6a6d54cfc1f72dc7ecca75f9897146"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns reference to i-th element  <br /></td></tr>
 <tr class="separator:afd6a6d54cfc1f72dc7ecca75f9897146"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83514f8c96c2dd11af082fa0aac85927" id="r_a83514f8c96c2dd11af082fa0aac85927"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83514f8c96c2dd11af082fa0aac85927">data</a> () const noexcept</td></tr>
+<tr class="memdesc:a83514f8c96c2dd11af082fa0aac85927"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns pointer to buffer data  <br /></td></tr>
 <tr class="separator:a83514f8c96c2dd11af082fa0aac85927"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a999ec2f9bcbbe78e53db8df8a5adc1" id="r_a7a999ec2f9bcbbe78e53db8df8a5adc1"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a999ec2f9bcbbe78e53db8df8a5adc1">size</a> () const noexcept</td></tr>
+<tr class="memdesc:a7a999ec2f9bcbbe78e53db8df8a5adc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns actual buffer size  <br /></td></tr>
 <tr class="separator:a7a999ec2f9bcbbe78e53db8df8a5adc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acebacbff1abf583d126240b1b7ccf6ea" id="r_acebacbff1abf583d126240b1b7ccf6ea"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acebacbff1abf583d126240b1b7ccf6ea">glSize</a> () const noexcept</td></tr>
+<tr class="memdesc:acebacbff1abf583d126240b1b7ccf6ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns number of elements that are about to be loaded or already loaded to GL memory  <br /></td></tr>
 <tr class="separator:acebacbff1abf583d126240b1b7ccf6ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2f9934c38612f16da90a865122e6119" id="r_af2f9934c38612f16da90a865122e6119"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2f9934c38612f16da90a865122e6119">dirty</a> () const noexcept</td></tr>
+<tr class="memdesc:af2f9934c38612f16da90a865122e6119"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if associated data were updated  <br /></td></tr>
 <tr class="separator:af2f9934c38612f16da90a865122e6119"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+class MR::RenderBufferRef&lt; T &gt;</div><p>provides access to shared buffer with type casting </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9e1c48f420c1514b02967cc0d7ef9331" name="a9e1c48f420c1514b02967cc0d7ef9331"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9e1c48f420c1514b02967cc0d7ef9331">&#9670;&#160;</a></span>RenderBufferRef() <span class="overload">[1/2]</span></h2>
 
@@ -261,6 +272,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>returns pointer to buffer data </p>
+
 </div>
 </div>
 <a id="af2f9934c38612f16da90a865122e6119" name="af2f9934c38612f16da90a865122e6119"></a>
@@ -287,6 +300,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>returns true if associated data were updated </p>
 
 </div>
 </div>
@@ -315,6 +330,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>returns number of elements that are about to be loaded or already loaded to GL memory </p>
+
 </div>
 </div>
 <a id="afd6a6d54cfc1f72dc7ecca75f9897146" name="afd6a6d54cfc1f72dc7ecca75f9897146"></a>
@@ -342,6 +359,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>returns reference to i-th element </p>
+
 </div>
 </div>
 <a id="a7a999ec2f9bcbbe78e53db8df8a5adc1" name="a7a999ec2f9bcbbe78e53db8df8a5adc1"></a>
@@ -368,6 +387,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>returns actual buffer size </p>
 
 </div>
 </div>

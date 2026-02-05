@@ -223,6 +223,7 @@ Friends</h2></td></tr>
 <tr class="memitem:a07969e93fb59b263b2d89bc91ff7c776" id="r_a07969e93fb59b263b2d89bc91ff7c776"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07969e93fb59b263b2d89bc91ff7c776">operator!=</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:a07969e93fb59b263b2d89bc91ff7c776"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a406ab28ca8f52a20219ceffe78e52cd5" id="r_a406ab28ca8f52a20219ceffe78e52cd5"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a406ab28ca8f52a20219ceffe78e52cd5">operator+</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a)</td></tr>
+<tr class="memdesc:a406ab28ca8f52a20219ceffe78e52cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">NOTE: We use <code>std::declval()</code> in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping <code>a.x</code> and such. TODO fix this when we update libclang.  <br /></td></tr>
 <tr class="separator:a406ab28ca8f52a20219ceffe78e52cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40d27756dd3dd012e19e847137c16532" id="r_a40d27756dd3dd012e19e847137c16532"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40d27756dd3dd012e19e847137c16532">operator-</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a) -&gt; <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; decltype(-std::declval&lt; T &gt;())&gt;</td></tr>
 <tr class="separator:a40d27756dd3dd012e19e847137c16532"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,6 +279,10 @@ Related Symbols</h2></td></tr>
 <tr class="memitem:a5bb00471e4228b49442d8c7e717e31e7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a5bb00471e4228b49442d8c7e717e31e7">div</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="memdesc:a5bb00471e4228b49442d8c7e717e31e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">per component division  <br /></td></tr>
 <tr class="separator:a5bb00471e4228b49442d8c7e717e31e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a436eb9faa24f673f853cc19cff3f7196" id="r_a436eb9faa24f673f853cc19cff3f7196"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a436eb9faa24f673f853cc19cff3f7196"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a436eb9faa24f673f853cc19cff3f7196">begin</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;v)</td></tr>
+<tr class="memdesc:a436eb9faa24f673f853cc19cff3f7196"><td class="mdescLeft">&#160;</td><td class="mdescRight">We don't need to bind those functions themselves. This doesn't prevent <code>__iter__</code> from being generated for the type.  <br /></td></tr>
+<tr class="separator:a436eb9faa24f673f853cc19cff3f7196"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
@@ -506,6 +511,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Calling <code>sqrt</code> this way to hopefully support boost.multiprecision numbers. Returning <code>auto</code> to not break on integral types.</p>
 
 </div>
 </div>
@@ -562,6 +568,7 @@ template&lt;typename U &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Here <code>T == U</code> doesn't seem to cause any issues in the C++ code, but we're still disabling it because it somehow gets emitted when generating the bindings, and looks out of place there. Specifically for <a class="el" href="structMR_1_1Vector4.html">Vector4</a>, it only gets emitted on Windows (but not on Linux) for some reason. </p>
 
 </div>
 </div>
@@ -676,6 +683,35 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Symbol Documentation</h2>
+<a id="a436eb9faa24f673f853cc19cff3f7196" name="a436eb9faa24f673f853cc19cff3f7196"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a436eb9faa24f673f853cc19cff3f7196">&#9670;&#160;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR_BIND_IGNORE auto begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>We don't need to bind those functions themselves. This doesn't prevent <code>__iter__</code> from being generated for the type. </p>
+
+</div>
+</div>
 <a id="afa16e6f10fb59a666d01d58bb1737e85" name="afa16e6f10fb59a666d01d58bb1737e85"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa16e6f10fb59a666d01d58bb1737e85">&#9670;&#160;</a></span>distance()</h2>
 
@@ -990,6 +1026,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>NOTE: We use <code>std::declval()</code> in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping <code>a.x</code> and such. TODO fix this when we update libclang. </p>
 
 </div>
 </div>

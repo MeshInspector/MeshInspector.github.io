@@ -154,6 +154,9 @@ $(function(){initNavTree('classMR_1_1ITransformControls.html',''); initResizable
 </div><!--header-->
 <div class="contents">
 
+<p>Interface class for <a class="el" href="classMR_1_1ObjectTransformWidget.html">ObjectTransformWidget</a> custom visualization.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRObjectTransformWidget_8h_source.html">MRObjectTransformWidget.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::ITransformControls:</div>
@@ -163,13 +166,14 @@ $(function(){initNavTree('classMR_1_1ITransformControls.html',''); initResizable
  <div class="center">
   <img src="classMR_1_1ITransformControls.png" usemap="#MR::ITransformControls_map" alt=""/>
   <map id="MR::ITransformControls_map" name="MR::ITransformControls_map">
-<area href="classMR_1_1TransformControls.html" alt="MR::TransformControls" shape="rect" coords="0,56,144,80"/>
+<area href="classMR_1_1TransformControls.html" title="Basic implementation of ITransformControls." alt="MR::TransformControls" shape="rect" coords="0,56,144,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ITransformControls_1_1ChangeCenterAction.html">ChangeCenterAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">build-in history action class for change center  <a href="classMR_1_1ITransformControls_1_1ChangeCenterAction.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -177,34 +181,45 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af0fa6a664e8f0a43bbb41adf37fe296a" id="r_af0fa6a664e8f0a43bbb41adf37fe296a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0fa6a664e8f0a43bbb41adf37fe296a">~ITransformControls</a> ()=default</td></tr>
 <tr class="separator:af0fa6a664e8f0a43bbb41adf37fe296a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a053e821953dbcafc94e913961cdbc94a" id="r_a053e821953dbcafc94e913961cdbc94a"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a053e821953dbcafc94e913961cdbc94a">getCenter</a> () const</td></tr>
+<tr class="memdesc:a053e821953dbcafc94e913961cdbc94a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get center of the widget in local space  <br /></td></tr>
 <tr class="separator:a053e821953dbcafc94e913961cdbc94a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9603cd25e26df7d1c6fe9171d0335997" id="r_a9603cd25e26df7d1c6fe9171d0335997"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9603cd25e26df7d1c6fe9171d0335997">setCenter</a> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;center)</td></tr>
 <tr class="separator:a9603cd25e26df7d1c6fe9171d0335997"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af95856a61b1ace2e76600c292a4965c7" id="r_af95856a61b1ace2e76600c292a4965c7"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af95856a61b1ace2e76600c292a4965c7">getRadius</a> () const</td></tr>
+<tr class="memdesc:af95856a61b1ace2e76600c292a4965c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">should return current radius of the widget  <br /></td></tr>
 <tr class="separator:af95856a61b1ace2e76600c292a4965c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad18cade1f93573f1300cbdd29ea07518" id="r_ad18cade1f93573f1300cbdd29ea07518"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad18cade1f93573f1300cbdd29ea07518">updateSizeInPixel</a> ()</td></tr>
+<tr class="memdesc:ad18cade1f93573f1300cbdd29ea07518"><td class="mdescLeft">&#160;</td><td class="mdescRight">should calculates and sets the matrix to set the size in pixels  <br /></td></tr>
 <tr class="separator:ad18cade1f93573f1300cbdd29ea07518"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ae4eb78f83ef31cb1fb11184c3eca6d" id="r_a7ae4eb78f83ef31cb1fb11184c3eca6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ae4eb78f83ef31cb1fb11184c3eca6d">setTransformModesValidator</a> (TransformModesValidator validator)</td></tr>
 <tr class="separator:a7ae4eb78f83ef31cb1fb11184c3eca6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c067680512671636e7975d37ba24bdd" id="r_a6c067680512671636e7975d37ba24bdd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c067680512671636e7975d37ba24bdd">setPickThrough</a> (bool on)</td></tr>
+<tr class="memdesc:a6c067680512671636e7975d37ba24bdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables pick through mode, in this mode controls will be picked even if they are occluded by other objects.  <br /></td></tr>
 <tr class="separator:a6c067680512671636e7975d37ba24bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d367635679cf6aa063434e2c41c06cd" id="r_a6d367635679cf6aa063434e2c41c06cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d367635679cf6aa063434e2c41c06cd">getPickThrough</a> () const</td></tr>
 <tr class="separator:a6d367635679cf6aa063434e2c41c06cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bfe124e50ec51bf800a189c3638b947" id="r_a6bfe124e50ec51bf800a189c3638b947"><td class="memItemLeft" align="right" valign="top">ControlBit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bfe124e50ec51bf800a189c3638b947">getHoveredControl</a> () const</td></tr>
+<tr class="memdesc:a6bfe124e50ec51bf800a189c3638b947"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns currently hovered control.  <br /></td></tr>
 <tr class="separator:a6bfe124e50ec51bf800a189c3638b947"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a907d92df55bd4c1c24eb99b0ac884d77" id="r_a907d92df55bd4c1c24eb99b0ac884d77"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a907d92df55bd4c1c24eb99b0ac884d77">init</a> (std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt; parent)=0</td></tr>
+<tr class="memdesc:a907d92df55bd4c1c24eb99b0ac884d77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called once on widget created to init internal objects.  <br /></td></tr>
 <tr class="separator:a907d92df55bd4c1c24eb99b0ac884d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a786c7692ef96e6c97a0da7ae332b5597" id="r_a786c7692ef96e6c97a0da7ae332b5597"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a786c7692ef96e6c97a0da7ae332b5597">update</a> ()=0</td></tr>
 <tr class="separator:a786c7692ef96e6c97a0da7ae332b5597"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18436dfbd4ff243fc8bd07d0a3f36b73" id="r_a18436dfbd4ff243fc8bd07d0a3f36b73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18436dfbd4ff243fc8bd07d0a3f36b73">hover</a> ()</td></tr>
+<tr class="memdesc:a18436dfbd4ff243fc8bd07d0a3f36b73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called for hover checks.  <br /></td></tr>
 <tr class="separator:a18436dfbd4ff243fc8bd07d0a3f36b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e00cf9a8a073e2d8964dbbd10f60b6f" id="r_a4e00cf9a8a073e2d8964dbbd10f60b6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e00cf9a8a073e2d8964dbbd10f60b6f">stopModify</a> ()</td></tr>
+<tr class="memdesc:a4e00cf9a8a073e2d8964dbbd10f60b6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called to stop drawing active visualization when modification is stopped.  <br /></td></tr>
 <tr class="separator:a4e00cf9a8a073e2d8964dbbd10f60b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62f6fd6ec96955e73fecfa08474af010" id="r_a62f6fd6ec96955e73fecfa08474af010"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62f6fd6ec96955e73fecfa08474af010">updateVisualTransformMode</a> (ControlBit showMask, <a class="elRef" href="../Csharp/classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask, const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;xf)</td></tr>
+<tr class="memdesc:a62f6fd6ec96955e73fecfa08474af010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called each frame for each viewport to update available transformation modes.  <br /></td></tr>
 <tr class="separator:a62f6fd6ec96955e73fecfa08474af010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26636938df550b48cbff6e634f95ba4e" id="r_a26636938df550b48cbff6e634f95ba4e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26636938df550b48cbff6e634f95ba4e">updateTranslation</a> (Axis ax, const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;startMove, const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;endMove, <a class="elRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a> vpId)=0</td></tr>
+<tr class="memdesc:a26636938df550b48cbff6e634f95ba4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">One have to implement these functions to have visualization of translation and rotation.  <br /></td></tr>
 <tr class="separator:a26636938df550b48cbff6e634f95ba4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60452f38e7767aed4b34990197332ee1" id="r_a60452f38e7767aed4b34990197332ee1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60452f38e7767aed4b34990197332ee1">updateRotation</a> (Axis ax, const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;xf, float startAngle, float endAngle, <a class="elRef" href="../Csharp/structMR_1_1ViewportId.html">ViewportId</a> vpId)=0</td></tr>
+<tr class="memdesc:a60452f38e7767aed4b34990197332ee1"><td class="mdescLeft">&#160;</td><td class="mdescRight">xf - widget current xf  <br /></td></tr>
 <tr class="separator:a60452f38e7767aed4b34990197332ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
@@ -216,7 +231,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a0d120f469e40e2447167300bc95c9d91" id="r_a0d120f469e40e2447167300bc95c9d91"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d120f469e40e2447167300bc95c9d91">updateVisualTransformMode_</a> (ControlBit showMask, <a class="elRef" href="../Csharp/classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask)=0</td></tr>
 <tr class="separator:a0d120f469e40e2447167300bc95c9d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Interface class for <a class="el" href="classMR_1_1ObjectTransformWidget.html">ObjectTransformWidget</a> custom visualization. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af0fa6a664e8f0a43bbb41adf37fe296a" name="af0fa6a664e8f0a43bbb41adf37fe296a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af0fa6a664e8f0a43bbb41adf37fe296a">&#9670;&#160;</a></span>~ITransformControls()</h2>
 
@@ -266,6 +283,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>get center of the widget in local space </p>
+
 </div>
 </div>
 <a id="a6bfe124e50ec51bf800a189c3638b947" name="a6bfe124e50ec51bf800a189c3638b947"></a>
@@ -290,6 +309,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns currently hovered control. </p>
 
 </div>
 </div>
@@ -341,6 +362,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>should return current radius of the widget </p>
+
 <p>Reimplemented in <a class="el" href="classMR_1_1TransformControls.html#a40e18d7c493840cc01d3164d427a66bb">MR::TransformControls</a>.</p>
 
 </div>
@@ -368,6 +391,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Called for hover checks. </p>
+
 </div>
 </div>
 <a id="a866a780325d0337774ee4fc21b430da4" name="a866a780325d0337774ee4fc21b430da4"></a>
@@ -392,6 +417,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>one have to implement this function it can change internal visualization and return currently hovered control </p>
 
 </div>
 </div>
@@ -417,6 +443,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Called once on widget created to init internal objects. </p>
 
 <p>Implemented in <a class="el" href="classMR_1_1TransformControls.html#a07676f9267cb76aea3e3ae26ca04494c">MR::TransformControls</a>.</p>
 
@@ -462,6 +490,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Enables or disables pick through mode, in this mode controls will be picked even if they are occluded by other objects. </p>
+
 </div>
 </div>
 <a id="a7ae4eb78f83ef31cb1fb11184c3eca6d" name="a7ae4eb78f83ef31cb1fb11184c3eca6d"></a>
@@ -486,6 +516,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>This lambda is called in each frame, and returns transform mode mask for this frame in given viewport if not set, full mask is return </p>
 
 </div>
 </div>
@@ -512,6 +543,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>This is called to stop drawing active visualization when modification is stopped. </p>
+
 </div>
 </div>
 <a id="a044830cadc17d1698a87fcdd9a6c699e" name="a044830cadc17d1698a87fcdd9a6c699e"></a>
@@ -536,6 +569,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>one have to implement this function it can change internal visualization called when modification is stopped </p>
 
 </div>
 </div>
@@ -561,6 +595,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Called right after init and can be called on some internal actions to recreate objects visualization </p>
 
 <p>Implemented in <a class="el" href="classMR_1_1TransformControls.html#aa465cae8f8f64791763879ce0edb9f5b">MR::TransformControls</a>.</p>
 
@@ -608,6 +643,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>xf - widget current xf </p>
+
 <p>Implemented in <a class="el" href="classMR_1_1TransformControls.html#ae75c88d7e57fc69be5c277b6d055b7aa">MR::TransformControls</a>.</p>
 
 </div>
@@ -634,6 +671,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>should calculates and sets the matrix to set the size in pixels </p>
 
 <p>Reimplemented in <a class="el" href="classMR_1_1TransformControls.html#a9d26f5b660354ee7807cd3201bdc05a2">MR::TransformControls</a>.</p>
 
@@ -676,6 +715,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>One have to implement these functions to have visualization of translation and rotation. </p>
+
 <p>Implemented in <a class="el" href="classMR_1_1TransformControls.html#ab01fb623bf0489a958d77ceeb3b27ff7">MR::TransformControls</a>.</p>
 
 </div>
@@ -703,6 +744,8 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Called each frame for each viewport to update available transformation modes. </p>
 
 </div>
 </div>
@@ -732,6 +775,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>one have to implement this function it can be called in each frame (each viewport if needed) to update transform mode in different viewports </p>
 
 </div>
 </div>

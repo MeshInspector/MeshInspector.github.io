@@ -175,14 +175,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a399c5f6acb8eeb36add889e1bd4cef99" id="r_a399c5f6acb8eeb36add889e1bd4cef99"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a399c5f6acb8eeb36add889e1bd4cef99">BasicClickableRectUiRenderTask</a> ()=default</td></tr>
 <tr class="separator:a399c5f6acb8eeb36add889e1bd4cef99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d2604474a74167ceaa7eb132072b9c4" id="r_a7d2604474a74167ceaa7eb132072b9c4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d2604474a74167ceaa7eb132072b9c4">BasicClickableRectUiRenderTask</a> (const <a class="el" href="classMR_1_1BasicClickableRectUiRenderTask.html">BasicClickableRectUiRenderTask</a> &amp;other)</td></tr>
+<tr class="memdesc:a7d2604474a74167ceaa7eb132072b9c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Don't assign the memebers (except the base), because we want to preserve the state across frames.  <br /></td></tr>
 <tr class="separator:a7d2604474a74167ceaa7eb132072b9c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4cd26a146e8e880ab41c0d4a04df064" id="r_ae4cd26a146e8e880ab41c0d4a04df064"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BasicClickableRectUiRenderTask.html">BasicClickableRectUiRenderTask</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4cd26a146e8e880ab41c0d4a04df064">operator=</a> (const <a class="el" href="classMR_1_1BasicClickableRectUiRenderTask.html">BasicClickableRectUiRenderTask</a> &amp;other)</td></tr>
 <tr class="separator:ae4cd26a146e8e880ab41c0d4a04df064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7945d284200ce4786772e175d14fc85a" id="r_a7945d284200ce4786772e175d14fc85a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7945d284200ce4786772e175d14fc85a">~BasicClickableRectUiRenderTask</a> ()=default</td></tr>
 <tr class="separator:a7945d284200ce4786772e175d14fc85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39048fbb209483a86815166a42245eb3" id="r_a39048fbb209483a86815166a42245eb3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39048fbb209483a86815166a42245eb3">onClick</a> ()=0</td></tr>
+<tr class="memdesc:a39048fbb209483a86815166a42245eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called when the click happens.  <br /></td></tr>
 <tr class="separator:a39048fbb209483a86815166a42245eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59897da65259f4cb8c6018ac88fa97fb" id="r_a59897da65259f4cb8c6018ac88fa97fb"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59897da65259f4cb8c6018ac88fa97fb">earlyBackwardPass</a> (const <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BackwardPassParams</a> &amp;backParams) override</td></tr>
+<tr class="memdesc:a59897da65259f4cb8c6018ac88fa97fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is what ultimately calls <code><a class="el" href="#a39048fbb209483a86815166a42245eb3" title="This is called when the click happens.">onClick()</a></code> if the certain conditions hold.  <br /></td></tr>
 <tr class="separator:a59897da65259f4cb8c6018ac88fa97fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1BasicUiRenderTask"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1BasicUiRenderTask')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el"  href="../Csharp/classMR_1_1BasicUiRenderTask.html">MR::BasicUiRenderTask</a></td></tr>
 <tr class="memitem:a19e02fdcd91848d510e8c03974704d6f inherit pub_methods_classMR_1_1BasicUiRenderTask" id="r_a19e02fdcd91848d510e8c03974704d6f"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1BasicUiRenderTask.html#a19e02fdcd91848d510e8c03974704d6f">earlyBackwardPass</a> (MR.BasicUiRenderTask.Const_BackwardPassParams params_)</td></tr>
@@ -208,12 +211,14 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a3f269328b594b62b2356a95a95cdeedd" id="r_a3f269328b594b62b2356a95a95cdeedd"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f269328b594b62b2356a95a95cdeedd">clickableCornerA</a></td></tr>
+<tr class="memdesc:a3f269328b594b62b2356a95a95cdeedd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set those to set the clickable area. Zero both to hovers and clicks.  <br /></td></tr>
 <tr class="separator:a3f269328b594b62b2356a95a95cdeedd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8135d7c948f4c4712f0fc3c82fd3a0b4" id="r_a8135d7c948f4c4712f0fc3c82fd3a0b4"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8135d7c948f4c4712f0fc3c82fd3a0b4">clickableCornerB</a></td></tr>
 <tr class="separator:a8135d7c948f4c4712f0fc3c82fd3a0b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b878fe507e8be18b19469d53e7e10ef" id="r_a8b878fe507e8be18b19469d53e7e10ef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b878fe507e8be18b19469d53e7e10ef">enabled</a> = true</td></tr>
 <tr class="separator:a8b878fe507e8be18b19469d53e7e10ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a816f2a94a5b1508d2fb4fa3d3eeb2a48" id="r_a816f2a94a5b1508d2fb4fa3d3eeb2a48"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a816f2a94a5b1508d2fb4fa3d3eeb2a48">isHovered</a> = false</td></tr>
+<tr class="memdesc:a816f2a94a5b1508d2fb4fa3d3eeb2a48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read these to decide how to render.  <br /></td></tr>
 <tr class="separator:a816f2a94a5b1508d2fb4fa3d3eeb2a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75630bde88b307b104f2456a516af5db" id="r_a75630bde88b307b104f2456a516af5db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75630bde88b307b104f2456a516af5db">isActive</a> = false</td></tr>
 <tr class="separator:a75630bde88b307b104f2456a516af5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -233,7 +238,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a18ebdf68bde4172b208cffb9be70b12c inherit properties_classMR_1_1BasicUiRenderTask" id="r_a18ebdf68bde4172b208cffb9be70b12c"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1BasicUiRenderTask.html#a18ebdf68bde4172b208cffb9be70b12c">renderTaskDepth</a></td></tr>
 <tr class="separator:a18ebdf68bde4172b208cffb9be70b12c inherit properties_classMR_1_1BasicUiRenderTask"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This is a helper base class for writing <code><a class="elRef" href="../Csharp/classMR_1_1BasicUiRenderTask.html">BasicUiRenderTask</a></code>s that let you click a rectangle in the scene. Note, this task relies on preserving state between the frames. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a399c5f6acb8eeb36add889e1bd4cef99" name="a399c5f6acb8eeb36add889e1bd4cef99"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a399c5f6acb8eeb36add889e1bd4cef99">&#9670;&#160;</a></span>BasicClickableRectUiRenderTask() <span class="overload">[1/2]</span></h2>
 
@@ -282,6 +289,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Don't assign the memebers (except the base), because we want to preserve the state across frames. </p>
+
 </div>
 </div>
 <a id="a7945d284200ce4786772e175d14fc85a" name="a7945d284200ce4786772e175d14fc85a"></a>
@@ -322,7 +331,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API void MR::BasicClickableRectUiRenderTask::earlyBackwardPass </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BackwardPassParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BackwardPassParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>backParams</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -332,7 +341,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This is an optional early pass, where you can claim exclusive control over the mouse. This pass is executed in reverse draw order. </p>
+
+<p>This is what ultimately calls <code><a class="el" href="#a39048fbb209483a86815166a42245eb3" title="This is called when the click happens.">onClick()</a></code> if the certain conditions hold. </p>
 
 <p>Reimplemented from <a class="elRef" href="../Csharp/classMR_1_1BasicUiRenderTask.html">MR::BasicUiRenderTask</a>.</p>
 
@@ -360,6 +370,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>This is called when the click happens. </p>
 
 <p>Implemented in <a class="el" href="classMR_1_1RenderDimensions_1_1AngleTask.html#a49f86a1ba427b305755d0ba398e68a98">MR::RenderDimensions::AngleTask</a>, <a class="el" href="classMR_1_1RenderDimensions_1_1LengthTask.html#af4c203cb61c7b00b88193e016d8ea533">MR::RenderDimensions::LengthTask</a>, <a class="el" href="classMR_1_1RenderDimensions_1_1PointTask.html#a8da538a4deb69c122f67b8b76d77fdfe">MR::RenderDimensions::PointTask</a>, and <a class="el" href="classMR_1_1RenderDimensions_1_1RadiusTask.html#a66cde8c6627ff073cd168f2378752c14">MR::RenderDimensions::RadiusTask</a>.</p>
 
@@ -403,6 +415,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set those to set the clickable area. Zero both to hovers and clicks. </p>
+
 </div>
 </div>
 <a id="a8135d7c948f4c4712f0fc3c82fd3a0b4" name="a8135d7c948f4c4712f0fc3c82fd3a0b4"></a>
@@ -430,6 +444,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set to false to disable hovers and clicks (<code>isHovered</code> will always be false), but still consume the mouse hover to prevent other buttons below this one from being clicked. </p>
 
 </div>
 </div>
@@ -458,6 +473,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Read these to decide how to render. </p>
 
 </div>
 </div>

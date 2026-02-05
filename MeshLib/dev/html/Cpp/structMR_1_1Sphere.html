@@ -352,6 +352,7 @@ template&lt;typename U &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Here <code>V == U</code> doesn't seem to cause any issues in the C++ code, but we're still disabling it because it somehow gets emitted when generating the bindings, and results in duplicate functions in C#. </p>
 
 </div>
 </div>

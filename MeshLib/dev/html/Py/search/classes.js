@@ -269,7 +269,7 @@ var searchData=
   ['heap_2',['Heap',['../../Cpp/classMR_1_1Heap.html',1,'MR']]],
   ['heap_5ffloat_5fgraphvertid_5fstd_5fgreater_5ffloat_3',['Heap_float_GraphVertId_std_greater_float',['../classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float.html',1,'mrmeshpy']]],
   ['heap_5ffloat_5fmrgraphvertid_5fstdgreaterfloat_4',['Heap_Float_MRGraphVertId_StdGreaterFloat',['../../Csharp/classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat.html',1,'MR']]],
-  ['histogram_5',['Histogram',['../../Cpp/classMR_1_1Histogram.html',1,'MR::Histogram'],['../../Cpp/structMR_1_1Palette_1_1Histogram.html',1,'MR::Palette::Histogram'],['../classmrmeshpy_1_1Histogram.html',1,'mrmeshpy.Histogram']]],
+  ['histogram_5',['Histogram',['../../Cpp/classMR_1_1Histogram.html',1,'MR::Histogram'],['../classmrmeshpy_1_1Histogram.html',1,'mrmeshpy.Histogram']]],
   ['histogramgridline_6',['HistogramGridLine',['../../Cpp/structImGui_1_1HistogramGridLine.html',1,'ImGui']]],
   ['historian_7',['Historian',['../../Cpp/classMR_1_1Historian.html',1,'MR']]],
   ['historyaction_8',['HistoryAction',['../../Cpp/classMR_1_1HistoryAction.html',1,'MR::HistoryAction'],['../classmrmeshpy_1_1HistoryAction.html',1,'mrmeshpy.HistoryAction']]],

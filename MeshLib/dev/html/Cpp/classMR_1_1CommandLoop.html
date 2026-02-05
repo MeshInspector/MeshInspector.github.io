@@ -153,6 +153,9 @@ $(function(){initNavTree('classMR_1_1CommandLoop.html',''); initResizable(true);
 </div><!--header-->
 <div class="contents">
 
+<p>Additional command loop for external app control.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRCommandLoop_8h_source.html">MRCommandLoop.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -166,6 +169,7 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="#a2e4318196fd48b27b617c07eb35bbe39a626474288d65a719abc0bb3d279c2d7a">AfterWindowAppear</a>
 <br />
  }</td></tr>
+<tr class="memdesc:a2e4318196fd48b27b617c07eb35bbe39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify execution in specific time of application start.  <a href="#a2e4318196fd48b27b617c07eb35bbe39">More...</a><br /></td></tr>
 <tr class="separator:a2e4318196fd48b27b617c07eb35bbe39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a517bdd4c876165f0896a0780d5fea918" id="r_a517bdd4c876165f0896a0780d5fea918"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a517bdd4c876165f0896a0780d5fea918">CommandFunc</a> = std::function&lt;void()&gt;</td></tr>
 <tr class="separator:a517bdd4c876165f0896a0780d5fea918"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,23 +177,29 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ae7e4c5020652a1dda97dc3664b2bbf" id="r_a6ae7e4c5020652a1dda97dc3664b2bbf"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ae7e4c5020652a1dda97dc3664b2bbf">setMainThreadId</a> (const std::thread::id &amp;id)</td></tr>
+<tr class="memdesc:a6ae7e4c5020652a1dda97dc3664b2bbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function setups main thread id, it should be called before any command.  <br /></td></tr>
 <tr class="separator:a6ae7e4c5020652a1dda97dc3664b2bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3d66df8666058e293e9daa4b8f68928" id="r_aa3d66df8666058e293e9daa4b8f68928"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::thread::id&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3d66df8666058e293e9daa4b8f68928">getMainThreadId</a> ()</td></tr>
 <tr class="separator:aa3d66df8666058e293e9daa4b8f68928"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90822eccec894fc827de4d60e5b6285b" id="r_a90822eccec894fc827de4d60e5b6285b"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90822eccec894fc827de4d60e5b6285b">setState</a> (<a class="el" href="#a2e4318196fd48b27b617c07eb35bbe39">StartPosition</a> state)</td></tr>
+<tr class="memdesc:a90822eccec894fc827de4d60e5b6285b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update state of command loop, only can rise.  <br /></td></tr>
 <tr class="separator:a90822eccec894fc827de4d60e5b6285b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2c51a1238c31d646cfb988bb335188b" id="r_ac2c51a1238c31d646cfb988bb335188b"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2c51a1238c31d646cfb988bb335188b">appendCommand</a> (<a class="el" href="#a517bdd4c876165f0896a0780d5fea918">CommandFunc</a> func, <a class="el" href="#a2e4318196fd48b27b617c07eb35bbe39">StartPosition</a> state=<a class="el" href="#a2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba">StartPosition::BeforeWindowAppear</a>)</td></tr>
 <tr class="separator:ac2c51a1238c31d646cfb988bb335188b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10e006b28fa9dbd3572e3b43c8037640" id="r_a10e006b28fa9dbd3572e3b43c8037640"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10e006b28fa9dbd3572e3b43c8037640">runCommandFromGUIThread</a> (<a class="el" href="#a517bdd4c876165f0896a0780d5fea918">CommandFunc</a> func)</td></tr>
 <tr class="separator:a10e006b28fa9dbd3572e3b43c8037640"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f948b137288b0e6e94ca32809166869" id="r_a2f948b137288b0e6e94ca32809166869"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f948b137288b0e6e94ca32809166869">processCommands</a> ()</td></tr>
+<tr class="memdesc:a2f948b137288b0e6e94ca32809166869"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute all commands from loop.  <br /></td></tr>
 <tr class="separator:a2f948b137288b0e6e94ca32809166869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49b2698f52cf9c94be1af74fa75bf354" id="r_a49b2698f52cf9c94be1af74fa75bf354"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49b2698f52cf9c94be1af74fa75bf354">empty</a> ()</td></tr>
+<tr class="memdesc:a49b2698f52cf9c94be1af74fa75bf354"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if loop is empty.  <br /></td></tr>
 <tr class="separator:a49b2698f52cf9c94be1af74fa75bf354"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9d0a6f381407e79b5ee8eac0cd2fda2" id="r_af9d0a6f381407e79b5ee8eac0cd2fda2"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9d0a6f381407e79b5ee8eac0cd2fda2">removeCommands</a> (bool closeLoop)</td></tr>
 <tr class="separator:af9d0a6f381407e79b5ee8eac0cd2fda2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Additional command loop for external app control. </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a517bdd4c876165f0896a0780d5fea918" name="a517bdd4c876165f0896a0780d5fea918"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a517bdd4c876165f0896a0780d5fea918">&#9670;&#160;</a></span>CommandFunc</h2>
 
@@ -224,12 +234,19 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Specify execution in specific time of application start. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2e4318196fd48b27b617c07eb35bbe39af86d54fce93fffda37739a9dbfc37c4c" name="a2e4318196fd48b27b617c07eb35bbe39af86d54fce93fffda37739a9dbfc37c4c"></a>AfterWindowInit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2e4318196fd48b27b617c07eb35bbe39aefac199d2823f9d78123a8ffb79b7b42" name="a2e4318196fd48b27b617c07eb35bbe39aefac199d2823f9d78123a8ffb79b7b42"></a>AfterSplashAppear&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2e4318196fd48b27b617c07eb35bbe39a06431eb0f93d82e51c38a39e608780a0" name="a2e4318196fd48b27b617c07eb35bbe39a06431eb0f93d82e51c38a39e608780a0"></a>AfterPluginInit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba" name="a2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba"></a>BeforeWindowAppear&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2e4318196fd48b27b617c07eb35bbe39a626474288d65a719abc0bb3d279c2d7a" name="a2e4318196fd48b27b617c07eb35bbe39a626474288d65a719abc0bb3d279c2d7a"></a>AfterWindowAppear&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e4318196fd48b27b617c07eb35bbe39aefac199d2823f9d78123a8ffb79b7b42" name="a2e4318196fd48b27b617c07eb35bbe39aefac199d2823f9d78123a8ffb79b7b42"></a>AfterSplashAppear&#160;</td><td class="fielddoc"><p>executes right after window is initialized </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a2e4318196fd48b27b617c07eb35bbe39a06431eb0f93d82e51c38a39e608780a0" name="a2e4318196fd48b27b617c07eb35bbe39a06431eb0f93d82e51c38a39e608780a0"></a>AfterPluginInit&#160;</td><td class="fielddoc"><p>executes after splash appeared </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba" name="a2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba"></a>BeforeWindowAppear&#160;</td><td class="fielddoc"><p>executes during splash, after plugins init) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a2e4318196fd48b27b617c07eb35bbe39a626474288d65a719abc0bb3d279c2d7a" name="a2e4318196fd48b27b617c07eb35bbe39a626474288d65a719abc0bb3d279c2d7a"></a>AfterWindowAppear&#160;</td><td class="fielddoc"><p>executes after splash is going to close, and just before main window is shown and have valid main window context </p>
+<p>executes after window appeared to have valid opengl context </p>
+</td></tr>
 </table>
 
 </div>
@@ -261,6 +278,7 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Adds command to the end of command loop, can be performed from any thread do not block, so be careful with lambda captures note: state - specify execution in specific time of application start </p>
 
 </div>
 </div>
@@ -286,6 +304,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return true if loop is empty. </p>
 
 </div>
 </div>
@@ -337,6 +357,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Execute all commands from loop. </p>
+
 </div>
 </div>
 <a id="af9d0a6f381407e79b5ee8eac0cd2fda2" name="af9d0a6f381407e79b5ee8eac0cd2fda2"></a>
@@ -361,6 +383,7 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Clears the queue without executing the commands if closeLoop is true, does not accept any new commands </p>
 
 </div>
 </div>
@@ -386,6 +409,7 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>If caller thread is main - instantly run command, otherwise add command to the end of loop with StartPosition state = StartPosition::AfterSplash and blocks caller thread until command is done </p>
 
 </div>
 </div>
@@ -412,6 +436,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>This function setups main thread id, it should be called before any command. </p>
+
 </div>
 </div>
 <a id="a90822eccec894fc827de4d60e5b6285b" name="a90822eccec894fc827de4d60e5b6285b"></a>
@@ -436,6 +462,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Update state of command loop, only can rise. </p>
 
 </div>
 </div>

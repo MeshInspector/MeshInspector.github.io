@@ -153,6 +153,9 @@ $(function(){initNavTree('structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_
 </div><!--header-->
 <div class="contents">
 
+<p>GCC chokes on full specializations at class scope, hence this.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRUITestEngine_8h_source.html">MRUITestEngine.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -163,13 +166,18 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a75052a15d9676e842bbd866aa32fa037" id="r_a75052a15d9676e842bbd866aa32fa037"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75052a15d9676e842bbd866aa32fa037">value</a></td></tr>
+<tr class="memdesc:a75052a15d9676e842bbd866aa32fa037"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current value.  <br /></td></tr>
 <tr class="separator:a75052a15d9676e842bbd866aa32fa037"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae87e1750cabd4b10198e82ed353eb4f1" id="r_ae87e1750cabd4b10198e82ed353eb4f1"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae87e1750cabd4b10198e82ed353eb4f1">allowedValues</a></td></tr>
 <tr class="separator:ae87e1750cabd4b10198e82ed353eb4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39c3a6f5e5ed4c98cd30335902726b92" id="r_a39c3a6f5e5ed4c98cd30335902726b92"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39c3a6f5e5ed4c98cd30335902726b92">simulatedValue</a></td></tr>
+<tr class="memdesc:a39c3a6f5e5ed4c98cd30335902726b92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set to override the value.  <br /></td></tr>
 <tr class="separator:a39c3a6f5e5ed4c98cd30335902726b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;std::same_as&lt; std::string &gt; T&gt;<br />
+struct MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;</div><p>GCC chokes on full specializations at class scope, hence this. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0c53df5fe946d2f3a130df1ba36cc8dc" name="a0c53df5fe946d2f3a130df1ba36cc8dc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c53df5fe946d2f3a130df1ba36cc8dc">&#9670;&#160;</a></span>Value()</h2>
 
@@ -236,6 +244,8 @@ template&lt;std::same_as&lt; std::string &gt; T&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Set to override the value. </p>
+
 </div>
 </div>
 <a id="a75052a15d9676e842bbd866aa32fa037" name="a75052a15d9676e842bbd866aa32fa037"></a>
@@ -251,6 +261,8 @@ template&lt;std::same_as&lt; std::string &gt; T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The current value. </p>
 
 </div>
 </div>

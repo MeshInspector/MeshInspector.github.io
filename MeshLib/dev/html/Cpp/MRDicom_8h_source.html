@@ -171,14 +171,13 @@ $(function(){initNavTree('MRDicom_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">enum class</span> DicomStatusEnum : <span class="keywordtype">int</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    Ok = 0,         <span class="comment">// valid DICOM and we can open it</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    Invalid,        <span class="comment">// not a valid DICOM</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    Unsupported,    <span class="comment">// a valid DICOM, but we do not support it (e.g. some MediaStorages)</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    Ok = 0,         </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    Invalid,        </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    Unsupported,    </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>};</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">struct </span><a class="code hl_classRef" href="../Csharp/classMR_1_1VoxelsLoad_1_1DicomStatus.html">DicomStatus</a></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>{</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="comment">// implicit by design</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1VoxelsLoad_1_1DicomStatus.html#a3893ced0fc97cdf890ce1a6efcf2cff9">DicomStatus</a>( DicomStatusEnum st, std::string_view rs = <span class="stringliteral">&quot;&quot;</span> ):</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <a class="code hl_propertyRef" href="../Csharp/classMR_1_1VoxelsLoad_1_1DicomStatus.html#abec8265585efe64c313234fb2b23e910">status</a>( st ),</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <a class="code hl_propertyRef" href="../Csharp/classMR_1_1VoxelsLoad_1_1DicomStatus.html#a6b35eaa143be601208b432e745301c0d">reason</a>( rs )</div>
@@ -191,7 +190,7 @@ $(function(){initNavTree('MRDicom_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">    </span>{ <span class="keywordflow">return</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1VoxelsLoad_1_1DicomStatus.html#abec8265585efe64c313234fb2b23e910">status</a> == s; }</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    DicomStatusEnum <a class="code hl_propertyRef" href="../Csharp/classMR_1_1VoxelsLoad_1_1DicomStatus.html#abec8265585efe64c313234fb2b23e910">status</a> = DicomStatusEnum::Invalid;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    std::string <a class="code hl_propertyRef" href="../Csharp/classMR_1_1VoxelsLoad_1_1DicomStatus.html#a6b35eaa143be601208b432e745301c0d">reason</a>;     <span class="comment">// if status is Unsupported, specify reason why</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    std::string <a class="code hl_propertyRef" href="../Csharp/classMR_1_1VoxelsLoad_1_1DicomStatus.html#a6b35eaa143be601208b432e745301c0d">reason</a>;     </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="namespaceMR_1_1VoxelsLoad.html#ad6fd3c989bc83e4e99389def8fa8931b">   49</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="code hl_classRef" href="../Csharp/classMR_1_1VoxelsLoad_1_1DicomStatus.html">DicomStatus</a> <a class="code hl_function" href="namespaceMR_1_1VoxelsLoad.html#ad6fd3c989bc83e4e99389def8fa8931b">isDicomFile</a>( <span class="keyword">const</span> std::filesystem::path&amp; path, std::string* seriesUid = <span class="keyword">nullptr</span>, <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector3i.html">Vector3i</a>* dims = <span class="keyword">nullptr</span> );</div>
@@ -229,7 +228,7 @@ $(function(){initNavTree('MRDicom_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="namespaceMR_1_1VoxelsLoad.html#a279a152a57f0cd1d7f680c48cc341687">   91</a></span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Expected&lt;LoadedObjects&gt; <a class="code hl_function" href="namespaceMR_1_1VoxelsLoad.html#a279a152a57f0cd1d7f680c48cc341687">makeObjectVoxelsFromDicomFolder</a>( <span class="keyword">const</span> std::filesystem::path&amp; folder, <span class="keyword">const</span> ProgressCallback&amp; callback = {} );</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>} <span class="comment">// namespace VoxelsLoad</span></div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>} </div>
 </div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
 <div class="foldopen" id="foldopen00095" data-start="{" data-end="}">
@@ -242,16 +241,16 @@ $(function(){initNavTree('MRDicom_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="namespaceMR_1_1VoxelsSave.html#a06de9ebb71a997d3eec5251dc2a1c1e8">  105</a></span><span class="keyword">extern</span> <span class="keyword">template</span> <a class="code hl_define" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Expected&lt;void&gt; <a class="code hl_function" href="namespaceMR_1_1VoxelsSave.html#a8b7a3d30f9b81594b08a8a90828dd8e6">toDicom</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt;<a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;std::uint16_t, VoxelId&gt;</a>&gt;&amp; <a class="code hl_function" href="namespaceMR.html#a83e40508b3f05b594da19748c1da2d05">volume</a>, <span class="keyword">const</span> std::filesystem::path&amp; path, <span class="keyword">const</span> std::optional&lt;MinMaxf&gt;&amp; sourceScale, <span class="keyword">const</span> ProgressCallback&amp; cb );</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>} <span class="comment">// namespace VoxelsSave</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>} </div>
 </div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>} </div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aMRAffineXf_8h_html"><div class="ttname"><a href="MRAffineXf_8h.html">MRAffineXf.h</a></div></div>
 <div class="ttc" id="aMRLoadedObjects_8h_html"><div class="ttname"><a href="MRLoadedObjects_8h.html">MRLoadedObjects.h</a></div></div>
 <div class="ttc" id="aMRMatrix3_8h_html"><div class="ttname"><a href="MRMatrix3_8h.html">MRMatrix3.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
-<div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:14</div></div>
+<div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdoc">see explanation in MRMesh/MRMeshFwd.h</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:14</div></div>
 <div class="ttc" id="aMRVoxelsVolume_8h_html"><div class="ttname"><a href="MRVoxelsVolume_8h.html">MRVoxelsVolume.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1VdbVolume_html"><div class="ttname"><a href="../Csharp/classMR_1_1VdbVolume.html">MR::VdbVolume</a></div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:19</div></div>
@@ -275,7 +274,7 @@ $(function(){initNavTree('MRDicom_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="anamespaceMR_1_1VoxelsLoad_html_adbcdf154c89bce3f54684092bcc3f76e"><div class="ttname"><a href="namespaceMR_1_1VoxelsLoad.html#adbcdf154c89bce3f54684092bcc3f76e">MR::VoxelsLoad::isDicomFolder</a></div><div class="ttdeci">MRVOXELS_API bool isDicomFolder(const std::filesystem::path &amp;dirPath)</div><div class="ttdoc">check if given folder contains at least one DICOM file</div></div>
 <div class="ttc" id="anamespaceMR_1_1VoxelsLoad_html_adf1cf75d42be383bb66a5e1f952b2cd1"><div class="ttname"><a href="namespaceMR_1_1VoxelsLoad.html#adf1cf75d42be383bb66a5e1f952b2cd1">MR::VoxelsLoad::loadDicomsFolderAsVdb</a></div><div class="ttdeci">MRVOXELS_API std::vector&lt; Expected&lt; DicomVolumeAsVdb &gt; &gt; loadDicomsFolderAsVdb(const std::filesystem::path &amp;path, unsigned maxNumThreads, const ProgressCallback &amp;cb={})</div><div class="ttdoc">Loads all volumes from DICOM files located in given folder as a number of VdbVolume.</div></div>
 <div class="ttc" id="anamespaceMR_1_1VoxelsSave_html_a8b7a3d30f9b81594b08a8a90828dd8e6"><div class="ttname"><a href="namespaceMR_1_1VoxelsSave.html#a8b7a3d30f9b81594b08a8a90828dd8e6">MR::VoxelsSave::toDicom</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; void &gt; toDicom(const VdbVolume &amp;vdbVolume, const std::filesystem::path &amp;path, ProgressCallback cb={})</div><div class="ttdoc">Save voxels object to a single 3d DICOM file.</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a83e40508b3f05b594da19748c1da2d05"><div class="ttname"><a href="namespaceMR.html#a83e40508b3f05b594da19748c1da2d05">MR::volume</a></div><div class="ttdeci">MRMESH_API double volume(const MeshTopology &amp;topology, const VertCoords &amp;points, const FaceBitSet *region=nullptr)</div></div>
 <div class="ttc" id="astructMR_1_1AffineXf3f_html"><div class="ttname"><a href="../Csharp/structMR_1_1AffineXf3f.html">MR::AffineXf3f</a></div></div>
 <div class="ttc" id="astructMR_1_1Vector3i_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector3i.html">MR::Vector3i</a></div></div>

@@ -183,8 +183,6 @@ $(function(){initNavTree('MRObject_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_functionRef" href="../Csharp/classMR_1_1ObjectChildrenHolder.html#a7ba5be97e7dfefb6200789459fd60a8a">ObjectChildrenHolder</a> &amp; operator = ( <a class="code hl_functionRef" href="../Csharp/classMR_1_1ObjectChildrenHolder.html#a7ba5be97e7dfefb6200789459fd60a8a">ObjectChildrenHolder</a> &amp;&amp; ) noexcept;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> ~<a class="code hl_functionRef" href="../Csharp/classMR_1_1ObjectChildrenHolder.html#a7ba5be97e7dfefb6200789459fd60a8a">ObjectChildrenHolder</a>();</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="comment">// returns this Object as shared_ptr</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="comment">// finds it among its parent&#39;s recognized children</span></div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt;Object&gt; getSharedPtr() const;</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">size_t</span> heapBytes() const;</div>
@@ -203,7 +201,6 @@ $(function(){initNavTree('MRObject_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    Object &amp; operator = ( Object &amp;&amp; ) noexcept = default;</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    virtual ~Object() = default;</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="comment">// return name of subtype for serialization purposes</span></div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    constexpr static const <span class="keywordtype">char</span>* StaticTypeName() noexcept { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Object&quot;</span>; }</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* typeName()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> StaticTypeName(); }</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
@@ -272,7 +269,7 @@ $(function(){initNavTree('MRObject_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span><span class="preprocessor">    #ifdef __GNUC__</span></div>
 <div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span><span class="preprocessor">    #pragma GCC diagnostic push</span></div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span><span class="preprocessor">    #pragma GCC diagnostic ignored &quot;-Wstrict-aliasing&quot; </span><span class="comment">// Fingers crossed.</span></div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span><span class="preprocessor">    #pragma GCC diagnostic ignored &quot;-Wstrict-aliasing&quot; </span></div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span><span class="preprocessor">    #endif</span></div>
 <div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; children()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="keyword">reinterpret_cast&lt;</span><span class="keyword">const </span>std::vector&lt; std::shared_ptr&lt; const Object &gt; <span class="keyword">&gt;</span> &amp;&gt;( children_ ); }</div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span><span class="preprocessor">    #ifdef __GNUC__</span></div>
@@ -308,9 +305,6 @@ $(function(){initNavTree('MRObject_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> std::vector&lt;std::string&gt; getInfoLines() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    <span class="comment">// This would be automatically skipped in the bindings anyway because of the `Json::Value` parameter.</span></div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    <span class="comment">// But skipping it here prevents the vector-of-futures type from being registered, which is helpful.</span></div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    <span class="comment">// TODO: figure out how to automate this (add a flag to the parser to outright reject functions based on their parameter and return types).</span></div>
 <div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR_BIND_IGNORE Expected&lt;std::vector&lt;std::future&lt;Expected&lt;void&gt;&gt;&gt;&gt; serializeRecursive( <span class="keyword">const</span> std::filesystem::path&amp; path, Json::Value&amp; root, <span class="keywordtype">int</span> childId ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
 <div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt;void&gt; deserializeRecursive( <span class="keyword">const</span> std::filesystem::path&amp; path, <span class="keyword">const</span> Json::Value&amp; root,</div>
@@ -331,9 +325,7 @@ $(function(){initNavTree('MRObject_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span> </div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>    [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> heapBytes() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    <span class="comment">// return true if model of current object equals to model (the same) of other</span></div>
 <div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">bool</span> sameModels( <span class="keyword">const</span> Object&amp; other ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    <span class="comment">// return hash of model (or hash object pointer if object has no model)</span></div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> getModelHash() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span> </div>
 <div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>    <span class="keyword">using </span>XfChangedSignal = Signal&lt;void()&gt;;</div>
@@ -360,7 +352,7 @@ $(function(){initNavTree('MRObject_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span> </div>
 <div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>    std::string name_;</div>
 <div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>    ViewportProperty&lt;AffineXf3f&gt; xf_;</div>
-<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>    ViewportMask visibilityMask_ = ViewportMask::all(); <span class="comment">// Prefer to not read directly. Use the getter, as it can be overridden.</span></div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>    ViewportMask visibilityMask_ = ViewportMask::all(); </div>
 <div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>    <span class="keywordtype">bool</span> locked_ = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>    <span class="keywordtype">bool</span> parentLocked_ = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>    <span class="keywordtype">bool</span> selected_{ <span class="keyword">false</span> };</div>
@@ -368,12 +360,8 @@ $(function(){initNavTree('MRObject_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>    <span class="keyword">mutable</span> <span class="keywordtype">bool</span> needRedraw_{<span class="keyword">false</span>};</div>
 <div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>    std::set&lt;std::string&gt; tags_;</div>
 <div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span> </div>
-<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>    <span class="comment">// This calls `onWorldXfChanged_()` for all children recursively, which in turn emits `worldXfChangedSignal`.</span></div>
-<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>    <span class="comment">// This isn&#39;t virtual because it wouldn&#39;t be very useful, because it doesn&#39;t call itself on the children</span></div>
-<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>    <span class="comment">//   (it doesn&#39;t use a true recursion, instead imitating one, presumably to save stack space, though this is unlikely to be an issue).</span></div>
 <div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> sendWorldXfChangedSignal_();</div>
 <div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span> </div>
-<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>    <span class="comment">// Emits `worldXfChangedSignal`, but derived classes can add additional behavior to it.</span></div>
 <div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">void</span> onWorldXfChanged_();</div>
 <div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span> </div>
 <div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span><span class="keyword">private</span>:</div>
@@ -393,21 +381,19 @@ $(function(){initNavTree('MRObject_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>    <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span> &amp; child : children_ )</div>
 <div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>        <span class="keywordflow">if</span> ( <span class="keyword">auto</span> res = std::dynamic_pointer_cast&lt;T&gt;( child ) )</div>
 <div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>            <span class="keywordflow">return</span> res;</div>
-<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>    <span class="keywordflow">return</span> {}; <span class="comment">// not found</span></div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>    <span class="keywordflow">return</span> {}; </div>
 <div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>}</div>
 </div>
 <div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span> </div>
 <div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="foldopen" id="foldopen00355" data-start="{" data-end="}">
-<div class="line"><a id="l00355" name="l00355"></a><span class="lineno"><a class="line" href="group__DataModelGroup.html#ga595c5f842600963ee11cd5e9a3a0a7f8">  355</a></span>std::shared_ptr&lt;const T&gt; <a class="code hl_function" href="group__DataModelGroup.html#gaa9133d1e63e15eb09f7f902afe2abd3a">Object::find</a>( <span class="keyword">const</span> std::string_view &amp; name )<span class="keyword"> const</span></div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>std::shared_ptr&lt;const T&gt; <a class="code hl_function" href="group__DataModelGroup.html#gaa9133d1e63e15eb09f7f902afe2abd3a">Object::find</a>( <span class="keyword">const</span> std::string_view &amp; name )<span class="keyword"> const</span></div>
 <div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span><span class="keyword"></span>{</div>
 <div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>    <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span> &amp; child : children_ )</div>
-<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>        <span class="keywordflow">if</span> ( child-&gt;name() == name )</div>
-<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>            <span class="keywordflow">if</span> ( <span class="keyword">auto</span> res = std::dynamic_pointer_cast&lt;T&gt;( child ) )</div>
-<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>                <span class="keywordflow">return</span> res;</div>
-<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>    <span class="keywordflow">return</span> {}; <span class="comment">// not found</span></div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>        if ( child-&gt;name() == name )</div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>            if ( auto res = std::dynamic_pointer_cast&lt;T&gt;( child ) )</div>
+<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>                return res;</div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>    <span class="keywordflow">return</span> {}; </div>
 <div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span>}</div>
-</div>
 <div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span> </div>
 <div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span> </div>
 <div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>} </div>
@@ -423,9 +409,9 @@ $(function(){initNavTree('MRObject_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="aclassMR_1_1ObjectChildrenHolder_html_a7ba5be97e7dfefb6200789459fd60a8a"><div class="ttname"><a href="../Csharp/classMR_1_1ObjectChildrenHolder.html#a7ba5be97e7dfefb6200789459fd60a8a">MR::ObjectChildrenHolder::ObjectChildrenHolder</a></div><div class="ttdeci">unsafe ObjectChildrenHolder()</div></div>
 <div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="../Csharp/classMR_1_1Object.html">MR::Object</a></div><div class="ttdef"><b>Definition</b> MRObject.h:62</div></div>
 <div class="ttc" id="agroup__DataModelGroup_html_gaa9133d1e63e15eb09f7f902afe2abd3a"><div class="ttname"><a href="group__DataModelGroup.html#gaa9133d1e63e15eb09f7f902afe2abd3a">MR::Object::find</a></div><div class="ttdeci">std::shared_ptr&lt; const T &gt; find() const</div><div class="ttdoc">finds a direct child by type</div><div class="ttdef"><b>Definition</b> MRObject.h:346</div></div>
-<div class="ttc" id="anamespaceMR_1_1Features_html_a1f7d6b7fed16c703a284c2013da802e2"><div class="ttname"><a href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">MR::Features::name</a></div><div class="ttdeci">std::string name(const T &amp;primitive)</div><div class="ttdef"><b>Definition</b> MRFeatures.h:309</div></div>
+<div class="ttc" id="anamespaceMR_1_1Features_html_a1f7d6b7fed16c703a284c2013da802e2"><div class="ttname"><a href="namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2">MR::Features::name</a></div><div class="ttdeci">std::string name(const T &amp;primitive)</div><div class="ttdoc">Get name of a Primitives::... class (can depend on its parameters).</div><div class="ttdef"><b>Definition</b> MRFeatures.h:309</div></div>
 <div class="ttc" id="anamespaceMR_1_1FixUndercuts_html_aab7f74dcecd9e3401fed6751e0b70e1a"><div class="ttname"><a href="namespaceMR_1_1FixUndercuts.html#aab7f74dcecd9e3401fed6751e0b70e1a">MR::FixUndercuts::find</a></div><div class="ttdeci">MRVOXELS_API double find(const Mesh &amp;mesh, const FindParams &amp;params, FaceBitSet &amp;outUndercuts, const UndercutMetric &amp;metric={})</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a88f6f4ca7bc43597aefadab08a67c3e5"><div class="ttname"><a href="namespaceMR.html#a88f6f4ca7bc43597aefadab08a67c3e5">MR::swap</a></div><div class="ttdeci">constexpr void swap(FunctionRef&lt; R(Args...)&gt; &amp;lhs, FunctionRef&lt; R(Args...)&gt; &amp;rhs) noexcept</div><div class="ttdef"><b>Definition</b> MRFunctional.h:83</div></div>
 <div class="ttc" id="astructMR_1_1Object_1_1ProtectedStruct_html"><div class="ttname"><a href="structMR_1_1Object_1_1ProtectedStruct.html">MR::Object::ProtectedStruct</a></div><div class="ttdef"><b>Definition</b> MRObject.h:284</div></div>
 <div class="ttc" id="astructMR_1_1Object_1_1ProtectedStruct_html_a7e4c38fcb6a60dc4c3126d35a637080e"><div class="ttname"><a href="structMR_1_1Object_1_1ProtectedStruct.html#a7e4c38fcb6a60dc4c3126d35a637080e">MR::Object::ProtectedStruct::ProtectedStruct</a></div><div class="ttdeci">ProtectedStruct()=default</div></div>

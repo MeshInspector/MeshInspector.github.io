@@ -167,8 +167,10 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:adcb5d1f8f18006ba9caee1cf22f7c04a" id="r_adcb5d1f8f18006ba9caee1cf22f7c04a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcb5d1f8f18006ba9caee1cf22f7c04a">baseValue</a> = false</td></tr>
+<tr class="memdesc:adcb5d1f8f18006ba9caee1cf22f7c04a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The persistent value of this setting, as set by the user by clicking the checkbox.  <br /></td></tr>
 <tr class="separator:adcb5d1f8f18006ba9caee1cf22f7c04a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b7f056835dfa614cc9907ac8d467d87" id="r_a1b7f056835dfa614cc9907ac8d467d87"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b7f056835dfa614cc9907ac8d467d87">modifierHeld</a> = false</td></tr>
+<tr class="memdesc:a1b7f056835dfa614cc9907ac8d467d87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the setting is currently inverted because the modifier is held.  <br /></td></tr>
 <tr class="separator:a1b7f056835dfa614cc9907ac8d467d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -245,6 +247,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>You usually want to read this instead of the variables above. Returns <code>baseValue</code>, but inverted if <code>modifierHeld</code> is set. </p>
 
 </div>
 </div>
@@ -261,6 +264,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The persistent value of this setting, as set by the user by clicking the checkbox. </p>
+
 </div>
 </div>
 <a id="a1b7f056835dfa614cc9907ac8d467d87" name="a1b7f056835dfa614cc9907ac8d467d87"></a>
@@ -274,6 +279,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Whether the setting is currently inverted because the modifier is held. </p>
 
 </div>
 </div>

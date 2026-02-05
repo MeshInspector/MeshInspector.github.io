@@ -159,14 +159,19 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aaaa5d494589b8d7fa61baf65c9f34821" id="r_aaaa5d494589b8d7fa61baf65c9f34821"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1RenderDimensions_1_1CommonParams.html">CommonParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaa5d494589b8d7fa61baf65c9f34821">common</a></td></tr>
 <tr class="separator:aaaa5d494589b8d7fa61baf65c9f34821"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39c3eb2e95daad75555328645c768d56" id="r_a39c3eb2e95daad75555328645c768d56"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39c3eb2e95daad75555328645c768d56">points</a></td></tr>
+<tr class="memdesc:a39c3eb2e95daad75555328645c768d56"><td class="mdescLeft">&#160;</td><td class="mdescRight">The points between which we're measuring.  <br /></td></tr>
 <tr class="separator:a39c3eb2e95daad75555328645c768d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59af6d3622c087865305af028ee374fa" id="r_a59af6d3622c087865305af028ee374fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59af6d3622c087865305af028ee374fa">drawAsNegative</a> = false</td></tr>
+<tr class="memdesc:a59af6d3622c087865305af028ee374fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the distance should be displayed as a negative one.  <br /></td></tr>
 <tr class="separator:a59af6d3622c087865305af028ee374fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99d7c54bac0e735e5f2c61762ba68d00" id="r_a99d7c54bac0e735e5f2c61762ba68d00"><td class="memItemLeft" align="right" valign="top">std::optional&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99d7c54bac0e735e5f2c61762ba68d00">onlyOneAxis</a></td></tr>
+<tr class="memdesc:a99d7c54bac0e735e5f2c61762ba68d00"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, use only once axis (with this index, 0..2) instead of euclidean.  <br /></td></tr>
 <tr class="separator:a99d7c54bac0e735e5f2c61762ba68d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade03109e8c66cf64f9294907c780b525" id="r_ade03109e8c66cf64f9294907c780b525"><td class="memItemLeft" align="right" valign="top">std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade03109e8c66cf64f9294907c780b525">referenceValue</a></td></tr>
+<tr class="memdesc:ade03109e8c66cf64f9294907c780b525"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, we're comparing the distance with a reference value.  <br /></td></tr>
 <tr class="separator:ade03109e8c66cf64f9294907c780b525"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedc03a31de4a9eba015f5f1f99f93c11" id="r_aedc03a31de4a9eba015f5f1f99f93c11"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1RenderDimensions_1_1Tolerance.html">Tolerance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedc03a31de4a9eba015f5f1f99f93c11">tolerance</a></td></tr>
+<tr class="memdesc:aedc03a31de4a9eba015f5f1f99f93c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tolerances. Only make sense if <code>referenceValue</code> is set.  <br /></td></tr>
 <tr class="separator:aedc03a31de4a9eba015f5f1f99f93c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -196,6 +201,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Whether the distance should be displayed as a negative one. </p>
+
 </div>
 </div>
 <a id="a99d7c54bac0e735e5f2c61762ba68d00" name="a99d7c54bac0e735e5f2c61762ba68d00"></a>
@@ -209,6 +216,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>If set, use only once axis (with this index, 0..2) instead of euclidean. </p>
 
 </div>
 </div>
@@ -224,6 +233,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The points between which we're measuring. </p>
+
 </div>
 </div>
 <a id="ade03109e8c66cf64f9294907c780b525" name="ade03109e8c66cf64f9294907c780b525"></a>
@@ -238,6 +249,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>If set, we're comparing the distance with a reference value. </p>
+
 </div>
 </div>
 <a id="aedc03a31de4a9eba015f5f1f99f93c11" name="aedc03a31de4a9eba015f5f1f99f93c11"></a>
@@ -251,6 +264,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Tolerances. Only make sense if <code>referenceValue</code> is set. </p>
 
 </div>
 </div>

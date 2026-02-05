@@ -202,17 +202,14 @@ $(function(){initNavTree('MRRenderPointsObject_8h_source.html',''); initResizabl
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">void</span> bindPoints_( <a class="code hl_enumeration" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748">GLStaticHolder::ShaderType</a> shaderType );</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">void</span> bindPointsPicker_();</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="comment">// Create a new set of OpenGL buffer objects</span></div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">void</span> initBuffers_();</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="comment">// Release the OpenGL buffer objects</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">void</span> freeBuffers_();</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">void</span> update_();</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">bool</span> hasNormalsBackup_{ <span class="keyword">false</span> };</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="comment">// Marks dirty buffers that need to be uploaded to OpenGL</span></div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    uint32_t dirty_;</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>};</div>
 </div>
@@ -233,10 +230,10 @@ $(function(){initNavTree('MRRenderPointsObject_8h_source.html',''); initResizabl
 <div class="ttc" id="aclassMR_1_1RenderPointsObject_html_a88bbfafb06a1d55fbcc5d082f4239094"><div class="ttname"><a href="classMR_1_1RenderPointsObject.html#a88bbfafb06a1d55fbcc5d082f4239094">MR::RenderPointsObject::renderPicker</a></div><div class="ttdeci">virtual void renderPicker(const ModelBaseRenderParams &amp;params, unsigned geomId) override</div></div>
 <div class="ttc" id="aclassMR_1_1RenderPointsObject_html_ab99ca8621e3c55c14e02d3452bbdd239"><div class="ttname"><a href="classMR_1_1RenderPointsObject.html#ab99ca8621e3c55c14e02d3452bbdd239">MR::RenderPointsObject::RenderPointsObject</a></div><div class="ttdeci">RenderPointsObject(const VisualObject &amp;visObj)</div></div>
 <div class="ttc" id="aclassMR_1_1RenderPointsObject_html_ac57d8a541df401cff5ddf7566f0b9bb4"><div class="ttname"><a href="classMR_1_1RenderPointsObject.html#ac57d8a541df401cff5ddf7566f0b9bb4">MR::RenderPointsObject::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div></div>
-<div class="ttc" id="aclassMR_1_1RenderPointsObject_html_ad39fc2c9b30695ac78272431c20efe9e"><div class="ttname"><a href="classMR_1_1RenderPointsObject.html#ad39fc2c9b30695ac78272431c20efe9e">MR::RenderPointsObject::render</a></div><div class="ttdeci">virtual bool render(const ModelRenderParams &amp;params) override</div></div>
+<div class="ttc" id="aclassMR_1_1RenderPointsObject_html_ad39fc2c9b30695ac78272431c20efe9e"><div class="ttname"><a href="classMR_1_1RenderPointsObject.html#ad39fc2c9b30695ac78272431c20efe9e">MR::RenderPointsObject::render</a></div><div class="ttdeci">virtual bool render(const ModelRenderParams &amp;params) override</div><div class="ttdoc">Returns true if something was rendered, or false if nothing to render.</div></div>
 <div class="ttc" id="aclassMR_1_1RenderPointsObject_html_ae58d2cc13f9eff9285ade09909b14ec7"><div class="ttname"><a href="classMR_1_1RenderPointsObject.html#ae58d2cc13f9eff9285ade09909b14ec7">MR::RenderPointsObject::glBytes</a></div><div class="ttdeci">virtual size_t glBytes() const override</div><div class="ttdoc">returns the amount of memory this object allocated in OpenGL</div></div>
 <div class="ttc" id="aclassMR_1_1VisualObject_html"><div class="ttname"><a href="../Csharp/classMR_1_1VisualObject.html">MR::VisualObject</a></div><div class="ttdef"><b>Definition</b> MRVisualObject.h:119</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

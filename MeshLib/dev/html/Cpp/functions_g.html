@@ -189,6 +189,7 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>getBoundingBox()&#160;:&#160;<a class="el" href="classMR_1_1AABBTreeBase.html#aac02049340231922a6b175c0900d88c9">MR::AABBTreeBase&lt; T &gt;</a>, <a class="el" href="structMR_1_1Polyline.html#a3dcacffc0e913721847e9e77ca00dc4b">MR::Polyline&lt; V &gt;</a></li>
 <li>getBoxClosestPointTo()&#160;:&#160;<a class="el" href="structMR_1_1Box.html#a1af67d1761b8fd15fa204b39d5f9bd46">MR::Box&lt; V &gt;</a></li>
 <li>getCameraPoint()&#160;:&#160;<a class="el" href="classMR_1_1Viewport.html#a7255259d0bcd6a919bc061e1b8328f74">MR::Viewport</a></li>
+<li>getCanonicalQuaternions()&#160;:&#160;<a class="el" href="structMR_1_1Quaternion.html#a7e3a85611c622741c25fb2e88d485908">MR::Quaternion&lt; T &gt;</a></li>
 <li>getCapacity()&#160;:&#160;<a class="el" href="classMR_1_1RecentFilesStore.html#a1f48973b157bca4ee2c0e34407310654">MR::RecentFilesStore</a></li>
 <li>getCenter()&#160;:&#160;<a class="el" href="classMR_1_1ITransformControls.html#a053e821953dbcafc94e913961cdbc94a">MR::ITransformControls</a></li>
 <li>getCloseContextOnChange()&#160;:&#160;<a class="el" href="classMR_1_1RibbonSceneObjectsListDrawer.html#a76b557373659019c5f9ce857d437e84a">MR::RibbonSceneObjectsListDrawer</a></li>
@@ -226,7 +227,6 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>getDerivatives()&#160;:&#160;<a class="el" href="classMR_1_1MeshOnVoxelsT.html#a4de846d8d930e15bb6fa705a3f1f7a12">MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;</a></li>
 <li>getDeselectNewHiddenObjects()&#160;:&#160;<a class="el" href="classMR_1_1SceneObjectsListDrawer.html#a928e8a018e952ef2b817ba4027203972">MR::SceneObjectsListDrawer</a></li>
 <li>getDirection()&#160;:&#160;<a class="el" href="classMR_1_1DirectionWidget.html#a41bd393b48b79941e8901ccceef4639a">MR::DirectionWidget</a></li>
-<li>getDiscrHistogramValues()&#160;:&#160;<a class="el" href="classMR_1_1Palette.html#ac55d20405c9488ab29ab5eac4140208e">MR::Palette</a></li>
 <li>getDistanceSq()&#160;:&#160;<a class="el" href="structMR_1_1Box.html#a25efa79c9a3710f2c59fac06fb39ad12">MR::Box&lt; V &gt;</a></li>
 <li>getDownMousePos()&#160;:&#160;<a class="el" href="classMR_1_1MouseController.html#a97504993e7ae26edd11c87386a2b5c6a">MR::MouseController</a></li>
 <li>getDynamicTooltip()&#160;:&#160;<a class="el" href="classMR_1_1RedoMenuItem.html#a8de54e498c94d2adea1613dd73e9a818">MR::RedoMenuItem</a>, <a class="el" href="classMR_1_1RibbonMenuItem.html#a88f1487695e2012ebb1cacbc1a59775a">MR::RibbonMenuItem</a>, <a class="el" href="classMR_1_1UndoMenuItem.html#a9524c582abeb9ae1041550d7adeb56eb">MR::UndoMenuItem</a></li>
@@ -250,7 +250,6 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>getGlobalHistoryStore()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#a20e2211394af3408951eb8661035c58d">MR::Viewer</a></li>
 <li>getGridVisibilityMask()&#160;:&#160;<a class="el" href="classMR_1_1ViewportGlobalBasis.html#a9efec4f573b2e17be72ad7f6ea9c2cd9">MR::ViewportGlobalBasis</a></li>
 <li>getHashMap()&#160;:&#160;<a class="el" href="structMR_1_1MapOrHashMap.html#a3bc5077bb60649a52a86a2736ff6a57e">MR::MapOrHashMap&lt; K, V &gt;</a></li>
-<li>getHistogramValues()&#160;:&#160;<a class="el" href="classMR_1_1Palette.html#ac191d1777b98af54fc7464239e57bd1a">MR::Palette</a></li>
 <li>getHistoryStack()&#160;:&#160;<a class="el" href="classMR_1_1HistoryStore.html#a6c72ca2143023fcef93b3e221d010c6d">MR::HistoryStore</a></li>
 <li>getHoveredControl()&#160;:&#160;<a class="el" href="classMR_1_1ITransformControls.html#a6bfe124e50ec51bf800a189c3638b947">MR::ITransformControls</a></li>
 <li>getHoveredViewportId()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#a0e5111171595097dcb08f6e009450d7f">MR::Viewer</a></li>
@@ -451,7 +450,7 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>getVisualizePropertyMask()&#160;:&#160;<a class="el" href="classMR_1_1AddVisualProperties.html#aa7ce9ce8b54a5a131d54334b7ed26fb1">MR::AddVisualProperties&lt; BaseObjectType, Properties &gt;</a>, <a class="el" href="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html#afcc0243fff2f044976ef6dfd9ef220b0">MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, BaseObjectType &gt;</a></li>
 <li>getVisualParams()&#160;:&#160;<a class="el" href="classMR_1_1TransformControls.html#a83e142fd9ad486f5f722ccb590064a7b">MR::TransformControls</a></li>
 <li>getWasInterrupted()&#160;:&#160;<a class="el" href="structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3">MR::ProgressInterrupter</a></li>
-<li>getWeights()&#160;:&#160;<a class="el" href="structMR_1_1CubicBezierCurve.html#a56b8e90a46bbc02fd586b6fc293831a6">MR::CubicBezierCurve&lt; V &gt;</a></li>
+<li>getWeights()&#160;:&#160;<a class="el" href="structMR_1_1CubicBezierCurve.html#aa0eab408c9bb63c2bc2ad829817a4fdc">MR::CubicBezierCurve&lt; V &gt;</a></li>
 <li>getWidth()&#160;:&#160;<a class="el" href="classMR_1_1TransformControls.html#ae1893daa3862766a61b29d129d73db45">MR::TransformControls</a></li>
 <li>getWidthMenuUI()&#160;:&#160;<a class="el" href="classMR_1_1RibbonMenuSearch.html#abb54fa525352a97793f4948df5292ba7">MR::RibbonMenuSearch</a></li>
 <li>GlBuffer()&#160;:&#160;<a class="el" href="classMR_1_1GlBuffer.html#a7f87da97ec22496a5829c5c04c423c1d">MR::GlBuffer</a></li>
@@ -473,7 +472,7 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>GreenRedColors()&#160;:&#160;<a class="el" href="classMR_1_1Palette.html#a50926dd1bf08562983f3b26d745c961b">MR::Palette</a></li>
 <li>group&#160;:&#160;<a class="el" href="structMR_1_1TbbTaskArenaAndGroup.html#a1f5614244e1fa27e65469e5f0266ec4b">MR::TbbTaskArenaAndGroup</a></li>
 <li>groupsMap&#160;:&#160;<a class="el" href="structMR_1_1RibbonSchema.html#a55e0334c55b2b6a85bc323a85f88ea10">MR::RibbonSchema</a></li>
-<li>growOneEdge()&#160;:&#160;<a class="el" href="classMR_1_1EdgePathsBuilderT.html#a245a1aca92a23d5b494706916ea2554e">MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;</a></li>
+<li>growOneEdge()&#160;:&#160;<a class="el" href="classMR_1_1EdgePathsBuilderT.html#aea92fec5827dfbf63c822a8d495c2d96">MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;</a></li>
 <li>guiContext_&#160;:&#160;<a class="el" href="classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb">MR::SplashWindow</a></li>
 </ul>
 </div><!-- contents -->

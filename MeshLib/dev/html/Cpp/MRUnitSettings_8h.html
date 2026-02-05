@@ -159,8 +159,10 @@ $(function(){initNavTree('MRUnitSettings_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UnitSettings.html">MR::UnitSettings</a></td></tr>
+<tr class="memdesc:namespaceMR_1_1UnitSettings"><td class="mdescLeft">&#160;</td><td class="mdescRight">This abstracts away the <a class="el" href="namespaceMR_1_1UI.html">UI</a> measurement unit configuration. Internally this uses <code><a class="el" href="namespaceMR.html#a822feec21d0c267d63b63429392323c9" title="Modifies the default parameters for converting a specific unit type to a string.">setDefaultUnitParams()</a></code>. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -169,7 +171,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ae406c519ab41f7cbc08d65a9c83d2bcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset to some sane default.  <br /></td></tr>
 <tr class="separator:ae406c519ab41f7cbc08d65a9c83d2bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa107ba449e9a30d426079db1abc6f9e8" id="r_aa107ba449e9a30d426079db1abc6f9e8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UnitSettings.html#aa107ba449e9a30d426079db1abc6f9e8">MR::UnitSettings::getShowLeadingZero</a> ()</td></tr>
-<tr class="memdesc:aa107ba449e9a30d426079db1abc6f9e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">True: <code>0.1</code>, false: <code>.1</code>.  <br /></td></tr>
+<tr class="memdesc:aa107ba449e9a30d426079db1abc6f9e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common:  <br /></td></tr>
 <tr class="separator:aa107ba449e9a30d426079db1abc6f9e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b2fc6815346b05ae633d230e475a414" id="r_a2b2fc6815346b05ae633d230e475a414"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UnitSettings.html#a2b2fc6815346b05ae633d230e475a414">MR::UnitSettings::setShowLeadingZero</a> (bool show)</td></tr>
 <tr class="separator:a2b2fc6815346b05ae633d230e475a414"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,6 +180,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a035b6705c6bf6c337d949fd451ec8078" id="r_a035b6705c6bf6c337d949fd451ec8078"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UnitSettings.html#a035b6705c6bf6c337d949fd451ec8078">MR::UnitSettings::setThousandsSeparator</a> (char ch)</td></tr>
 <tr class="separator:a035b6705c6bf6c337d949fd451ec8078"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3828878d9371fdeec0058499a90a773c" id="r_a3828878d9371fdeec0058499a90a773c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; LengthUnit &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UnitSettings.html#a3828878d9371fdeec0058499a90a773c">MR::UnitSettings::getUiLengthUnit</a> ()</td></tr>
+<tr class="memdesc:a3828878d9371fdeec0058499a90a773c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length:  <br /></td></tr>
 <tr class="separator:a3828878d9371fdeec0058499a90a773c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8d6be62abf0d99eeb86139fd7939da1" id="r_ad8d6be62abf0d99eeb86139fd7939da1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UnitSettings.html#ad8d6be62abf0d99eeb86139fd7939da1">MR::UnitSettings::setUiLengthUnit</a> (std::optional&lt; LengthUnit &gt; unit, bool setPreferredLeadingZero)</td></tr>
 <tr class="separator:ad8d6be62abf0d99eeb86139fd7939da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,10 +191,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a69150415ea6b6c4a566729d65841d8d3" id="r_a69150415ea6b6c4a566729d65841d8d3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; LengthUnit &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UnitSettings.html#a69150415ea6b6c4a566729d65841d8d3">MR::UnitSettings::getActualModelLengthUnit</a> ()</td></tr>
 <tr class="separator:a69150415ea6b6c4a566729d65841d8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18f2b660ede4fa66b9a12f1b358ae3b5" id="r_a18f2b660ede4fa66b9a12f1b358ae3b5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API DegreesMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UnitSettings.html#a18f2b660ede4fa66b9a12f1b358ae3b5">MR::UnitSettings::getDegreesMode</a> ()</td></tr>
+<tr class="memdesc:a18f2b660ede4fa66b9a12f1b358ae3b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angle:  <br /></td></tr>
 <tr class="separator:a18f2b660ede4fa66b9a12f1b358ae3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a095d298e864fff2df5d9ec05315d6d8b" id="r_a095d298e864fff2df5d9ec05315d6d8b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UnitSettings.html#a095d298e864fff2df5d9ec05315d6d8b">MR::UnitSettings::setDegreesMode</a> (DegreesMode mode, bool setPreferredPrecision)</td></tr>
 <tr class="separator:a095d298e864fff2df5d9ec05315d6d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af519bb8d603b29fed6ba650292d9caee" id="r_af519bb8d603b29fed6ba650292d9caee"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UnitSettings.html#af519bb8d603b29fed6ba650292d9caee">MR::UnitSettings::getUiLengthPrecision</a> ()</td></tr>
+<tr class="memdesc:af519bb8d603b29fed6ba650292d9caee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Precision:  <br /></td></tr>
 <tr class="separator:af519bb8d603b29fed6ba650292d9caee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c2457148f4800dfc82a654d0d9f3592" id="r_a6c2457148f4800dfc82a654d0d9f3592"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UnitSettings.html#a6c2457148f4800dfc82a654d0d9f3592">MR::UnitSettings::setUiLengthPrecision</a> (int precision)</td></tr>
 <tr class="separator:a6c2457148f4800dfc82a654d0d9f3592"><td class="memSeparator" colspan="2">&#160;</td></tr>

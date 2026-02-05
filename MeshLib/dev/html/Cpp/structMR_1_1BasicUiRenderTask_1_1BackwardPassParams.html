@@ -158,6 +158,7 @@ $(function(){initNavTree('structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.ht
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7664329c16a19590708d5686044a648a" id="r_a7664329c16a19590708d5686044a648a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7664329c16a19590708d5686044a648a">tryConsumeMouseHover</a> () const</td></tr>
+<tr class="memdesc:a7664329c16a19590708d5686044a648a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If nothing else is hovered, this returns true and writes <code>mouseHover</code> to <code>consumedInteractions</code>.  <br /></td></tr>
 <tr class="separator:a7664329c16a19590708d5686044a648a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -189,6 +190,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>If nothing else is hovered, this returns true and writes <code>mouseHover</code> to <code>consumedInteractions</code>. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -211,6 +214,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Which interactions should be blocked by this object. This is passed along between all <code>renderUi()</code> calls in a single frame, and then the end result is used. </p>
 
 </div>
 </div>

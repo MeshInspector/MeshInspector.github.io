@@ -154,6 +154,9 @@ $(function(){initNavTree('classMR_1_1SceneCache.html',''); initResizable(true); 
 </div><!--header-->
 <div class="contents">
 
+<p>class to cached scene objects data  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRSceneCache_8h_source.html">MRSceneCache.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -176,7 +179,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a72feb1d29d0e2c86e2e41d50337c6a28"><td class="memTemplItemLeft" align="right" valign="top">static const <a class="el" href="#a9d132145ed6e28c339f8a129698217d6">ObjectList</a>&lt; ObjectType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a72feb1d29d0e2c86e2e41d50337c6a28">getAllObjects</a> ()</td></tr>
 <tr class="separator:a72feb1d29d0e2c86e2e41d50337c6a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>class to cached scene objects data </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a9d132145ed6e28c339f8a129698217d6" name="a9d132145ed6e28c339f8a129698217d6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d132145ed6e28c339f8a129698217d6">&#9670;&#160;</a></span>ObjectList</h2>
 
@@ -218,6 +223,7 @@ template&lt;typename ObjectType , ObjectSelectivityType SelectivityType&gt; </di
   </tr>
 </table>
 </div><div class="memdoc">
+<p>analog getAllObjectsInTree&lt;ObjectType&gt;( &amp;SceneRoot::get(), SelectivityType ) but use cached data reference copy is valid until <a class="el" href="#aba6c0d17104f37a1b2af8967dab219e5">invalidateAll()</a> is called </p>
 
 </div>
 </div>
@@ -262,6 +268,7 @@ template&lt;typename ObjectType , ObjectSelectivityType SelectivityType&gt; </di
   </tr>
 </table>
 </div><div class="memdoc">
+<p>invalidate all cached data call it in the beginning each frame </p>
 
 </div>
 </div>

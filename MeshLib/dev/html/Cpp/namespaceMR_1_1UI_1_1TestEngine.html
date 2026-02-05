@@ -168,6 +168,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html">GroupEntry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html">ValueEntry</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">For sliders, drags, etc.  <a href="structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="concepts" name="concepts"></a>
@@ -184,18 +185,23 @@ requires std::is_arithmetic_v&lt;T&gt;</td></tr>
 <tr class="memitem:af12811d400185e17b9fbecf90ca59920"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af12811d400185e17b9fbecf90ca59920">createValue</a> (std::string_view name, T value, T min, T max, bool consumeValueOverride=true)</td></tr>
 <tr class="separator:af12811d400185e17b9fbecf90ca59920"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa75ca46150fdd4fe271aa44e26bc987d" id="r_aa75ca46150fdd4fe271aa44e26bc987d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa75ca46150fdd4fe271aa44e26bc987d">createValue</a> (std::string_view name, std::string value, bool consumeValueOverride=true, std::optional&lt; std::vector&lt; std::string &gt; &gt; allowedValues=std::nullopt)</td></tr>
+<tr class="memdesc:aa75ca46150fdd4fe271aa44e26bc987d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This overload is for strings.  <br /></td></tr>
 <tr class="separator:aa75ca46150fdd4fe271aa44e26bc987d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a937d804d659e0c82a3623bf0c09be2bf" id="r_a937d804d659e0c82a3623bf0c09be2bf"><td class="memTemplParams" colspan="2">template&lt;AllowedValueType T&gt; </td></tr>
 <tr class="memitem:a937d804d659e0c82a3623bf0c09be2bf"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a937d804d659e0c82a3623bf0c09be2bf">createValueTentative</a> (std::string_view name, bool consumeValueOverride=true)</td></tr>
 <tr class="separator:a937d804d659e0c82a3623bf0c09be2bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afac37f1a33604b207f8d30279b255ad2" id="r_afac37f1a33604b207f8d30279b255ad2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afac37f1a33604b207f8d30279b255ad2">pushTree</a> (std::string_view name)</td></tr>
+<tr class="memdesc:afac37f1a33604b207f8d30279b255ad2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use those to group buttons into named groups.  <br /></td></tr>
 <tr class="separator:afac37f1a33604b207f8d30279b255ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af584a5ff88e3d48b91ace605bd8331e5" id="r_af584a5ff88e3d48b91ace605bd8331e5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af584a5ff88e3d48b91ace605bd8331e5">popTree</a> ()</td></tr>
 <tr class="separator:af584a5ff88e3d48b91ace605bd8331e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbf1d490037c289477160fdb25fb30f7" id="r_abbf1d490037c289477160fdb25fb30f7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html">GroupEntry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbf1d490037c289477160fdb25fb30f7">getRootEntry</a> ()</td></tr>
+<tr class="memdesc:abbf1d490037c289477160fdb25fb30f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current entry tree.  <br /></td></tr>
 <tr class="separator:abbf1d490037c289477160fdb25fb30f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This is a low-level header for implementing GUIs that can be interacted with programmatically. Most likely you don't need to touch this, just use widgets from <code><a class="el" href="MRUIStyle_8h.html">MRUIStyle.h</a></code>. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a775aa83cc6e23820b3e00321d7c35da2" name="a775aa83cc6e23820b3e00321d7c35da2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a775aa83cc6e23820b3e00321d7c35da2">&#9670;&#160;</a></span>createButton()</h2>
 
@@ -218,6 +224,7 @@ requires std::is_arithmetic_v&lt;T&gt;</td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Call this every frame when drawing a button you want to track (regardless of whether it returns true of false). If this returns true, simulate a button click. </p>
 
 </div>
 </div>
@@ -257,6 +264,8 @@ requires std::is_arithmetic_v&lt;T&gt;</td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>This overload is for strings. </p>
 
 </div>
 </div>
@@ -304,6 +313,12 @@ requires std::is_arithmetic_v&lt;T&gt;</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Create a "value" (slider/drag/...). <code>T</code> must be a scalar; vector support must be implemented manually. Pass <code>min &gt;= max</code> to disable the range checks. If this returns true, use the new value in place of the current one. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">consumeValueOverride</td><td>If true - retrieves (deletes) a value from storage. If false - copies the value from the storage (saves the original to the storage to be retrieved again, for example, in the next frame) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -335,6 +350,7 @@ template&lt;AllowedValueType T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Usually you don't need this function. This is for widgets that require you to specify the value override before drawing it, such as <code>ImGui::CollapsingHeader()</code>. For those, call this version first to read the value override, then draw the widget, then call the normal <code>CreateValue()</code> with the same name and with the new value, and discard its return value. </p>
 
 </div>
 </div>
@@ -360,6 +376,8 @@ template&lt;AllowedValueType T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns the current entry tree. </p>
 
 </div>
 </div>
@@ -394,6 +412,8 @@ template&lt;AllowedValueType T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Use those to group buttons into named groups. </p>
 
 </div>
 </div>

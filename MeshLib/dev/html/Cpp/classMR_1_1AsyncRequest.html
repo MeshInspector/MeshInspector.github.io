@@ -171,9 +171,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a01cefc0b2c39108d1ed5dce811d40664" id="r_a01cefc0b2c39108d1ed5dce811d40664"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01cefc0b2c39108d1ed5dce811d40664">requestIfNotSet</a> (const Time &amp;time, <a class="el" href="#a32c8eaba0bbda7c291e8231db38a41e1">Command</a> command)</td></tr>
 <tr class="separator:a01cefc0b2c39108d1ed5dce811d40664"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c97ae941f212dde5a8326dbe28ee679" id="r_a0c97ae941f212dde5a8326dbe28ee679"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c97ae941f212dde5a8326dbe28ee679">reset</a> ()</td></tr>
+<tr class="memdesc:a0c97ae941f212dde5a8326dbe28ee679"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears command  <br /></td></tr>
 <tr class="separator:a0c97ae941f212dde5a8326dbe28ee679"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Complete given command in given time may know only one command at a time terminate listener in destructor </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a32c8eaba0bbda7c291e8231db38a41e1" name="a32c8eaba0bbda7c291e8231db38a41e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a32c8eaba0bbda7c291e8231db38a41e1">&#9670;&#160;</a></span>Command</h2>
 
@@ -242,6 +245,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>requests command execution, forgetting about previous command note that command will be executed from the listener thread </p>
 
 </div>
 </div>
@@ -263,6 +267,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>requests command execution only if no request waiting note that command will be executed from the listener thread </p>
 
 </div>
 </div>
@@ -280,6 +285,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>clears command </p>
 
 </div>
 </div>

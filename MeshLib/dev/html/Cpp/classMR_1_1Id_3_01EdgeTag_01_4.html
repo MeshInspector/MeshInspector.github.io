@@ -163,6 +163,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac0140b6e8a97bcc17487801e892a6003" id="r_ac0140b6e8a97bcc17487801e892a6003"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0140b6e8a97bcc17487801e892a6003">Id</a> () noexcept</td></tr>
+<tr class="memdesc:ac0140b6e8a97bcc17487801e892a6003"><td class="mdescLeft">&#160;</td><td class="mdescRight">the type used for internal representation of <a class="el" href="classMR_1_1Id.html" title="stores index of some element, it is made as template class to avoid mixing faces, edges and vertices">Id</a>  <br /></td></tr>
 <tr class="separator:ac0140b6e8a97bcc17487801e892a6003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77df19a8a2e03823ee055e0db7fbe356" id="r_a77df19a8a2e03823ee055e0db7fbe356"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77df19a8a2e03823ee055e0db7fbe356">Id</a> (<a class="elRef" href="../Csharp/classMR_1_1NoInit.html">NoInit</a>) noexcept</td></tr>
 <tr class="separator:a77df19a8a2e03823ee055e0db7fbe356"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,12 +184,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad1f14bb94fff614d875bbb57566a723d" id="r_ad1f14bb94fff614d875bbb57566a723d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="#a509c057fae5c553d16a4e96dd80cbed8">ValueType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1f14bb94fff614d875bbb57566a723d">get</a> () noexcept</td></tr>
 <tr class="separator:ad1f14bb94fff614d875bbb57566a723d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c6be27b7a94189ed4c2a57703d12aaf" id="r_a5c6be27b7a94189ed4c2a57703d12aaf"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c6be27b7a94189ed4c2a57703d12aaf">sym</a> () const</td></tr>
+<tr class="memdesc:a5c6be27b7a94189ed4c2a57703d12aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns identifier of the edge with same ends but opposite orientation  <br /></td></tr>
 <tr class="separator:a5c6be27b7a94189ed4c2a57703d12aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb7992572d96f0023ada021c504bd740" id="r_adb7992572d96f0023ada021c504bd740"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb7992572d96f0023ada021c504bd740">even</a> () const</td></tr>
+<tr class="memdesc:adb7992572d96f0023ada021c504bd740"><td class="mdescLeft">&#160;</td><td class="mdescRight">among each pair of sym-edges: one is always even and the other is odd  <br /></td></tr>
 <tr class="separator:adb7992572d96f0023ada021c504bd740"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03f26c6b5582be6b7d5bf3f6cbad03fe" id="r_a03f26c6b5582be6b7d5bf3f6cbad03fe"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03f26c6b5582be6b7d5bf3f6cbad03fe">odd</a> () const</td></tr>
 <tr class="separator:a03f26c6b5582be6b7d5bf3f6cbad03fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af896dd5985669fa799c9a67731de9f4a" id="r_af896dd5985669fa799c9a67731de9f4a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="elRef" href="../Csharp/structMR_1_1UndirectedEdgeId.html">UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af896dd5985669fa799c9a67731de9f4a">undirected</a> () const</td></tr>
+<tr class="memdesc:af896dd5985669fa799c9a67731de9f4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns unique identifier of the edge ignoring its direction  <br /></td></tr>
 <tr class="separator:af896dd5985669fa799c9a67731de9f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f7a223ecb166a3824a973d1110973c0" id="r_a3f7a223ecb166a3824a973d1110973c0"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f7a223ecb166a3824a973d1110973c0">operator UndirectedEdgeId</a> () const</td></tr>
 <tr class="separator:a3f7a223ecb166a3824a973d1110973c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,6 +262,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>the type used for internal representation of <a class="el" href="classMR_1_1Id.html" title="stores index of some element, it is made as template class to avoid mixing faces, edges and vertices">Id</a> </p>
 
 </div>
 </div>
@@ -409,6 +415,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>among each pair of sym-edges: one is always even and the other is odd </p>
 
 </div>
 </div>
@@ -866,6 +874,8 @@ template&lt;typename U &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>returns identifier of the edge with same ends but opposite orientation </p>
+
 </div>
 </div>
 <a id="af896dd5985669fa799c9a67731de9f4a" name="af896dd5985669fa799c9a67731de9f4a"></a>
@@ -890,6 +900,8 @@ template&lt;typename U &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>returns unique identifier of the edge ignoring its direction </p>
 
 </div>
 </div>

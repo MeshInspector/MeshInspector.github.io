@@ -243,7 +243,6 @@ $(function(){initNavTree('MRViewerFwd_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="keyword">class </span>Controller;</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>}</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="comment">// this is needed as far as MAKE_SLOT cannot be used with movable classes</span></div>
 <div class="foldopen" id="foldopen00098" data-start="" data-end="">
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="MRViewerFwd_8h.html#a86f52f96ec63151904d02607a5519085">   98</a></span><span class="preprocessor">#define MR_DELETE_MOVE(StaticClassName)\</span></div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="preprocessor">StaticClassName(StaticClassName&amp;&amp;)noexcept = delete;\</span></div>
@@ -257,15 +256,15 @@ $(function(){initNavTree('MRViewerFwd_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="preprocessor">StaticClassName&amp; operator=(StaticClassName&amp;&amp;)noexcept = delete</span></div>
 </div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>} </div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRViewer_2config_8h_html"><div class="ttname"><a href="MRViewer_2config_8h.html">config.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1HistoryStore_html"><div class="ttname"><a href="classMR_1_1HistoryStore.html">MR::HistoryStore</a></div><div class="ttdoc">This class stores history stack for undo/redo.</div><div class="ttdef"><b>Definition</b> MRHistoryStore.h:16</div></div>
 <div class="ttc" id="aclassMR_1_1PointOnObject_html"><div class="ttname"><a href="../Csharp/classMR_1_1PointOnObject.html">MR::PointOnObject</a></div><div class="ttdef"><b>Definition</b> MRPointOnObject.h:18</div></div>
 <div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition</b> MRViewerFwd.h:71</div></div>
-<div class="ttc" id="aclassMR_1_1WebRequest_html"><div class="ttname"><a href="classMR_1_1WebRequest.html">MR::WebRequest</a></div><div class="ttdef"><b>Definition</b> MRWebRequest.h:18</div></div>
+<div class="ttc" id="aclassMR_1_1WebRequest_html"><div class="ttname"><a href="classMR_1_1WebRequest.html">MR::WebRequest</a></div><div class="ttdoc">this class is needed to unify cpp and wasm requests</div><div class="ttdef"><b>Definition</b> MRWebRequest.h:18</div></div>
 <div class="ttc" id="anamespaceImGui_html_a9c130223f0795222ba5a4445f8c9e917"><div class="ttname"><a href="namespaceImGui.html#a9c130223f0795222ba5a4445f8c9e917">ImGui::Palette</a></div><div class="ttdeci">MRVIEWER_API PaletteChanges Palette(const char *label, MR::Palette &amp;palette, std::string &amp;presetName, float width, bool *fixZero=nullptr, float speed=1.0f, float min=std::numeric_limits&lt; float &gt;::lowest(), float max=std::numeric_limits&lt; float &gt;::max())</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

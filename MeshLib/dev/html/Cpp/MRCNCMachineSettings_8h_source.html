@@ -164,7 +164,6 @@ $(function(){initNavTree('MRCNCMachineSettings_8h_source.html',''); initResizabl
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span><a class="code hl_define" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a> CNCMachineSettings</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="comment">// enumeration of axes of rotation</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">enum class</span> RotationAxisName</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    {</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        A,</div>
@@ -176,18 +175,12 @@ $(function(){initNavTree('MRCNCMachineSettings_8h_source.html',''); initResizabl
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keyword">static</span> <span class="keywordtype">int</span> getAxesCount() { <span class="keywordflow">return</span> int( RotationAxisName::C ) + 1; }</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="comment">// rotationAxis length will be more then 0.01</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> setRotationAxis( RotationAxisName paramName, <span class="keyword">const</span> Vector3f&amp; rotationAxis );</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">const</span> Vector3f&amp; getRotationAxis( RotationAxisName paramName ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="comment">// rotationLimits = {min, max}</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="comment">// valid range -180 &lt;= min &lt; max &lt;= 180</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> setRotationLimits( RotationAxisName paramName, <span class="keyword">const</span> RotationLimits&amp; rotationLimits );</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">const</span> RotationLimits&amp; getRotationLimits( RotationAxisName paramName ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="comment">// duplicated values will be removed (ABAAC - &gt; ABC)</span></div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> setRotationOrder( <span class="keyword">const</span> RotationAxesOrder&amp; rotationAxesOrder );</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keyword">const</span> RotationAxesOrder&amp; getRotationOrder()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> rotationAxesOrder_; }</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="comment">// set feedrate idle. valid range - [0, 100000]</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="comment">// 0 - feedrate idle set as maximum feedrate on any action, or 100 if feedrate is not set in any action</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> setFeedrateIdle( <span class="keywordtype">float</span> feedrateIdle );</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">float</span> getFeedrateIdle()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> feedrateIdle_; }</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> setHomePosition( <span class="keyword">const</span> Vector3f&amp; homePosition ) { homePosition_ = homePosition; }</div>
@@ -200,13 +193,9 @@ $(function(){initNavTree('MRCNCMachineSettings_8h_source.html',''); initResizabl
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> loadFromJson( <span class="keyword">const</span> Json::Value&amp; jsonValue );</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="comment">// direction of axes around which the rotation occurs A, B, C</span></div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    std::array&lt;Vector3f, 3&gt; rotationAxes_ = { Vector3f::minusX(), Vector3f::minusY(), Vector3f::plusZ() };</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="comment">// rotation limits</span></div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    std::array&lt;RotationLimits, 3&gt; rotationLimits_;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="comment">// order of application of rotations</span></div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    RotationAxesOrder rotationAxesOrder_ = { RotationAxisName::A, RotationAxisName::B, RotationAxisName::C };</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="comment">// feedrate idle. 0 - feedrate idle set as maximum feedrate on any action, or 100 if feedrate is not set in any action</span></div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">float</span> feedrateIdle_ = 10000.f;</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    Vector3f homePosition_;</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>};</div>
@@ -218,7 +207,7 @@ $(function(){initNavTree('MRCNCMachineSettings_8h_source.html',''); initResizabl
 <div class="ttc" id="aMRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:87</div></div>
 <div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
 <div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a5534d2437ed57cabae82ae75a441b224"><div class="ttname"><a href="namespaceMR.html#a5534d2437ed57cabae82ae75a441b224">MR::operator!=</a></div><div class="ttdeci">bool operator!=(const Color &amp;a, const Color &amp;b)</div><div class="ttdef"><b>Definition</b> MRColor.h:101</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

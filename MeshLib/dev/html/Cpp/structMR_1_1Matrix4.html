@@ -256,6 +256,7 @@ Friends</h2></td></tr>
 <tr class="memitem:a0edef98e052801b43845aaa81aba98b3" id="r_a0edef98e052801b43845aaa81aba98b3"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0edef98e052801b43845aaa81aba98b3">operator!=</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:a0edef98e052801b43845aaa81aba98b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc74a392ea4462c9a83060005de3b963" id="r_abc74a392ea4462c9a83060005de3b963"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc74a392ea4462c9a83060005de3b963">operator+</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b) -&gt; <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; decltype(std::declval&lt; T &gt;()+std::declval&lt; T &gt;())&gt;</td></tr>
+<tr class="memdesc:abc74a392ea4462c9a83060005de3b963"><td class="mdescLeft">&#160;</td><td class="mdescRight">NOTE: We use <code>std::declval()</code> in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping <code>a.x</code> and such. TODO fix this when we update libclang.  <br /></td></tr>
 <tr class="separator:abc74a392ea4462c9a83060005de3b963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcd47d5dea1e6755f88d50b344b5c02f" id="r_adcd47d5dea1e6755f88d50b344b5c02f"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcd47d5dea1e6755f88d50b344b5c02f">operator-</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b) -&gt; <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; decltype(std::declval&lt; T &gt;() - std::declval&lt; T &gt;())&gt;</td></tr>
 <tr class="separator:adcd47d5dea1e6755f88d50b344b5c02f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -464,6 +465,7 @@ template&lt;<a class="el" href="MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc53
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Currently <code>AffineXf3&lt;long long&gt;</code> doesn't seem to compile, so we disable this constructor for <code><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt;long long&gt;</code>, because otherwise mrbind instantiates the entire <code>AffineXf3&lt;long long&gt;</code> and chokes on it. </p>
 
 </div>
 </div>
@@ -687,6 +689,7 @@ template&lt;typename U &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Here <code>T == U</code> doesn't seem to cause any issues in the C++ code, but we're still disabling it because it somehow gets emitted when generating the bindings, and results in duplicate functions in C#. </p>
 
 </div>
 </div>
@@ -714,6 +717,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Calling <code>sqrt</code> this way to hopefully support boost.multiprecision numbers. Returning <code>auto</code> to not break on integral types.</p>
 
 </div>
 </div>
@@ -1352,6 +1356,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>NOTE: We use <code>std::declval()</code> in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping <code>a.x</code> and such. TODO fix this when we update libclang. </p>
 
 </div>
 </div>

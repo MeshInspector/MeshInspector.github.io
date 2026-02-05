@@ -162,6 +162,7 @@ Public Types</h2></td></tr>
 <tr class="separator:aa6933497906e7baf8dd6f57ebded16c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eddd5b493699059c72e5edaf944e3f5" id="r_a2eddd5b493699059c72e5edaf944e3f5"><td class="memTemplParams" colspan="2">template&lt;std::same_as&lt; float &gt; &gt; </td></tr>
 <tr class="memitem:a2eddd5b493699059c72e5edaf944e3f5"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a2eddd5b493699059c72e5edaf944e3f5">ChangeBaseType</a> = ImVec2</td></tr>
+<tr class="memdesc:a2eddd5b493699059c72e5edaf944e3f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can't change the element type...  <br /></td></tr>
 <tr class="separator:a2eddd5b493699059c72e5edaf944e3f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -171,6 +172,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a5c198ce08dac7a46ea85fdf9edd1c7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5dfb9ea2bc4002ab08e62e3e2924967" id="r_af5dfb9ea2bc4002ab08e62e3e2924967"><td class="memTemplParams" colspan="2">template&lt;typename U  = ImVec2&gt; </td></tr>
 <tr class="memitem:af5dfb9ea2bc4002ab08e62e3e2924967"><td class="memTemplItemLeft" align="right" valign="top">static constexpr U&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af5dfb9ea2bc4002ab08e62e3e2924967">diagonal</a> (float v)</td></tr>
+<tr class="memdesc:af5dfb9ea2bc4002ab08e62e3e2924967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adding a template parameter to avoid including the whole <code>imgui.h</code>.  <br /></td></tr>
 <tr class="separator:af5dfb9ea2bc4002ab08e62e3e2924967"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
@@ -207,6 +209,8 @@ template&lt;std::same_as&lt; float &gt; &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Can't change the element type... </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -234,6 +238,8 @@ template&lt;typename U  = ImVec2&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Adding a template parameter to avoid including the whole <code>imgui.h</code>. </p>
 
 </div>
 </div>
@@ -265,6 +271,7 @@ template&lt;typename U &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Technically UB, but helps with optimizations on MSVC for some reason, compared to an if-else chain. GCC and Clang optimize both in the same manner.</p>
 
 </div>
 </div>

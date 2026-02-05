@@ -204,15 +204,12 @@ $(function(){initNavTree('MRRenderLabelObject_8h_source.html',''); initResizable
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> bindLabel_();</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="comment">// Create a new set of OpenGL buffer objects</span></div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">void</span> initBuffers_();</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="comment">// Release the OpenGL buffer objects</span></div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">void</span> freeBuffers_();</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> update_();</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="comment">// Marks dirty buffers that need to be uploaded to OpenGL</span></div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    uint32_t dirty_;</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">bool</span> dirtySrc_;</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">bool</span> dirtyBg_;</div>
@@ -234,7 +231,7 @@ $(function(){initNavTree('MRRenderLabelObject_8h_source.html',''); initResizable
 <div class="ttc" id="aclassMR_1_1ModelBaseRenderParams_html"><div class="ttname"><a href="../Csharp/classMR_1_1ModelBaseRenderParams.html">MR::ModelBaseRenderParams</a></div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:43</div></div>
 <div class="ttc" id="aclassMR_1_1ModelRenderParams_html"><div class="ttname"><a href="../Csharp/classMR_1_1ModelRenderParams.html">MR::ModelRenderParams</a></div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:51</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectLabel_html"><div class="ttname"><a href="../Csharp/classMR_1_1ObjectLabel.html">MR::ObjectLabel</a></div><div class="ttdef"><b>Definition</b> MRObjectLabel.h:26</div></div>
-<div class="ttc" id="aclassMR_1_1RenderBufferRef_html"><div class="ttname"><a href="classMR_1_1RenderBufferRef.html">MR::RenderBufferRef</a></div><div class="ttdef"><b>Definition</b> MRRenderHelpers.h:16</div></div>
+<div class="ttc" id="aclassMR_1_1RenderBufferRef_html"><div class="ttname"><a href="classMR_1_1RenderBufferRef.html">MR::RenderBufferRef</a></div><div class="ttdoc">provides access to shared buffer with type casting</div><div class="ttdef"><b>Definition</b> MRRenderHelpers.h:16</div></div>
 <div class="ttc" id="aclassMR_1_1RenderLabelObject_html"><div class="ttname"><a href="classMR_1_1RenderLabelObject.html">MR::RenderLabelObject</a></div><div class="ttdef"><b>Definition</b> MRRenderLabelObject.h:11</div></div>
 <div class="ttc" id="aclassMR_1_1RenderLabelObject_html_a047c9120d6951049a5d669c2b8a10e43"><div class="ttname"><a href="classMR_1_1RenderLabelObject.html#a047c9120d6951049a5d669c2b8a10e43">MR::RenderLabelObject::forceBindAll</a></div><div class="ttdeci">virtual void forceBindAll() override</div><div class="ttdoc">binds all data for this render object, not to bind ever again (until object becomes dirty)</div></div>
 <div class="ttc" id="aclassMR_1_1RenderLabelObject_html_a3b10286cdce57b0d311f6922b18105d6"><div class="ttname"><a href="classMR_1_1RenderLabelObject.html#a3b10286cdce57b0d311f6922b18105d6">MR::RenderLabelObject::~RenderLabelObject</a></div><div class="ttdeci">~RenderLabelObject()</div></div>
@@ -242,9 +239,9 @@ $(function(){initNavTree('MRRenderLabelObject_8h_source.html',''); initResizable
 <div class="ttc" id="aclassMR_1_1RenderLabelObject_html_aa76564d2e214675e31f418d5b062416b"><div class="ttname"><a href="classMR_1_1RenderLabelObject.html#aa76564d2e214675e31f418d5b062416b">MR::RenderLabelObject::RenderLabelObject</a></div><div class="ttdeci">RenderLabelObject(const VisualObject &amp;visObj)</div></div>
 <div class="ttc" id="aclassMR_1_1RenderLabelObject_html_abc3ff595096e62f558025d61d5f30506"><div class="ttname"><a href="classMR_1_1RenderLabelObject.html#abc3ff595096e62f558025d61d5f30506">MR::RenderLabelObject::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div></div>
 <div class="ttc" id="aclassMR_1_1RenderLabelObject_html_abf815848468cddcca8a409e99aa33102"><div class="ttname"><a href="classMR_1_1RenderLabelObject.html#abf815848468cddcca8a409e99aa33102">MR::RenderLabelObject::renderPicker</a></div><div class="ttdeci">virtual void renderPicker(const ModelBaseRenderParams &amp;params, unsigned geomId) override</div></div>
-<div class="ttc" id="aclassMR_1_1RenderLabelObject_html_af0dc873eb933a19cda016279a133a693"><div class="ttname"><a href="classMR_1_1RenderLabelObject.html#af0dc873eb933a19cda016279a133a693">MR::RenderLabelObject::render</a></div><div class="ttdeci">virtual bool render(const ModelRenderParams &amp;params) override</div></div>
+<div class="ttc" id="aclassMR_1_1RenderLabelObject_html_af0dc873eb933a19cda016279a133a693"><div class="ttname"><a href="classMR_1_1RenderLabelObject.html#af0dc873eb933a19cda016279a133a693">MR::RenderLabelObject::render</a></div><div class="ttdeci">virtual bool render(const ModelRenderParams &amp;params) override</div><div class="ttdoc">Returns true if something was rendered, or false if nothing to render.</div></div>
 <div class="ttc" id="aclassMR_1_1VisualObject_html"><div class="ttname"><a href="../Csharp/classMR_1_1VisualObject.html">MR::VisualObject</a></div><div class="ttdef"><b>Definition</b> MRVisualObject.h:119</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

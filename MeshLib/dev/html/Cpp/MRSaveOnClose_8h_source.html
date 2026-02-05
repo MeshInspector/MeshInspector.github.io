@@ -156,7 +156,6 @@ $(function(){initNavTree('MRSaveOnClose_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">// this plugin will show a message to the user if she closes the application when something is modified</span></div>
 <div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="classMR_1_1SaveOnClosePlugin.html">   10</a></span><span class="keyword">class </span>MRVIEWER_CLASS <a class="code hl_class" href="classMR_1_1SaveOnClosePlugin.html">SaveOnClosePlugin</a> : <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1ViewerPlugin.html">MR::ViewerPlugin</a>, <span class="keyword">public</span> <a class="code hl_struct" href="structMR_1_1MultiListener.html">MultiListener</a>&lt;PreDrawListener,InterruptCloseListener&gt;</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
@@ -171,20 +170,19 @@ $(function(){initNavTree('MRSaveOnClose_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">bool</span> initialized_{ <span class="keyword">false</span> };</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">bool</span> shouldClose_{ <span class="keyword">false</span> };</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">bool</span> showCloseModal_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="comment">// how long active modal will blink in seconds</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">float</span> activeModalHighlightTimer_{ 0.0f };</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>};</div>
 </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>} </div>
 <div class="ttc" id="aMRViewerEventsListener_8h_html"><div class="ttname"><a href="MRViewerEventsListener_8h.html">MRViewerEventsListener.h</a></div></div>
 <div class="ttc" id="aMRViewerPlugin_8h_html"><div class="ttname"><a href="MRViewerPlugin_8h.html">MRViewerPlugin.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1SaveOnClosePlugin_html"><div class="ttname"><a href="classMR_1_1SaveOnClosePlugin.html">MR::SaveOnClosePlugin</a></div><div class="ttdef"><b>Definition</b> MRSaveOnClose.h:11</div></div>
-<div class="ttc" id="aclassMR_1_1SaveOnClosePlugin_html_aac82fa6173a5c41f046e06e39465445e"><div class="ttname"><a href="classMR_1_1SaveOnClosePlugin.html#aac82fa6173a5c41f046e06e39465445e">MR::SaveOnClosePlugin::shutdown</a></div><div class="ttdeci">virtual MRVIEWER_API void shutdown() override</div></div>
-<div class="ttc" id="aclassMR_1_1SaveOnClosePlugin_html_acd23d814e2dac0931459aee0b97440b3"><div class="ttname"><a href="classMR_1_1SaveOnClosePlugin.html#acd23d814e2dac0931459aee0b97440b3">MR::SaveOnClosePlugin::init</a></div><div class="ttdeci">virtual MRVIEWER_API void init(Viewer *_viewer) override</div></div>
+<div class="ttc" id="aclassMR_1_1SaveOnClosePlugin_html"><div class="ttname"><a href="classMR_1_1SaveOnClosePlugin.html">MR::SaveOnClosePlugin</a></div><div class="ttdoc">this plugin will show a message to the user if she closes the application when something is modified</div><div class="ttdef"><b>Definition</b> MRSaveOnClose.h:11</div></div>
+<div class="ttc" id="aclassMR_1_1SaveOnClosePlugin_html_aac82fa6173a5c41f046e06e39465445e"><div class="ttname"><a href="classMR_1_1SaveOnClosePlugin.html#aac82fa6173a5c41f046e06e39465445e">MR::SaveOnClosePlugin::shutdown</a></div><div class="ttdeci">virtual MRVIEWER_API void shutdown() override</div><div class="ttdoc">This function is called before shutdown.</div></div>
+<div class="ttc" id="aclassMR_1_1SaveOnClosePlugin_html_acd23d814e2dac0931459aee0b97440b3"><div class="ttname"><a href="classMR_1_1SaveOnClosePlugin.html#acd23d814e2dac0931459aee0b97440b3">MR::SaveOnClosePlugin::init</a></div><div class="ttdeci">virtual MRVIEWER_API void init(Viewer *_viewer) override</div><div class="ttdoc">This function is called when the viewer is initialized (no mesh will be loaded at this stage)</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerPlugin_html"><div class="ttname"><a href="classMR_1_1ViewerPlugin.html">MR::ViewerPlugin</a></div><div class="ttdef"><b>Definition</b> MRViewerPlugin.h:27</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html"><div class="ttname"><a href="classMR_1_1Viewer.html">MR::Viewer</a></div><div class="ttdef"><b>Definition</b> MRViewer.h:66</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html"><div class="ttname"><a href="classMR_1_1Viewer.html">MR::Viewer</a></div><div class="ttdoc">GLFW-based mesh viewer.</div><div class="ttdef"><b>Definition</b> MRViewer.h:66</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1MultiListener_html"><div class="ttname"><a href="structMR_1_1MultiListener.html">MR::MultiListener</a></div><div class="ttdef"><b>Definition</b> MRViewerEventsListener.h:29</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

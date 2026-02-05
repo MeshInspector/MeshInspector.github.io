@@ -164,6 +164,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:afdfbc61b8daca0fe7d83153de681a5f9" id="r_afdfbc61b8daca0fe7d83153de681a5f9"><td class="memItemLeft" align="right" valign="top">static MREMBEDDEDPYTHON_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdfbc61b8daca0fe7d83153de681a5f9">isAvailable</a> ()</td></tr>
+<tr class="memdesc:afdfbc61b8daca0fe7d83153de681a5f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set this once before running anything.  <br /></td></tr>
 <tr class="separator:afdfbc61b8daca0fe7d83153de681a5f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae9a27f7dcbea3f36eb3d9f478440152" id="r_aae9a27f7dcbea3f36eb3d9f478440152"><td class="memItemLeft" align="right" valign="top">static MREMBEDDEDPYTHON_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae9a27f7dcbea3f36eb3d9f478440152">shutdown</a> ()</td></tr>
 <tr class="separator:aae9a27f7dcbea3f36eb3d9f478440152"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,6 +205,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Set this once before running anything. </p>
 
 </div>
 </div>
@@ -254,6 +257,7 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Returns true if the interpreter is busy running something. If you try to run something else, your thread will block until it's done. </p>
 
 </div>
 </div>
@@ -308,6 +312,7 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Returns false on failure. If <code>onDoneAsync</code> is set, doesn't wait for the script to finish. Will call <code>onDoneAsync</code> asynchronously when done (from the Python interpreter thread). </p>
 
 </div>
 </div>
@@ -333,6 +338,7 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>If you have used <code><a class="el" href="#a5916e55128078261efdff12ec1f7fee9">runScript()</a></code> at least once, you should call this before terminating the program. Otherwise you can get a crash in Python cleanup. I have only observed this with our patched Pybind. </p>
 
 </div>
 </div>

@@ -154,6 +154,9 @@ $(function(){initNavTree('classMR_1_1RibbonSchemaLoader.html',''); initResizable
 </div><!--header-->
 <div class="contents">
 
+<p>Class for loading ribbon schema from structure files (basically called from <a class="el" href="classMR_1_1RibbonMenu.html">RibbonMenu</a>, but can be called separately)  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRRibbonSchema_8h_source.html">MRRibbonSchema.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -163,31 +166,40 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0bdc0e74b5b855dc50f9d3ed83b7ecad" id="r_a0bdc0e74b5b855dc50f9d3ed83b7ecad"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bdc0e74b5b855dc50f9d3ed83b7ecad">~RibbonSchemaLoader</a> ()=default</td></tr>
 <tr class="separator:a0bdc0e74b5b855dc50f9d3ed83b7ecad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9dde65427b1793ba6f4fa13663a5ec5" id="r_ad9dde65427b1793ba6f4fa13663a5ec5"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9dde65427b1793ba6f4fa13663a5ec5">loadSchema</a> () const</td></tr>
+<tr class="memdesc:ad9dde65427b1793ba6f4fa13663a5ec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads schema from files.  <br /></td></tr>
 <tr class="separator:ad9dde65427b1793ba6f4fa13663a5ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae1fb56f73fe32143e7af41b9a6ef2a78" id="r_ae1fb56f73fe32143e7af41b9a6ef2a78"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1fb56f73fe32143e7af41b9a6ef2a78">readMenuItemsList</a> (const Json::Value &amp;root, MenuItemsList &amp;list)</td></tr>
+<tr class="memdesc:ae1fb56f73fe32143e7af41b9a6ef2a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads schema items list from <code>root</code> to <code>list</code>  <br /></td></tr>
 <tr class="separator:ae1fb56f73fe32143e7af41b9a6ef2a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41b33cc8ea85e93c4afed1e130fbd709" id="r_a41b33cc8ea85e93c4afed1e130fbd709"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41b33cc8ea85e93c4afed1e130fbd709">recalcItemSizes</a> ()</td></tr>
+<tr class="memdesc:a41b33cc8ea85e93c4afed1e130fbd709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalc items sizes.  <br /></td></tr>
 <tr class="separator:a41b33cc8ea85e93c4afed1e130fbd709"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a691ceda2aee5d313445759892065cfa6" id="r_a691ceda2aee5d313445759892065cfa6"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a691ceda2aee5d313445759892065cfa6">getStructureFiles_</a> (const std::string &amp;fileExtension) const</td></tr>
+<tr class="memdesc:a691ceda2aee5d313445759892065cfa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds structure json files in exe directory  <br /></td></tr>
 <tr class="separator:a691ceda2aee5d313445759892065cfa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21064610abab0a6524a91349d54a0470" id="r_a21064610abab0a6524a91349d54a0470"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21064610abab0a6524a91349d54a0470">sortFilesByOrder_</a> (std::vector&lt; std::filesystem::path &gt; &amp;files) const</td></tr>
+<tr class="memdesc:a21064610abab0a6524a91349d54a0470"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort structure json files by order  <br /></td></tr>
 <tr class="separator:a21064610abab0a6524a91349d54a0470"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7e8563a297450e4086c93062470453b" id="r_ab7e8563a297450e4086c93062470453b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7e8563a297450e4086c93062470453b">readItemsJson_</a> (const std::filesystem::path &amp;path) const</td></tr>
+<tr class="memdesc:ab7e8563a297450e4086c93062470453b"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends one menu items json info  <br /></td></tr>
 <tr class="separator:ab7e8563a297450e4086c93062470453b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8922f80db8dd50ace1d0414338bc9a90" id="r_a8922f80db8dd50ace1d0414338bc9a90"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8922f80db8dd50ace1d0414338bc9a90">readItemsJson_</a> (const Json::Value &amp;root) const</td></tr>
 <tr class="separator:a8922f80db8dd50ace1d0414338bc9a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ab581434c5e1a94a44c8d1307a9ba5e" id="r_a6ab581434c5e1a94a44c8d1307a9ba5e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ab581434c5e1a94a44c8d1307a9ba5e">readUIJson_</a> (const std::filesystem::path &amp;path) const</td></tr>
+<tr class="memdesc:a6ab581434c5e1a94a44c8d1307a9ba5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends one ui json info  <br /></td></tr>
 <tr class="separator:a6ab581434c5e1a94a44c8d1307a9ba5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae18febd5f891538a94cd80c617a2c7f0" id="r_ae18febd5f891538a94cd80c617a2c7f0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae18febd5f891538a94cd80c617a2c7f0">readUIJson_</a> (const Json::Value &amp;root) const</td></tr>
 <tr class="separator:ae18febd5f891538a94cd80c617a2c7f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for loading ribbon schema from structure files (basically called from <a class="el" href="classMR_1_1RibbonMenu.html">RibbonMenu</a>, but can be called separately) </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae9f61f9ad1a6e1cfbcdb30e93799a046" name="ae9f61f9ad1a6e1cfbcdb30e93799a046"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae9f61f9ad1a6e1cfbcdb30e93799a046">&#9670;&#160;</a></span>RibbonSchemaLoader()</h2>
 
@@ -262,6 +274,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>finds structure json files in exe directory </p>
+
 </div>
 </div>
 <a id="ad9dde65427b1793ba6f4fa13663a5ec5" name="ad9dde65427b1793ba6f4fa13663a5ec5"></a>
@@ -286,6 +300,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Loads schema from files. </p>
 
 </div>
 </div>
@@ -337,6 +353,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>appends one menu items json info </p>
+
 </div>
 </div>
 <a id="ae1fb56f73fe32143e7af41b9a6ef2a78" name="ae1fb56f73fe32143e7af41b9a6ef2a78"></a>
@@ -365,6 +383,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reads schema items list from <code>root</code> to <code>list</code> </p>
 
 </div>
 </div>
@@ -416,6 +436,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>appends one ui json info </p>
+
 </div>
 </div>
 <a id="a41b33cc8ea85e93c4afed1e130fbd709" name="a41b33cc8ea85e93c4afed1e130fbd709"></a>
@@ -441,6 +463,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Recalc items sizes. </p>
+
 </div>
 </div>
 <a id="a21064610abab0a6524a91349d54a0470" name="a21064610abab0a6524a91349d54a0470"></a>
@@ -465,6 +489,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>sort structure json files by order </p>
 
 </div>
 </div>

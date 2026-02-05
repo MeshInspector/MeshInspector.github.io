@@ -171,6 +171,7 @@ Public Types</h2></td></tr>
 <tr class="memitem:a15892e58be32abb87c83d3929500dcfd" id="r_a15892e58be32abb87c83d3929500dcfd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15892e58be32abb87c83d3929500dcfd">Vb</a> = typename VTraits::template ChangeBaseType&lt;bool&gt;</td></tr>
 <tr class="separator:a15892e58be32abb87c83d3929500dcfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30f9aaac8de3e73144319e59e64d5add" id="r_a30f9aaac8de3e73144319e59e64d5add"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30f9aaac8de3e73144319e59e64d5add">VbTraits</a> = <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;<a class="el" href="#a15892e58be32abb87c83d3929500dcfd">Vb</a>&gt;</td></tr>
+<tr class="memdesc:a30f9aaac8de3e73144319e59e64d5add"><td class="mdescLeft">&#160;</td><td class="mdescRight">if V is Vector3&lt;T&gt; then Vb is <a class="elRef" href="../Csharp/structMR_1_1Vector3b.html">Vector3b</a>  <br /></td></tr>
 <tr class="separator:a30f9aaac8de3e73144319e59e64d5add"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -329,6 +330,8 @@ template&lt;typename V &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>if V is Vector3&lt;T&gt; then Vb is <a class="elRef" href="../Csharp/structMR_1_1Vector3b.html">Vector3b</a> </p>
 
 </div>
 </div>
@@ -1041,6 +1044,7 @@ template&lt;typename U &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Here <code>V == U</code> doesn't seem to cause any issues in the C++ code, but we're still disabling it because it somehow gets emitted when generating the bindings, and results in duplicate functions in C#. </p>
 
 </div>
 </div>

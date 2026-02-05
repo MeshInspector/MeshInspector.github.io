@@ -164,30 +164,29 @@ $(function(){initNavTree('MRGridSettings_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">enum class</span> EdgeType</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    {</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        Horizontal,  <span class="comment">// (x,y) - (x+1,y)</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        Vertical,    <span class="comment">// (x,y) - (x,y+1)</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        DiagonalA,   <span class="comment">// (x,y) - (x+1,y+1)</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        DiagonalB    <span class="comment">// (x+1,y) - (x,y+1)</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="comment">// both DiagonalA and DiagonalB cannot return valid edges</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        Horizontal,  </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        Vertical,    </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        DiagonalA,   </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        DiagonalB    </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    };</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    BMap&lt;UndirectedEdgeId, size_t&gt; <a class="code hl_propertyRef" href="../Csharp/classMR_1_1GridSettings.html#aaf3aca14078c7bb490f00e05368a0e7b">uedgeIds</a>;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">enum class</span> TriType</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    {</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        Lower, <span class="comment">// (x,y), (x+1,y), (x+1,y+1) if DiagonalA or (x,y), (x+1,y), (x,y+1) if DiagonalB</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        Upper  <span class="comment">// (x,y), (x+1,y+1), (x,y+1) if DiagonalA or (x+1,y), (x+1,y+1), (x,y+1) if DiagonalB</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        Lower, </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        Upper  </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    };</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    BMap&lt;FaceId, size_t&gt; <a class="code hl_propertyRef" href="../Csharp/classMR_1_1GridSettings.html#ab9edc42ddf5c6bc26286e0f61060a90e">faceIds</a>;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>};</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>} </div>
 <div class="ttc" id="aMRBuffer_8h_html"><div class="ttname"><a href="MRBuffer_8h.html">MRBuffer.h</a></div></div>
 <div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1GridSettings_html_a7816038624f48b1f2241327f296a7def"><div class="ttname"><a href="../Csharp/classMR_1_1GridSettings.html#a7816038624f48b1f2241327f296a7def">MR::GridSettings::vertIds</a></div><div class="ttdeci">new unsafe MR.BMap_MRVertId_MRUint64T vertIds</div></div>
 <div class="ttc" id="aclassMR_1_1GridSettings_html_a7ed0fe2ab1ac607fa7e60d4e98a5944c"><div class="ttname"><a href="../Csharp/classMR_1_1GridSettings.html#a7ed0fe2ab1ac607fa7e60d4e98a5944c">MR::GridSettings::dim</a></div><div class="ttdeci">new unsafe ref MR.Vector2i dim</div></div>
 <div class="ttc" id="aclassMR_1_1GridSettings_html_aaf3aca14078c7bb490f00e05368a0e7b"><div class="ttname"><a href="../Csharp/classMR_1_1GridSettings.html#aaf3aca14078c7bb490f00e05368a0e7b">MR::GridSettings::uedgeIds</a></div><div class="ttdeci">new unsafe MR.BMap_MRUndirectedEdgeId_MRUint64T uedgeIds</div></div>
 <div class="ttc" id="aclassMR_1_1GridSettings_html_ab9edc42ddf5c6bc26286e0f61060a90e"><div class="ttname"><a href="../Csharp/classMR_1_1GridSettings.html#ab9edc42ddf5c6bc26286e0f61060a90e">MR::GridSettings::faceIds</a></div><div class="ttdeci">new unsafe MR.BMap_MRFaceId_MRUint64T faceIds</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

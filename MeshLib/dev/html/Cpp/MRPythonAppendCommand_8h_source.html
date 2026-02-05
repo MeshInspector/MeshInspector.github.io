@@ -154,8 +154,6 @@ $(function(){initNavTree('MRPythonAppendCommand_8h_source.html',''); initResizab
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>{</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">// Moves function func and copies/moves arguments to inner lambda object.</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">// After that pushes it to the event loop instead of immediate call.</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> F, <span class="keyword">typename</span>... Args&gt;</div>
 <div class="foldopen" id="foldopen00010" data-start="{" data-end="}">
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="namespaceMR.html#af07768b4409c36a0b8cc9b9849f82691">   10</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#af07768b4409c36a0b8cc9b9849f82691">pythonAppendOrRun</a>( F func, Args&amp;&amp;... args )</div>
@@ -168,16 +166,12 @@ $(function(){initNavTree('MRPythonAppendCommand_8h_source.html',''); initResizab
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>}</div>
 </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment">// Returns lambda which runs specified function `f` on commandLoop</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment">// deferred instead of immediate call on current thread</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="comment">// with signature of `f` and returns void</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> R, <span class="keyword">typename</span>... Args&gt;</div>
 <div class="foldopen" id="foldopen00023" data-start="{" data-end="}">
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="namespaceMR.html#a0f61ad5fbd50836547b99cd10c78763f">   23</a></span>[[nodiscard]] <span class="keyword">auto</span> <a class="code hl_function" href="namespaceMR.html#a0f61ad5fbd50836547b99cd10c78763f">pythonRunFromGUIThread</a>( std::function&lt;R( Args... )&gt;&amp;&amp; f ) -&gt; std::function&lt;void( Args... )&gt;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordflow">return</span>[fLocal = std::move( f )]( Args&amp;&amp;... args ) <span class="keyword">mutable</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    {</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="comment">// fLocal must not be moved</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <a class="code hl_function" href="namespaceMR.html#af07768b4409c36a0b8cc9b9849f82691">pythonAppendOrRun</a>( fLocal, std::forward&lt;Args&gt;( args )... );</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    };</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>}</div>
@@ -202,7 +196,7 @@ $(function(){initNavTree('MRPythonAppendCommand_8h_source.html',''); initResizab
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}</div>
 <div class="ttc" id="aMRCommandLoop_8h_html"><div class="ttname"><a href="MRCommandLoop_8h.html">MRCommandLoop.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1CommandLoop_html_a10e006b28fa9dbd3572e3b43c8037640"><div class="ttname"><a href="classMR_1_1CommandLoop.html#a10e006b28fa9dbd3572e3b43c8037640">MR::CommandLoop::runCommandFromGUIThread</a></div><div class="ttdeci">static MRVIEWER_API void runCommandFromGUIThread(CommandFunc func)</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a0f61ad5fbd50836547b99cd10c78763f"><div class="ttname"><a href="namespaceMR.html#a0f61ad5fbd50836547b99cd10c78763f">MR::pythonRunFromGUIThread</a></div><div class="ttdeci">auto pythonRunFromGUIThread(std::function&lt; R(Args...)&gt; &amp;&amp;f) -&gt; std::function&lt; void(Args...)&gt;</div><div class="ttdef"><b>Definition</b> MRPythonAppendCommand.h:23</div></div>
 <div class="ttc" id="anamespaceMR_html_af07768b4409c36a0b8cc9b9849f82691"><div class="ttname"><a href="namespaceMR.html#af07768b4409c36a0b8cc9b9849f82691">MR::pythonAppendOrRun</a></div><div class="ttdeci">void pythonAppendOrRun(F func, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> MRPythonAppendCommand.h:10</div></div>
 </div><!-- fragment --></div><!-- contents -->

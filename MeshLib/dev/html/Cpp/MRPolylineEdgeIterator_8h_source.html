@@ -163,16 +163,14 @@ $(function(){initNavTree('MRPolylineEdgeIterator_8h_source.html',''); initResiza
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keyword">using </span>iterator_category = std::forward_iterator_tag;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">using </span>value_type        = UndirectedEdgeId;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="comment">// creates begin iterator</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1PolylineUndirectedEdgeIterator.html#a7b536c90a1c6c21896efbdc4227179ab">PolylineUndirectedEdgeIterator</a>( <span class="keyword">const</span> PolylineTopology &amp; topology ) : topology_( &amp;topology )</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    {</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keywordflow">if</span> ( topology_-&gt;undirectedEdgeSize() == 0 )</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            <span class="keywordflow">return</span>; <span class="comment">// end has reached</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            <span class="keywordflow">return</span>; </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        edge_ = UndirectedEdgeId{0};</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keywordflow">if</span> ( topology_-&gt;isLoneEdge( edge_ ) )</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            operator ++();</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    }</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="comment">// creates end iterator</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1PolylineUndirectedEdgeIterator.html#a7b536c90a1c6c21896efbdc4227179ab">PolylineUndirectedEdgeIterator</a>() = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1PolylineUndirectedEdgeIterator.html#a7b536c90a1c6c21896efbdc4227179ab">PolylineUndirectedEdgeIterator</a> &amp; operator++( )</div>
@@ -209,12 +207,12 @@ $(function(){initNavTree('MRPolylineEdgeIterator_8h_source.html',''); initResiza
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    { <span class="keywordflow">return</span> { PolylineUndirectedEdgeIterator( topology ), PolylineUndirectedEdgeIterator() }; }</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>} </div>
 <div class="ttc" id="aMRIteratorRange_8h_html"><div class="ttname"><a href="MRIteratorRange_8h.html">MRIteratorRange.h</a></div></div>
 <div class="ttc" id="aMRPolylineTopology_8h_html"><div class="ttname"><a href="MRPolylineTopology_8h.html">MRPolylineTopology.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1PolylineUndirectedEdgeIterator_html_a7b536c90a1c6c21896efbdc4227179ab"><div class="ttname"><a href="../Csharp/classMR_1_1PolylineUndirectedEdgeIterator.html#a7b536c90a1c6c21896efbdc4227179ab">MR::PolylineUndirectedEdgeIterator::PolylineUndirectedEdgeIterator</a></div><div class="ttdeci">unsafe PolylineUndirectedEdgeIterator()</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga300a438da6440ee7d2e92933bcfa6018"><div class="ttname"><a href="group__BasicGroup.html#ga300a438da6440ee7d2e92933bcfa6018">MR::operator==</a></div><div class="ttdeci">MRMESH_API bool operator==(const BitSet &amp;a, const BitSet &amp;b)</div><div class="ttdoc">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but la...</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a5534d2437ed57cabae82ae75a441b224"><div class="ttname"><a href="namespaceMR.html#a5534d2437ed57cabae82ae75a441b224">MR::operator!=</a></div><div class="ttdeci">bool operator!=(const Color &amp;a, const Color &amp;b)</div><div class="ttdef"><b>Definition</b> MRColor.h:101</div></div>
 <div class="ttc" id="anamespaceMR_html_a6de91a42354f4257ba3081c18a497828"><div class="ttname"><a href="namespaceMR.html#a6de91a42354f4257ba3081c18a497828">MR::undirectedEdges</a></div><div class="ttdeci">IteratorRange&lt; UndirectedEdgeIterator &gt; undirectedEdges(const MeshTopology &amp;topology)</div><div class="ttdef"><b>Definition</b> MREdgeIterator.h:58</div></div>
 <div class="ttc" id="astructMR_1_1UndirectedEdgeId_html_a751ad34caef973ae9e188254c5484a75"><div class="ttname"><a href="../Csharp/structMR_1_1UndirectedEdgeId.html#a751ad34caef973ae9e188254c5484a75">MR::UndirectedEdgeId::valid</a></div><div class="ttdeci">readonly unsafe bool valid()</div></div>

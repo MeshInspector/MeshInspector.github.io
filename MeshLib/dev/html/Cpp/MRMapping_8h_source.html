@@ -156,9 +156,6 @@ $(function(){initNavTree('MRMapping_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">// oldData - the data that needs to be compared</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">// newToOld - how to compare indexes</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// for greater optimality, it is worth making a resize for newData in advance</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> ValueT, <span class="keyword">typename</span> IndexT&gt;</div>
 <div class="foldopen" id="foldopen00013" data-start="{" data-end="}">
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="namespaceMR.html#a2d9d6989ed816203134c01906e95e865">   13</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a2d9d6989ed816203134c01906e95e865">mapNewToOldVector</a>(</div>
@@ -172,9 +169,6 @@ $(function(){initNavTree('MRMapping_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>}</div>
 </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">// oldData - the data that needs to be compared</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">// newToOld - how to compare indexes</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">// for greater optimality, it is worth making a resize for newData in advance</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> ValueT, <span class="keyword">typename</span> IndexT&gt;</div>
 <div class="foldopen" id="foldopen00027" data-start="{" data-end="}">
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="namespaceMR.html#a3e70f43d5b88c64b1d2c61b82c447889">   27</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a3e70f43d5b88c64b1d2c61b82c447889">mapOldToNewVector</a>(</div>
@@ -191,9 +185,9 @@ $(function(){initNavTree('MRMapping_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>}</div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="MRVector_8h.html">MRVector.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1Id_html"><div class="ttname"><a href="classMR_1_1Id.html">MR::Id</a></div><div class="ttdef"><b>Definition</b> MRId.h:16</div></div>
+<div class="ttc" id="aclassMR_1_1Id_html"><div class="ttname"><a href="classMR_1_1Id.html">MR::Id</a></div><div class="ttdoc">stores index of some element, it is made as template class to avoid mixing faces, edges and vertices</div><div class="ttdef"><b>Definition</b> MRId.h:16</div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:19</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a2d9d6989ed816203134c01906e95e865"><div class="ttname"><a href="namespaceMR.html#a2d9d6989ed816203134c01906e95e865">MR::mapNewToOldVector</a></div><div class="ttdeci">void mapNewToOldVector(const Vector&lt; ValueT, Id&lt; IndexT &gt; &gt; &amp;oldData, const Vector&lt; Id&lt; IndexT &gt;, Id&lt; IndexT &gt; &gt; &amp;newToOld, Vector&lt; ValueT, Id&lt; IndexT &gt; &gt; &amp;newData)</div><div class="ttdef"><b>Definition</b> MRMapping.h:13</div></div>
 <div class="ttc" id="anamespaceMR_html_a3e70f43d5b88c64b1d2c61b82c447889"><div class="ttname"><a href="namespaceMR.html#a3e70f43d5b88c64b1d2c61b82c447889">MR::mapOldToNewVector</a></div><div class="ttdeci">void mapOldToNewVector(const Vector&lt; ValueT, Id&lt; IndexT &gt; &gt; &amp;oldData, const Vector&lt; Id&lt; IndexT &gt;, Id&lt; IndexT &gt; &gt; &amp;newToOld, Vector&lt; ValueT, Id&lt; IndexT &gt; &gt; &amp;newData)</div><div class="ttdef"><b>Definition</b> MRMapping.h:27</div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -163,6 +163,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6505f36f6b37f2d51d0564a3de4b98e0" id="r_a6505f36f6b37f2d51d0564a3de4b98e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6505f36f6b37f2d51d0564a3de4b98e0">BasinInfo</a> ()</td></tr>
 <tr class="separator:a6505f36f6b37f2d51d0564a3de4b98e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a9b12285fe8639813ace28a93ef0f29" id="r_a8a9b12285fe8639813ace28a93ef0f29"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a9b12285fe8639813ace28a93ef0f29">amountTillOverflow</a> () const</td></tr>
+<tr class="memdesc:a8a9b12285fe8639813ace28a93ef0f29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apparently I need this for <code><a class="el" href="classMR_1_1Vector.html" title="std::vector&lt;T&gt;-like container that requires specific indexing type,">MR::Vector</a></code> to register default-constructibility inside the enclosing class.  <br /></td></tr>
 <tr class="separator:a8a9b12285fe8639813ace28a93ef0f29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf005a578ca2b6fe35277c7ea358737e" id="r_adf005a578ca2b6fe35277c7ea358737e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf005a578ca2b6fe35277c7ea358737e">approxLevel</a> () const</td></tr>
 <tr class="memdesc:adf005a578ca2b6fe35277c7ea358737e"><td class="mdescLeft">&#160;</td><td class="mdescRight">approximate current level of water (z-coordinate) in the basin  <br /></td></tr>
@@ -255,6 +256,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Apparently I need this for <code><a class="el" href="classMR_1_1Vector.html" title="std::vector&lt;T&gt;-like container that requires specific indexing type,">MR::Vector</a></code> to register default-constructibility inside the enclosing class. </p>
 <p>amount of precipitation (in same units as mesh coordinates and water level), which can be added before overflowing the basin </p>
 
 </div>
@@ -310,6 +313,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>updates accumulated volume in the basin to the moment of given precipitation amount </p>
+<p>due to rounding errors</p>
 
 </div>
 </div>

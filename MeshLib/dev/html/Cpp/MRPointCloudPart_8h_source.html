@@ -158,17 +158,15 @@ $(function(){initNavTree('MRPointCloudPart_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">struct </span>PointCloudPart</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keyword">const</span> PointCloud&amp; cloud;</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keyword">const</span> VertBitSet* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1PointCloudPart.html#a1863e0fbefdc817429523d69c60c14eb">region</a> = <span class="keyword">nullptr</span>; <span class="comment">// nullptr here means all valid points of point cloud</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keyword">const</span> VertBitSet* <a class="code hl_propertyRef" href="../Csharp/classMR_1_1PointCloudPart.html#a1863e0fbefdc817429523d69c60c14eb">region</a> = <span class="keyword">nullptr</span>; </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932">PointCloudPart</a>( <span class="keyword">const</span> PointCloud&amp; c, <span class="keyword">const</span> VertBitSet* bs = <span class="keyword">nullptr</span> ) noexcept : cloud( c ), <a class="code hl_propertyRef" href="../Csharp/classMR_1_1PointCloudPart.html#a1863e0fbefdc817429523d69c60c14eb">region</a>( bs )  {}</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="comment">// Make this assignable. A better idea would be to rewrite the class to not use references, but doing this instead preserves API compatibility.</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932">PointCloudPart</a>( <span class="keyword">const</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932">PointCloudPart</a>&amp; other ) <span class="keyword">noexcept</span> = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932">PointCloudPart</a>&amp; operator=( <span class="keyword">const</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932">PointCloudPart</a>&amp; other ) <span class="keyword">noexcept</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    {</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keywordflow">if</span> ( <span class="keyword">this</span> != &amp;other )</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        {</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            <span class="comment">// In modern C++ the result doesn&#39;t need to be `std::launder`ed, right?</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            this-&gt;~PointCloudPart();</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>            ::new( ( <span class="keywordtype">void</span>* )<span class="keyword">this</span> ) <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932">PointCloudPart</a>( other );</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        }</div>
@@ -176,11 +174,11 @@ $(function(){initNavTree('MRPointCloudPart_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    }</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>} </div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1PointCloudPart_html_a1863e0fbefdc817429523d69c60c14eb"><div class="ttname"><a href="../Csharp/classMR_1_1PointCloudPart.html#a1863e0fbefdc817429523d69c60c14eb">MR::PointCloudPart::region</a></div><div class="ttdeci">new unsafe MR.? Const_VertBitSet region</div></div>
 <div class="ttc" id="aclassMR_1_1PointCloudPart_html_a186cdd09153352462ff1dbc6184c0932"><div class="ttname"><a href="../Csharp/classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932">MR::PointCloudPart::PointCloudPart</a></div><div class="ttdeci">unsafe PointCloudPart(MR.Const_PointCloudPart other)</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

@@ -229,26 +229,21 @@ $(function(){initNavTree('MRHeapBytes_8h_source.html',''); initResizable(true); 
 <div class="foldopen" id="foldopen00077" data-start="{" data-end="}">
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#ga95720533ccaf5f5aa42fbabee1ce7067">   77</a></span>[[nodiscard]] <span class="keyword">inline</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">heapBytes</a>( <span class="keyword">const</span> phmap::flat_hash_map&lt;Ts...&gt;&amp; hashMap )</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>{</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="comment">// from parallel_hashmap/phmap.h:</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="comment">// The control state and slot array are stored contiguously in a shared heap</span></div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="comment">// allocation. The layout of this allocation is: `capacity()` control bytes,</span></div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="comment">// one sentinel control byte, `Group::kWidth - 1` cloned control bytes,</span></div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="comment">// &lt;possible padding&gt;, `capacity()` slots</span></div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keyword">const</span> <span class="keyword">auto</span> cap = hashMap.capacity();</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keyword">constexpr</span> <span class="keywordtype">size_t</span> kWidth = 16; <span class="comment">// the usage of phmap::priv::Group::kWidth here will require inclusion of phmap.h</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keyword">constexpr</span> <span class="keywordtype">size_t</span> kWidth = 16; </div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keywordflow">return</span> cap + kWidth + cap * <span class="keyword">sizeof</span>( <span class="keyword">typename</span> phmap::flat_hash_map&lt;Ts...&gt;::slot_type );</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>}</div>
 </div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>} </div>
 <div class="ttc" id="aMRMacros_8h_html"><div class="ttname"><a href="MRMacros_8h.html">MRMacros.h</a></div></div>
 <div class="ttc" id="aMRMacros_8h_html_adb4b71f9ebce86e54868bd967010ebbb"><div class="ttname"><a href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a></div><div class="ttdeci">#define MR_REQUIRES_IF_SUPPORTED(...)</div><div class="ttdef"><b>Definition</b> MRMacros.h:34</div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:19</div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html_a2816ffd002bac70ab04d1bd18e2c5cfd"><div class="ttname"><a href="classMR_1_1Vector.html#a2816ffd002bac70ab04d1bd18e2c5cfd">MR::Vector::size</a></div><div class="ttdeci">std::size_t size() const</div><div class="ttdef"><b>Definition</b> MRVector.h:51</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_gacfd51356fbcb71948b1ef3f058ac75c7"><div class="ttname"><a href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">MR::heapBytes</a></div><div class="ttdeci">size_t heapBytes(const BitSet &amp;bs)</div><div class="ttdoc">returns the amount of memory given BitSet occupies on heap</div><div class="ttdef"><b>Definition</b> MRBitSet.h:298</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

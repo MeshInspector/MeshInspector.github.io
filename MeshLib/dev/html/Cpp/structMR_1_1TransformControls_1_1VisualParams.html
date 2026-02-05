@@ -161,11 +161,13 @@ Public Types</h2></td></tr>
 <tr class="memitem:ac5bfae9a55e1ae115c09b2b2364ca037" id="r_ac5bfae9a55e1ae115c09b2b2364ca037"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5bfae9a55e1ae115c09b2b2364ca037">SizeType</a> { <a class="el" href="#ac5bfae9a55e1ae115c09b2b2364ca037aae36acbd4827ec18afa3444e42216935">LengthUnit</a> = 0
 , <a class="el" href="#ac5bfae9a55e1ae115c09b2b2364ca037ac3d2f5d37334dc978fd8b17fc77408a1">Pixels</a>
  }</td></tr>
+<tr class="memdesc:ac5bfae9a55e1ae115c09b2b2364ca037"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of length measurement units  <a href="#ac5bfae9a55e1ae115c09b2b2364ca037">More...</a><br /></td></tr>
 <tr class="separator:ac5bfae9a55e1ae115c09b2b2364ca037"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4d1df5643f784225a03cc558c03d81cf" id="r_a4d1df5643f784225a03cc558c03d81cf"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d1df5643f784225a03cc558c03d81cf">update</a> (const <a class="elRef" href="../Csharp/structMR_1_1Box3f.html">Box3f</a> &amp;box)</td></tr>
+<tr class="memdesc:a4d1df5643f784225a03cc558c03d81cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates radius and width with given box  <br /></td></tr>
 <tr class="separator:a4d1df5643f784225a03cc558c03d81cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -175,6 +177,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a04d8b2be8f4de0ff07797799a68c1697" id="r_a04d8b2be8f4de0ff07797799a68c1697"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04d8b2be8f4de0ff07797799a68c1697">width</a> { -1.0f }</td></tr>
 <tr class="separator:a04d8b2be8f4de0ff07797799a68c1697"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad87dab677434851f0fe31bcfb20840d" id="r_aad87dab677434851f0fe31bcfb20840d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac5bfae9a55e1ae115c09b2b2364ca037">SizeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad87dab677434851f0fe31bcfb20840d">sizeType</a> = <a class="el" href="#ac5bfae9a55e1ae115c09b2b2364ca037aae36acbd4827ec18afa3444e42216935">SizeType::LengthUnit</a></td></tr>
+<tr class="memdesc:aad87dab677434851f0fe31bcfb20840d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the type of widget size units (metric length or pixels units)  <br /></td></tr>
 <tr class="separator:aad87dab677434851f0fe31bcfb20840d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd8740b7982dd1a382270b6374aee8b8" id="r_acd8740b7982dd1a382270b6374aee8b8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd8740b7982dd1a382270b6374aee8b8">coneRadiusFactor</a> { 1.35f }</td></tr>
 <tr class="memdesc:acd8740b7982dd1a382270b6374aee8b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">the product of this factor and width gives cone radius of the arrows  <br /></td></tr>
@@ -218,9 +221,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>type of length measurement units </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac5bfae9a55e1ae115c09b2b2364ca037aae36acbd4827ec18afa3444e42216935" name="ac5bfae9a55e1ae115c09b2b2364ca037aae36acbd4827ec18afa3444e42216935"></a>LengthUnit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac5bfae9a55e1ae115c09b2b2364ca037ac3d2f5d37334dc978fd8b17fc77408a1" name="ac5bfae9a55e1ae115c09b2b2364ca037ac3d2f5d37334dc978fd8b17fc77408a1"></a>Pixels&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac5bfae9a55e1ae115c09b2b2364ca037aae36acbd4827ec18afa3444e42216935" name="ac5bfae9a55e1ae115c09b2b2364ca037aae36acbd4827ec18afa3444e42216935"></a>LengthUnit&#160;</td><td class="fielddoc"><p>metric units of measurement </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac5bfae9a55e1ae115c09b2b2364ca037ac3d2f5d37334dc978fd8b17fc77408a1" name="ac5bfae9a55e1ae115c09b2b2364ca037ac3d2f5d37334dc978fd8b17fc77408a1"></a>Pixels&#160;</td><td class="fielddoc"><p>pixel units of measurement </p>
+</td></tr>
 </table>
 
 </div>
@@ -240,6 +247,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>updates radius and width with given box </p>
 
 </div>
 </div>
@@ -347,6 +356,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>radius in units of measurement, depending on the typeRadius negative radius value means that controls are not setup </p>
 
 </div>
 </div>
@@ -378,6 +388,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>sets the type of widget size units (metric length or pixels units) </p>
+
 </div>
 </div>
 <a id="a263e10cb84fcd843581cc2aeea08d6a2" name="a263e10cb84fcd843581cc2aeea08d6a2"></a>
@@ -405,6 +417,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>width in units of measurement, depending on the typeRadius negative width value means that controls are not setup </p>
 
 </div>
 </div>

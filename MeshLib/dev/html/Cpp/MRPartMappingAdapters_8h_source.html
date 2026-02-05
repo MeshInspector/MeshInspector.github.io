@@ -160,7 +160,7 @@ $(function(){initNavTree('MRPartMappingAdapters_8h_source.html',''); initResizab
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Src2TgtMaps.html#a90af47c62c3530950b0c66b0088df40f">Src2TgtMaps</a>( FaceMap * outFmap, VertMap * outVmap, WholeEdgeMap * outEmap );</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> ~Src2TgtMaps(); <span class="comment">// maps are moved back to user here</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> ~Src2TgtMaps(); </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">operator</span> <span class="keyword">const</span> PartMapping &amp;() <span class="keyword">const</span> { <span class="keywordflow">return</span> map_; }</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">const</span> PartMapping &amp; getPartMapping()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> map_; }</div>
@@ -179,7 +179,7 @@ $(function(){initNavTree('MRPartMappingAdapters_8h_source.html',''); initResizab
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>{</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_functionRef" href="../Csharp/classMR_1_1Tgt2SrcMaps.html#a376ba7ee3173c503ff712927b50654eb">Tgt2SrcMaps</a>( FaceMap * outFmap, VertMap * outVmap, WholeEdgeMap * outEmap );</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> ~Tgt2SrcMaps(); <span class="comment">// maps are moved back to user here</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> ~Tgt2SrcMaps(); </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keyword">operator</span> <span class="keyword">const</span> PartMapping &amp;() <span class="keyword">const</span> { <span class="keywordflow">return</span> map_; }</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">const</span> PartMapping &amp; getPartMapping()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> map_; }</div>
@@ -194,13 +194,13 @@ $(function(){initNavTree('MRPartMappingAdapters_8h_source.html',''); initResizab
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#a06df4c5c798cce024e8f846182bf236d">WholeEdgeMapOrHashMap</a> tgt2srcEdges_;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>};</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>} </div>
 <div class="ttc" id="aMRMapOrHashMap_8h_html"><div class="ttname"><a href="MRMapOrHashMap_8h.html">MRMapOrHashMap.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
 <div class="ttc" id="aMRPartMapping_8h_html"><div class="ttname"><a href="MRPartMapping_8h.html">MRPartMapping.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Src2TgtMaps_html_a90af47c62c3530950b0c66b0088df40f"><div class="ttname"><a href="../Csharp/classMR_1_1Src2TgtMaps.html#a90af47c62c3530950b0c66b0088df40f">MR::Src2TgtMaps::Src2TgtMaps</a></div><div class="ttdeci">unsafe Src2TgtMaps(MR._ByValue_Src2TgtMaps _other)</div></div>
 <div class="ttc" id="aclassMR_1_1Tgt2SrcMaps_html_a376ba7ee3173c503ff712927b50654eb"><div class="ttname"><a href="../Csharp/classMR_1_1Tgt2SrcMaps.html#a376ba7ee3173c503ff712927b50654eb">MR::Tgt2SrcMaps::Tgt2SrcMaps</a></div><div class="ttdeci">unsafe Tgt2SrcMaps(MR._ByValue_Tgt2SrcMaps _other)</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_a06df4c5c798cce024e8f846182bf236d"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a06df4c5c798cce024e8f846182bf236d">mrmeshpy::WholeEdgeMapOrHashMap</a></div><div class="ttdeci">WholeEdgeMapOrHashMap</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_a6939dfea38e4f5ca9b72050f4bf4cb9a"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a6939dfea38e4f5ca9b72050f4bf4cb9a">mrmeshpy::FaceMapOrHashMap</a></div><div class="ttdeci">FaceMapOrHashMap</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_afe0a89723c2136bdc0d7faaa15806429"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#afe0a89723c2136bdc0d7faaa15806429">mrmeshpy::VertMapOrHashMap</a></div><div class="ttdeci">VertMapOrHashMap</div></div>

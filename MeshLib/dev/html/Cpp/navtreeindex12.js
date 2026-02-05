@@ -104,7 +104,6 @@ var NAVTREEINDEX12 =
 "MRZlib_8h.html#ade26a1cffee8e1e012f32d8d7bcc6637":[6,0,3,0,0,1,3,12,0],
 "MRZlib_8h_source.html":[6,0,3,0,0,1,3,12],
 "annotated.html":[6,0,2,0],
-"classMR.html#a93c701ffcc6efc02cd75b0925eb9c829":[6,0,0,11,2,8],
 "classMR_1_1AABBTree.html":[6,0,0,1,1],
 "classMR_1_1AABBTree.html#a0fe9f89526ce3b9319309cd487d21536":[6,0,0,1,1,0],
 "classMR_1_1AABBTree.html#a5074a33d522d0d1d9f40757f9642bad4":[6,0,0,1,1,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX12 =
 "classMR_1_1AsyncRequest.html#a32c8eaba0bbda7c291e8231db38a41e1":[6,0,1,0,1,64,0],
 "classMR_1_1AsyncRequest.html#a32c8eaba0bbda7c291e8231db38a41e1":[6,0,2,0,2,36,0],
 "classMR_1_1AsyncRequest.html#a32e13a84f6e2ea8aeeba1f2deb566a3d":[6,0,1,0,1,64,1],
-"classMR_1_1AsyncRequest.html#a32e13a84f6e2ea8aeeba1f2deb566a3d":[6,0,2,0,2,36,1]
+"classMR_1_1AsyncRequest.html#a32e13a84f6e2ea8aeeba1f2deb566a3d":[6,0,2,0,2,36,1],
+"classMR_1_1AsyncRequest.html#a3801cd6efcd7bb32ee149dd407b78ba6":[6,0,1,0,1,64,2]
 };

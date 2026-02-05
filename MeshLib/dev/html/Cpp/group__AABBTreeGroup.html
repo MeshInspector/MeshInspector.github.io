@@ -296,6 +296,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga364302ddaf673e7f00c6745f4172d6c0"><td class="memTemplItemLeft" align="right" valign="top">AABBTreeNodeVec&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga364302ddaf673e7f00c6745f4172d6c0">MR::makeAABBTreeNodeVec</a> (<a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt; boxedLeaves)</td></tr>
 <tr class="separator:ga364302ddaf673e7f00c6745f4172d6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga47032a5f420080191bd8d3600c3c24ef" id="r_ga47032a5f420080191bd8d3600c3c24ef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga47032a5f420080191bd8d3600c3c24ef">MR::getNumNodesPoints</a> (int numPoints)</td></tr>
+<tr class="memdesc:ga47032a5f420080191bd8d3600c3c24ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of nodes in the binary tree with given number of points  <br /></td></tr>
 <tr class="separator:ga47032a5f420080191bd8d3600c3c24ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga68e6755511856f1d2c49843267a81d4c" id="r_ga68e6755511856f1d2c49843267a81d4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga68e6755511856f1d2c49843267a81d4c">MR::findDirMax</a> (const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;dir, const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;m, UseAABBTree u=UseAABBTree::Yes)</td></tr>
 <tr class="separator:ga68e6755511856f1d2c49843267a81d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -513,6 +514,7 @@ Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:ga5e3f58e5a000086f4df8523da65c9b4f" id="r_ga5e3f58e5a000086f4df8523da65c9b4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5e3f58e5a000086f4df8523da65c9b4f">MR::IntersectionPrecomputes&lt; T &gt;::invDir</a></td></tr>
+<tr class="memdesc:ga5e3f58e5a000086f4df8523da65c9b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">{1 / dir}  <br /></td></tr>
 <tr class="separator:ga5e3f58e5a000086f4df8523da65c9b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaffa5bcb7a516c4dda421ace86e2597c2" id="r_gaffa5bcb7a516c4dda421ace86e2597c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaffa5bcb7a516c4dda421ace86e2597c2">MR::IntersectionPrecomputes&lt; T &gt;::maxDimIdxZ</a> = 2</td></tr>
 <tr class="separator:gaffa5bcb7a516c4dda421ace86e2597c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1756,7 +1758,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>finds index of maximum axis and stores it into dimY </p>
-<p><a href="http://jcgt.org/published/0002/01/05/paper.pdf">http://jcgt.org/published/0002/01/05/paper.pdf</a> Example input: dir = (1,-2). Result: dimY = 1, dimX = 0. </p><dl class="params"><dt>Parameters</dt><dd>
+<p><a href="http:///">http:///</a> jcgt.org/published/0002/01/05/paper.pdf Example input: dir = (1,-2). Result: dimY = 1, dimX = 0. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">dimX</td><td>index of minimum axis </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">dimY</td><td>index of maximum axis </td></tr>
@@ -1798,7 +1800,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>finds index of maximum axis and stores it into dimZ </p>
-<p><a href="http://jcgt.org/published/0002/01/05/paper.pdf">http://jcgt.org/published/0002/01/05/paper.pdf</a> Example input: dir = (1,1,-2). Result: dimZ = 2, dimX = 1, dimY = 0. </p><dl class="params"><dt>Parameters</dt><dd>
+<p><a href="http:///">http:///</a> jcgt.org/published/0002/01/05/paper.pdf Example input: dir = (1,1,-2). Result: dimZ = 2, dimX = 1, dimY = 0. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">dimX</td><td>are filled by right-hand rule from dimZ </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">dimY</td><td>are filled by right-hand rule from dimZ </td></tr>
@@ -1806,6 +1808,12 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
+<p>x&gt;y&gt;z</p>
+<p>x&gt;z&gt;y</p>
+<p>z&gt;x&gt;y</p>
+<p>y&gt;z&gt;x</p>
+<p>y&gt;x&gt;z</p>
+<p>z&gt;y&gt;x</p>
 
 </div>
 </div>
@@ -3299,6 +3307,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>returns the number of nodes in the binary tree with given number of points </p>
+
 </div>
 </div>
 <a id="gada6fc8da7b44241f0c208c2f2b085124" name="gada6fc8da7b44241f0c208c2f2b085124"></a>
@@ -3681,10 +3691,11 @@ template&lt;typename T &gt; </div>
 <p>Finds intersections between a mesh and multiple rays in parallel (in float-precision). <code>rayStart</code> and <code>rayEnd</code> define the interval on all rays to detect an intersection. <code>vadidFaces</code> if given then all faces for which false is returned will be skipped </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">meshPart</td><td>mesh (or its part) to find intersections with  </td></tr>
+    <tr><td class="paramname">meshPart</td><td>input: mesh (or its part) to find intersections with  </td></tr>
     <tr><td class="paramname">origins</td><td>origin point of every ray  </td></tr>
     <tr><td class="paramname">dirs</td><td>direction of every ray  </td></tr>
     <tr><td class="paramname">result</td><td>output data for every ray  </td></tr>
+    <tr><td class="paramname">rayStart</td><td>advanced options:  </td></tr>
     <tr><td class="paramname">closestIntersect</td><td>whether to search for the closest intersection to ray origin (line param=0), or any intersection  </td></tr>
     <tr><td class="paramname">validFaces</td><td>if given then all faces for which false is returned will be skipped </td></tr>
   </table>
@@ -4202,6 +4213,8 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>{1 / dir} </p>
+
 </div>
 </div>
 <a id="gaffa5bcb7a516c4dda421ace86e2597c2" name="gaffa5bcb7a516c4dda421ace86e2597c2"></a>
@@ -4217,6 +4230,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>[0]max, [1]next, [2]next-next f.e. {1,2,-3} =&gt; {2,1,0} </p>
 
 </div>
 </div>

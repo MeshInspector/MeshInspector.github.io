@@ -153,6 +153,9 @@ $(function(){initNavTree('classMR_1_1Id.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 
+<p>stores index of some element, it is made as template class to avoid mixing faces, edges and vertices  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRId.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::Id&lt; T &gt;:</div>
@@ -162,7 +165,7 @@ $(function(){initNavTree('classMR_1_1Id.html',''); initResizable(true); });
  <div class="center">
   <img src="classMR_1_1Id.png" usemap="#MR::Id_3C_20T_20_3E_map" alt=""/>
   <map id="MR::Id_3C_20T_20_3E_map" name="MR::Id_3C_20T_20_3E_map">
-<area href="classMR_1_1NoInitId.html" alt="MR::NoInitId&lt; T &gt;" shape="rect" coords="0,56,110,80"/>
+<area href="classMR_1_1NoInitId.html" title="Variant of Id&lt;T&gt; with omitted initialization by default. Useful for containers." alt="MR::NoInitId&lt; T &gt;" shape="rect" coords="0,56,110,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -174,6 +177,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab0e4ef6dbed8084af5b947ea4f8152e4" id="r_ab0e4ef6dbed8084af5b947ea4f8152e4"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0e4ef6dbed8084af5b947ea4f8152e4">Id</a> () noexcept</td></tr>
+<tr class="memdesc:ab0e4ef6dbed8084af5b947ea4f8152e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">the type used for internal representation of <a class="el" href="classMR_1_1Id.html" title="stores index of some element, it is made as template class to avoid mixing faces, edges and vertices">Id</a>  <br /></td></tr>
 <tr class="separator:ab0e4ef6dbed8084af5b947ea4f8152e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a626cffc98ec4b785d986aca365ed6ce2" id="r_a626cffc98ec4b785d986aca365ed6ce2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a626cffc98ec4b785d986aca365ed6ce2">Id</a> (<a class="elRef" href="../Csharp/classMR_1_1NoInit.html">NoInit</a>) noexcept</td></tr>
 <tr class="separator:a626cffc98ec4b785d986aca365ed6ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,7 +220,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a45a07dcbe1b8b9ac4949d19e26fecc99" id="r_a45a07dcbe1b8b9ac4949d19e26fecc99"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45a07dcbe1b8b9ac4949d19e26fecc99">operator+=</a> (<a class="el" href="#ac2e242e118fdd8b3a6309347d48a6c84">ValueType</a> a)</td></tr>
 <tr class="separator:a45a07dcbe1b8b9ac4949d19e26fecc99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+class MR::Id&lt; T &gt;</div><p>stores index of some element, it is made as template class to avoid mixing faces, edges and vertices </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ac2e242e118fdd8b3a6309347d48a6c84" name="ac2e242e118fdd8b3a6309347d48a6c84"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac2e242e118fdd8b3a6309347d48a6c84">&#9670;&#160;</a></span>ValueType</h2>
 
@@ -258,6 +265,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>the type used for internal representation of <a class="el" href="classMR_1_1Id.html" title="stores index of some element, it is made as template class to avoid mixing faces, edges and vertices">Id</a> </p>
 
 </div>
 </div>
@@ -314,6 +323,7 @@ template&lt;typename U  = int, std::enable_if_t&lt; std::is_integral_v&lt; U &gt
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Allow constructing from <code>int</code> and other integral types. This constructor is written like this instead of a plain <code>Id(int)</code>, because we also wish to disable construction from other unrelated <code><a class="el" href="classMR_1_1Id.html" title="stores index of some element, it is made as template class to avoid mixing faces, edges and vertices">Id</a>&lt;U&gt;</code> specializations, which themselves have implicit conversions to <code>int</code>. We could also achieve that using <code>template &lt;typename U&gt; <a class="el" href="classMR_1_1Id.html" title="stores index of some element, it is made as template class to avoid mixing faces, edges and vertices">Id</a>(<a class="el" href="classMR_1_1Id.html" title="stores index of some element, it is made as template class to avoid mixing faces, edges and vertices">Id</a>&lt;U&gt;) = delete;</code>, but it turns out that that causes issues for the <code>EdgeId::operator <a class="elRef" href="../Csharp/structMR_1_1UndirectedEdgeId.html">UndirectedEdgeId</a></code> below. There, while <code><a class="elRef" href="../Csharp/structMR_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> x = <a class="elRef" href="../Csharp/structMR_1_1EdgeId.html">EdgeId</a>{};</code> compiles with this approach, but <code><a class="elRef" href="../Csharp/structMR_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> x(<a class="elRef" href="../Csharp/structMR_1_1EdgeId.html">EdgeId</a>{});</code> doesn't. So to allow both forms, this constructor must be written this way, as a template. The <code>= int</code> is there only to make the bindings emit this constructor, I don't think it affects anything else. </p>
 
 </div>
 </div>

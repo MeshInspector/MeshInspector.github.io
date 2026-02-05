@@ -1,6 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"classMR_1_1CudaAccessor.html":[6,0,1,0,1,98],
 "classMR_1_1CudaAccessor.html":[6,0,2,0,2,70],
 "classMR_1_1CudaAccessor.html#a20534546f2d694b2e2c2687832828ae2":[6,0,1,0,1,98,0],
 "classMR_1_1CudaAccessor.html#a20534546f2d694b2e2c2687832828ae2":[6,0,2,0,2,70,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX17 =
 "classMR_1_1DirectionWidget.html#a801060d204bb001111c96202a5d9fb2a":[6,0,2,0,2,84,30],
 "classMR_1_1DirectionWidget.html#a8cf9aef0efe734dfcf237307de21f988":[6,0,1,0,1,112,31],
 "classMR_1_1DirectionWidget.html#a8cf9aef0efe734dfcf237307de21f988":[6,0,2,0,2,84,31],
-"classMR_1_1DirectionWidget.html#a919a4e2843ebcd0667b6572ba9d03caa":[6,0,1,0,1,112,27]
+"classMR_1_1DirectionWidget.html#a919a4e2843ebcd0667b6572ba9d03caa":[6,0,1,0,1,112,27],
+"classMR_1_1DirectionWidget.html#a919a4e2843ebcd0667b6572ba9d03caa":[6,0,2,0,2,84,27]
 };

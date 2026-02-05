@@ -167,6 +167,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1detail.html">MR::detail</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,12 +178,13 @@ Macros</h2></td></tr>
 <tr class="memdesc:ad10d1a8c04c5722bf0d42b1ddd493aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Usage: <code>MR_FINALLY{...};</code>. Runs the code in braces when exiting the current scope, either normally or via an exception.  <br /></td></tr>
 <tr class="separator:ad10d1a8c04c5722bf0d42b1ddd493aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72db3a237e531f5d3935a8cd53f533b6" id="r_a72db3a237e531f5d3935a8cd53f533b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72db3a237e531f5d3935a8cd53f533b6">MR_FINALLY_ON_SUCCESS</a>&#160;&#160;&#160;<a class="el" href="#ad10d1a8c04c5722bf0d42b1ddd493aad">MR_FINALLY</a></td></tr>
-<tr class="memdesc:a72db3a237e531f5d3935a8cd53f533b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">When exceptions are disabled, this is equivalent to <code>MR_FINALLY</code>.  <br /></td></tr>
+<tr class="memdesc:a72db3a237e531f5d3935a8cd53f533b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">If no exceptions.  <br /></td></tr>
 <tr class="separator:a72db3a237e531f5d3935a8cd53f533b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40e5af90a48f13bfd508e3019793ad23" id="r_a40e5af90a48f13bfd508e3019793ad23"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40e5af90a48f13bfd508e3019793ad23">MR_FINALLY_ON_THROW</a>&#160;&#160;&#160;(void)[&amp;]()</td></tr>
 <tr class="memdesc:a40e5af90a48f13bfd508e3019793ad23"><td class="mdescLeft">&#160;</td><td class="mdescRight">When exceptions are disabled, this is a noop.  <br /></td></tr>
 <tr class="separator:a40e5af90a48f13bfd508e3019793ad23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac22b729a28295f5adeb690ef54729b1c" id="r_ac22b729a28295f5adeb690ef54729b1c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac22b729a28295f5adeb690ef54729b1c">DETAIL_MR_FINALLY</a>(type_)&#160;&#160;&#160;    auto <a class="el" href="MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a>( _mrScopeGuard, __COUNTER__ ) = <a class="el" href="structMR_1_1detail_1_1MakeScopeGuard.html">::MR::detail::MakeScopeGuard</a>&lt;::MR::detail::type_&gt;{} -&gt;* [&amp;]() -&gt; void</td></tr>
+<tr class="memdesc:ac22b729a28295f5adeb690ef54729b1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If no exceptions.  <br /></td></tr>
 <tr class="separator:ac22b729a28295f5adeb690ef54729b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -200,6 +202,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>If no exceptions. </p>
 
 </div>
 </div>
@@ -231,6 +235,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>If no exceptions. </p>
 <p>When exceptions are disabled, this is equivalent to <code>MR_FINALLY</code>. </p>
 
 </div>

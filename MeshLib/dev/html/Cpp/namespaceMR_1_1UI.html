@@ -160,6 +160,7 @@ Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1detail.html">detail</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1StateStorage.html">StateStorage</a></td></tr>
+<tr class="memdesc:namespaceMR_1_1UI_1_1StateStorage"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this to store state across frames. Like what <code>CollapsingHeader()</code> uses to store it's open/close state. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine.html">TestEngine</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,10 +180,13 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Settings required for <code><a class="el" href="#ac87e004a565fe8b0a9d822499a594fb7" title="Draw modal window to save user configs (for example Palettes)">UI::saveCustomConfigModal</a></code>  <a href="structMR_1_1UI_1_1CustomConfigModalSettings.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UI_1_1Disabler.html">Disabler</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">While this exists, it temporarily disables in the given list the flags with 0 bits in the given mask.  <a href="classMR_1_1UI_1_1Disabler.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UI_1_1LabelRectAllocator.html">LabelRectAllocator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A rect allocator for labels.  <a href="classMR_1_1UI_1_1LabelRectAllocator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UI_1_1LineAntialiasingDisabler.html">LineAntialiasingDisabler</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">While this exists, it temporarily disables antialiasing for the lines drawn to this list.  <a href="classMR_1_1UI_1_1LineAntialiasingDisabler.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UI_1_1NonOverlappingLabelTask.html">NonOverlappingLabelTask</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,6 +202,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for drawing custom separator.  <a href="structMR_1_1UI_1_1SeparatorParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UI_1_1WindowRectAllocator.html">WindowRectAllocator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A rect allocator specifically for <a class="el" href="namespaceImGui.html">ImGui</a> windows.  <a href="classMR_1_1UI_1_1WindowRectAllocator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
@@ -213,6 +218,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a0a816a5d6ff63a4668d7a9b26bb0aaf6ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
 <br />
  }</td></tr>
+<tr class="memdesc:a0a816a5d6ff63a4668d7a9b26bb0aaf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">enumeration texture types  <a href="#a0a816a5d6ff63a4668d7a9b26bb0aaf6">More...</a><br /></td></tr>
 <tr class="separator:a0a816a5d6ff63a4668d7a9b26bb0aaf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -226,16 +232,19 @@ Functions</h2></td></tr>
 <tr class="memitem:af1937d08c3cb699681eeb7fd4dde005e" id="r_af1937d08c3cb699681eeb7fd4dde005e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1937d08c3cb699681eeb7fd4dde005e">saveChangesPopup</a> (const char *str_id, const <a class="el" href="structMR_1_1UI_1_1SaveChangesPopupSettings.html">SaveChangesPopupSettings</a> &amp;settings={})</td></tr>
 <tr class="separator:af1937d08c3cb699681eeb7fd4dde005e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d2fd1d58ef16bcced4cfefc67d2c023" id="r_a5d2fd1d58ef16bcced4cfefc67d2c023"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d2fd1d58ef16bcced4cfefc67d2c023">scale</a> ()</td></tr>
+<tr class="memdesc:a5d2fd1d58ef16bcced4cfefc67d2c023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the global <a class="el" href="namespaceMR_1_1UI.html">UI</a> scale. Use this instead of passing around the scale in parameters.  <br /></td></tr>
 <tr class="separator:a5d2fd1d58ef16bcced4cfefc67d2c023"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e1ec7c96ccb4a9963415c5d53b50081" id="r_a1e1ec7c96ccb4a9963415c5d53b50081"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e1ec7c96ccb4a9963415c5d53b50081">isItemActive</a> (const char *name)</td></tr>
+<tr class="memdesc:a1e1ec7c96ccb4a9963415c5d53b50081"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the item with this name in the current window is active.  <br /></td></tr>
 <tr class="separator:a1e1ec7c96ccb4a9963415c5d53b50081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d337a1adf7e16aaa08b683a6b65e886" id="r_a0d337a1adf7e16aaa08b683a6b65e886"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::unique_ptr&lt; <a class="el" href="classMR_1_1ImGuiImage.html">ImGuiImage</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d337a1adf7e16aaa08b683a6b65e886">getTexture</a> (<a class="el" href="#a0a816a5d6ff63a4668d7a9b26bb0aaf6">TextureType</a> type)</td></tr>
+<tr class="memdesc:a0d337a1adf7e16aaa08b683a6b65e886"><td class="mdescLeft">&#160;</td><td class="mdescRight">get texture by type  <br /></td></tr>
 <tr class="separator:a0d337a1adf7e16aaa08b683a6b65e886"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a986e400ed59dea0ae3e54284d9b8d110" id="r_a986e400ed59dea0ae3e54284d9b8d110"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a986e400ed59dea0ae3e54284d9b8d110">init</a> ()</td></tr>
 <tr class="memdesc:a986e400ed59dea0ae3e54284d9b8d110"><td class="mdescLeft">&#160;</td><td class="mdescRight">init internal parameters  <br /></td></tr>
 <tr class="separator:a986e400ed59dea0ae3e54284d9b8d110"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5f5d8b8b0e1a7192c658352c6b0a4a2" id="r_ad5f5d8b8b0e1a7192c658352c6b0a4a2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API ImGuiKey&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5f5d8b8b0e1a7192c658352c6b0a4a2">getImGuiModPrimaryCtrl</a> ()</td></tr>
-<tr class="memdesc:ad5f5d8b8b0e1a7192c658352c6b0a4a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns imgui modifier <a class="el" href="classMR_1_1Id.html">Id</a> based on current environment  <br /></td></tr>
+<tr class="memdesc:ad5f5d8b8b0e1a7192c658352c6b0a4a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns imgui modifier <a class="el" href="classMR_1_1Id.html" title="stores index of some element, it is made as template class to avoid mixing faces, edges and vertices">Id</a> based on current environment  <br /></td></tr>
 <tr class="separator:ad5f5d8b8b0e1a7192c658352c6b0a4a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef6aee6b25d8ef46fa79ca793724ce57" id="r_aef6aee6b25d8ef46fa79ca793724ce57"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef6aee6b25d8ef46fa79ca793724ce57">getImGuiPrimaryCtrlName</a> ()</td></tr>
 <tr class="memdesc:aef6aee6b25d8ef46fa79ca793724ce57"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns "Ctrl" by default or "Command" if <a class="el" href="namespaceImGui.html">ImGui</a> has changed it internally for macos  <br /></td></tr>
@@ -259,14 +268,19 @@ Functions</h2></td></tr>
 <tr class="memdesc:aca27e412cdac5850b5894de3b19321b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw button with same logic as radioButton  <br /></td></tr>
 <tr class="separator:aca27e412cdac5850b5894de3b19321b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab942eba103eec750f809a30b78753bcc" id="r_ab942eba103eec750f809a30b78753bcc"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab942eba103eec750f809a30b78753bcc">drawPoltHorizontalAxis</a> (const <a class="el" href="structMR_1_1UI_1_1PlotAxis.html">PlotAxis</a> &amp;plotAxis)</td></tr>
+<tr class="memdesc:ab942eba103eec750f809a30b78753bcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw dash with text along the horizontal axis  <br /></td></tr>
 <tr class="separator:ab942eba103eec750f809a30b78753bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd0b046581a9cea311efcbb11a16b2ff" id="r_abd0b046581a9cea311efcbb11a16b2ff"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd0b046581a9cea311efcbb11a16b2ff">drawPoltVerticalAxis</a> (const <a class="el" href="structMR_1_1UI_1_1PlotAxis.html">PlotAxis</a> &amp;plotAxis)</td></tr>
+<tr class="memdesc:abd0b046581a9cea311efcbb11a16b2ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw dash with text along the vertical axis  <br /></td></tr>
 <tr class="separator:abd0b046581a9cea311efcbb11a16b2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab53314e24f68de52f675b6881591b212" id="r_ab53314e24f68de52f675b6881591b212"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab53314e24f68de52f675b6881591b212">buttonIconEx</a> (const std::string &amp;name, const <a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> &amp;iconSize, const std::string &amp;text, const ImVec2 &amp;buttonSize, const <a class="el" href="structMR_1_1UI_1_1ButtonIconCustomizationParams.html">ButtonIconCustomizationParams</a> &amp;params={})</td></tr>
+<tr class="memdesc:ab53314e24f68de52f675b6881591b212"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw a button with an icon and text under it  <br /></td></tr>
 <tr class="separator:ab53314e24f68de52f675b6881591b212"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a336fa6393e7abeefe2f5d4e8f29d75a6" id="r_a336fa6393e7abeefe2f5d4e8f29d75a6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a336fa6393e7abeefe2f5d4e8f29d75a6">buttonIcon</a> (const std::string &amp;name, const <a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> &amp;iconSize, const std::string &amp;text, const ImVec2 &amp;buttonSize)</td></tr>
+<tr class="memdesc:a336fa6393e7abeefe2f5d4e8f29d75a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">button with a gradient, always active  <br /></td></tr>
 <tr class="separator:a336fa6393e7abeefe2f5d4e8f29d75a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e984c41bbd6d1102d9a05c16ad0ebb1" id="r_a4e984c41bbd6d1102d9a05c16ad0ebb1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e984c41bbd6d1102d9a05c16ad0ebb1">buttonIconFlatBG</a> (const std::string &amp;name, const <a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> &amp;iconSize, const std::string &amp;text, const ImVec2 &amp;buttonSize, bool textUnderIcon=true, ImGuiKey key=ImGuiKey_None)</td></tr>
+<tr class="memdesc:a4e984c41bbd6d1102d9a05c16ad0ebb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">button without a gradient, always active, configurable by an external style  <br /></td></tr>
 <tr class="separator:a4e984c41bbd6d1102d9a05c16ad0ebb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabff9f0c939748442c1095fa471e389b" id="r_aabff9f0c939748442c1095fa471e389b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabff9f0c939748442c1095fa471e389b">buttonUniqueIcon</a> (const std::string &amp;iconName, const <a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> &amp;iconSize, const std::string &amp;text, const ImVec2 &amp;buttonSize, int *value, int ownValue, bool textUnderIcon=true, ImGuiKey key=ImGuiKey_None)</td></tr>
 <tr class="separator:aabff9f0c939748442c1095fa471e389b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -345,9 +359,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a73b24c79591c799e7d48900fbeb29f28" id="r_a73b24c79591c799e7d48900fbeb29f28"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T&gt; <br />
 requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;T&gt;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">::size</a> == 1 )</td></tr>
 <tr class="memitem:a73b24c79591c799e7d48900fbeb29f28"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a73b24c79591c799e7d48900fbeb29f28">getDefaultDragSpeed</a> ()</td></tr>
+<tr class="memdesc:a73b24c79591c799e7d48900fbeb29f28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default drag speed for <code><a class="el" href="#a7164936f126dc1678e8ee461b926adec">UI::drag()</a></code>.  <br /></td></tr>
 <tr class="separator:a73b24c79591c799e7d48900fbeb29f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34c3f1871780efe66e47bcc052cefd3d" id="r_a34c3f1871780efe66e47bcc052cefd3d"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T, detail::VectorOrScalar TargetType&gt; </td></tr>
 <tr class="memitem:a34c3f1871780efe66e47bcc052cefd3d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a34c3f1871780efe66e47bcc052cefd3d">getDefaultStep</a> (bool fast)</td></tr>
+<tr class="memdesc:a34c3f1871780efe66e47bcc052cefd3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default step speed for <code><a class="el" href="#abbed04ca5643f08d7b41e56fec98ee8b" title="Like drag(), but clicking it immediately activates text input, so it&#39;s not actually draggable.">UI::input()</a></code>.  <br /></td></tr>
 <tr class="separator:a34c3f1871780efe66e47bcc052cefd3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ede0f8f76cc959c7be6cb81ee9174f8" id="r_a7ede0f8f76cc959c7be6cb81ee9174f8"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidBoundForTargetType&lt; T &gt; U = typename VectorTraits&lt;T&gt;::BaseType&gt; </td></tr>
 <tr class="memitem:a7ede0f8f76cc959c7be6cb81ee9174f8"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7ede0f8f76cc959c7be6cb81ee9174f8">slider</a> (const char *label, T &amp;v, const U &amp;vMin, const U &amp;vMax, <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, ImGuiSliderFlags flags=<a class="el" href="#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a>)</td></tr>
@@ -357,6 +373,7 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 <tr class="separator:a7164936f126dc1678e8ee461b926adec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbed04ca5643f08d7b41e56fec98ee8b" id="r_abbed04ca5643f08d7b41e56fec98ee8b"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidBoundForTargetType&lt; T &gt; U = typename VectorTraits&lt;T&gt;::BaseType&gt; </td></tr>
 <tr class="memitem:abbed04ca5643f08d7b41e56fec98ee8b"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#abbed04ca5643f08d7b41e56fec98ee8b">input</a> (const char *label, T &amp;v, const U &amp;vMin=std::numeric_limits&lt; U &gt;::lowest(), const U &amp;vMax=std::numeric_limits&lt; U &gt;::max(), <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, ImGuiSliderFlags flags=<a class="el" href="#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a>)</td></tr>
+<tr class="memdesc:abbed04ca5643f08d7b41e56fec98ee8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Like <code><a class="el" href="#a7164936f126dc1678e8ee461b926adec">drag()</a></code>, but clicking it immediately activates text input, so it's not actually draggable.  <br /></td></tr>
 <tr class="separator:abbed04ca5643f08d7b41e56fec98ee8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1fd1e704f1ff98b82cc4c98e452f57a" id="r_aa1fd1e704f1ff98b82cc4c98e452f57a"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T&gt; </td></tr>
 <tr class="memitem:aa1fd1e704f1ff98b82cc4c98e452f57a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aa1fd1e704f1ff98b82cc4c98e452f57a">readOnlyValue</a> (const char *label, const T &amp;v, std::optional&lt; ImVec4 &gt; textColor={}, <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, std::optional&lt; ImVec4 &gt; labelColor={})</td></tr>
@@ -402,6 +419,7 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 <tr class="memitem:afacb65ecd8ca9e640f01ffc1b7963245" id="r_afacb65ecd8ca9e640f01ffc1b7963245"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afacb65ecd8ca9e640f01ffc1b7963245">progressBar</a> (float fraction, const <a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>=<a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a>(-1, 0))</td></tr>
 <tr class="separator:afacb65ecd8ca9e640f01ffc1b7963245"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5dcf6cb9ab83cbd7fd1a8ff6659136f" id="r_ab5dcf6cb9ab83cbd7fd1a8ff6659136f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5dcf6cb9ab83cbd7fd1a8ff6659136f">beginTabBar</a> (const char *str_id, ImGuiTabBarFlags flags=0)</td></tr>
+<tr class="memdesc:ab5dcf6cb9ab83cbd7fd1a8ff6659136f"><td class="mdescLeft">&#160;</td><td class="mdescRight">create and append items into a TabBar: see corresponding <a class="el" href="namespaceImGui.html">ImGui</a>:: functions  <br /></td></tr>
 <tr class="separator:ab5dcf6cb9ab83cbd7fd1a8ff6659136f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b2f7496c5cc2c04acdc85d6ad564a63" id="r_a1b2f7496c5cc2c04acdc85d6ad564a63"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b2f7496c5cc2c04acdc85d6ad564a63">endTabBar</a> ()</td></tr>
 <tr class="separator:a1b2f7496c5cc2c04acdc85d6ad564a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -431,6 +449,7 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a7ce97f5be533c3522d66cb2fbfaf250f" id="r_a7ce97f5be533c3522d66cb2fbfaf250f"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a> = ImGuiSliderFlags_AlwaysClamp</td></tr>
+<tr class="memdesc:a7ce97f5be533c3522d66cb2fbfaf250f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default flags for <code><a class="el" href="#a7ede0f8f76cc959c7be6cb81ee9174f8">slider()</a></code> and <code><a class="el" href="#a7164936f126dc1678e8ee461b926adec">drag()</a></code> below.  <br /></td></tr>
 <tr class="separator:a7ce97f5be533c3522d66cb2fbfaf250f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -453,6 +472,8 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>enumeration texture types </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0a816a5d6ff63a4668d7a9b26bb0aaf6a5d9b47bd3b65072e0d5daf55f01da086" name="a0a816a5d6ff63a4668d7a9b26bb0aaf6a5d9b47bd3b65072e0d5daf55f01da086"></a>Mono&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0a816a5d6ff63a4668d7a9b26bb0aaf6a5e59525cb7d1d1cd93be0b9f36e9d09a" name="a0a816a5d6ff63a4668d7a9b26bb0aaf6a5e59525cb7d1d1cd93be0b9f36e9d09a"></a>Gradient&#160;</td><td class="fielddoc"></td></tr>
@@ -536,7 +557,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Sets the vertical text position to match the text of a specific control on the same line The control is assumed to contain standard one-line text with equal padding from top and bottom edges The padding is control-specific Sample usage: <a class="el" href="#afadef8b878371dc0bc9aa07df5dec003">UI::alignTextToFramePadding</a>( ImGui::GetStyle().FramePadding.y ); // (with this value, it is equivalent to ImGui::AlignTextToFramePadding() ) ImGui::Text( "Button:" ); ImGui::SameLine(); <a class="el" href="#affdd9ce8585853bc545f4f60bda2611f">UI::buttonCommonSize</a>( "Button" ); // the control we align to </p>
+<p>Sets the vertical text position to match the text of a specific control on the same line The control is assumed to contain standard one-line text with equal padding from top and bottom edges The padding is control-specific Sample usage: <a class="el" href="#afadef8b878371dc0bc9aa07df5dec003">UI::alignTextToFramePadding</a>( ImGui::GetStyle().FramePadding.y ); /// (with this value, it is equivalent to ImGui::AlignTextToFramePadding() ) ImGui::Text( "Button:" ); ImGui::SameLine(); <a class="el" href="#affdd9ce8585853bc545f4f60bda2611f">UI::buttonCommonSize</a>( "Button" ); /// the control we align to </p>
 
 </div>
 </div>
@@ -605,6 +626,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>create and append items into a TabBar: see corresponding <a class="el" href="namespaceImGui.html">ImGui</a>:: functions </p>
 
 </div>
 </div>
@@ -831,6 +854,8 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>button with a gradient, always active </p>
+
 </div>
 </div>
 <a id="ab53314e24f68de52f675b6881591b212" name="ab53314e24f68de52f675b6881591b212"></a>
@@ -866,6 +891,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>draw a button with an icon and text under it </p>
 
 </div>
 </div>
@@ -915,6 +942,8 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>button without a gradient, always active, configurable by an external style </p>
 
 </div>
 </div>
@@ -1416,6 +1445,7 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidDragSpeedForTarge
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Draw a dragging widget. Also includes [+] and [-] buttons (for integers only by default_, like <code>ImGui::Input</code>). <code>E</code> must be specified explicitly, to one of: <code>NoUnit</code> <code>LengthUnit</code>, <code>AngleUnit</code>, ... By default, for angles <code>v</code> will be converted to degrees for display (but <code>vSpeed</code> is still in radians, same as <code>v</code>), while length and unit-less values will be left as is. This can be customized in <code>unitParams</code> or globally (see <code><a class="el" href="MRUnits_8h.html">MRUnits.h</a></code>). If only the min limit is specified, then the max limit is assumed to be the largest number. </p>
 
 </div>
 </div>
@@ -1474,6 +1504,7 @@ template&lt;UnitEnum E, detail::Scalar T, detail::ValidDragSpeedForTargetType&lt
         </tr>
       </table>
 </div><div class="memdoc">
+<p>A <code><a class="el" href="#a7164936f126dc1678e8ee461b926adec">drag()</a></code> for two numbers that can be toggled between symmetric and asymmetric mode. Notice the <code>wrapFunc</code> parameter. If specified, it is a <code>(const char* subLabel, T&amp; value, auto&amp;&amp; f) -&gt; bool</code> lambda that must do <code>return f();</code>. That is called for each of the two plus/minus parts of the widget, and lets you e.g. set a custom style for those. Here we intentionally don't allow passing the step values, that wouldn't render too well. </p>
 
 </div>
 </div>
@@ -1492,6 +1523,8 @@ template&lt;UnitEnum E, detail::Scalar T, detail::ValidDragSpeedForTargetType&lt
       </table>
 </div><div class="memdoc">
 
+<p>draw dash with text along the horizontal axis </p>
+
 </div>
 </div>
 <a id="abd0b046581a9cea311efcbb11a16b2ff" name="abd0b046581a9cea311efcbb11a16b2ff"></a>
@@ -1508,6 +1541,8 @@ template&lt;UnitEnum E, detail::Scalar T, detail::ValidDragSpeedForTargetType&lt
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>draw dash with text along the vertical axis </p>
 
 </div>
 </div>
@@ -1588,6 +1623,8 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 </table>
 </div><div class="memdoc">
 
+<p>Default drag speed for <code><a class="el" href="#a7164936f126dc1678e8ee461b926adec">UI::drag()</a></code>. </p>
+
 </div>
 </div>
 <a id="a8782e9cded23844b3ae2138d6287b99c" name="a8782e9cded23844b3ae2138d6287b99c"></a>
@@ -1640,6 +1677,8 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::VectorOrScalar TargetT
 </table>
 </div><div class="memdoc">
 
+<p>Default step speed for <code><a class="el" href="#abbed04ca5643f08d7b41e56fec98ee8b" title="Like drag(), but clicking it immediately activates text input, so it&#39;s not actually draggable.">UI::input()</a></code>. </p>
+
 </div>
 </div>
 <a id="a5caf1537f165f3557d3f718bfb47a032" name="a5caf1537f165f3557d3f718bfb47a032"></a>
@@ -1682,7 +1721,7 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::VectorOrScalar TargetT
       </table>
 </div><div class="memdoc">
 
-<p>returns imgui modifier <a class="el" href="classMR_1_1Id.html">Id</a> based on current environment </p>
+<p>returns imgui modifier <a class="el" href="classMR_1_1Id.html" title="stores index of some element, it is made as template class to avoid mixing faces, edges and vertices">Id</a> based on current environment </p>
 
 </div>
 </div>
@@ -1719,6 +1758,8 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::VectorOrScalar TargetT
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>get texture by type </p>
 
 </div>
 </div>
@@ -1804,6 +1845,8 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidBoundForTargetTyp
       </table>
 </div><div class="memdoc">
 
+<p>Like <code><a class="el" href="#a7164936f126dc1678e8ee461b926adec">drag()</a></code>, but clicking it immediately activates text input, so it's not actually draggable. </p>
+
 </div>
 </div>
 <a id="a2d696a4ba7ed6899c61e4f297218a530" name="a2d696a4ba7ed6899c61e4f297218a530"></a>
@@ -1856,6 +1899,7 @@ template&lt;UnitEnum E, detail::Scalar T, typename F  = std::nullptr_t&gt; </div
         </tr>
       </table>
 </div><div class="memdoc">
+<p>An <code><a class="el" href="#abbed04ca5643f08d7b41e56fec98ee8b" title="Like drag(), but clicking it immediately activates text input, so it&#39;s not actually draggable.">input()</a></code> for two numbers that can be toggled between symmetric and asymmetric mode. Notice the <code>wrapFunc</code> parameter. If specified, it is a <code>(const char* subLabel, T&amp; value, auto&amp;&amp; f) -&gt; bool</code> lambda that must do <code>return f();</code>. That is called for each of the two plus/minus parts of the widget, and lets you e.g. set a custom style for those. </p>
 
 </div>
 </div>
@@ -2234,6 +2278,8 @@ template&lt;UnitEnum E, detail::Scalar T, typename F  = std::nullptr_t&gt; </div
 </table>
 </div><div class="memdoc">
 
+<p>Checks if the item with this name in the current window is active. </p>
+
 </div>
 </div>
 <a id="a86829359873813f479f46ac25fb54708" name="a86829359873813f479f46ac25fb54708"></a>
@@ -2273,6 +2319,7 @@ template&lt;UnitEnum E, detail::Scalar T, typename F  = std::nullptr_t&gt; </div
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Draws a label on top of the viewport area. <code>id</code> should be a unique ID persistent across frames. </p>
 
 </div>
 </div>
@@ -2353,6 +2400,7 @@ template&lt;UnitEnum E, detail::Scalar T, typename F &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>A generic wrapper for drawing plus-minus drags/inputs/etc that can be toggled between symmetric and asymmetric mode. Prefer <code><a class="el" href="#a2d696a4ba7ed6899c61e4f297218a530">inputPlusMinus()</a></code> and other functions written on top of this one. <code>func</code> is a <code>(const char* subLabel, T&amp; value, const <a class="el" href="structMR_1_1UnitToStringParams.html" title="Controls how a value with a unit is converted to a string.">UnitToStringParams</a>&lt;E&gt;&amp; subUnitParams) -&gt; bool</code>, draw your widget there with the automatic width, the specified label and value, and return its return value. <code>value</code> will receive either <code>plus</code> or <code>minus</code>. </p>
 
 </div>
 </div>
@@ -2516,6 +2564,7 @@ template&lt;UnitEnum E, detail::VectorOrScalar T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Draw a read-only copyable value. <code>E</code> must be specified explicitly, to one of: <code>NoUnit</code> <code>LengthUnit</code>, <code>AngleUnit</code>, ... By default, for angles <code>v</code> will be converted to degrees for display, while length and unit-less values will be left as is. This can be customized in <code>unitParams</code> or globally (see <code><a class="el" href="MRUnits_8h.html">MRUnits.h</a></code>). </p>
 
 </div>
 </div>
@@ -2537,6 +2586,7 @@ template&lt;UnitEnum E, detail::VectorOrScalar T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Shows <a class="el" href="namespaceImGui.html">ImGui</a> popup that suggests user to save changes, user need to call ImGui::OpenPopup( str_id ) to open this popup. It has 3 options: save, don't save, cancel str_id - <a class="el" href="namespaceImGui.html">ImGui</a> string id for the popup window settings - settings for dialog </p>
 
 </div>
 </div>
@@ -2582,6 +2632,8 @@ template&lt;UnitEnum E, detail::VectorOrScalar T&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Returns the global <a class="el" href="namespaceMR_1_1UI.html">UI</a> scale. Use this instead of passing around the scale in parameters. </p>
+
 </div>
 </div>
 <a id="a878027b7be9898c79a8e079b56ccc99c" name="a878027b7be9898c79a8e079b56ccc99c"></a>
@@ -2607,6 +2659,7 @@ template&lt;UnitEnum E, detail::VectorOrScalar T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>separator line with icon and text iconSize icon size without scaling </p>
 
 </div>
 </div>
@@ -2762,6 +2815,7 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidBoundForTargetTyp
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Draw a slider. <code>E</code> must be specified explicitly, to one of: <code>NoUnit</code> <code>LengthUnit</code>, <code>AngleUnit</code>, ... By default, for angles <code>v</code> will be converted to degrees for display (but <code>vMin</code>, <code>vMax</code> are still in radians, same as <code>v</code>), while length and unit-less values will be left as is. This can be customized in <code>unitParams</code> or globally (see <code><a class="el" href="MRUnits_8h.html">MRUnits.h</a></code>). </p>
 
 </div>
 </div>
@@ -2854,6 +2908,8 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidBoundForTargetTyp
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Default flags for <code><a class="el" href="#a7ede0f8f76cc959c7be6cb81ee9174f8">slider()</a></code> and <code><a class="el" href="#a7164936f126dc1678e8ee461b926adec">drag()</a></code> below. </p>
 
 </div>
 </div>

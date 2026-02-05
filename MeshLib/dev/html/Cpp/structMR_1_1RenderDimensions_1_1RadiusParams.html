@@ -159,14 +159,19 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a840dbe12e26001840b6e0464356dce72" id="r_a840dbe12e26001840b6e0464356dce72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1RenderDimensions_1_1CommonParams.html">CommonParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a840dbe12e26001840b6e0464356dce72">common</a></td></tr>
 <tr class="separator:a840dbe12e26001840b6e0464356dce72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbc9da122212ec41904e71d4e3002cc9" id="r_acbc9da122212ec41904e71d4e3002cc9"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbc9da122212ec41904e71d4e3002cc9">center</a></td></tr>
+<tr class="memdesc:acbc9da122212ec41904e71d4e3002cc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The center point.  <br /></td></tr>
 <tr class="separator:acbc9da122212ec41904e71d4e3002cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b8dbcb732f8c02e1c86373dbaf198ce" id="r_a6b8dbcb732f8c02e1c86373dbaf198ce"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b8dbcb732f8c02e1c86373dbaf198ce">radiusAsVector</a> = <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>( 1, 0, 0 )</td></tr>
+<tr class="memdesc:a6b8dbcb732f8c02e1c86373dbaf198ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">The length of this is the radius. This is also the preferred drawing direction relative to <code>center</code>.  <br /></td></tr>
 <tr class="separator:a6b8dbcb732f8c02e1c86373dbaf198ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdf65391e79f7573aa94c2fc65ab7c26" id="r_abdf65391e79f7573aa94c2fc65ab7c26"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdf65391e79f7573aa94c2fc65ab7c26">normal</a> = <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a>( 0, 0, 1 )</td></tr>
+<tr class="memdesc:abdf65391e79f7573aa94c2fc65ab7c26"><td class="mdescLeft">&#160;</td><td class="mdescRight">The preferred normal for non-spherical radiuses. The length is ignored, and this is automatically adjusted to be perpendicular to <code>radiusAsVector</code>.  <br /></td></tr>
 <tr class="separator:abdf65391e79f7573aa94c2fc65ab7c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1161a2acb579467fd9f2bf7bd0bb2961" id="r_a1161a2acb579467fd9f2bf7bd0bb2961"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1161a2acb579467fd9f2bf7bd0bb2961">drawAsDiameter</a> = false</td></tr>
+<tr class="memdesc:a1161a2acb579467fd9f2bf7bd0bb2961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether we should draw this as a diameter instead of a radius.  <br /></td></tr>
 <tr class="separator:a1161a2acb579467fd9f2bf7bd0bb2961"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b1c56e527cabfa9b554697eaf7b6e8d" id="r_a1b1c56e527cabfa9b554697eaf7b6e8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b1c56e527cabfa9b554697eaf7b6e8d">isSpherical</a> = false</td></tr>
+<tr class="memdesc:a1b1c56e527cabfa9b554697eaf7b6e8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this is a sphere radius, as opposed to circle/cylinder radius.  <br /></td></tr>
 <tr class="separator:a1b1c56e527cabfa9b554697eaf7b6e8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a209f752c72abb3b57f493fdde9dfe41e" id="r_a209f752c72abb3b57f493fdde9dfe41e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a209f752c72abb3b57f493fdde9dfe41e">visualLengthMultiplier</a> = 2 / 3.f</td></tr>
 <tr class="separator:a209f752c72abb3b57f493fdde9dfe41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,6 +188,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The center point. </p>
 
 </div>
 </div>
@@ -212,6 +219,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Whether we should draw this as a diameter instead of a radius. </p>
+
 </div>
 </div>
 <a id="a1b1c56e527cabfa9b554697eaf7b6e8d" name="a1b1c56e527cabfa9b554697eaf7b6e8d"></a>
@@ -225,6 +234,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Whether this is a sphere radius, as opposed to circle/cylinder radius. </p>
 
 </div>
 </div>
@@ -240,6 +251,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The preferred normal for non-spherical radiuses. The length is ignored, and this is automatically adjusted to be perpendicular to <code>radiusAsVector</code>. </p>
+
 </div>
 </div>
 <a id="a6b8dbcb732f8c02e1c86373dbaf198ce" name="a6b8dbcb732f8c02e1c86373dbaf198ce"></a>
@@ -254,6 +267,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The length of this is the radius. This is also the preferred drawing direction relative to <code>center</code>. </p>
+
 </div>
 </div>
 <a id="a209f752c72abb3b57f493fdde9dfe41e" name="a209f752c72abb3b57f493fdde9dfe41e"></a>
@@ -267,6 +282,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The visual leader line length multiplier, relative to the radius. You're recommended to set a min absolute value for the resulting length when rendering. </p>
 
 </div>
 </div>

@@ -196,15 +196,12 @@ $(function(){initNavTree('MRRenderLinesObject_8h_source.html',''); initResizable
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> bindLines_( <a class="code hl_enumeration" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748">GLStaticHolder::ShaderType</a> shaderType );</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">void</span> bindLinesPicker_( <a class="code hl_enumeration" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748">GLStaticHolder::ShaderType</a> shaderType );</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="comment">// Create a new set of OpenGL buffer objects</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">void</span> initBuffers_();</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="comment">// Release the OpenGL buffer objects</span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">void</span> freeBuffers_();</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> update_();</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="comment">// these are to be checked as dirty flag for calculating screen length on CPU</span></div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    Matrix4f prevProj_;</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    Matrix4f prevView_;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    Matrix4f prevModel_;</div>
@@ -213,12 +210,10 @@ $(function(){initNavTree('MRRenderLinesObject_8h_source.html',''); initResizable
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> resetAccumLengthDirty_( <span class="keyword">const</span> ModelRenderParams&amp; params );</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordtype">bool</span> needUpdateScreenLengths_{ <span class="keyword">true</span> };</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="comment">// Marks dirty buffers that need to be uploaded to OpenGL</span></div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    uint32_t dirty_;</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>};</div>
 </div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="comment">// Returns the range of line widths that are allowed by current renderer</span></div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="namespaceMR.html#aaf818ad78dcf1287b09182b71c21927c">   70</a></span>MRVIEWER_API <span class="keyword">const</span> <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a>&amp; <a class="code hl_function" href="namespaceMR.html#aaf818ad78dcf1287b09182b71c21927c">GetAvailableLineWidthRange</a>();</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>}</div>
@@ -239,12 +234,12 @@ $(function(){initNavTree('MRRenderLinesObject_8h_source.html',''); initResizable
 <div class="ttc" id="aclassMR_1_1RenderLinesObject_html_a536334f5c2028c4b2480759621cc6e9a"><div class="ttname"><a href="classMR_1_1RenderLinesObject.html#a536334f5c2028c4b2480759621cc6e9a">MR::RenderLinesObject::glBytes</a></div><div class="ttdeci">virtual size_t glBytes() const override</div><div class="ttdoc">returns the amount of memory this object allocated in OpenGL</div></div>
 <div class="ttc" id="aclassMR_1_1RenderLinesObject_html_a58baf835fad2015a8cef32639cd2115d"><div class="ttname"><a href="classMR_1_1RenderLinesObject.html#a58baf835fad2015a8cef32639cd2115d">MR::RenderLinesObject::RenderLinesObject</a></div><div class="ttdeci">RenderLinesObject(const VisualObject &amp;visObj)</div></div>
 <div class="ttc" id="aclassMR_1_1RenderLinesObject_html_a72fd92c9c31f2a2920ea89af4c0e4885"><div class="ttname"><a href="classMR_1_1RenderLinesObject.html#a72fd92c9c31f2a2920ea89af4c0e4885">MR::RenderLinesObject::~RenderLinesObject</a></div><div class="ttdeci">~RenderLinesObject()</div></div>
-<div class="ttc" id="aclassMR_1_1RenderLinesObject_html_a8412df02cc59f812bae34332eb7da1bf"><div class="ttname"><a href="classMR_1_1RenderLinesObject.html#a8412df02cc59f812bae34332eb7da1bf">MR::RenderLinesObject::render</a></div><div class="ttdeci">virtual bool render(const ModelRenderParams &amp;params) override</div></div>
+<div class="ttc" id="aclassMR_1_1RenderLinesObject_html_a8412df02cc59f812bae34332eb7da1bf"><div class="ttname"><a href="classMR_1_1RenderLinesObject.html#a8412df02cc59f812bae34332eb7da1bf">MR::RenderLinesObject::render</a></div><div class="ttdeci">virtual bool render(const ModelRenderParams &amp;params) override</div><div class="ttdoc">Returns true if something was rendered, or false if nothing to render.</div></div>
 <div class="ttc" id="aclassMR_1_1RenderLinesObject_html_a84c3a8d6e9caedfefff441da8809dec0"><div class="ttname"><a href="classMR_1_1RenderLinesObject.html#a84c3a8d6e9caedfefff441da8809dec0">MR::RenderLinesObject::forceBindAll</a></div><div class="ttdeci">virtual void forceBindAll() override</div><div class="ttdoc">binds all data for this render object, not to bind ever again (until object becomes dirty)</div></div>
 <div class="ttc" id="aclassMR_1_1RenderLinesObject_html_ad30e617ed0e05dd26727e86018cb4366"><div class="ttname"><a href="classMR_1_1RenderLinesObject.html#ad30e617ed0e05dd26727e86018cb4366">MR::RenderLinesObject::renderPicker</a></div><div class="ttdeci">virtual void renderPicker(const ModelBaseRenderParams &amp;params, unsigned geomId) override</div></div>
 <div class="ttc" id="aclassMR_1_1VisualObject_html"><div class="ttname"><a href="../Csharp/classMR_1_1VisualObject.html">MR::VisualObject</a></div><div class="ttdef"><b>Definition</b> MRVisualObject.h:119</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_aaf818ad78dcf1287b09182b71c21927c"><div class="ttname"><a href="namespaceMR.html#aaf818ad78dcf1287b09182b71c21927c">MR::GetAvailableLineWidthRange</a></div><div class="ttdeci">MRVIEWER_API const Vector2f &amp; GetAvailableLineWidthRange()</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_aaf818ad78dcf1287b09182b71c21927c"><div class="ttname"><a href="namespaceMR.html#aaf818ad78dcf1287b09182b71c21927c">MR::GetAvailableLineWidthRange</a></div><div class="ttdeci">MRVIEWER_API const Vector2f &amp; GetAvailableLineWidthRange()</div><div class="ttdoc">Returns the range of line widths that are allowed by current renderer.</div></div>
 <div class="ttc" id="astructMR_1_1Vector2f_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector2f.html">MR::Vector2f</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -199,10 +199,6 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa9133d1e63e15eb09f7f902afe2abd3a"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; const T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaa9133d1e63e15eb09f7f902afe2abd3a">MR::Object::find</a> () const</td></tr>
 <tr class="memdesc:gaa9133d1e63e15eb09f7f902afe2abd3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds a direct child by type  <br /></td></tr>
 <tr class="separator:gaa9133d1e63e15eb09f7f902afe2abd3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga595c5f842600963ee11cd5e9a3a0a7f8" id="r_ga595c5f842600963ee11cd5e9a3a0a7f8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga595c5f842600963ee11cd5e9a3a0a7f8"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; const T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga595c5f842600963ee11cd5e9a3a0a7f8">MR::Object::find</a> (const std::string_view &amp;name) const</td></tr>
-<tr class="memdesc:ga595c5f842600963ee11cd5e9a3a0a7f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds a direct child by name and type  <br /></td></tr>
-<tr class="separator:ga595c5f842600963ee11cd5e9a3a0a7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga085d7d3412f6d94799496d313c33276f" id="r_ga085d7d3412f6d94799496d313c33276f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga085d7d3412f6d94799496d313c33276f">MR::createObject</a> (const std::string &amp;className)</td></tr>
 <tr class="memdesc:ga085d7d3412f6d94799496d313c33276f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the function to create new object instance by registered class name  <br /></td></tr>
 <tr class="separator:ga085d7d3412f6d94799496d313c33276f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,8 +224,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga01ad9a53501f3ed7609ba0a65b9ff422"><td class="mdescLeft">&#160;</td><td class="mdescRight">load all objects (or any type: mesh, lines, points, voxels or scene) from file  <br /></td></tr>
 <tr class="separator:ga01ad9a53501f3ed7609ba0a65b9ff422"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa2082792bceb5a2dd3b18ff5693f0441" id="r_gaa2082792bceb5a2dd3b18ff5693f0441"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa2082792bceb5a2dd3b18ff5693f0441">MR::isSupportedFileInSubfolders</a> (const std::filesystem::path &amp;folder)</td></tr>
+<tr class="memdesc:gaa2082792bceb5a2dd3b18ff5693f0441"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if there are any supported files folder and subfolders  <br /></td></tr>
 <tr class="separator:gaa2082792bceb5a2dd3b18ff5693f0441"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga873b67818008b890a9733f438d361235" id="r_ga873b67818008b890a9733f438d361235"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt; LoadedObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga873b67818008b890a9733f438d361235">MR::loadSceneFromAnySupportedFormat</a> (const std::filesystem::path &amp;path, const ProgressCallback &amp;callback={})</td></tr>
+<tr class="memdesc:ga873b67818008b890a9733f438d361235"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to load scene from every format listed in SceneFormatFilters  <br /></td></tr>
 <tr class="separator:ga873b67818008b890a9733f438d361235"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5058cc4a63ce3a27970db1903d9c221d" id="r_ga5058cc4a63ce3a27970db1903d9c221d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt; LoadedObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5058cc4a63ce3a27970db1903d9c221d">MR::deserializeObjectTree</a> (const std::filesystem::path &amp;path, const FolderCallback &amp;postDecompress={}, const ProgressCallback &amp;progressCb={})</td></tr>
 <tr class="memdesc:ga5058cc4a63ce3a27970db1903d9c221d"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads objects tree from given scene file (zip/mru)  <br /></td></tr>
@@ -319,7 +317,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="gaa9133d1e63e15eb09f7f902afe2abd3a" name="gaa9133d1e63e15eb09f7f902afe2abd3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa9133d1e63e15eb09f7f902afe2abd3a">&#9670;&#160;</a></span>find() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa9133d1e63e15eb09f7f902afe2abd3a">&#9670;&#160;</a></span>find()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -336,27 +334,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>finds a direct child by type </p>
-
-</div>
-</div>
-<a id="ga595c5f842600963ee11cd5e9a3a0a7f8" name="ga595c5f842600963ee11cd5e9a3a0a7f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga595c5f842600963ee11cd5e9a3a0a7f8">&#9670;&#160;</a></span>find() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt; const T &gt; MR::Object::find </td>
-          <td>(</td>
-          <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>finds a direct child by name and type </p>
+<p>not found</p>
 
 </div>
 </div>
@@ -393,6 +371,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>check if there are any supported files folder and subfolders </p>
 
 </div>
 </div>
@@ -443,6 +423,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>tries to load scene from every format listed in SceneFormatFilters </p>
 
 </div>
 </div>

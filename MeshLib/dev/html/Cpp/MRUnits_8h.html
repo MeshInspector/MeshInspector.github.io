@@ -166,11 +166,13 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1detail_1_1Units_1_1Empty.html">MR::detail::Units::Empty</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UnitToStringParams.html">MR::UnitToStringParams&lt; E &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Controls how a value with a unit is converted to a string.  <a href="structMR_1_1UnitToStringParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1detail.html">MR::detail</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,6 +209,7 @@ Functions</h2></td></tr>
 <tr class="separator:a80607090259b7b45b4ea7809158a48a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a822feec21d0c267d63b63429392323c9" id="r_a822feec21d0c267d63b63429392323c9"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E&gt; </td></tr>
 <tr class="memitem:a822feec21d0c267d63b63429392323c9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a822feec21d0c267d63b63429392323c9">MR::setDefaultUnitParams</a> (const <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; &amp;newParams)</td></tr>
+<tr class="memdesc:a822feec21d0c267d63b63429392323c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies the default parameters for converting a specific unit type to a string.  <br /></td></tr>
 <tr class="separator:a822feec21d0c267d63b63429392323c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2345d0a738c6f4f2a8fb95b5fb2504a8" id="r_a2345d0a738c6f4f2a8fb95b5fb2504a8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2345d0a738c6f4f2a8fb95b5fb2504a8">MR::toString</a> (DegreesMode mode)</td></tr>
 <tr class="separator:a2345d0a738c6f4f2a8fb95b5fb2504a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,9 +218,11 @@ Functions</h2></td></tr>
 <tr class="separator:a4d3f8a6d1d7a0498aa353e88c7456182"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae67e358aa67b3bec22536c544a8ed160" id="r_ae67e358aa67b3bec22536c544a8ed160"><td class="memTemplParams" colspan="2">template&lt;detail::Units::Scalar T&gt; </td></tr>
 <tr class="memitem:ae67e358aa67b3bec22536c544a8ed160"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae67e358aa67b3bec22536c544a8ed160">MR::valueToString</a> (T value, const VarUnitToStringParams &amp;params)</td></tr>
+<tr class="memdesc:ae67e358aa67b3bec22536c544a8ed160"><td class="mdescLeft">&#160;</td><td class="mdescRight">This overload lets you select the unit kind at runtime.  <br /></td></tr>
 <tr class="separator:ae67e358aa67b3bec22536c544a8ed160"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33468b27fcfb4e39e7bcbc65162f5dce" id="r_a33468b27fcfb4e39e7bcbc65162f5dce"><td class="memTemplParams" colspan="2">template&lt;detail::Units::Scalar T&gt; </td></tr>
 <tr class="memitem:a33468b27fcfb4e39e7bcbc65162f5dce"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a33468b27fcfb4e39e7bcbc65162f5dce">MR::guessPrecision</a> (T value)</td></tr>
+<tr class="memdesc:a33468b27fcfb4e39e7bcbc65162f5dce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same but for vectors.  <br /></td></tr>
 <tr class="separator:a33468b27fcfb4e39e7bcbc65162f5dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1a04d603618814df24f8f6b758ace40" id="r_ab1a04d603618814df24f8f6b758ace40"><td class="memTemplParams" colspan="2">template&lt;detail::Units::Scalar T&gt; </td></tr>
 <tr class="memitem:ab1a04d603618814df24f8f6b758ace40"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab1a04d603618814df24f8f6b758ace40">MR::guessPrecision</a> (T min, T max)</td></tr>
@@ -225,6 +230,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a6304170dd60424bc3b95da334cc55e6b" id="r_a6304170dd60424bc3b95da334cc55e6b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; <br />
 requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;T&gt;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">::size</a> &gt; 1 &amp;&amp; detail::Units::Scalar&lt;typename <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;T&gt;::BaseType&gt;)</td></tr>
 <tr class="memitem:a6304170dd60424bc3b95da334cc55e6b"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6304170dd60424bc3b95da334cc55e6b">MR::guessPrecision</a> (T value)</td></tr>
+<tr class="memdesc:a6304170dd60424bc3b95da334cc55e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same but for vectors.  <br /></td></tr>
 <tr class="separator:a6304170dd60424bc3b95da334cc55e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed6e483d438f864a607f1e84e410c2c7" id="r_aed6e483d438f864a607f1e84e410c2c7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; <br />
 requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;T&gt;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">::size</a> &gt; 1 &amp;&amp; detail::Units::Scalar&lt;typename <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;T&gt;::BaseType&gt;)</td></tr>
@@ -235,6 +241,7 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:a888aed091b9c64c5a26d9490cd820f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3733c3924551342afaddf9b84564e21" id="r_ac3733c3924551342afaddf9b84564e21"><td class="memTemplParams" colspan="2">template&lt;detail::Units::Scalar T&gt; </td></tr>
 <tr class="memitem:ac3733c3924551342afaddf9b84564e21"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac3733c3924551342afaddf9b84564e21">MR::valueToImGuiFormatString</a> (T value, const VarUnitToStringParams &amp;params)</td></tr>
+<tr class="memdesc:ac3733c3924551342afaddf9b84564e21"><td class="mdescLeft">&#160;</td><td class="mdescRight">This overload lets you select the unit kind at runtime.  <br /></td></tr>
 <tr class="separator:ac3733c3924551342afaddf9b84564e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>

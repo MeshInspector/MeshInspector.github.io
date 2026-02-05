@@ -163,10 +163,13 @@ $(function(){initNavTree('MROneMeshContours_8h.html',''); initResizable(true); }
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Special data to sort intersections more accurate. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1OneMeshIntersection.html">MR::OneMeshIntersection</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple point on mesh, represented by primitive id and coordinate in mesh space. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1OneMeshContour.html">MR::OneMeshContour</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">One contour on mesh. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1SearchPathSettings.html">MR::SearchPathSettings</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Geo path search settings. <br /></td></tr>
@@ -175,6 +178,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -187,6 +191,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ae875a7151ea2bd715ce90d183884bb1b" id="r_ae875a7151ea2bd715ce90d183884bb1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> OneMeshContours&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae875a7151ea2bd715ce90d183884bb1b">MR::getOneMeshSelfIntersectionContours</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const ContinuousContours &amp;contours, const <a class="elRef" href="../Csharp/classMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;converters, const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> *rigidB2A=nullptr)</td></tr>
 <tr class="separator:ae875a7151ea2bd715ce90d183884bb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4484992ff522ddc03cd8234b7b7be226" id="r_a4484992ff522ddc03cd8234b7b7be226"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Contours3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4484992ff522ddc03cd8234b7b7be226">MR::extractMeshContours</a> (const OneMeshContours &amp;meshContours)</td></tr>
+<tr class="memdesc:a4484992ff522ddc03cd8234b7b7be226"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts OneMeshContours contours representation to Contours3f: set of coordinates.  <br /></td></tr>
 <tr class="separator:a4484992ff522ddc03cd8234b7b7be226"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga33e04ff2f620e99f7bcd23080433c39f" id="r_ga33e04ff2f620e99f7bcd23080433c39f"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt; <a class="elRef" href="../Csharp/classMR_1_1OneMeshContour.html">OneMeshContour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga33e04ff2f620e99f7bcd23080433c39f">MR::convertMeshTriPointsToMeshContour</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;surfaceLine, MeshTriPointsConnector connectorFn, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
 <tr class="memdesc:ga33e04ff2f620e99f7bcd23080433c39f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>

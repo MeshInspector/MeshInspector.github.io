@@ -165,12 +165,16 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a0488824dd2e0c5d0496391ffc6bfec38" id="r_a0488824dd2e0c5d0496391ffc6bfec38"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0488824dd2e0c5d0496391ffc6bfec38">borderColor</a> = <a class="elRef" href="../Csharp/structMR_1_1Color.html#a155493ae061173a85406ecefa16238bd">Color::transparent</a>()</td></tr>
 <tr class="separator:a0488824dd2e0c5d0496391ffc6bfec38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a970d4a8634d4cca0de8e512e0ba92fb4" id="r_a970d4a8634d4cca0de8e512e0ba92fb4"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line.html">Line</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a970d4a8634d4cca0de8e512e0ba92fb4">line</a></td></tr>
+<tr class="memdesc:a970d4a8634d4cca0de8e512e0ba92fb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional. Draw a line to this point from the text bubble.  <br /></td></tr>
 <tr class="separator:a970d4a8634d4cca0de8e512e0ba92fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ac7777ca9e66b4056a2ecb88153b5ea" id="r_a5ac7777ca9e66b4056a2ecb88153b5ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ac7777ca9e66b4056a2ecb88153b5ea">isHovered</a> = false</td></tr>
+<tr class="memdesc:a5ac7777ca9e66b4056a2ecb88153b5ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should imply <code>borderColor</code>.  <br /></td></tr>
 <tr class="separator:a5ac7777ca9e66b4056a2ecb88153b5ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af838c4e58173e3c9d3464ff2aa9941f6" id="r_af838c4e58173e3c9d3464ff2aa9941f6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af838c4e58173e3c9d3464ff2aa9941f6">isActive</a> = false</td></tr>
+<tr class="memdesc:af838c4e58173e3c9d3464ff2aa9941f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should imply <code>isHovered</code>.  <br /></td></tr>
 <tr class="separator:af838c4e58173e3c9d3464ff2aa9941f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ddcb12e9e357887d1e2769769196eed" id="r_a3ddcb12e9e357887d1e2769769196eed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ddcb12e9e357887d1e2769769196eed">isSelected</a> = false</td></tr>
+<tr class="memdesc:a3ddcb12e9e357887d1e2769769196eed"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is independent from the bools above, but currently requires <code>borderColor</code> to be meaningful.  <br /></td></tr>
 <tr class="separator:a3ddcb12e9e357887d1e2769769196eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -185,6 +189,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Optional. The convention is that this should only be set if the text is possible to hover. The border is drawn only if the alpha of this isn't zero. </p>
 
 </div>
 </div>
@@ -200,6 +205,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Should imply <code>isHovered</code>. </p>
+
 </div>
 </div>
 <a id="a5ac7777ca9e66b4056a2ecb88153b5ea" name="a5ac7777ca9e66b4056a2ecb88153b5ea"></a>
@@ -213,6 +220,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Should imply <code>borderColor</code>. </p>
 
 </div>
 </div>
@@ -228,6 +237,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is independent from the bools above, but currently requires <code>borderColor</code> to be meaningful. </p>
+
 </div>
 </div>
 <a id="a970d4a8634d4cca0de8e512e0ba92fb4" name="a970d4a8634d4cca0de8e512e0ba92fb4"></a>
@@ -241,6 +252,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Optional. Draw a line to this point from the text bubble. </p>
 
 </div>
 </div>

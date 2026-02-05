@@ -247,6 +247,7 @@ Friends</h2></td></tr>
 <tr class="memitem:a9bbc084dbecdc2dc7e3e1c584b9c0282" id="r_a9bbc084dbecdc2dc7e3e1c584b9c0282"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bbc084dbecdc2dc7e3e1c584b9c0282">operator!=</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:a9bbc084dbecdc2dc7e3e1c584b9c0282"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac987960cc94f9b1ab7b4e34453d75fb8" id="r_ac987960cc94f9b1ab7b4e34453d75fb8"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac987960cc94f9b1ab7b4e34453d75fb8">operator+</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;b) -&gt; <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; decltype(std::declval&lt; T &gt;()+std::declval&lt; T &gt;())&gt;</td></tr>
+<tr class="memdesc:ac987960cc94f9b1ab7b4e34453d75fb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">NOTE: We use <code>std::declval()</code> in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping <code>a.x</code> and such. TODO fix this when we update libclang.  <br /></td></tr>
 <tr class="separator:ac987960cc94f9b1ab7b4e34453d75fb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbea47af77b6320d329bf98d863f5aee" id="r_abbea47af77b6320d329bf98d863f5aee"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbea47af77b6320d329bf98d863f5aee">operator-</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;b) -&gt; <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; decltype(std::declval&lt; T &gt;() - std::declval&lt; T &gt;())&gt;</td></tr>
 <tr class="separator:abbea47af77b6320d329bf98d863f5aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -540,6 +541,7 @@ template&lt;typename U &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Here <code>T == U</code> doesn't seem to cause any issues in the C++ code, but we're still disabling it because it somehow gets emitted when generating the bindings, and results in duplicate functions in C#. </p>
 
 </div>
 </div>
@@ -567,6 +569,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Calling <code>sqrt</code> this way to hopefully support boost.multiprecision numbers. Returning <code>auto</code> to not break on integral types.</p>
 
 </div>
 </div>
@@ -1091,6 +1094,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>NOTE: We use <code>std::declval()</code> in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping <code>a.x</code> and such. TODO fix this when we update libclang. </p>
+
 </div>
 </div>
 <a id="a717c6224d9f27ac694ac56c4b7b6423c" name="a717c6224d9f27ac694ac56c4b7b6423c"></a>
@@ -1401,7 +1406,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>creates matrix representing rotation around given axis on given angle </p>
-<p>creates matrix representing rotation that after application to (from) makes (to) vector creates matrix representing rotation from 3 Euler angles: R=R(z)*R(y)*R(x) see more <a href="https://en.wikipedia.org/wiki/Euler_angles#Conventions_by_intrinsic_rotations">https://en.wikipedia.org/wiki/Euler_angles#Conventions_by_intrinsic_rotations</a> returns linear by angles approximation of the rotation matrix, which is close to true rotation matrix for small angles constructs a matrix from its 3 rows </p>
+<p>creates matrix representing rotation that after application to (from) makes (to) vector creates matrix representing rotation from 3 Euler angles: R=R(z)*R(y)*R(x) see more <a href="https:///">https:///</a> en.wikipedia.org/wiki/Euler_angles#Conventions_by_intrinsic_rotations returns linear by angles approximation of the rotation matrix, which is close to true rotation matrix for small angles constructs a matrix from its 3 rows </p>
 
 </div>
 </div>

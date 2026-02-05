@@ -171,8 +171,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a30668d188aa89e39c19a9360ebcb62f1" id="r_a30668d188aa89e39c19a9360ebcb62f1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30668d188aa89e39c19a9360ebcb62f1">columnId</a> = -1</td></tr>
 <tr class="separator:a30668d188aa89e39c19a9360ebcb62f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23c806d42e41fad352f5eb6862a3505a" id="r_a23c806d42e41fad352f5eb6862a3505a"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23c806d42e41fad352f5eb6862a3505a">computedSize</a></td></tr>
+<tr class="memdesc:a23c806d42e41fad352f5eb6862a3505a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The computed content size. Read-only. Don't set manually, <code><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a8aa43d24ada469bdbb77f5444b4e6f64">update()</a></code> sets this.  <br /></td></tr>
 <tr class="separator:a23c806d42e41fad352f5eb6862a3505a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfeb6efd5bdf621269261c95bde32f02" id="r_abfeb6efd5bdf621269261c95bde32f02"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfeb6efd5bdf621269261c95bde32f02">computedSizeWithPadding</a></td></tr>
+<tr class="memdesc:abfeb6efd5bdf621269261c95bde32f02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read-only, don't set manually. This is typically <code>max( size, computedSize )</code>, with additional adjustments.  <br /></td></tr>
 <tr class="separator:abfeb6efd5bdf621269261c95bde32f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -213,6 +215,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Alignment. Only makes sense if <code>size</code> is set. [0,0] = top-left, [1,1] = bottom-right. </p>
 
 </div>
 </div>
@@ -227,6 +230,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>If set, will increase width to the maximum of all elements with the same column id. This affects how <code>computedSizeWithPadding</code> is computed. </p>
 
 </div>
 </div>
@@ -250,6 +254,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The computed content size. Read-only. Don't set manually, <code><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a8aa43d24ada469bdbb77f5444b4e6f64">update()</a></code> sets this. </p>
+
 </div>
 </div>
 <a id="abfeb6efd5bdf621269261c95bde32f02" name="abfeb6efd5bdf621269261c95bde32f02"></a>
@@ -272,6 +278,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Read-only, don't set manually. This is typically <code>max( size, computedSize )</code>, with additional adjustments. </p>
+
 </div>
 </div>
 <a id="a2a5ed27f2a108a9b941bb2672a552ec6" name="a2a5ed27f2a108a9b941bb2672a552ec6"></a>
@@ -285,6 +293,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The minimum element size. Has no effect if smaller than <code>computedSize</code>. Here if Y is negative, inherits the line height. </p>
 
 </div>
 </div>

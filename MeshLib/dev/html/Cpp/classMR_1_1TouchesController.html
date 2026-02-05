@@ -177,6 +177,7 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="#afa01f29213896e910998623cb3c2f884aed36a1ef76a59ee3f15180e0441188ad">Any</a> = All
 <br />
  }</td></tr>
+<tr class="memdesc:afa01f29213896e910998623cb3c2f884"><td class="mdescLeft">&#160;</td><td class="mdescRight">bit meaning for mode mask  <a href="#afa01f29213896e910998623cb3c2f884">More...</a><br /></td></tr>
 <tr class="separator:afa01f29213896e910998623cb3c2f884"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -184,8 +185,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa1d3c155ace8377d9a8faa1234a0eee0" id="r_aa1d3c155ace8377d9a8faa1234a0eee0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1d3c155ace8377d9a8faa1234a0eee0">MR_ADD_CTOR_DELETE_MOVE</a> (<a class="el" href="classMR_1_1TouchesController.html">TouchesController</a>)</td></tr>
 <tr class="separator:aa1d3c155ace8377d9a8faa1234a0eee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae56f9f544af1474b71a68848efdbe18c" id="r_ae56f9f544af1474b71a68848efdbe18c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae56f9f544af1474b71a68848efdbe18c">setTrasformModifierCb</a> (std::function&lt; void(<a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;)&gt; cb)</td></tr>
+<tr class="memdesc:ae56f9f544af1474b71a68848efdbe18c"><td class="mdescLeft">&#160;</td><td class="mdescRight">set callback to modify view transform before it is applied to viewport  <br /></td></tr>
 <tr class="separator:ae56f9f544af1474b71a68848efdbe18c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefb417e9acab3735ac002007e8954373" id="r_aefb417e9acab3735ac002007e8954373"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#afa01f29213896e910998623cb3c2f884">ModeBit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefb417e9acab3735ac002007e8954373">getModeMask</a> () const</td></tr>
+<tr class="memdesc:aefb417e9acab3735ac002007e8954373"><td class="mdescLeft">&#160;</td><td class="mdescRight">mode mask can block some modes when two finger controll camera  <br /></td></tr>
 <tr class="separator:aefb417e9acab3735ac002007e8954373"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4f3c5903b7b8dc026b21c9233c34f43" id="r_aa4f3c5903b7b8dc026b21c9233c34f43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4f3c5903b7b8dc026b21c9233c34f43">setModeMask</a> (<a class="el" href="#afa01f29213896e910998623cb3c2f884">ModeBit</a> mask)</td></tr>
 <tr class="separator:aa4f3c5903b7b8dc026b21c9233c34f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,7 +200,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acfa598489bfbc3b88c84b029213d042c inherit pub_methods_structMR_1_1MultiListener" id="r_acfa598489bfbc3b88c84b029213d042c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#acfa598489bfbc3b88c84b029213d042c">disconnect</a> ()</td></tr>
 <tr class="separator:acfa598489bfbc3b88c84b029213d042c inherit pub_methods_structMR_1_1MultiListener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>class to operate with touches only overrides signals </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="afa01f29213896e910998623cb3c2f884" name="afa01f29213896e910998623cb3c2f884"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa01f29213896e910998623cb3c2f884">&#9670;&#160;</a></span>ModeBit</h2>
 
@@ -217,6 +222,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>bit meaning for mode mask </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afa01f29213896e910998623cb3c2f884adeccbe4e9083c3b5f7cd2632722765bb" name="afa01f29213896e910998623cb3c2f884adeccbe4e9083c3b5f7cd2632722765bb"></a>Translate&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="afa01f29213896e910998623cb3c2f884a8d2de5368588552fbae54044ac5c7b3d" name="afa01f29213896e910998623cb3c2f884a8d2de5368588552fbae54044ac5c7b3d"></a>Rotate&#160;</td><td class="fielddoc"></td></tr>
@@ -250,6 +257,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>mode mask can block some modes when two finger controll camera </p>
 
 </div>
 </div>
@@ -317,6 +326,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>set callback to modify view transform before it is applied to viewport </p>
 
 </div>
 </div>

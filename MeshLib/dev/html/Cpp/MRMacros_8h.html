@@ -156,16 +156,20 @@ $(function(){initNavTree('MRMacros_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:ab8cb9281271220567c1359224e6ca5db" id="r_ab8cb9281271220567c1359224e6ca5db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8cb9281271220567c1359224e6ca5db">MR_STR</a>(...)&#160;&#160;&#160;<a class="el" href="#a1c406bd49225547ca8c9b02e77e70293">MR_STR_</a>(__VA_ARGS__)</td></tr>
+<tr class="memdesc:ab8cb9281271220567c1359224e6ca5db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Those are generic helper macros that don't have their own headers.  <br /></td></tr>
 <tr class="separator:ab8cb9281271220567c1359224e6ca5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c406bd49225547ca8c9b02e77e70293" id="r_a1c406bd49225547ca8c9b02e77e70293"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c406bd49225547ca8c9b02e77e70293">MR_STR_</a>(...)&#160;&#160;&#160;#__VA_ARGS__</td></tr>
 <tr class="separator:a1c406bd49225547ca8c9b02e77e70293"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30c21a4f7f46e470b0c9ba48648699b1" id="r_a30c21a4f7f46e470b0c9ba48648699b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30c21a4f7f46e470b0c9ba48648699b1">MR_IDENTITY</a>(...)&#160;&#160;&#160;__VA_ARGS__</td></tr>
+<tr class="memdesc:a30c21a4f7f46e470b0c9ba48648699b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the argument unchanged.  <br /></td></tr>
 <tr class="separator:a30c21a4f7f46e470b0c9ba48648699b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fd290c4738dc2f265b144020d97b290" id="r_a0fd290c4738dc2f265b144020d97b290"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fd290c4738dc2f265b144020d97b290">MR_END</a>(...)&#160;&#160;&#160;<a class="el" href="#a98c9bc1fa1800fdfc987995748d5944b">DETAIL_MR_END</a>(__VA_ARGS__)</td></tr>
+<tr class="memdesc:a0fd290c4738dc2f265b144020d97b290"><td class="mdescLeft">&#160;</td><td class="mdescRight">A helper for writing preprocessor loops.  <br /></td></tr>
 <tr class="separator:a0fd290c4738dc2f265b144020d97b290"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98c9bc1fa1800fdfc987995748d5944b" id="r_a98c9bc1fa1800fdfc987995748d5944b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98c9bc1fa1800fdfc987995748d5944b">DETAIL_MR_END</a>(...)&#160;&#160;&#160;__VA_ARGS__##_END</td></tr>
 <tr class="separator:a98c9bc1fa1800fdfc987995748d5944b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cb6de717e0b06df733796fec2da272a" id="r_a4cb6de717e0b06df733796fec2da272a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a>(a,  b)&#160;&#160;&#160;<a class="el" href="#ac35e66533e158a4bf53982a2c109bd09">MR_CONCAT_</a>( a, b )</td></tr>
+<tr class="memdesc:a4cb6de717e0b06df733796fec2da272a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concat strings.  <br /></td></tr>
 <tr class="separator:a4cb6de717e0b06df733796fec2da272a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac35e66533e158a4bf53982a2c109bd09" id="r_ac35e66533e158a4bf53982a2c109bd09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac35e66533e158a4bf53982a2c109bd09">MR_CONCAT_</a>(a,  b)&#160;&#160;&#160;a##b</td></tr>
 <tr class="separator:ac35e66533e158a4bf53982a2c109bd09"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,8 +186,10 @@ Macros</h2></td></tr>
 <tr class="memitem:adc8a2290a0ad34bf18acb8498b4bb91a" id="r_adc8a2290a0ad34bf18acb8498b4bb91a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc8a2290a0ad34bf18acb8498b4bb91a">MR_NO_UNIQUE_ADDRESS</a>&#160;&#160;&#160;[[no_unique_address]]</td></tr>
 <tr class="separator:adc8a2290a0ad34bf18acb8498b4bb91a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0284b6bf2a09937d49518593207b00a6" id="r_a0284b6bf2a09937d49518593207b00a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0284b6bf2a09937d49518593207b00a6">MR_LEGACY_MSVC_PREPROCESSOR</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:a0284b6bf2a09937d49518593207b00a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Are we using the old buggy MSVC preprocessor?  <br /></td></tr>
 <tr class="separator:a0284b6bf2a09937d49518593207b00a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11806a80fef697ddb9a820cc22204f3b" id="r_a11806a80fef697ddb9a820cc22204f3b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11806a80fef697ddb9a820cc22204f3b">MR_TRIM_LEADING_COMMA</a>(...)&#160;&#160;&#160;<a class="el" href="#acaebd39479bb9677a7e966765a052de4">DETAIL_MR_TRIM_LEADING_COMMA_</a>(__VA_ARGS__)</td></tr>
+<tr class="memdesc:a11806a80fef697ddb9a820cc22204f3b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code><a class="el" href="#a11806a80fef697ddb9a820cc22204f3b" title="MR_TRIM_LEADING_COMMA(,a,b,c) returns a,b,c.">MR_TRIM_LEADING_COMMA(,a,b,c)</a></code> returns <code>a,b,c</code>.  <br /></td></tr>
 <tr class="separator:a11806a80fef697ddb9a820cc22204f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaebd39479bb9677a7e966765a052de4" id="r_acaebd39479bb9677a7e966765a052de4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acaebd39479bb9677a7e966765a052de4">DETAIL_MR_TRIM_LEADING_COMMA_</a>(x, ...)&#160;&#160;&#160;<a class="el" href="#a71b7b6d36fcf0ab6752038726c7b007d">DETAIL_MR_TRIM_LEADING_COMMA_EMPTY</a>(x) __VA_ARGS__</td></tr>
 <tr class="separator:acaebd39479bb9677a7e966765a052de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -264,6 +270,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Concat strings. </p>
 
 </div>
 </div>
@@ -355,6 +363,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>A helper for writing preprocessor loops. </p>
+
 </div>
 </div>
 <a id="af2577133e8c02d830609dc0c74a53949" name="af2577133e8c02d830609dc0c74a53949"></a>
@@ -368,6 +378,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>If the compiler supports <code>requires</code>, expands to <code>requires(...)</code>. Otherwise to nothing. This is primarily useful for code that must be usable in Cuda, since everywhere else we're free to use C++20 and newer. While Clang 14 technically supports <code>requires</code>, we're getting a few weird issues with it (make a nested aggregate class, in the enclosing class make a <code><a class="el" href="classMR_1_1Vector.html" title="std::vector&lt;T&gt;-like container that requires specific indexing type,">MR::Vector</a></code> of it, observe that <code>std::default_initializable</code> gets baked as <code>false</code> on it, disabling some member functions such as <code>.resize()</code>). </p>
 
 </div>
 </div>
@@ -386,6 +397,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the argument unchanged. </p>
+
 </div>
 </div>
 <a id="a0284b6bf2a09937d49518593207b00a6" name="a0284b6bf2a09937d49518593207b00a6"></a>
@@ -399,6 +412,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Are we using the old buggy MSVC preprocessor? </p>
 
 </div>
 </div>
@@ -469,6 +484,9 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Those are generic helper macros that don't have their own headers. </p>
+<p>Convert to a string. </p>
+
 </div>
 </div>
 <a id="a1c406bd49225547ca8c9b02e77e70293" name="a1c406bd49225547ca8c9b02e77e70293"></a>
@@ -502,6 +520,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><code><a class="el" href="#a11806a80fef697ddb9a820cc22204f3b" title="MR_TRIM_LEADING_COMMA(,a,b,c) returns a,b,c.">MR_TRIM_LEADING_COMMA(,a,b,c)</a></code> returns <code>a,b,c</code>. </p>
 
 </div>
 </div>

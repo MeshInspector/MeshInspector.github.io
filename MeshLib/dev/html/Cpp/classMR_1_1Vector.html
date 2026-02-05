@@ -206,6 +206,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae081234bbf4fef169d61159d617cf5c6" id="r_ae081234bbf4fef169d61159d617cf5c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae081234bbf4fef169d61159d617cf5c6">resize</a> (size_t newSize, const T &amp;t) <a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
 <tr class="separator:ae081234bbf4fef169d61159d617cf5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a23a61e0e9734a4a33ad686080db6b0" id="r_a8a23a61e0e9734a4a33ad686080db6b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a23a61e0e9734a4a33ad686080db6b0">resizeNoInit</a> (size_t targetSize) <a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="memdesc:a8a23a61e0e9734a4a33ad686080db6b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor )  <br /></td></tr>
 <tr class="separator:a8a23a61e0e9734a4a33ad686080db6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a291f08448069b69e4286d064907e6fdd" id="r_a291f08448069b69e4286d064907e6fdd"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a291f08448069b69e4286d064907e6fdd">capacity</a> () const</td></tr>
 <tr class="separator:a291f08448069b69e4286d064907e6fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -640,6 +641,9 @@ template&lt;typename T , typename I &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <code>pos</code> are also set to <code>val</code> (for faster implementation) </p>
+<p>add new elements with the given value</p>
+<p>the number of the elements existing before function call to be changed</p>
+<p>change the value of the elements existing before function call</p>
 
 </div>
 </div>
@@ -1334,6 +1338,8 @@ template&lt;typename T , typename I &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor ) </p>
+
 </div>
 </div>
 <a id="a291ed0f8042c268b0aa65b87497daca1" name="a291ed0f8042c268b0aa65b87497daca1"></a>
@@ -1362,6 +1368,7 @@ template&lt;typename T , typename I &gt; </div>
 </div><div class="memdoc">
 
 <p>doubles reserved memory until resize(newSize) can be done without reallocation </p>
+<p>This separate overload is needed as opposed to a <code>value = T{}</code> default argument, because if T isn't default-constructible, the parsed chokes on that.</p>
 
 </div>
 </div>

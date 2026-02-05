@@ -154,6 +154,9 @@ $(function(){initNavTree('structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html
 </div><!--header-->
 <div class="contents">
 
+<p>struct to control volume rendering texture  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRObjectVoxels_8h_source.html">MRObjectVoxels.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -162,16 +165,19 @@ Public Types</h2></td></tr>
 , <a class="el" href="#a0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300">ValueGradient</a>
 , <a class="el" href="#a0b40e31d1a019aab3cc599a4440216cfa24c5f8c2189e0c426bb78f3ee753eb87">AlphaGradient</a>
  }</td></tr>
+<tr class="memdesc:a0b40e31d1a019aab3cc599a4440216cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">shading model  <a href="#a0b40e31d1a019aab3cc599a4440216cf">More...</a><br /></td></tr>
 <tr class="separator:a0b40e31d1a019aab3cc599a4440216cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2eccd63ca988ff87e0d09c1729effd5" id="r_ac2eccd63ca988ff87e0d09c1729effd5"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2eccd63ca988ff87e0d09c1729effd5">LutType</a> { <a class="el" href="#ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa">GrayShades</a>
 , <a class="el" href="#ac2eccd63ca988ff87e0d09c1729effd5a4aca5ee9a087fb9218bfb662fe92605c">Rainbow</a>
 , <a class="el" href="#ac2eccd63ca988ff87e0d09c1729effd5a0c8f5a9ec9d29d3f98de501c16144109">OneColor</a>
  }</td></tr>
+<tr class="memdesc:ac2eccd63ca988ff87e0d09c1729effd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">coloring type  <a href="#ac2eccd63ca988ff87e0d09c1729effd5">More...</a><br /></td></tr>
 <tr class="separator:ac2eccd63ca988ff87e0d09c1729effd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afeb3f512bbe9f60f21c71753b179adc2" id="r_afeb3f512bbe9f60f21c71753b179adc2"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeb3f512bbe9f60f21c71753b179adc2">AlphaType</a> { <a class="el" href="#afeb3f512bbe9f60f21c71753b179adc2acb17869fe51048b5a5c4c6106551a255">Constant</a>
 , <a class="el" href="#afeb3f512bbe9f60f21c71753b179adc2a204920d9c25d6e032d9d19319ae675dd">LinearIncreasing</a>
 , <a class="el" href="#afeb3f512bbe9f60f21c71753b179adc2af785e2bbf1c0b5b8e23622aa1d72d3ae">LinearDecreasing</a>
  }</td></tr>
+<tr class="memdesc:afeb3f512bbe9f60f21c71753b179adc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of alpha function on texture  <a href="#afeb3f512bbe9f60f21c71753b179adc2">More...</a><br /></td></tr>
 <tr class="separator:afeb3f512bbe9f60f21c71753b179adc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -182,16 +188,20 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa2018932b0f46e90f13ac5b75b7eaed9" id="r_aa2018932b0f46e90f13ac5b75b7eaed9"><td class="memItemLeft" align="right" valign="top">FilterType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2018932b0f46e90f13ac5b75b7eaed9">volumeFilterType</a> { FilterType::Linear }</td></tr>
+<tr class="memdesc:aa2018932b0f46e90f13ac5b75b7eaed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">volume texture smoothing  <br /></td></tr>
 <tr class="separator:aa2018932b0f46e90f13ac5b75b7eaed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d3b64c3be4b9df2a9728e5a097c8ad9" id="r_a4d3b64c3be4b9df2a9728e5a097c8ad9"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#a0b40e31d1a019aab3cc599a4440216cf">MR::ObjectVoxels::VolumeRenderingParams::ShadingType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d3b64c3be4b9df2a9728e5a097c8ad9">None</a></td></tr>
 <tr class="separator:a4d3b64c3be4b9df2a9728e5a097c8ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13e9afd17c798286cf4e6db027d0ecf9" id="r_a13e9afd17c798286cf4e6db027d0ecf9"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#ac2eccd63ca988ff87e0d09c1729effd5">MR::ObjectVoxels::VolumeRenderingParams::LutType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13e9afd17c798286cf4e6db027d0ecf9">Rainbow</a></td></tr>
 <tr class="separator:a13e9afd17c798286cf4e6db027d0ecf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae94f3eb91aef633aa6d0552e48b597a9" id="r_ae94f3eb91aef633aa6d0552e48b597a9"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae94f3eb91aef633aa6d0552e48b597a9">oneColor</a> { <a class="elRef" href="../Csharp/structMR_1_1Color.html#a9a7d86b518d50480373b4ad5119073a6">Color::white</a>() }</td></tr>
+<tr class="memdesc:ae94f3eb91aef633aa6d0552e48b597a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">color that is used for OneColor mode  <br /></td></tr>
 <tr class="separator:ae94f3eb91aef633aa6d0552e48b597a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa82f2dbcab6b825daff1c52d575ca2fa" id="r_aa82f2dbcab6b825daff1c52d575ca2fa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa82f2dbcab6b825daff1c52d575ca2fa">min</a> { 0.0f }</td></tr>
+<tr class="memdesc:aa82f2dbcab6b825daff1c52d575ca2fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum colored value (voxels with lower values are transparent)  <br /></td></tr>
 <tr class="separator:aa82f2dbcab6b825daff1c52d575ca2fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b2551180d44dd12a9dd8b6f79cbd010" id="r_a0b2551180d44dd12a9dd8b6f79cbd010"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b2551180d44dd12a9dd8b6f79cbd010">max</a> { 0.0f }</td></tr>
+<tr class="memdesc:a0b2551180d44dd12a9dd8b6f79cbd010"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum colored value (voxels with higher values are transparent)  <br /></td></tr>
 <tr class="separator:a0b2551180d44dd12a9dd8b6f79cbd010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2b689ae32e79618fd422fa0fa7a80e9" id="r_ad2b689ae32e79618fd422fa0fa7a80e9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2b689ae32e79618fd422fa0fa7a80e9">samplingStep</a> { -1.0f }</td></tr>
 <tr class="separator:ad2b689ae32e79618fd422fa0fa7a80e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,7 +210,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a3020a0b0e97313d239308d5d16c7f9f3" id="r_a3020a0b0e97313d239308d5d16c7f9f3"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3020a0b0e97313d239308d5d16c7f9f3">alphaLimit</a> { 10 }</td></tr>
 <tr class="separator:a3020a0b0e97313d239308d5d16c7f9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>struct to control volume rendering texture </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="afeb3f512bbe9f60f21c71753b179adc2" name="afeb3f512bbe9f60f21c71753b179adc2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afeb3f512bbe9f60f21c71753b179adc2">&#9670;&#160;</a></span>AlphaType</h2>
 
@@ -220,6 +232,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>type of alpha function on texture </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afeb3f512bbe9f60f21c71753b179adc2acb17869fe51048b5a5c4c6106551a255" name="afeb3f512bbe9f60f21c71753b179adc2acb17869fe51048b5a5c4c6106551a255"></a>Constant&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="afeb3f512bbe9f60f21c71753b179adc2a204920d9c25d6e032d9d19319ae675dd" name="afeb3f512bbe9f60f21c71753b179adc2a204920d9c25d6e032d9d19319ae675dd"></a>LinearIncreasing&#160;</td><td class="fielddoc"></td></tr>
@@ -247,6 +261,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>coloring type </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa" name="ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa"></a>GrayShades&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac2eccd63ca988ff87e0d09c1729effd5a4aca5ee9a087fb9218bfb662fe92605c" name="ac2eccd63ca988ff87e0d09c1729effd5a4aca5ee9a087fb9218bfb662fe92605c"></a>Rainbow&#160;</td><td class="fielddoc"></td></tr>
@@ -274,6 +290,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>shading model </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0b40e31d1a019aab3cc599a4440216cfa6adf97f83acf6453d4a6a4b1070f3754" name="a0b40e31d1a019aab3cc599a4440216cfa6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300" name="a0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300"></a>ValueGradient&#160;</td><td class="fielddoc"></td></tr>
@@ -349,6 +367,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>maximum colored value (voxels with higher values are transparent) </p>
+
 </div>
 </div>
 <a id="aa82f2dbcab6b825daff1c52d575ca2fa" name="aa82f2dbcab6b825daff1c52d575ca2fa"></a>
@@ -362,6 +382,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>minimum colored value (voxels with lower values are transparent) </p>
 
 </div>
 </div>
@@ -391,6 +413,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>color that is used for OneColor mode </p>
+
 </div>
 </div>
 <a id="a13e9afd17c798286cf4e6db027d0ecf9" name="a13e9afd17c798286cf4e6db027d0ecf9"></a>
@@ -418,6 +442,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>step to sample each ray with if &lt;= 0 then default sampling is used </p>
 
 </div>
 </div>
@@ -432,6 +457,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>volume texture smoothing </p>
 
 </div>
 </div>

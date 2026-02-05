@@ -160,32 +160,21 @@ $(function(){initNavTree('MRPointOnObject_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">// point located on either</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">// 1. face of ObjectMesh</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">// 2. line of ObjectLines</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">// 3. point of ObjectPoints</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">struct </span>PointOnObject</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointOnObject.html#a03b69593c56f92a6b089e52e8013e0a6">PointOnObject</a>() {} <span class="comment">//default ctor is required by Clang</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_functionRef" href="../Csharp/classMR_1_1PointOnObject.html#a03b69593c56f92a6b089e52e8013e0a6">PointOnObject</a>() {} </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    Vector3f <a class="code hl_propertyRef" href="../Csharp/classMR_1_1PointOnObject.html#a12060f5788fe3c0342730c3faaee328d">point</a>;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">float</span> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1PointOnObject.html#ade5564161737a40df21b7050dc16452d">zBuffer</a>{ 1.0f };</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">union</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    {</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordtype">int</span> primId = -1;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        FaceId face;             <span class="comment">//for ObjectMesh</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        UndirectedEdgeId uedge;  <span class="comment">//for ObjectLines</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        VertId vert;             <span class="comment">//for ObjectPoints</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        FaceId face;             </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        UndirectedEdgeId uedge;  </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        VertId vert;             </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    };</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    [[nodiscard]] <span class="keyword">operator</span> PointOnFace()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> { .face = face, .point = <a class="code hl_propertyRef" href="../Csharp/classMR_1_1PointOnObject.html#a12060f5788fe3c0342730c3faaee328d">point</a> }; }</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>};</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">// For long-term storage of picked points on an object, such as point and contour widgets,</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment">// it is more convenient to use the local coordinates of the object rather than 3D coordinates,</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="comment">// which can change depending on the xf of the object.</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="comment">// --- MeshTriPoint for ObjectMeshHolder</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="comment">// --- EdgePoint for ObjectLinesHolder (polylines)</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment">// --- VertId for ObjectPointsHolder</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="comment">// --- std::monostate means not valid pick (pick in empty space).</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">using </span>PickedPoint = std::variant&lt;std::monostate, MeshTriPoint, EdgePoint, VertId&gt;;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="namespaceMR.html#a89a0d173f619c99ee93c0904af771995">   45</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> PickedPoint <a class="code hl_function" href="namespaceMR.html#a89a0d173f619c99ee93c0904af771995">pointOnObjectToPickedPoint</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a>* <span class="keywordtype">object</span>, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1PointOnObject.html">PointOnObject</a>&amp; pos );</div>
@@ -198,7 +187,7 @@ $(function(){initNavTree('MRPointOnObject_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="namespaceMR.html#af403dfe39beb0bed1ae39d133f0f01a1">   60</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt;Vector3f&gt; <a class="code hl_function" href="namespaceMR.html#af403dfe39beb0bed1ae39d133f0f01a1">getPickedPointNormal</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a>&amp; <span class="keywordtype">object</span>, <span class="keyword">const</span> PickedPoint&amp; point, <span class="keywordtype">bool</span> interpolated = <span class="keyword">true</span> );</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>} </div>
 <div class="ttc" id="aMREdgePoint_8h_html"><div class="ttname"><a href="MREdgePoint_8h.html">MREdgePoint.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
 <div class="ttc" id="aMRMeshTriPoint_8h_html"><div class="ttname"><a href="MRMeshTriPoint_8h.html">MRMeshTriPoint.h</a></div></div>
@@ -208,7 +197,7 @@ $(function(){initNavTree('MRPointOnObject_8h_source.html',''); initResizable(tru
 <div class="ttc" id="aclassMR_1_1PointOnObject_html_a12060f5788fe3c0342730c3faaee328d"><div class="ttname"><a href="../Csharp/classMR_1_1PointOnObject.html#a12060f5788fe3c0342730c3faaee328d">MR::PointOnObject::point</a></div><div class="ttdeci">new unsafe ref MR.Vector3f point</div></div>
 <div class="ttc" id="aclassMR_1_1PointOnObject_html_ade5564161737a40df21b7050dc16452d"><div class="ttname"><a href="../Csharp/classMR_1_1PointOnObject.html#ade5564161737a40df21b7050dc16452d">MR::PointOnObject::zBuffer</a></div><div class="ttdeci">new unsafe ref float zBuffer</div></div>
 <div class="ttc" id="aclassMR_1_1VisualObject_html"><div class="ttname"><a href="../Csharp/classMR_1_1VisualObject.html">MR::VisualObject</a></div><div class="ttdef"><b>Definition</b> MRVisualObject.h:119</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a6a6ef917fc600d4d162f4be62800ead6"><div class="ttname"><a href="namespaceMR.html#a6a6ef917fc600d4d162f4be62800ead6">MR::isPickedPointValid</a></div><div class="ttdeci">MRMESH_API MR_BIND_IGNORE bool isPickedPointValid(const VisualObject *object, const PickedPoint &amp;point)</div><div class="ttdoc">Checks that the picked point presents in the object's topology.</div></div>
 <div class="ttc" id="anamespaceMR_html_a82fec43cdbebaa87d6a73b31c407eafb"><div class="ttname"><a href="namespaceMR.html#a82fec43cdbebaa87d6a73b31c407eafb">MR::pickedPointToVector3</a></div><div class="ttdeci">MRMESH_API MR_BIND_IGNORE Vector3f pickedPointToVector3(const VisualObject *object, const PickedPoint &amp;point)</div><div class="ttdoc">Converts pickedPoint into local coordinates of its object.</div></div>
 <div class="ttc" id="anamespaceMR_html_a89a0d173f619c99ee93c0904af771995"><div class="ttname"><a href="namespaceMR.html#a89a0d173f619c99ee93c0904af771995">MR::pointOnObjectToPickedPoint</a></div><div class="ttdeci">MRMESH_API PickedPoint pointOnObjectToPickedPoint(const VisualObject *object, const PointOnObject &amp;pos)</div><div class="ttdoc">Converts PointOnObject coordinates depending on the object type to the PickedPoint variant.</div></div>

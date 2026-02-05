@@ -179,6 +179,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
@@ -229,9 +230,11 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a396596cb5cea6d2f8fec7b7838ae2bc5" id="r_a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memTemplParams" colspan="2">template&lt;typename E &gt; </td></tr>
 <tr class="memitem:a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a396596cb5cea6d2f8fec7b7838ae2bc5">MR::throwExceptionFromExpected</a> (const E &amp;err)</td></tr>
+<tr class="memdesc:a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">overload <code>toString</code> functoion to throw exception from custom <code>Expected::error</code> type  <br /></td></tr>
 <tr class="separator:a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac95039057559bedc6c5786b29e42d974" id="r_ac95039057559bedc6c5786b29e42d974"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ac95039057559bedc6c5786b29e42d974"><td class="memTemplItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac95039057559bedc6c5786b29e42d974">MR::expectedValueOrThrow</a> (T &amp;&amp;e)</td></tr>
+<tr class="memdesc:ac95039057559bedc6c5786b29e42d974"><td class="mdescLeft">&#160;</td><td class="mdescRight">Like <code>e.value()</code>, but throws using <code>throwExceptionFromExpected</code> (which is better, because it allows Python to see the proper error message), and also supports <code>T == void</code>.  <br /></td></tr>
 <tr class="separator:ac95039057559bedc6c5786b29e42d974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa60c1177452c69cf5b8cdab61296d1ce" id="r_aa60c1177452c69cf5b8cdab61296d1ce"><td class="memTemplParams" colspan="2">template&lt;typename R , typename E , typename... Args&gt; </td></tr>
 <tr class="memitem:aa60c1177452c69cf5b8cdab61296d1ce"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa60c1177452c69cf5b8cdab61296d1ce">MR::decorateExpected</a> (std::function&lt; Expected&lt; R, E &gt;(Args...)&gt; &amp;&amp;f) -&gt; std::function&lt; R(Args...)&gt;</td></tr>
@@ -601,8 +604,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>NOTE: Include this header AFTER any OpenVDB header; otherwise it will break MSVC debug builds.</p>
 <p>External links:</p><ul>
-<li><a href="https://github.com/pybind/pybind11/blob/v2.9.2/include/pybind11/detail/common.h#L161">https://github.com/pybind/pybind11/blob/v2.9.2/include/pybind11/detail/common.h#L161</a></li>
-<li><a href="https://github.com/oneapi-src/oneTBB/blob/v2021.9.0/include/oneapi/tbb/detail/_config.h#L105">https://github.com/oneapi-src/oneTBB/blob/v2021.9.0/include/oneapi/tbb/detail/_config.h#L105</a> </li>
+<li><a href="https:///">https:///</a> github.com/pybind/pybind11/blob/v2.9.2/include/pybind11/detail/common.h::L161</li>
+<li><a href="https:///">https:///</a> github.com/oneapi-src/oneTBB/blob/v2021.9.0/include/oneapi/tbb/detail/_config.h::L105 </li>
 </ul>
 
 </div>

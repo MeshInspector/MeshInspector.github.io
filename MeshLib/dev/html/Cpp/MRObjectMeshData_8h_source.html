@@ -163,17 +163,14 @@ $(function(){initNavTree('MRObjectMeshData_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    std::shared_ptr&lt;Mesh&gt; <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ObjectMeshData.html#a50a82646c44ff7819dc51f687fd174a0">mesh</a>;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="comment">// selection</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    FaceBitSet <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ObjectMeshData.html#ab2d0b2d89559781046f98507478fcaa5">selectedFaces</a>;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    UndirectedEdgeBitSet <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ObjectMeshData.html#a653fcb8253f23175ded19574d6c77ed9">selectedEdges</a>;</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    UndirectedEdgeBitSet <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ObjectMeshData.html#a6d2b636c4e1a6517e3640c5d1c52e53b">creases</a>;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="comment">// colors</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    VertColors <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ObjectMeshData.html#a8f2e5e4666494401ce6aaa3bf67820b6">vertColors</a>;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    FaceColors <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ObjectMeshData.html#a9b9270f596c4f8032bedab1827ccc8ff">faceColors</a>;</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="comment">// textures</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#a3c3fe8b7846cb7642c7b2cba525f3917">VertUVCoords</a> <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ObjectMeshData.html#a9d161b275db6e36f83c0348485561d52">uvCoordinates</a>; </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    TexturePerFace <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ObjectMeshData.html#aef91ecec2b736653df105174b848eef9">texturePerFace</a>;</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
@@ -184,7 +181,7 @@ $(function(){initNavTree('MRObjectMeshData_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="namespaceMR.html#a673650f651c7934a570071f72d73ad09">   39</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_classRef" href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> <a class="code hl_function" href="namespaceMR.html#a673650f651c7934a570071f72d73ad09">edgesBetweenDifferentColors</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp; topology, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1FaceColors.html">FaceColors</a> &amp; colors );</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>} </div>
 <div class="ttc" id="aMRBitSet_8h_html"><div class="ttname"><a href="MRBitSet_8h.html">MRBitSet.h</a></div></div>
 <div class="ttc" id="aMRColor_8h_html"><div class="ttname"><a href="MRColor_8h.html">MRColor.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
@@ -203,7 +200,7 @@ $(function(){initNavTree('MRObjectMeshData_8h_source.html',''); initResizable(tr
 <div class="ttc" id="aclassMR_1_1ObjectMeshData_html_abd69cad24f364a7c28bd7f66b64dd76a"><div class="ttname"><a href="../Csharp/classMR_1_1ObjectMeshData.html#abd69cad24f364a7c28bd7f66b64dd76a">MR::ObjectMeshData::ObjectMeshData</a></div><div class="ttdeci">unsafe ObjectMeshData()</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectMeshData_html_aef91ecec2b736653df105174b848eef9"><div class="ttname"><a href="../Csharp/classMR_1_1ObjectMeshData.html#aef91ecec2b736653df105174b848eef9">MR::ObjectMeshData::texturePerFace</a></div><div class="ttdeci">new unsafe MR.TexturePerFace texturePerFace</div></div>
 <div class="ttc" id="aclassMR_1_1UndirectedEdgeBitSet_html"><div class="ttname"><a href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">MR::UndirectedEdgeBitSet</a></div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a673650f651c7934a570071f72d73ad09"><div class="ttname"><a href="namespaceMR.html#a673650f651c7934a570071f72d73ad09">MR::edgesBetweenDifferentColors</a></div><div class="ttdeci">MRMESH_API UndirectedEdgeBitSet edgesBetweenDifferentColors(const MeshTopology &amp;topology, const FaceColors &amp;colors)</div><div class="ttdoc">return all edges separating faces with different colors</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_a3c3fe8b7846cb7642c7b2cba525f3917"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a3c3fe8b7846cb7642c7b2cba525f3917">mrmeshpy::VertUVCoords</a></div><div class="ttdeci">VertUVCoords</div></div>
 </div><!-- fragment --></div><!-- contents -->

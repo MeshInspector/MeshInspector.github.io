@@ -152,6 +152,9 @@ $(function(){initNavTree('classMR_1_1GlTexture3.html',''); initResizable(true); 
 </div><!--header-->
 <div class="contents">
 
+<p>represents OpenGL 3D texture owner, and allows uploading data in it remembering texture size  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRRenderGLHelpers_8h_source.html">MRRenderGLHelpers.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::GlTexture3:</div>
@@ -161,7 +164,7 @@ $(function(){initNavTree('classMR_1_1GlTexture3.html',''); initResizable(true); 
  <div class="center">
   <img src="classMR_1_1GlTexture3.png" usemap="#MR::GlTexture3_map" alt=""/>
   <map id="MR::GlTexture3_map" name="MR::GlTexture3_map">
-<area href="classMR_1_1GlTexture.html" alt="MR::GlTexture" shape="rect" coords="0,0,98,24"/>
+<area href="classMR_1_1GlTexture.html" title="represents OpenGL texture owner, and allows uploading data in it remembering texture size" alt="MR::GlTexture" shape="rect" coords="0,0,98,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -189,17 +192,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a31f2ca34c59318a7c4d59d8a4a37782a inherit pub_methods_classMR_1_1GlTexture" id="r_a31f2ca34c59318a7c4d59d8a4a37782a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GlTexture.html#a31f2ca34c59318a7c4d59d8a4a37782a">size</a> () const</td></tr>
 <tr class="separator:a31f2ca34c59318a7c4d59d8a4a37782a inherit pub_methods_classMR_1_1GlTexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93b01874cfb524236811acf50f7af69c inherit pub_methods_classMR_1_1GlTexture" id="r_a93b01874cfb524236811acf50f7af69c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GlTexture.html#a93b01874cfb524236811acf50f7af69c">gen</a> ()</td></tr>
+<tr class="memdesc:a93b01874cfb524236811acf50f7af69c inherit pub_methods_classMR_1_1GlTexture"><td class="mdescLeft">&#160;</td><td class="mdescRight">generates new texture  <br /></td></tr>
 <tr class="separator:a93b01874cfb524236811acf50f7af69c inherit pub_methods_classMR_1_1GlTexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14068864ba6ea4ba93a3504914da5318 inherit pub_methods_classMR_1_1GlTexture" id="r_a14068864ba6ea4ba93a3504914da5318"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GlTexture.html#a14068864ba6ea4ba93a3504914da5318">del</a> ()</td></tr>
+<tr class="memdesc:a14068864ba6ea4ba93a3504914da5318 inherit pub_methods_classMR_1_1GlTexture"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes the texture  <br /></td></tr>
 <tr class="separator:a14068864ba6ea4ba93a3504914da5318 inherit pub_methods_classMR_1_1GlTexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1b7d7ab7174f46431b88ca69d8ee589 inherit pub_methods_classMR_1_1GlTexture" id="r_ae1b7d7ab7174f46431b88ca69d8ee589"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GlTexture.html#ae1b7d7ab7174f46431b88ca69d8ee589">bind</a> ()</td></tr>
+<tr class="memdesc:ae1b7d7ab7174f46431b88ca69d8ee589 inherit pub_methods_classMR_1_1GlTexture"><td class="mdescLeft">&#160;</td><td class="mdescRight">binds current texture to OpenGL context  <br /></td></tr>
 <tr class="separator:ae1b7d7ab7174f46431b88ca69d8ee589 inherit pub_methods_classMR_1_1GlTexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ba560fc0c6f4da706a9249b33cc51d4 inherit pub_methods_classMR_1_1GlTexture" id="r_a9ba560fc0c6f4da706a9249b33cc51d4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GlTexture.html#a9ba560fc0c6f4da706a9249b33cc51d4">loadData</a> (const <a class="el" href="structMR_1_1GlTexture_1_1Settings.html">Settings</a> &amp;settings, const char *arr)</td></tr>
+<tr class="memdesc:a9ba560fc0c6f4da706a9249b33cc51d4 inherit pub_methods_classMR_1_1GlTexture"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates GL data texture using given data and binds it  <br /></td></tr>
 <tr class="separator:a9ba560fc0c6f4da706a9249b33cc51d4 inherit pub_methods_classMR_1_1GlTexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ac4435c96afe603c9f4fac5e7bbb2cc inherit pub_methods_classMR_1_1GlTexture" id="r_a3ac4435c96afe603c9f4fac5e7bbb2cc"><td class="memTemplParams" colspan="2">template&lt;typename C &gt; </td></tr>
 <tr class="memitem:a3ac4435c96afe603c9f4fac5e7bbb2cc inherit pub_methods_classMR_1_1GlTexture"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMR_1_1GlTexture.html#a3ac4435c96afe603c9f4fac5e7bbb2cc">loadData</a> (const <a class="el" href="structMR_1_1GlTexture_1_1Settings.html">Settings</a> &amp;settings, const C &amp;cont)</td></tr>
 <tr class="separator:a3ac4435c96afe603c9f4fac5e7bbb2cc inherit pub_methods_classMR_1_1GlTexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a0c8eb224d884d8a585e73ef2c4ca2f inherit pub_methods_classMR_1_1GlTexture" id="r_a5a0c8eb224d884d8a585e73ef2c4ca2f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GlTexture.html#a5a0c8eb224d884d8a585e73ef2c4ca2f">loadDataOpt</a> (bool refresh, const <a class="el" href="structMR_1_1GlTexture_1_1Settings.html">Settings</a> &amp;settings, const char *arr)</td></tr>
+<tr class="memdesc:a5a0c8eb224d884d8a585e73ef2c4ca2f inherit pub_methods_classMR_1_1GlTexture"><td class="mdescLeft">&#160;</td><td class="mdescRight">binds current texture to OpenGL context, optionally refreshing its data  <br /></td></tr>
 <tr class="separator:a5a0c8eb224d884d8a585e73ef2c4ca2f inherit pub_methods_classMR_1_1GlTexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5574566e892c3526ffd4737e97872d9e inherit pub_methods_classMR_1_1GlTexture" id="r_a5574566e892c3526ffd4737e97872d9e"><td class="memTemplParams" colspan="2">template&lt;typename C &gt; </td></tr>
 <tr class="memitem:a5574566e892c3526ffd4737e97872d9e inherit pub_methods_classMR_1_1GlTexture"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMR_1_1GlTexture.html#a5574566e892c3526ffd4737e97872d9e">loadDataOpt</a> (bool refresh, const <a class="el" href="structMR_1_1GlTexture_1_1Settings.html">Settings</a> &amp;settings, const C &amp;cont)</td></tr>
@@ -218,7 +226,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a3b04ff9e583e09691f0a425bc68ea939 inherit pro_attribs_classMR_1_1GlTexture" id="r_a3b04ff9e583e09691f0a425bc68ea939"><td class="memItemLeft" align="right" valign="top">GLenum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GlTexture.html#a3b04ff9e583e09691f0a425bc68ea939">type_</a> = <a class="el" href="classMR_1_1GlTexture.html#a41901568843aff73ce764e7d07c0a81f">NO_TEX</a></td></tr>
 <tr class="separator:a3b04ff9e583e09691f0a425bc68ea939 inherit pro_attribs_classMR_1_1GlTexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>represents OpenGL 3D texture owner, and allows uploading data in it remembering texture size </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa0f0de0b1da4807ed2dd1aa0b57e878c" name="aa0f0de0b1da4807ed2dd1aa0b57e878c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0f0de0b1da4807ed2dd1aa0b57e878c">&#9670;&#160;</a></span>GlTexture3()</h2>
 

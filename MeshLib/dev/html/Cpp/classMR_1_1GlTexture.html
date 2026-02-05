@@ -156,6 +156,9 @@ $(function(){initNavTree('classMR_1_1GlTexture.html',''); initResizable(true); }
 </div><!--header-->
 <div class="contents">
 
+<p>represents OpenGL texture owner, and allows uploading data in it remembering texture size  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRGLTexture_8h_source.html">MRGLTexture.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::GlTexture:</div>
@@ -165,9 +168,9 @@ $(function(){initNavTree('classMR_1_1GlTexture.html',''); initResizable(true); }
  <div class="center">
   <img src="classMR_1_1GlTexture.png" usemap="#MR::GlTexture_map" alt=""/>
   <map id="MR::GlTexture_map" name="MR::GlTexture_map">
-<area href="classMR_1_1GlTexture2.html" alt="MR::GlTexture2" shape="rect" coords="0,56,140,80"/>
-<area href="classMR_1_1GlTexture2DArray.html" alt="MR::GlTexture2DArray" shape="rect" coords="150,56,290,80"/>
-<area href="classMR_1_1GlTexture3.html" alt="MR::GlTexture3" shape="rect" coords="300,56,440,80"/>
+<area href="classMR_1_1GlTexture2.html" title="represents OpenGL 2D texture owner, and allows uploading data in it remembering texture size" alt="MR::GlTexture2" shape="rect" coords="0,56,140,80"/>
+<area href="classMR_1_1GlTexture2DArray.html" title="represents OpenGL array texture 2D owner, and allows uploading data in it remembering texture size" alt="MR::GlTexture2DArray" shape="rect" coords="150,56,290,80"/>
+<area href="classMR_1_1GlTexture3.html" title="represents OpenGL 3D texture owner, and allows uploading data in it remembering texture size" alt="MR::GlTexture3" shape="rect" coords="300,56,440,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -197,17 +200,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a31f2ca34c59318a7c4d59d8a4a37782a" id="r_a31f2ca34c59318a7c4d59d8a4a37782a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31f2ca34c59318a7c4d59d8a4a37782a">size</a> () const</td></tr>
 <tr class="separator:a31f2ca34c59318a7c4d59d8a4a37782a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93b01874cfb524236811acf50f7af69c" id="r_a93b01874cfb524236811acf50f7af69c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93b01874cfb524236811acf50f7af69c">gen</a> ()</td></tr>
+<tr class="memdesc:a93b01874cfb524236811acf50f7af69c"><td class="mdescLeft">&#160;</td><td class="mdescRight">generates new texture  <br /></td></tr>
 <tr class="separator:a93b01874cfb524236811acf50f7af69c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14068864ba6ea4ba93a3504914da5318" id="r_a14068864ba6ea4ba93a3504914da5318"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14068864ba6ea4ba93a3504914da5318">del</a> ()</td></tr>
+<tr class="memdesc:a14068864ba6ea4ba93a3504914da5318"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes the texture  <br /></td></tr>
 <tr class="separator:a14068864ba6ea4ba93a3504914da5318"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1b7d7ab7174f46431b88ca69d8ee589" id="r_ae1b7d7ab7174f46431b88ca69d8ee589"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1b7d7ab7174f46431b88ca69d8ee589">bind</a> ()</td></tr>
+<tr class="memdesc:ae1b7d7ab7174f46431b88ca69d8ee589"><td class="mdescLeft">&#160;</td><td class="mdescRight">binds current texture to OpenGL context  <br /></td></tr>
 <tr class="separator:ae1b7d7ab7174f46431b88ca69d8ee589"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ba560fc0c6f4da706a9249b33cc51d4" id="r_a9ba560fc0c6f4da706a9249b33cc51d4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ba560fc0c6f4da706a9249b33cc51d4">loadData</a> (const <a class="el" href="structMR_1_1GlTexture_1_1Settings.html">Settings</a> &amp;settings, const char *arr)</td></tr>
+<tr class="memdesc:a9ba560fc0c6f4da706a9249b33cc51d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates GL data texture using given data and binds it  <br /></td></tr>
 <tr class="separator:a9ba560fc0c6f4da706a9249b33cc51d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ac4435c96afe603c9f4fac5e7bbb2cc" id="r_a3ac4435c96afe603c9f4fac5e7bbb2cc"><td class="memTemplParams" colspan="2">template&lt;typename C &gt; </td></tr>
 <tr class="memitem:a3ac4435c96afe603c9f4fac5e7bbb2cc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a3ac4435c96afe603c9f4fac5e7bbb2cc">loadData</a> (const <a class="el" href="structMR_1_1GlTexture_1_1Settings.html">Settings</a> &amp;settings, const C &amp;cont)</td></tr>
 <tr class="separator:a3ac4435c96afe603c9f4fac5e7bbb2cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a0c8eb224d884d8a585e73ef2c4ca2f" id="r_a5a0c8eb224d884d8a585e73ef2c4ca2f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a0c8eb224d884d8a585e73ef2c4ca2f">loadDataOpt</a> (bool refresh, const <a class="el" href="structMR_1_1GlTexture_1_1Settings.html">Settings</a> &amp;settings, const char *arr)</td></tr>
+<tr class="memdesc:a5a0c8eb224d884d8a585e73ef2c4ca2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">binds current texture to OpenGL context, optionally refreshing its data  <br /></td></tr>
 <tr class="separator:a5a0c8eb224d884d8a585e73ef2c4ca2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5574566e892c3526ffd4737e97872d9e" id="r_a5574566e892c3526ffd4737e97872d9e"><td class="memTemplParams" colspan="2">template&lt;typename C &gt; </td></tr>
 <tr class="memitem:a5574566e892c3526ffd4737e97872d9e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a5574566e892c3526ffd4737e97872d9e">loadDataOpt</a> (bool refresh, const <a class="el" href="structMR_1_1GlTexture_1_1Settings.html">Settings</a> &amp;settings, const C &amp;cont)</td></tr>
@@ -232,7 +240,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a3b04ff9e583e09691f0a425bc68ea939" id="r_a3b04ff9e583e09691f0a425bc68ea939"><td class="memItemLeft" align="right" valign="top">GLenum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b04ff9e583e09691f0a425bc68ea939">type_</a> = <a class="el" href="#a41901568843aff73ce764e7d07c0a81f">NO_TEX</a></td></tr>
 <tr class="separator:a3b04ff9e583e09691f0a425bc68ea939"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>represents OpenGL texture owner, and allows uploading data in it remembering texture size </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7be43c41cc0cfc57c53d4e3cac02a449" name="a7be43c41cc0cfc57c53d4e3cac02a449"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7be43c41cc0cfc57c53d4e3cac02a449">&#9670;&#160;</a></span>GlTexture() <span class="overload">[1/3]</span></h2>
 
@@ -333,6 +343,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>binds current texture to OpenGL context </p>
+
 </div>
 </div>
 <a id="a14068864ba6ea4ba93a3504914da5318" name="a14068864ba6ea4ba93a3504914da5318"></a>
@@ -350,6 +362,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>deletes the texture </p>
+
 </div>
 </div>
 <a id="a93b01874cfb524236811acf50f7af69c" name="a93b01874cfb524236811acf50f7af69c"></a>
@@ -366,6 +380,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>generates new texture </p>
 
 </div>
 </div>
@@ -444,6 +460,8 @@ template&lt;typename C &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>creates GL data texture using given data and binds it </p>
+
 </div>
 </div>
 <a id="a5574566e892c3526ffd4737e97872d9e" name="a5574566e892c3526ffd4737e97872d9e"></a>
@@ -505,6 +523,8 @@ template&lt;typename C &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>binds current texture to OpenGL context, optionally refreshing its data </p>
 
 </div>
 </div>

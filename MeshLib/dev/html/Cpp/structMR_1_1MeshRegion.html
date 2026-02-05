@@ -158,8 +158,10 @@ $(function(){initNavTree('structMR_1_1MeshRegion.html',''); initResizable(true);
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a35b39c1790f734aa2ed34e68281a8a04" id="r_a35b39c1790f734aa2ed34e68281a8a04"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35b39c1790f734aa2ed34e68281a8a04">MeshRegion</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;m, const TaggedBitSet&lt; RegionTag &gt; *bs=nullptr) noexcept</td></tr>
+<tr class="memdesc:a35b39c1790f734aa2ed34e68281a8a04"><td class="mdescLeft">&#160;</td><td class="mdescRight">nullptr here means whole mesh  <br /></td></tr>
 <tr class="separator:a35b39c1790f734aa2ed34e68281a8a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae376220ccfe757dc78e7edd18501521e" id="r_ae376220ccfe757dc78e7edd18501521e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae376220ccfe757dc78e7edd18501521e">MeshRegion</a> (const <a class="el" href="structMR_1_1MeshRegion.html">MeshRegion</a> &amp;other) noexcept=default</td></tr>
+<tr class="memdesc:ae376220ccfe757dc78e7edd18501521e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make this assignable. A better idea would be to rewrite the class to not use references, but doing this instead preserves API compatibility.  <br /></td></tr>
 <tr class="separator:ae376220ccfe757dc78e7edd18501521e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fbe26bcbe7891c7be47fb330920e3b4" id="r_a8fbe26bcbe7891c7be47fb330920e3b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshRegion.html">MeshRegion</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fbe26bcbe7891c7be47fb330920e3b4">operator=</a> (const <a class="el" href="structMR_1_1MeshRegion.html">MeshRegion</a> &amp;other) noexcept</td></tr>
 <tr class="separator:a8fbe26bcbe7891c7be47fb330920e3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,6 +206,8 @@ template&lt;typename RegionTag &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>nullptr here means whole mesh </p>
+
 </div>
 </div>
 <a id="ae376220ccfe757dc78e7edd18501521e" name="ae376220ccfe757dc78e7edd18501521e"></a>
@@ -230,6 +234,8 @@ template&lt;typename RegionTag &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Make this assignable. A better idea would be to rewrite the class to not use references, but doing this instead preserves API compatibility. </p>
 
 </div>
 </div>
@@ -258,6 +264,7 @@ template&lt;typename RegionTag &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>In modern C++ the result doesn't need to be <code>std::launder</code>ed, right?</p>
 
 </div>
 </div>

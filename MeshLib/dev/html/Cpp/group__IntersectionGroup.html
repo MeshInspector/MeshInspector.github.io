@@ -211,6 +211,10 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>finds the closest points between a line and a box wireframe (not solid) in 3D </p>
+<p>consider box edges parallel to unit vector #iDir</p>
+<p>line is parallel to box edge</p>
+<p>t is line parameter: 0 - line.p, 1 - line.p + line.d</p>
+<p>u is box edge parameter, find the point closest to line(t)</p>
 
 </div>
 </div>
@@ -235,6 +239,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>finds the closest points between two lines in 3D; for parallel lines the selection is arbitrary; </p><dl class="section return"><dt>Returns</dt><dd>two equal points if the lines intersect </dd></dl>
+<p>lines are parallel</p>
 
 </div>
 </div>
@@ -259,6 +264,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>finds the closest points between an infinite line and finite line segment in 3D; for parallel lines the selection is arbitrary; </p><dl class="section return"><dt>Returns</dt><dd>two equal points if the lines intersect </dd></dl>
+<p>lines are parallel</p>
 
 </div>
 </div>
@@ -381,6 +387,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>nullopt if they are not intersect (even if they match) </dd></dl>
+<p>check for calculation</p>
 
 </div>
 </div>

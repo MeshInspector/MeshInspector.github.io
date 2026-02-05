@@ -185,7 +185,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab4532230e1c01c5aa993bb6427bcc60a" id="r_ab4532230e1c01c5aa993bb6427bcc60a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Eigen::Vector3&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4532230e1c01c5aa993bb6427bcc60a">points</a></td></tr>
 <tr class="separator:ab4532230e1c01c5aa993bb6427bcc60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+struct MR::ConeFittingFunctor&lt; T &gt;</div><p>to use Levenberg-Marquardt minimization we need a special type of functor to look1: <a href="https:///">https:///</a> github.com/cryos/eigen/blob/master/unsupported/test/NonLinearOptimization.cpp : lmder_functor to look2: <a href="https:///">https:///</a> eigen.tuxfamily.org/dox-devel/unsupported/group__NonLinearOptimization__Module.html </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a369f95839764bbea9a5f5db04ec360ae" name="a369f95839764bbea9a5f5db04ec360ae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a369f95839764bbea9a5f5db04ec360ae">&#9670;&#160;</a></span>InputType</h2>
 
@@ -279,6 +282,9 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Here we calculate a Jacobian. function name requested by Eigen lib. </p>
+<p>Derivative of f with respect to the components of vertex V</p>
+<p>Derivative of f with respect to the components of the vector W</p>
 
 </div>
 </div>
@@ -337,6 +343,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p><a href="https:///">https:///</a> www.geometrictools.com/Documentation/LeastSquaresFitting.pdf formula 103 F[i](V,W) = D^T * (I - W * W^T) * D where: D = V - X[i] and P = (V,W) </p>
 
 </div>
 </div>

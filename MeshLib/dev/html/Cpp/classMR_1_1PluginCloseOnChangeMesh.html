@@ -162,7 +162,7 @@ $(function(){initNavTree('classMR_1_1PluginCloseOnChangeMesh.html',''); initResi
  <div class="center">
   <img src="classMR_1_1PluginCloseOnChangeMesh.png" usemap="#MR::PluginCloseOnChangeMesh_map" alt=""/>
   <map id="MR::PluginCloseOnChangeMesh_map" name="MR::PluginCloseOnChangeMesh_map">
-<area href="classMR_1_1IPluginUpdate.html" alt="MR::IPluginUpdate" shape="rect" coords="0,0,196,24"/>
+<area href="classMR_1_1IPluginUpdate.html" title="Interface for automatically update StatePlugins internal data." alt="MR::IPluginUpdate" shape="rect" coords="0,0,196,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -172,15 +172,19 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:a5790fe8a480493d40913adc3812e1127"><td class="mdescLeft">&#160;</td><td class="mdescRight">plugin can override it to make this helper class also react on face selections updates  <br /></td></tr>
 <tr class="separator:a5790fe8a480493d40913adc3812e1127"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e05f59d67c502229f3a2a2e919886fc" id="r_a2e05f59d67c502229f3a2a2e919886fc"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e05f59d67c502229f3a2a2e919886fc">onPluginEnable_</a> () override</td></tr>
+<tr class="memdesc:a2e05f59d67c502229f3a2a2e919886fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when plugin started  <br /></td></tr>
 <tr class="separator:a2e05f59d67c502229f3a2a2e919886fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af521c98fca4b1537e06ebf161605954d" id="r_af521c98fca4b1537e06ebf161605954d"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af521c98fca4b1537e06ebf161605954d">onPluginDisable_</a> () override</td></tr>
+<tr class="memdesc:af521c98fca4b1537e06ebf161605954d"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when plugin stops  <br /></td></tr>
 <tr class="separator:af521c98fca4b1537e06ebf161605954d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a6dc440df682b00feb1b9fd10eab31a" id="r_a8a6dc440df682b00feb1b9fd10eab31a"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a6dc440df682b00feb1b9fd10eab31a">shouldClose_</a> () const override</td></tr>
+<tr class="memdesc:a8a6dc440df682b00feb1b9fd10eab31a"><td class="mdescLeft">&#160;</td><td class="mdescRight">called each frame, return true to close plugin  <br /></td></tr>
 <tr class="separator:a8a6dc440df682b00feb1b9fd10eab31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a7b94773fd2366584812415d8cc83b4c1" id="r_a7b94773fd2366584812415d8cc83b4c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b94773fd2366584812415d8cc83b4c1">meshChanged_</a> { false }</td></tr>
+<tr class="memdesc:a7b94773fd2366584812415d8cc83b4c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">plugin can return the value to false after mesh change if it changed the mesh by itself and does not want to close  <br /></td></tr>
 <tr class="separator:a7b94773fd2366584812415d8cc83b4c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
@@ -189,9 +193,12 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a3a57e2a35ba84c0bdd2af8a0f162c5f3 inherit pub_methods_classMR_1_1IPluginUpdate" id="r_a3a57e2a35ba84c0bdd2af8a0f162c5f3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IPluginUpdate.html#a3a57e2a35ba84c0bdd2af8a0f162c5f3">~IPluginUpdate</a> ()=default</td></tr>
 <tr class="separator:a3a57e2a35ba84c0bdd2af8a0f162c5f3 inherit pub_methods_classMR_1_1IPluginUpdate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a79d0d76063de2f4947098cc9cb07a8 inherit pub_methods_classMR_1_1IPluginUpdate" id="r_a6a79d0d76063de2f4947098cc9cb07a8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IPluginUpdate.html#a6a79d0d76063de2f4947098cc9cb07a8">preDrawUpdate</a> ()</td></tr>
+<tr class="memdesc:a6a79d0d76063de2f4947098cc9cb07a8 inherit pub_methods_classMR_1_1IPluginUpdate"><td class="mdescLeft">&#160;</td><td class="mdescRight">called each frame in before drawDialog  <br /></td></tr>
 <tr class="separator:a6a79d0d76063de2f4947098cc9cb07a8 inherit pub_methods_classMR_1_1IPluginUpdate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Helper class to close plugin if any of active object meshes was changed inherit your plugin from it </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="af521c98fca4b1537e06ebf161605954d" name="af521c98fca4b1537e06ebf161605954d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af521c98fca4b1537e06ebf161605954d">&#9670;&#160;</a></span>onPluginDisable_()</h2>
 
@@ -214,6 +221,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>called when plugin stops </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1IPluginUpdate.html#a0ac2f366f4785c61b991e9d38f1c12d1">MR::IPluginUpdate</a>.</p>
 
@@ -241,6 +250,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>called when plugin started </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1IPluginUpdate.html#ac74a796b15f4842c135a9956d270caa3">MR::IPluginUpdate</a>.</p>
 
@@ -296,6 +307,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>called each frame, return true to close plugin </p>
+
 <p>Reimplemented from <a class="el" href="classMR_1_1IPluginUpdate.html#ab6e6e3dcf2ab382434fd967480164324">MR::IPluginUpdate</a>.</p>
 
 </div>
@@ -320,6 +333,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>plugin can return the value to false after mesh change if it changed the mesh by itself and does not want to close </p>
 
 </div>
 </div>

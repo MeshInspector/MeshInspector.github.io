@@ -205,6 +205,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>This is the start and end positions of this segment, from 0 to 1. This is automatically multiplied by <code>patternLength</code>. You must ensure <code>0 &lt;= a &lt; b &lt;= 1</code>, and if there are multiple segments, that <code>segments[i].b &lt; segments[i + 1].a</code>. The only exception to this is that the <code>b</code> of the last segment can be less than the <code>a</code> of the last segment, as long as it's also less than the <code>a</code> of the first segment. This can help with pattern wraparound. </p>
 
 </div>
 </div>

@@ -151,6 +151,9 @@ $(function(){initNavTree('namespaceMR_1_1FillingSurface_1_1CellularSurface.html'
   <div class="headertitle"><div class="title">MR::FillingSurface::CellularSurface Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>namespace <a class="elRef" href="../Csharp/classMR_1_1FillingSurface_1_1TPMS.html">TPMS</a>  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -176,7 +179,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a23995b41b619c174ea95b0c19e9c57d4" id="r_a23995b41b619c174ea95b0c19e9c57d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23995b41b619c174ea95b0c19e9c57d4">estimateWidth</a> (float period, float r, float targetDensity)</td></tr>
 <tr class="separator:a23995b41b619c174ea95b0c19e9c57d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>namespace <a class="elRef" href="../Csharp/classMR_1_1FillingSurface_1_1TPMS.html">TPMS</a> </p>
+<p>Surface of cylinders in a grid </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a9a644fd0f543b423a3e722bf3a17fe14" name="a9a644fd0f543b423a3e722bf3a17fe14"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9a644fd0f543b423a3e722bf3a17fe14">&#9670;&#160;</a></span>build()</h2>
 
@@ -256,7 +262,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Estimate the width that is needed to attain the <code>targetDensity</code>. Inverse of <a class="el" href="#a128ae4e0cb0b4dacfdb64a3312ff7bcb">estimateDensity</a>. </p><dl class="section note"><dt>Note</dt><dd>The width is not unique in general, no guarantees are made about which value among possible will be returned. </dd></dl>
+<p>Estimate the width that is needed to attain the <code>targetDensity</code>. Inverse of <a class="el" href="#a128ae4e0cb0b4dacfdb64a3312ff7bcb">estimateDensity</a>. </p><dl class="section note"><dt>Note</dt><dd>The width is not unique in general, no guarantees are made about which value among possible will be returned. Due to the simplification of the formula (sphere must either fully contain the intersection of cylinders or be inside it), solution not always exists. </dd></dl>
 
 </div>
 </div>

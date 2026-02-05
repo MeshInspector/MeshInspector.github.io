@@ -273,10 +273,13 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undo action for <a class="elRef" href="../Csharp/classMR_1_1ObjectVoxels.html">ObjectVoxels</a> dual/standard marching cubes change. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1ChangeActiveBoxAction.html">MR::ChangeActiveBoxAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undo action for <a class="elRef" href="../Csharp/classMR_1_1ObjectVoxels.html">ObjectVoxels</a> active bounds change. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1ChangeSurfaceAction.html">MR::ChangeSurfaceAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undo action for <a class="elRef" href="../Csharp/classMR_1_1ObjectVoxels.html">ObjectVoxels</a> surface change (need for faster undo redo) <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1ChangeGridAction.html">MR::ChangeGridAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undo action for <a class="elRef" href="../Csharp/classMR_1_1ObjectVoxels.html">ObjectVoxels</a> all data change (need for faster undo redo) <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1ChangVoxelSelectionAction.html">MR::ChangVoxelSelectionAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undo action for <a class="elRef" href="../Csharp/classMR_1_1ObjectVoxels.html">ObjectVoxels</a> face selection. <br /></td></tr>
@@ -394,6 +397,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This function is called on history action (undo, redo, etc.) </p>
+<p>Assume user does not change viewports number</p>
 
 <p>Implements <a class="elRef" href="../Csharp/classMR_1_1HistoryAction.html">MR::HistoryAction</a>.</p>
 

@@ -1,14 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"classMR_1_1PartialChangeMeshAction.html#ad2d0abad0e0e239ed0ec0133326d4c22":[6,0,0,4,40,4],
-"classMR_1_1PartialChangeMeshAction.html#ae9b50fc2bece8a066334d3e5b4d0ea7a":[6,0,0,4,40,3],
-"classMR_1_1PartialChangeMeshDataAction.html":[6,0,0,4,11],
-"classMR_1_1PartialChangeMeshDataAction.html#a6fb0b3199a9db815b42304cd9696f11f":[6,0,0,4,11,1],
-"classMR_1_1PartialChangeMeshDataAction.html#a8255765ae83c4e2520dff85d5a0b4a4c":[6,0,0,4,11,2],
-"classMR_1_1PartialChangeMeshDataAction.html#a8994ed8d60ac529bd9bf0411b2c65570":[6,0,0,4,11,3],
-"classMR_1_1PartialChangeMeshDataAction.html#ae2cdd7997f342d4d349a4e36d92936c1":[6,0,0,4,11,0],
-"classMR_1_1PartialChangeMeshPointsAction.html":[6,0,0,4,41],
-"classMR_1_1PartialChangeMeshPointsAction.html#a00bc088134919ea3d5c4718c68457efd":[6,0,0,4,41,6],
 "classMR_1_1PartialChangeMeshPointsAction.html#a73ca11aa96a7964948d458cc576ab80b":[6,0,0,4,41,0],
 "classMR_1_1PartialChangeMeshPointsAction.html#a846ef4575fe0b0c0caa9c7ac8cd8132f":[6,0,0,4,41,4],
 "classMR_1_1PartialChangeMeshPointsAction.html#a91cd182ed287806ec995bb8eefe39d25":[6,0,0,4,41,3],
@@ -249,5 +240,14 @@ var NAVTREEINDEX29 =
 "classMR_1_1PointCloud.html#acaaa9294839523cc4fdc93532c24f40a":[6,0,0,12,0,13],
 "classMR_1_1PointCloud.html#aee9b6dc6ffe24907b217ec92c3d62f4c":[6,0,0,12,0,9],
 "classMR_1_1PointCloud.html#af08107665be27af8046957156640f884":[6,0,0,12,0,15],
-"classMR_1_1PointCloud.html#af2ae8e74aea3d8821752b3e915182b4d":[6,0,0,12,0,14]
+"classMR_1_1PointCloud.html#af2ae8e74aea3d8821752b3e915182b4d":[6,0,0,12,0,14],
+"classMR_1_1PointCloudApproxRelaxParams.html":[6,0,0,12,2],
+"classMR_1_1PointCloudApproxRelaxParams.html#a339a0669c843a5366cc7a06afd55eaca":[6,0,0,12,2,0],
+"classMR_1_1PointCloudApproxRelaxParams.html#a5ae949fb204a4258640690eb47d30e05":[6,0,0,12,2,6],
+"classMR_1_1PointCloudApproxRelaxParams.html#a5ccdbcc01144fc8e4742f3fad2566802":[6,0,0,12,2,2],
+"classMR_1_1PointCloudApproxRelaxParams.html#a5d6ce71080a29b20a5757c47ef106f00":[6,0,0,12,2,9],
+"classMR_1_1PointCloudApproxRelaxParams.html#a737c49734315fdb3d7fd32ef285b5be5":[6,0,0,12,2,8],
+"classMR_1_1PointCloudApproxRelaxParams.html#a938d917fb6e74c12b252eec61aefc5e9":[6,0,0,12,2,3],
+"classMR_1_1PointCloudApproxRelaxParams.html#a9f212056331e43f999e81fea6369b897":[6,0,0,12,2,10],
+"classMR_1_1PointCloudApproxRelaxParams.html#ab630953d03bfb929d16344bb18fa3129":[6,0,0,12,2,5]
 };

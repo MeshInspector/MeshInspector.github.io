@@ -175,8 +175,6 @@ Public Member Functions</h2></td></tr>
 <div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> reportThreadLock = reportThreadMutex.<a class="code hl_function" href="#a90d44121dc83fee14538cf016ad521ee">tryLock</a>();</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keyword">auto</span> i = range.begin(); i != range.end(); ++i )</div>
 <div class="line">    {</div>
-<div class="line">        <span class="comment">// if you have a nested `parallel_for` call here, you might come back to the same main loop with another range</span></div>
-<div class="line">        <span class="comment">// since TBB can re-use &#39;stale&#39; threads</span></div>
 <div class="line">        tbb::parallel_for( ... );</div>
 <div class="line">        <span class="keywordflow">if</span> ( reportThreadLock )</div>
 <div class="line">            report( ... );</div>
