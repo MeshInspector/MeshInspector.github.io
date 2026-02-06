@@ -1,5 +1,9 @@
 var NAVTREEINDEX73 =
 {
+"classMR_1_1Const__TexturePerFace.html#a990b1345b4771c94125cc9e9c14f4b8a":[6,3,0,0,0,765,22],
+"classMR_1_1Const__TexturePerFace.html#a992fdd0d6008c1f2540f24a12ce4e670":[6,3,0,0,0,765,24],
+"classMR_1_1Const__TexturePerFace.html#aad45b2f47a5a5ef2fe416849046df826":[6,3,0,0,0,765,8],
+"classMR_1_1Const__TexturePerFace.html#ab0973fd6ca5ee33d493937a160c9f96b":[6,3,0,0,0,765,23],
 "classMR_1_1Const__TexturePerFace.html#ac4b343531d4f52eb7e9b4f48e471c4d3":[6,3,0,0,0,765,11],
 "classMR_1_1Const__TexturePerFace.html#acd3a55a100ff566a92dfc18a6d564410":[6,3,0,0,0,765,9],
 "classMR_1_1Const__TexturePerFace.html#ad6226a842f4db9564d9e0b0e292b8b7d":[6,3,0,0,0,765,19],
@@ -245,9 +249,5 @@ var NAVTREEINDEX73 =
 "classMR_1_1Const__TriPointf.html#aef14ba6aa561eab5a04f972b08c33a99":[6,3,0,0,0,783,20],
 "classMR_1_1Const__TriPointf.html#afb0da3c003a029bc30297ec9dfced5d3":[6,3,0,0,0,783,18],
 "classMR_1_1Const__TriPointf.html#affbe4f931725b12811f79c2ab86cc8d7":[6,3,0,0,0,783,8],
-"classMR_1_1Const__TriPointf.html#affc75d2221ab5fa03d85526a8ba91f76":[6,3,0,0,0,783,15],
-"classMR_1_1Const__TriangleSegmentIntersectResult.html":[6,3,0,0,0,774],
-"classMR_1_1Const__TriangleSegmentIntersectResult.html#a0aed1e0449b095a396b016e9095802ca":[6,3,0,0,0,774,3],
-"classMR_1_1Const__TriangleSegmentIntersectResult.html#a0d8e48340252be543746b69430ff8fd9":[6,3,0,0,0,774,7],
-"classMR_1_1Const__TriangleSegmentIntersectResult.html#a2709b6fc6f0229b725daf69aa0be1550":[6,3,0,0,0,774,2]
+"classMR_1_1Const__TriPointf.html#affc75d2221ab5fa03d85526a8ba91f76":[6,3,0,0,0,783,15]
 };

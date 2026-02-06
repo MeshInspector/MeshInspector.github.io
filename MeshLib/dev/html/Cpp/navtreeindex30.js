@@ -1,7 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"classMR_1_1PointCloudApproxRelaxParams.html#a5d6ce71080a29b20a5757c47ef106f00":[6,0,0,12,2,9],
-"classMR_1_1PointCloudApproxRelaxParams.html#a737c49734315fdb3d7fd32ef285b5be5":[6,0,0,12,2,8],
 "classMR_1_1PointCloudApproxRelaxParams.html#a938d917fb6e74c12b252eec61aefc5e9":[6,0,0,12,2,3],
 "classMR_1_1PointCloudApproxRelaxParams.html#a9f212056331e43f999e81fea6369b897":[6,0,0,12,2,10],
 "classMR_1_1PointCloudApproxRelaxParams.html#ab630953d03bfb929d16344bb18fa3129":[6,0,0,12,2,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX30 =
 "classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[6,0,2,0,2,254,0],
 "classMR_1_1QuadricApprox.html":[6,0,0,0,14],
 "classMR_1_1QuadricApprox.html#a0069aeb6381b69537a768f43eddf44a0":[6,0,0,0,14,4],
-"classMR_1_1QuadricApprox.html#a34ee226b675faccfae73d4db1eec4762":[6,0,0,0,14,1]
+"classMR_1_1QuadricApprox.html#a34ee226b675faccfae73d4db1eec4762":[6,0,0,0,14,1],
+"classMR_1_1QuadricApprox.html#a49efd6c5e9fb9e266d51f81b4b62263f":[6,0,0,0,14,2],
+"classMR_1_1QuadricApprox.html#a5ea57604d1b7bac5738d513da0b4b676":[6,0,0,0,14,5]
 };

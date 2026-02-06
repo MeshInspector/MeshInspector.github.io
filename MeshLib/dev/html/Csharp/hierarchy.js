@@ -2012,6 +2012,7 @@ var hierarchy =
       [ "MR.Const_PolylineTopology", "classMR_1_1Const__PolylineTopology.html", null ],
       [ "MR.Const_PolylineUndirectedEdgeIterator", "classMR_1_1Const__PolylineUndirectedEdgeIterator.html", null ],
       [ "MR.Const_PositionedText", "classMR_1_1Const__PositionedText.html", null ],
+      [ "MR.Const_RingIterator_MRNextEdgeSameLeft", "classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html", null ],
       [ "MR.Const_RingIterator_MRNextEdgeSameOrigin", "classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin.html", null ],
       [ "MR.Const_SegmPointd", "classMR_1_1Const__SegmPointd.html", null ],
       [ "MR.Const_SegmPointd", "classMR_1_1Const__SegmPointd.html", null ],

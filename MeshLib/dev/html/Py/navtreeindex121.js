@@ -1,5 +1,9 @@
 var NAVTREEINDEX121 =
 {
+"classmrmeshpy_1_1VoxelTraits__std__function__unsigned__char__const__Vector3i.html":[6,1,0,0,2,1220],
+"classmrmeshpy_1_1VoxelTraits__std__function__unsigned__char__const__Vector3i.html":[6,1,1,0,1,1220],
+"classmrmeshpy_1_1VoxelTraits__std__function__unsigned__char__const__Vector3i.html#a112052439cdb6697f01912e1dc09f5a6":[6,1,0,0,2,1220,1],
+"classmrmeshpy_1_1VoxelTraits__std__function__unsigned__char__const__Vector3i.html#a112052439cdb6697f01912e1dc09f5a6":[6,1,1,0,1,1220,1],
 "classmrmeshpy_1_1VoxelTraits__std__function__unsigned__char__const__Vector3i.html#a76678aa70ca5b4c0b0e0afd4bf0319f9":[6,1,0,0,2,1220,0],
 "classmrmeshpy_1_1VoxelTraits__std__function__unsigned__char__const__Vector3i.html#a76678aa70ca5b4c0b0e0afd4bf0319f9":[6,1,0,0,2,1220,2],
 "classmrmeshpy_1_1VoxelTraits__std__function__unsigned__char__const__Vector3i.html#a76678aa70ca5b4c0b0e0afd4bf0319f9":[6,1,1,0,1,1220,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX121 =
 "classmrmeshpy_1_1WatershedGraph.html#a96c04081c36f5a5ce1d41b8926b5cfc5":[6,1,0,0,2,1224,9],
 "classmrmeshpy_1_1WatershedGraph.html#a96c04081c36f5a5ce1d41b8926b5cfc5":[6,1,1,0,1,1224,9],
 "classmrmeshpy_1_1WatershedGraph.html#a9836028898c50d7b012550163170176a":[6,1,0,0,2,1224,23],
-"classmrmeshpy_1_1WatershedGraph.html#a9836028898c50d7b012550163170176a":[6,1,1,0,1,1224,23],
-"classmrmeshpy_1_1WatershedGraph.html#a9ead2fc1d0d8042a7e76515fde18bdcd":[6,1,0,0,2,1224,13],
-"classmrmeshpy_1_1WatershedGraph.html#a9ead2fc1d0d8042a7e76515fde18bdcd":[6,1,1,0,1,1224,13],
-"classmrmeshpy_1_1WatershedGraph.html#aa3634199d13bf9734ce91bee2467184b":[6,1,0,0,2,1224,15],
-"classmrmeshpy_1_1WatershedGraph.html#aa3634199d13bf9734ce91bee2467184b":[6,1,1,0,1,1224,15]
+"classmrmeshpy_1_1WatershedGraph.html#a9836028898c50d7b012550163170176a":[6,1,1,0,1,1224,23]
 };

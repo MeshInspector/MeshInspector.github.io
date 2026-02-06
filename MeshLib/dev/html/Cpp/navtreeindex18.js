@@ -1,7 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"classMR_1_1DirectionWidget.html#a801060d204bb001111c96202a5d9fb2a":[6,0,2,0,2,84,30],
-"classMR_1_1DirectionWidget.html#a8cf9aef0efe734dfcf237307de21f988":[6,0,1,0,1,112,31],
 "classMR_1_1DirectionWidget.html#a8cf9aef0efe734dfcf237307de21f988":[6,0,2,0,2,84,31],
 "classMR_1_1DirectionWidget.html#a919a4e2843ebcd0667b6572ba9d03caa":[6,0,1,0,1,112,27],
 "classMR_1_1DirectionWidget.html#a919a4e2843ebcd0667b6572ba9d03caa":[6,0,2,0,2,84,27],
@@ -249,5 +247,7 @@ var NAVTREEINDEX18 =
 "classMR_1_1FindProjectionOnPointsSettings.html#a53543fd7e5c4199e8a688b1b4f5ac0e3":[6,0,0,1,29,11],
 "classMR_1_1FindProjectionOnPointsSettings.html#a623b816a5bf7bfe5fcbbfb992f0013ac":[6,0,0,1,29,9],
 "classMR_1_1FindProjectionOnPointsSettings.html#a7836daddb0ae8a4e7912b77e26f7afe8":[6,0,0,1,29,3],
-"classMR_1_1FindProjectionOnPointsSettings.html#a8e4de168dc26fe7e4710894323b55cb8":[6,0,0,1,29,0]
+"classMR_1_1FindProjectionOnPointsSettings.html#a8e4de168dc26fe7e4710894323b55cb8":[6,0,0,1,29,0],
+"classMR_1_1FindProjectionOnPointsSettings.html#a99dc2a7d9a715f087c42a8baa67491fc":[6,0,0,1,29,1],
+"classMR_1_1FindProjectionOnPointsSettings.html#aaefefdbe5255b54029b22a1788375642":[6,0,0,1,29,5]
 };
