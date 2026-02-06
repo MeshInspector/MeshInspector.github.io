@@ -8,5 +8,8 @@ var namespaceMR_1_1LinesLoad =
     [ "fromPly", "group__LinesLoad.html#ga6d309e19703b9fd3f9a7b5258471f304", null ],
     [ "fromPly", "group__LinesLoad.html#ga902501cd4125cf2facbf356941dcb8f1", null ],
     [ "fromPts", "group__LinesLoad.html#gae7291e11583b98a3ad4fc821d635cd69", null ],
-    [ "fromPts", "group__LinesLoad.html#ga8bcc88ce6332215acae8bdcb45c3ec3a", null ]
+    [ "fromPts", "group__LinesLoad.html#ga8bcc88ce6332215acae8bdcb45c3ec3a", null ],
+    [ "fromSvg", "namespaceMR_1_1LinesLoad.html#a95ffa7bdd0595c8fc73bba4e40993deb", null ],
+    [ "fromSvg", "namespaceMR_1_1LinesLoad.html#a56468082db347bc5fed5d141227ced71", null ],
+    [ "fromSvg", "namespaceMR_1_1LinesLoad.html#adbb821526ce909967cfd04366c150ed6", null ]
 ];

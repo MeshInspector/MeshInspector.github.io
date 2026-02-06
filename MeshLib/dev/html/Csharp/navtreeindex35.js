@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1Const__DistanceMeasurementObject.html#ac03ce774d98d62e82c93b728ca05608b":[6,3,0,0,0,325,13],
 "classMR_1_1Const__DistanceMeasurementObject.html#ac050da76bbab312ba1d87b40edae850b":[6,3,0,0,0,325,47],
 "classMR_1_1Const__DistanceMeasurementObject.html#ac07133bb823474c68c47f9afc0c63ba0":[6,3,0,0,0,325,12],
 "classMR_1_1Const__DistanceMeasurementObject.html#ac0c4342790c988f9ab530f8da03f7ca2":[6,3,0,0,0,325,83],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1Const__EdgePathsAStarBuilder.html#a1e68bdbfeccdb9c9be22e81408a6aaa3":[6,3,0,0,0,336,9],
 "classMR_1_1Const__EdgePathsAStarBuilder.html#a22cae680831b5743588951ecba8739fe":[6,3,0,0,0,336,5],
 "classMR_1_1Const__EdgePathsAStarBuilder.html#a279ff469a91d980e1203fa25f4cea29d":[6,3,0,0,0,336,7],
-"classMR_1_1Const__EdgePathsAStarBuilder.html#a473c0de942c6b2a5f64ca21c9d5abf8b":[6,3,0,0,0,336,3],
-"classMR_1_1Const__EdgePathsAStarBuilder.html#a592e8beb3e70e7763dba69593daf8bb1":[6,3,0,0,0,336,11]
+"classMR_1_1Const__EdgePathsAStarBuilder.html#a473c0de942c6b2a5f64ca21c9d5abf8b":[6,3,0,0,0,336,3]
 };

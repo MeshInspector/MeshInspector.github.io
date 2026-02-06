@@ -1,5 +1,10 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1DirectionWidget.html#a801060d204bb001111c96202a5d9fb2a":[6,0,2,0,2,84,30],
+"classMR_1_1DirectionWidget.html#a8cf9aef0efe734dfcf237307de21f988":[6,0,1,0,1,112,31],
+"classMR_1_1DirectionWidget.html#a8cf9aef0efe734dfcf237307de21f988":[6,0,2,0,2,84,31],
+"classMR_1_1DirectionWidget.html#a919a4e2843ebcd0667b6572ba9d03caa":[6,0,1,0,1,112,27],
+"classMR_1_1DirectionWidget.html#a919a4e2843ebcd0667b6572ba9d03caa":[6,0,2,0,2,84,27],
 "classMR_1_1DirectionWidget.html#aa01b946f8079c3f2095a1fb5b019e275":[6,0,1,0,1,112,3],
 "classMR_1_1DirectionWidget.html#aa01b946f8079c3f2095a1fb5b019e275":[6,0,2,0,2,84,3],
 "classMR_1_1DirectionWidget.html#aa6740ac9480b8cb2330ae4e01ff0b534":[6,0,1,0,1,112,18],
@@ -244,10 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1FindProjectionOnPointsSettings.html#a53543fd7e5c4199e8a688b1b4f5ac0e3":[6,0,0,1,29,11],
 "classMR_1_1FindProjectionOnPointsSettings.html#a623b816a5bf7bfe5fcbbfb992f0013ac":[6,0,0,1,29,9],
 "classMR_1_1FindProjectionOnPointsSettings.html#a7836daddb0ae8a4e7912b77e26f7afe8":[6,0,0,1,29,3],
-"classMR_1_1FindProjectionOnPointsSettings.html#a8e4de168dc26fe7e4710894323b55cb8":[6,0,0,1,29,0],
-"classMR_1_1FindProjectionOnPointsSettings.html#a99dc2a7d9a715f087c42a8baa67491fc":[6,0,0,1,29,1],
-"classMR_1_1FindProjectionOnPointsSettings.html#aaefefdbe5255b54029b22a1788375642":[6,0,0,1,29,5],
-"classMR_1_1FindProjectionOnPointsSettings.html#abef84fb0f410d26d99d8a886d1c0a0b3":[6,0,0,1,29,10],
-"classMR_1_1FindProjectionOnPointsSettings.html#ae3192751bc405bc750438702ff6d3f85":[6,0,0,1,29,2],
-"classMR_1_1FindProjectionOnPointsSettings.html#ae7e68ebe84cce6921c62907010ceda5a":[6,0,0,1,29,4]
+"classMR_1_1FindProjectionOnPointsSettings.html#a8e4de168dc26fe7e4710894323b55cb8":[6,0,0,1,29,0]
 };

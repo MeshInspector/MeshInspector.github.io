@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"classMR_1_1Const__Polynomial__Double__2.html#aaf94af1e36b8e638fb8e03c889764856":[6,3,0,0,0,658,3],
 "classMR_1_1Const__Polynomial__Double__2.html#adaefd11998f2b4665cb713b8725a7f83":[6,3,0,0,0,658,0],
 "classMR_1_1Const__Polynomial__Double__2.html#aeb7b25880be3e35bef8339d828cf44da":[6,3,0,0,0,658,6],
 "classMR_1_1Const__Polynomial__Double__3.html":[6,3,0,0,0,659],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "classMR_1_1Const__ProjectAttributeParams.html#a34551ca9b0db2f7b62eebf73585b249b":[6,3,0,0,0,678,1],
 "classMR_1_1Const__ProjectAttributeParams.html#a6b3f74409afee1f2a1c5e5f148ac3f41":[6,3,0,0,0,678,6],
 "classMR_1_1Const__ProjectAttributeParams.html#acc5d799496584199b6351676f29158b3":[6,3,0,0,0,678,8],
-"classMR_1_1Const__ProjectAttributeParams.html#ade07f3bf9bbd1b5273bd52a370066781":[6,3,0,0,0,678,3],
-"classMR_1_1Const__QuadraticForm2d.html":[6,3,0,0,0,679]
+"classMR_1_1Const__ProjectAttributeParams.html#ade07f3bf9bbd1b5273bd52a370066781":[6,3,0,0,0,678,3]
 };

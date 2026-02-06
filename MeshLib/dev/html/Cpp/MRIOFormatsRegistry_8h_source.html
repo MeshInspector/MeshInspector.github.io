@@ -353,12 +353,11 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span> </div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>} </div>
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
-<div class="foldopen" id="foldopen00199" data-start="{" data-end="}">
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno"><a class="line" href="namespaceMR_1_1LinesLoad.html">  199</a></span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR_1_1LinesLoad.html">LinesLoad</a></div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span><span class="keyword">namespace </span>LinesLoad</div>
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>{</div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span> </div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span><span class="keyword">using </span>LinesFileLoader = Expected&lt;Polyline3&gt;( * )( <span class="keyword">const</span> std::filesystem::path&amp;, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1LinesLoadSettings.html">LinesLoadSettings</a>&amp; );</div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="keyword">using </span>LinesStreamLoader = Expected&lt;Polyline3&gt;( * )( std::istream&amp;, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1LinesLoadSettings.html">LinesLoadSettings</a>&amp; );</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span><span class="keyword">using </span>LinesFileLoader = Expected&lt;Polyline3&gt;( * )( <span class="keyword">const</span> std::filesystem::path&amp;, <span class="keyword">const</span> LinesLoadSettings&amp; );</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="keyword">using </span>LinesStreamLoader = Expected&lt;Polyline3&gt;( * )( std::istream&amp;, <span class="keyword">const</span> LinesLoadSettings&amp; );</div>
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span> </div>
 <div class="foldopen" id="foldopen00205" data-start="{" data-end="};">
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno"><a class="line" href="structMR_1_1LinesLoad_1_1LinesLoader.html">  205</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1LinesLoad_1_1LinesLoader.html">LinesLoader</a></div>
@@ -381,7 +380,6 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 </div>
 <div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span> </div>
 <div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>} </div>
-</div>
 <div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
 <div class="foldopen" id="foldopen00221" data-start="{" data-end="}">
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno"><a class="line" href="namespaceMR_1_1LinesSave.html">  221</a></span><span class="keyword">namespace </span><a class="code hl_classRef" href="../Csharp/classMR_1_1LinesSave.html">LinesSave</a></div>
@@ -642,8 +640,6 @@ $(function(){initNavTree('MRIOFormatsRegistry_8h_source.html',''); initResizable
 <div class="ttc" id="aclassMR_1_1FormatRegistry_html_ab9c42820935e63cda9a431676c136280"><div class="ttname"><a href="classMR_1_1FormatRegistry.html#ab9c42820935e63cda9a431676c136280">MR::FormatRegistry::getProcessor</a></div><div class="ttdeci">static Processor getProcessor(const IOFilter &amp;filter)</div><div class="ttdoc">get a registered loader for the filter</div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:63</div></div>
 <div class="ttc" id="aclassMR_1_1FormatRegistry_html_acb208068d64ed77ba4bbe8aa96275480"><div class="ttname"><a href="classMR_1_1FormatRegistry.html#acb208068d64ed77ba4bbe8aa96275480">MR::FormatRegistry::getProcessor</a></div><div class="ttdeci">static Processor getProcessor(const std::string &amp;extension)</div><div class="ttdoc">get a registered loader for the extension</div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:74</div></div>
 <div class="ttc" id="aclassMR_1_1IOFilter_html"><div class="ttname"><a href="../Csharp/classMR_1_1IOFilter.html">MR::IOFilter</a></div><div class="ttdef"><b>Definition</b> MRIOFilters.h:17</div></div>
-<div class="ttc" id="aclassMR_1_1LinesLoadSettings_html"><div class="ttname"><a href="../Csharp/classMR_1_1LinesLoadSettings.html">MR::LinesLoadSettings</a></div><div class="ttdef"><b>Definition</b> MRLinesLoadSettings.h:10</div></div>
-<div class="ttc" id="aclassMR_1_1LinesLoad_html"><div class="ttname"><a href="../Csharp/classMR_1_1LinesLoad.html">MR::LinesLoad</a></div></div>
 <div class="ttc" id="aclassMR_1_1LinesSave_html"><div class="ttname"><a href="../Csharp/classMR_1_1LinesSave.html">MR::LinesSave</a></div></div>
 <div class="ttc" id="aclassMR_1_1MeshLoadSettings_html"><div class="ttname"><a href="../Csharp/classMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a></div><div class="ttdef"><b>Definition</b> MRMeshLoadSettings.h:11</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectSave_1_1Settings_html"><div class="ttname"><a href="../Csharp/classMR_1_1ObjectSave_1_1Settings.html">MR::ObjectSave::Settings</a></div><div class="ttdef"><b>Definition</b> MRObjectSaveSettings.h:11</div></div>

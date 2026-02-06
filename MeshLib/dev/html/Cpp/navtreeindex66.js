@@ -1,5 +1,13 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,1,0,1,315,0],
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,2,0,2,287,0],
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777":[6,0,1,0,1,315,0,0],
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777":[6,0,2,0,2,287,0,0],
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b":[6,0,1,0,1,315,0,1],
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b":[6,0,2,0,2,287,0,1],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,1,0,1,315,1],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,2,0,2,287,1],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8":[6,0,1,0,1,315,1,1],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8":[6,0,2,0,2,287,1,1],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1":[6,0,1,0,1,315,1,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1SpaceMouse_1_1Parameters.html#a95334988bb6abd60db066c5e281a594f":[6,0,2,0,2,19,5,1],
 "structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[6,0,1,0,1,41,5,2],
 "structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[6,0,2,0,2,19,5,2],
-"structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[6,0,1,0,1,41,5,0],
-"structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[6,0,2,0,2,19,5,0],
-"structMR_1_1Sphere.html":[6,0,0,0,23],
-"structMR_1_1Sphere.html#a0146c86fafdf02efca98966d2ff841ef":[6,0,0,0,23,1],
-"structMR_1_1Sphere.html#a0254f6c6d3b7fbc30e5cb028767d85cf":[6,0,0,0,23,7],
-"structMR_1_1Sphere.html#a3bcdf3d7bbfda09b3708d12b755ac6f0":[6,0,0,0,23,3],
-"structMR_1_1Sphere.html#a7be349cb025864bef77e267cefdccd28":[6,0,0,0,23,6],
-"structMR_1_1Sphere.html#ab3dcbfdadbd1e9018e22a979ea25c6f9":[6,0,0,0,23,0],
-"structMR_1_1Sphere.html#ac468ec719d271b81a0272c541f98c940":[6,0,0,0,23,5]
+"structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[6,0,1,0,1,41,5,0]
 };

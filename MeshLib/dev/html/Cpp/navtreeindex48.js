@@ -1,5 +1,10 @@
 var NAVTREEINDEX48 =
 {
+"group__MathGroup.html#gab555a6f9afad6842444fcec85d56aded":[6,0,0,0,63],
+"group__MathGroup.html#gaba44f8d705d9bc1b98f635bdabe488ae":[6,0,0,0,25],
+"group__MathGroup.html#gabd50a577d1934b0c0a0aca008de7d541":[6,0,0,0,54],
+"group__MathGroup.html#gac1420892e3e154a187396a8dd5e65291":[6,0,0,0,60],
+"group__MathGroup.html#gac591d793fa5ee868f8255a94350e1aef":[6,0,0,0,27],
 "group__MathGroup.html#gad38e7e445e2b0faa925e3df9c0ee75a6":[6,0,0,0,59],
 "group__MathGroup.html#gad703c1d9a93f5cf4e177808cbfef4deb":[6,0,0,0,56],
 "group__MathGroup.html#gad9b8ea723d950187f862ce89900a7534":[6,0,0,0,40],
@@ -244,10 +249,5 @@ var NAVTREEINDEX48 =
 "group__PointsSaveGroup.html#gaf483fe48c6b9e28ef2cd22358d099b82":[6,0,0,2,14,1],
 "group__PolylineGroup.html":[6,0,0,14],
 "group__PolylineGroup.html#ga349201f5ba6a4ad7fe91d113e0d0d2ec":[6,0,0,14,3],
-"group__PolylineGroup.html#gaf8d65b66fff9354b3bc66388ced2283c":[6,0,0,14,4],
-"group__PolylineSubdivideGroup.html":[6,0,0,15],
-"group__PolylineSubdivideGroup.html#ga0bbd08d4c425d1f7af74133abd56be58":[6,0,0,15,1],
-"group__PolylineSubdivideGroup.html#ga7f91969af2bfe0c0487b2811d32925c9":[6,0,0,15,2],
-"group__RayBoxIntersectionGroup.html":[6,0,0,0,9],
-"group__RayBoxIntersectionGroup.html#ga710fb3f98b472e45efdd6c3671f90581":[6,0,0,0,9,1]
+"group__PolylineGroup.html#gaf8d65b66fff9354b3bc66388ced2283c":[6,0,0,14,4]
 };

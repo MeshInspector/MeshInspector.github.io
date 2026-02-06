@@ -1,5 +1,9 @@
 var NAVTREEINDEX94 =
 {
+"classMR_1_1NodeBitSet.html#ada92b23eb21034172a65ec471bb01a47":[6,3,0,0,0,1106,35],
+"classMR_1_1NodeBitSet.html#ae00f7c756f5711a67065aecefca275bd":[6,3,0,0,0,1106,32],
+"classMR_1_1NodeBitSet.html#ae0bb0f6cb68cd48b2fd063abd222a35f":[6,3,0,0,0,1106,6],
+"classMR_1_1NodeBitSet.html#ae6c4e85055549c5f412be8c400c63966":[6,3,0,0,0,1106,21],
 "classMR_1_1NodeBitSet.html#ae86e02e994855f7f2bb7fd849db26821":[6,3,0,0,0,1106,27],
 "classMR_1_1ObjBitSet.html":[6,3,0,0,0,1122],
 "classMR_1_1ObjBitSet.html#a0c79262f87b6ed1535b8ca725fcb126d":[6,3,0,0,0,1122,34],
@@ -245,9 +249,5 @@ var NAVTREEINDEX94 =
 "classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap.html#abe3e8d990c56dcc3621a275cfc3b15db":[6,3,0,0,0,9,2,5],
 "classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters.html":[6,3,0,0,0,9,3],
 "classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters.html#a05eda17416e1b6dab872d943c9aaa54d":[6,3,0,0,0,9,3,5],
-"classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters.html#a1681d31a315932eebda1668adc2670e6":[6,3,0,0,0,9,3,3],
-"classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters.html#a1bb140a570b9dffc2f4168a29c8cd6e2":[6,3,0,0,0,9,3,6],
-"classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters.html#a3bb55add2affdd0da667ad543b99e664":[6,3,0,0,0,9,3,2],
-"classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters.html#a50475840b866834201044afbc0ab313d":[6,3,0,0,0,9,3,7],
-"classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters.html#abc494fc315bb5e70df905747e408c6ac":[6,3,0,0,0,9,3,0]
+"classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters.html#a1681d31a315932eebda1668adc2670e6":[6,3,0,0,0,9,3,3]
 };

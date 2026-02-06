@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"classMR_1_1Features.html#a0080c8c5bd50fbbc8f2865e9863a2fba":[6,3,0,0,0,999,17],
 "classMR_1_1Features.html#a031e403055c1ed84cd1cc88f501c75b3":[6,3,0,0,0,999,13],
 "classMR_1_1Features.html#a1098f41c952afd1d5d0663fbe434e3fc":[6,3,0,0,0,999,16],
 "classMR_1_1Features.html#a179386bd1ff72d51a5e218035f9a1fd8":[6,3,0,0,0,999,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html#a9e6f63b71222c7f06d4fdb780a048f80":[6,3,0,0,0,0,1,10,5],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html#adbfef8f29ab1c5bf067ad7b721cd5932":[6,3,0,0,0,0,1,10,4],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html#af0b90a8b36e6f4f92ff3753779d37f8f":[6,3,0,0,0,0,1,10,0],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html#af6e20cc934594b72f356223e38d21fad":[6,3,0,0,0,0,1,10,3],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f.html":[6,3,0,0,0,0,1,11]
+"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html#af6e20cc934594b72f356223e38d21fad":[6,3,0,0,0,0,1,10,3]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7":[6,0,2,0,2,220,0,0],
+"structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[6,0,1,0,1,248,0,3],
+"structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[6,0,2,0,2,220,0,3],
+"structMR_1_1Palette_1_1Label.html#ae6199d36ccd109e8875ae47368e79a0d":[6,0,1,0,1,248,0,2],
+"structMR_1_1Palette_1_1Label.html#ae6199d36ccd109e8875ae47368e79a0d":[6,0,2,0,2,220,0,2],
+"structMR_1_1Palette_1_1Parameters.html":[6,0,1,0,1,248,1],
+"structMR_1_1Palette_1_1Parameters.html":[6,0,2,0,2,220,1],
+"structMR_1_1Palette_1_1Parameters.html#a10918a054375c316bd8e2fcb0685a726":[6,0,1,0,1,248,1,0],
 "structMR_1_1Palette_1_1Parameters.html#a10918a054375c316bd8e2fcb0685a726":[6,0,2,0,2,220,1,0],
 "structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113":[6,0,1,0,1,248,1,1],
 "structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113":[6,0,2,0,2,220,1,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1PostDrawListener.html#a6d4baebc484718242dcb7de8e2d75b24":[6,0,2,0,2,242,0],
 "structMR_1_1PostDrawListener.html#ad257fd42a294be0f29daa5eb4ad27cbd":[6,0,1,0,1,270,2],
 "structMR_1_1PostDrawListener.html#ad257fd42a294be0f29daa5eb4ad27cbd":[6,0,2,0,2,242,2],
-"structMR_1_1PostFocusListener.html":[6,0,1,0,1,271],
-"structMR_1_1PostFocusListener.html":[6,0,2,0,2,243],
-"structMR_1_1PostFocusListener.html#a38251f795111e912a45ad68a7c13ca21":[6,0,1,0,1,271,3],
-"structMR_1_1PostFocusListener.html#a38251f795111e912a45ad68a7c13ca21":[6,0,2,0,2,243,3],
-"structMR_1_1PostFocusListener.html#ac6da51dc62db3e216930fa626bd53dd3":[6,0,1,0,1,271,2],
-"structMR_1_1PostFocusListener.html#ac6da51dc62db3e216930fa626bd53dd3":[6,0,2,0,2,243,2],
-"structMR_1_1PostFocusListener.html#ac88ae46c3a44734665f38071133b6260":[6,0,1,0,1,271,0],
-"structMR_1_1PostFocusListener.html#ac88ae46c3a44734665f38071133b6260":[6,0,2,0,2,243,0],
-"structMR_1_1PostFocusListener.html#aca372f013f9f8d45231243ef9488c0c0":[6,0,1,0,1,271,1]
+"structMR_1_1PostFocusListener.html":[6,0,1,0,1,271]
 };

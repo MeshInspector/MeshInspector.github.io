@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"classMR_1_1Const__TexturePerFace.html#ac4b343531d4f52eb7e9b4f48e471c4d3":[6,3,0,0,0,765,11],
 "classMR_1_1Const__TexturePerFace.html#acd3a55a100ff566a92dfc18a6d564410":[6,3,0,0,0,765,9],
 "classMR_1_1Const__TexturePerFace.html#ad6226a842f4db9564d9e0b0e292b8b7d":[6,3,0,0,0,765,19],
 "classMR_1_1Const__TexturePerFace.html#ae7dd7b4391c8458f3f041a32a03b54de":[6,3,0,0,0,765,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "classMR_1_1Const__TriangleSegmentIntersectResult.html":[6,3,0,0,0,774],
 "classMR_1_1Const__TriangleSegmentIntersectResult.html#a0aed1e0449b095a396b016e9095802ca":[6,3,0,0,0,774,3],
 "classMR_1_1Const__TriangleSegmentIntersectResult.html#a0d8e48340252be543746b69430ff8fd9":[6,3,0,0,0,774,7],
-"classMR_1_1Const__TriangleSegmentIntersectResult.html#a2709b6fc6f0229b725daf69aa0be1550":[6,3,0,0,0,774,2],
-"classMR_1_1Const__TriangleSegmentIntersectResult.html#a44c883d03c284c8433840d12be70d1e6":[6,3,0,0,0,774,10]
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#a2709b6fc6f0229b725daf69aa0be1550":[6,3,0,0,0,774,2]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1MinArg.html":[6,0,2,0,2,182],
+"structMR_1_1MinArg.html#a390b27154863521ab2f36edc39b42011":[6,0,1,0,1,210,0],
+"structMR_1_1MinArg.html#a390b27154863521ab2f36edc39b42011":[6,0,2,0,2,182,0],
+"structMR_1_1MinArg.html#a539cbb55f4a4e7957683ce73c06d5f59":[6,0,1,0,1,210,5],
+"structMR_1_1MinArg.html#a539cbb55f4a4e7957683ce73c06d5f59":[6,0,2,0,2,182,5],
+"structMR_1_1MinArg.html#a731dfaa5ec4094892a6629e4f9c91128":[6,0,1,0,1,210,1],
+"structMR_1_1MinArg.html#a731dfaa5ec4094892a6629e4f9c91128":[6,0,2,0,2,182,1],
+"structMR_1_1MinArg.html#a90ff34f715406ed3ab55e23094cb6141":[6,0,1,0,1,210,2],
 "structMR_1_1MinArg.html#a90ff34f715406ed3ab55e23094cb6141":[6,0,2,0,2,182,2],
 "structMR_1_1MinArg.html#a98309147e2dce0ddfc1339a81e3fb55d":[6,0,1,0,1,210,4],
 "structMR_1_1MinArg.html#a98309147e2dce0ddfc1339a81e3fb55d":[6,0,2,0,2,182,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1Palette_1_1Label.html#a4769f047eb65795ab044c83c164d747f":[6,0,2,0,2,220,0,4],
 "structMR_1_1Palette_1_1Label.html#a9fb9db8edb847b9fa9b2d46e2f216bdb":[6,0,1,0,1,248,0,1],
 "structMR_1_1Palette_1_1Label.html#a9fb9db8edb847b9fa9b2d46e2f216bdb":[6,0,2,0,2,220,0,1],
-"structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7":[6,0,1,0,1,248,0,0],
-"structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7":[6,0,2,0,2,220,0,0],
-"structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[6,0,1,0,1,248,0,3],
-"structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[6,0,2,0,2,220,0,3],
-"structMR_1_1Palette_1_1Label.html#ae6199d36ccd109e8875ae47368e79a0d":[6,0,1,0,1,248,0,2],
-"structMR_1_1Palette_1_1Label.html#ae6199d36ccd109e8875ae47368e79a0d":[6,0,2,0,2,220,0,2],
-"structMR_1_1Palette_1_1Parameters.html":[6,0,1,0,1,248,1],
-"structMR_1_1Palette_1_1Parameters.html":[6,0,2,0,2,220,1],
-"structMR_1_1Palette_1_1Parameters.html#a10918a054375c316bd8e2fcb0685a726":[6,0,1,0,1,248,1,0]
+"structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7":[6,0,1,0,1,248,0,0]
 };

@@ -177,6 +177,7 @@ var NAVTREEINDEX1 =
 "MRSurfaceLineOffset_8cs.html":[6,3,1,0,0,0,1,320],
 "MRSurfacePath_8cs.html":[6,3,1,0,0,0,1,321],
 "MRSurroundingContour_8cs.html":[6,3,1,0,0,0,1,322],
+"MRSvg_8cs.html":[6,3,1,0,0,0,0,10],
 "MRSweptVolume_8cs.html":[6,3,1,0,0,0,3,23],
 "MRSymMatrix2_8cs.html":[6,3,1,0,0,0,1,323],
 "MRSymMatrix3_8cs.html":[6,3,1,0,0,0,1,324],
@@ -188,7 +189,7 @@ var NAVTREEINDEX1 =
 "MRTerrainTriangulation_8cs.html":[6,3,1,0,0,0,1,328],
 "MRTextureColors_8cs.html":[6,3,1,0,0,0,1,329],
 "MRTiffIO_8cs.html":[6,3,1,0,0,0,1,330],
-"MRTiff_8cs.html":[6,3,1,0,0,0,0,10],
+"MRTiff_8cs.html":[6,3,1,0,0,0,0,11],
 "MRTimer_8cs.html":[6,3,1,0,0,0,1,331],
 "MRToolPath_8cs.html":[6,3,1,0,0,0,3,25],
 "MRTorus_8cs.html":[6,3,1,0,0,0,1,332],
@@ -231,7 +232,7 @@ var NAVTREEINDEX1 =
 "MRWeightedPointsShell_8cs.html":[6,3,1,0,0,0,3,39],
 "MRXfBasedCache_8cs.html":[6,3,1,0,0,0,1,356],
 "MRZip_8cs.html":[6,3,1,0,0,0,1,357],
-"MRZlib_8cs.html":[6,3,1,0,0,0,0,11],
+"MRZlib_8cs.html":[6,3,1,0,0,0,0,12],
 "annotated.html":[6,3,0,0],
 "classMR.html":[6,3,0,0,1],
 "classMR.html#a004662d1c973e6773e113a6adc7c237d":[6,3,0,0,1,525],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "classMR.html#a025b21916135fedc41203bd96add9132":[6,3,0,0,1,1050],
 "classMR.html#a0281f07abce8bc79dc9b58cbd8ebf256":[6,3,0,0,1,756],
 "classMR.html#a029e580cd0bc81f9fa73f482c1085532":[6,3,0,0,1,649],
-"classMR.html#a03492207be6dbd76f7eab7d2a2c4a08f":[6,3,0,0,1,858],
-"classMR.html#a035350981c49fa45e2ec296b1d766c09":[6,3,0,0,1,485]
+"classMR.html#a03492207be6dbd76f7eab7d2a2c4a08f":[6,3,0,0,1,858]
 };

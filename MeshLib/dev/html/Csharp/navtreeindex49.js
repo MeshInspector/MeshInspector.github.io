@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1Const__MeshToDistanceMapParams.html#a3bb4f6f4a673c09f1bbffeb0b627230b":[6,3,0,0,0,506,25],
 "classMR_1_1Const__MeshToDistanceMapParams.html#a3e4d3afa23f3eb8dec97c33016e4cc6d":[6,3,0,0,0,506,24],
 "classMR_1_1Const__MeshToDistanceMapParams.html#a47a4efa7779a2542f14358b345529a41":[6,3,0,0,0,506,28],
 "classMR_1_1Const__MeshToDistanceMapParams.html#a4ba098de452ca63068b3d08c6cc80e01":[6,3,0,0,0,506,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "classMR_1_1Const__MinMaxArg__Float__MRVertId.html#a2679714e194a15f1282e978ae778f15a":[6,3,0,0,0,515,13],
 "classMR_1_1Const__MinMaxArg__Float__MRVertId.html#a35de715308bab5f52a52283ea11b9ae2":[6,3,0,0,0,515,12],
 "classMR_1_1Const__MinMaxArg__Float__MRVertId.html#a4c94eb7956e52918ef0fd711477faf3f":[6,3,0,0,0,515,6],
-"classMR_1_1Const__MinMaxArg__Float__MRVertId.html#a5eb68471014b850529578c8c69cfc6ec":[6,3,0,0,0,515,1],
-"classMR_1_1Const__MinMaxArg__Float__MRVertId.html#a98534bd6e356e59f42cecf84ff353679":[6,3,0,0,0,515,5]
+"classMR_1_1Const__MinMaxArg__Float__MRVertId.html#a5eb68471014b850529578c8c69cfc6ec":[6,3,0,0,0,515,1]
 };

@@ -10,6 +10,7 @@ var dir_9cae32c10b9597d16ccd7aa6ea6ded9e =
     [ "MRPdf.cs", "MRPdf_8cs.html", "MRPdf_8cs" ],
     [ "MRPng.cs", "MRPng_8cs.html", "MRPng_8cs" ],
     [ "MRStep.cs", "MRStep_8cs.html", "MRStep_8cs" ],
+    [ "MRSvg.cs", "MRSvg_8cs.html", "MRSvg_8cs" ],
     [ "MRTiff.cs", "MRTiff_8cs.html", "MRTiff_8cs" ],
     [ "MRZlib.cs", "MRZlib_8cs.html", "MRZlib_8cs" ]
 ];

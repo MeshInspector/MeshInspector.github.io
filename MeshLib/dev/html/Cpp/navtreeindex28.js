@@ -1,5 +1,10 @@
 var NAVTREEINDEX28 =
 {
+"classMR_1_1ObjectTransformWidget.html#af0815d7c982b35b0dbe7f2e0abc9d583":[6,0,1,0,1,234,16],
+"classMR_1_1ObjectTransformWidget.html#af0815d7c982b35b0dbe7f2e0abc9d583":[6,0,2,0,2,206,16],
+"classMR_1_1ObjectTransformWidget.html#af79205647930755e882de85d4796b7e8":[6,0,1,0,1,234,2],
+"classMR_1_1ObjectTransformWidget.html#af79205647930755e882de85d4796b7e8":[6,0,2,0,2,206,2],
+"classMR_1_1ObjectTransformWidget.html#afcaee844badd2f2b918d558053da6e7e":[6,0,1,0,1,234,19],
 "classMR_1_1ObjectTransformWidget.html#afcaee844badd2f2b918d558053da6e7e":[6,0,2,0,2,206,19],
 "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html":[6,0,1,0,1,234,0],
 "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html":[6,0,2,0,2,206,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX28 =
 "classMR_1_1PartialChangeMeshAction.html#ad2d0abad0e0e239ed0ec0133326d4c22":[6,0,0,4,40,4],
 "classMR_1_1PartialChangeMeshAction.html#ae9b50fc2bece8a066334d3e5b4d0ea7a":[6,0,0,4,40,3],
 "classMR_1_1PartialChangeMeshDataAction.html":[6,0,0,4,11],
-"classMR_1_1PartialChangeMeshDataAction.html#a6fb0b3199a9db815b42304cd9696f11f":[6,0,0,4,11,1],
-"classMR_1_1PartialChangeMeshDataAction.html#a8255765ae83c4e2520dff85d5a0b4a4c":[6,0,0,4,11,2],
-"classMR_1_1PartialChangeMeshDataAction.html#a8994ed8d60ac529bd9bf0411b2c65570":[6,0,0,4,11,3],
-"classMR_1_1PartialChangeMeshDataAction.html#ae2cdd7997f342d4d349a4e36d92936c1":[6,0,0,4,11,0],
-"classMR_1_1PartialChangeMeshPointsAction.html":[6,0,0,4,41],
-"classMR_1_1PartialChangeMeshPointsAction.html#a00bc088134919ea3d5c4718c68457efd":[6,0,0,4,41,6]
+"classMR_1_1PartialChangeMeshDataAction.html#a6fb0b3199a9db815b42304cd9696f11f":[6,0,0,4,11,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1Const__ContoursDistanceMapOptions.html#a4dfbdf0f08e3269829b8e5119a0be440":[6,3,0,0,0,290,4],
 "classMR_1_1Const__ContoursDistanceMapOptions.html#a731dea3c5501f34c9d49a28573546e20":[6,3,0,0,0,290,7],
 "classMR_1_1Const__ContoursDistanceMapOptions.html#a88cf0f041142d17c156d4c95634974dd":[6,3,0,0,0,290,14],
 "classMR_1_1Const__ContoursDistanceMapOptions.html#a9e7afd3100ad3c6fddd8040fd6f8ff1a":[6,3,0,0,0,290,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1Const__CylinderObject.html#ad130f34b7389613fab37c1631f07dc06":[6,3,0,0,0,305,54],
 "classMR_1_1Const__CylinderObject.html#ad2abbe8ae0b50a6b89eedb69c9077d0a":[6,3,0,0,0,305,63],
 "classMR_1_1Const__CylinderObject.html#ad55ecfb73626007a70330ef948e78ca7":[6,3,0,0,0,305,92],
-"classMR_1_1Const__CylinderObject.html#ad5d1a75886e9474c42ab16163e47d81e":[6,3,0,0,0,305,49],
-"classMR_1_1Const__CylinderObject.html#ad8af40ba1d0c1f144cd98c1cf3ad6f77":[6,3,0,0,0,305,50]
+"classMR_1_1Const__CylinderObject.html#ad5d1a75886e9474c42ab16163e47d81e":[6,3,0,0,0,305,49]
 };

@@ -170,6 +170,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ad8e5a8dcb778666430925ab934e36109"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1200be4943b7c34445501784e053fcf" id="r_aa1200be4943b7c34445501784e053fcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1200be4943b7c34445501784e053fcf">fromPts</a> (typing.Any in_, <a class="el" href="classmrmeshpy_1_1LinesLoadSettings.html">LinesLoadSettings</a> settings=...)</td></tr>
 <tr class="separator:aa1200be4943b7c34445501784e053fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29fcdc08f3447b14570ece6b1926a47e" id="r_a29fcdc08f3447b14570ece6b1926a47e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29fcdc08f3447b14570ece6b1926a47e">fromSvg</a> (os.PathLike|str|bytes file, <a class="el" href="classmrmeshpy_1_1LinesLoadSettings.html">LinesLoadSettings</a> settings=...)</td></tr>
+<tr class="separator:a29fcdc08f3447b14570ece6b1926a47e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8791142c0aa7b0e236c5d8e8d625e764" id="r_a8791142c0aa7b0e236c5d8e8d625e764"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8791142c0aa7b0e236c5d8e8d625e764">fromSvg</a> (str data, int <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>, <a class="el" href="classmrmeshpy_1_1LinesLoadSettings.html">LinesLoadSettings</a> settings=...)</td></tr>
+<tr class="separator:a8791142c0aa7b0e236c5d8e8d625e764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6171276a266d0678ce65180e49edc570" id="r_a6171276a266d0678ce65180e49edc570"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6171276a266d0678ce65180e49edc570">fromSvg</a> (typing.Any in_, <a class="el" href="classmrmeshpy_1_1LinesLoadSettings.html">LinesLoadSettings</a> settings=...)</td></tr>
+<tr class="separator:a6171276a266d0678ce65180e49edc570"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">This is a namespace.
@@ -420,6 +426,99 @@ important on Windows: in stream must be open in binary mode
 </div><div class="memdoc">
 <pre class="fragment">loads polyline from stream in .PTS format
 </pre> 
+</div>
+</div>
+<a id="a29fcdc08f3447b14570ece6b1926a47e" name="a29fcdc08f3447b14570ece6b1926a47e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29fcdc08f3447b14570ece6b1926a47e">&#9670;&#160;</a></span>fromSvg() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a> mrmeshpy.LinesLoad.fromSvg </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike | str | bytes</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1LinesLoadSettings.html">LinesLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">...</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads shapes (polylines, paths, etc.) from file in .SVG format
+</pre> 
+</div>
+</div>
+<a id="a8791142c0aa7b0e236c5d8e8d625e764" name="a8791142c0aa7b0e236c5d8e8d625e764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8791142c0aa7b0e236c5d8e8d625e764">&#9670;&#160;</a></span>fromSvg() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a> mrmeshpy.LinesLoad.fromSvg </td>
+          <td>(</td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1LinesLoadSettings.html">LinesLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">...</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6171276a266d0678ce65180e49edc570" name="a6171276a266d0678ce65180e49edc570"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6171276a266d0678ce65180e49edc570">&#9670;&#160;</a></span>fromSvg() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a> mrmeshpy.LinesLoad.fromSvg </td>
+          <td>(</td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1LinesLoadSettings.html">LinesLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">...</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

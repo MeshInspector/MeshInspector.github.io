@@ -1,5 +1,13 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a22afe5fdd5b2015b479bc26a6e200972":[6,0,1,0,1,409,0],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a22afe5fdd5b2015b479bc26a6e200972":[6,0,2,0,2,381,0],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a56753f530eab33ccb8f1c7c34ec618fa":[6,0,1,0,1,409,2],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a56753f530eab33ccb8f1c7c34ec618fa":[6,0,2,0,2,381,2],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a699126c1c4c296d0dcfd76964121d306":[6,0,1,0,1,409,1],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a699126c1c4c296d0dcfd76964121d306":[6,0,2,0,2,381,1],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#aef526e0582b51edc407c765caedd0b9b":[6,0,1,0,1,409,3],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#aef526e0582b51edc407c765caedd0b9b":[6,0,2,0,2,381,3],
 "structMR_1_1TouchpadZoomGestureBeginListener.html":[6,0,1,0,1,410],
 "structMR_1_1TouchpadZoomGestureBeginListener.html":[6,0,2,0,2,382],
 "structMR_1_1TouchpadZoomGestureBeginListener.html#a2ba6b0096c5e4c6d7e2474ea754cf3b1":[6,0,1,0,1,410,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1UI_1_1TestEngine_1_1Entry.html#a3309a8b2efa0022bdc883adca847c9ae":[6,0,1,0,1,44,2,2,3],
 "structMR_1_1UI_1_1TestEngine_1_1Entry.html#a3309a8b2efa0022bdc883adca847c9ae":[6,0,2,0,2,20,0,2,3],
 "structMR_1_1UI_1_1TestEngine_1_1Entry.html#ab746b066f53a20f78e0fb97a552fb166":[6,0,1,0,1,44,2,2,1],
-"structMR_1_1UI_1_1TestEngine_1_1Entry.html#ab746b066f53a20f78e0fb97a552fb166":[6,0,2,0,2,20,0,2,1],
-"structMR_1_1UI_1_1TestEngine_1_1Entry.html#abb71bca53888829df56285ca657ddb72":[6,0,1,0,1,44,2,2,2],
-"structMR_1_1UI_1_1TestEngine_1_1Entry.html#abb71bca53888829df56285ca657ddb72":[6,0,2,0,2,20,0,2,2],
-"structMR_1_1UI_1_1TestEngine_1_1Entry.html#af1c045de66225bb1643e95fe69e9c370":[6,0,1,0,1,44,2,2,4],
-"structMR_1_1UI_1_1TestEngine_1_1Entry.html#af1c045de66225bb1643e95fe69e9c370":[6,0,2,0,2,20,0,2,4],
-"structMR_1_1UI_1_1TestEngine_1_1Entry.html#af990d8e37018eb62dd57a502b644717c":[6,0,1,0,1,44,2,2,0],
-"structMR_1_1UI_1_1TestEngine_1_1Entry.html#af990d8e37018eb62dd57a502b644717c":[6,0,2,0,2,20,0,2,0],
-"structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html":[6,0,1,0,1,44,2,3],
-"structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html":[6,0,2,0,2,20,0,3]
+"structMR_1_1UI_1_1TestEngine_1_1Entry.html#ab746b066f53a20f78e0fb97a552fb166":[6,0,2,0,2,20,0,2,1]
 };
