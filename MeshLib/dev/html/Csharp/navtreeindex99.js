@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1TexturePerFace.html#af328c8ac5c52598203aadec8ea461000":[6,3,0,0,0,1216,8],
+"classMR_1_1TriCornerUVCoords.html":[6,3,0,0,0,1219],
 "classMR_1_1TriCornerUVCoords.html#a01be01340b4c18dca2811bd76cf59e10":[6,3,0,0,0,1219,21],
 "classMR_1_1TriCornerUVCoords.html#a053fbe841b32758e638e476439906fa3":[6,3,0,0,0,1219,11],
 "classMR_1_1TriCornerUVCoords.html#a1383c4d6342d8d156fdc2a511ed3948a":[6,3,0,0,0,1219,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1UndirectedEdgeBMap.html#adaec44cb7dede089dae717ba427c9aa9":[6,3,0,0,0,1225,0],
 "classMR_1_1UndirectedEdgeBMap.html#af4d289dc8143db5ef30ffc80b8b54e22":[6,3,0,0,0,1225,4],
 "classMR_1_1UndirectedEdgeBMap.html#aff790525ebb5e4bdee67ce3411191ea7":[6,3,0,0,0,1225,2],
-"classMR_1_1UndirectedEdgeBitSet.html":[6,3,0,0,0,1224],
-"classMR_1_1UndirectedEdgeBitSet.html#a016d87ef640a83900ae3733c5f4b6a6c":[6,3,0,0,0,1224,16],
-"classMR_1_1UndirectedEdgeBitSet.html#a0f7278f489b5fee16a4b167fd4eb1294":[6,3,0,0,0,1224,34]
+"classMR_1_1UndirectedEdgeBitSet.html":[6,3,0,0,0,1224]
 };

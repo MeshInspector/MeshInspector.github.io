@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"classMR_1_1NodeBitSet.html#aa942299e8807146ee7a019b52195df84":[6,3,0,0,0,1106,23],
+"classMR_1_1NodeBitSet.html#aa973ff9e831565aeb8303fd8cbed8b21":[6,3,0,0,0,1106,22],
 "classMR_1_1NodeBitSet.html#aadd4f086ac020ecf9d62328b95bcb857":[6,3,0,0,0,1106,19],
 "classMR_1_1NodeBitSet.html#aae32644a49a5156a705a8b4ea67e8760":[6,3,0,0,0,1106,24],
 "classMR_1_1NodeBitSet.html#abd3206caeed950f110dd33c5b6510559":[6,3,0,0,0,1106,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap.html#a21f0397c8f70d2bf5809a73d51b6db2b":[6,3,0,0,0,9,2,2],
 "classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap.html#a3b10be7bfde7a77b0f0f3b96b3d37ba1":[6,3,0,0,0,9,2,7],
 "classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap.html#a67785331ec14d195bf3968bb0490d165":[6,3,0,0,0,9,2,9],
-"classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap.html#a7c1ff6c1cba9d6e23fc3086737bfcb6e":[6,3,0,0,0,9,2,1],
-"classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap.html#a98d5f2969b404dfff7869913af08cc41":[6,3,0,0,0,9,2,6],
-"classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap.html#aa9bec0037cbe596b86cee10ccb7c0080":[6,3,0,0,0,9,2,0]
+"classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap.html#a7c1ff6c1cba9d6e23fc3086737bfcb6e":[6,3,0,0,0,9,2,1]
 };

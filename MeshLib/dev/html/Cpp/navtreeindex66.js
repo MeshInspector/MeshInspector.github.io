@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1RibbonMenuUIConfig.html#ae6822db982eca1e5929cebbf20f784a9":[6,0,2,0,2,293,4],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,1,0,1,315,0],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,2,0,2,287,0],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777":[6,0,1,0,1,315,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1SpaceMouse_1_1Parameters.html#a95334988bb6abd60db066c5e281a594f":[6,0,1,0,1,41,5,1],
 "structMR_1_1SpaceMouse_1_1Parameters.html#a95334988bb6abd60db066c5e281a594f":[6,0,2,0,2,19,5,1],
 "structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[6,0,1,0,1,41,5,2],
-"structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[6,0,2,0,2,19,5,2],
-"structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[6,0,1,0,1,41,5,0]
+"structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[6,0,2,0,2,19,5,2]
 };

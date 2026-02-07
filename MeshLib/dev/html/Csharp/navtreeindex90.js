@@ -1,5 +1,7 @@
 var NAVTREEINDEX90 =
 {
+"classMR_1_1Line3Mesh__Double.html":[6,3,0,0,0,1038],
+"classMR_1_1Line3Mesh__Double.html#a01ddf2b93a7647087af52da52be1e6c0":[6,3,0,0,0,1038,6],
 "classMR_1_1Line3Mesh__Double.html#a071cb9413989670fd61bf0eee8283c03":[6,3,0,0,0,1038,7],
 "classMR_1_1Line3Mesh__Double.html#a1158698c907dbb50b048e544a76e06ae":[6,3,0,0,0,1038,1],
 "classMR_1_1Line3Mesh__Double.html#a23a03750f5b82504818bff54d616d196":[6,3,0,0,0,1038,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX90 =
 "classMR_1_1Matrix3__Double_1_1QR.html#a5f241a8e1a2f6c872e356687e424cd29":[6,3,0,0,0,1061,1,0],
 "classMR_1_1Matrix3__Double_1_1QR.html#a9a491d6bcc16c9a92a669b56b964897c":[6,3,0,0,0,1061,1,3],
 "classMR_1_1Matrix3__Double_1_1QR.html#ab7ca7cf3064a685e24b38f3f98fc2053":[6,3,0,0,0,1061,1,5],
-"classMR_1_1Matrix3__Float.html":[6,3,0,0,0,1062],
-"classMR_1_1Matrix3__Float_1_1Const__QR.html":[6,3,0,0,0,1062,0],
-"classMR_1_1Matrix3__Float_1_1Const__QR.html#a14f312417e82b083e75fd5ce4a318d94":[6,3,0,0,0,1062,0,1]
+"classMR_1_1Matrix3__Float.html":[6,3,0,0,0,1062]
 };

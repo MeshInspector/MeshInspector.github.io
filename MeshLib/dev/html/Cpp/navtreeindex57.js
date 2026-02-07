@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"structMR_1_1AncillaryLines.html#a19beda95a4a3a81962c578366d47ea85":[6,0,1,0,1,60,0],
 "structMR_1_1AncillaryLines.html#a19beda95a4a3a81962c578366d47ea85":[6,0,2,0,2,32,0],
 "structMR_1_1AncillaryLines.html#a1fd7e0a12343aa6772c5231a36d628d7":[6,0,1,0,1,60,8],
 "structMR_1_1AncillaryLines.html#a1fd7e0a12343aa6772c5231a36d628d7":[6,0,2,0,2,32,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[6,0,2,0,2,65,0],
 "structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[6,0,1,0,1,93,5],
 "structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[6,0,2,0,2,65,5],
-"structMR_1_1ConeFittingFunctor.html#a75f4a1b12abfd495f279861dbfe344c6":[6,0,1,0,1,93,6],
-"structMR_1_1ConeFittingFunctor.html#a75f4a1b12abfd495f279861dbfe344c6":[6,0,2,0,2,65,6]
+"structMR_1_1ConeFittingFunctor.html#a75f4a1b12abfd495f279861dbfe344c6":[6,0,1,0,1,93,6]
 };

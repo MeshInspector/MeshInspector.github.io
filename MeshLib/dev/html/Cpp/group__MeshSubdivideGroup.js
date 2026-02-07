@@ -2,13 +2,14 @@ var group__MeshSubdivideGroup =
 [
     [ "MR::SubdivideSettings", "../Csharp/classMR_1_1SubdivideSettings.html", [
       [ "SubdivideSettings", "../Csharp/classMR_1_1SubdivideSettings.html#afab9ec8867cf7ea966aca70cd693d026", null ],
-      [ "SubdivideSettings", "../Csharp/classMR_1_1SubdivideSettings.html#a06ccf85c000a4f350b7195e11c285f3c", null ],
+      [ "SubdivideSettings", "../Csharp/classMR_1_1SubdivideSettings.html#aa61ce8019cfff91839ab6e34b700f406", null ],
       [ "SubdivideSettings", "../Csharp/classMR_1_1SubdivideSettings.html#a77e5fc9232369309ce10093b3e9a59cd", null ],
       [ "SubdivideSettings", "../Csharp/classMR_1_1SubdivideSettings.html#ae4cbe5558e198bc0824fb591d201b2dc", null ],
       [ "SubdivideSettings", "../Csharp/classMR_1_1SubdivideSettings.html#a73f6656f15457ff261608dca9bde93b0", null ],
       [ "assign", "../Csharp/classMR_1_1SubdivideSettings.html#ac0725c0a8ca1e72ee28c30686ef32d02", null ],
       [ "beforeEdgeSplit", "../Csharp/classMR_1_1SubdivideSettings.html#a67877f5bb4f990a1e522dee95cd7bc09", null ],
       [ "criticalAspectRatioFlip", "../Csharp/classMR_1_1SubdivideSettings.html#a092d79fdac95176ce7e847dbddcad5d6", null ],
+      [ "curvaturePriority", "../Csharp/classMR_1_1SubdivideSettings.html#a8d99f49dc37c6498272faa11636cf423", null ],
       [ "maintainRegion", "../Csharp/classMR_1_1SubdivideSettings.html#aef7b0f16597505fa1847a9a38cb3164c", null ],
       [ "maxAngleChangeAfterFlip", "../Csharp/classMR_1_1SubdivideSettings.html#a578ede60bcf4fe7f86f15abbb22ae89d", null ],
       [ "maxDeviationAfterFlip", "../Csharp/classMR_1_1SubdivideSettings.html#a52c5c6b56c332b0fe279fcdb4b2bfeb8", null ],

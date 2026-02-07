@@ -2,6 +2,7 @@ var structMR_1_1SubdivideSettings =
 [
     [ "beforeEdgeSplit", "../Cpp/structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8", null ],
     [ "criticalAspectRatioFlip", "../Cpp/structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30", null ],
+    [ "curvaturePriority", "../Cpp/structMR_1_1SubdivideSettings.html#ae48504fe6f54fb67dee57969d77efc43", null ],
     [ "maintainRegion", "../Cpp/structMR_1_1SubdivideSettings.html#acfa476aa1e7c9c2507f12fde82a81f8f", null ],
     [ "maxAngleChangeAfterFlip", "../Cpp/structMR_1_1SubdivideSettings.html#ac22dd26860cd94e68e46004cd88fc7ce", null ],
     [ "maxDeviationAfterFlip", "../Cpp/structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476", null ],

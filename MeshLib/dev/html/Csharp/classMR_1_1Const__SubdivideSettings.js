@@ -1,7 +1,7 @@
 var classMR_1_1Const__SubdivideSettings =
 [
     [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#a14fd7dd1a38583764e857562c06685a3", null ],
-    [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#a42aa4749a018b62f833ba9024c77e28b", null ],
+    [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#a3badeee18d2b74421c76670428618a22", null ],
     [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#a188023ed4a15e58cb7783f4f1a85324d", null ],
     [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#a3664ca2c880c12fcf523182869c4dc82", null ],
     [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#acc527c301f6bd4852405291464a392af", null ],
@@ -12,6 +12,7 @@ var classMR_1_1Const__SubdivideSettings =
     [ "__ptr_storage_notFlippable", "classMR_1_1Const__SubdivideSettings.html#a437c7a3fac90b99934a08a339de96828", null ],
     [ "__ptr_storage_region", "classMR_1_1Const__SubdivideSettings.html#a4fe96a0f5d438ed9abde58eb846cda23", null ],
     [ "__ref_storage_criticalAspectRatioFlip", "classMR_1_1Const__SubdivideSettings.html#a35d30ecfa1ebe9be2afe0dc7bea8515c", null ],
+    [ "__ref_storage_curvaturePriority", "classMR_1_1Const__SubdivideSettings.html#af07f3985ef5452be346bc3e5c2e05d84", null ],
     [ "__ref_storage_maxAngleChangeAfterFlip", "classMR_1_1Const__SubdivideSettings.html#a5e22d9aa1f62192db0154e218cf05a9e", null ],
     [ "__ref_storage_maxDeviationAfterFlip", "classMR_1_1Const__SubdivideSettings.html#ad12b94f8a0963e2569c82d8c3631104e", null ],
     [ "__ref_storage_maxEdgeLen", "classMR_1_1Const__SubdivideSettings.html#a8bd6fe6414315a8f7233bd6131be2b38", null ],
@@ -24,6 +25,7 @@ var classMR_1_1Const__SubdivideSettings =
     [ "__ref_storage_subdivideBorder", "classMR_1_1Const__SubdivideSettings.html#a2c00194c6d29c0a0efbd534dd7a4b6d9", null ],
     [ "beforeEdgeSplit", "classMR_1_1Const__SubdivideSettings.html#a19927104d631e7f8159836bb33a61ee6", null ],
     [ "criticalAspectRatioFlip", "classMR_1_1Const__SubdivideSettings.html#a39080af4b5e8cfdff7f5523b605db6cf", null ],
+    [ "curvaturePriority", "classMR_1_1Const__SubdivideSettings.html#a608e5b09edb9d0232a24b59b332b6166", null ],
     [ "maintainRegion", "classMR_1_1Const__SubdivideSettings.html#aa7b5c3182a8181ed2703c5b8e3082a5d", null ],
     [ "maxAngleChangeAfterFlip", "classMR_1_1Const__SubdivideSettings.html#a546c18b01886168b854b18b5f3175395", null ],
     [ "maxDeviationAfterFlip", "classMR_1_1Const__SubdivideSettings.html#ad66ffb9f43316f9a4f186099cf7138d1", null ],

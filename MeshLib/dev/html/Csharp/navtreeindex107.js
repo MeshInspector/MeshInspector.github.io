@@ -1,5 +1,7 @@
 var NAVTREEINDEX107 =
 {
+"classMR_1_1VertCoords.html#ace82ac836baca05d0a6eaaa9df498151":[6,3,0,0,0,1306,21],
+"classMR_1_1VertCoords.html#ad4b5d9d161fbcd86e02067a2f90488d7":[6,3,0,0,0,1306,16],
 "classMR_1_1VertCoords.html#adc93aecbb432141b1c26858eae294989":[6,3,0,0,0,1306,26],
 "classMR_1_1VertCoords.html#af7d9d7c98c72222cefcfe51371ce8daa":[6,3,0,0,0,1306,14],
 "classMR_1_1VertCoords.html#afc0c4940ff9169622bf196e88c4b5e8c":[6,3,0,0,0,1306,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX107 =
 "classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef.html#aca98285231598c67c2c0b59636f5bf81":[6,3,0,0,0,1334,1],
 "classMR_1_1VoxelsLoad.html":[6,3,0,0,0,1319],
 "classMR_1_1VoxelsLoad.html#a06d19bc4c265c8ae6d09e7fcddbb2be1":[6,3,0,0,0,1319,24],
-"classMR_1_1VoxelsLoad.html#a0955035a86bced52d1d7024e6f223c0e":[6,3,0,0,0,1319,10],
-"classMR_1_1VoxelsLoad.html#a0affe2e0abfd294fae29e12fa5d9fee8":[6,3,0,0,0,1319,31],
-"classMR_1_1VoxelsLoad.html#a1300540bf7f647fe00847d3d26eff61c":[6,3,0,0,0,1319,21]
+"classMR_1_1VoxelsLoad.html#a0955035a86bced52d1d7024e6f223c0e":[6,3,0,0,0,1319,10]
 };

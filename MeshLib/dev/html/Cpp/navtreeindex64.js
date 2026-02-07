@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7":[6,0,1,0,1,248,0,0],
 "structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7":[6,0,2,0,2,220,0,0],
 "structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[6,0,1,0,1,248,0,3],
 "structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[6,0,2,0,2,220,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1PostDrawListener.html#a6d4baebc484718242dcb7de8e2d75b24":[6,0,1,0,1,270,0],
 "structMR_1_1PostDrawListener.html#a6d4baebc484718242dcb7de8e2d75b24":[6,0,2,0,2,242,0],
 "structMR_1_1PostDrawListener.html#ad257fd42a294be0f29daa5eb4ad27cbd":[6,0,1,0,1,270,2],
-"structMR_1_1PostDrawListener.html#ad257fd42a294be0f29daa5eb4ad27cbd":[6,0,2,0,2,242,2],
-"structMR_1_1PostFocusListener.html":[6,0,1,0,1,271]
+"structMR_1_1PostDrawListener.html#ad257fd42a294be0f29daa5eb4ad27cbd":[6,0,2,0,2,242,2]
 };

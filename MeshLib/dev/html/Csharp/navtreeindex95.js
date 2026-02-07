@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap.html#a98d5f2969b404dfff7869913af08cc41":[6,3,0,0,0,9,2,6],
+"classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap.html#aa9bec0037cbe596b86cee10ccb7c0080":[6,3,0,0,0,9,2,0],
 "classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap.html#abe3e8d990c56dcc3621a275cfc3b15db":[6,3,0,0,0,9,2,5],
 "classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters.html":[6,3,0,0,0,9,3],
 "classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters.html#a05eda17416e1b6dab872d943c9aaa54d":[6,3,0,0,0,9,3,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "classMR_1_1Polynomial__Double__0.html":[6,3,0,0,0,1153],
 "classMR_1_1Polynomial__Double__0.html#a0cb1cce3caf7204dc24e7e2e24df17a6":[6,3,0,0,0,1153,0],
 "classMR_1_1Polynomial__Double__0.html#a3a142f6cadd997536ff0c999a4e7bdd4":[6,3,0,0,0,1153,3],
-"classMR_1_1Polynomial__Double__0.html#a9635676b871f2c332817e3caa81dec91":[6,3,0,0,0,1153,2],
-"classMR_1_1Polynomial__Double__0.html#a9cda2bca1187dace174144e4b5538686":[6,3,0,0,0,1153,4],
-"classMR_1_1Polynomial__Double__0.html#af9be4f695ba9ac21350e9290a27a5a3b":[6,3,0,0,0,1153,1]
+"classMR_1_1Polynomial__Double__0.html#a9635676b871f2c332817e3caa81dec91":[6,3,0,0,0,1153,2]
 };
