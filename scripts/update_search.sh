@@ -78,3 +78,4 @@ for SUB_DIR in "${SUB_DIR_LIST[@]}"; do
     cat "${SOURCE_DIR}/custom_search.js" >> "${WORK_DIR}/search.js"
 done
 
+python3 scripts/update_search_data.py ${TARGET_DIR}
