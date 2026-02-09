@@ -43,8 +43,39 @@ clear_log_files() {
     rm log*.txt
 }
 
+generate_documentation_simple() {
+    echo "4.generate_documentation_simple"
+    # final generation of documentation
+    for MODULE in ${MODULES[*]}
+    do
+        if [ "$MODULE" = "Cpp" ]; then
+            echo "GENERATE_XML = YES" >> Doxyfile${MODULE}Tag
+            echo "XML_OUTPUT = ./xml_cpp" >> Doxyfile${MODULE}Tag
+        fi
+        if [ "$MODULE" = "Csharp" ]; then
+            echo "GENERATE_XML = YES" >> Doxyfile${MODULE}Tag
+            echo "XML_OUTPUT = ./xml_cs" >> Doxyfile${MODULE}Tag
+        fi
+        echo "========== ${MODULE}" >> log.txt
+        echo "========== ${MODULE}" >> log_error.txt
+        start=$(date +%s.%N)
+        doxygen -d time ./Doxyfile${MODULE} 1>> log.txt 2>> log_error.txt
+        end=$(date +%s.%N)
+        runtime=$(echo "$end - $start" | bc)
+        echo "${MODULE} $runtime seconds" >> log_time.txt
+        rm Doxyfile${MODULE}Tag
+    done
+
+    # check doxygen error (bad doxyfile, missing sources)
+    if [ "$CHECK_WARNINGS" = true ] && grep -q "^warning: " log_error.txt; then
+        cat log_error.txt
+        echo "ERROR: documentation generation error 2"
+        return 1
+    fi
+}
+
 generate_documentation() {
-    echo "4.generate_documentation"
+    echo "4.generate_documentation_tags"
     # generate tag files
     for MODULE in ${MODULES[*]}
     do
@@ -135,10 +166,11 @@ if [[ $? -ne 0 ]]; then
 fi
 prepare_output_directory
 clear_log_files
-generate_documentation
+generate_documentation_simple
 exit_code=$?
 remove_and_restore_files
 if [[ $exit_code -ne 0 ]]; then
     exit $exit_code
 fi
 post_processing
+cat log_time.txt
