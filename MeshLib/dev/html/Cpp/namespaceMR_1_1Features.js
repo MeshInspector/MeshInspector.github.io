@@ -1,8 +1,11 @@
 var namespaceMR_1_1Features =
 [
-    [ "Primitives", "namespaceMR_1_1Features_1_1Primitives.html", null ],
+    [ "Primitives", "namespaceMR_1_1Features_1_1Primitives.html", "namespaceMR_1_1Features_1_1Primitives" ],
     [ "Traits", "namespaceMR_1_1Features_1_1Traits.html", "namespaceMR_1_1Features_1_1Traits" ],
+    [ "MeasureResult", "structMR_1_1Features_1_1MeasureResult.html", "structMR_1_1Features_1_1MeasureResult" ],
+    [ "SubfeatureInfo", "structMR_1_1Features_1_1SubfeatureInfo.html", "structMR_1_1Features_1_1SubfeatureInfo" ],
     [ "MeasureSupported", "conceptMR_1_1Features_1_1MeasureSupported.html", null ],
+    [ "SubfeatureFunc", "namespaceMR_1_1Features.html#a2f919d193c35478d40f28668b8d2d209", null ],
     [ "forEachSubfeature", "namespaceMR_1_1Features.html#a97570d41ec01a7111b742503bdc2c5dc", null ],
     [ "forEachVisualSubfeature", "namespaceMR_1_1Features.html#a5d8f9dc8288a74b574ebe08113e9f6cf", null ],
     [ "measure", "namespaceMR_1_1Features.html#a39b347d1c16a0e596d16c09cc7839ded", null ],

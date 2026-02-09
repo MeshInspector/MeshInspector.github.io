@@ -148,6 +148,7 @@ $(function(){initNavTree('MRSubfeatures_8h.html',''); initResizable(true); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRSubfeatures.h File Reference</div></div>
 </div><!--header-->
@@ -159,8 +160,8 @@ $(function(){initNavTree('MRSubfeatures_8h.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1Features_1_1SubfeatureInfo.html">MR::Features::SubfeatureInfo</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes a single feature produced by <code><a class="el" href="namespaceMR_1_1Features.html#a97570d41ec01a7111b742503bdc2c5dc">forEachSubfeature()</a></code>. <br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Features_1_1SubfeatureInfo.html">MR::Features::SubfeatureInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes a single feature produced by <code><a class="el" href="namespaceMR_1_1Features.html#a97570d41ec01a7111b742503bdc2c5dc">forEachSubfeature()</a></code>.  <a href="structMR_1_1Features_1_1SubfeatureInfo.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -171,9 +172,15 @@ Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Features.html">MR::Features</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a2f919d193c35478d40f28668b8d2d209" id="r_a2f919d193c35478d40f28668b8d2d209"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Features.html#a2f919d193c35478d40f28668b8d2d209">MR::Features::SubfeatureFunc</a> = std::function&lt;void( const <a class="el" href="structMR_1_1Features_1_1SubfeatureInfo.html">SubfeatureInfo</a>&amp; info )&gt;</td></tr>
+<tr class="memdesc:a2f919d193c35478d40f28668b8d2d209"><td class="mdescLeft">&#160;</td><td class="mdescRight">A user callback for <code><a class="el" href="namespaceMR_1_1Features.html#a97570d41ec01a7111b742503bdc2c5dc">forEachSubfeature()</a></code>.  <br /></td></tr>
+<tr class="separator:a2f919d193c35478d40f28668b8d2d209"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a97570d41ec01a7111b742503bdc2c5dc" id="r_a97570d41ec01a7111b742503bdc2c5dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Features.html#a97570d41ec01a7111b742503bdc2c5dc">MR::Features::forEachSubfeature</a> (const Features::Primitives::Variant &amp;feature, const SubfeatureFunc &amp;func)</td></tr>
+<tr class="memitem:a97570d41ec01a7111b742503bdc2c5dc" id="r_a97570d41ec01a7111b742503bdc2c5dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Features.html#a97570d41ec01a7111b742503bdc2c5dc">MR::Features::forEachSubfeature</a> (const <a class="el" href="namespaceMR_1_1Features_1_1Primitives.html#a955a7f843d9b5df0f393ec7699ada624">Features::Primitives::Variant</a> &amp;feature, const <a class="el" href="namespaceMR_1_1Features.html#a2f919d193c35478d40f28668b8d2d209">SubfeatureFunc</a> &amp;func)</td></tr>
 <tr class="separator:a97570d41ec01a7111b742503bdc2c5dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

@@ -251,7 +251,7 @@ Functions</h2></td></tr>
 <tr class="separator:a5d8bda03d7416d13906a7b26da6c794f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a564b2a327cfaa95c4b17ed54077216d1" id="r_a564b2a327cfaa95c4b17ed54077216d1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a564b2a327cfaa95c4b17ed54077216d1">MR_EndMillTool_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a564b2a327cfaa95c4b17ed54077216d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4aa9804022b659598e6141d37f8adc5a" id="r_a4aa9804022b659598e6141d37f8adc5a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4aa9804022b659598e6141d37f8adc5a">MR_EndMillTool_ConstructFrom</a> (float <a class="elRef" href="../Cpp/MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>, float <a class="elRef" href="../Cpp/MRObjectDimensionsEnum_8h.html#a7cb80fe4cd457e0d0e931c0ade82101c">diameter</a>, const <a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *cutter)</td></tr>
+<tr class="memitem:a4aa9804022b659598e6141d37f8adc5a" id="r_a4aa9804022b659598e6141d37f8adc5a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4aa9804022b659598e6141d37f8adc5a">MR_EndMillTool_ConstructFrom</a> (float length, float diameter, const <a class="el" href="#a0775be5ed04dda6e9b978e00a1ce786b">MR_EndMillCutter</a> *cutter)</td></tr>
 <tr class="separator:a4aa9804022b659598e6141d37f8adc5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cfd0d61bdbda70560a946b7d0207d73" id="r_a5cfd0d61bdbda70560a946b7d0207d73"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cfd0d61bdbda70560a946b7d0207d73">MR_EndMillTool_OffsetPtr</a> (const <a class="el" href="#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="separator:a5cfd0d61bdbda70560a946b7d0207d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -284,7 +284,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>end mill cutter specifications Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillCutter.html">MR::EndMillCutter</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>end mill cutter specifications Generated from class <code>MR::EndMillCutter</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -315,7 +315,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>end mill tool specifications Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillTool.html">MR::EndMillTool</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>end mill tool specifications Generated from class <code>MR::EndMillTool</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -413,7 +413,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1EndMillCutter.html">MR::EndMillCutter</a></code> elementwise. The reference to the parameter <code>type</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac357ec87451e04b87382169c92365271" title="Destroys a heap-allocated instance of MR_EndMillCutter. Does nothing if the pointer is null.">MR_EndMillCutter_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::EndMillCutter</code> elementwise. The reference to the parameter <code>type</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac357ec87451e04b87382169c92365271" title="Destroys a heap-allocated instance of MR_EndMillCutter. Does nothing if the pointer is null.">MR_EndMillCutter_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -431,7 +431,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1EndMillCutter.html#a22dcb599a092b8e581628d6319418ad2">MR::EndMillCutter::EndMillCutter</a></code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac357ec87451e04b87382169c92365271" title="Destroys a heap-allocated instance of MR_EndMillCutter. Does nothing if the pointer is null.">MR_EndMillCutter_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::EndMillCutter::EndMillCutter</code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac357ec87451e04b87382169c92365271" title="Destroys a heap-allocated instance of MR_EndMillCutter. Does nothing if the pointer is null.">MR_EndMillCutter_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -523,7 +523,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>(bull nose) corner radius Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillCutter.html">MR::EndMillCutter</a></code> named <code>cornerRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>(bull nose) corner radius Returns a pointer to a member variable of class <code>MR::EndMillCutter</code> named <code>cornerRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -541,7 +541,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>(chamfer) cutting angle Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillCutter.html">MR::EndMillCutter</a></code> named <code>cuttingAngle</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>(chamfer) cutting angle Returns a pointer to a member variable of class <code>MR::EndMillCutter</code> named <code>cuttingAngle</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -559,7 +559,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>(chamfer) end diameter Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillCutter.html">MR::EndMillCutter</a></code> named <code>endDiameter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>(chamfer) end diameter Returns a pointer to a member variable of class <code>MR::EndMillCutter</code> named <code>endDiameter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -577,7 +577,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillCutter.html">MR::EndMillCutter</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::EndMillCutter</code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -595,7 +595,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>(bull nose) corner radius Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillCutter.html">MR::EndMillCutter</a></code> named <code>cornerRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>(bull nose) corner radius Returns a mutable pointer to a member variable of class <code>MR::EndMillCutter</code> named <code>cornerRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -613,7 +613,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>(chamfer) cutting angle Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillCutter.html">MR::EndMillCutter</a></code> named <code>cuttingAngle</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>(chamfer) cutting angle Returns a mutable pointer to a member variable of class <code>MR::EndMillCutter</code> named <code>cuttingAngle</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -631,7 +631,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>(chamfer) end diameter Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillCutter.html">MR::EndMillCutter</a></code> named <code>endDiameter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>(chamfer) end diameter Returns a mutable pointer to a member variable of class <code>MR::EndMillCutter</code> named <code>endDiameter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -649,7 +649,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillCutter.html">MR::EndMillCutter</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::EndMillCutter</code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -715,7 +715,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>(bull nose) corner radius Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillCutter.html">MR::EndMillCutter</a></code> named <code>cornerRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>cornerRadius</code>. </p>
+<p>(bull nose) corner radius Modifies a member variable of class <code>MR::EndMillCutter</code> named <code>cornerRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>cornerRadius</code>. </p>
 
 </div>
 </div>
@@ -737,7 +737,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>(chamfer) cutting angle Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillCutter.html">MR::EndMillCutter</a></code> named <code>cuttingAngle</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>cuttingAngle</code>. </p>
+<p>(chamfer) cutting angle Modifies a member variable of class <code>MR::EndMillCutter</code> named <code>cuttingAngle</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>cuttingAngle</code>. </p>
 
 </div>
 </div>
@@ -759,7 +759,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>(chamfer) end diameter Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillCutter.html">MR::EndMillCutter</a></code> named <code>endDiameter</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>endDiameter</code>. </p>
+<p>(chamfer) end diameter Modifies a member variable of class <code>MR::EndMillCutter</code> named <code>endDiameter</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>endDiameter</code>. </p>
 
 </div>
 </div>
@@ -781,7 +781,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillCutter.html">MR::EndMillCutter</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>type</code>. When this function is called, this object will drop object references it had previously in <code>type</code>. </p>
+<p>Modifies a member variable of class <code>MR::EndMillCutter</code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>type</code>. When this function is called, this object will drop object references it had previously in <code>type</code>. </p>
 
 </div>
 </div>
@@ -830,7 +830,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1EndMillTool.html">MR::EndMillTool</a></code> elementwise. Parameter <code>cutter</code> can not be null. It is a single object. The reference to the parameter <code>cutter</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1fa44ca891d00455721ae2f853ee75e3" title="Destroys a heap-allocated instance of MR_EndMillTool. Does nothing if the pointer is null.">MR_EndMillTool_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::EndMillTool</code> elementwise. Parameter <code>cutter</code> can not be null. It is a single object. The reference to the parameter <code>cutter</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1fa44ca891d00455721ae2f853ee75e3" title="Destroys a heap-allocated instance of MR_EndMillTool. Does nothing if the pointer is null.">MR_EndMillTool_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -848,7 +848,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1EndMillTool.html#a2d1371043c7236534910fd282285fc54">MR::EndMillTool::EndMillTool</a></code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1fa44ca891d00455721ae2f853ee75e3" title="Destroys a heap-allocated instance of MR_EndMillTool. Does nothing if the pointer is null.">MR_EndMillTool_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::EndMillTool::EndMillTool</code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1fa44ca891d00455721ae2f853ee75e3" title="Destroys a heap-allocated instance of MR_EndMillTool. Does nothing if the pointer is null.">MR_EndMillTool_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -940,7 +940,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>cutter Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillTool.html">MR::EndMillTool</a></code> named <code>cutter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>cutter Returns a pointer to a member variable of class <code>MR::EndMillTool</code> named <code>cutter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -958,7 +958,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>tool diameter Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillTool.html">MR::EndMillTool</a></code> named <code>diameter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>tool diameter Returns a pointer to a member variable of class <code>MR::EndMillTool</code> named <code>diameter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -976,7 +976,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>overall tool length Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillTool.html">MR::EndMillTool</a></code> named <code>length</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>overall tool length Returns a pointer to a member variable of class <code>MR::EndMillTool</code> named <code>length</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -994,7 +994,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>compute the minimal cut length based on the cutter parameters Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1EndMillTool.html#a9b1c90969e9b1cf84df0eb2300a50457">MR::EndMillTool::getMinimalCutLength</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>compute the minimal cut length based on the cutter parameters Generated from method <code>MR::EndMillTool::getMinimalCutLength</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1012,7 +1012,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>cutter Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillTool.html">MR::EndMillTool</a></code> named <code>cutter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>cutter Returns a mutable pointer to a member variable of class <code>MR::EndMillTool</code> named <code>cutter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1030,7 +1030,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>tool diameter Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillTool.html">MR::EndMillTool</a></code> named <code>diameter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>tool diameter Returns a mutable pointer to a member variable of class <code>MR::EndMillTool</code> named <code>diameter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1048,7 +1048,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>overall tool length Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillTool.html">MR::EndMillTool</a></code> named <code>length</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>overall tool length Returns a mutable pointer to a member variable of class <code>MR::EndMillTool</code> named <code>length</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1114,7 +1114,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>cutter Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillTool.html">MR::EndMillTool</a></code> named <code>cutter</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cutter</code>. When this function is called, this object will drop object references it had previously in <code>cutter</code>. </p>
+<p>cutter Modifies a member variable of class <code>MR::EndMillTool</code> named <code>cutter</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cutter</code>. When this function is called, this object will drop object references it had previously in <code>cutter</code>. </p>
 
 </div>
 </div>
@@ -1136,7 +1136,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>tool diameter Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillTool.html">MR::EndMillTool</a></code> named <code>diameter</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>diameter</code>. </p>
+<p>tool diameter Modifies a member variable of class <code>MR::EndMillTool</code> named <code>diameter</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>diameter</code>. </p>
 
 </div>
 </div>
@@ -1158,7 +1158,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>overall tool length Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1EndMillTool.html">MR::EndMillTool</a></code> named <code>length</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>length</code>. </p>
+<p>overall tool length Modifies a member variable of class <code>MR::EndMillTool</code> named <code>length</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>length</code>. </p>
 
 </div>
 </div>
@@ -1185,7 +1185,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>create a tool mesh Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1EndMillTool.html#a24e1133fc3ec61ea4a44d2c3edf8914b">MR::EndMillTool::toMesh</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>horizontalResolution</code> has a default argument: <code>32</code>, pass a null pointer to use it. Parameter <code>verticalResolution</code> has a default argument: <code>32</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </p>
+<p>create a tool mesh Generated from method <code>MR::EndMillTool::toMesh</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>horizontalResolution</code> has a default argument: <code>32</code>, pass a null pointer to use it. Parameter <code>verticalResolution</code> has a default argument: <code>32</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

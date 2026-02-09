@@ -1,12 +1,10 @@
 var classMR_1_1SeparationPointStorage =
 [
     [ "Block", "structMR_1_1SeparationPointStorage_1_1Block.html", "structMR_1_1SeparationPointStorage_1_1Block" ],
-    [ "SeparationPointStorage", "../Csharp/classMR_1_1SeparationPointStorage.html#ac0c34dd78161697682be64d27cfc2ae5", null ],
-    [ "SeparationPointStorage", "../Csharp/classMR_1_1SeparationPointStorage.html#a93d151bb072cbc7b706c7c9aeddae077", null ],
-    [ "SeparationPointStorage", "../Csharp/classMR_1_1SeparationPointStorage.html#a0b5d2e9b5571d12624ca842f19e870ca", null ],
-    [ "SeparationPointStorage", "../Csharp/classMR_1_1SeparationPointStorage.html#a3f9724cd5a1a2baba78dd4a3208a7de7", null ],
-    [ "assign", "../Csharp/classMR_1_1SeparationPointStorage.html#a44379384872f03c70ac2642b5856cac5", null ],
-    [ "getBlock", "../Csharp/classMR_1_1SeparationPointStorage.html#ac338f3b3c7c17b27d6f91cce454e9bfb", null ],
-    [ "makeUniqueVids", "../Csharp/classMR_1_1SeparationPointStorage.html#a83d1740cec435b2798f112a04a429862", null ],
-    [ "resize", "../Csharp/classMR_1_1SeparationPointStorage.html#a661028cb72b1baa930833b3c9eaee001", null ]
+    [ "findSeparationPointSet", "classMR_1_1SeparationPointStorage.html#a4f797a53cf1d4fedcf01fbd51dcf3e04", null ],
+    [ "getBlock", "classMR_1_1SeparationPointStorage.html#ad8c6370ffaec4ad07e20b71a365327d7", null ],
+    [ "getPoints", "classMR_1_1SeparationPointStorage.html#a5a0d66ada3a7d052880ac0c16dfa4ca2", null ],
+    [ "getTriangulation", "classMR_1_1SeparationPointStorage.html#a3ad8f87539f118ca7419849b7029208b", null ],
+    [ "makeUniqueVids", "classMR_1_1SeparationPointStorage.html#a99db5fa322a3860d51db5e4292a83786", null ],
+    [ "resize", "classMR_1_1SeparationPointStorage.html#ac2cd0c47a3c902b6c162620b71ccf9c6", null ]
 ];

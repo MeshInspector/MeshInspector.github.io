@@ -1,6 +1,10 @@
 var namespaceMR_1_1PointsLoad =
 [
+    [ "E57LoadSettings", "structMR_1_1PointsLoad_1_1E57LoadSettings.html", "structMR_1_1PointsLoad_1_1E57LoadSettings" ],
+    [ "NamedCloud", "structMR_1_1PointsLoad_1_1NamedCloud.html", "structMR_1_1PointsLoad_1_1NamedCloud" ],
     [ "PointsLoader", "structMR_1_1PointsLoad_1_1PointsLoader.html", "structMR_1_1PointsLoad_1_1PointsLoader" ],
+    [ "PointsFileLoader", "namespaceMR_1_1PointsLoad.html#acaeabf1d4cced15a0961b626a6e9b868", null ],
+    [ "PointsStreamLoader", "namespaceMR_1_1PointsLoad.html#a0f81139db68679c906d09ff033071478", null ],
     [ "fromAnySupportedFormat", "group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa", null ],
     [ "fromAnySupportedFormat", "group__IOGroup.html#ga9a63511b8cba2da2a8c8373fefc0a384", null ],
     [ "fromCtm", "namespaceMR_1_1PointsLoad.html#a9b59aa67ceb07a2c286623b602b0df14", null ],

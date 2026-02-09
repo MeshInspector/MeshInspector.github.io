@@ -309,7 +309,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::FindInnerShellSettings</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -352,7 +352,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>information about shell vertex Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ShellVertexInfo.html">MR::ShellVertexInfo</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>information about shell vertex Generated from class <code>MR::ShellVertexInfo</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -448,7 +448,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>whether the distance from given point to given mesh part is of same sign as settings.side, if useWindingNumber = false, returns false for all points projecting on mesh boundary Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abb745ff271bba30db642c45f4a5d6664">MR::classifyShellVert</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>shellPoint</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3cf7eebc3361715eb1efb572ffc40933" title="Destroys a heap-allocated instance of MR_ShellVertexInfo. Does nothing if the pointer is null.">MR_ShellVertexInfo_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>whether the distance from given point to given mesh part is of same sign as settings.side, if useWindingNumber = false, returns false for all points projecting on mesh boundary Generated from function <code>MR::classifyShellVert</code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>shellPoint</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3cf7eebc3361715eb1efb572ffc40933" title="Destroys a heap-allocated instance of MR_ShellVertexInfo. Does nothing if the pointer is null.">MR_ShellVertexInfo_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -478,7 +478,7 @@ Functions</h2></td></tr>
 <p>Finds inner-shell faces on bidirectional</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">shell</td><td>constructed for an open</td></tr>
-    <tr><td class="paramname">mp;</td><td>The function will return all shell faces (after some subdivision) that have distance to mesh of same sign as settings.side Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8c21cd349fa1cdfe46c2c1ee2a00806b">MR::findInnerShellFacesWithSplits</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>shell</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">mp;</td><td>The function will return all shell faces (after some subdivision) that have distance to mesh of same sign as settings.side Generated from function <code>MR::findInnerShellFacesWithSplits</code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>shell</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -540,7 +540,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> elementwise. The reference to the parameter <code>side</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a26b999f6eb8d2216b022b4e23e02dc4e" title="Destroys a heap-allocated instance of MR_FindInnerShellSettings. Does nothing if the pointer is null.">MR_FindInnerShellSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::FindInnerShellSettings</code> elementwise. The reference to the parameter <code>side</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a26b999f6eb8d2216b022b4e23e02dc4e" title="Destroys a heap-allocated instance of MR_FindInnerShellSettings. Does nothing if the pointer is null.">MR_FindInnerShellSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -558,7 +558,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1FindInnerShellSettings.html#aafb04edc1a56f609d663c5fbac54dfce">MR::FindInnerShellSettings::FindInnerShellSettings</a></code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a26b999f6eb8d2216b022b4e23e02dc4e" title="Destroys a heap-allocated instance of MR_FindInnerShellSettings. Does nothing if the pointer is null.">MR_FindInnerShellSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::FindInnerShellSettings::FindInnerShellSettings</code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a26b999f6eb8d2216b022b4e23e02dc4e" title="Destroys a heap-allocated instance of MR_FindInnerShellSettings. Does nothing if the pointer is null.">MR_FindInnerShellSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -650,7 +650,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>specifies maximum squared distance from shell parts of interest to source mesh Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>specifies maximum squared distance from shell parts of interest to source mesh Returns a pointer to a member variable of class <code>MR::FindInnerShellSettings</code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -668,7 +668,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> named <code>minVertsInComp</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result Returns a pointer to a member variable of class <code>MR::FindInnerShellSettings</code> named <code>minVertsInComp</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -686,7 +686,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>specifies which side of shell is of interest: negative or positive relative to mesh normals Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> named <code>side</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>specifies which side of shell is of interest: negative or positive relative to mesh normals Returns a pointer to a member variable of class <code>MR::FindInnerShellSettings</code> named <code>side</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -704,7 +704,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> named <code>useWindingNumber</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh Returns a pointer to a member variable of class <code>MR::FindInnerShellSettings</code> named <code>useWindingNumber</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -722,7 +722,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a pointer to a member variable of class <code>MR::FindInnerShellSettings</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -740,7 +740,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>specifies maximum squared distance from shell parts of interest to source mesh Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>specifies maximum squared distance from shell parts of interest to source mesh Returns a mutable pointer to a member variable of class <code>MR::FindInnerShellSettings</code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -758,7 +758,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> named <code>minVertsInComp</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result Returns a mutable pointer to a member variable of class <code>MR::FindInnerShellSettings</code> named <code>minVertsInComp</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -776,7 +776,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>specifies which side of shell is of interest: negative or positive relative to mesh normals Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> named <code>side</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>specifies which side of shell is of interest: negative or positive relative to mesh normals Returns a mutable pointer to a member variable of class <code>MR::FindInnerShellSettings</code> named <code>side</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -794,7 +794,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> named <code>useWindingNumber</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh Returns a mutable pointer to a member variable of class <code>MR::FindInnerShellSettings</code> named <code>useWindingNumber</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -812,7 +812,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a mutable pointer to a member variable of class <code>MR::FindInnerShellSettings</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -878,7 +878,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>specifies maximum squared distance from shell parts of interest to source mesh Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxDistSq</code>. </p>
+<p>specifies maximum squared distance from shell parts of interest to source mesh Modifies a member variable of class <code>MR::FindInnerShellSettings</code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxDistSq</code>. </p>
 
 </div>
 </div>
@@ -900,7 +900,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> named <code>minVertsInComp</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>minVertsInComp</code>. </p>
+<p>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result Modifies a member variable of class <code>MR::FindInnerShellSettings</code> named <code>minVertsInComp</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>minVertsInComp</code>. </p>
 
 </div>
 </div>
@@ -922,7 +922,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>specifies which side of shell is of interest: negative or positive relative to mesh normals Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> named <code>side</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>side</code>. When this function is called, this object will drop object references it had previously in <code>side</code>. </p>
+<p>specifies which side of shell is of interest: negative or positive relative to mesh normals Modifies a member variable of class <code>MR::FindInnerShellSettings</code> named <code>side</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>side</code>. When this function is called, this object will drop object references it had previously in <code>side</code>. </p>
 
 </div>
 </div>
@@ -944,7 +944,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> named <code>useWindingNumber</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>useWindingNumber</code>. </p>
+<p>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh Modifies a member variable of class <code>MR::FindInnerShellSettings</code> named <code>useWindingNumber</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>useWindingNumber</code>. </p>
 
 </div>
 </div>
@@ -966,7 +966,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>windingNumberThreshold</code>. </p>
+<p>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <code>MR::FindInnerShellSettings</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>windingNumberThreshold</code>. </p>
 
 </div>
 </div>
@@ -996,7 +996,7 @@ Functions</h2></td></tr>
 <p>Finds inner-shell vertices on bidirectional</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">shell</td><td>constructed for an open</td></tr>
-    <tr><td class="paramname">mp;</td><td>The function will return all shell vertices that have distance to mesh of same sign as settings.side Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a45eadaaa9f092b26db49fefe2d744845">MR::findInnerShellVerts</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>shell</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">mp;</td><td>The function will return all shell vertices that have distance to mesh of same sign as settings.side Generated from function <code>MR::findInnerShellVerts</code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>shell</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1048,7 +1048,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1ShellVertexInfo.html">MR::ShellVertexInfo</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3cf7eebc3361715eb1efb572ffc40933" title="Destroys a heap-allocated instance of MR_ShellVertexInfo. Does nothing if the pointer is null.">MR_ShellVertexInfo_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::ShellVertexInfo</code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3cf7eebc3361715eb1efb572ffc40933" title="Destroys a heap-allocated instance of MR_ShellVertexInfo. Does nothing if the pointer is null.">MR_ShellVertexInfo_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -1066,7 +1066,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1ShellVertexInfo.html#adb81a03e579833c96ec39a703b96e723">MR::ShellVertexInfo::ShellVertexInfo</a></code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3cf7eebc3361715eb1efb572ffc40933" title="Destroys a heap-allocated instance of MR_ShellVertexInfo. Does nothing if the pointer is null.">MR_ShellVertexInfo_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::ShellVertexInfo::ShellVertexInfo</code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3cf7eebc3361715eb1efb572ffc40933" title="Destroys a heap-allocated instance of MR_ShellVertexInfo. Does nothing if the pointer is null.">MR_ShellVertexInfo_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1158,7 +1158,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>true when shell vertex is within settings.maxDist from source mesh Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ShellVertexInfo.html">MR::ShellVertexInfo</a></code> named <code>inRange</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>true when shell vertex is within settings.maxDist from source mesh Returns a pointer to a member variable of class <code>MR::ShellVertexInfo</code> named <code>inRange</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1176,7 +1176,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>shell vertex projects on source mesh boundary (never true for winding rule mode) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ShellVertexInfo.html">MR::ShellVertexInfo</a></code> named <code>projOnBd</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>shell vertex projects on source mesh boundary (never true for winding rule mode) Returns a pointer to a member variable of class <code>MR::ShellVertexInfo</code> named <code>projOnBd</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1194,7 +1194,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether shell vertex is on requested side of source mesh Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ShellVertexInfo.html">MR::ShellVertexInfo</a></code> named <code>rightSide</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>whether shell vertex is on requested side of source mesh Returns a pointer to a member variable of class <code>MR::ShellVertexInfo</code> named <code>rightSide</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1212,7 +1212,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>true when shell vertex is within settings.maxDist from source mesh Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ShellVertexInfo.html">MR::ShellVertexInfo</a></code> named <code>inRange</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>true when shell vertex is within settings.maxDist from source mesh Returns a mutable pointer to a member variable of class <code>MR::ShellVertexInfo</code> named <code>inRange</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1230,7 +1230,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>shell vertex projects on source mesh boundary (never true for winding rule mode) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ShellVertexInfo.html">MR::ShellVertexInfo</a></code> named <code>projOnBd</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>shell vertex projects on source mesh boundary (never true for winding rule mode) Returns a mutable pointer to a member variable of class <code>MR::ShellVertexInfo</code> named <code>projOnBd</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1248,7 +1248,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether shell vertex is on requested side of source mesh Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ShellVertexInfo.html">MR::ShellVertexInfo</a></code> named <code>rightSide</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>whether shell vertex is on requested side of source mesh Returns a mutable pointer to a member variable of class <code>MR::ShellVertexInfo</code> named <code>rightSide</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1314,7 +1314,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>true when shell vertex is within settings.maxDist from source mesh Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ShellVertexInfo.html">MR::ShellVertexInfo</a></code> named <code>inRange</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>inRange</code>. </p>
+<p>true when shell vertex is within settings.maxDist from source mesh Modifies a member variable of class <code>MR::ShellVertexInfo</code> named <code>inRange</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>inRange</code>. </p>
 
 </div>
 </div>
@@ -1336,7 +1336,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>shell vertex projects on source mesh boundary (never true for winding rule mode) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ShellVertexInfo.html">MR::ShellVertexInfo</a></code> named <code>projOnBd</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>projOnBd</code>. </p>
+<p>shell vertex projects on source mesh boundary (never true for winding rule mode) Modifies a member variable of class <code>MR::ShellVertexInfo</code> named <code>projOnBd</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>projOnBd</code>. </p>
 
 </div>
 </div>
@@ -1358,7 +1358,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether shell vertex is on requested side of source mesh Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ShellVertexInfo.html">MR::ShellVertexInfo</a></code> named <code>rightSide</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>rightSide</code>. </p>
+<p>whether shell vertex is on requested side of source mesh Modifies a member variable of class <code>MR::ShellVertexInfo</code> named <code>rightSide</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>rightSide</code>. </p>
 
 </div>
 </div>
@@ -1376,7 +1376,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if shell vertex is in range, does not project on boundary and located on proper side Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1ShellVertexInfo.html#a8cae5aeb17ea9eba3d65c5cb39acbe29">MR::ShellVertexInfo::valid</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns true if shell vertex is in range, does not project on boundary and located on proper side Generated from method <code>MR::ShellVertexInfo::valid</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

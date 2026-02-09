@@ -167,18 +167,13 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7567736873ea92c6a2359d13bdf9ff52" id="r_a7567736873ea92c6a2359d13bdf9ff52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7567736873ea92c6a2359d13bdf9ff52">addOrgRingSteps</a> (const <a class="el" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html">ReachedVert</a> &amp;rv)</td></tr>
-<tr class="separator:a7567736873ea92c6a2359d13bdf9ff52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea92fec5827dfbf63c822a8d495c2d96" id="r_aea92fec5827dfbf63c822a8d495c2d96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html">ReachedVert</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea92fec5827dfbf63c822a8d495c2d96">growOneEdge</a> ()</td></tr>
-<tr class="memdesc:aea92fec5827dfbf63c822a8d495c2d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same as <a class="el" href="#a42cf862c1663fc45765278e3617948ab">reachNext()</a> + <a class="el" href="#a7567736873ea92c6a2359d13bdf9ff52">addOrgRingSteps()</a>  <br /></td></tr>
-<tr class="separator:aea92fec5827dfbf63c822a8d495c2d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a336db542a3c1e1aafb7a7e132ee4a508" id="r_a336db542a3c1e1aafb7a7e132ee4a508"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a336db542a3c1e1aafb7a7e132ee4a508">done</a> () const</td></tr>
 <tr class="memdesc:a336db542a3c1e1aafb7a7e132ee4a508"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if further edge forest growth is impossible  <br /></td></tr>
 <tr class="separator:a336db542a3c1e1aafb7a7e132ee4a508"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6121aae22b66ff8e123f4f1d2d21528d" id="r_a6121aae22b66ff8e123f4f1d2d21528d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6121aae22b66ff8e123f4f1d2d21528d">doneDistance</a> () const</td></tr>
 <tr class="memdesc:a6121aae22b66ff8e123f4f1d2d21528d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns path length till the next candidate vertex or maximum float value if all vertices have been reached  <br /></td></tr>
 <tr class="separator:a6121aae22b66ff8e123f4f1d2d21528d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad30700907c0223d6668cc9e5910765c3" id="r_ad30700907c0223d6668cc9e5910765c3"><td class="memItemLeft" align="right" valign="top">const VertPathInfoMap &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad30700907c0223d6668cc9e5910765c3">vertPathInfoMap</a> () const</td></tr>
+<tr class="memitem:ad30700907c0223d6668cc9e5910765c3" id="r_ad30700907c0223d6668cc9e5910765c3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a8ef9d4ab57452b5bea4b72a90f4fc165">VertPathInfoMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad30700907c0223d6668cc9e5910765c3">vertPathInfoMap</a> () const</td></tr>
 <tr class="memdesc:ad30700907c0223d6668cc9e5910765c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">gives read access to the map from vertex to path to it  <br /></td></tr>
 <tr class="separator:ad30700907c0223d6668cc9e5910765c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -186,24 +181,29 @@ Public Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a8bee648da3c920541672f288460c659c" id="r_a8bee648da3c920541672f288460c659c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMacros_8h.html#adc8a2290a0ad34bf18acb8498b4bb91a">MR_NO_UNIQUE_ADDRESS</a> MetricToPenalty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bee648da3c920541672f288460c659c">metricToPenalty_</a></td></tr>
 <tr class="separator:a8bee648da3c920541672f288460c659c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa58748ee3e1ceb34e2ff8b8d2ab58d6b" id="r_aa58748ee3e1ceb34e2ff8b8d2ab58d6b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa58748ee3e1ceb34e2ff8b8d2ab58d6b">EdgePathsBuilderT</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const EdgeMetric &amp;metric)</td></tr>
+<tr class="memitem:aa58748ee3e1ceb34e2ff8b8d2ab58d6b" id="r_aa58748ee3e1ceb34e2ff8b8d2ab58d6b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa58748ee3e1ceb34e2ff8b8d2ab58d6b">EdgePathsBuilderT</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric)</td></tr>
 <tr class="separator:aa58748ee3e1ceb34e2ff8b8d2ab58d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d9175cad8bf58c494f9f65aafff8cde" id="r_a5d9175cad8bf58c494f9f65aafff8cde"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d9175cad8bf58c494f9f65aafff8cde">EdgePathsBuilderT</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
+<tr class="memitem:a5d9175cad8bf58c494f9f65aafff8cde" id="r_a5d9175cad8bf58c494f9f65aafff8cde"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d9175cad8bf58c494f9f65aafff8cde">EdgePathsBuilderT</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
 <tr class="separator:a5d9175cad8bf58c494f9f65aafff8cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b233d3b70904335296fbd82fcbc693f" id="r_a8b233d3b70904335296fbd82fcbc693f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b233d3b70904335296fbd82fcbc693f">reset</a> (const EdgeMetric &amp;metric)</td></tr>
+<tr class="memitem:a8b233d3b70904335296fbd82fcbc693f" id="r_a8b233d3b70904335296fbd82fcbc693f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b233d3b70904335296fbd82fcbc693f">reset</a> (const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric)</td></tr>
 <tr class="memdesc:a8b233d3b70904335296fbd82fcbc693f"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears everything without freeing memory, and sets new metric  <br /></td></tr>
 <tr class="separator:a8b233d3b70904335296fbd82fcbc693f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a424ce31cf3ac73240ffd491872efa6fb" id="r_a424ce31cf3ac73240ffd491872efa6fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a424ce31cf3ac73240ffd491872efa6fb">addStart</a> (<a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> startVert, float startMetric)</td></tr>
+<tr class="memitem:a424ce31cf3ac73240ffd491872efa6fb" id="r_a424ce31cf3ac73240ffd491872efa6fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a424ce31cf3ac73240ffd491872efa6fb">addStart</a> (VertId startVert, float startMetric)</td></tr>
 <tr class="separator:a424ce31cf3ac73240ffd491872efa6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42cf862c1663fc45765278e3617948ab" id="r_a42cf862c1663fc45765278e3617948ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html">ReachedVert</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42cf862c1663fc45765278e3617948ab">reachNext</a> ()</td></tr>
 <tr class="separator:a42cf862c1663fc45765278e3617948ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae50a59bc1425eff2906ad0c18accbabc" id="r_ae50a59bc1425eff2906ad0c18accbabc"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" href="../Csharp/classMR_1_1VertPathInfo.html">VertPathInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae50a59bc1425eff2906ad0c18accbabc">getVertInfo</a> (<a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> v) const</td></tr>
+<tr class="memitem:a7567736873ea92c6a2359d13bdf9ff52" id="r_a7567736873ea92c6a2359d13bdf9ff52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7567736873ea92c6a2359d13bdf9ff52">addOrgRingSteps</a> (const <a class="el" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html">ReachedVert</a> &amp;rv)</td></tr>
+<tr class="separator:a7567736873ea92c6a2359d13bdf9ff52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a245a1aca92a23d5b494706916ea2554e" id="r_a245a1aca92a23d5b494706916ea2554e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html">ReachedVert</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a245a1aca92a23d5b494706916ea2554e">growOneEdge</a> ()</td></tr>
+<tr class="memdesc:a245a1aca92a23d5b494706916ea2554e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same as <a class="el" href="#a42cf862c1663fc45765278e3617948ab">reachNext()</a> + <a class="el" href="#a7567736873ea92c6a2359d13bdf9ff52">addOrgRingSteps()</a>  <br /></td></tr>
+<tr class="separator:a245a1aca92a23d5b494706916ea2554e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae50a59bc1425eff2906ad0c18accbabc" id="r_ae50a59bc1425eff2906ad0c18accbabc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1VertPathInfo.html">VertPathInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae50a59bc1425eff2906ad0c18accbabc">getVertInfo</a> (VertId v) const</td></tr>
 <tr class="memdesc:ae50a59bc1425eff2906ad0c18accbabc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns one element from the map (or nullptr if the element is missing)  <br /></td></tr>
 <tr class="separator:ae50a59bc1425eff2906ad0c18accbabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5a3f3206ed7ec78c89eef5860137181" id="r_aa5a3f3206ed7ec78c89eef5860137181"><td class="memItemLeft" align="right" valign="top">EdgePath&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5a3f3206ed7ec78c89eef5860137181">getPathBack</a> (<a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> backpathStart) const</td></tr>
+<tr class="memitem:aa5a3f3206ed7ec78c89eef5860137181" id="r_aa5a3f3206ed7ec78c89eef5860137181"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5a3f3206ed7ec78c89eef5860137181">getPathBack</a> (VertId backpathStart) const</td></tr>
 <tr class="memdesc:aa5a3f3206ed7ec78c89eef5860137181"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the path in the forest from given vertex to one of start vertices  <br /></td></tr>
 <tr class="separator:aa5a3f3206ed7ec78c89eef5860137181"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91060ff48000e2ddc2037bedefc72197" id="r_a91060ff48000e2ddc2037bedefc72197"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91060ff48000e2ddc2037bedefc72197">trackPathBack</a> (<a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> backpathStart, EdgePath *res=nullptr) const</td></tr>
+<tr class="memitem:a91060ff48000e2ddc2037bedefc72197" id="r_a91060ff48000e2ddc2037bedefc72197"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91060ff48000e2ddc2037bedefc72197">trackPathBack</a> (VertId backpathStart, <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> *res=nullptr) const</td></tr>
 <tr class="separator:a91060ff48000e2ddc2037bedefc72197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -221,12 +221,12 @@ template&lt;class MetricToPenalty &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::EdgePathsBuilderT </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const EdgeMetric &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -247,7 +247,7 @@ template&lt;class MetricToPenalty &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::EdgePathsBuilderT </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -292,7 +292,7 @@ template&lt;class MetricToPenalty &gt; </div>
         <tr>
           <td class="memname">bool <a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::addStart </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>startVert</em></span>, </td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>startVert</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -372,9 +372,9 @@ template&lt;class MetricToPenalty &gt; </div>
 template&lt;class MetricToPenalty &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">EdgePath <a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::getPathBack </td>
+          <td class="memname"><a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> <a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::getPathBack </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>backpathStart</em></span></td><td>)</td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>backpathStart</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -393,9 +393,9 @@ template&lt;class MetricToPenalty &gt; </div>
 template&lt;class MetricToPenalty &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="elRef" href="../Csharp/classMR_1_1VertPathInfo.html">VertPathInfo</a> * <a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::getVertInfo </td>
+          <td class="memname">const <a class="el" href="structMR_1_1VertPathInfo.html">VertPathInfo</a> * <a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::getVertInfo </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -405,8 +405,8 @@ template&lt;class MetricToPenalty &gt; </div>
 
 </div>
 </div>
-<a id="aea92fec5827dfbf63c822a8d495c2d96" name="aea92fec5827dfbf63c822a8d495c2d96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea92fec5827dfbf63c822a8d495c2d96">&#9670;&#160;</a></span>growOneEdge()</h2>
+<a id="a245a1aca92a23d5b494706916ea2554e" name="a245a1aca92a23d5b494706916ea2554e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a245a1aca92a23d5b494706916ea2554e">&#9670;&#160;</a></span>growOneEdge()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -414,7 +414,7 @@ template&lt;class MetricToPenalty &gt; </div>
 template&lt;class MetricToPenalty &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html">ReachedVert</a> <a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::growOneEdge </td>
+          <td class="memname">auto <a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::growOneEdge </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -442,7 +442,7 @@ template&lt;class MetricToPenalty &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>include one more vertex in the final forest, returning vertex-info for the newly reached vertex; returns invalid <a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> in v-field if no more vertices left </p>
+<p>include one more vertex in the final forest, returning vertex-info for the newly reached vertex; returns invalid VertId in v-field if no more vertices left </p>
 <p>shorter path to the vertex was found</p>
 
 </div>
@@ -458,7 +458,7 @@ template&lt;class MetricToPenalty &gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::reset </td>
           <td>(</td>
-          <td class="paramtype">const EdgeMetric &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -477,14 +477,14 @@ template&lt;class MetricToPenalty &gt; </div>
 template&lt;class MetricToPenalty &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> <a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::trackPathBack </td>
+          <td class="memname">VertId <a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::trackPathBack </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>backpathStart</em></span>, </td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>backpathStart</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">EdgePath *</td>          <td class="paramname"><span class="paramname"><em>res</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> *</td>          <td class="paramname"><span class="paramname"><em>res</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -504,7 +504,7 @@ template&lt;class MetricToPenalty &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const VertPathInfoMap &amp; <a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::vertPathInfoMap </td>
+          <td class="memname">const <a class="el" href="namespaceMR.html#a8ef9d4ab57452b5bea4b72a90f4fc165">VertPathInfoMap</a> &amp; <a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt; MetricToPenalty &gt;::vertPathInfoMap </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>

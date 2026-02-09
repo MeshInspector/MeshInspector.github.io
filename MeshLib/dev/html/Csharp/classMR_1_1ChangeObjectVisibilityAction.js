@@ -1,10 +1,12 @@
 var classMR_1_1ChangeObjectVisibilityAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangeObjectVisibilityAction.html#aa3f6bc9f32a9afa29f3f632c1c8a6e5d", null ],
-    [ "ChangeObjectVisibilityAction", "../Cpp/classMR_1_1ChangeObjectVisibilityAction.html#a479356824a42fb710dc8fd412c4b34b7", null ],
-    [ "ChangeObjectVisibilityAction", "../Cpp/classMR_1_1ChangeObjectVisibilityAction.html#a4227858b5c82b2cf9ad2aec611a17f65", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeObjectVisibilityAction.html#ab2ff1171bd87dd95a3e338f4244fafa6", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeObjectVisibilityAction.html#a037473fbea41f9ad41ed74351f148e01", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeObjectVisibilityAction.html#aeb43acff9643bd750856214f6f50b39d", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangeObjectVisibilityAction.html#ae5af96f6bd3dab63787ec81d227abaa2", null ]
+    [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html#a2ffe2df2e28d2e2e55fd0d3d067769e2", null ],
+    [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html#aaf09fcfe16600298a41704abff774c0f", null ],
+    [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html#ac10b5989686df6a1a0faf5664bd59b2e", null ],
+    [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html#ad8a9cf06aad75415112039e29e264912", null ],
+    [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html#a299edb2b589199a0d3d17a40c77b90cd", null ],
+    [ "action", "classMR_1_1ChangeObjectVisibilityAction.html#a02a09f38fdad838c77e7c9d17f02fe70", null ],
+    [ "assign", "classMR_1_1ChangeObjectVisibilityAction.html#a1695eadabc069e29eeee2652701f0da5", null ],
+    [ "operator ChangeObjectVisibilityAction?", "classMR_1_1ChangeObjectVisibilityAction.html#a074010ae84df56354add7cafa733f4fe", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeObjectVisibilityAction.html#aee3d9879994044da50b8f55e63eab9c1", null ]
 ];

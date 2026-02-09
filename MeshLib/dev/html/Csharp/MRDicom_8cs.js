@@ -7,6 +7,6 @@ var MRDicom_8cs =
     [ "MR.VoxelsLoad.Const_DicomVolumeAsVdb", "classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb.html", "classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb" ],
     [ "MR.VoxelsLoad.DicomVolumeAsVdb", "classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html", "classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" ],
     [ "MR.VoxelsLoad.Const_DicomStatus", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus.html", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus" ],
-    [ "MR.VoxelsLoad.DicomStatus", "../Cpp/structMR_1_1VoxelsLoad_1_1DicomStatus.html", "structMR_1_1VoxelsLoad_1_1DicomStatus" ],
+    [ "MR.VoxelsLoad.DicomStatus", "classMR_1_1VoxelsLoad_1_1DicomStatus.html", "classMR_1_1VoxelsLoad_1_1DicomStatus" ],
     [ "MR.VoxelsSave", "classMR_1_1VoxelsSave.html", "classMR_1_1VoxelsSave" ]
 ];

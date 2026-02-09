@@ -376,7 +376,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::TrimOptionalOutput</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -391,7 +391,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1TrimWithPlaneParams.html">MR::TrimWithPlaneParams</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::TrimWithPlaneParams</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -453,7 +453,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">new2Old</td><td>receive mapping from newly appeared triangle to its original triangle (part to full) </td></tr>
     <tr><td class="paramname">eps</td><td>if existing vertex is within eps distance from the plane, then move the vertex not introducing new ones </td></tr>
-    <tr><td class="paramname">onEdgeSplitCallback</td><td>is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7600509b91ab7f6d7ed6fa1b8c7844a2">MR::subdivideWithPlane</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>plane</code> can not be null. It is a single object. Parameter <code>new2Old</code> defaults to a null pointer in C++. Parameter <code>eps</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>onEdgeSplitCallback</code> has a default argument: <code>nullptr</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">onEdgeSplitCallback</td><td>is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex Generated from function <code>MR::subdivideWithPlane</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>plane</code> can not be null. It is a single object. Parameter <code>new2Old</code> defaults to a null pointer in C++. Parameter <code>eps</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>onEdgeSplitCallback</code> has a default argument: <code>nullptr</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -520,7 +520,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> elementwise. The reference to the parameter <code>outCutEdges</code> might be preserved in the constructed object. The reference to the parameter <code>outCutContours</code> might be preserved in the constructed object. The reference to the parameter <code>new2Old</code> might be preserved in the constructed object. The reference to the parameter <code>otherPart</code> might be preserved in the constructed object. The reference to the parameter <code>otherNew2Old</code> might be preserved in the constructed object. The reference to the parameter <code>otherOutCutContours</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af71d338cc7199bc8b16a2b80cfeb06f3" title="Destroys a heap-allocated instance of MR_TrimOptionalOutput. Does nothing if the pointer is null.">MR_TrimOptionalOutput_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::TrimOptionalOutput</code> elementwise. The reference to the parameter <code>outCutEdges</code> might be preserved in the constructed object. The reference to the parameter <code>outCutContours</code> might be preserved in the constructed object. The reference to the parameter <code>new2Old</code> might be preserved in the constructed object. The reference to the parameter <code>otherPart</code> might be preserved in the constructed object. The reference to the parameter <code>otherNew2Old</code> might be preserved in the constructed object. The reference to the parameter <code>otherOutCutContours</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af71d338cc7199bc8b16a2b80cfeb06f3" title="Destroys a heap-allocated instance of MR_TrimOptionalOutput. Does nothing if the pointer is null.">MR_TrimOptionalOutput_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -538,7 +538,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1TrimOptionalOutput.html#af052ef403e0beca22eb7a5554e165d06">MR::TrimOptionalOutput::TrimOptionalOutput</a></code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af71d338cc7199bc8b16a2b80cfeb06f3" title="Destroys a heap-allocated instance of MR_TrimOptionalOutput. Does nothing if the pointer is null.">MR_TrimOptionalOutput_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::TrimOptionalOutput::TrimOptionalOutput</code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af71d338cc7199bc8b16a2b80cfeb06f3" title="Destroys a heap-allocated instance of MR_TrimOptionalOutput. Does nothing if the pointer is null.">MR_TrimOptionalOutput_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -630,7 +630,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>new2Old</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TrimOptionalOutput</code> named <code>new2Old</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -648,7 +648,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>otherNew2Old</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TrimOptionalOutput</code> named <code>otherNew2Old</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -666,7 +666,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>otherOutCutContours</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TrimOptionalOutput</code> named <code>otherOutCutContours</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -684,7 +684,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>otherPart</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TrimOptionalOutput</code> named <code>otherPart</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -702,7 +702,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>outCutContours</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TrimOptionalOutput</code> named <code>outCutContours</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -720,7 +720,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>outCutEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TrimOptionalOutput</code> named <code>outCutEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -738,7 +738,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>new2Old</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TrimOptionalOutput</code> named <code>new2Old</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -756,7 +756,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>otherNew2Old</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TrimOptionalOutput</code> named <code>otherNew2Old</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -774,7 +774,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>otherOutCutContours</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TrimOptionalOutput</code> named <code>otherOutCutContours</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -792,7 +792,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>otherPart</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TrimOptionalOutput</code> named <code>otherPart</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -810,7 +810,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>outCutContours</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TrimOptionalOutput</code> named <code>outCutContours</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -828,7 +828,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>outCutEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TrimOptionalOutput</code> named <code>outCutEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -894,7 +894,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>new2Old</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>new2Old</code>. When this function is called, this object will drop object references it had previously in <code>new2Old</code>. </p>
+<p>Modifies a member variable of class <code>MR::TrimOptionalOutput</code> named <code>new2Old</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>new2Old</code>. When this function is called, this object will drop object references it had previously in <code>new2Old</code>. </p>
 
 </div>
 </div>
@@ -916,7 +916,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>otherNew2Old</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>otherNew2Old</code>. When this function is called, this object will drop object references it had previously in <code>otherNew2Old</code>. </p>
+<p>Modifies a member variable of class <code>MR::TrimOptionalOutput</code> named <code>otherNew2Old</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>otherNew2Old</code>. When this function is called, this object will drop object references it had previously in <code>otherNew2Old</code>. </p>
 
 </div>
 </div>
@@ -938,7 +938,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>otherOutCutContours</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>otherOutCutContours</code>. When this function is called, this object will drop object references it had previously in <code>otherOutCutContours</code>. </p>
+<p>Modifies a member variable of class <code>MR::TrimOptionalOutput</code> named <code>otherOutCutContours</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>otherOutCutContours</code>. When this function is called, this object will drop object references it had previously in <code>otherOutCutContours</code>. </p>
 
 </div>
 </div>
@@ -960,7 +960,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>otherPart</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>otherPart</code>. When this function is called, this object will drop object references it had previously in <code>otherPart</code>. </p>
+<p>Modifies a member variable of class <code>MR::TrimOptionalOutput</code> named <code>otherPart</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>otherPart</code>. When this function is called, this object will drop object references it had previously in <code>otherPart</code>. </p>
 
 </div>
 </div>
@@ -982,7 +982,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>outCutContours</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>outCutContours</code>. When this function is called, this object will drop object references it had previously in <code>outCutContours</code>. </p>
+<p>Modifies a member variable of class <code>MR::TrimOptionalOutput</code> named <code>outCutContours</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>outCutContours</code>. When this function is called, this object will drop object references it had previously in <code>outCutContours</code>. </p>
 
 </div>
 </div>
@@ -1004,7 +1004,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></code> named <code>outCutEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>outCutEdges</code>. When this function is called, this object will drop object references it had previously in <code>outCutEdges</code>. </p>
+<p>Modifies a member variable of class <code>MR::TrimOptionalOutput</code> named <code>outCutEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>outCutEdges</code>. When this function is called, this object will drop object references it had previously in <code>outCutEdges</code>. </p>
 
 </div>
 </div>
@@ -1037,7 +1037,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>Input mesh that will be cut </td></tr>
     <tr><td class="paramname">params</td><td>stores basic params for trimWithPlane function </td></tr>
-    <tr><td class="paramname">optOut</td><td>stores optional output params for trimWithPlane function Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3ea0f910b65df6205e389a249e8896ed">MR::trimWithPlane</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Parameter <code>optOut</code> is a single object. Parameter <code>optOut</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">optOut</td><td>stores optional output params for trimWithPlane function Generated from function <code>MR::trimWithPlane</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Parameter <code>optOut</code> is a single object. Parameter <code>optOut</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1099,7 +1099,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1TrimWithPlaneParams.html">MR::TrimWithPlaneParams</a></code> elementwise. Parameter <code>plane</code> can not be null. It is a single object. The reference to the parameter <code>plane</code> might be preserved in the constructed object. The reference to the parameter <code>onEdgeSplitCallback</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae057f6788545b31797ba48b5831dfe53" title="Destroys a heap-allocated instance of MR_TrimWithPlaneParams. Does nothing if the pointer is null.">MR_TrimWithPlaneParams_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::TrimWithPlaneParams</code> elementwise. Parameter <code>plane</code> can not be null. It is a single object. The reference to the parameter <code>plane</code> might be preserved in the constructed object. The reference to the parameter <code>onEdgeSplitCallback</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae057f6788545b31797ba48b5831dfe53" title="Destroys a heap-allocated instance of MR_TrimWithPlaneParams. Does nothing if the pointer is null.">MR_TrimWithPlaneParams_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -1121,7 +1121,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1TrimWithPlaneParams.html#a83c436b07cf5583bb54ac607faa5cd93">MR::TrimWithPlaneParams::TrimWithPlaneParams</a></code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae057f6788545b31797ba48b5831dfe53" title="Destroys a heap-allocated instance of MR_TrimWithPlaneParams. Does nothing if the pointer is null.">MR_TrimWithPlaneParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::TrimWithPlaneParams::TrimWithPlaneParams</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae057f6788545b31797ba48b5831dfe53" title="Destroys a heap-allocated instance of MR_TrimWithPlaneParams. Does nothing if the pointer is null.">MR_TrimWithPlaneParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1213,7 +1213,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimWithPlaneParams.html">MR::TrimWithPlaneParams</a></code> named <code>eps</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TrimWithPlaneParams</code> named <code>eps</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1231,7 +1231,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimWithPlaneParams.html">MR::TrimWithPlaneParams</a></code> named <code>onEdgeSplitCallback</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TrimWithPlaneParams</code> named <code>onEdgeSplitCallback</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1249,7 +1249,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimWithPlaneParams.html">MR::TrimWithPlaneParams</a></code> named <code>plane</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TrimWithPlaneParams</code> named <code>plane</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1267,7 +1267,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimWithPlaneParams.html">MR::TrimWithPlaneParams</a></code> named <code>eps</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TrimWithPlaneParams</code> named <code>eps</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1285,7 +1285,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimWithPlaneParams.html">MR::TrimWithPlaneParams</a></code> named <code>onEdgeSplitCallback</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TrimWithPlaneParams</code> named <code>onEdgeSplitCallback</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1303,7 +1303,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimWithPlaneParams.html">MR::TrimWithPlaneParams</a></code> named <code>plane</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TrimWithPlaneParams</code> named <code>plane</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1369,7 +1369,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimWithPlaneParams.html">MR::TrimWithPlaneParams</a></code> named <code>eps</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>eps</code>. </p>
+<p>Modifies a member variable of class <code>MR::TrimWithPlaneParams</code> named <code>eps</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>eps</code>. </p>
 
 </div>
 </div>
@@ -1396,7 +1396,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimWithPlaneParams.html">MR::TrimWithPlaneParams</a></code> named <code>onEdgeSplitCallback</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>onEdgeSplitCallback</code>. When this function is called, this object will drop object references it had previously in <code>onEdgeSplitCallback</code>. </p>
+<p>Modifies a member variable of class <code>MR::TrimWithPlaneParams</code> named <code>onEdgeSplitCallback</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>onEdgeSplitCallback</code>. When this function is called, this object will drop object references it had previously in <code>onEdgeSplitCallback</code>. </p>
 
 </div>
 </div>
@@ -1418,7 +1418,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TrimWithPlaneParams.html">MR::TrimWithPlaneParams</a></code> named <code>plane</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>plane</code>. When this function is called, this object will drop object references it had previously in <code>plane</code>. </p>
+<p>Modifies a member variable of class <code>MR::TrimWithPlaneParams</code> named <code>plane</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>plane</code>. When this function is called, this object will drop object references it had previously in <code>plane</code>. </p>
 
 </div>
 </div>

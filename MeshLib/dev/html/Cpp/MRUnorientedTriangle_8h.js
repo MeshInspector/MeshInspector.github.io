@@ -1,4 +1,4 @@
 var MRUnorientedTriangle_8h =
 [
-    [ "MR::UnorientedTriangle", "../Csharp/classMR_1_1UnorientedTriangle.html", "classMR_1_1UnorientedTriangle" ]
+    [ "MR::UnorientedTriangle", "structMR_1_1UnorientedTriangle.html", "structMR_1_1UnorientedTriangle" ]
 ];

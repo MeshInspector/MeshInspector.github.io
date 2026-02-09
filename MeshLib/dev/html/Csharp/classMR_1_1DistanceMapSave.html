@@ -146,31 +146,25 @@ $(function(){initNavTree('classMR_1_1DistanceMapSave.html',''); initResizable(tr
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1DistanceMapSave-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.DistanceMapSave Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:aac7825149eb9a0b19702af74fa42f45e" id="r_aac7825149eb9a0b19702af74fa42f45e"><td class="memItemLeft" align="right" valign="top">typedef Expected&lt; void &gt;(*)(const <a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distanceMap, const std::filesystem::path &amp;path, const <a class="elRef" href="../Cpp/structMR_1_1DistanceMapSaveSettings.html">DistanceMapSaveSettings</a> &amp;settings&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1DistanceMapSave.html#aac7825149eb9a0b19702af74fa42f45e">DistanceMapSaver</a>)</td></tr>
-<tr class="separator:aac7825149eb9a0b19702af74fa42f45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6287d978737eddc435dc514259ab1ab0" id="r_a6287d978737eddc435dc514259ab1ab0"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6287d978737eddc435dc514259ab1ab0">toTiff</a> (<a class="el" href="classMR_1_1Const__DistanceMap.html">MR.Const_DistanceMap</a> dmap, string path, <a class="el" href="classMR_1_1Const__DistanceMapSaveSettings.html">MR.Const_DistanceMapSaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a6287d978737eddc435dc514259ab1ab0"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .tiff format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1DistanceMapSave.html#ac986153af46b35d0ef74dd4de1b6e874">MR.DistanceMapSave.toTiff</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="memdesc:a6287d978737eddc435dc514259ab1ab0"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .tiff format Generated from function <code><a class="el" href="#a6287d978737eddc435dc514259ab1ab0" title="saves in .tiff format Generated from function MR.DistanceMapSave.toTiff. Parameter settings defaults ...">MR.DistanceMapSave.toTiff</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a6287d978737eddc435dc514259ab1ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5f73d2b7ddf420b84901ac67016729f" id="r_af5f73d2b7ddf420b84901ac67016729f"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5f73d2b7ddf420b84901ac67016729f">toRAW</a> (<a class="el" href="classMR_1_1Const__DistanceMap.html">MR.Const_DistanceMap</a> dmap, string path, <a class="el" href="classMR_1_1Const__DistanceMapSaveSettings.html">MR.Const_DistanceMapSaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:af5f73d2b7ddf420b84901ac67016729f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save <a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">DistanceMap</a> to binary file Format: 2 integer - <a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html#a86f99e58434c2a70fb27a552d08ba50f">DistanceMap.resX</a> &amp; <a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html#ab7ce297c0b79b57dba812e3c7511fb56">DistanceMap.resY</a> [resX * resY] float - matrix of values Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapSaveGroup.html#gaa3625e43c93ee428ec0fc08bd7b00caf">MR.DistanceMapSave.toRAW</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="memdesc:af5f73d2b7ddf420b84901ac67016729f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save <a class="el" href="classMR_1_1DistanceMap.html" title="this class allows to store distances from the plane in particular pixels validVerts keeps only pixels...">DistanceMap</a> to binary file Format: 2 integer - <a class="el" href="classMR_1_1Const__DistanceMap.html#a74756a855a7427158fc45ad3590a4ee9" title="returns X resolution Generated from method MR.DistanceMap.resX.">DistanceMap.resX</a> &amp; <a class="el" href="classMR_1_1Const__DistanceMap.html#a7fde80d9d4f1916be2cbe1cea1c6c454" title="returns Y resolution Generated from method MR.DistanceMap.resY.">DistanceMap.resY</a> [resX * resY] float - matrix of values Generated from function <code><a class="el" href="#af5f73d2b7ddf420b84901ac67016729f" title="Save DistanceMap to binary file Format: 2 integer - DistanceMap.resX &amp; DistanceMap....">MR.DistanceMapSave.toRAW</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:af5f73d2b7ddf420b84901ac67016729f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d5a6944088df3384d615a495c64b210" id="r_a8d5a6944088df3384d615a495c64b210"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d5a6944088df3384d615a495c64b210">toMrDistanceMap</a> (<a class="el" href="classMR_1_1Const__DistanceMap.html">MR.Const_DistanceMap</a> dmap, string path, <a class="el" href="classMR_1_1Const__DistanceMapSaveSettings.html">MR.Const_DistanceMapSaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a8d5a6944088df3384d615a495c64b210"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapSaveGroup.html#ga45ebc8766748a50c7620c3b1364a16df">MR.DistanceMapSave.toMrDistanceMap</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="memdesc:a8d5a6944088df3384d615a495c64b210"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a8d5a6944088df3384d615a495c64b210" title="Generated from function MR.DistanceMapSave.toMrDistanceMap. Parameter settings defaults to {}...">MR.DistanceMapSave.toMrDistanceMap</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a8d5a6944088df3384d615a495c64b210"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2c46a3796f8ae801f2fdc9d7fbf41b3" id="r_ad2c46a3796f8ae801f2fdc9d7fbf41b3"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2c46a3796f8ae801f2fdc9d7fbf41b3">toAnySupportedFormat</a> (<a class="el" href="classMR_1_1Const__DistanceMap.html">MR.Const_DistanceMap</a> dmap, string path, <a class="el" href="classMR_1_1Const__DistanceMapSaveSettings.html">MR.Const_DistanceMapSaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:ad2c46a3796f8ae801f2fdc9d7fbf41b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapSaveGroup.html#ga1ace9bedd45e8e536a87c8e707e51baf">MR.DistanceMapSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
+<tr class="memdesc:ad2c46a3796f8ae801f2fdc9d7fbf41b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#ad2c46a3796f8ae801f2fdc9d7fbf41b3" title="Generated from function MR.DistanceMapSave.toAnySupportedFormat. Parameter settings defaults to {}...">MR.DistanceMapSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:ad2c46a3796f8ae801f2fdc9d7fbf41b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -206,7 +200,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapSaveGroup.html#ga1ace9bedd45e8e536a87c8e707e51baf">MR.DistanceMapSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+<p>Generated from function <code><a class="el" href="#ad2c46a3796f8ae801f2fdc9d7fbf41b3" title="Generated from function MR.DistanceMapSave.toAnySupportedFormat. Parameter settings defaults to {}...">MR.DistanceMapSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
@@ -242,7 +236,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapSaveGroup.html#ga45ebc8766748a50c7620c3b1364a16df">MR.DistanceMapSave.toMrDistanceMap</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+<p>Generated from function <code><a class="el" href="#a8d5a6944088df3384d615a495c64b210" title="Generated from function MR.DistanceMapSave.toMrDistanceMap. Parameter settings defaults to {}...">MR.DistanceMapSave.toMrDistanceMap</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
@@ -278,7 +272,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Save <a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">DistanceMap</a> to binary file Format: 2 integer - <a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html#a86f99e58434c2a70fb27a552d08ba50f">DistanceMap.resX</a> &amp; <a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html#ab7ce297c0b79b57dba812e3c7511fb56">DistanceMap.resY</a> [resX * resY] float - matrix of values Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapSaveGroup.html#gaa3625e43c93ee428ec0fc08bd7b00caf">MR.DistanceMapSave.toRAW</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+<p>Save <a class="el" href="classMR_1_1DistanceMap.html" title="this class allows to store distances from the plane in particular pixels validVerts keeps only pixels...">DistanceMap</a> to binary file Format: 2 integer - <a class="el" href="classMR_1_1Const__DistanceMap.html#a74756a855a7427158fc45ad3590a4ee9" title="returns X resolution Generated from method MR.DistanceMap.resX.">DistanceMap.resX</a> &amp; <a class="el" href="classMR_1_1Const__DistanceMap.html#a7fde80d9d4f1916be2cbe1cea1c6c454" title="returns Y resolution Generated from method MR.DistanceMap.resY.">DistanceMap.resY</a> [resX * resY] float - matrix of values Generated from function <code><a class="el" href="#af5f73d2b7ddf420b84901ac67016729f" title="Save DistanceMap to binary file Format: 2 integer - DistanceMap.resX &amp; DistanceMap....">MR.DistanceMapSave.toRAW</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
@@ -314,7 +308,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>saves in .tiff format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1DistanceMapSave.html#ac986153af46b35d0ef74dd4de1b6e874">MR.DistanceMapSave.toTiff</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+<p>saves in .tiff format Generated from function <code><a class="el" href="#a6287d978737eddc435dc514259ab1ab0" title="saves in .tiff format Generated from function MR.DistanceMapSave.toTiff. Parameter settings defaults ...">MR.DistanceMapSave.toTiff</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
 
 </div>
 </div>
@@ -328,7 +322,7 @@ Static Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1DistanceMapSave.html">DistanceMapSave</a></li>
+    <li class="navelem"><a class="el" href="classMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1DistanceMapSave.html">DistanceMapSave</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

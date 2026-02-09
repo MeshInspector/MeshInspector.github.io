@@ -271,7 +271,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Calculates Damerau-Levenshtein distance between to strings </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">outLeftRightAddition</td><td>if provided return amount of insertions to the left and to the right Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#gadb9d497f4e19d60a460324a964581ebb">MR::calcDamerauLevenshteinDistance</a></code>. Parameter <code>stringA</code> can not be null. If <code>stringA_end</code> is null, then <code>stringA</code> is assumed to be null-terminated. Parameter <code>stringB</code> can not be null. If <code>stringB_end</code> is null, then <code>stringB</code> is assumed to be null-terminated. Parameter <code>caseSensitive</code> has a default argument: <code>true</code>, pass a null pointer to use it. Parameter <code>outLeftRightAddition</code> defaults to a null pointer in C++. </td></tr>
+    <tr><td class="paramname">outLeftRightAddition</td><td>if provided return amount of insertions to the left and to the right Generated from function <code>MR::calcDamerauLevenshteinDistance</code>. Parameter <code>stringA</code> can not be null. If <code>stringA_end</code> is null, then <code>stringA</code> is assumed to be null-terminated. Parameter <code>stringB</code> can not be null. If <code>stringB_end</code> is null, then <code>stringB</code> is assumed to be null-terminated. Parameter <code>caseSensitive</code> has a default argument: <code>true</code>, pass a null pointer to use it. Parameter <code>outLeftRightAddition</code> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>
@@ -306,7 +306,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Finds the substring in the string. </p><dl class="section return"><dt>Returns</dt><dd>position, npos if not found Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga245584b85505ab9157d346bb3d8caf53">MR::findSubstringCaseInsensitive</a></code>. Parameter <code>string</code> can not be null. If <code>string_end</code> is null, then <code>string</code> is assumed to be null-terminated. Parameter <code>substring</code> can not be null. If <code>substring_end</code> is null, then <code>substring</code> is assumed to be null-terminated. </dd></dl>
+<p>Finds the substring in the string. </p><dl class="section return"><dt>Returns</dt><dd>position, npos if not found Generated from function <code>MR::findSubstringCaseInsensitive</code>. Parameter <code>string</code> can not be null. If <code>string_end</code> is null, then <code>string</code> is assumed to be null-terminated. Parameter <code>substring</code> can not be null. If <code>substring_end</code> is null, then <code>substring</code> is assumed to be null-terminated. </dd></dl>
 
 </div>
 </div>
@@ -328,7 +328,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns true if <code>str</code> has at least one <code>{...}</code> formatting placeholder. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a36dd0324e538647cb66802f21a522b68">MR::hasFormatPlaceholders</a></code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. </p>
+<p>Returns true if <code>str</code> has at least one <code>{...}</code> formatting placeholder. Generated from function <code>MR::hasFormatPlaceholders</code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. </p>
 
 </div>
 </div>
@@ -374,7 +374,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">target</td><td>with all</td></tr>
     <tr><td class="paramname">from</td><td>replaced with</td></tr>
-    <tr><td class="paramname">to,zero</td><td>or more times. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2584c6bf8d14b42355582e7b634bb1ee">MR::replace</a></code>. Parameter <code>target</code> can not be null. If <code>target_end</code> is null, then <code>target</code> is assumed to be null-terminated. Parameter <code>from</code> can not be null. If <code>from_end</code> is null, then <code>from</code> is assumed to be null-terminated. Parameter <code>to</code> can not be null. If <code>to_end</code> is null, then <code>to</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">to,zero</td><td>or more times. Generated from function <code>MR::replace</code>. Parameter <code>target</code> can not be null. If <code>target_end</code> is null, then <code>target</code> is assumed to be null-terminated. Parameter <code>from</code> can not be null. If <code>from_end</code> is null, then <code>from</code> is assumed to be null-terminated. Parameter <code>to</code> can not be null. If <code>to_end</code> is null, then <code>to</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -418,7 +418,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">from</td><td>with</td></tr>
     <tr><td class="paramname">to</td><td>in</td></tr>
-    <tr><td class="paramname">target</td><td>(in-place), zero or more times. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#afc584d61fd54ca2a86dec086736fdfd4">MR::replaceInplace</a></code>. Parameter <code>target</code> can not be null. It is a single object. Parameter <code>from</code> can not be null. If <code>from_end</code> is null, then <code>from</code> is assumed to be null-terminated. Parameter <code>to</code> can not be null. If <code>to_end</code> is null, then <code>to</code> is assumed to be null-terminated. </td></tr>
+    <tr><td class="paramname">target</td><td>(in-place), zero or more times. Generated from function <code>MR::replaceInplace</code>. Parameter <code>target</code> can not be null. It is a single object. Parameter <code>from</code> can not be null. If <code>from_end</code> is null, then <code>from</code> is assumed to be null-terminated. Parameter <code>to</code> can not be null. If <code>to_end</code> is null, then <code>to</code> is assumed to be null-terminated. </td></tr>
   </table>
   </dd>
 </dl>
@@ -453,7 +453,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Splits given string by delimiter. </p><dl class="section return"><dt>Returns</dt><dd>vector of split strings Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga4a32fd3117efa96b71c220bfc13c359b">MR::split</a></code>. Parameter <code>string</code> can not be null. If <code>string_end</code> is null, then <code>string</code> is assumed to be null-terminated. Parameter <code>delimiter</code> can not be null. If <code>delimiter_end</code> is null, then <code>delimiter</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_string_Destroy()</code> to free it when you're done using it. </dd></dl>
+<p>Splits given string by delimiter. </p><dl class="section return"><dt>Returns</dt><dd>vector of split strings Generated from function <code>MR::split</code>. Parameter <code>string</code> can not be null. If <code>string_end</code> is null, then <code>string</code> is assumed to be null-terminated. Parameter <code>delimiter</code> can not be null. If <code>delimiter_end</code> is null, then <code>delimiter</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_string_Destroy()</code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -475,7 +475,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Removes all whitespace character (detected by std::isspace) at the beginning and the end of string view Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aacd64ab3b893a3975e6dced2b5ff2722">MR::trim</a></code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_view_Destroy()</code> to free it when you're done using it. </p>
+<p>Removes all whitespace character (detected by std::isspace) at the beginning and the end of string view Generated from function <code>MR::trim</code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_view_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -497,7 +497,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Removes all whitespace character (detected by std::isspace) at the beginning of string view Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7739cc70dc943e30f0635c478a93ef14">MR::trimLeft</a></code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_view_Destroy()</code> to free it when you're done using it. </p>
+<p>Removes all whitespace character (detected by std::isspace) at the beginning of string view Generated from function <code>MR::trimLeft</code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_view_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -519,7 +519,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Removes all whitespace character (detected by std::isspace) at the end of string view Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#afc9f574268d072e85d31e140353743df">MR::trimRight</a></code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_view_Destroy()</code> to free it when you're done using it. </p>
+<p>Removes all whitespace character (detected by std::isspace) at the end of string view Generated from function <code>MR::trimRight</code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_view_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>

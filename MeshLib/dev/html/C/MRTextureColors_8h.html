@@ -308,7 +308,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns UV-coordinates at the given vertex if they are the same in all surrounding triangles; otherwise returns std::nullopt Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a228fd3f15dfd62cae2cd96578e019c9d">MR::findVertexUV</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>triCornerUvCoords</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_Vector2f_Destroy()</code> to free it when you're done using it. </p>
+<p>returns UV-coordinates at the given vertex if they are the same in all surrounding triangles; otherwise returns std::nullopt Generated from function <code>MR::findVertexUV</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>triCornerUvCoords</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_Vector2f_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -330,7 +330,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if all mesh vertices have unique UV-coordinates in all triangles, then returns them; otherwise returns std::nullopt Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a66d4d2959eb1a39fea41beb266bc070f">MR::findVertexUVs</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>triCornerUvCoords</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertCoords2_Destroy()</code> to free it when you're done using it. </p>
+<p>if all mesh vertices have unique UV-coordinates in all triangles, then returns them; otherwise returns std::nullopt Generated from function <code>MR::findVertexUVs</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>triCornerUvCoords</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertCoords2_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -362,7 +362,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the color in the given vertex of mesh textured per-triangle's-corner; if the vertex has different colors in different triangles, then angle-weight average is computed Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aec77a6bfc580adda65939479fe650ed3">MR::sampleVertexColor</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>tex</code> can not be null. It is a single object. Parameter <code>triCornerUvCoords</code> can not be null. It is a single object. </p>
+<p>computes the color in the given vertex of mesh textured per-triangle's-corner; if the vertex has different colors in different triangles, then angle-weight average is computed Generated from function <code>MR::sampleVertexColor</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>tex</code> can not be null. It is a single object. Parameter <code>triCornerUvCoords</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -389,7 +389,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the colors in the vertices of mesh textured per-triangle's-corner; if one vertex has different colors in different triangles, then angle-weight average is computed Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abcc85ae5479c89af9d661cb1b69408b2">MR::sampleVertexColors</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>tex</code> can not be null. It is a single object. Parameter <code>triCornerUvCoords</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a2ab929969ef5c6aa32c0d3e0ebbe2402" title="Destroys a heap-allocated instance of MR_VertColors. Does nothing if the pointer is null.">MR_VertColors_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes the colors in the vertices of mesh textured per-triangle's-corner; if one vertex has different colors in different triangles, then angle-weight average is computed Generated from function <code>MR::sampleVertexColors</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>tex</code> can not be null. It is a single object. Parameter <code>triCornerUvCoords</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a2ab929969ef5c6aa32c0d3e0ebbe2402" title="Destroys a heap-allocated instance of MR_VertColors. Does nothing if the pointer is null.">MR_VertColors_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

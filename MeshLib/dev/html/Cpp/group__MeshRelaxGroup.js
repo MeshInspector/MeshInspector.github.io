@@ -1,46 +1,15 @@
 var group__MeshRelaxGroup =
 [
-    [ "MR::MeshRelaxParams", "../Csharp/classMR_1_1MeshRelaxParams.html", [
-      [ "MeshRelaxParams", "../Csharp/classMR_1_1MeshRelaxParams.html#ae8d50f28ea901ba132f2a3af6605d145", null ],
-      [ "MeshRelaxParams", "../Csharp/classMR_1_1MeshRelaxParams.html#a58c1eec54af4fc331e702daa36ddc9f7", null ],
-      [ "MeshRelaxParams", "../Csharp/classMR_1_1MeshRelaxParams.html#aac356d7ee629b7c1f8cb2c8db63b7962", null ],
-      [ "assign", "../Csharp/classMR_1_1MeshRelaxParams.html#a7bbc0472f23e1b9ad9aa47f11a01d6ee", null ],
-      [ "force", "../Csharp/classMR_1_1MeshRelaxParams.html#a727523eb6245510332fbd40fa8179c93", null ],
-      [ "hardSmoothTetrahedrons", "../Csharp/classMR_1_1MeshRelaxParams.html#a28439f2daaf3650ca84dd0f33d0515bd", null ],
-      [ "iterations", "../Csharp/classMR_1_1MeshRelaxParams.html#a507f9239d84b838cc03f728023125341", null ],
-      [ "limitNearInitial", "../Csharp/classMR_1_1MeshRelaxParams.html#a784f38a22f8fbc1f8ea077f84a1b984b", null ],
-      [ "maxInitialDist", "../Csharp/classMR_1_1MeshRelaxParams.html#aa6078c1afe0cb38f94df4d75fe845c9d", null ],
-      [ "region", "../Csharp/classMR_1_1MeshRelaxParams.html#a8f3806fc1ebf27bf671e2fc89f085458", null ],
-      [ "weights", "../Csharp/classMR_1_1MeshRelaxParams.html#a7b3237b6a361256d62cfb92eb778619e", null ]
+    [ "MR::MeshRelaxParams", "structMR_1_1MeshRelaxParams.html", [
+      [ "hardSmoothTetrahedrons", "structMR_1_1MeshRelaxParams.html#aeb8c3fee03385430c013562e6fafb17e", null ],
+      [ "weights", "structMR_1_1MeshRelaxParams.html#a41780c569c9092f50274655744456aea", null ]
     ] ],
-    [ "MR::MeshEqualizeTriAreasParams", "../Csharp/classMR_1_1MeshEqualizeTriAreasParams.html", [
-      [ "MeshEqualizeTriAreasParams", "../Csharp/classMR_1_1MeshEqualizeTriAreasParams.html#a9ee9ea2ec4efd9c0987fa748cedf9e65", null ],
-      [ "MeshEqualizeTriAreasParams", "../Csharp/classMR_1_1MeshEqualizeTriAreasParams.html#ab2446c493737974b3c6a9a9339db8dea", null ],
-      [ "MeshEqualizeTriAreasParams", "../Csharp/classMR_1_1MeshEqualizeTriAreasParams.html#a4fb112503135759cf22128f08bb4d23e", null ],
-      [ "assign", "../Csharp/classMR_1_1MeshEqualizeTriAreasParams.html#a9c5a13d2757c4512b378c0eab99ef4a1", null ],
-      [ "force", "../Csharp/classMR_1_1MeshEqualizeTriAreasParams.html#adbcaef58601f7c404b72267c05f07988", null ],
-      [ "hardSmoothTetrahedrons", "../Csharp/classMR_1_1MeshEqualizeTriAreasParams.html#ab7e745f31e1561d212058f1d5f11c9f2", null ],
-      [ "iterations", "../Csharp/classMR_1_1MeshEqualizeTriAreasParams.html#ac16cac43b7aee6645062e4bc905743dc", null ],
-      [ "limitNearInitial", "../Csharp/classMR_1_1MeshEqualizeTriAreasParams.html#a5c0ecfb59473911cc9c1063d29626651", null ],
-      [ "maxInitialDist", "../Csharp/classMR_1_1MeshEqualizeTriAreasParams.html#a8e8bb59424534582e08d97437801e9e9", null ],
-      [ "noShrinkage", "../Csharp/classMR_1_1MeshEqualizeTriAreasParams.html#af5841b71eb6b9c923a283caeef3aa586", null ],
-      [ "region", "../Csharp/classMR_1_1MeshEqualizeTriAreasParams.html#a81f3754b3040a5da12e8e02b5a7081c5", null ],
-      [ "weights", "../Csharp/classMR_1_1MeshEqualizeTriAreasParams.html#a6f1292ae2f55809386e260ad626cb1f5", null ]
+    [ "MR::MeshEqualizeTriAreasParams", "structMR_1_1MeshEqualizeTriAreasParams.html", [
+      [ "noShrinkage", "structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0", null ]
     ] ],
-    [ "MR::MeshApproxRelaxParams", "../Csharp/classMR_1_1MeshApproxRelaxParams.html", [
-      [ "MeshApproxRelaxParams", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a1594eb602e5c62726787743172fe4ede", null ],
-      [ "MeshApproxRelaxParams", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a4429bd6e4e61a50df2b6d6fc500f023b", null ],
-      [ "MeshApproxRelaxParams", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#aa1e8cf63210c9d1a82ad457c9996a430", null ],
-      [ "assign", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a49232e24b71ce1f5fdf92c9c88e5dfc2", null ],
-      [ "force", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a9343045d84dc9a11afb04655a63b8381", null ],
-      [ "hardSmoothTetrahedrons", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a545be7ff2ad08a2d6e9a21c5c1d25230", null ],
-      [ "iterations", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a564ff635e217c82d7e872f0d14f49b32", null ],
-      [ "limitNearInitial", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a75f3e99cdf6c3021c01af50976148592", null ],
-      [ "maxInitialDist", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a8a163a03ba292adb2564c2686f06e719", null ],
-      [ "region", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a73f3038b349afb74f1bcd16dcaf19eaa", null ],
-      [ "surfaceDilateRadius", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a6a2bf9299774fa6af8fa9131c4eb1b2d", null ],
-      [ "type", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a6c6221567d59717a3854b2d4ccdf2e91", null ],
-      [ "weights", "../Csharp/classMR_1_1MeshApproxRelaxParams.html#a20b9f027ef9fb92dbdfd954b469a7303", null ]
+    [ "MR::MeshApproxRelaxParams", "structMR_1_1MeshApproxRelaxParams.html", [
+      [ "surfaceDilateRadius", "structMR_1_1MeshApproxRelaxParams.html#aed8137acdd95c73e5606d4ad5fa7e3ae", null ],
+      [ "type", "structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51", null ]
     ] ],
     [ "MR::equalizeTriAreas", "group__MeshRelaxGroup.html#ga4d18f403309407bc884de403549fd99f", null ],
     [ "MR::equalizeTriAreas", "group__MeshRelaxGroup.html#gaae1979d9e4a28ec7ad4642bbb77e477f", null ],

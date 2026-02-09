@@ -2,6 +2,10 @@ var MRViewportCornerController_8h =
 [
     [ "MR::CornerControllerObject", "classMR_1_1CornerControllerObject.html", "classMR_1_1CornerControllerObject" ],
     [ "MR::CornerControllerObject::PickedIds", "structMR_1_1CornerControllerObject_1_1PickedIds.html", "structMR_1_1CornerControllerObject_1_1PickedIds" ],
+    [ "SideRegions", "MRViewportCornerController_8h.html#a3b6b94f5ad3595b510d6842ee045d493", [
+      [ "CCWArrow", "MRViewportCornerController_8h.html#a3b6b94f5ad3595b510d6842ee045d493ae6553022651896cb21658b100e851cdd", null ],
+      [ "CWArrow", "MRViewportCornerController_8h.html#a3b6b94f5ad3595b510d6842ee045d493ac9dec87e1252f2726ee58eac2c380518", null ]
+    ] ],
     [ "getCornerControllerHoveredTextureMap", "MRViewportCornerController_8h.html#ae5dcb820660464b7454985abd2094832", null ],
     [ "getCornerControllerRegionByFace", "MRViewportCornerController_8h.html#a1998b7c6048ad3f3b7bee341e9ee8fcc", null ],
     [ "getCornerControllerTexureMap", "MRViewportCornerController_8h.html#a7405292d0adca18807e60b0121177c00", null ],

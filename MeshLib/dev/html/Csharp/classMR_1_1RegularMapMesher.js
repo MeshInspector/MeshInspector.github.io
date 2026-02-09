@@ -1,8 +1,12 @@
 var classMR_1_1RegularMapMesher =
 [
-    [ "createMesh", "../Cpp/classMR_1_1RegularMapMesher.html#acdde192d67f89fe363a158f3ee13f499", null ],
-    [ "loadDistances", "../Cpp/classMR_1_1RegularMapMesher.html#a351acfb608cafb88929a69ba41f63bfa", null ],
-    [ "setDirectionsPC", "../Cpp/classMR_1_1RegularMapMesher.html#a8556a43fd905bbb2cba1cb5bb5743739", null ],
-    [ "setDistances", "../Cpp/classMR_1_1RegularMapMesher.html#a48f6cd19965602a3fb9f4669c22e3c14", null ],
-    [ "setSurfacePC", "../Cpp/classMR_1_1RegularMapMesher.html#a9ed2cde9e77dce74ecb24b16eb4db785", null ]
+    [ "RegularMapMesher", "classMR_1_1RegularMapMesher.html#ab620c4934731dccd4bdee16ff007aca0", null ],
+    [ "RegularMapMesher", "classMR_1_1RegularMapMesher.html#adb23c6068fce1fd48aa72d3f572758f8", null ],
+    [ "RegularMapMesher", "classMR_1_1RegularMapMesher.html#ade81f5e74f7af98ac60e83b11ef6da38", null ],
+    [ "RegularMapMesher", "classMR_1_1RegularMapMesher.html#a6b9b1a239520752175ea710c5f3585b3", null ],
+    [ "assign", "classMR_1_1RegularMapMesher.html#a912a44af7d29290ff78d4b9dda1167f1", null ],
+    [ "loadDistances", "classMR_1_1RegularMapMesher.html#ac5d4f2f720bd58de6174b98fc233a5aa", null ],
+    [ "setDirectionsPC", "classMR_1_1RegularMapMesher.html#a2e612b2b042306bfeba0e406f88da1b5", null ],
+    [ "setDistances", "classMR_1_1RegularMapMesher.html#a81f29537e2f2c967ee20c2a44783b038", null ],
+    [ "setSurfacePC", "classMR_1_1RegularMapMesher.html#aee5cb36a7a745a1f815f287448400f4e", null ]
 ];

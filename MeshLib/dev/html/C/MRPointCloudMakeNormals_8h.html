@@ -310,7 +310,7 @@ Functions</h2></td></tr>
 <p>Makes consistent normals for valid points of given point cloud. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">avgNeighborhoodSize</td><td>avg num of neighbors of each individual point Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#ga6d1b190105546ec214cc4ab692ece60e">MR::makeNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>avgNeighborhoodSize</code> has a default argument: <code>48</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#ae3e5b113c183c12e3130be9227a248e5" title="Destroys a heap-allocated instance of MR_VertCoords. Does nothing if the pointer is null.">MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">avgNeighborhoodSize</td><td>avg num of neighbors of each individual point Generated from function <code>MR::makeNormals</code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>avgNeighborhoodSize</code> has a default argument: <code>48</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#ae3e5b113c183c12e3130be9227a248e5" title="Destroys a heap-allocated instance of MR_VertCoords. Does nothing if the pointer is null.">MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -348,7 +348,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#ga40da78b08c082b4012d578e9b68e0c69">MR::makeOrientedNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertCoords_Destroy()</code> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false Generated from function <code>MR::makeOrientedNormals</code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertCoords_Destroy()</code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -377,7 +377,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Makes normals for valid points of given point cloud; directions of close points are selected to be consistent; \triangs triangulation neighbours of each point, which are oriented during the call as well. </p>
-<dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#ga40da78b08c082b4012d578e9b68e0c69">MR::makeOrientedNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>triangs</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertCoords_Destroy()</code> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false Generated from function <code>MR::makeOrientedNormals</code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>triangs</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertCoords_Destroy()</code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -418,7 +418,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gacc81cfcb469766869e22075807c018db">MR::makeUnorientedNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>orient</code> has a default argument: <code>OrientNormals::Smart</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertCoords_Destroy()</code> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false Generated from function <code>MR::makeUnorientedNormals</code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>orient</code> has a default argument: <code>OrientNormals::Smart</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertCoords_Destroy()</code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -458,7 +458,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gacc81cfcb469766869e22075807c018db">MR::makeUnorientedNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>triangs</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>orient</code> has a default argument: <code>OrientNormals::Smart</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertCoords_Destroy()</code> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false Generated from function <code>MR::makeUnorientedNormals</code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>triangs</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>orient</code> has a default argument: <code>OrientNormals::Smart</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertCoords_Destroy()</code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -504,7 +504,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gacc81cfcb469766869e22075807c018db">MR::makeUnorientedNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>closeVerts</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>orient</code> has a default argument: <code>OrientNormals::Smart</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertCoords_Destroy()</code> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false Generated from function <code>MR::makeUnorientedNormals</code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>closeVerts</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>orient</code> has a default argument: <code>OrientNormals::Smart</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertCoords_Destroy()</code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -544,7 +544,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>false if progress returned false Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gac088f8a5d90a98ec6f18e97caca298f2">MR::orientNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>false if progress returned false Generated from function <code>MR::orientNormals</code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>
@@ -584,7 +584,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>false if progress returned false Unlike simple orientNormals this method constructs local triangulations around each point (with most neighbours within given radius and all neighbours within 2*radius) and considers all triangulation neighbors and not other points from the ball around each point. Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gac088f8a5d90a98ec6f18e97caca298f2">MR::orientNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>triangs</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>false if progress returned false Unlike simple orientNormals this method constructs local triangulations around each point (with most neighbours within given radius and all neighbours within 2*radius) and considers all triangulation neighbors and not other points from the ball around each point. Generated from function <code>MR::orientNormals</code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>triangs</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>
@@ -629,7 +629,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>false if progress returned false Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gac088f8a5d90a98ec6f18e97caca298f2">MR::orientNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>closeVerts</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>false if progress returned false Generated from function <code>MR::orientNormals</code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>closeVerts</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>

@@ -1,6 +1,13 @@
 var classMR_1_1FixUndercuts =
 [
-    [ "UndercutMetric", "../Cpp/namespaceMR_1_1FixUndercuts.html#afb7dbf2667211aa9d31565ef2d4ad13d", null ],
+    [ "Const_DistMapImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html", "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters" ],
+    [ "Const_FindParams", "classMR_1_1FixUndercuts_1_1Const__FindParams.html", "classMR_1_1FixUndercuts_1_1Const__FindParams" ],
+    [ "Const_FixParams", "classMR_1_1FixUndercuts_1_1Const__FixParams.html", "classMR_1_1FixUndercuts_1_1Const__FixParams" ],
+    [ "Const_ImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters.html", "classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters" ],
+    [ "DistMapImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
+    [ "FindParams", "classMR_1_1FixUndercuts_1_1FindParams.html", "classMR_1_1FixUndercuts_1_1FindParams" ],
+    [ "FixParams", "classMR_1_1FixUndercuts_1_1FixParams.html", "classMR_1_1FixUndercuts_1_1FixParams" ],
+    [ "ImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html", "classMR_1_1FixUndercuts_1_1ImproveDirectionParameters" ],
     [ "distMapImproveDirection", "classMR_1_1FixUndercuts.html#a3298ccc305ef370df07890656513eb12", null ],
     [ "find", "classMR_1_1FixUndercuts.html#a19361a65fe7c8618513552f75da3649c", null ],
     [ "find", "classMR_1_1FixUndercuts.html#a92bd929ec1b2758b5bc393293ad091e4", null ],

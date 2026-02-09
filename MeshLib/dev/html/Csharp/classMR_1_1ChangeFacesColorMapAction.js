@@ -1,10 +1,12 @@
 var classMR_1_1ChangeFacesColorMapAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangeFacesColorMapAction.html#aa339df5a9e2b648891867bc5a37bc837", null ],
-    [ "ChangeFacesColorMapAction", "../Cpp/classMR_1_1ChangeFacesColorMapAction.html#aec7da8b61591c85b8e910d1411bdaa56", null ],
-    [ "ChangeFacesColorMapAction", "../Cpp/classMR_1_1ChangeFacesColorMapAction.html#aff390880192bf2fb3e98fc5ad7f1243d", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeFacesColorMapAction.html#a77ea732b203bb29d780236576dec2923", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeFacesColorMapAction.html#aeee3e56ac0c488d99b1fb638817c0a8f", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeFacesColorMapAction.html#a78e08b193afdbeaeb8e52e7a520a28d6", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangeFacesColorMapAction.html#a7c9ef2b23309978244aca9ae418d2385", null ]
+    [ "ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html#ac587b55f7a2b46cc8831cb47d404dde9", null ],
+    [ "ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html#a3d2d3bab5fba43bacccbf7395a20955a", null ],
+    [ "ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html#add6ee427c035a6ea653b49123353065b", null ],
+    [ "ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html#a24f43266b629792387b69ce1ec72be4b", null ],
+    [ "ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html#a7f32af5dab37f6bd9e3118e80f64ff07", null ],
+    [ "action", "classMR_1_1ChangeFacesColorMapAction.html#a78c7c14458a74d3df69b6f5f15c149c8", null ],
+    [ "assign", "classMR_1_1ChangeFacesColorMapAction.html#a69e31acc2d062db16a163aa2c9ac2cee", null ],
+    [ "operator ChangeFacesColorMapAction?", "classMR_1_1ChangeFacesColorMapAction.html#a7e710197724aa25e6f868ef82a7866f8", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeFacesColorMapAction.html#a8050ef02ab646038cda023135333fad4", null ]
 ];

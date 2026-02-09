@@ -170,7 +170,7 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a47d1f391b5e3f31f90083c842682f755" id="r_a47d1f391b5e3f31f90083c842682f755"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47d1f391b5e3f31f90083c842682f755">MR_makeCubeTopology</a> (void)</td></tr>
 <tr class="separator:a47d1f391b5e3f31f90083c842682f755"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa15c5fbdece3d94ef2fe26f2d5112af" id="r_afa15c5fbdece3d94ef2fe26f2d5112af"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa15c5fbdece3d94ef2fe26f2d5112af">MR_makeCube</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *<a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *base)</td></tr>
+<tr class="memitem:afa15c5fbdece3d94ef2fe26f2d5112af" id="r_afa15c5fbdece3d94ef2fe26f2d5112af"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa15c5fbdece3d94ef2fe26f2d5112af">MR_makeCube</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *size, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *base)</td></tr>
 <tr class="separator:afa15c5fbdece3d94ef2fe26f2d5112af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0eeafc9565007a1cccc0f3885105e75f" id="r_a0eeafc9565007a1cccc0f3885105e75f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0eeafc9565007a1cccc0f3885105e75f">MR_makeParallelepiped</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *side, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *base)</td></tr>
 <tr class="separator:a0eeafc9565007a1cccc0f3885105e75f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -249,7 +249,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates mesh visualizing a box Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a34cf31e5bb655c7594410751730ae87e">MR::makeBoxMesh</a></code>. Parameter <code>box</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </p>
+<p>creates mesh visualizing a box Generated from function <code>MR::makeBoxMesh</code>. Parameter <code>box</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -271,7 +271,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates box mesh with given min-corner (base) and given size in every dimension; with default parameters, creates unit cube mesh with the centroid in (0,0,0) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ac19d6db4200945b6861959bd421a41e1">MR::makeCube</a></code>. Parameter <code>size</code> is a single object. Parameter <code>size</code> has a default argument: <code>Vector3f::diagonal(1.0f)</code>, pass a null pointer to use it. Parameter <code>base</code> is a single object. Parameter <code>base</code> has a default argument: <code>Vector3f::diagonal(-0.5f)</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </p>
+<p>creates box mesh with given min-corner (base) and given size in every dimension; with default parameters, creates unit cube mesh with the centroid in (0,0,0) Generated from function <code>MR::makeCube</code>. Parameter <code>size</code> is a single object. Parameter <code>size</code> has a default argument: <code>Vector3f::diagonal(1.0f)</code>, pass a null pointer to use it. Parameter <code>base</code> is a single object. Parameter <code>base</code> has a default argument: <code>Vector3f::diagonal(-0.5f)</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -289,7 +289,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates cube's topology with 8 vertices, 12 triangular faces, 18 undirected edges. The order of vertices: 0_v: x=min, y=min, z=min 1_v: x=min, y=max, z=min 2_v: x=max, y=max, z=min 3_v: x=max, y=min, z=min 4_v: x=min, y=min, z=max 5_v: x=min, y=max, z=max 6_v: x=max, y=max, z=max 7_v: x=max, y=min, z=max Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7aafa7e9ee96cb3f5465ee3765aa9165">MR::makeCubeTopology</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMeshTopology_8h.html#af49110e9b54b7e9e310840e89bba7a0c" title="Destroys a heap-allocated instance of MR_MeshTopology. Does nothing if the pointer is null.">MR_MeshTopology_Destroy()</a></code> to free it when you're done using it. </p>
+<p>creates cube's topology with 8 vertices, 12 triangular faces, 18 undirected edges. The order of vertices: 0_v: x=min, y=min, z=min 1_v: x=min, y=max, z=min 2_v: x=max, y=max, z=min 3_v: x=max, y=min, z=min 4_v: x=min, y=min, z=max 5_v: x=min, y=max, z=max 6_v: x=max, y=max, z=max 7_v: x=max, y=min, z=max Generated from function <code>MR::makeCubeTopology</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMeshTopology_8h.html#af49110e9b54b7e9e310840e89bba7a0c" title="Destroys a heap-allocated instance of MR_MeshTopology. Does nothing if the pointer is null.">MR_MeshTopology_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -311,7 +311,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates parallelepiped mesh with given min-corner <code>base</code> and given directional vectors <code>size</code> Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1571f99defeafc3a60cd29ea066e44f6">MR::makeParallelepiped</a></code>. Parameter <code>base</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </p>
+<p>creates parallelepiped mesh with given min-corner <code>base</code> and given directional vectors <code>size</code> Generated from function <code>MR::makeParallelepiped</code>. Parameter <code>base</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

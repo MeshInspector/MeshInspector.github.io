@@ -1,8 +1,12 @@
 var classMR_1_1PartialChangeMeshPointsAction =
 [
-    [ "PartialChangeMeshPointsAction", "../Cpp/classMR_1_1PartialChangeMeshPointsAction.html#a0bc8a65756e998c00f846e7117d27884", null ],
-    [ "PartialChangeMeshPointsAction", "../Cpp/classMR_1_1PartialChangeMeshPointsAction.html#abc03fa024908d0b25fe39b99a886a7ee", null ],
-    [ "action", "../Cpp/classMR_1_1PartialChangeMeshPointsAction.html#aa9ae6ebb348f154542056d5d1aa82fdd", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1PartialChangeMeshPointsAction.html#a04b08cc0eb6bacb70a04801d0a27111f", null ],
-    [ "name", "../Cpp/classMR_1_1PartialChangeMeshPointsAction.html#a084adee7a06ac5a670f2847f4a0c9d04", null ]
+    [ "PartialChangeMeshPointsAction", "classMR_1_1PartialChangeMeshPointsAction.html#a73ca11aa96a7964948d458cc576ab80b", null ],
+    [ "PartialChangeMeshPointsAction", "classMR_1_1PartialChangeMeshPointsAction.html#af1397b4d1a6d7e419875f4005ee3c160", null ],
+    [ "PartialChangeMeshPointsAction", "classMR_1_1PartialChangeMeshPointsAction.html#ad790f0ee2fc76db225d8848b0f4b1857", null ],
+    [ "PartialChangeMeshPointsAction", "classMR_1_1PartialChangeMeshPointsAction.html#a91cd182ed287806ec995bb8eefe39d25", null ],
+    [ "PartialChangeMeshPointsAction", "classMR_1_1PartialChangeMeshPointsAction.html#a846ef4575fe0b0c0caa9c7ac8cd8132f", null ],
+    [ "action", "classMR_1_1PartialChangeMeshPointsAction.html#a972de5014bbf59a4e6f50ae0bb2a0be7", null ],
+    [ "assign", "classMR_1_1PartialChangeMeshPointsAction.html#a00bc088134919ea3d5c4718c68457efd", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1PartialChangeMeshPointsAction.html#a204205039ab0cfd9d09e8a6e9e787693", null ],
+    [ "operator PartialChangeMeshPointsAction?", "classMR_1_1PartialChangeMeshPointsAction.html#ad6a1f98fde2d9242cff37d8595be44ba", null ]
 ];

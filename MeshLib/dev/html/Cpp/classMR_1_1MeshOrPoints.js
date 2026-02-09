@@ -1,11 +1,22 @@
 var classMR_1_1MeshOrPoints =
 [
     [ "ProjectionResult", "structMR_1_1MeshOrPoints_1_1ProjectionResult.html", "structMR_1_1MeshOrPoints_1_1ProjectionResult" ],
-    [ "MeshOrPoints", "../Csharp/classMR_1_1MeshOrPoints.html#a45116f467a8dee6cf73e286a92e65803", null ],
-    [ "MeshOrPoints", "../Csharp/classMR_1_1MeshOrPoints.html#a3acfd2feb6d0f1e210649f7ce32b29b1", null ],
-    [ "MeshOrPoints", "../Csharp/classMR_1_1MeshOrPoints.html#a410c33a416939556592661e9812ec581", null ],
-    [ "MeshOrPoints", "../Csharp/classMR_1_1MeshOrPoints.html#ab31046713e7e1f3adf86c054dbbc04a7", null ],
-    [ "MeshOrPoints", "../Csharp/classMR_1_1MeshOrPoints.html#a02ce3752d2f32c41d5bfcc0dab8f595e", null ],
-    [ "MeshOrPoints", "../Csharp/classMR_1_1MeshOrPoints.html#ace9577f3a51a0f19c230fe04bc843ce2", null ],
-    [ "assign", "../Csharp/classMR_1_1MeshOrPoints.html#a1c9371bec1a8549059ff0210a697f586", null ]
+    [ "LimitedProjectorFunc", "classMR_1_1MeshOrPoints.html#a0a57020e6aaf506fbbd6c3ce60c21412", null ],
+    [ "MeshOrPoints", "classMR_1_1MeshOrPoints.html#a4b19905136ab6d31a445cc3884ab0c1e", null ],
+    [ "MeshOrPoints", "classMR_1_1MeshOrPoints.html#a1ef5bfca52ac8e1892322d7cf4585b5b", null ],
+    [ "MeshOrPoints", "classMR_1_1MeshOrPoints.html#af9cbf91d93d22bcc4e487a573b2b8067", null ],
+    [ "MeshOrPoints", "classMR_1_1MeshOrPoints.html#abe1af15504d425b2e6633291ccae6828", null ],
+    [ "accumulate", "classMR_1_1MeshOrPoints.html#abbcab0078d3323160184019e7850bceb", null ],
+    [ "asMeshPart", "classMR_1_1MeshOrPoints.html#a058b67c8a42bd8837a6bbe4be06bd4cf", null ],
+    [ "asPointCloudPart", "classMR_1_1MeshOrPoints.html#a309a7ce32b89e73177a05d07a93d3103", null ],
+    [ "cacheAABBTree", "classMR_1_1MeshOrPoints.html#aec797ad241ba4410f73274ba5e52c51e", null ],
+    [ "computeBoundingBox", "classMR_1_1MeshOrPoints.html#af68f336dca5c1cbf834ab0c65fc38036", null ],
+    [ "getObjBoundingBox", "classMR_1_1MeshOrPoints.html#a735838d295350004f02283f8429fa620", null ],
+    [ "limitedProjector", "classMR_1_1MeshOrPoints.html#adbd1b394a6735a416ceeb13ef4ac86eb", null ],
+    [ "normals", "classMR_1_1MeshOrPoints.html#a864d2d2aec501a7ccac038912909bef9", null ],
+    [ "points", "classMR_1_1MeshOrPoints.html#a6c2fe1dcde2dbadeef24818952755317", null ],
+    [ "pointsGridSampling", "classMR_1_1MeshOrPoints.html#aa0eded9546a4d5a192d0222adb7ebc21", null ],
+    [ "projector", "classMR_1_1MeshOrPoints.html#a0281d9d51c1ee7b1b2dbd57c5e97414c", null ],
+    [ "validPoints", "classMR_1_1MeshOrPoints.html#a825ff27e36144d02b12f1880d863e32b", null ],
+    [ "weights", "classMR_1_1MeshOrPoints.html#a1e980c7ce8ce348fcb921d6e1feb63c6", null ]
 ];

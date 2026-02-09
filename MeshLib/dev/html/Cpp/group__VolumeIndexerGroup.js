@@ -1,25 +1,14 @@
 var group__VolumeIndexerGroup =
 [
-    [ "MR::VoxelLocation", "../Csharp/classMR_1_1VoxelLocation.html", [
-      [ "VoxelLocation", "../Csharp/classMR_1_1VoxelLocation.html#a9d6bec591eb54357cab1e49c77c97762", null ],
-      [ "VoxelLocation", "../Csharp/classMR_1_1VoxelLocation.html#af95e910678fb350530bfef2df17a9d6d", null ],
-      [ "VoxelLocation", "../Csharp/classMR_1_1VoxelLocation.html#a8facbf2271bd271027d05698e3cf79b7", null ],
-      [ "VoxelLocation", "../Csharp/classMR_1_1VoxelLocation.html#adc88eb2d2ffddb79bf7a6ff1e48cc3af", null ],
-      [ "assign", "../Csharp/classMR_1_1VoxelLocation.html#ab31f0ba991ada68471a8ca077c5be635", null ],
+    [ "MR::VoxelLocation", "structMR_1_1VoxelLocation.html", [
       [ "operator bool", "group__VoxelGroup.html#ga3f90dd1eb37b8e96421048a44936a299", null ],
       [ "id", "group__VoxelGroup.html#ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e", null ],
-      [ "pos", "group__VoxelGroup.html#gada259ed5ae07b6f5138fb6e8212f7531", null ],
-      [ "id", "../Csharp/classMR_1_1VoxelLocation.html#a99c8e937e49625bd95ba2385cb4ea12a", null ],
-      [ "pos", "../Csharp/classMR_1_1VoxelLocation.html#affb2b57503ac3e10c48ed5f6fd912b1f", null ]
+      [ "pos", "group__VoxelGroup.html#gada259ed5ae07b6f5138fb6e8212f7531", null ]
     ] ],
-    [ "MR::VolumeIndexer", "../Csharp/classMR_1_1VolumeIndexer.html", [
-      [ "VolumeIndexer", "../Csharp/classMR_1_1VolumeIndexer.html#a3aa8901144de8797fecd23bd8b823e58", null ],
-      [ "VolumeIndexer", "../Csharp/classMR_1_1VolumeIndexer.html#aa64488fedc04a3eacd82d7a14e24c4ee", null ],
-      [ "VolumeIndexer", "../Csharp/classMR_1_1VolumeIndexer.html#aeef3f347d6680978b124b70e90c8ac39", null ],
+    [ "MR::VolumeIndexer", "classMR_1_1VolumeIndexer.html", [
       [ "VolumeIndexer", "group__VoxelGroup.html#gad64c0feac5a4c85334c9de7dda628dfb", null ],
       [ "areNeigbors", "group__VoxelGroup.html#ga991a1f3d21cb03e21402be655ba7c06c", null ],
       [ "areNeigbors", "group__VoxelGroup.html#gad83baf7155c4c4be0ffa42c4de418e6b", null ],
-      [ "assign", "../Csharp/classMR_1_1VolumeIndexer.html#a4ca65ec170656a162716e3387ccb62dd", null ],
       [ "dims", "group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f", null ],
       [ "endId", "group__VoxelGroup.html#ga926edbe131f216c52d55d31a98f33aaf", null ],
       [ "getExistingNeighbor", "group__VoxelGroup.html#ga9278508392604ed5b02779e63a573555", null ],
@@ -54,7 +43,5 @@ var group__VolumeIndexerGroup =
     [ "MR::expandVoxelsMask", "group__VolumeIndexerGroup.html#ga2b294cbfdf1d13f5bb7babef620b361a", null ],
     [ "MR::opposite", "group__VolumeIndexerGroup.html#ga4e89cddf49bc51a6caa983ba3b84c461", null ],
     [ "MR::shrinkVoxelsMask", "group__VolumeIndexerGroup.html#gaae181e34db4d5ebb6f2cc68194b69c18", null ],
-    [ "MR::all6Edges", "group__VolumeIndexerGroup.html#ga2f359b8ca6ad382c364a49777f193ba0", null ],
-    [ "MR::neiPosDelta", "group__VolumeIndexerGroup.html#ga91147207103fdc2c344ad18106a8599a", null ],
-    [ "MR::OutEdgeCount", "group__VolumeIndexerGroup.html#gab35bebc2eedde9b1262043f5242f3ebf", null ]
+    [ "MR::neiPosDelta", "group__VolumeIndexerGroup.html#ga91147207103fdc2c344ad18106a8599a", null ]
 ];

@@ -1,8 +1,10 @@
 var classMR_1_1VertCoordsDiff =
 [
-    [ "VertCoordsDiff", "../Cpp/classMR_1_1VertCoordsDiff.html#afa80c539d783f275a194ae8f5202647e", null ],
-    [ "VertCoordsDiff", "../Cpp/classMR_1_1VertCoordsDiff.html#ab6cb02c630ddd3015cb11dde6673f889", null ],
-    [ "any", "../Cpp/classMR_1_1VertCoordsDiff.html#a5f175f350625d742580210d6aeda32e8", null ],
-    [ "applyAndSwap", "../Cpp/classMR_1_1VertCoordsDiff.html#acd8d214b41c3bbf6d29b72f1a3d03e2b", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1VertCoordsDiff.html#a91f5877a46b424d1a68ecb23025a2a27", null ]
+    [ "VertCoordsDiff", "classMR_1_1VertCoordsDiff.html#a5102d8feec098f916e2c10d8be92db2b", null ],
+    [ "VertCoordsDiff", "classMR_1_1VertCoordsDiff.html#a10627d0b3cb91c58fabd235dc82ad3c3", null ],
+    [ "VertCoordsDiff", "classMR_1_1VertCoordsDiff.html#a1aef5a7d78ea84e33c6b3d00540dba1d", null ],
+    [ "VertCoordsDiff", "classMR_1_1VertCoordsDiff.html#a3f1595258a2d1c41983fa10cca2cc1ad", null ],
+    [ "VertCoordsDiff", "classMR_1_1VertCoordsDiff.html#a0d5378a2750490e0fe3f761f7323bb0d", null ],
+    [ "applyAndSwap", "classMR_1_1VertCoordsDiff.html#a471823260258ce2382478da39c602157", null ],
+    [ "assign", "classMR_1_1VertCoordsDiff.html#acddf3b61564aa2e78b768a9d54802b97", null ]
 ];

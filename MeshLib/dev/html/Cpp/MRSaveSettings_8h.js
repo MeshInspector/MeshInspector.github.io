@@ -1,7 +1,7 @@
 var MRSaveSettings_8h =
 [
-    [ "MR::SaveSettings", "../Csharp/classMR_1_1SaveSettings.html", "classMR_1_1SaveSettings" ],
-    [ "MR::VertRenumber", "../Csharp/classMR_1_1VertRenumber.html", "classMR_1_1VertRenumber" ],
+    [ "MR::SaveSettings", "structMR_1_1SaveSettings.html", "structMR_1_1SaveSettings" ],
+    [ "MR::VertRenumber", "classMR_1_1VertRenumber.html", "classMR_1_1VertRenumber" ],
     [ "applyDouble", "MRSaveSettings_8h.html#a7aba106487b0adfd357e9232e18a922f", null ],
     [ "applyDouble", "MRSaveSettings_8h.html#a7b5f265567104240be13bb0adc6d84f7", null ],
     [ "applyFloat", "MRSaveSettings_8h.html#a423dfbb3e8fe2d355d3569c58f27881f", null ],

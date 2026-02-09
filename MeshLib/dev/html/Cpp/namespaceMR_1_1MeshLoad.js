@@ -1,6 +1,10 @@
 var namespaceMR_1_1MeshLoad =
 [
     [ "MeshLoader", "structMR_1_1MeshLoad_1_1MeshLoader.html", "structMR_1_1MeshLoad_1_1MeshLoader" ],
+    [ "NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", "structMR_1_1MeshLoad_1_1NamedMesh" ],
+    [ "ObjLoadSettings", "structMR_1_1MeshLoad_1_1ObjLoadSettings.html", "structMR_1_1MeshLoad_1_1ObjLoadSettings" ],
+    [ "MeshFileLoader", "group__IOFormatsRegistryGroup.html#gaf573976800f135f2ae1cc5430be86fb0", null ],
+    [ "MeshStreamLoader", "group__IOFormatsRegistryGroup.html#ga485ea6956850ab0f801b945739a8a9d3", null ],
     [ "fromAnyStl", "group__MeshLoadGroup.html#ga1b2267cc39cb8d9f8cc2942df5a0b12b", null ],
     [ "fromAnyStl", "group__MeshLoadGroup.html#ga49f8924ac46a8d5087ce59fb9be4ecfe", null ],
     [ "fromAnySupportedFormat", "group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477", null ],

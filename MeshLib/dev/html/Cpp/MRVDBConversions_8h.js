@@ -1,9 +1,9 @@
 var MRVDBConversions_8h =
 [
-    [ "MR::MeshToVolumeParams", "../Csharp/classMR_1_1MeshToVolumeParams.html", "classMR_1_1MeshToVolumeParams" ],
-    [ "MR::GridToMeshSettings", "../Csharp/classMR_1_1GridToMeshSettings.html", "classMR_1_1GridToMeshSettings" ],
-    [ "MR::MakeSignedByWindingNumberSettings", "../Csharp/classMR_1_1MakeSignedByWindingNumberSettings.html", "classMR_1_1MakeSignedByWindingNumberSettings" ],
-    [ "MR::DoubleOffsetSettings", "../Csharp/classMR_1_1DoubleOffsetSettings.html", "classMR_1_1DoubleOffsetSettings" ],
+    [ "MR::MeshToVolumeParams", "structMR_1_1MeshToVolumeParams.html", "structMR_1_1MeshToVolumeParams" ],
+    [ "MR::GridToMeshSettings", "structMR_1_1GridToMeshSettings.html", "structMR_1_1GridToMeshSettings" ],
+    [ "MR::MakeSignedByWindingNumberSettings", "structMR_1_1MakeSignedByWindingNumberSettings.html", "structMR_1_1MakeSignedByWindingNumberSettings" ],
+    [ "MR::DoubleOffsetSettings", "structMR_1_1DoubleOffsetSettings.html", "structMR_1_1DoubleOffsetSettings" ],
     [ "doubleOffsetVdb", "MRVDBConversions_8h.html#a928996b8ccf0ededf4666de67cedde79", null ],
     [ "evalGridMinMax", "MRVDBConversions_8h.html#a72186b88a4bd5e19146aae7b0faa4bf4", null ],
     [ "floatGridToVdbVolume", "MRVDBConversions_8h.html#a3e69c30624a2430bc2e6027320d1f6a0", null ],

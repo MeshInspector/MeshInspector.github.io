@@ -1,10 +1,11 @@
 var classMR_1_1ChangePointPointSelectionAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangePointPointSelectionAction.html#adf6db1de62ed6cf97b83d0a1c00a9999", null ],
-    [ "ChangePointPointSelectionAction", "../Cpp/classMR_1_1ChangePointPointSelectionAction.html#a455a37f2beea261ea75c996d374fc0d9", null ],
-    [ "action", "../Cpp/classMR_1_1ChangePointPointSelectionAction.html#ac11863b18cf6233f258a49395537c69c", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangePointPointSelectionAction.html#aced37c6f615d0a18b1743ee3895a5d3b", null ],
-    [ "name", "../Cpp/classMR_1_1ChangePointPointSelectionAction.html#a7ebe140792b37c16fdd8f129492ad4c8", null ],
-    [ "selection", "../Cpp/classMR_1_1ChangePointPointSelectionAction.html#a3d3f98681572b719c29e2acd8ef99619", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangePointPointSelectionAction.html#a64d049e75b9021628ffa38466ee36010", null ]
+    [ "ChangePointPointSelectionAction", "classMR_1_1ChangePointPointSelectionAction.html#abae9fe805d3d68140d0d9ebafaf49573", null ],
+    [ "ChangePointPointSelectionAction", "classMR_1_1ChangePointPointSelectionAction.html#a6e1eb090c89cc58c840ff36bf2d5990f", null ],
+    [ "ChangePointPointSelectionAction", "classMR_1_1ChangePointPointSelectionAction.html#a0718ce9f5b94d452261563703efc9bf9", null ],
+    [ "ChangePointPointSelectionAction", "classMR_1_1ChangePointPointSelectionAction.html#af012712edbf7e66018ef32c511a51cae", null ],
+    [ "action", "classMR_1_1ChangePointPointSelectionAction.html#a84d4c8a2f8d3878fcd88ce280badc358", null ],
+    [ "assign", "classMR_1_1ChangePointPointSelectionAction.html#af6b4fe68af3c08fe32f3236fc14b92eb", null ],
+    [ "operator ChangePointPointSelectionAction?", "classMR_1_1ChangePointPointSelectionAction.html#a711b782118478924073acdeb5c5b5ee8", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangePointPointSelectionAction.html#a2fd167b7cb0dddf2c9b8fe2ccea8e720", null ]
 ];

@@ -178,7 +178,7 @@ Functions</h2></td></tr>
 <tr class="separator:a516c802f29cd7c5ef659a805835c79ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7df5275987b8963db644de22ed126e7" id="r_ab7df5275987b8963db644de22ed126e7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7df5275987b8963db644de22ed126e7">MR_Histogram_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *_other)</td></tr>
 <tr class="separator:ab7df5275987b8963db644de22ed126e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff9ba11817bfd4f941d57e6240f5b06e" id="r_aff9ba11817bfd4f941d57e6240f5b06e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff9ba11817bfd4f941d57e6240f5b06e">MR_Histogram_Construct</a> (float min, float max, MR_uint64_t <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
+<tr class="memitem:aff9ba11817bfd4f941d57e6240f5b06e" id="r_aff9ba11817bfd4f941d57e6240f5b06e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff9ba11817bfd4f941d57e6240f5b06e">MR_Histogram_Construct</a> (float min, float max, MR_uint64_t size)</td></tr>
 <tr class="separator:aff9ba11817bfd4f941d57e6240f5b06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae439edbe9eb12a80e8d9a3c5b8d20d00" id="r_ae439edbe9eb12a80e8d9a3c5b8d20d00"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae439edbe9eb12a80e8d9a3c5b8d20d00">MR_Histogram_Destroy</a> (const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *_this)</td></tr>
 <tr class="memdesc:ae439edbe9eb12a80e8d9a3c5b8d20d00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Histogram</code>. Does nothing if the pointer is null.  <br /></td></tr>
@@ -217,7 +217,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Simple class for calculating histogram Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1Histogram.html">MR::Histogram</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Simple class for calculating histogram Generated from class <code>MR::Histogram</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -268,7 +268,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds bins of input hist to this Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1Histogram.html#ac1ebc3ae44e75437744d7f0b35a0dad5">MR::Histogram::addHistogram</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>hist</code> can not be null. It is a single object. </p>
+<p>Adds bins of input hist to this Generated from method <code>MR::Histogram::addHistogram</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>hist</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -295,7 +295,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds sample to corresponding bin Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1Histogram.html#a2b4f6ecb70d69c8ccba757095f5162cc">MR::Histogram::addSample</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>count</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
+<p>Adds sample to corresponding bin Generated from method <code>MR::Histogram::addSample</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>count</code> has a default argument: <code>1</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -349,7 +349,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Initialize histogram with minimum and maximum values, and number of bins Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1Histogram.html#aba207b56824356ab7f80254c5fd34819">MR::Histogram::Histogram</a></code>. The reference to the parameter <code>size</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae439edbe9eb12a80e8d9a3c5b8d20d00" title="Destroys a heap-allocated instance of MR_Histogram. Does nothing if the pointer is null.">MR_Histogram_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Initialize histogram with minimum and maximum values, and number of bins Generated from constructor <code>MR::Histogram::Histogram</code>. The reference to the parameter <code>size</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae439edbe9eb12a80e8d9a3c5b8d20d00" title="Destroys a heap-allocated instance of MR_Histogram. Does nothing if the pointer is null.">MR_Histogram_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -371,7 +371,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1Histogram.html#aba207b56824356ab7f80254c5fd34819">MR::Histogram::Histogram</a></code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae439edbe9eb12a80e8d9a3c5b8d20d00" title="Destroys a heap-allocated instance of MR_Histogram. Does nothing if the pointer is null.">MR_Histogram_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::Histogram::Histogram</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae439edbe9eb12a80e8d9a3c5b8d20d00" title="Destroys a heap-allocated instance of MR_Histogram. Does nothing if the pointer is null.">MR_Histogram_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -467,7 +467,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Gets id of bin that inherits sample Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1Histogram.html#aa191601972d6382ef20f1b6fa9ad85a0">MR::Histogram::getBinId</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Gets id of bin that inherits sample Generated from method <code>MR::Histogram::getBinId</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -489,7 +489,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Gets minimum and maximum of diapason inherited by bin Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1Histogram.html#a77d44fead356e682cf2c30805722b59c">MR::Histogram::getBinMinMax</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_pair_float_float_Destroy()</code> to free it when you're done using it. </p>
+<p>Gets minimum and maximum of diapason inherited by bin Generated from method <code>MR::Histogram::getBinMinMax</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_pair_float_float_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -507,7 +507,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Gets bins Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1Histogram.html#a489a0a4c59abc3a2d4a5b3382fd7e4b3">MR::Histogram::getBins</a></code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Gets bins Generated from method <code>MR::Histogram::getBins</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -525,7 +525,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Gets maximum value of histogram Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1Histogram.html#a827e85fc6dbb381db1ecdd86cc85efc8">MR::Histogram::getMax</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Gets maximum value of histogram Generated from method <code>MR::Histogram::getMax</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -543,7 +543,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Gets minimum value of histogram Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1Histogram.html#a46da7c1b719682c2e39bfb89ee04eca3">MR::Histogram::getMin</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Gets minimum value of histogram Generated from method <code>MR::Histogram::getMin</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -561,7 +561,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the amount of memory this object occupies on heap Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca">MR::Histogram::heapBytes</a></code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the amount of memory this object occupies on heap Generated from method <code>MR::Histogram::heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

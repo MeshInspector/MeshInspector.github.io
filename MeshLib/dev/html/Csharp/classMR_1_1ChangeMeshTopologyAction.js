@@ -1,10 +1,12 @@
 var classMR_1_1ChangeMeshTopologyAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangeMeshTopologyAction.html#ad25a52e6310d3b3cd781cf068eeea9bd", null ],
-    [ "ChangeMeshTopologyAction", "../Cpp/classMR_1_1ChangeMeshTopologyAction.html#aa8d94a8b87ac3a73dc720cb294e1553e", null ],
-    [ "ChangeMeshTopologyAction", "../Cpp/classMR_1_1ChangeMeshTopologyAction.html#a9e95b80c6d433e60bc2565a05cffddff", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeMeshTopologyAction.html#a390c7099109f9817a3502210630fa228", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeMeshTopologyAction.html#ac1782bd01a600b949c2bd731b603918b", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeMeshTopologyAction.html#a94b059bce32bf0568d4e0b3fa861479c", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangeMeshTopologyAction.html#a6a771716475351c8c830789083c70fad", null ]
+    [ "ChangeMeshTopologyAction", "classMR_1_1ChangeMeshTopologyAction.html#ac697e0d5a66bd5665adc0faab144b146", null ],
+    [ "ChangeMeshTopologyAction", "classMR_1_1ChangeMeshTopologyAction.html#af4b8d2c4c5e4d45a8bd44b870dafeb20", null ],
+    [ "ChangeMeshTopologyAction", "classMR_1_1ChangeMeshTopologyAction.html#adaf07965cbf0a8f16f53acda097dc0c0", null ],
+    [ "ChangeMeshTopologyAction", "classMR_1_1ChangeMeshTopologyAction.html#ad92592e3a5520ae212a1257326e12d7b", null ],
+    [ "ChangeMeshTopologyAction", "classMR_1_1ChangeMeshTopologyAction.html#a76a5e9c7958b6ba6960d3ffdfcb4adb5", null ],
+    [ "action", "classMR_1_1ChangeMeshTopologyAction.html#ac0bae2d5d877dccdb4b9b46fbc740664", null ],
+    [ "assign", "classMR_1_1ChangeMeshTopologyAction.html#aaacdc03b4949ebce08a8bf901f20172a", null ],
+    [ "operator ChangeMeshTopologyAction?", "classMR_1_1ChangeMeshTopologyAction.html#ad29dc92f5c7caf53383ce46e234995e3", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeMeshTopologyAction.html#a8780f0805e18dc8639f60f6450faf218", null ]
 ];

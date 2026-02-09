@@ -1,10 +1,12 @@
 var classMR_1_1ChangeMeshAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangeMeshAction.html#af714055379496f5d4d7cc0762f755fea", null ],
-    [ "ChangeMeshAction", "../Cpp/classMR_1_1ChangeMeshAction.html#aa047c1990777d68d6c09a53db29e6d61", null ],
-    [ "ChangeMeshAction", "../Cpp/classMR_1_1ChangeMeshAction.html#a95aa4293570939f1ab9d6f90ac117dad", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeMeshAction.html#ac10a0aa665f6874a187cfb802dcb7dc8", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeMeshAction.html#ad0dbdadda7bb2d160c77aa14e2eea201", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeMeshAction.html#a6e73aebdc0c2a7d4d2273eed02ad84ab", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangeMeshAction.html#af6a6685c910155db53e74eddf4fbd6a7", null ]
+    [ "ChangeMeshAction", "classMR_1_1ChangeMeshAction.html#aa60d87ffe54b088043be20c82631f10f", null ],
+    [ "ChangeMeshAction", "classMR_1_1ChangeMeshAction.html#a74988d26d40512d8eee00deeb3e2032b", null ],
+    [ "ChangeMeshAction", "classMR_1_1ChangeMeshAction.html#a7b83bbca042d86a2babdd852b75c5c0f", null ],
+    [ "ChangeMeshAction", "classMR_1_1ChangeMeshAction.html#abd0aa7fda7a5f6d3b9e5e34787efd4a3", null ],
+    [ "ChangeMeshAction", "classMR_1_1ChangeMeshAction.html#a34a30b62b864cf70e976c746887c0a13", null ],
+    [ "action", "classMR_1_1ChangeMeshAction.html#acb5cf3017e018215d15c849e7e62df01", null ],
+    [ "assign", "classMR_1_1ChangeMeshAction.html#a3a0c140ac0008e670385caa55b722468", null ],
+    [ "operator ChangeMeshAction?", "classMR_1_1ChangeMeshAction.html#aead5bf5aa399e36f392871d8438b6ece", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeMeshAction.html#af4e03ec396451f851361a9e8e5ed3006", null ]
 ];

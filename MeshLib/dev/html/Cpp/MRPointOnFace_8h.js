@@ -1,4 +1,4 @@
 var MRPointOnFace_8h =
 [
-    [ "MR::PointOnFace", "../Csharp/classMR_1_1PointOnFace.html", "classMR_1_1PointOnFace" ]
+    [ "MR::PointOnFace", "structMR_1_1PointOnFace.html", "structMR_1_1PointOnFace" ]
 ];

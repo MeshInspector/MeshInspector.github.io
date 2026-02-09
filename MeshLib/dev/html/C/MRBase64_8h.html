@@ -165,7 +165,7 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae400dddb54a1253324e438187821e84b" id="r_ae400dddb54a1253324e438187821e84b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae400dddb54a1253324e438187821e84b">MR_encode64</a> (const unsigned char *data, MR_uint64_t <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
+<tr class="memitem:ae400dddb54a1253324e438187821e84b" id="r_ae400dddb54a1253324e438187821e84b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae400dddb54a1253324e438187821e84b">MR_encode64</a> (const unsigned char *data, MR_uint64_t size)</td></tr>
 <tr class="separator:ae400dddb54a1253324e438187821e84b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace292240209fb282dd0cf6e44d1041fb" id="r_ace292240209fb282dd0cf6e44d1041fb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7f6e3e5252ba136468a252fb7a041661">MR_std_vector_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace292240209fb282dd0cf6e44d1041fb">MR_decode64</a> (const char *val, const char *val_end)</td></tr>
 <tr class="separator:ace292240209fb282dd0cf6e44d1041fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -218,7 +218,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>decodes Base64 format into binary data Generated from function <code><a class="elRef" href="../Cpp/group__Base64Group.html#ga1e8a53884a01d95c7779f5f0983fa343">MR::decode64</a></code>. Parameter <code>val</code> can not be null. If <code>val_end</code> is null, then <code>val</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_unsigned_char_Destroy()</code> to free it when you're done using it. </p>
+<p>decodes Base64 format into binary data Generated from function <code>MR::decode64</code>. Parameter <code>val</code> can not be null. If <code>val_end</code> is null, then <code>val</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_unsigned_char_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -240,7 +240,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>encodes binary data into textual Base64 format Generated from function <code><a class="elRef" href="../Cpp/group__Base64Group.html#gabd2c1022cef53452d3ad25131091a323">MR::encode64</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>encodes binary data into textual Base64 format Generated from function <code>MR::encode64</code>. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>

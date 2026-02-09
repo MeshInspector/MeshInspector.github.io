@@ -293,7 +293,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Scene loading result Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Scene loading result Generated from class <code>MR::SceneLoad::Result</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -308,7 +308,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Settings.html">MR::SceneLoad::Settings</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::SceneLoad::Settings</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -434,7 +434,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1SceneLoad.html#adf9736b6c4eba76b43a108d16f183036">MR::SceneLoad::asyncFromAnySupportedFormat</a></code>. Parameter <code>files</code> can not be null. It is a single object. Parameter <code>postLoadCallback</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>Generated from function <code>MR::SceneLoad::asyncFromAnySupportedFormat</code>. Parameter <code>files</code> can not be null. It is a single object. Parameter <code>postLoadCallback</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -456,7 +456,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Load scene from file; if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1SceneLoad.html#ac487a300831be5cc92806c51ce12f922">MR::SceneLoad::fromAnySupportedFormat</a></code>. Parameter <code>files</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a51f419ab4a8ed27de7d3ac55828d5a3a" title="Destroys a heap-allocated instance of MR_SceneLoad_Result. Does nothing if the pointer is null.">MR_SceneLoad_Result_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Load scene from file; if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects Generated from function <code>MR::SceneLoad::fromAnySupportedFormat</code>. Parameter <code>files</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a51f419ab4a8ed27de7d3ac55828d5a3a" title="Destroys a heap-allocated instance of MR_SceneLoad_Result. Does nothing if the pointer is null.">MR_SceneLoad_Result_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -540,7 +540,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> elementwise. The reference to the parameter <code>scene</code> might be preserved in the constructed object. The reference to the parameter <code>loadedFiles</code> might be preserved in the constructed object. Parameter <code>errorSummary</code> can not be null. If <code>errorSummary_end</code> is null, then <code>errorSummary</code> is assumed to be null-terminated. The reference to the parameter <code>errorSummary</code> might be preserved in the constructed object. Parameter <code>warningSummary</code> can not be null. If <code>warningSummary_end</code> is null, then <code>warningSummary</code> is assumed to be null-terminated. The reference to the parameter <code>warningSummary</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a51f419ab4a8ed27de7d3ac55828d5a3a" title="Destroys a heap-allocated instance of MR_SceneLoad_Result. Does nothing if the pointer is null.">MR_SceneLoad_Result_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::SceneLoad::Result</code> elementwise. The reference to the parameter <code>scene</code> might be preserved in the constructed object. The reference to the parameter <code>loadedFiles</code> might be preserved in the constructed object. Parameter <code>errorSummary</code> can not be null. If <code>errorSummary_end</code> is null, then <code>errorSummary</code> is assumed to be null-terminated. The reference to the parameter <code>errorSummary</code> might be preserved in the constructed object. Parameter <code>warningSummary</code> can not be null. If <code>warningSummary_end</code> is null, then <code>warningSummary</code> is assumed to be null-terminated. The reference to the parameter <code>warningSummary</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a51f419ab4a8ed27de7d3ac55828d5a3a" title="Destroys a heap-allocated instance of MR_SceneLoad_Result. Does nothing if the pointer is null.">MR_SceneLoad_Result_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -562,7 +562,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1SceneLoad_1_1Result.html#a9f769c3f29e0ff9dc6601be32927db3c">MR::SceneLoad::Result::Result</a></code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a51f419ab4a8ed27de7d3ac55828d5a3a" title="Destroys a heap-allocated instance of MR_SceneLoad_Result. Does nothing if the pointer is null.">MR_SceneLoad_Result_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::SceneLoad::Result::Result</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a51f419ab4a8ed27de7d3ac55828d5a3a" title="Destroys a heap-allocated instance of MR_SceneLoad_Result. Does nothing if the pointer is null.">MR_SceneLoad_Result_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -656,7 +656,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Error summary text. </p>
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> named <code>errorSummary</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SceneLoad::Result</code> named <code>errorSummary</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -674,7 +674,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Marks whether the scene was loaded from a single file (false) or was built from scratch (true) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> named <code>isSceneConstructed</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Marks whether the scene was loaded from a single file (false) or was built from scratch (true) Returns a pointer to a member variable of class <code>MR::SceneLoad::Result</code> named <code>isSceneConstructed</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -692,7 +692,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>List of successfully loaded files Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> named <code>loadedFiles</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>List of successfully loaded files Returns a pointer to a member variable of class <code>MR::SceneLoad::Result</code> named <code>loadedFiles</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -710,7 +710,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The loaded scene or empty object Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> named <code>scene</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>The loaded scene or empty object Returns a pointer to a member variable of class <code>MR::SceneLoad::Result</code> named <code>scene</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -730,7 +730,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Warning summary text. </p>
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> named <code>warningSummary</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SceneLoad::Result</code> named <code>warningSummary</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -750,7 +750,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Error summary text. </p>
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> named <code>errorSummary</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SceneLoad::Result</code> named <code>errorSummary</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -768,7 +768,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Marks whether the scene was loaded from a single file (false) or was built from scratch (true) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> named <code>isSceneConstructed</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Marks whether the scene was loaded from a single file (false) or was built from scratch (true) Returns a mutable pointer to a member variable of class <code>MR::SceneLoad::Result</code> named <code>isSceneConstructed</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -786,7 +786,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>List of successfully loaded files Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> named <code>loadedFiles</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>List of successfully loaded files Returns a mutable pointer to a member variable of class <code>MR::SceneLoad::Result</code> named <code>loadedFiles</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -804,7 +804,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The loaded scene or empty object Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> named <code>scene</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>The loaded scene or empty object Returns a mutable pointer to a member variable of class <code>MR::SceneLoad::Result</code> named <code>scene</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -824,7 +824,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Warning summary text. </p>
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> named <code>warningSummary</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SceneLoad::Result</code> named <code>warningSummary</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -897,7 +897,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Error summary text. </p>
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> named <code>errorSummary</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. The reference to the parameter <code>value</code> might be preserved in this object in element <code>errorSummary</code>. When this function is called, this object will drop object references it had previously in <code>errorSummary</code>. </p>
+<p>Modifies a member variable of class <code>MR::SceneLoad::Result</code> named <code>errorSummary</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. The reference to the parameter <code>value</code> might be preserved in this object in element <code>errorSummary</code>. When this function is called, this object will drop object references it had previously in <code>errorSummary</code>. </p>
 
 </div>
 </div>
@@ -919,7 +919,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Marks whether the scene was loaded from a single file (false) or was built from scratch (true) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> named <code>isSceneConstructed</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>isSceneConstructed</code>. </p>
+<p>Marks whether the scene was loaded from a single file (false) or was built from scratch (true) Modifies a member variable of class <code>MR::SceneLoad::Result</code> named <code>isSceneConstructed</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>isSceneConstructed</code>. </p>
 
 </div>
 </div>
@@ -946,7 +946,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>List of successfully loaded files Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> named <code>loadedFiles</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>loadedFiles</code>. When this function is called, this object will drop object references it had previously in <code>loadedFiles</code>. </p>
+<p>List of successfully loaded files Modifies a member variable of class <code>MR::SceneLoad::Result</code> named <code>loadedFiles</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>loadedFiles</code>. When this function is called, this object will drop object references it had previously in <code>loadedFiles</code>. </p>
 
 </div>
 </div>
@@ -973,7 +973,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The loaded scene or empty object Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> named <code>scene</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>scene</code>. When this function is called, this object will drop object references it had previously in <code>scene</code>. </p>
+<p>The loaded scene or empty object Modifies a member variable of class <code>MR::SceneLoad::Result</code> named <code>scene</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>scene</code>. When this function is called, this object will drop object references it had previously in <code>scene</code>. </p>
 
 </div>
 </div>
@@ -1002,7 +1002,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Warning summary text. </p>
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Result.html">MR::SceneLoad::Result</a></code> named <code>warningSummary</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. The reference to the parameter <code>value</code> might be preserved in this object in element <code>warningSummary</code>. When this function is called, this object will drop object references it had previously in <code>warningSummary</code>. </p>
+<p>Modifies a member variable of class <code>MR::SceneLoad::Result</code> named <code>warningSummary</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. The reference to the parameter <code>value</code> might be preserved in this object in element <code>warningSummary</code>. When this function is called, this object will drop object references it had previously in <code>warningSummary</code>. </p>
 
 </div>
 </div>
@@ -1066,7 +1066,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Settings.html">MR::SceneLoad::Settings</a></code> elementwise. Parameter <code>targetUnit</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>targetUnit</code> might be preserved in the constructed object. The reference to the parameter <code>progress</code> might be preserved in the constructed object. The reference to the parameter <code>openFolder</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae62bc8e8742a81b037d260b86175e07c" title="Destroys a heap-allocated instance of MR_SceneLoad_Settings. Does nothing if the pointer is null.">MR_SceneLoad_Settings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::SceneLoad::Settings</code> elementwise. Parameter <code>targetUnit</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>targetUnit</code> might be preserved in the constructed object. The reference to the parameter <code>progress</code> might be preserved in the constructed object. The reference to the parameter <code>openFolder</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae62bc8e8742a81b037d260b86175e07c" title="Destroys a heap-allocated instance of MR_SceneLoad_Settings. Does nothing if the pointer is null.">MR_SceneLoad_Settings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -1088,7 +1088,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1SceneLoad_1_1Settings.html#ab645bde17dfeeaa045d69ebe647d01f8">MR::SceneLoad::Settings::Settings</a></code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae62bc8e8742a81b037d260b86175e07c" title="Destroys a heap-allocated instance of MR_SceneLoad_Settings. Does nothing if the pointer is null.">MR_SceneLoad_Settings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::SceneLoad::Settings::Settings</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae62bc8e8742a81b037d260b86175e07c" title="Destroys a heap-allocated instance of MR_SceneLoad_Settings. Does nothing if the pointer is null.">MR_SceneLoad_Settings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1180,7 +1180,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Settings.html">MR::SceneLoad::Settings</a></code> named <code>openFolder</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SceneLoad::Settings</code> named <code>openFolder</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1198,7 +1198,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to report loading progress and allow the user to cancel it Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Settings.html">MR::SceneLoad::Settings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>to report loading progress and allow the user to cancel it Returns a pointer to a member variable of class <code>MR::SceneLoad::Settings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1216,7 +1216,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects to match target units Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Settings.html">MR::SceneLoad::Settings</a></code> named <code>targetUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects to match target units Returns a pointer to a member variable of class <code>MR::SceneLoad::Settings</code> named <code>targetUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1234,7 +1234,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Settings.html">MR::SceneLoad::Settings</a></code> named <code>openFolder</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SceneLoad::Settings</code> named <code>openFolder</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1252,7 +1252,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to report loading progress and allow the user to cancel it Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Settings.html">MR::SceneLoad::Settings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>to report loading progress and allow the user to cancel it Returns a mutable pointer to a member variable of class <code>MR::SceneLoad::Settings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1270,7 +1270,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects to match target units Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Settings.html">MR::SceneLoad::Settings</a></code> named <code>targetUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects to match target units Returns a mutable pointer to a member variable of class <code>MR::SceneLoad::Settings</code> named <code>targetUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1341,7 +1341,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Settings.html">MR::SceneLoad::Settings</a></code> named <code>openFolder</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>openFolder</code>. When this function is called, this object will drop object references it had previously in <code>openFolder</code>. </p>
+<p>Modifies a member variable of class <code>MR::SceneLoad::Settings</code> named <code>openFolder</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>openFolder</code>. When this function is called, this object will drop object references it had previously in <code>openFolder</code>. </p>
 
 </div>
 </div>
@@ -1368,7 +1368,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to report loading progress and allow the user to cancel it Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Settings.html">MR::SceneLoad::Settings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it had previously in <code>progress</code>. </p>
+<p>to report loading progress and allow the user to cancel it Modifies a member variable of class <code>MR::SceneLoad::Settings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it had previously in <code>progress</code>. </p>
 
 </div>
 </div>
@@ -1390,7 +1390,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects to match target units Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1Settings.html">MR::SceneLoad::Settings</a></code> named <code>targetUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>value</code> might be preserved in this object in element <code>targetUnit</code>. When this function is called, this object will drop object references it had previously in <code>targetUnit</code>. </p>
+<p>if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects to match target units Modifies a member variable of class <code>MR::SceneLoad::Settings</code> named <code>targetUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. The reference to the parameter <code>value</code> might be preserved in this object in element <code>targetUnit</code>. When this function is called, this object will drop object references it had previously in <code>targetUnit</code>. </p>
 
 </div>
 </div>

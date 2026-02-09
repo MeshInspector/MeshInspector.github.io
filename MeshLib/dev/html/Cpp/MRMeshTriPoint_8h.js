@@ -1,4 +1,4 @@
 var MRMeshTriPoint_8h =
 [
-    [ "MR::WeightedVertex", "../Csharp/classMR_1_1WeightedVertex.html", "classMR_1_1WeightedVertex" ]
+    [ "MR::WeightedVertex", "structMR_1_1WeightedVertex.html", "structMR_1_1WeightedVertex" ]
 ];

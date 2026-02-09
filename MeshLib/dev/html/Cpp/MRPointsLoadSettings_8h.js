@@ -1,4 +1,4 @@
 var MRPointsLoadSettings_8h =
 [
-    [ "MR::PointsLoadSettings", "../Csharp/classMR_1_1PointsLoadSettings.html", "classMR_1_1PointsLoadSettings" ]
+    [ "MR::PointsLoadSettings", "structMR_1_1PointsLoadSettings.html", "structMR_1_1PointsLoadSettings" ]
 ];

@@ -1,6 +1,9 @@
 var classMR_1_1SelfIntersections_1_1Const__Settings =
 [
-    [ "Method", "classMR_1_1SelfIntersections_1_1Const__Settings.html#a109b72fb8e0ab671e33192b933615329", null ],
+    [ "Method", "classMR_1_1SelfIntersections_1_1Const__Settings.html#a109b72fb8e0ab671e33192b933615329", [
+      [ "Relax", "classMR_1_1SelfIntersections_1_1Const__Settings.html#a109b72fb8e0ab671e33192b933615329af2901a893d204f609b9d6d6b11a481b4", null ],
+      [ "CutAndFill", "classMR_1_1SelfIntersections_1_1Const__Settings.html#a109b72fb8e0ab671e33192b933615329a1d46b2d08baa4710a1c2e888868287f7", null ]
+    ] ],
     [ "Const_Settings", "classMR_1_1SelfIntersections_1_1Const__Settings.html#aa8ca564119d95d55ddb23b2c0e05c914", null ],
     [ "Const_Settings", "classMR_1_1SelfIntersections_1_1Const__Settings.html#a2eca02313f7ce64117bc958bc8cdf07f", null ],
     [ "Const_Settings", "classMR_1_1SelfIntersections_1_1Const__Settings.html#a03a9af6c03825d95afcbb0c28c2df4e7", null ],

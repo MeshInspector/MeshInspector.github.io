@@ -1,9 +1,11 @@
 var classMR_1_1ChangeSurfaceAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangeSurfaceAction.html#aea6aeaec06fc16a8b7114feb5bbe7ca0", null ],
-    [ "ChangeSurfaceAction", "../Cpp/classMR_1_1ChangeSurfaceAction.html#a468b0ff0cd862ea414e340dc4bfbd249", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeSurfaceAction.html#ae9190bfd7891e5a5cc1229fb42d4efd5", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeSurfaceAction.html#a8d95a8625e6cbeb9f194a629de34610d", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeSurfaceAction.html#a10e342f28635a448b68e1e8d60a56b54", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangeSurfaceAction.html#adafc4e60b4cc3b6c7d865aae97618e4b", null ]
+    [ "ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html#a5f41e4016c83cca53e4504d00fb27225", null ],
+    [ "ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html#a52cca979d6de53736c44d474c97763d4", null ],
+    [ "ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html#a6fac4997d7535c9e3fc7c705a0f92e3e", null ],
+    [ "ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html#af452f51e142c048f5d58098116b72a88", null ],
+    [ "action", "classMR_1_1ChangeSurfaceAction.html#a6e5d54a9584c4d617a5f8904636403af", null ],
+    [ "assign", "classMR_1_1ChangeSurfaceAction.html#a75e0f98ddf289380fbf27895d6edd196", null ],
+    [ "operator ChangeSurfaceAction?", "classMR_1_1ChangeSurfaceAction.html#ab83537482142eead8ac2f42356ada11b", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeSurfaceAction.html#a15e09ec6ac71af7fac01302987afca36", null ]
 ];

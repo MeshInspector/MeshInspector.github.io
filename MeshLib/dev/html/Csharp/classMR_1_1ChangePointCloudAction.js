@@ -1,9 +1,11 @@
 var classMR_1_1ChangePointCloudAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangePointCloudAction.html#a88fbf81698d29dc3b1de82e6258f3e62", null ],
-    [ "ChangePointCloudAction", "../Cpp/classMR_1_1ChangePointCloudAction.html#a36b0016bc6e04bb6c94996e9c8adbea2", null ],
-    [ "action", "../Cpp/classMR_1_1ChangePointCloudAction.html#a618406d420de41e825205cae3f53c9c6", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangePointCloudAction.html#aea2ce2e41b3850a18e72e5766ccb86f5", null ],
-    [ "name", "../Cpp/classMR_1_1ChangePointCloudAction.html#a3d96f0fc00a2d6d30b4807712b3793b6", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangePointCloudAction.html#af560354fe849806139d86968d627ad64", null ]
+    [ "ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html#adfc174c2d35dbf7c48817ce9a5b90a3d", null ],
+    [ "ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html#ab51c048e52b381914bd16b15795144cb", null ],
+    [ "ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html#a58e46e66cf5ecd858e3a3597bf58e782", null ],
+    [ "ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html#a62c92b41514e59277dcd4322971107b3", null ],
+    [ "action", "classMR_1_1ChangePointCloudAction.html#a1ad60546bf27a07549a8f5d999929ea4", null ],
+    [ "assign", "classMR_1_1ChangePointCloudAction.html#ad071d98392da491a0045ab32b34226ce", null ],
+    [ "operator ChangePointCloudAction?", "classMR_1_1ChangePointCloudAction.html#ae241e6f37f4444af624a5fd420f02c91", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangePointCloudAction.html#a5dfd08420ebd3afa6080ac3948353ac3", null ]
 ];

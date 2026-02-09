@@ -1,15 +1,12 @@
 var classMR_1_1FreeFormDeformer =
 [
-    [ "FreeFormDeformer", "../Cpp/classMR_1_1FreeFormDeformer.html#a3eb6ffed57f650462b286bfca66ed783", null ],
-    [ "FreeFormDeformer", "../Cpp/classMR_1_1FreeFormDeformer.html#a3fd3fce8f670ea92961b1529cf3e5bf3", null ],
-    [ "apply", "../Cpp/classMR_1_1FreeFormDeformer.html#aa0fae4749fc94fb1b929424066c935c8", null ],
-    [ "applySinglePoint", "../Cpp/classMR_1_1FreeFormDeformer.html#a822a2236cde54c679736ef3eaf15e6bf", null ],
-    [ "getAllRefGridPositions", "../Cpp/classMR_1_1FreeFormDeformer.html#aacf087fdee6550e27205d04d8782b80d", null ],
-    [ "getCoord", "../Cpp/classMR_1_1FreeFormDeformer.html#a7a81500a2480e88b10ef96f66acd43a8", null ],
-    [ "getIndex", "../Cpp/classMR_1_1FreeFormDeformer.html#a7e3863c32a8e249beebe6248069b2dda", null ],
-    [ "getRefGridPointPosition", "../Cpp/classMR_1_1FreeFormDeformer.html#a67a9d505c4e2e468dca550114f4b0d64", null ],
-    [ "getResolution", "../Cpp/classMR_1_1FreeFormDeformer.html#a55f79fe805dba64c298021a1ccdd3fe4", null ],
-    [ "init", "../Cpp/classMR_1_1FreeFormDeformer.html#a923952b8a6e2cd1a6a57ca40d2913189", null ],
-    [ "setAllRefGridPositions", "../Cpp/classMR_1_1FreeFormDeformer.html#a96d7fcfdaa595467e823335bfaae4d2f", null ],
-    [ "setRefGridPointPosition", "../Cpp/classMR_1_1FreeFormDeformer.html#a2a9d732a3f8a4e282739319c0a79eb95", null ]
+    [ "FreeFormDeformer", "classMR_1_1FreeFormDeformer.html#aa934589cbaacd8bfc80add6ec4c29df4", null ],
+    [ "FreeFormDeformer", "classMR_1_1FreeFormDeformer.html#a4a1050ee2b76fdc6dba1c748fbeb80f4", null ],
+    [ "FreeFormDeformer", "classMR_1_1FreeFormDeformer.html#aceede9f6cf87359ca66da3c58fad0a10", null ],
+    [ "FreeFormDeformer", "classMR_1_1FreeFormDeformer.html#a70afc8fdee8afaf4255612fbdfaac6a4", null ],
+    [ "FreeFormDeformer", "classMR_1_1FreeFormDeformer.html#abbf5d4aa246c275b2b46f4148819edd7", null ],
+    [ "init", "classMR_1_1FreeFormDeformer.html#ab94c93dceb8cea4bef1b9c13416aea40", null ],
+    [ "operator FreeFormDeformer", "classMR_1_1FreeFormDeformer.html#af073f4803ecc1d5875f4fd8eda442f8d", null ],
+    [ "setAllRefGridPositions", "classMR_1_1FreeFormDeformer.html#a13b3d6d781027ffc5610d3abf53f596a", null ],
+    [ "setRefGridPointPosition", "classMR_1_1FreeFormDeformer.html#a56f20f94c09251d39fc9b7802f5f7e4a", null ]
 ];

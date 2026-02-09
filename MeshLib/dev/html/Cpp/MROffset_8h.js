@@ -1,9 +1,9 @@
 var MROffset_8h =
 [
-    [ "MR::BaseShellParameters", "../Csharp/classMR_1_1BaseShellParameters.html", "classMR_1_1BaseShellParameters" ],
-    [ "MR::OffsetParameters", "../Csharp/classMR_1_1OffsetParameters.html", "classMR_1_1OffsetParameters" ],
-    [ "MR::SharpOffsetParameters", "../Csharp/classMR_1_1SharpOffsetParameters.html", "classMR_1_1SharpOffsetParameters" ],
-    [ "MR::GeneralOffsetParameters", "../Csharp/classMR_1_1GeneralOffsetParameters.html", "classMR_1_1GeneralOffsetParameters" ],
+    [ "MR::BaseShellParameters", "structMR_1_1BaseShellParameters.html", "structMR_1_1BaseShellParameters" ],
+    [ "MR::OffsetParameters", "structMR_1_1OffsetParameters.html", "structMR_1_1OffsetParameters" ],
+    [ "MR::SharpOffsetParameters", "structMR_1_1SharpOffsetParameters.html", "structMR_1_1SharpOffsetParameters" ],
+    [ "MR::GeneralOffsetParameters", "structMR_1_1GeneralOffsetParameters.html", "structMR_1_1GeneralOffsetParameters" ],
     [ "doubleOffsetMesh", "MROffset_8h.html#acc11e2c793b76a5cae9e076283d14a41", null ],
     [ "generalOffsetMesh", "MROffset_8h.html#a5edbfcffae3bcdb000d83b7c6cf9e050", null ],
     [ "mcOffsetMesh", "MROffset_8h.html#a2feac3a50eec5b2f2d371d843f869f27", null ],

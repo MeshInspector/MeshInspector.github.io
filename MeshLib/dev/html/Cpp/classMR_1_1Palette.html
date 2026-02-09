@@ -172,9 +172,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a16b8a71ea5f75f665b1fa1c24368dba3" id="r_a16b8a71ea5f75f665b1fa1c24368dba3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16b8a71ea5f75f665b1fa1c24368dba3">Palette</a> (const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &gt; &amp;colors)</td></tr>
+<tr class="memitem:a16b8a71ea5f75f665b1fa1c24368dba3" id="r_a16b8a71ea5f75f665b1fa1c24368dba3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16b8a71ea5f75f665b1fa1c24368dba3">Palette</a> (const std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp;colors)</td></tr>
 <tr class="separator:a16b8a71ea5f75f665b1fa1c24368dba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee6fa3cea3a5b3449207a8a888addd49" id="r_aee6fa3cea3a5b3449207a8a888addd49"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee6fa3cea3a5b3449207a8a888addd49">setBaseColors</a> (const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &gt; &amp;colors)</td></tr>
+<tr class="memitem:aee6fa3cea3a5b3449207a8a888addd49" id="r_aee6fa3cea3a5b3449207a8a888addd49"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee6fa3cea3a5b3449207a8a888addd49">setBaseColors</a> (const std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp;colors)</td></tr>
 <tr class="memdesc:aee6fa3cea3a5b3449207a8a888addd49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set base palette colors colors.size() should be more or equal 2 for discrete palette using vector of colors calculated by mixing the base colors i.e. base {blue, red} -&gt; discrete 3 {blue, 0.5*blue + 0.5*red, red}.  <br /></td></tr>
 <tr class="separator:aee6fa3cea3a5b3449207a8a888addd49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d6dd19e47f31c6e502113f4b413ff77" id="r_a7d6dd19e47f31c6e502113f4b413ff77"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d6dd19e47f31c6e502113f4b413ff77">setRangeMinMax</a> (float min, float max)</td></tr>
@@ -186,12 +186,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a95993f62dda52bd555e9902cb0663a68" id="r_a95993f62dda52bd555e9902cb0663a68"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95993f62dda52bd555e9902cb0663a68">setDiscretizationNumber</a> (int discretization)</td></tr>
 <tr class="memdesc:a95993f62dda52bd555e9902cb0663a68"><td class="mdescLeft">&#160;</td><td class="mdescRight">set number of different colors for discrete palette  <br /></td></tr>
 <tr class="separator:a95993f62dda52bd555e9902cb0663a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1db62c44796f0e849665e352c9d02f61" id="r_a1db62c44796f0e849665e352c9d02f61"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1db62c44796f0e849665e352c9d02f61">setFilterType</a> (FilterType type)</td></tr>
+<tr class="memitem:a1db62c44796f0e849665e352c9d02f61" id="r_a1db62c44796f0e849665e352c9d02f61"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1db62c44796f0e849665e352c9d02f61">setFilterType</a> (<a class="el" href="namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925a">FilterType</a> type)</td></tr>
 <tr class="memdesc:a1db62c44796f0e849665e352c9d02f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">set palette type (linear / discrete)  <br /></td></tr>
 <tr class="separator:a1db62c44796f0e849665e352c9d02f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e327c983c4976ba67d475ce981b76c8" id="r_a0e327c983c4976ba67d475ce981b76c8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e327c983c4976ba67d475ce981b76c8">draw</a> (const std::string &amp;windowName, const ImVec2 &amp;pose, const ImVec2 &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, bool onlyTopHalf=false)</td></tr>
 <tr class="separator:a0e327c983c4976ba67d475ce981b76c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a342d665441236e2eced9976b08c7e025" id="r_a342d665441236e2eced9976b08c7e025"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a342d665441236e2eced9976b08c7e025">draw</a> (ImDrawList *drawList, float scaling, const ImVec2 &amp;pos, const ImVec2 &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, const <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &amp;labelBgColor, bool onlyTopHalf=false) const</td></tr>
+<tr class="memitem:a342d665441236e2eced9976b08c7e025" id="r_a342d665441236e2eced9976b08c7e025"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a342d665441236e2eced9976b08c7e025">draw</a> (ImDrawList *drawList, float scaling, const ImVec2 &amp;pos, const ImVec2 &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;labelBgColor, bool onlyTopHalf=false) const</td></tr>
 <tr class="separator:a342d665441236e2eced9976b08c7e025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41bdb34995dc77edd7d35db3036db6c4" id="r_a41bdb34995dc77edd7d35db3036db6c4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41bdb34995dc77edd7d35db3036db6c4">draw</a> (ImDrawList *drawList, float scaling, const ImVec2 &amp;pos, const ImVec2 &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, bool onlyTopHalf=false) const</td></tr>
 <tr class="separator:a41bdb34995dc77edd7d35db3036db6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,23 +209,23 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a79ec1bbcff59caf42691d6cea60db1b7" id="r_a79ec1bbcff59caf42691d6cea60db1b7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79ec1bbcff59caf42691d6cea60db1b7">saveCurrentToJson</a> (Json::Value &amp;root) const</td></tr>
 <tr class="memdesc:a79ec1bbcff59caf42691d6cea60db1b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize this palette data to JsonValue.  <br /></td></tr>
 <tr class="separator:a79ec1bbcff59caf42691d6cea60db1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a993b22e2c8c190cfe6473013283f6c04" id="r_a993b22e2c8c190cfe6473013283f6c04"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a993b22e2c8c190cfe6473013283f6c04">getColor</a> (float relativeValue) const</td></tr>
+<tr class="memitem:a993b22e2c8c190cfe6473013283f6c04" id="r_a993b22e2c8c190cfe6473013283f6c04"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a993b22e2c8c190cfe6473013283f6c04">getColor</a> (float relativeValue) const</td></tr>
 <tr class="separator:a993b22e2c8c190cfe6473013283f6c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4429356ab627f21dea626ec383a24fa" id="r_ae4429356ab627f21dea626ec383a24fa"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4429356ab627f21dea626ec383a24fa">getInvalidColor</a> () const</td></tr>
+<tr class="memitem:ae4429356ab627f21dea626ec383a24fa" id="r_ae4429356ab627f21dea626ec383a24fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4429356ab627f21dea626ec383a24fa">getInvalidColor</a> () const</td></tr>
 <tr class="memdesc:ae4429356ab627f21dea626ec383a24fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">return invalid color  <br /></td></tr>
 <tr class="separator:ae4429356ab627f21dea626ec383a24fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae63655ed30c3149a56edf240748a9f4e" id="r_ae63655ed30c3149a56edf240748a9f4e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="elRef" href="../Csharp/classMR_1_1VertColors.html">VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae63655ed30c3149a56edf240748a9f4e">getVertColors</a> (const <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> &amp;values, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;region, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *valids, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *validsForStats)</td></tr>
+<tr class="memitem:ae63655ed30c3149a56edf240748a9f4e" id="r_ae63655ed30c3149a56edf240748a9f4e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API VertColors&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae63655ed30c3149a56edf240748a9f4e">getVertColors</a> (const VertScalars &amp;values, const VertBitSet &amp;region, const VertBitSet *valids, const VertBitSet *validsForStats)</td></tr>
 <tr class="separator:ae63655ed30c3149a56edf240748a9f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10dfbdae3b19c43baa0235a41667e4a4" id="r_a10dfbdae3b19c43baa0235a41667e4a4"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" href="../Csharp/classMR_1_1MeshTexture.html">MeshTexture</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10dfbdae3b19c43baa0235a41667e4a4">getTexture</a> () const</td></tr>
+<tr class="memitem:a10dfbdae3b19c43baa0235a41667e4a4" id="r_a10dfbdae3b19c43baa0235a41667e4a4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10dfbdae3b19c43baa0235a41667e4a4">getTexture</a> () const</td></tr>
 <tr class="separator:a10dfbdae3b19c43baa0235a41667e4a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0713134025e93fe779411c27b522ce50" id="r_a0713134025e93fe779411c27b522ce50"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0713134025e93fe779411c27b522ce50">getRelativePos</a> (float val) const</td></tr>
 <tr class="memdesc:a0713134025e93fe779411c27b522ce50"><td class="mdescLeft">&#160;</td><td class="mdescRight">get relative position in [0,1], where 0 is for minimum and 1 is for maximum  <br /></td></tr>
 <tr class="separator:a0713134025e93fe779411c27b522ce50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adccdea8021d31637354ec45f848bb7a3" id="r_adccdea8021d31637354ec45f848bb7a3"><td class="memItemLeft" align="right" valign="top">UVCoord&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adccdea8021d31637354ec45f848bb7a3">getUVcoord</a> (float val, bool valid=true) const</td></tr>
+<tr class="memitem:adccdea8021d31637354ec45f848bb7a3" id="r_adccdea8021d31637354ec45f848bb7a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a6f8b9797e8968735a685a81d8a6064d6">UVCoord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adccdea8021d31637354ec45f848bb7a3">getUVcoord</a> (float val, bool valid=true) const</td></tr>
 <tr class="separator:adccdea8021d31637354ec45f848bb7a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e8533e0a7c440a59618e0d78262570e" id="r_a4e8533e0a7c440a59618e0d78262570e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API VertUVCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e8533e0a7c440a59618e0d78262570e">getUVcoords</a> (const <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> &amp;values, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;region, const VertPredicate &amp;valids={}, const VertPredicate &amp;validsForStats={})</td></tr>
+<tr class="memitem:a4e8533e0a7c440a59618e0d78262570e" id="r_a4e8533e0a7c440a59618e0d78262570e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API VertUVCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e8533e0a7c440a59618e0d78262570e">getUVcoords</a> (const VertScalars &amp;values, const VertBitSet &amp;region, const VertPredicate &amp;valids={}, const VertPredicate &amp;validsForStats={})</td></tr>
 <tr class="separator:a4e8533e0a7c440a59618e0d78262570e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab242ee951ea58ca0e4a9312253bf3184" id="r_ab242ee951ea58ca0e4a9312253bf3184"><td class="memItemLeft" align="right" valign="top">VertUVCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab242ee951ea58ca0e4a9312253bf3184">getUVcoords</a> (const <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> &amp;values, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;region, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *valids, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *validsForStats=nullptr)</td></tr>
+<tr class="memitem:ab242ee951ea58ca0e4a9312253bf3184" id="r_ab242ee951ea58ca0e4a9312253bf3184"><td class="memItemLeft" align="right" valign="top">VertUVCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab242ee951ea58ca0e4a9312253bf3184">getUVcoords</a> (const VertScalars &amp;values, const VertBitSet &amp;region, const VertBitSet *valids, const VertBitSet *validsForStats=nullptr)</td></tr>
 <tr class="separator:ab242ee951ea58ca0e4a9312253bf3184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cad2a58f4942e33d68b162a1f7fd2d5" id="r_a3cad2a58f4942e33d68b162a1f7fd2d5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Palette_1_1Parameters.html">Parameters</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cad2a58f4942e33d68b162a1f7fd2d5">getParameters</a> () const</td></tr>
 <tr class="separator:a3cad2a58f4942e33d68b162a1f7fd2d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -247,11 +247,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a72d1c43c3aad43836eb3c088ae61e428" id="r_a72d1c43c3aad43836eb3c088ae61e428"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72d1c43c3aad43836eb3c088ae61e428">setMaxLabelCount</a> (int val)</td></tr>
 <tr class="memdesc:a72d1c43c3aad43836eb3c088ae61e428"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets maximal label count  <br /></td></tr>
 <tr class="separator:a72d1c43c3aad43836eb3c088ae61e428"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55fe096aec459b2721c9b619f977f4b2" id="r_a55fe096aec459b2721c9b619f977f4b2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55fe096aec459b2721c9b619f977f4b2">setLegendLimits</a> (const MinMaxf &amp;limits)</td></tr>
+<tr class="memitem:a55fe096aec459b2721c9b619f977f4b2" id="r_a55fe096aec459b2721c9b619f977f4b2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55fe096aec459b2721c9b619f977f4b2">setLegendLimits</a> (const <a class="el" href="namespaceMR.html#a2bd3b23d498c69cd04c544b6c7068f3a">MinMaxf</a> &amp;limits)</td></tr>
 <tr class="memdesc:a55fe096aec459b2721c9b619f977f4b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">set legend limits. if min &gt; max - limits are disabled  <br /></td></tr>
 <tr class="separator:a55fe096aec459b2721c9b619f977f4b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6df9cc35fb5487a429976faa9595db65" id="r_a6df9cc35fb5487a429976faa9595db65"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6df9cc35fb5487a429976faa9595db65">isHistogramEnabled</a> () const</td></tr>
-<tr class="memdesc:a6df9cc35fb5487a429976faa9595db65"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="elRef" href="../Csharp/classMR_1_1Histogram.html">Histogram</a>:  <br /></td></tr>
+<tr class="memdesc:a6df9cc35fb5487a429976faa9595db65"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR_1_1Histogram.html">Histogram</a>:  <br /></td></tr>
 <tr class="separator:a6df9cc35fb5487a429976faa9595db65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17a77a955a9bb1de3a362b7d9867afb4" id="r_a17a77a955a9bb1de3a362b7d9867afb4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17a77a955a9bb1de3a362b7d9867afb4">getNumHistogramBuckets</a> () const</td></tr>
 <tr class="separator:a17a77a955a9bb1de3a362b7d9867afb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -268,12 +268,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ac69f97944a537d356ce690f83e509f65" id="r_ac69f97944a537d356ce690f83e509f65"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac69f97944a537d356ce690f83e509f65">BlueGreenRedColors</a> ()</td></tr>
+<tr class="memitem:ac69f97944a537d356ce690f83e509f65" id="r_ac69f97944a537d356ce690f83e509f65"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac69f97944a537d356ce690f83e509f65">BlueGreenRedColors</a> ()</td></tr>
 <tr class="separator:ac69f97944a537d356ce690f83e509f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50926dd1bf08562983f3b26d745c961b" id="r_a50926dd1bf08562983f3b26d745c961b"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50926dd1bf08562983f3b26d745c961b">GreenRedColors</a> ()</td></tr>
+<tr class="memitem:a50926dd1bf08562983f3b26d745c961b" id="r_a50926dd1bf08562983f3b26d745c961b"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50926dd1bf08562983f3b26d745c961b">GreenRedColors</a> ()</td></tr>
 <tr class="memdesc:a50926dd1bf08562983f3b26d745c961b"><td class="mdescLeft">&#160;</td><td class="mdescRight">simpler palette colors: from green to red  <br /></td></tr>
 <tr class="separator:a50926dd1bf08562983f3b26d745c961b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc92fd7c8a6d16880c0bfcd6e76ab536" id="r_acc92fd7c8a6d16880c0bfcd6e76ab536"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API VertPredicate&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc92fd7c8a6d16880c0bfcd6e76ab536">predFromBitSet</a> (const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *bits)</td></tr>
+<tr class="memitem:acc92fd7c8a6d16880c0bfcd6e76ab536" id="r_acc92fd7c8a6d16880c0bfcd6e76ab536"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API VertPredicate&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc92fd7c8a6d16880c0bfcd6e76ab536">predFromBitSet</a> (const VertBitSet *bits)</td></tr>
 <tr class="separator:acc92fd7c8a6d16880c0bfcd6e76ab536"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e4aa8e46a3709d8d7d4a228cde69c11" id="r_a1e4aa8e46a3709d8d7d4a228cde69c11"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e4aa8e46a3709d8d7d4a228cde69c11">resizeCallback_</a> (ImGuiSizeCallbackData *data)</td></tr>
 <tr class="separator:a1e4aa8e46a3709d8d7d4a228cde69c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -285,7 +285,7 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:aaa660bef4a51b8a0247fa7eafccfcfba" id="r_aaa660bef4a51b8a0247fa7eafccfcfba"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa660bef4a51b8a0247fa7eafccfcfba">DefaultColors</a></td></tr>
+<tr class="memitem:aaa660bef4a51b8a0247fa7eafccfcfba" id="r_aaa660bef4a51b8a0247fa7eafccfcfba"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa660bef4a51b8a0247fa7eafccfcfba">DefaultColors</a></td></tr>
 <tr class="memdesc:aaa660bef4a51b8a0247fa7eafccfcfba"><td class="mdescLeft">&#160;</td><td class="mdescRight">preset palette colors: from blue via green to red  <br /></td></tr>
 <tr class="separator:aaa660bef4a51b8a0247fa7eafccfcfba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -302,7 +302,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API MR::Palette::Palette </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>colors</em></span></td><td>)</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>colors</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -321,7 +321,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &gt; &amp; MR::Palette::BlueGreenRedColors </td>
+          <td class="memname">static const std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp; MR::Palette::BlueGreenRedColors </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -438,7 +438,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>labelBgColor</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>labelBgColor</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -489,7 +489,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> MR::Palette::getColor </td>
+          <td class="memname">MRVIEWER_API <a class="el" href="structMR_1_1Color.html">Color</a> MR::Palette::getColor </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>relativeValue</em></span></td><td>)</td>
           <td> const</td>
@@ -542,7 +542,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> MR::Palette::getInvalidColor </td>
+          <td class="memname"><a class="el" href="structMR_1_1Color.html">Color</a> MR::Palette::getInvalidColor </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -757,7 +757,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="elRef" href="../Csharp/classMR_1_1MeshTexture.html">MeshTexture</a> &amp; MR::Palette::getTexture </td>
+          <td class="memname">const <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> &amp; MR::Palette::getTexture </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -782,7 +782,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">UVCoord MR::Palette::getUVcoord </td>
+          <td class="memname"><a class="el" href="namespaceMR.html#a6f8b9797e8968735a685a81d8a6064d6">UVCoord</a> MR::Palette::getUVcoord </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>val</em></span>, </td>
         </tr>
@@ -819,22 +819,22 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">VertUVCoords MR::Palette::getUVcoords </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>values</em></span>, </td>
+          <td class="paramtype">const VertScalars &amp;</td>          <td class="paramname"><span class="paramname"><em>values</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>valids</em></span>, </td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>valids</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>validsForStats</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>validsForStats</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -855,12 +855,12 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API VertUVCoords MR::Palette::getUVcoords </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>values</em></span>, </td>
+          <td class="paramtype">const VertScalars &amp;</td>          <td class="paramname"><span class="paramname"><em>values</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -892,24 +892,24 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API <a class="elRef" href="../Csharp/classMR_1_1VertColors.html">VertColors</a> MR::Palette::getVertColors </td>
+          <td class="memname">MRVIEWER_API VertColors MR::Palette::getVertColors </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>values</em></span>, </td>
+          <td class="paramtype">const VertScalars &amp;</td>          <td class="paramname"><span class="paramname"><em>values</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>valids</em></span>, </td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>valids</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>validsForStats</em></span>&#160;)</td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>validsForStats</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -933,7 +933,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MRVIEWER_API const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &gt; &amp; MR::Palette::GreenRedColors </td>
+          <td class="memname">static MRVIEWER_API const std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp; MR::Palette::GreenRedColors </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1000,7 +1000,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p><a class="elRef" href="../Csharp/classMR_1_1Histogram.html">Histogram</a>: </p>
+<p><a class="el" href="classMR_1_1Histogram.html">Histogram</a>: </p>
 
 </div>
 </div>
@@ -1034,7 +1034,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">static MRVIEWER_API VertPredicate MR::Palette::predFromBitSet </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>bits</em></span></td><td>)</td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>bits</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1120,7 +1120,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API void MR::Palette::setBaseColors </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>colors</em></span></td><td>)</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>colors</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1177,7 +1177,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API void MR::Palette::setFilterType </td>
           <td>(</td>
-          <td class="paramtype">FilterType</td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925a">FilterType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1215,7 +1215,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API void MR::Palette::setLegendLimits </td>
           <td>(</td>
-          <td class="paramtype">const MinMaxf &amp;</td>          <td class="paramname"><span class="paramname"><em>limits</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2bd3b23d498c69cd04c544b6c7068f3a">MinMaxf</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>limits</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1329,7 +1329,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API const std::vector&lt;<a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a>&gt; MR::Palette::DefaultColors</td>
+          <td class="memname">MRVIEWER_API const std::vector&lt;<a class="el" href="structMR_1_1Color.html">Color</a>&gt; MR::Palette::DefaultColors</td>
         </tr>
       </table>
   </td>
@@ -1357,14 +1357,14 @@ Static Public Attributes</h2></td></tr>
 <p>This is called automatically by <code>getValidVerts()</code> and <code><a class="el" href="#a4e8533e0a7c440a59618e0d78262570e">getUVcoords()</a>, so usually you don't need to call this manually. / Call this after</code><a class="el" href="#a7896773ea69981587644c20af439a0f4">setNumHistogramBuckets()</a>`. MRVIEWER_API void updateStats( const VertScalars&amp; values, const VertBitSet&amp; region, const VertPredicate&amp; vertPredicate );</p>
 <p>/ Create uniform labels /</p>
 <p>creates labels for each color boundary (for a discrete palette) MRVIEWER_API std::vector&lt;Label&gt; createUniformLabels() const;</p>
-<p>struct <a class="elRef" href="../Csharp/classMR_1_1Histogram.html">Histogram</a> { / If this is empty, the histogram is disabled. std::vector&lt;int&gt; buckets; / The buckets for out-of-range elements. int beforeBucket = 0; int afterBucket = 0; / The sum of all values in <code>buckets</code> and <code>{low,high}Bucket</code>. int numEntries = 0; / The max value in <code>buckets</code> (but ignoring <code>{low,high}Bucket</code>). int maxEntry = 0;</p>
+<p>struct <a class="el" href="classMR_1_1Histogram.html">Histogram</a> { / If this is empty, the histogram is disabled. std::vector&lt;int&gt; buckets; / The buckets for out-of-range elements. int beforeBucket = 0; int afterBucket = 0; / The sum of all values in <code>buckets</code> and <code>{low,high}Bucket</code>. int numEntries = 0; / The max value in <code>buckets</code> (but ignoring <code>{low,high}Bucket</code>). int maxEntry = 0;</p>
 <p>/ <code>reset()</code> sets this to true, and <code>finalize()</code> sets this to false. bool needsUpdate = true;</p>
 <p>MRVIEWER_API void reset(); MRVIEWER_API void addValue( float value ); / Call once after all <code>addValue()</code> calls. MRVIEWER_API void finalize(); };</p>
-<p>/ The normal histogram, if enabled (check with <code><a class="el" href="#a6df9cc35fb5487a429976faa9595db65" title="Histogram:">isHistogramEnabled()</a></code>). [[nodiscard]] const <a class="elRef" href="../Csharp/classMR_1_1Histogram.html">Histogram</a> &amp;getHistogramValues() { return histogram_; } / This one has the size matching <code><a class="el" href="#a3cad2a58f4942e33d68b162a1f7fd2d5">getParameters()</a>.discretization</code>. Only has meaningful values if enabled, check with <code><a class="el" href="#a4d11ef17d4e0570ebe96390df4509bd2" title="Should we maintain the percentages of distances in each discretization step?">isDiscretizationPercentagesEnabled()</a></code>. [[nodiscard]] const <a class="elRef" href="../Csharp/classMR_1_1Histogram.html">Histogram</a> &amp;getDiscrHistogramValues() const { return histogramDiscr_; }</p>
+<p>/ The normal histogram, if enabled (check with <code><a class="el" href="#a6df9cc35fb5487a429976faa9595db65" title="Histogram:">isHistogramEnabled()</a></code>). [[nodiscard]] const <a class="el" href="classMR_1_1Histogram.html">Histogram</a> &amp;getHistogramValues() { return histogram_; } / This one has the size matching <code><a class="el" href="#a3cad2a58f4942e33d68b162a1f7fd2d5">getParameters()</a>.discretization</code>. Only has meaningful values if enabled, check with <code><a class="el" href="#a4d11ef17d4e0570ebe96390df4509bd2" title="Should we maintain the percentages of distances in each discretization step?">isDiscretizationPercentagesEnabled()</a></code>. [[nodiscard]] const <a class="el" href="classMR_1_1Histogram.html">Histogram</a> &amp;getDiscrHistogramValues() const { return histogramDiscr_; }</p>
 <p>/ <code><a class="el" href="#a0e327c983c4976ba67d475ce981b76c8">draw()</a></code> will do nothing the next time it's called this many times. / This function does <code>n = max(n, numFrames);</code>, it can never decrease <code>n</code>. MRVIEWER_API void setDrawDelayFrames( int numFrames );</p>
 <p>private: void setRangeLimits_( const std::vector&lt;float&gt;&amp; ranges );</p>
-<p>void updateDiscretizatedColors_(); <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a> getBaseColor_( float val );</p>
-<p>/ What color we assume the pallete is drawn on top of. Typically should be the viewport background color. const <a class="elRef" href="../Csharp/structMR_1_1Color.html">Color</a>&amp; getBackgroundColor_() const;</p>
+<p>void updateDiscretizatedColors_(); <a class="el" href="structMR_1_1Color.html">Color</a> getBaseColor_( float val );</p>
+<p>/ What color we assume the pallete is drawn on top of. Typically should be the viewport background color. const <a class="el" href="structMR_1_1Color.html">Color</a>&amp; getBackgroundColor_() const;</p>
 <p>/ set labels with equal distance between void setUniformLabels_(); / make labels with equal distance between void makeUniformLabels_( std::vector&lt;Label&gt;&amp; labels ) const; / first label is equal to min value, last - to the max val / don't use with MinMaxNegPos mode void setZeroCentredLabels_();</p>
 <p>void updateCustomLabels_();</p>
 <p>void sortLabels_( std::vector&lt;Label&gt;&amp; labels ) const;</p>
@@ -1379,7 +1379,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <p>/ Computes the max label pixel width. float getMaxLabelWidth_( bool onlyTopHalf = false ) const;</p>
 <p>struct StyleVariables { / Top-left window padding. ImVec2 windowPaddingA; / Bottom-right window padding. ImVec2 windowPaddingB; / Spacing between the labels and the colored rect. float labelToColoredRectSpacing {}; / The min width of the colored rect. float minColoredRectWidth {}; }; StyleVariables getStyleVariables_( float scaling ) const;</p>
-<p>/ stores OpenGL textures. Change useDiscrete_ to switch between them <a class="elRef" href="../Csharp/classMR_1_1MeshTexture.html">MeshTexture</a> texture_;</p>
+<p>/ stores OpenGL textures. Change useDiscrete_ to switch between them <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> texture_;</p>
 <p>/ texture positions of min and max values float texStart_ = 0, texEnd_ = 1;</p>
 <p><a class="el" href="structMR_1_1Palette_1_1Parameters.html" title="base parameters of palette">Parameters</a> parameters_;</p>
 <p>bool isWindowOpen_ = false;</p>
@@ -1387,8 +1387,8 @@ Static Public Attributes</h2></td></tr>
 <p>int maxLabelCount_ = 0;</p>
 <p>float prevMaxLabelWidth_ = 0.0f;</p>
 <p>MinMaxi legendLimitIndexes_ = { 0, 7 }; MinMaxf relativeLimits_ = { 0.f, 1.f };</p>
-<p>/ This one is of a user-defined size. <a class="elRef" href="../Csharp/classMR_1_1Histogram.html">Histogram</a> histogram_;</p>
-<p>/ This one has size matching <code>parameters_.discretization</code>. <a class="elRef" href="../Csharp/classMR_1_1Histogram.html">Histogram</a> histogramDiscr_;</p>
+<p>/ This one is of a user-defined size. <a class="el" href="classMR_1_1Histogram.html">Histogram</a> histogram_;</p>
+<p>/ This one has size matching <code>parameters_.discretization</code>. <a class="el" href="classMR_1_1Histogram.html">Histogram</a> histogramDiscr_;</p>
 <p>/ Whether we should actually update <code>histogramDiscr_</code>. bool enableHistogramDiscr_ = false;</p>
 <p>/ If positive, <code><a class="el" href="#a0e327c983c4976ba67d475ce981b76c8">draw()</a></code> will do nothing the next time it's called this many times. </p>
 

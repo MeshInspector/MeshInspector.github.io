@@ -1,4 +1,4 @@
 var MRChangeLabelAction_8h =
 [
-    [ "MR::ChangeLabelAction", "../Csharp/classMR_1_1ChangeLabelAction.html", "classMR_1_1ChangeLabelAction" ]
+    [ "MR::ChangeLabelAction", "classMR_1_1ChangeLabelAction.html", "classMR_1_1ChangeLabelAction" ]
 ];

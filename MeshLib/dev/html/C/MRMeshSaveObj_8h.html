@@ -199,7 +199,7 @@ Functions</h2></td></tr>
 <tr class="separator:a3e264ec627c5f4ee959e7bd7a0e80110"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7f49ea05ff22b94b7791ed5092938e9" id="r_ae7f49ea05ff22b94b7791ed5092938e9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f49ea05ff22b94b7791ed5092938e9">MR_MeshSave_NamedXfMesh_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:ae7f49ea05ff22b94b7791ed5092938e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac28356bfd8a49e0636dc9605119343e4" id="r_ac28356bfd8a49e0636dc9605119343e4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac28356bfd8a49e0636dc9605119343e4">MR_MeshSave_NamedXfMesh_ConstructFrom</a> (const char *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const char *name_end, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> toWorld, MR_PassBy mesh_pass_by, <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *mesh)</td></tr>
+<tr class="memitem:ac28356bfd8a49e0636dc9605119343e4" id="r_ac28356bfd8a49e0636dc9605119343e4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac28356bfd8a49e0636dc9605119343e4">MR_MeshSave_NamedXfMesh_ConstructFrom</a> (const char *name, const char *name_end, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> toWorld, MR_PassBy mesh_pass_by, <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *mesh)</td></tr>
 <tr class="separator:ac28356bfd8a49e0636dc9605119343e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa04c8eb8ad287a073a676d464dc369e" id="r_afa04c8eb8ad287a073a676d464dc369e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa04c8eb8ad287a073a676d464dc369e">MR_MeshSave_NamedXfMesh_OffsetPtr</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="separator:afa04c8eb8ad287a073a676d464dc369e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,7 +246,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>saves a number of named meshes in .obj file Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>saves a number of named meshes in .obj file Generated from class <code>MR::MeshSave::NamedXfMesh</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -381,7 +381,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> elementwise. Parameter <code>name</code> can not be null. If <code>name_end</code> is null, then <code>name</code> is assumed to be null-terminated. The reference to the parameter <code>name</code> might be preserved in the constructed object. The reference to the parameter <code>toWorld</code> might be preserved in the constructed object. The reference to the parameter <code>mesh</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6d327a05c3e0f276e7ca727a10d0af8e" title="Destroys a heap-allocated instance of MR_MeshSave_NamedXfMesh. Does nothing if the pointer is null.">MR_MeshSave_NamedXfMesh_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::MeshSave::NamedXfMesh</code> elementwise. Parameter <code>name</code> can not be null. If <code>name_end</code> is null, then <code>name</code> is assumed to be null-terminated. The reference to the parameter <code>name</code> might be preserved in the constructed object. The reference to the parameter <code>toWorld</code> might be preserved in the constructed object. The reference to the parameter <code>mesh</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6d327a05c3e0f276e7ca727a10d0af8e" title="Destroys a heap-allocated instance of MR_MeshSave_NamedXfMesh. Does nothing if the pointer is null.">MR_MeshSave_NamedXfMesh_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -403,7 +403,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1MeshSave_1_1NamedXfMesh.html#adf82b8ad5ccfc33432d06ee257111f70">MR::MeshSave::NamedXfMesh::NamedXfMesh</a></code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6d327a05c3e0f276e7ca727a10d0af8e" title="Destroys a heap-allocated instance of MR_MeshSave_NamedXfMesh. Does nothing if the pointer is null.">MR_MeshSave_NamedXfMesh_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::MeshSave::NamedXfMesh::NamedXfMesh</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6d327a05c3e0f276e7ca727a10d0af8e" title="Destroys a heap-allocated instance of MR_MeshSave_NamedXfMesh. Does nothing if the pointer is null.">MR_MeshSave_NamedXfMesh_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -495,7 +495,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MeshSave::NamedXfMesh</code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -513,7 +513,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MeshSave::NamedXfMesh</code> named <code>name</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -531,7 +531,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>toWorld</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MeshSave::NamedXfMesh</code> named <code>toWorld</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -549,7 +549,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MeshSave::NamedXfMesh</code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -567,7 +567,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MeshSave::NamedXfMesh</code> named <code>name</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -585,7 +585,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>toWorld</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MeshSave::NamedXfMesh</code> named <code>toWorld</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -656,7 +656,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>mesh</code>. When this function is called, this object will drop object references it had previously in <code>mesh</code>. </p>
+<p>Modifies a member variable of class <code>MR::MeshSave::NamedXfMesh</code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>mesh</code>. When this function is called, this object will drop object references it had previously in <code>mesh</code>. </p>
 
 </div>
 </div>
@@ -683,7 +683,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. The reference to the parameter <code>value</code> might be preserved in this object in element <code>name</code>. When this function is called, this object will drop object references it had previously in <code>name</code>. </p>
+<p>Modifies a member variable of class <code>MR::MeshSave::NamedXfMesh</code> named <code>name</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. The reference to the parameter <code>value</code> might be preserved in this object in element <code>name</code>. When this function is called, this object will drop object references it had previously in <code>name</code>. </p>
 
 </div>
 </div>
@@ -705,7 +705,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>toWorld</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>toWorld</code>. When this function is called, this object will drop object references it had previously in <code>toWorld</code>. </p>
+<p>Modifies a member variable of class <code>MR::MeshSave::NamedXfMesh</code> named <code>toWorld</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>toWorld</code>. When this function is called, this object will drop object references it had previously in <code>toWorld</code>. </p>
 
 </div>
 </div>
@@ -737,7 +737,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveObjGroup.html#gae3dd1ca3146e809db153793012e27d06">MR::MeshSave::sceneToObj</a></code>. Parameter <code>objects</code> can not be null. It is a single object. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>colors</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_void_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>Generated from function <code>MR::MeshSave::sceneToObj</code>. Parameter <code>objects</code> can not be null. It is a single object. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>colors</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_void_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -764,7 +764,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveObjGroup.html#gae3dd1ca3146e809db153793012e27d06">MR::MeshSave::sceneToObj</a></code>. Parameter <code>objects</code> can not be null. It is a single object. Parameter <code>out</code> can not be null. It is a single object. Parameter <code>colors</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_void_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>Generated from function <code>MR::MeshSave::sceneToObj</code>. Parameter <code>objects</code> can not be null. It is a single object. Parameter <code>out</code> can not be null. It is a single object. Parameter <code>colors</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_void_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>

@@ -1,10 +1,14 @@
 var classMR_1_1FreeFormBestFit =
 [
-    [ "FreeFormBestFit", "../Cpp/classMR_1_1FreeFormBestFit.html#ab4da354aabbcd433f8e592efba7472a7", null ],
-    [ "addOther", "../Cpp/classMR_1_1FreeFormBestFit.html#a92fb64c83b3d706c39e60b22c99bdfd1", null ],
-    [ "addPair", "../Cpp/classMR_1_1FreeFormBestFit.html#a11e739e1974c8b474fb6f111f59b9cb8", null ],
-    [ "addPair", "../Cpp/classMR_1_1FreeFormBestFit.html#a5e0c21c2de7ea212b991b59d105e79bd", null ],
-    [ "findBestDeformationReferenceGrid", "../Cpp/classMR_1_1FreeFormBestFit.html#a8ba45d03a34b8ab81b1d6ecbc6893453", null ],
-    [ "getStabilizer", "../Cpp/classMR_1_1FreeFormBestFit.html#a74da50410f7eed1cfc466b2a63ba919d", null ],
-    [ "setStabilizer", "../Cpp/classMR_1_1FreeFormBestFit.html#a7da32b588679f5a44bb7394b8906ed3c", null ]
+    [ "FreeFormBestFit", "classMR_1_1FreeFormBestFit.html#a266fdecc68e2c18a8a1ed7c5cec82cf8", null ],
+    [ "FreeFormBestFit", "classMR_1_1FreeFormBestFit.html#a7ca0350ac7bf51b4b866a6d2cad97cdd", null ],
+    [ "FreeFormBestFit", "classMR_1_1FreeFormBestFit.html#a3ba25bdb56559b82d9be3bc3e1a70601", null ],
+    [ "FreeFormBestFit", "classMR_1_1FreeFormBestFit.html#a4fb615e35bfcdba0125d52463672556d", null ],
+    [ "addOther", "classMR_1_1FreeFormBestFit.html#aded679f21405b803a05f29a716ffdc51", null ],
+    [ "addPair", "classMR_1_1FreeFormBestFit.html#a594be8b0f738975d8b12dbd4cde65072", null ],
+    [ "addPair", "classMR_1_1FreeFormBestFit.html#aaec89868e60063e0ffb49592788e4b31", null ],
+    [ "assign", "classMR_1_1FreeFormBestFit.html#a5d02e7ce8cdd134d0fdd49843c180502", null ],
+    [ "findBestDeformationReferenceGrid", "classMR_1_1FreeFormBestFit.html#a0720513cc5a7f74b0f9bebbdba2ae984", null ],
+    [ "operator FreeFormBestFit", "classMR_1_1FreeFormBestFit.html#a3d1dc926aa9e51905652a325ec922e43", null ],
+    [ "setStabilizer", "classMR_1_1FreeFormBestFit.html#a618a671b722e2c4d0e1a908ff76e7c60", null ]
 ];

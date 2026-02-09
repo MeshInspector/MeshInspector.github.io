@@ -1,9 +1,11 @@
 var classMR_1_1ChangeActiveBoxAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f", null ],
-    [ "ChangeActiveBoxAction", "../Cpp/classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangeActiveBoxAction.html#ae121bfb62ae83246c7d82dcce8ee05e0", null ]
+    [ "ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html#ab661a546d55282b44356824921716d19", null ],
+    [ "ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html#a28c1f719cee74a43d273dbe58f70ccbd", null ],
+    [ "ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html#aa42ed921c92f6ee6d545be92ef1fd845", null ],
+    [ "ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html#a2e8f107ef50ad7ba5b4355c5f4d4a49d", null ],
+    [ "action", "classMR_1_1ChangeActiveBoxAction.html#abcd95104e36fd27bb6dda0d5d496d9a5", null ],
+    [ "assign", "classMR_1_1ChangeActiveBoxAction.html#a745e66b7df041caacaee35851d7e17a9", null ],
+    [ "operator ChangeActiveBoxAction?", "classMR_1_1ChangeActiveBoxAction.html#a56b330568e0b5cb3eaf403e91e430dfb", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeActiveBoxAction.html#a2e3ba40f267d0d709e933ddb551bf5ae", null ]
 ];

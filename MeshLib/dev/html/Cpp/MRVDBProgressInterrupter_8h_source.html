@@ -164,7 +164,7 @@ $(function(){initNavTree('MRVDBProgressInterrupter_8h_source.html',''); initResi
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structMR_1_1ProgressInterrupter.html">   14</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1ProgressInterrupter.html">ProgressInterrupter</a> : openvdb::util::NullInterrupter</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
 <div class="foldopen" id="foldopen00016" data-start="{" data-end="}">
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1ProgressInterrupter.html#ad4f40f015b6a225a963200f8fced9ea8">   16</a></span>    <a class="code hl_function" href="structMR_1_1ProgressInterrupter.html#ad4f40f015b6a225a963200f8fced9ea8">ProgressInterrupter</a>( ProgressCallback cb )  : cb_{ cb }</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1ProgressInterrupter.html#ad4f40f015b6a225a963200f8fced9ea8">   16</a></span>    <a class="code hl_function" href="structMR_1_1ProgressInterrupter.html#ad4f40f015b6a225a963200f8fced9ea8">ProgressInterrupter</a>( <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb )  : cb_{ cb }</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        , progressThreadId_{ std::this_thread::get_id() } {}</div>
 </div>
 <div class="foldopen" id="foldopen00018" data-start="{" data-end="}">
@@ -179,7 +179,7 @@ $(function(){initNavTree('MRVDBProgressInterrupter_8h_source.html',''); initResi
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">bool</span> wasInterrupted_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    ProgressCallback cb_;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb_;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    std::thread::id progressThreadId_;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>};</div>
 </div>
@@ -187,6 +187,7 @@ $(function(){initNavTree('MRVDBProgressInterrupter_8h_source.html',''); initResi
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>} </div>
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:743</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1ProgressInterrupter_html"><div class="ttname"><a href="structMR_1_1ProgressInterrupter.html">MR::ProgressInterrupter</a></div><div class="ttdoc">This class implements OpenVdb interrupter interface and provides ability to use MR::ProgressCallback ...</div><div class="ttdef"><b>Definition</b> MRVDBProgressInterrupter.h:15</div></div>
 <div class="ttc" id="astructMR_1_1ProgressInterrupter_html_a448f23c735ae1b223b8b928ff4a2deb3"><div class="ttname"><a href="structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3">MR::ProgressInterrupter::getWasInterrupted</a></div><div class="ttdeci">bool getWasInterrupted() const</div><div class="ttdef"><b>Definition</b> MRVDBProgressInterrupter.h:26</div></div>

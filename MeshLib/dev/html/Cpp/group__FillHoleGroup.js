@@ -18,34 +18,19 @@ var group__FillHoleGroup =
       [ "metric", "structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020", null ],
       [ "outNewFaces", "structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66", null ]
     ] ],
-    [ "MR::FillHoleItem", "../Csharp/classMR_1_1FillHoleItem.html", [
-      [ "FillHoleItem", "../Csharp/classMR_1_1FillHoleItem.html#a60ba7e6d45c9326c46eb178a8eb172da", null ],
-      [ "FillHoleItem", "../Csharp/classMR_1_1FillHoleItem.html#a20adabbdbfa027f7e5684556b7221c50", null ],
-      [ "FillHoleItem", "../Csharp/classMR_1_1FillHoleItem.html#ad76b82bdb5b6b344e7e815572fbd83fc", null ],
-      [ "FillHoleItem", "../Csharp/classMR_1_1FillHoleItem.html#ab7fe55de7eef8566b91a73511f9b9332", null ],
-      [ "assign", "../Csharp/classMR_1_1FillHoleItem.html#a525c31821bdc6f5145a8ab7f14d3ba72", null ],
-      [ "edgeCode1", "../Csharp/classMR_1_1FillHoleItem.html#aad2db2030da4e98808498486f222dd2b", null ],
-      [ "edgeCode2", "../Csharp/classMR_1_1FillHoleItem.html#a50442d05f9750f08ee0e585e35b59c26", null ]
+    [ "MR::FillHoleItem", "structMR_1_1FillHoleItem.html", [
+      [ "edgeCode1", "structMR_1_1FillHoleItem.html#a93e897d7d608458643fa5ba8a08d2ea2", null ],
+      [ "edgeCode2", "structMR_1_1FillHoleItem.html#a56124e5a79e5cbe2b1b617d2e142aaa1", null ]
     ] ],
-    [ "MR::HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html", [
-      [ "HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html#a29d8e66ba2fe6237505716aa89048294", null ],
-      [ "HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html#af23ed8e6d4f9447fefddfd0b5f69e90a", null ],
-      [ "HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html#ac80deb9d88cce363defdb3837c5414d5", null ],
-      [ "HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html#aa64344089b17e4dfb1ce5a7ec6ce0340", null ],
-      [ "HoleFillPlan", "../Csharp/classMR_1_1HoleFillPlan.html#adc894486478a94dc76b7ec095dbf7763", null ],
-      [ "assign", "../Csharp/classMR_1_1HoleFillPlan.html#a635d6b9767b9151f3b8fb7ad79d1c7b6", null ],
-      [ "items", "../Csharp/classMR_1_1HoleFillPlan.html#aea3d4b461e370e3b086ff883f1ae6855", null ],
-      [ "numTris", "../Csharp/classMR_1_1HoleFillPlan.html#a34f810739595a6937d1d1f4efc78f268", null ]
+    [ "MR::HoleFillPlan", "structMR_1_1HoleFillPlan.html", [
+      [ "items", "structMR_1_1HoleFillPlan.html#a7c843d95baaaeb4979c70aecb08e6370", null ],
+      [ "numTris", "structMR_1_1HoleFillPlan.html#a2817520d11bf0f37cbab7e6ef56b38b9", null ]
     ] ],
-    [ "MR::MakeBridgeResult", "../Csharp/classMR_1_1MakeBridgeResult.html", [
-      [ "MakeBridgeResult", "../Csharp/classMR_1_1MakeBridgeResult.html#ad12fab67f8b0eee7cd08814876cee084", null ],
-      [ "MakeBridgeResult", "../Csharp/classMR_1_1MakeBridgeResult.html#a5f594da16b372034261faae119b7d983", null ],
-      [ "MakeBridgeResult", "../Csharp/classMR_1_1MakeBridgeResult.html#a05566b5bd04d96d0c5d68d5e172cea5c", null ],
-      [ "MakeBridgeResult", "../Csharp/classMR_1_1MakeBridgeResult.html#a25d2101b0e95d42513b5d060e6e97702", null ],
-      [ "assign", "../Csharp/classMR_1_1MakeBridgeResult.html#a9861549bf0510775a5face7c13e05893", null ],
-      [ "na", "../Csharp/classMR_1_1MakeBridgeResult.html#a7ca2fa06da18ab30a58b7d33f19bcc33", null ],
-      [ "nb", "../Csharp/classMR_1_1MakeBridgeResult.html#a590ce224edcb5c603b2ecb89602da461", null ],
-      [ "newFaces", "../Csharp/classMR_1_1MakeBridgeResult.html#abc534380bccfe8c92250391a9680fdbf", null ]
+    [ "MR::MakeBridgeResult", "structMR_1_1MakeBridgeResult.html", [
+      [ "operator bool", "structMR_1_1MakeBridgeResult.html#a083042e18f6b7e0a27d0e66142053119", null ],
+      [ "na", "structMR_1_1MakeBridgeResult.html#a5959fa7b09b9a888870b4492e158145f", null ],
+      [ "nb", "structMR_1_1MakeBridgeResult.html#ada00548262d69e8a5ce7f4536d752495", null ],
+      [ "newFaces", "structMR_1_1MakeBridgeResult.html#a2d3386014f3867f61860546d2b63b02a", null ]
     ] ],
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", [
       [ "combineMetric", "structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c", null ],

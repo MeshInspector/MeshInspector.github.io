@@ -1,8 +1,8 @@
 var MRMeshBoolean_8h =
 [
-    [ "MR::BooleanPreCutResult", "../Csharp/classMR_1_1BooleanPreCutResult.html", "classMR_1_1BooleanPreCutResult" ],
-    [ "MR::BooleanParameters", "../Csharp/classMR_1_1BooleanParameters.html", "classMR_1_1BooleanParameters" ],
-    [ "MR::BooleanResultPoints", "../Csharp/classMR_1_1BooleanResultPoints.html", "classMR_1_1BooleanResultPoints" ],
+    [ "MR::BooleanPreCutResult", "structMR_1_1BooleanPreCutResult.html", "structMR_1_1BooleanPreCutResult" ],
+    [ "MR::BooleanParameters", "structMR_1_1BooleanParameters.html", "structMR_1_1BooleanParameters" ],
+    [ "MR::BooleanResultPoints", "structMR_1_1BooleanResultPoints.html", "structMR_1_1BooleanResultPoints" ],
     [ "boolean", "MRMeshBoolean_8h.html#ga5dc229b89588f1a3416aca4910e460d9", null ],
     [ "boolean", "MRMeshBoolean_8h.html#a66f38e4f3f841eb185f26586e964da0d", null ],
     [ "boolean", "MRMeshBoolean_8h.html#af4cc0a870f29d514b767b1038b980a59", null ],

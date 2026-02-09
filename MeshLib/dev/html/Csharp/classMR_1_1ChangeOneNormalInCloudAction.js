@@ -1,10 +1,12 @@
 var classMR_1_1ChangeOneNormalInCloudAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangeOneNormalInCloudAction.html#ac4f0cb98bb0490e5bc3bf86995a76ac0", null ],
-    [ "ChangeOneNormalInCloudAction", "../Cpp/classMR_1_1ChangeOneNormalInCloudAction.html#a56b040ed71f05bfbf64a540bf3b4bf3d", null ],
-    [ "ChangeOneNormalInCloudAction", "../Cpp/classMR_1_1ChangeOneNormalInCloudAction.html#aa2642a2de919be105852f8ea69084eac", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeOneNormalInCloudAction.html#aafd6fc62e7b35ee903d98899500b8dc9", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeOneNormalInCloudAction.html#a67594b68431eb196ebfb45604cedbdb9", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeOneNormalInCloudAction.html#aa922f462c2baab3f1699371f60ca1059", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangeOneNormalInCloudAction.html#a8f0f27f0d4b71af0304243fab3d245ee", null ]
+    [ "ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html#a522a6b51a7d4f4191ee5b520f47cb490", null ],
+    [ "ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html#a9e2d556a1a7072096ad1017075b84494", null ],
+    [ "ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html#aada2ec7704dccdf689aa2fab7bc4ac81", null ],
+    [ "ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html#a1dd8fdfbf00d37baae4964a45107d571", null ],
+    [ "ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html#afbb99fe525e8bcf3dfab0cf7fc81cccd", null ],
+    [ "action", "classMR_1_1ChangeOneNormalInCloudAction.html#a871b173d5d105fe3e78e112abb1297a6", null ],
+    [ "assign", "classMR_1_1ChangeOneNormalInCloudAction.html#acd2e0f73ed9347e1630fec4039be5085", null ],
+    [ "operator ChangeOneNormalInCloudAction?", "classMR_1_1ChangeOneNormalInCloudAction.html#a1549ee0bd584c7265aae9f2109e1d12d", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeOneNormalInCloudAction.html#afdf8cc5955aa6d1c485aafce4472eac0", null ]
 ];

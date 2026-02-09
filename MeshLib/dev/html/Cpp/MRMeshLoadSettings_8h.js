@@ -1,4 +1,4 @@
 var MRMeshLoadSettings_8h =
 [
-    [ "MR::MeshLoadSettings", "../Csharp/classMR_1_1MeshLoadSettings.html", "classMR_1_1MeshLoadSettings" ]
+    [ "MR::MeshLoadSettings", "structMR_1_1MeshLoadSettings.html", "structMR_1_1MeshLoadSettings" ]
 ];

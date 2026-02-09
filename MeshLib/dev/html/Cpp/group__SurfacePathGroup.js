@@ -5,14 +5,10 @@ var group__SurfacePathGroup =
     [ "Group Surface Distance Builder", "group__SurfaceDistanceBuilder.html", "group__SurfaceDistanceBuilder" ],
     [ "Surface Path", "group__SurfacePathSubgroup.html", "group__SurfacePathSubgroup" ],
     [ "Tunnel Detector", "group__TunnelDetectorGroup.html", "group__TunnelDetectorGroup" ],
-    [ "MR::VertPathInfo", "../Csharp/classMR_1_1VertPathInfo.html", [
-      [ "VertPathInfo", "../Csharp/classMR_1_1VertPathInfo.html#a94d80fe6367bb3a99586795a480e1bef", null ],
-      [ "VertPathInfo", "../Csharp/classMR_1_1VertPathInfo.html#af7a066be5ced20b7b5f0e3a72fd15b67", null ],
-      [ "VertPathInfo", "../Csharp/classMR_1_1VertPathInfo.html#ac96d8c5be408135d192cae093b9aee1a", null ],
-      [ "VertPathInfo", "../Csharp/classMR_1_1VertPathInfo.html#aab8bf09d6285fe89ac452cde402f1139", null ],
-      [ "assign", "../Csharp/classMR_1_1VertPathInfo.html#a840312fb2466652448d24f4fe812e795", null ],
-      [ "back", "../Csharp/classMR_1_1VertPathInfo.html#a463666a9efad1dff3747430203b148e5", null ],
-      [ "metric", "../Csharp/classMR_1_1VertPathInfo.html#a89b9c440de50f31f6e4fe0aa196e1226", null ]
+    [ "MR::VertPathInfo", "structMR_1_1VertPathInfo.html", [
+      [ "isStart", "structMR_1_1VertPathInfo.html#aac45d884489c1a6b158869ce2fa4e940", null ],
+      [ "back", "structMR_1_1VertPathInfo.html#a7a3153da84d3b829b564f595cd7d7a7e", null ],
+      [ "metric", "structMR_1_1VertPathInfo.html#a2530c5bd3051baea96398e09ade9e59e", null ]
     ] ],
     [ "MR::addLeftBand", "group__SurfacePathGroup.html#gab0db7342678536825cb6b3bff51d832d", null ],
     [ "MR::buildShortestPath", "group__SurfacePathGroup.html#gadb0985d5186608aa8786111eead3c759", null ],

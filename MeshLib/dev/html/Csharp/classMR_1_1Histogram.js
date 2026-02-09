@@ -1,13 +1,11 @@
 var classMR_1_1Histogram =
 [
-    [ "Histogram", "../Cpp/classMR_1_1Histogram.html#aba207b56824356ab7f80254c5fd34819", null ],
-    [ "Histogram", "../Cpp/classMR_1_1Histogram.html#a9987d6f205ec5eb085631e1d45e333b7", null ],
-    [ "addHistogram", "../Cpp/classMR_1_1Histogram.html#ac1ebc3ae44e75437744d7f0b35a0dad5", null ],
-    [ "addSample", "../Cpp/classMR_1_1Histogram.html#a2b4f6ecb70d69c8ccba757095f5162cc", null ],
-    [ "getBinId", "../Cpp/classMR_1_1Histogram.html#aa191601972d6382ef20f1b6fa9ad85a0", null ],
-    [ "getBinMinMax", "../Cpp/classMR_1_1Histogram.html#a77d44fead356e682cf2c30805722b59c", null ],
-    [ "getBins", "../Cpp/classMR_1_1Histogram.html#a489a0a4c59abc3a2d4a5b3382fd7e4b3", null ],
-    [ "getMax", "../Cpp/classMR_1_1Histogram.html#a827e85fc6dbb381db1ecdd86cc85efc8", null ],
-    [ "getMin", "../Cpp/classMR_1_1Histogram.html#a46da7c1b719682c2e39bfb89ee04eca3", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca", null ]
+    [ "Histogram", "classMR_1_1Histogram.html#ab0bbd3d8742e66c6ff69d2e691a4f7ad", null ],
+    [ "Histogram", "classMR_1_1Histogram.html#abca61af5d0c72a9284ec588336d45e0d", null ],
+    [ "Histogram", "classMR_1_1Histogram.html#ae17376057394991033ff98dbc0e42999", null ],
+    [ "Histogram", "classMR_1_1Histogram.html#a0123c309b452ca8f4c7673a4a623370c", null ],
+    [ "Histogram", "classMR_1_1Histogram.html#a3e83c795c07c0445d6267063b066c59b", null ],
+    [ "addHistogram", "classMR_1_1Histogram.html#a8890dd48c1247230c8452d0a556fa6c5", null ],
+    [ "addSample", "classMR_1_1Histogram.html#a729336228fb61efb8e91b847bac318f8", null ],
+    [ "assign", "classMR_1_1Histogram.html#ab3d9c69327e5a321eefd6c70cb0a5593", null ]
 ];

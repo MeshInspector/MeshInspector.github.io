@@ -56,7 +56,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRMouseController.h", "MRMouseController_8h.html", "MRMouseController_8h" ],
     [ "MRMoveObjectByMouseImpl.h", "MRMoveObjectByMouseImpl_8h.html", "MRMoveObjectByMouseImpl_8h" ],
     [ "MRMruFormatParameters.h", "MRMruFormatParameters_8h.html", "MRMruFormatParameters_8h" ],
-    [ "MRNotificationType.h", "MRNotificationType_8h.html", null ],
+    [ "MRNotificationType.h", "MRNotificationType_8h.html", "MRNotificationType_8h" ],
     [ "MRObjectImGuiLabel.h", "MRObjectImGuiLabel_8h.html", "MRObjectImGuiLabel_8h" ],
     [ "MRObjectMeshHistory.h", "MRObjectMeshHistory_8h.html", "MRObjectMeshHistory_8h" ],
     [ "MRObjectPointsHistory.h", "MRObjectPointsHistory_8h.html", "MRObjectPointsHistory_8h" ],
@@ -150,7 +150,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRUnitSettings.h", "MRUnitSettings_8h.html", "MRUnitSettings_8h" ],
     [ "MRVectorTraits.h", "MRViewer_2MRVectorTraits_8h.html", "MRViewer_2MRVectorTraits_8h" ],
     [ "MRViewer.h", "MRViewer_8h.html", "MRViewer_8h" ],
-    [ "MRViewerConfigConstants.h", "MRViewerConfigConstants_8h.html", null ],
+    [ "MRViewerConfigConstants.h", "MRViewerConfigConstants_8h.html", "MRViewerConfigConstants_8h" ],
     [ "MRViewerEventQueue.h", "MRViewerEventQueue_8h.html", "MRViewerEventQueue_8h" ],
     [ "MRViewerEventsListener.h", "MRViewerEventsListener_8h.html", "MRViewerEventsListener_8h" ],
     [ "MRViewerFwd.h", "MRViewerFwd_8h.html", "MRViewerFwd_8h" ],
@@ -169,6 +169,6 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRVisualSubfeatures.h", "MRVisualSubfeatures_8h.html", "MRVisualSubfeatures_8h" ],
     [ "MRVolumeShader.h", "MRVolumeShader_8h.html", "MRVolumeShader_8h" ],
     [ "MRWebRequest.h", "MRWebRequest_8h.html", "MRWebRequest_8h" ],
-    [ "MRWebResponseCallback.h", "MRWebResponseCallback_8h.html", null ],
+    [ "MRWebResponseCallback.h", "MRWebResponseCallback_8h.html", "MRWebResponseCallback_8h" ],
     [ "MRWin32MessageHandler.h", "MRWin32MessageHandler_8h.html", null ]
 ];

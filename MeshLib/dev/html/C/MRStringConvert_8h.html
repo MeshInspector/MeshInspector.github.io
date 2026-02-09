@@ -174,7 +174,7 @@ Functions</h2></td></tr>
 <tr class="separator:a364d0a51cad8d9fcbd1b83734b5f52b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a502366fa7a09ea97bf3887611a2431fa" id="r_a502366fa7a09ea97bf3887611a2431fa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a502366fa7a09ea97bf3887611a2431fa">MR_utf8substr</a> (const char *s, MR_uint64_t pos, MR_uint64_t count)</td></tr>
 <tr class="separator:a502366fa7a09ea97bf3887611a2431fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8c2bf57225428d63eefbf15ce09b020" id="r_ad8c2bf57225428d63eefbf15ce09b020"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8c2bf57225428d63eefbf15ce09b020">MR_bytesString</a> (MR_uint64_t <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
+<tr class="memitem:ad8c2bf57225428d63eefbf15ce09b020" id="r_ad8c2bf57225428d63eefbf15ce09b020"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8c2bf57225428d63eefbf15ce09b020">MR_bytesString</a> (MR_uint64_t size)</td></tr>
 <tr class="separator:ad8c2bf57225428d63eefbf15ce09b020"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1d3203a7276b7af11a4fae6efed7d50" id="r_ae1d3203a7276b7af11a4fae6efed7d50"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1d3203a7276b7af11a4fae6efed7d50">MR_isProhibitedChar</a> (char c)</td></tr>
 <tr class="separator:ae1d3203a7276b7af11a4fae6efed7d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,7 +237,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts given size in string: [0,1024) -&gt; nnn bytes [1024,1024*1024) -&gt; nnn.nn Kb [1024*1024,1024*1024*1024) -&gt; nnn.nn Mb ... Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3dac1179ee1b7a147e78045a27c4e13d">MR::bytesString</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>converts given size in string: [0,1024) -&gt; nnn bytes [1024,1024*1024) -&gt; nnn.nn Kb [1024*1024,1024*1024*1024) -&gt; nnn.nn Mb ... Generated from function <code>MR::bytesString</code>. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -255,7 +255,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>in case of empty vector, returns "Empty" in case of single input file.ext, returns ".EXT" in case of multiple files with same extension, returns ".EXTs" otherwise returns "Files" Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa07a9eebcb6084b3728efa81a3ea4e43">MR::commonFilesName</a></code>. Parameter <code>files</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>in case of empty vector, returns "Empty" in case of single input file.ext, returns ".EXT" in case of multiple files with same extension, returns ".EXTs" otherwise returns "Files" Generated from function <code>MR::commonFilesName</code>. Parameter <code>files</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -277,7 +277,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a0f9f82f9571d4a67b586f1e38d93afe9">MR::getCancelMessage</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>Generated from function <code>MR::getCancelMessage</code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -299,7 +299,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if line contains at least one character (c) for which isProhibitedChar(c)==true Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a58401eef2addb5c0fef7e5dd90a17ddf">MR::hasProhibitedChars</a></code>. Parameter <code>line</code> can not be null. If <code>line_end</code> is null, then <code>line</code> is assumed to be null-terminated. </p>
+<p>returns true if line contains at least one character (c) for which isProhibitedChar(c)==true Generated from function <code>MR::hasProhibitedChars</code>. Parameter <code>line</code> can not be null. If <code>line_end</code> is null, then <code>line</code> is assumed to be null-terminated. </p>
 
 </div>
 </div>
@@ -317,7 +317,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if the given character is any of prohibited in filenames in any of OSes <a href="https://stackoverflow.com/q/1976007/7325599">https://stackoverflow.com/q/1976007/7325599</a> Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aaf7db2c19eab5cb5d5a7d91d8ae03dc9">MR::isProhibitedChar</a></code>. </p>
+<p>returns true if the given character is any of prohibited in filenames in any of OSes <a href="https://stackoverflow.com/q/1976007/7325599">https://stackoverflow.com/q/1976007/7325599</a> Generated from function <code>MR::isProhibitedChar</code>. </p>
 
 </div>
 </div>
@@ -344,7 +344,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>replace all characters (c), where isProhibitedChar(c)==true, with <code>replacement</code> char Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a893bffc80e40fe77684c61377cd58705">MR::replaceProhibitedChars</a></code>. Parameter <code>line</code> can not be null. If <code>line_end</code> is null, then <code>line</code> is assumed to be null-terminated. Parameter <code>replacement</code> has a default argument: &lsquo;&rsquo;_'<code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call</code>MR_std_string_Destroy()` to free it when you're done using it. </p>
+<p>replace all characters (c), where isProhibitedChar(c)==true, with <code>replacement</code> char Generated from function <code>MR::replaceProhibitedChars</code>. Parameter <code>line</code> can not be null. If <code>line_end</code> is null, then <code>line</code> is assumed to be null-terminated. Parameter <code>replacement</code> has a default argument: &lsquo;&rsquo;_'<code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call</code>MR_std_string_Destroy()` to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -366,7 +366,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns given value rounded to given number of decimal digits Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a55241f8b5264ed4854873f6fedc3cee3">MR::roundToPrecision</a></code>. </p>
+<p>returns given value rounded to given number of decimal digits Generated from function <code>MR::roundToPrecision</code>. </p>
 
 </div>
 </div>
@@ -388,7 +388,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns given value rounded to given number of decimal digits Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a55241f8b5264ed4854873f6fedc3cee3">MR::roundToPrecision</a></code>. </p>
+<p>returns given value rounded to given number of decimal digits Generated from function <code>MR::roundToPrecision</code>. </p>
 
 </div>
 </div>
@@ -410,7 +410,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts system encoded string to UTF8-encoded string Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga9a6b64a85d116ca32c7ff8b93ca80da1">MR::systemToUtf8</a></code>. Parameter <code>system</code> can not be null. If <code>system_end</code> is null, then <code>system</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>converts system encoded string to UTF8-encoded string Generated from function <code>MR::systemToUtf8</code>. Parameter <code>system</code> can not be null. If <code>system_end</code> is null, then <code>system</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -432,7 +432,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>return a copy of the string with all alphabetic ASCII characters replaced with upper-case variants Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a5a70c8c1a8a14604554c8a19a86984dc">MR::toLower</a></code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>return a copy of the string with all alphabetic ASCII characters replaced with upper-case variants Generated from function <code>MR::toLower</code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -454,7 +454,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d">MR::utf8string</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>Generated from function <code>MR::utf8string</code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -481,7 +481,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given on input a valid utf8-encoded string, returns its substring starting at <code>pos</code> unicode symbol, and containing at most <code>count</code> unicode symbols (but res.size() can be more than <code>count</code> since a unicode symbol can be represented by more than 1 byte) Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga9d44c29a02f4672e97b9cf002eb4f7ca">MR::utf8substr</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>given on input a valid utf8-encoded string, returns its substring starting at <code>pos</code> unicode symbol, and containing at most <code>count</code> unicode symbols (but res.size() can be more than <code>count</code> since a unicode symbol can be represented by more than 1 byte) Generated from function <code>MR::utf8substr</code>. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -503,7 +503,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts UTF8-encoded string to system encoded string, returns empty string if such conversion cannot be made Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga01094b293542b9fcf1b2f084dbf799a9">MR::utf8ToSystem</a></code>. Parameter <code>utf8</code> can not be null. If <code>utf8_end</code> is null, then <code>utf8</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>converts UTF8-encoded string to system encoded string, returns empty string if such conversion cannot be made Generated from function <code>MR::utf8ToSystem</code>. Parameter <code>utf8</code> can not be null. If <code>utf8_end</code> is null, then <code>utf8</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>

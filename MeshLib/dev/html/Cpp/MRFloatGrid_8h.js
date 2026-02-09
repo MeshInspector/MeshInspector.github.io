@@ -20,5 +20,6 @@ var MRFloatGrid_8h =
     [ "setLevelSetType", "MRFloatGrid_8h.html#ga87e6e60c5605c5450f4bd815128674c9", null ],
     [ "setValue", "MRFloatGrid_8h.html#ga28830151316f69a9dfd4e1fa94ccf465", null ],
     [ "setValue", "MRFloatGrid_8h.html#gac5781724903abd08d021ac04b898a862", null ],
-    [ "setValues", "MRFloatGrid_8h.html#ga81533ed0f1aef464f77c39b18acf4956", null ]
+    [ "setValues", "MRFloatGrid_8h.html#ga81533ed0f1aef464f77c39b18acf4956", null ],
+    [ "OpenVdbFloatGrid", "MRFloatGrid_8h.html#gaaa4989f3d8e88d20b6cbebc9f51db434", null ]
 ];

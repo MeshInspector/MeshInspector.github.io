@@ -331,7 +331,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This class is base class for unique thread safe owning of some objects, for example AABBTree classes derived from this one should have function like getOrCreate Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTree.html">MR::AABBTree</a>&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>This class is base class for unique thread safe owning of some objects, for example AABBTree classes derived from this one should have function like getOrCreate Generated from class <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTree&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -346,7 +346,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This class is base class for unique thread safe owning of some objects, for example AABBTree classes derived from this one should have function like getOrCreate Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTreePoints.html">MR::AABBTreePoints</a>&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>This class is base class for unique thread safe owning of some objects, for example AABBTree classes derived from this one should have function like getOrCreate Generated from class <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTreePoints&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -374,7 +374,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTree.html">MR::AABBTree</a>&gt;::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTree&gt;::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -396,7 +396,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTree.html">MR::AABBTree</a>&gt;::UniqueThreadSafeOwner</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4dc6ed3c4490b0be15a6dfd0d69672aa" title="Destroys a heap-allocated instance of MR_UniqueThreadSafeOwner_MR_AABBTree. Does nothing if the point...">MR_UniqueThreadSafeOwner_MR_AABBTree_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTree&gt;::UniqueThreadSafeOwner</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4dc6ed3c4490b0be15a6dfd0d69672aa" title="Destroys a heap-allocated instance of MR_UniqueThreadSafeOwner_MR_AABBTree. Does nothing if the point...">MR_UniqueThreadSafeOwner_MR_AABBTree_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -488,7 +488,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns existing owned object and does not create new one Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTree.html">MR::AABBTree</a>&gt;::get</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns existing owned object and does not create new one Generated from method <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTree&gt;::get</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -510,7 +510,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns existing owned object or creates new one using creator function Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTree.html">MR::AABBTree</a>&gt;::getOrCreate</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>creator</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>returns existing owned object or creates new one using creator function Generated from method <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTree&gt;::getOrCreate</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>creator</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -528,7 +528,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the amount of memory this object occupies on heap Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTree.html">MR::AABBTree</a>&gt;::heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the amount of memory this object occupies on heap Generated from method <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTree&gt;::heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -590,7 +590,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>deletes owned object Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTree.html">MR::AABBTree</a>&gt;::reset</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>deletes owned object Generated from method <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTree&gt;::reset</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -612,7 +612,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>calls given updater for the owned object (if any) Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTree.html">MR::AABBTree</a>&gt;::update</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>updater</code> can not be null. It is a single object. </p>
+<p>calls given updater for the owned object (if any) Generated from method <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTree&gt;::update</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>updater</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -639,7 +639,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTreePoints.html">MR::AABBTreePoints</a>&gt;::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Generated from method <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTreePoints&gt;::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -661,7 +661,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTreePoints.html">MR::AABBTreePoints</a>&gt;::UniqueThreadSafeOwner</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#acf09fe903e125f922594da7ec6b591b9" title="Destroys a heap-allocated instance of MR_UniqueThreadSafeOwner_MR_AABBTreePoints. Does nothing if the...">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTreePoints&gt;::UniqueThreadSafeOwner</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#acf09fe903e125f922594da7ec6b591b9" title="Destroys a heap-allocated instance of MR_UniqueThreadSafeOwner_MR_AABBTreePoints. Does nothing if the...">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -753,7 +753,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns existing owned object and does not create new one Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTreePoints.html">MR::AABBTreePoints</a>&gt;::get</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns existing owned object and does not create new one Generated from method <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTreePoints&gt;::get</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -775,7 +775,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns existing owned object or creates new one using creator function Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTreePoints.html">MR::AABBTreePoints</a>&gt;::getOrCreate</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>creator</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>returns existing owned object or creates new one using creator function Generated from method <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTreePoints&gt;::getOrCreate</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>creator</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -793,7 +793,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the amount of memory this object occupies on heap Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTreePoints.html">MR::AABBTreePoints</a>&gt;::heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>returns the amount of memory this object occupies on heap Generated from method <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTreePoints&gt;::heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -855,7 +855,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>deletes owned object Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTreePoints.html">MR::AABBTreePoints</a>&gt;::reset</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>deletes owned object Generated from method <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTreePoints&gt;::reset</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -877,7 +877,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>calls given updater for the owned object (if any) Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1AABBTreePoints.html">MR::AABBTreePoints</a>&gt;::update</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>updater</code> can not be null. It is a single object. </p>
+<p>calls given updater for the owned object (if any) Generated from method <code>MR::UniqueThreadSafeOwner&lt;MR::AABBTreePoints&gt;::update</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>updater</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

@@ -1,11 +1,11 @@
 var classMR_1_1ChangVoxelSelectionAction =
 [
-    [ "Obj", "../Cpp/group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7", null ],
-    [ "Obj", "../Cpp/group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7", null ],
-    [ "ChangVoxelSelectionAction", "../Cpp/group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4", null ],
-    [ "action", "../Cpp/group__HistoryGroup.html#gaebcfdaaba426fea5c32f5ca836a7085f", null ],
-    [ "heapBytes", "../Cpp/group__HistoryGroup.html#ga970e3207174343bffc6f631586e4f59d", null ],
-    [ "name", "../Cpp/group__HistoryGroup.html#ga4613d2480c87b60c6d32385f80849bbe", null ],
-    [ "selection", "../Cpp/group__HistoryGroup.html#ga639784e559a258dafd067f1e374d0ae2", null ],
-    [ "setObjectDirty", "../Cpp/group__HistoryGroup.html#ga54f4bbe409819b2a781e9d559f22298e", null ]
+    [ "ChangVoxelSelectionAction", "classMR_1_1ChangVoxelSelectionAction.html#a7c97719d888ca0660e62cd6b8d7bddb3", null ],
+    [ "ChangVoxelSelectionAction", "classMR_1_1ChangVoxelSelectionAction.html#aa9634997ae77d0208ea81d116feef5d9", null ],
+    [ "ChangVoxelSelectionAction", "classMR_1_1ChangVoxelSelectionAction.html#a20eff995d8d74dfb6ad01d9b0aa118eb", null ],
+    [ "ChangVoxelSelectionAction", "classMR_1_1ChangVoxelSelectionAction.html#a4415dbb47a28341c589cec0b8e663598", null ],
+    [ "action", "classMR_1_1ChangVoxelSelectionAction.html#a6057cf602ef3a35238b374a070de3fde", null ],
+    [ "assign", "classMR_1_1ChangVoxelSelectionAction.html#a4512ecdae4e84b9075a24176a4a76a9c", null ],
+    [ "operator ChangVoxelSelectionAction?", "classMR_1_1ChangVoxelSelectionAction.html#a1c6478bba64fd8e47256e3103d945106", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangVoxelSelectionAction.html#a8f405534dcab72dc38cebaca7f2ecfd7", null ]
 ];

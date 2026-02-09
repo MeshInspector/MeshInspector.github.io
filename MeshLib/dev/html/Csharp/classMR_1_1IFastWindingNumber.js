@@ -1,8 +1,7 @@
 var classMR_1_1IFastWindingNumber =
 [
-    [ "~IFastWindingNumber", "../Cpp/classMR_1_1IFastWindingNumber.html#aefefcab706e99f050565aa3492015547", null ],
-    [ "calcFromGrid", "../Cpp/classMR_1_1IFastWindingNumber.html#a368a1a0534476d08756358a07bcce617", null ],
-    [ "calcFromGridWithDistances", "../Cpp/classMR_1_1IFastWindingNumber.html#aeb59990afd6d9382244508e9e250972d", null ],
-    [ "calcFromVector", "../Cpp/classMR_1_1IFastWindingNumber.html#a44bf69fbb5b7c37e5a0ff132a6137581", null ],
-    [ "calcSelfIntersections", "../Cpp/classMR_1_1IFastWindingNumber.html#a9a9a27eb86c9d023a286bcf963c03cb3", null ]
+    [ "calcFromGrid", "classMR_1_1IFastWindingNumber.html#a8c8eaa1d923c9751190563795afdea3e", null ],
+    [ "calcFromGridWithDistances", "classMR_1_1IFastWindingNumber.html#aa3a528367bf75b600e2d61d9b09e065c", null ],
+    [ "calcFromVector", "classMR_1_1IFastWindingNumber.html#ad303d0d5ce9f9720b255f8227c53fa11", null ],
+    [ "calcSelfIntersections", "classMR_1_1IFastWindingNumber.html#a35bf527fbd60a14cfcff602e8030a2cd", null ]
 ];

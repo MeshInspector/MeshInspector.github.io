@@ -210,7 +210,7 @@ Functions</h2></td></tr>
 <tr class="separator:aa3a2c77a648fc5784f34274775b122c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c9067cbe12173d78299a2557aea7430" id="r_a6c9067cbe12173d78299a2557aea7430"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c9067cbe12173d78299a2557aea7430">MR_computePerFaceNormals</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
 <tr class="separator:a6c9067cbe12173d78299a2557aea7430"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab77d7b151a38f8898616806e018b7cff" id="r_ab77d7b151a38f8898616806e018b7cff"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab77d7b151a38f8898616806e018b7cff">MR_computePerFaceNormals4</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__Vector4f.html">MR_Vector4f</a> *faceNormals, MR_uint64_t <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
+<tr class="memitem:ab77d7b151a38f8898616806e018b7cff" id="r_ab77d7b151a38f8898616806e018b7cff"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab77d7b151a38f8898616806e018b7cff">MR_computePerFaceNormals4</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__Vector4f.html">MR_Vector4f</a> *faceNormals, MR_uint64_t size)</td></tr>
 <tr class="separator:ab77d7b151a38f8898616806e018b7cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71523707783284d3297474c6a4fd0fca" id="r_a71523707783284d3297474c6a4fd0fca"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71523707783284d3297474c6a4fd0fca">MR_computePerVertNormals</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
 <tr class="separator:a71523707783284d3297474c6a4fd0fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -261,7 +261,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshNormals.html">MR::MeshNormals</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::MeshNormals</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -336,7 +336,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes both per-face and per-vertex normals more efficiently then just calling both previous functions Generated from function <code><a class="elRef" href="../Cpp/group__MeshNormalsGroup.html#ga9d74c5dbc254d3fdb328a8ac37ba7529">MR::computeMeshNormals</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af77d78e1df224886cfb166d038155b0b" title="Destroys a heap-allocated instance of MR_MeshNormals. Does nothing if the pointer is null.">MR_MeshNormals_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes both per-face and per-vertex normals more efficiently then just calling both previous functions Generated from function <code>MR::computeMeshNormals</code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af77d78e1df224886cfb166d038155b0b" title="Destroys a heap-allocated instance of MR_MeshNormals. Does nothing if the pointer is null.">MR_MeshNormals_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -358,7 +358,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns a vector with corner normals in every element for valid mesh faces; corner normals of adjacent triangles are equal, unless they are separated by crease edges Generated from function <code><a class="elRef" href="../Cpp/group__MeshNormalsGroup.html#gaadd26fa2561ab2ec3b62b2dea079161c">MR::computePerCornerNormals</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#ab92db5cb97e4d1ba02ff9d6301e825e8" title="Destroys a heap-allocated instance of MR_Vector_std_array_MR_Vector3f_3_MR_FaceId....">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns a vector with corner normals in every element for valid mesh faces; corner normals of adjacent triangles are equal, unless they are separated by crease edges Generated from function <code>MR::computePerCornerNormals</code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#ab92db5cb97e4d1ba02ff9d6301e825e8" title="Destroys a heap-allocated instance of MR_Vector_std_array_MR_Vector3f_3_MR_FaceId....">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -376,7 +376,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns a vector with face-normal in every element for valid mesh faces Generated from function <code><a class="elRef" href="../Cpp/group__MeshNormalsGroup.html#gab8d9ad3d41ea00136ac9d8c59766ab0c">MR::computePerFaceNormals</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a6a76c31175a534328cf55b087f67bcb0" title="Destroys a heap-allocated instance of MR_FaceNormals. Does nothing if the pointer is null.">MR_FaceNormals_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns a vector with face-normal in every element for valid mesh faces Generated from function <code>MR::computePerFaceNormals</code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a6a76c31175a534328cf55b087f67bcb0" title="Destroys a heap-allocated instance of MR_FaceNormals. Does nothing if the pointer is null.">MR_FaceNormals_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -403,7 +403,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>fills buffer with face-normals as Vector4f for valid mesh faces Generated from function <code><a class="elRef" href="../Cpp/group__MeshNormalsGroup.html#ga855f28ca0270228f5a867c2f2fc42e37">MR::computePerFaceNormals4</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. </p>
+<p>fills buffer with face-normals as Vector4f for valid mesh faces Generated from function <code>MR::computePerFaceNormals4</code>. Parameter <code>mesh</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -421,7 +421,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns a vector with vertex normals in every element for valid mesh vertices Generated from function <code><a class="elRef" href="../Cpp/group__MeshNormalsGroup.html#ga5cd4c5961165390a68a0b055b5befbfa">MR::computePerVertNormals</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#ae3e5b113c183c12e3130be9227a248e5" title="Destroys a heap-allocated instance of MR_VertCoords. Does nothing if the pointer is null.">MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns a vector with vertex normals in every element for valid mesh vertices Generated from function <code>MR::computePerVertNormals</code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#ae3e5b113c183c12e3130be9227a248e5" title="Destroys a heap-allocated instance of MR_VertCoords. Does nothing if the pointer is null.">MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -439,7 +439,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns a vector with vertex pseudonormals in every element for valid mesh vertices see <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.9173&rep=rep1&type=pdf">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.9173&amp;rep=rep1&amp;type=pdf</a> Generated from function <code><a class="elRef" href="../Cpp/group__MeshNormalsGroup.html#ga5f58b21ccaa06eb95ccacb6fdfa5f35c">MR::computePerVertPseudoNormals</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#ae3e5b113c183c12e3130be9227a248e5" title="Destroys a heap-allocated instance of MR_VertCoords. Does nothing if the pointer is null.">MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns a vector with vertex pseudonormals in every element for valid mesh vertices see <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.9173&rep=rep1&type=pdf">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.9173&amp;rep=rep1&amp;type=pdf</a> Generated from function <code>MR::computePerVertPseudoNormals</code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#ae3e5b113c183c12e3130be9227a248e5" title="Destroys a heap-allocated instance of MR_VertCoords. Does nothing if the pointer is null.">MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -498,7 +498,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1MeshNormals.html">MR::MeshNormals</a></code> elementwise. The reference to the parameter <code>faceNormals</code> might be preserved in the constructed object. The reference to the parameter <code>vertNormals</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af77d78e1df224886cfb166d038155b0b" title="Destroys a heap-allocated instance of MR_MeshNormals. Does nothing if the pointer is null.">MR_MeshNormals_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::MeshNormals</code> elementwise. The reference to the parameter <code>faceNormals</code> might be preserved in the constructed object. The reference to the parameter <code>vertNormals</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af77d78e1df224886cfb166d038155b0b" title="Destroys a heap-allocated instance of MR_MeshNormals. Does nothing if the pointer is null.">MR_MeshNormals_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -520,7 +520,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1MeshNormals.html#a4f5a15fdc6f691d429242f20395e9bc5">MR::MeshNormals::MeshNormals</a></code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af77d78e1df224886cfb166d038155b0b" title="Destroys a heap-allocated instance of MR_MeshNormals. Does nothing if the pointer is null.">MR_MeshNormals_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::MeshNormals::MeshNormals</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af77d78e1df224886cfb166d038155b0b" title="Destroys a heap-allocated instance of MR_MeshNormals. Does nothing if the pointer is null.">MR_MeshNormals_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -612,7 +612,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshNormals.html">MR::MeshNormals</a></code> named <code>faceNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MeshNormals</code> named <code>faceNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -630,7 +630,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshNormals.html">MR::MeshNormals</a></code> named <code>vertNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MeshNormals</code> named <code>vertNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -648,7 +648,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshNormals.html">MR::MeshNormals</a></code> named <code>faceNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MeshNormals</code> named <code>faceNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -666,7 +666,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshNormals.html">MR::MeshNormals</a></code> named <code>vertNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MeshNormals</code> named <code>vertNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -737,7 +737,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshNormals.html">MR::MeshNormals</a></code> named <code>faceNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>faceNormals</code>. When this function is called, this object will drop object references it had previously in <code>faceNormals</code>. </p>
+<p>Modifies a member variable of class <code>MR::MeshNormals</code> named <code>faceNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>faceNormals</code>. When this function is called, this object will drop object references it had previously in <code>faceNormals</code>. </p>
 
 </div>
 </div>
@@ -764,7 +764,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshNormals.html">MR::MeshNormals</a></code> named <code>vertNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>vertNormals</code>. When this function is called, this object will drop object references it had previously in <code>vertNormals</code>. </p>
+<p>Modifies a member variable of class <code>MR::MeshNormals</code> named <code>vertNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>vertNormals</code>. When this function is called, this object will drop object references it had previously in <code>vertNormals</code>. </p>
 
 </div>
 </div>

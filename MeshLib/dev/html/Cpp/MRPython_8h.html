@@ -237,7 +237,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ac95039057559bedc6c5786b29e42d974"><td class="mdescLeft">&#160;</td><td class="mdescRight">Like <code>e.value()</code>, but throws using <code>throwExceptionFromExpected</code> (which is better, because it allows Python to see the proper error message), and also supports <code>T == void</code>.  <br /></td></tr>
 <tr class="separator:ac95039057559bedc6c5786b29e42d974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa60c1177452c69cf5b8cdab61296d1ce" id="r_aa60c1177452c69cf5b8cdab61296d1ce"><td class="memTemplParams" colspan="2">template&lt;typename R , typename E , typename... Args&gt; </td></tr>
-<tr class="memitem:aa60c1177452c69cf5b8cdab61296d1ce"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa60c1177452c69cf5b8cdab61296d1ce">MR::decorateExpected</a> (std::function&lt; Expected&lt; R, E &gt;(Args...)&gt; &amp;&amp;f) -&gt; std::function&lt; R(Args...)&gt;</td></tr>
+<tr class="memitem:aa60c1177452c69cf5b8cdab61296d1ce"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa60c1177452c69cf5b8cdab61296d1ce">MR::decorateExpected</a> (std::function&lt; <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; R, E &gt;(Args...)&gt; &amp;&amp;f) -&gt; std::function&lt; R(Args...)&gt;</td></tr>
 <tr class="separator:aa60c1177452c69cf5b8cdab61296d1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fcb58debd182644f22e1ea6eac867b6" id="r_a5fcb58debd182644f22e1ea6eac867b6"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
 <tr class="memitem:a5fcb58debd182644f22e1ea6eac867b6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5fcb58debd182644f22e1ea6eac867b6">MR::decorateExpected</a> (F &amp;&amp;f)</td></tr>
@@ -458,7 +458,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">using </span>name##_expected_type_ = MR::Expected&lt;type, errorType&gt;;        \</div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">using </span>name##_expected_type_ = <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected&lt;type, errorType&gt;</a>;        \</div>
 <div class="line">MR_ADD_PYTHON_CUSTOM_CLASS( moduleName, name, name##_expected_type_ ) \</div>
 <div class="line">MR_ADD_PYTHON_CUSTOM_DEF( moduleName, name, [] ( pybind11::module_&amp; )      \</div>
 <div class="line">{\</div>
@@ -479,6 +479,7 @@ Functions</h2></td></tr>
 <div class="line">            return ( <span class="keyword">const</span> errorType&amp; ( expectedType::* )( )const&amp; )&amp; expectedType::error; \</div>
 <div class="line">        } );\</div>
 <div class="line">} )</div>
+<div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:28</div></div>
 </div><!-- fragment -->
 </div>
 </div>

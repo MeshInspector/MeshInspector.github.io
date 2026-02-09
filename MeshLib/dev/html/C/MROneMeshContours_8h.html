@@ -446,7 +446,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshContour.html">MR::OneMeshContour</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::OneMeshContour</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -461,7 +461,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshIntersection.html">MR::OneMeshIntersection</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::OneMeshIntersection</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -490,7 +490,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Geo path search settings Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SearchPathSettings.html">MR::SearchPathSettings</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Geo path search settings Generated from class <code>MR::SearchPathSettings</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -505,7 +505,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::SortIntersectionsData</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -680,13 +680,13 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same. </p>
-<p>Finds shortest paths between neighbor <code>surfaceLine</code> and build closed contour <a class="elRef" href="../Cpp/group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc">MR::cutMesh</a> input </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Finds shortest paths between neighbor <code>surfaceLine</code> and build closed contour MR::cutMesh input </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result OneMeshContour </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>better use convertMeshTriPointsToMeshContour(...) instead, note that it requires same front and back MeshTriPoints for closed contour Generated from function <code><a class="elRef" href="../Cpp/group__BooleanGroup.html#ga698235aeb90b1a947f95fa76eeb78ff3">MR::convertMeshTriPointsToClosedContour</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>surfaceLine</code> can not be null. It is a single object. Parameter <code>searchSettings</code> is a single object. Parameter <code>searchSettings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>pivotIndices</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_OneMeshContour_std_string_Destroy()</code> to free it when you're done using it. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>better use convertMeshTriPointsToMeshContour(...) instead, note that it requires same front and back MeshTriPoints for closed contour Generated from function <code>MR::convertMeshTriPointsToClosedContour</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>surfaceLine</code> can not be null. It is a single object. Parameter <code>searchSettings</code> is a single object. Parameter <code>searchSettings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>pivotIndices</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_OneMeshContour_std_string_Destroy()</code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -720,10 +720,10 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </p>
-<p>Finds shortest paths between neighbor <code>surfaceLine</code> and build contour <a class="elRef" href="../Cpp/group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc">MR::cutMesh</a> input </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Finds shortest paths between neighbor <code>surfaceLine</code> and build contour MR::cutMesh input </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">searchSettings</td><td>settings for search geo path </td></tr>
-    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result OneMeshContour Generated from function <code><a class="elRef" href="../Cpp/group__BooleanGroup.html#ga33e04ff2f620e99f7bcd23080433c39f">MR::convertMeshTriPointsToMeshContour</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>surfaceLine</code> can not be null. It is a single object. Parameter <code>searchSettings</code> is a single object. Parameter <code>searchSettings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>pivotIndices</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_OneMeshContour_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result OneMeshContour Generated from function <code>MR::convertMeshTriPointsToMeshContour</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>surfaceLine</code> can not be null. It is a single object. Parameter <code>searchSettings</code> is a single object. Parameter <code>searchSettings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>pivotIndices</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_OneMeshContour_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -750,7 +750,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Converts SurfacePaths to OneMeshContours. </p>
-<p>Creates MR::OneMeshContours object from given surface paths for <a class="elRef" href="../Cpp/group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc">MR::cutMesh</a> input Generated from function <code><a class="elRef" href="../Cpp/group__BooleanGroup.html#ga9d5cd0e3c54003e08c1884a7895b3e74">MR::convertSurfacePathsToMeshContours</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>surfacePaths</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_OneMeshContour_Destroy()</code> to free it when you're done using it. </p>
+<p>Creates MR::OneMeshContours object from given surface paths for MR::cutMesh input Generated from function <code>MR::convertSurfacePathsToMeshContours</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>surfacePaths</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_OneMeshContour_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -784,9 +784,9 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Converts SurfacePath to OneMeshContours. </p>
-<p>Creates <a class="elRef" href="../Cpp/structMR_1_1OneMeshContour.html">MR::OneMeshContour</a> object from given surface path with ends for <a class="elRef" href="../Cpp/group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc">MR::cutMesh</a> input <code>start</code> and surfacePath.front() should be from same face surfacePath.back() and <code>end</code> should be from same face</p>
+<p>Creates MR::OneMeshContour object from given surface path with ends for MR::cutMesh input <code>start</code> and surfacePath.front() should be from same face surfacePath.back() and <code>end</code> should be from same face</p>
 <p>note that whole path (including <code>start</code> and <code>end</code>) should not have self-intersections also following case is not supported (vertex -&gt; edge (incident with vertex)):</p>
-<p>vert path edge point path edge end o-------&mdash;o- &ndash; &ndash; &ndash; &ndash; O \ \ / \ \ / \ \ / \/ o path Generated from function <code><a class="elRef" href="../Cpp/group__BooleanGroup.html#ga4415eacd7a732188919def7411ee0245">MR::convertSurfacePathWithEndsToMeshContour</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>surfacePath</code> can not be null. It is a single object. Parameter <code>end</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a36e8392ba824e189685ffd74670bfc2b" title="Destroys a heap-allocated instance of MR_OneMeshContour. Does nothing if the pointer is null.">MR_OneMeshContour_Destroy()</a></code> to free it when you're done using it. </p>
+<p>vert path edge point path edge end o-------&mdash;o- &ndash; &ndash; &ndash; &ndash; O \ \ / \ \ / \ \ / \/ o path Generated from function <code>MR::convertSurfacePathWithEndsToMeshContour</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>surfacePath</code> can not be null. It is a single object. Parameter <code>end</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a36e8392ba824e189685ffd74670bfc2b" title="Destroys a heap-allocated instance of MR_OneMeshContour. Does nothing if the pointer is null.">MR_OneMeshContour_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -804,7 +804,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a4484992ff522ddc03cd8234b7b7be226">MR::extractMeshContours</a></code>. Parameter <code>meshContours</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_Vector3f_Destroy()</code> to free it when you're done using it. the algorithm to compute approximately geodesic path Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SearchPathSettings.html">MR::SearchPathSettings</a></code> named <code>geodesicPathApprox</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from function <code>MR::extractMeshContours</code>. Parameter <code>meshContours</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_Vector3f_Destroy()</code> to free it when you're done using it. the algorithm to compute approximately geodesic path Returns a pointer to a member variable of class <code>MR::SearchPathSettings</code> named <code>geodesicPathApprox</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -861,7 +861,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Converts contours given in topological terms as the intersections of one mesh's edge and another mesh's triangle (ContinuousContours), into contours of meshA and/or meshB given as a sequence of (primitiveId and Cartesian coordinates); converters are required for better precision in case of degenerations; note that contours should not have intersections Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae38923b09ce82880669f4d008f0ee4d2">MR::getOneMeshIntersectionContours</a></code>. Parameter <code>meshA</code> can not be null. It is a single object. Parameter <code>meshB</code> can not be null. It is a single object. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>converters</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Parameter <code>outPtsA</code> defaults to a null pointer in C++. Parameter <code>addSelfyTerminalVerts</code> has a default argument: <code>false</code>, pass a null pointer to use it. </p>
+<p>Converts contours given in topological terms as the intersections of one mesh's edge and another mesh's triangle (ContinuousContours), into contours of meshA and/or meshB given as a sequence of (primitiveId and Cartesian coordinates); converters are required for better precision in case of degenerations; note that contours should not have intersections Generated from function <code>MR::getOneMeshIntersectionContours</code>. Parameter <code>meshA</code> can not be null. It is a single object. Parameter <code>meshB</code> can not be null. It is a single object. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>converters</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Parameter <code>outPtsA</code> defaults to a null pointer in C++. Parameter <code>addSelfyTerminalVerts</code> has a default argument: <code>false</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -893,7 +893,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae875a7151ea2bd715ce90d183884bb1b">MR::getOneMeshSelfIntersectionContours</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>converters</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_OneMeshContour_Destroy()</code> to free it when you're done using it. </p>
+<p>Generated from function <code>MR::getOneMeshSelfIntersectionContours</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>converters</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_OneMeshContour_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -947,7 +947,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshContour.html">MR::OneMeshContour</a></code> elementwise. The reference to the parameter <code>intersections</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a36e8392ba824e189685ffd74670bfc2b" title="Destroys a heap-allocated instance of MR_OneMeshContour. Does nothing if the pointer is null.">MR_OneMeshContour_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::OneMeshContour</code> elementwise. The reference to the parameter <code>intersections</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a36e8392ba824e189685ffd74670bfc2b" title="Destroys a heap-allocated instance of MR_OneMeshContour. Does nothing if the pointer is null.">MR_OneMeshContour_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -969,7 +969,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1OneMeshContour.html#a9c23def4e384c8691f85dc8052708697">MR::OneMeshContour::OneMeshContour</a></code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a36e8392ba824e189685ffd74670bfc2b" title="Destroys a heap-allocated instance of MR_OneMeshContour. Does nothing if the pointer is null.">MR_OneMeshContour_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::OneMeshContour::OneMeshContour</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a36e8392ba824e189685ffd74670bfc2b" title="Destroys a heap-allocated instance of MR_OneMeshContour. Does nothing if the pointer is null.">MR_OneMeshContour_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1061,7 +1061,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshContour.html">MR::OneMeshContour</a></code> named <code>closed</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::OneMeshContour</code> named <code>closed</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1079,7 +1079,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshContour.html">MR::OneMeshContour</a></code> named <code>intersections</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::OneMeshContour</code> named <code>intersections</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1097,7 +1097,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshContour.html">MR::OneMeshContour</a></code> named <code>closed</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::OneMeshContour</code> named <code>closed</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1115,7 +1115,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshContour.html">MR::OneMeshContour</a></code> named <code>intersections</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::OneMeshContour</code> named <code>intersections</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1181,7 +1181,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshContour.html">MR::OneMeshContour</a></code> named <code>closed</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>closed</code>. </p>
+<p>Modifies a member variable of class <code>MR::OneMeshContour</code> named <code>closed</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>closed</code>. </p>
 
 </div>
 </div>
@@ -1208,7 +1208,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshContour.html">MR::OneMeshContour</a></code> named <code>intersections</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>intersections</code>. When this function is called, this object will drop object references it had previously in <code>intersections</code>. </p>
+<p>Modifies a member variable of class <code>MR::OneMeshContour</code> named <code>intersections</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>intersections</code>. When this function is called, this object will drop object references it had previously in <code>intersections</code>. </p>
 
 </div>
 </div>
@@ -1252,7 +1252,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshIntersection.html">MR::OneMeshIntersection</a></code> elementwise. Parameter <code>primitiveId</code> can not be null. It is a single object. The reference to the parameter <code>primitiveId</code> might be preserved in the constructed object. The reference to the parameter <code>coordinate</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aea4f62ba04fced4d22453dbfadbc384f" title="Destroys a heap-allocated instance of MR_OneMeshIntersection. Does nothing if the pointer is null.">MR_OneMeshIntersection_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::OneMeshIntersection</code> elementwise. Parameter <code>primitiveId</code> can not be null. It is a single object. The reference to the parameter <code>primitiveId</code> might be preserved in the constructed object. The reference to the parameter <code>coordinate</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aea4f62ba04fced4d22453dbfadbc384f" title="Destroys a heap-allocated instance of MR_OneMeshIntersection. Does nothing if the pointer is null.">MR_OneMeshIntersection_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -1270,7 +1270,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1OneMeshIntersection.html#a7812974843c150dde2089a593fa9f715">MR::OneMeshIntersection::OneMeshIntersection</a></code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aea4f62ba04fced4d22453dbfadbc384f" title="Destroys a heap-allocated instance of MR_OneMeshIntersection. Does nothing if the pointer is null.">MR_OneMeshIntersection_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::OneMeshIntersection::OneMeshIntersection</code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aea4f62ba04fced4d22453dbfadbc384f" title="Destroys a heap-allocated instance of MR_OneMeshIntersection. Does nothing if the pointer is null.">MR_OneMeshIntersection_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1362,7 +1362,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshIntersection.html">MR::OneMeshIntersection</a></code> named <code>coordinate</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::OneMeshIntersection</code> named <code>coordinate</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1380,7 +1380,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshIntersection.html">MR::OneMeshIntersection</a></code> named <code>primitiveId</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::OneMeshIntersection</code> named <code>primitiveId</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1398,7 +1398,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshIntersection.html">MR::OneMeshIntersection</a></code> named <code>coordinate</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::OneMeshIntersection</code> named <code>coordinate</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1416,7 +1416,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshIntersection.html">MR::OneMeshIntersection</a></code> named <code>primitiveId</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::OneMeshIntersection</code> named <code>primitiveId</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1482,7 +1482,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshIntersection.html">MR::OneMeshIntersection</a></code> named <code>coordinate</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>coordinate</code>. When this function is called, this object will drop object references it had previously in <code>coordinate</code>. </p>
+<p>Modifies a member variable of class <code>MR::OneMeshIntersection</code> named <code>coordinate</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>coordinate</code>. When this function is called, this object will drop object references it had previously in <code>coordinate</code>. </p>
 
 </div>
 </div>
@@ -1504,7 +1504,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OneMeshIntersection.html">MR::OneMeshIntersection</a></code> named <code>primitiveId</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>primitiveId</code>. When this function is called, this object will drop object references it had previously in <code>primitiveId</code>. </p>
+<p>Modifies a member variable of class <code>MR::OneMeshIntersection</code> named <code>primitiveId</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>primitiveId</code>. When this function is called, this object will drop object references it had previously in <code>primitiveId</code>. </p>
 
 </div>
 </div>
@@ -1548,7 +1548,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1SearchPathSettings.html">MR::SearchPathSettings</a></code> elementwise. The reference to the parameter <code>geodesicPathApprox</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a884eedddae4cbc617fa65b0d5ea0341f" title="Destroys a heap-allocated instance of MR_SearchPathSettings. Does nothing if the pointer is null.">MR_SearchPathSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::SearchPathSettings</code> elementwise. The reference to the parameter <code>geodesicPathApprox</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a884eedddae4cbc617fa65b0d5ea0341f" title="Destroys a heap-allocated instance of MR_SearchPathSettings. Does nothing if the pointer is null.">MR_SearchPathSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -1566,7 +1566,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1SearchPathSettings.html#a913a5b8c0919cf2f8841a4b360bb7aa7">MR::SearchPathSettings::SearchPathSettings</a></code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a884eedddae4cbc617fa65b0d5ea0341f" title="Destroys a heap-allocated instance of MR_SearchPathSettings. Does nothing if the pointer is null.">MR_SearchPathSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::SearchPathSettings::SearchPathSettings</code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a884eedddae4cbc617fa65b0d5ea0341f" title="Destroys a heap-allocated instance of MR_SearchPathSettings. Does nothing if the pointer is null.">MR_SearchPathSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1658,7 +1658,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the algorithm to compute approximately geodesic path Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SearchPathSettings.html">MR::SearchPathSettings</a></code> named <code>geodesicPathApprox</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>geodesicPathApprox</code>. When this function is called, this object will drop object references it had previously in <code>geodesicPathApprox</code>. </p>
+<p>the algorithm to compute approximately geodesic path Modifies a member variable of class <code>MR::SearchPathSettings</code> named <code>geodesicPathApprox</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>geodesicPathApprox</code>. When this function is called, this object will drop object references it had previously in <code>geodesicPathApprox</code>. </p>
 
 </div>
 </div>
@@ -1676,7 +1676,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the maximum number of iterations to reduce approximate path length and convert it in geodesic path Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SearchPathSettings.html">MR::SearchPathSettings</a></code> named <code>maxReduceIters</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxReduceIters</code>. </p>
+<p>the maximum number of iterations to reduce approximate path length and convert it in geodesic path Modifies a member variable of class <code>MR::SearchPathSettings</code> named <code>maxReduceIters</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxReduceIters</code>. </p>
 
 </div>
 </div>
@@ -1694,7 +1694,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the maximum number of iterations to reduce approximate path length and convert it in geodesic path Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SearchPathSettings.html">MR::SearchPathSettings</a></code> named <code>maxReduceIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the maximum number of iterations to reduce approximate path length and convert it in geodesic path Returns a pointer to a member variable of class <code>MR::SearchPathSettings</code> named <code>maxReduceIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1777,7 +1777,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the algorithm to compute approximately geodesic path Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SearchPathSettings.html">MR::SearchPathSettings</a></code> named <code>geodesicPathApprox</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the algorithm to compute approximately geodesic path Returns a mutable pointer to a member variable of class <code>MR::SearchPathSettings</code> named <code>geodesicPathApprox</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1799,7 +1799,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the maximum number of iterations to reduce approximate path length and convert it in geodesic path Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SearchPathSettings.html">MR::SearchPathSettings</a></code> named <code>maxReduceIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the maximum number of iterations to reduce approximate path length and convert it in geodesic path Returns a mutable pointer to a member variable of class <code>MR::SearchPathSettings</code> named <code>maxReduceIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1846,7 +1846,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code> elementwise. Parameter <code>otherMesh</code> can not be null. It is a single object. The reference to the parameter <code>otherMesh</code> might be preserved in the constructed object. Parameter <code>contours</code> can not be null. It is a single object. The reference to the parameter <code>contours</code> might be preserved in the constructed object. The reference to the parameter <code>converter</code> might be preserved in the constructed object. The reference to the parameter <code>rigidB2A</code> might be preserved in the constructed object. The reference to the parameter <code>meshAVertsNum</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a03b0ea3fa83a60b33550b6c82f27a52d" title="Destroys a heap-allocated instance of MR_SortIntersectionsData. Does nothing if the pointer is null.">MR_SortIntersectionsData_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::SortIntersectionsData</code> elementwise. Parameter <code>otherMesh</code> can not be null. It is a single object. The reference to the parameter <code>otherMesh</code> might be preserved in the constructed object. Parameter <code>contours</code> can not be null. It is a single object. The reference to the parameter <code>contours</code> might be preserved in the constructed object. The reference to the parameter <code>converter</code> might be preserved in the constructed object. The reference to the parameter <code>rigidB2A</code> might be preserved in the constructed object. The reference to the parameter <code>meshAVertsNum</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a03b0ea3fa83a60b33550b6c82f27a52d" title="Destroys a heap-allocated instance of MR_SortIntersectionsData. Does nothing if the pointer is null.">MR_SortIntersectionsData_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -1868,7 +1868,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1SortIntersectionsData.html#ae79b1d64ce2dcc137f10949c43ccbc12">MR::SortIntersectionsData::SortIntersectionsData</a></code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a03b0ea3fa83a60b33550b6c82f27a52d" title="Destroys a heap-allocated instance of MR_SortIntersectionsData. Does nothing if the pointer is null.">MR_SortIntersectionsData_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::SortIntersectionsData::SortIntersectionsData</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a03b0ea3fa83a60b33550b6c82f27a52d" title="Destroys a heap-allocated instance of MR_SortIntersectionsData. Does nothing if the pointer is null.">MR_SortIntersectionsData_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1924,7 +1924,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code> named <code>contours</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SortIntersectionsData</code> named <code>contours</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1942,7 +1942,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code> named <code>converter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SortIntersectionsData</code> named <code>converter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1960,7 +1960,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code> named <code>isOtherA</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SortIntersectionsData</code> named <code>isOtherA</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1978,7 +1978,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code> named <code>meshAVertsNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SortIntersectionsData</code> named <code>meshAVertsNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1996,7 +1996,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code> named <code>otherMesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SortIntersectionsData</code> named <code>otherMesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2014,7 +2014,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code> named <code>rigidB2A</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SortIntersectionsData</code> named <code>rigidB2A</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2032,7 +2032,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code> named <code>converter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SortIntersectionsData</code> named <code>converter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2050,7 +2050,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code> named <code>isOtherA</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SortIntersectionsData</code> named <code>isOtherA</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2068,7 +2068,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code> named <code>meshAVertsNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SortIntersectionsData</code> named <code>meshAVertsNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2086,7 +2086,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code> named <code>rigidB2A</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SortIntersectionsData</code> named <code>rigidB2A</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2157,7 +2157,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code> named <code>converter</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>converter</code>. When this function is called, this object will drop object references it had previously in <code>converter</code>. </p>
+<p>Modifies a member variable of class <code>MR::SortIntersectionsData</code> named <code>converter</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>converter</code>. When this function is called, this object will drop object references it had previously in <code>converter</code>. </p>
 
 </div>
 </div>
@@ -2179,7 +2179,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code> named <code>isOtherA</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>isOtherA</code>. </p>
+<p>Modifies a member variable of class <code>MR::SortIntersectionsData</code> named <code>isOtherA</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>isOtherA</code>. </p>
 
 </div>
 </div>
@@ -2201,7 +2201,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code> named <code>meshAVertsNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>meshAVertsNum</code>. When this function is called, this object will drop object references it had previously in <code>meshAVertsNum</code>. </p>
+<p>Modifies a member variable of class <code>MR::SortIntersectionsData</code> named <code>meshAVertsNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>meshAVertsNum</code>. When this function is called, this object will drop object references it had previously in <code>meshAVertsNum</code>. </p>
 
 </div>
 </div>
@@ -2223,7 +2223,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SortIntersectionsData.html">MR::SortIntersectionsData</a></code> named <code>rigidB2A</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>rigidB2A</code>. When this function is called, this object will drop object references it had previously in <code>rigidB2A</code>. </p>
+<p>Modifies a member variable of class <code>MR::SortIntersectionsData</code> named <code>rigidB2A</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>rigidB2A</code>. When this function is called, this object will drop object references it had previously in <code>rigidB2A</code>. </p>
 
 </div>
 </div>
@@ -2250,7 +2250,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a4123fa411b7305bb9172a398b8cc3c51">MR::subdivideLoneContours</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>new2oldMap</code> defaults to a null pointer in C++. </p>
+<p>Generated from function <code>MR::subdivideLoneContours</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>new2oldMap</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>

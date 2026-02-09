@@ -1,10 +1,12 @@
 var classMR_1_1ChangeOnePointInCloudAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangeOnePointInCloudAction.html#a53daa4ab4948e49bce8cf3efb71982cb", null ],
-    [ "ChangeOnePointInCloudAction", "../Cpp/classMR_1_1ChangeOnePointInCloudAction.html#a2a95838eed1970b6d1b9fe6009128d7f", null ],
-    [ "ChangeOnePointInCloudAction", "../Cpp/classMR_1_1ChangeOnePointInCloudAction.html#a6dae80316417b70ee98f67ecf0477677", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeOnePointInCloudAction.html#adbe79dc8bbe3a4158e22e912c78dfcd8", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeOnePointInCloudAction.html#a90c1e3a545b13734142bde8638b3ee63", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeOnePointInCloudAction.html#a12d6cf9879dfc2c296fa9440b96442e3", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangeOnePointInCloudAction.html#a6cd319bedaca54eedc938510e9832227", null ]
+    [ "ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html#a976ad1472a2448a00ef650ced1670db2", null ],
+    [ "ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html#a8a2af425c11ff082f53b1ff514dedf7e", null ],
+    [ "ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html#a72b1b0d831e856016cbe15a9efbcc735", null ],
+    [ "ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html#a887eab98f7a0ea7a969ce5b92c05b580", null ],
+    [ "ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html#afad5554e1b5248db94bdd9eacd633892", null ],
+    [ "action", "classMR_1_1ChangeOnePointInCloudAction.html#ac4b36c3c75fbbd438563cfd9c459c9fb", null ],
+    [ "assign", "classMR_1_1ChangeOnePointInCloudAction.html#a706d61f6a90f16f47cf8599453bfec3c", null ],
+    [ "operator ChangeOnePointInCloudAction?", "classMR_1_1ChangeOnePointInCloudAction.html#a09d8e29c1f4711755fd945fa71024099", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeOnePointInCloudAction.html#af51533d7f951025605fe9f5a79abd736", null ]
 ];

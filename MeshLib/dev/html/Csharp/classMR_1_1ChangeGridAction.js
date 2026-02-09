@@ -1,9 +1,11 @@
 var classMR_1_1ChangeGridAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangeGridAction.html#ad7d5725801275be74a08469ec04b18ca", null ],
-    [ "ChangeGridAction", "../Cpp/classMR_1_1ChangeGridAction.html#a1f23e5db03c650766a3e405f207e32ba", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeGridAction.html#a09423374eaa05f95dd0af7575fe17e62", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeGridAction.html#ac2009abf4b8a560744458f59f5bc9328", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeGridAction.html#abff717b27ad5da1a8a0048172c8397ef", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangeGridAction.html#a7e6353d95f49ccea46c8ae6f33f15391", null ]
+    [ "ChangeGridAction", "classMR_1_1ChangeGridAction.html#a04d96001c2ddfed783078a533276f3df", null ],
+    [ "ChangeGridAction", "classMR_1_1ChangeGridAction.html#a22c11892a15e1a1e40612520376b3ec2", null ],
+    [ "ChangeGridAction", "classMR_1_1ChangeGridAction.html#a13c90781d6a04d5f167c6cbd763933cf", null ],
+    [ "ChangeGridAction", "classMR_1_1ChangeGridAction.html#afc8f136abd2318ff4919399cd6e07e40", null ],
+    [ "action", "classMR_1_1ChangeGridAction.html#ad3847e7fef1aa9074696750b82fb8041", null ],
+    [ "assign", "classMR_1_1ChangeGridAction.html#a18af0eb3d350566f157779cefc3dde76", null ],
+    [ "operator ChangeGridAction?", "classMR_1_1ChangeGridAction.html#a7fdde77db4b81edbfc9bdc64bfa408a1", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeGridAction.html#a33d5d7862a38697e6cd575cc17373e64", null ]
 ];

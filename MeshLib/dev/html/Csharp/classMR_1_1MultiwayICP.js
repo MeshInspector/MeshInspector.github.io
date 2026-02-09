@@ -1,21 +1,13 @@
 var classMR_1_1MultiwayICP =
 [
-    [ "PairsPerLayer", "../Cpp/classMR_1_1MultiwayICP.html#a37a8e0d52c2729455ea42255f7d90942", null ],
-    [ "MultiwayICP", "../Cpp/classMR_1_1MultiwayICP.html#a4fc483cb7fd8b04e2e37761a891b6a15", null ],
-    [ "calculateTransformations", "../Cpp/classMR_1_1MultiwayICP.html#a45afa9e21d3905737cd8bafd86926578", null ],
-    [ "calculateTransformationsFixFirst", "../Cpp/classMR_1_1MultiwayICP.html#a176d6154b15b1c250f3f5cd3fb1a35cc", null ],
-    [ "devEnableIndependentEquationsMode", "../Cpp/classMR_1_1MultiwayICP.html#a44f6380f606dbdbaf88e1bf6357735dc", null ],
-    [ "devIndependentEquationsModeEnabled", "../Cpp/classMR_1_1MultiwayICP.html#ae4d25815f9e27aeb558a76b1268fb602", null ],
-    [ "getCascadeIndexer", "../Cpp/classMR_1_1MultiwayICP.html#ae32c804d4589f4cbb0cd5821bace1d83", null ],
-    [ "getMeanSqDistToPlane", "../Cpp/classMR_1_1MultiwayICP.html#adef2b42123425d640c3ba527a8ba8f08", null ],
-    [ "getMeanSqDistToPoint", "../Cpp/classMR_1_1MultiwayICP.html#a64ac3c584445bc45cecd3c1c41d10ae6", null ],
-    [ "getNumActivePairs", "../Cpp/classMR_1_1MultiwayICP.html#a2b9103b68bd7af393660d7dafc751954", null ],
-    [ "getNumSamples", "../Cpp/classMR_1_1MultiwayICP.html#a7d58f57c70792f0ec9ef82aa6e95407a", null ],
-    [ "getPairsPerLayer", "../Cpp/classMR_1_1MultiwayICP.html#a3a6e071719c0f164a01aeca591915112", null ],
-    [ "getParams", "../Cpp/classMR_1_1MultiwayICP.html#a1df773567dfe9ebaffb468a5e35325fe", null ],
-    [ "getStatusInfo", "../Cpp/classMR_1_1MultiwayICP.html#a088270c2bee7aaaea93a48fc5d48c2fd", null ],
-    [ "resamplePoints", "../Cpp/classMR_1_1MultiwayICP.html#afab250201279bb04e86b137138ef54de", null ],
-    [ "setParams", "../Cpp/classMR_1_1MultiwayICP.html#afa420b3638e8c4e0b5ac70acb575a741", null ],
-    [ "setPerIterationCallback", "../Cpp/classMR_1_1MultiwayICP.html#ae36a340dd4d403cc4894bc8a8b87d0d6", null ],
-    [ "updateAllPointPairs", "../Cpp/classMR_1_1MultiwayICP.html#a266ccb33611f47b517672664e5ecca33", null ]
+    [ "MultiwayICP", "classMR_1_1MultiwayICP.html#a459fc4554ad61e9938f58354dfe2b881", null ],
+    [ "MultiwayICP", "classMR_1_1MultiwayICP.html#a1db2b849c2514e2d54b344b6a96fc3dc", null ],
+    [ "assign", "classMR_1_1MultiwayICP.html#a30ee37c521ac399cda9c733a92074df2", null ],
+    [ "calculateTransformations", "classMR_1_1MultiwayICP.html#a3a7fc669c75fcf780f411f7052d0af4e", null ],
+    [ "calculateTransformationsFixFirst", "classMR_1_1MultiwayICP.html#a592f74940817bf8de9a6e543fd5ed851", null ],
+    [ "devEnableIndependentEquationsMode", "classMR_1_1MultiwayICP.html#ad2f07dda4a5478ad6f85163e8e1b08d8", null ],
+    [ "resamplePoints", "classMR_1_1MultiwayICP.html#adc72d721bc443d2a5386600ac02245db", null ],
+    [ "setParams", "classMR_1_1MultiwayICP.html#a18c8e783f38a8339216447e687db7af1", null ],
+    [ "setPerIterationCallback", "classMR_1_1MultiwayICP.html#a891cf06bf2a92a57ec2a28c34b7389f2", null ],
+    [ "updateAllPointPairs", "classMR_1_1MultiwayICP.html#a7e630a2a2eb09a7aee510f8c4d95b6ea", null ]
 ];

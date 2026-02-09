@@ -2,7 +2,7 @@ var MRMoveMeshToVoxelMaxDeriv_8cs =
 [
     [ "MR", "classMR.html", "classMR" ],
     [ "MR.Const_MoveMeshToVoxelMaxDerivSettings", "classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings.html", "classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings" ],
-    [ "MR.MoveMeshToVoxelMaxDerivSettings", "../Cpp/structMR_1_1MoveMeshToVoxelMaxDerivSettings.html", "structMR_1_1MoveMeshToVoxelMaxDerivSettings" ],
+    [ "MR.MoveMeshToVoxelMaxDerivSettings", "classMR_1_1MoveMeshToVoxelMaxDerivSettings.html", "classMR_1_1MoveMeshToVoxelMaxDerivSettings" ],
     [ "MR.Const_MeshOnVoxelsT_MRMesh_MRVdbVolume", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume.html", "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume" ],
     [ "MR.MeshOnVoxelsT_MRMesh_MRVdbVolume", "classMR_1_1MeshOnVoxelsT__MRMesh__MRVdbVolume.html", "classMR_1_1MeshOnVoxelsT__MRMesh__MRVdbVolume" ],
     [ "MR.Const_MeshOnVoxelsT_ConstMRMesh_MRVdbVolume", "classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRVdbVolume.html", "classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRVdbVolume" ],

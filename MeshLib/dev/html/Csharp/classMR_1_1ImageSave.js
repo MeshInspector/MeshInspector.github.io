@@ -1,6 +1,5 @@
 var classMR_1_1ImageSave =
 [
-    [ "ImageSaver", "../Cpp/namespaceMR_1_1ImageSave.html#af787ba09d658e9fdb5560be6d9d7f2eb", null ],
     [ "toAnySupportedFormat", "classMR_1_1ImageSave.html#a4935909377affb036d74d5ad69594ddf", null ],
     [ "toBmp", "classMR_1_1ImageSave.html#a2d45abf074e52d5ac241a628737dc8d0", null ],
     [ "toJpeg", "classMR_1_1ImageSave.html#a7e9dc7c8dd000741110dde6724871ae9", null ],

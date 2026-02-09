@@ -1,11 +1,13 @@
 var classMR_1_1MeshComponents =
 [
+    [ "Const_ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams.html", "classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams" ],
+    [ "Const_LargeByAreaComponentsSettings", "classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings.html", "classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings" ],
+    [ "ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1ExpandToComponentsParams.html", "classMR_1_1MeshComponents_1_1ExpandToComponentsParams" ],
+    [ "LargeByAreaComponentsSettings", "classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", "classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" ],
     [ "FaceIncidence", "classMR_1_1MeshComponents.html#a4456859c6a96d21172917ef5db336722", [
       [ "PerEdge", "classMR_1_1MeshComponents.html#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8", null ],
       [ "PerVertex", "classMR_1_1MeshComponents.html#a4456859c6a96d21172917ef5db336722a47e73954b650524c96a2c612bfda4029", null ]
     ] ],
-    [ "FaceIncidence", "../Cpp/group__MeshComponentsGroup.html#ga7489c91178e90fdd4200bbb0074e025f", null ],
-    [ "FaceIncidence", "../Cpp/group__MeshComponentsGroup.html#ga7489c91178e90fdd4200bbb0074e025f", null ],
     [ "excludeFullySelectedComponents", "classMR_1_1MeshComponents.html#acbf116452fe4c2bb1c56d5c6c8378244", null ],
     [ "expandToComponents", "classMR_1_1MeshComponents.html#a1e8c081fae74fe2929d40ea02416a878", null ],
     [ "getAllComponents", "classMR_1_1MeshComponents.html#aff1256cad28929e76abb10573de91d0b", null ],
@@ -46,7 +48,5 @@ var classMR_1_1MeshComponents =
     [ "getUnionFindStructureVertsSeparatedByPath", "classMR_1_1MeshComponents.html#a5e3ca9d24f770ba0ce2107f69f099787", null ],
     [ "getUnionFindStructureVertsSeparatedByPaths", "classMR_1_1MeshComponents.html#a299a0282f79f470067ecc4761e03a031", null ],
     [ "hasFullySelectedComponent", "classMR_1_1MeshComponents.html#a8d43aaffe07559d56de9cfa53b753c70", null ],
-    [ "hasFullySelectedComponent", "classMR_1_1MeshComponents.html#a16162d3313122042d66d508deba30e7b", null ],
-    [ "PerEdge", "../Cpp/group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc", null ],
-    [ "PerVertex", "../Cpp/group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c", null ]
+    [ "hasFullySelectedComponent", "classMR_1_1MeshComponents.html#a16162d3313122042d66d508deba30e7b", null ]
 ];

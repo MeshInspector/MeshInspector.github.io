@@ -1,9 +1,10 @@
 var MRFixUndercuts_8h =
 [
-    [ "MR::FixUndercuts::FindParams", "../Csharp/classMR_1_1FixUndercuts_1_1FindParams.html", "classMR_1_1FixUndercuts_1_1FindParams" ],
-    [ "MR::FixUndercuts::FixParams", "../Csharp/classMR_1_1FixUndercuts_1_1FixParams.html", "classMR_1_1FixUndercuts_1_1FixParams" ],
-    [ "MR::FixUndercuts::ImproveDirectionParameters", "../Csharp/classMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html", "classMR_1_1FixUndercuts_1_1ImproveDirectionParameters" ],
-    [ "MR::FixUndercuts::DistMapImproveDirectionParameters", "../Csharp/classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
+    [ "MR::FixUndercuts::FindParams", "structMR_1_1FixUndercuts_1_1FindParams.html", "structMR_1_1FixUndercuts_1_1FindParams" ],
+    [ "MR::FixUndercuts::FixParams", "structMR_1_1FixUndercuts_1_1FixParams.html", "structMR_1_1FixUndercuts_1_1FixParams" ],
+    [ "MR::FixUndercuts::ImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters" ],
+    [ "MR::FixUndercuts::DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
+    [ "UndercutMetric", "MRFixUndercuts_8h.html#afb7dbf2667211aa9d31565ef2d4ad13d", null ],
     [ "distMapImproveDirection", "MRFixUndercuts_8h.html#a4ce77d6cc1b654cd81c517870a1c840f", null ],
     [ "find", "MRFixUndercuts_8h.html#aab7f74dcecd9e3401fed6751e0b70e1a", null ],
     [ "find", "MRFixUndercuts_8h.html#aecc6cdf126c48d730e18a76748377b81", null ],

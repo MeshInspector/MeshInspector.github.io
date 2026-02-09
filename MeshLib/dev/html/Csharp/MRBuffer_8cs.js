@@ -106,5 +106,5 @@ var MRBuffer_8cs =
     [ "MR.Const_NoCtor_MRIdMRICPElemtTag", "classMR_1_1Const__NoCtor__MRIdMRICPElemtTag.html", "classMR_1_1Const__NoCtor__MRIdMRICPElemtTag" ],
     [ "MR.NoCtor_MRIdMRICPElemtTag", "classMR_1_1NoCtor__MRIdMRICPElemtTag.html", "classMR_1_1NoCtor__MRIdMRICPElemtTag" ],
     [ "MR.Const_PackMapping", "classMR_1_1Const__PackMapping.html", "classMR_1_1Const__PackMapping" ],
-    [ "MR.PackMapping", "../Cpp/structMR_1_1PackMapping.html", "structMR_1_1PackMapping" ]
+    [ "MR.PackMapping", "classMR_1_1PackMapping.html", "classMR_1_1PackMapping" ]
 ];

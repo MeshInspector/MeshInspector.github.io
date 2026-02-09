@@ -1,8 +1,12 @@
 var classMR_1_1PartialChangeMeshTopologyAction =
 [
-    [ "PartialChangeMeshTopologyAction", "../Cpp/classMR_1_1PartialChangeMeshTopologyAction.html#a401938742b88492ed12d3e7509eed8bc", null ],
-    [ "PartialChangeMeshTopologyAction", "../Cpp/classMR_1_1PartialChangeMeshTopologyAction.html#a106d313b24a6ed0b2cc1f7f65bdf2674", null ],
-    [ "action", "../Cpp/classMR_1_1PartialChangeMeshTopologyAction.html#abcd08e02fc94e72034e4e2bc1371262b", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1PartialChangeMeshTopologyAction.html#a61706f60c84d69b27d3acf9fdc0673ef", null ],
-    [ "name", "../Cpp/classMR_1_1PartialChangeMeshTopologyAction.html#af60c80f62ba5789c89fc2657ce402ef0", null ]
+    [ "PartialChangeMeshTopologyAction", "classMR_1_1PartialChangeMeshTopologyAction.html#a998cb12314dc78b7e25aeffb28fc3580", null ],
+    [ "PartialChangeMeshTopologyAction", "classMR_1_1PartialChangeMeshTopologyAction.html#a8043deec05fdbc02155d8663d7c5520f", null ],
+    [ "PartialChangeMeshTopologyAction", "classMR_1_1PartialChangeMeshTopologyAction.html#aa5f1525eaaacd1e7203f5429326d982f", null ],
+    [ "PartialChangeMeshTopologyAction", "classMR_1_1PartialChangeMeshTopologyAction.html#a242c0344fc8754938a3720673b96b3d7", null ],
+    [ "PartialChangeMeshTopologyAction", "classMR_1_1PartialChangeMeshTopologyAction.html#ab29fe92190d1c5cf8d63be290af6b44e", null ],
+    [ "action", "classMR_1_1PartialChangeMeshTopologyAction.html#a52f036c5e111b16431f57f68a69fe733", null ],
+    [ "assign", "classMR_1_1PartialChangeMeshTopologyAction.html#a20fa5594fb46e2591d7f7747efa526a3", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1PartialChangeMeshTopologyAction.html#a85f64f0d953387ce91753695433a78da", null ],
+    [ "operator PartialChangeMeshTopologyAction?", "classMR_1_1PartialChangeMeshTopologyAction.html#a27810d00af6a60ed11a4cf40188649c2", null ]
 ];

@@ -331,7 +331,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Parameters for aligning 2d contours along given curve Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Parameters for aligning 2d contours along given curve Generated from class <code>MR::BendContoursAlongCurveParams</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -346,7 +346,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Parameters for aligning 2d contours onto mesh surface Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Parameters for aligning 2d contours onto mesh surface Generated from class <code>MR::ContoursMeshAlignParams</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -523,7 +523,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given a planar mesh with boundary on input located in plane XY, packs and extends it along Z on zOffset (along -Z if zOffset is negative) to make a volumetric closed mesh note that this function also packs the mesh Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3289f6374ed80e5ac6467f5029cbc89d">MR::addBaseToPlanarMesh</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. </p>
+<p>given a planar mesh with boundary on input located in plane XY, packs and extends it along Z on zOffset (along -Z if zOffset is negative) to make a volumetric closed mesh note that this function also packs the mesh Generated from function <code>MR::addBaseToPlanarMesh</code>. Parameter <code>mesh</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -550,7 +550,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Creates planar mesh out of given contour and aligns it to given surface Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a5d85bb6696e4f27accbd2e795fadb536">MR::alignContoursToMesh</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>Creates planar mesh out of given contour and aligns it to given surface Generated from function <code>MR::alignContoursToMesh</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -577,7 +577,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Converts contours in thick mesh, and deforms it along given path Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a4051b010ed3a3f630d30f6c37ca8133f">MR::bendContoursAlongCurve</a></code>. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>curve</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>Converts contours in thick mesh, and deforms it along given path Generated from function <code>MR::bendContoursAlongCurve</code>. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>curve</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -636,7 +636,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> elementwise. The reference to the parameter <code>pivotBoxPoint</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab454044e79f66dc81c5cc547dbf10567" title="Destroys a heap-allocated instance of MR_BendContoursAlongCurveParams. Does nothing if the pointer is...">MR_BendContoursAlongCurveParams_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::BendContoursAlongCurveParams</code> elementwise. The reference to the parameter <code>pivotBoxPoint</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab454044e79f66dc81c5cc547dbf10567" title="Destroys a heap-allocated instance of MR_BendContoursAlongCurveParams. Does nothing if the pointer is...">MR_BendContoursAlongCurveParams_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -654,7 +654,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1BendContoursAlongCurveParams.html#aa5b34ace57687a2babac885e0d1e297c">MR::BendContoursAlongCurveParams::BendContoursAlongCurveParams</a></code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab454044e79f66dc81c5cc547dbf10567" title="Destroys a heap-allocated instance of MR_BendContoursAlongCurveParams. Does nothing if the pointer is...">MR_BendContoursAlongCurveParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::BendContoursAlongCurveParams::BendContoursAlongCurveParams</code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab454044e79f66dc81c5cc547dbf10567" title="Destroys a heap-allocated instance of MR_BendContoursAlongCurveParams. Does nothing if the pointer is...">MR_BendContoursAlongCurveParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -746,7 +746,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Contours extrusion outside of curve level Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>extrusion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Contours extrusion outside of curve level Returns a pointer to a member variable of class <code>MR::BendContoursAlongCurveParams</code> named <code>extrusion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -764,7 +764,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>periodicCurve</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x) Returns a pointer to a member variable of class <code>MR::BendContoursAlongCurveParams</code> named <code>periodicCurve</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -782,7 +782,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Position of the curve(pivotCurveTime) in the contours' bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>pivotBoxPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Position of the curve(pivotCurveTime) in the contours' bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Returns a pointer to a member variable of class <code>MR::BendContoursAlongCurveParams</code> named <code>pivotBoxPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -800,7 +800,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Position on the curve, where bounding box's pivot point is mapped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>pivotCurveTime</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Position on the curve, where bounding box's pivot point is mapped Returns a pointer to a member variable of class <code>MR::BendContoursAlongCurveParams</code> named <code>pivotCurveTime</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -818,7 +818,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>stretch all contours along curve to fit in unit curve range Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>stretch</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>stretch all contours along curve to fit in unit curve range Returns a pointer to a member variable of class <code>MR::BendContoursAlongCurveParams</code> named <code>stretch</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -836,7 +836,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Contours extrusion outside of curve level Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>extrusion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Contours extrusion outside of curve level Returns a mutable pointer to a member variable of class <code>MR::BendContoursAlongCurveParams</code> named <code>extrusion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -854,7 +854,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>periodicCurve</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x) Returns a mutable pointer to a member variable of class <code>MR::BendContoursAlongCurveParams</code> named <code>periodicCurve</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -872,7 +872,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Position of the curve(pivotCurveTime) in the contours' bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>pivotBoxPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Position of the curve(pivotCurveTime) in the contours' bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Returns a mutable pointer to a member variable of class <code>MR::BendContoursAlongCurveParams</code> named <code>pivotBoxPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -890,7 +890,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Position on the curve, where bounding box's pivot point is mapped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>pivotCurveTime</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Position on the curve, where bounding box's pivot point is mapped Returns a mutable pointer to a member variable of class <code>MR::BendContoursAlongCurveParams</code> named <code>pivotCurveTime</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -908,7 +908,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>stretch all contours along curve to fit in unit curve range Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>stretch</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>stretch all contours along curve to fit in unit curve range Returns a mutable pointer to a member variable of class <code>MR::BendContoursAlongCurveParams</code> named <code>stretch</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -974,7 +974,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Contours extrusion outside of curve level Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>extrusion</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>extrusion</code>. </p>
+<p>Contours extrusion outside of curve level Modifies a member variable of class <code>MR::BendContoursAlongCurveParams</code> named <code>extrusion</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>extrusion</code>. </p>
 
 </div>
 </div>
@@ -996,7 +996,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>periodicCurve</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>periodicCurve</code>. </p>
+<p>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x) Modifies a member variable of class <code>MR::BendContoursAlongCurveParams</code> named <code>periodicCurve</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>periodicCurve</code>. </p>
 
 </div>
 </div>
@@ -1018,7 +1018,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Position of the curve(pivotCurveTime) in the contours' bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>pivotBoxPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>pivotBoxPoint</code>. When this function is called, this object will drop object references it had previously in <code>pivotBoxPoint</code>. </p>
+<p>Position of the curve(pivotCurveTime) in the contours' bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Modifies a member variable of class <code>MR::BendContoursAlongCurveParams</code> named <code>pivotBoxPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>pivotBoxPoint</code>. When this function is called, this object will drop object references it had previously in <code>pivotBoxPoint</code>. </p>
 
 </div>
 </div>
@@ -1040,7 +1040,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Position on the curve, where bounding box's pivot point is mapped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>pivotCurveTime</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>pivotCurveTime</code>. </p>
+<p>Position on the curve, where bounding box's pivot point is mapped Modifies a member variable of class <code>MR::BendContoursAlongCurveParams</code> named <code>pivotCurveTime</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>pivotCurveTime</code>. </p>
 
 </div>
 </div>
@@ -1062,7 +1062,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>stretch all contours along curve to fit in unit curve range Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></code> named <code>stretch</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>stretch</code>. </p>
+<p>stretch all contours along curve to fit in unit curve range Modifies a member variable of class <code>MR::BendContoursAlongCurveParams</code> named <code>stretch</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>stretch</code>. </p>
 
 </div>
 </div>
@@ -1094,7 +1094,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Converts contours in thick mesh, and deforms it along given surface path Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a4216194d77fa2405b55e67b177430ef1">MR::bendContoursAlongSurfacePath</a></code>. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>Converts contours in thick mesh, and deforms it along given surface path Generated from function <code>MR::bendContoursAlongSurfacePath</code>. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1136,7 +1136,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Converts contours in thick mesh, and deforms it along given surface path: start-&gt;path-&gt;end Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a4216194d77fa2405b55e67b177430ef1">MR::bendContoursAlongSurfacePath</a></code>. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Parameter <code>end</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>Converts contours in thick mesh, and deforms it along given surface path: start-&gt;path-&gt;end Generated from function <code>MR::bendContoursAlongSurfacePath</code>. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Parameter <code>end</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1200,7 +1200,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> elementwise. Parameter <code>meshPoint</code> can not be null. It is a single object. The reference to the parameter <code>meshPoint</code> might be preserved in the constructed object. The reference to the parameter <code>pivotPoint</code> might be preserved in the constructed object. The reference to the parameter <code>xDirection</code> might be preserved in the constructed object. The reference to the parameter <code>zDirection</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7519956613d60ba488d5ff25a2f62099" title="Destroys a heap-allocated instance of MR_ContoursMeshAlignParams. Does nothing if the pointer is null...">MR_ContoursMeshAlignParams_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::ContoursMeshAlignParams</code> elementwise. Parameter <code>meshPoint</code> can not be null. It is a single object. The reference to the parameter <code>meshPoint</code> might be preserved in the constructed object. The reference to the parameter <code>pivotPoint</code> might be preserved in the constructed object. The reference to the parameter <code>xDirection</code> might be preserved in the constructed object. The reference to the parameter <code>zDirection</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7519956613d60ba488d5ff25a2f62099" title="Destroys a heap-allocated instance of MR_ContoursMeshAlignParams. Does nothing if the pointer is null...">MR_ContoursMeshAlignParams_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -1218,7 +1218,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1ContoursMeshAlignParams.html#aaf6a324a450e161d8e063ed203c7617b">MR::ContoursMeshAlignParams::ContoursMeshAlignParams</a></code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7519956613d60ba488d5ff25a2f62099" title="Destroys a heap-allocated instance of MR_ContoursMeshAlignParams. Does nothing if the pointer is null...">MR_ContoursMeshAlignParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::ContoursMeshAlignParams::ContoursMeshAlignParams</code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7519956613d60ba488d5ff25a2f62099" title="Destroys a heap-allocated instance of MR_ContoursMeshAlignParams. Does nothing if the pointer is null...">MR_ContoursMeshAlignParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1310,7 +1310,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Contours extrusion in +z and -z direction Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>extrusion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Contours extrusion in +z and -z direction Returns a pointer to a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>extrusion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1328,7 +1328,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximum allowed shift along 'zDirection' for alignment Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>maximumShift</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximum allowed shift along 'zDirection' for alignment Returns a pointer to a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>maximumShift</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1346,7 +1346,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Point coordinate on mesh, represent position of contours box 'pivotPoint' on mesh Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>meshPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Point coordinate on mesh, represent position of contours box 'pivotPoint' on mesh Returns a pointer to a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>meshPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1364,7 +1364,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Relative position of 'meshPoint' in contours bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>pivotPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Relative position of 'meshPoint' in contours bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Returns a pointer to a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>pivotPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1382,7 +1382,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Represents 2d contours xDirection in mesh space Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>xDirection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Represents 2d contours xDirection in mesh space Returns a pointer to a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>xDirection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1400,7 +1400,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Represents contours normal in mesh space if nullptr - use mesh normal at 'meshPoint' Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>zDirection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Represents contours normal in mesh space if nullptr - use mesh normal at 'meshPoint' Returns a pointer to a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>zDirection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1418,7 +1418,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Contours extrusion in +z and -z direction Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>extrusion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Contours extrusion in +z and -z direction Returns a mutable pointer to a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>extrusion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1436,7 +1436,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximum allowed shift along 'zDirection' for alignment Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>maximumShift</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximum allowed shift along 'zDirection' for alignment Returns a mutable pointer to a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>maximumShift</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1454,7 +1454,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Point coordinate on mesh, represent position of contours box 'pivotPoint' on mesh Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>meshPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Point coordinate on mesh, represent position of contours box 'pivotPoint' on mesh Returns a mutable pointer to a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>meshPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1472,7 +1472,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Relative position of 'meshPoint' in contours bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>pivotPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Relative position of 'meshPoint' in contours bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Returns a mutable pointer to a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>pivotPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1490,7 +1490,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Represents 2d contours xDirection in mesh space Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>xDirection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Represents 2d contours xDirection in mesh space Returns a mutable pointer to a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>xDirection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1508,7 +1508,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Represents contours normal in mesh space if nullptr - use mesh normal at 'meshPoint' Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>zDirection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Represents contours normal in mesh space if nullptr - use mesh normal at 'meshPoint' Returns a mutable pointer to a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>zDirection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1574,7 +1574,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Contours extrusion in +z and -z direction Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>extrusion</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>extrusion</code>. </p>
+<p>Contours extrusion in +z and -z direction Modifies a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>extrusion</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>extrusion</code>. </p>
 
 </div>
 </div>
@@ -1596,7 +1596,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximum allowed shift along 'zDirection' for alignment Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>maximumShift</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maximumShift</code>. </p>
+<p>Maximum allowed shift along 'zDirection' for alignment Modifies a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>maximumShift</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maximumShift</code>. </p>
 
 </div>
 </div>
@@ -1618,7 +1618,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Point coordinate on mesh, represent position of contours box 'pivotPoint' on mesh Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>meshPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>meshPoint</code>. When this function is called, this object will drop object references it had previously in <code>meshPoint</code>. </p>
+<p>Point coordinate on mesh, represent position of contours box 'pivotPoint' on mesh Modifies a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>meshPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>meshPoint</code>. When this function is called, this object will drop object references it had previously in <code>meshPoint</code>. </p>
 
 </div>
 </div>
@@ -1640,7 +1640,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Relative position of 'meshPoint' in contours bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>pivotPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>pivotPoint</code>. When this function is called, this object will drop object references it had previously in <code>pivotPoint</code>. </p>
+<p>Relative position of 'meshPoint' in contours bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right Modifies a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>pivotPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>pivotPoint</code>. When this function is called, this object will drop object references it had previously in <code>pivotPoint</code>. </p>
 
 </div>
 </div>
@@ -1662,7 +1662,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Represents 2d contours xDirection in mesh space Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>xDirection</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>xDirection</code>. When this function is called, this object will drop object references it had previously in <code>xDirection</code>. </p>
+<p>Represents 2d contours xDirection in mesh space Modifies a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>xDirection</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>xDirection</code>. When this function is called, this object will drop object references it had previously in <code>xDirection</code>. </p>
 
 </div>
 </div>
@@ -1684,7 +1684,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Represents contours normal in mesh space if nullptr - use mesh normal at 'meshPoint' Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursMeshAlignParams.html">MR::ContoursMeshAlignParams</a></code> named <code>zDirection</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>zDirection</code>. When this function is called, this object will drop object references it had previously in <code>zDirection</code>. </p>
+<p>Represents contours normal in mesh space if nullptr - use mesh normal at 'meshPoint' Modifies a member variable of class <code>MR::ContoursMeshAlignParams</code> named <code>zDirection</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>zDirection</code>. When this function is called, this object will drop object references it had previously in <code>zDirection</code>. </p>
 
 </div>
 </div>
@@ -1714,7 +1714,7 @@ Functions</h2></td></tr>
 <p>given a polyline by its vertices, returns curve function representing it; return an error if the polyline is less than 2 points or all points have exactly the same location </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">unitLength</td><td>if true, then the lengths are normalized for the last point to have unit length </td></tr>
-    <tr><td class="paramname">outCurveLen</td><td>optional output of the total polyline length (before possible normalization) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a071105a685910abe5dfa30a00eb21e6e">MR::curveFromPoints</a></code>. Parameter <code>cp</code> can not be null. It is a single object. Parameter <code>unitLength</code> has a default argument: <code>true</code>, pass a null pointer to use it. Parameter <code>outCurveLen</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_function_MR_CurvePoint_func_from_float_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">outCurveLen</td><td>optional output of the total polyline length (before possible normalization) Generated from function <code>MR::curveFromPoints</code>. Parameter <code>cp</code> can not be null. It is a single object. Parameter <code>unitLength</code> has a default argument: <code>true</code>, pass a null pointer to use it. Parameter <code>outCurveLen</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_function_MR_CurvePoint_func_from_float_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1744,7 +1744,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a071105a685910abe5dfa30a00eb21e6e">MR::curveFromPoints</a></code>. Parameter <code>cp</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. Parameter <code>unitLength</code> has a default argument: <code>true</code>, pass a null pointer to use it. Parameter <code>outCurveLen</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_function_MR_CurvePoint_func_from_float_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>Generated from function <code>MR::curveFromPoints</code>. Parameter <code>cp</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. Parameter <code>unitLength</code> has a default argument: <code>true</code>, pass a null pointer to use it. Parameter <code>outCurveLen</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_function_MR_CurvePoint_func_from_float_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1774,7 +1774,7 @@ Functions</h2></td></tr>
 <p>given a polyline by its vertices, computes partial lengths along the polyline from the initial point; return an error if the polyline is less than 2 points or all points have exactly the same location </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">unitLength</td><td>if true, then the lengths are normalized for the last point to have unit length </td></tr>
-    <tr><td class="paramname">outCurveLen</td><td>optional output of the total polyline length (before possible normalization) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ade72d2e5f4e283c92e52eb345fc96f1a">MR::findPartialLens</a></code>. Parameter <code>cp</code> can not be null. It is a single object. Parameter <code>unitLength</code> has a default argument: <code>true</code>, pass a null pointer to use it. Parameter <code>outCurveLen</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_vector_float_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">outCurveLen</td><td>optional output of the total polyline length (before possible normalization) Generated from function <code>MR::findPartialLens</code>. Parameter <code>cp</code> can not be null. It is a single object. Parameter <code>unitLength</code> has a default argument: <code>true</code>, pass a null pointer to use it. Parameter <code>outCurveLen</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_vector_float_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1804,7 +1804,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given a polyline by its vertices, and partial lengths as computed by findPartialLens, finds the location of curve point at the given parameter with extrapolation if p outside [0, lens.back()], execution time is logarithmic relative to the number of points Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8106db69dd7d7091f381711d96982a35">MR::getCurvePoint</a></code>. Parameter <code>cp</code> can not be null. It is a single object. Parameter <code>lens</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRCurve_8h.html#af6b2ae122a0b344a0e4b61439c39bbd1" title="Destroys a heap-allocated instance of MR_CurvePoint. Does nothing if the pointer is null.">MR_CurvePoint_Destroy()</a></code> to free it when you're done using it. </p>
+<p>given a polyline by its vertices, and partial lengths as computed by findPartialLens, finds the location of curve point at the given parameter with extrapolation if p outside [0, lens.back()], execution time is logarithmic relative to the number of points Generated from function <code>MR::getCurvePoint</code>. Parameter <code>cp</code> can not be null. It is a single object. Parameter <code>lens</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRCurve_8h.html#af6b2ae122a0b344a0e4b61439c39bbd1" title="Destroys a heap-allocated instance of MR_CurvePoint. Does nothing if the pointer is null.">MR_CurvePoint_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1826,7 +1826,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a81c36364408fb0153761ef43b1746a70">MR::meshPathCurvePoints</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_CurvePoint_Destroy()</code> to free it when you're done using it. </p>
+<p>Generated from function <code>MR::meshPathCurvePoints</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_CurvePoint_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1858,7 +1858,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts polyline given as a number of MeshTriPoint/MeshEdgePoint into CurvePoints Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a81c36364408fb0153761ef43b1746a70">MR::meshPathCurvePoints</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Parameter <code>end</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_CurvePoint_Destroy()</code> to free it when you're done using it. </p>
+<p>converts polyline given as a number of MeshTriPoint/MeshEdgePoint into CurvePoints Generated from function <code>MR::meshPathCurvePoints</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Parameter <code>end</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_CurvePoint_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>

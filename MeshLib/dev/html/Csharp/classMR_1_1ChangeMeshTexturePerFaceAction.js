@@ -1,10 +1,12 @@
 var classMR_1_1ChangeMeshTexturePerFaceAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangeMeshTexturePerFaceAction.html#a5ac275b9b06a01874c43ebe7baea03d8", null ],
-    [ "ChangeMeshTexturePerFaceAction", "../Cpp/classMR_1_1ChangeMeshTexturePerFaceAction.html#ab088029d6c5d868e8a5de7216aafe8ab", null ],
-    [ "ChangeMeshTexturePerFaceAction", "../Cpp/classMR_1_1ChangeMeshTexturePerFaceAction.html#ab6aa5335ed7975682a4f23ccfbd8d5f2", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeMeshTexturePerFaceAction.html#a74f10a919c46c00ffa6dc5bbfe354000", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeMeshTexturePerFaceAction.html#a26005c217798c440b5d38b82e747c9df", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeMeshTexturePerFaceAction.html#a4b2e329d2919c7bf660598c1f458ac86", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangeMeshTexturePerFaceAction.html#aff0a929769480252b2c2c35c72ae8ffd", null ]
+    [ "ChangeMeshTexturePerFaceAction", "classMR_1_1ChangeMeshTexturePerFaceAction.html#aa6df06c2a0f2a8ba93ac54d75af5c8e5", null ],
+    [ "ChangeMeshTexturePerFaceAction", "classMR_1_1ChangeMeshTexturePerFaceAction.html#a1336bd75958b55fa5e680b4877de7c8b", null ],
+    [ "ChangeMeshTexturePerFaceAction", "classMR_1_1ChangeMeshTexturePerFaceAction.html#a12a6ee7721be116ecf3a7c5707fbe73b", null ],
+    [ "ChangeMeshTexturePerFaceAction", "classMR_1_1ChangeMeshTexturePerFaceAction.html#abe9c4d69d232902b97d48107c592560c", null ],
+    [ "ChangeMeshTexturePerFaceAction", "classMR_1_1ChangeMeshTexturePerFaceAction.html#a1e103384cee2a029f63c2e47fe473054", null ],
+    [ "action", "classMR_1_1ChangeMeshTexturePerFaceAction.html#a1377c4ec5de1b799f9db318967286e30", null ],
+    [ "assign", "classMR_1_1ChangeMeshTexturePerFaceAction.html#a0e80c8ee5a26457aec9fc4094f35eeb0", null ],
+    [ "operator ChangeMeshTexturePerFaceAction?", "classMR_1_1ChangeMeshTexturePerFaceAction.html#a22d881185d81813a5868e33db49af15c", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeMeshTexturePerFaceAction.html#a16b6496c22fd88fdebc5a0b655936bce", null ]
 ];

@@ -6,7 +6,7 @@ var MRRingIterator_8cs =
     [ "MR.Const_RingIterator_MRNextEdgeSameLeft", "classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html", "classMR_1_1Const__RingIterator__MRNextEdgeSameLeft" ],
     [ "MR.RingIterator_MRNextEdgeSameLeft", "classMR_1_1RingIterator__MRNextEdgeSameLeft.html", "classMR_1_1RingIterator__MRNextEdgeSameLeft" ],
     [ "MR.Const_NextEdgeSameOrigin", "classMR_1_1Const__NextEdgeSameOrigin.html", "classMR_1_1Const__NextEdgeSameOrigin" ],
-    [ "MR.NextEdgeSameOrigin", "../Cpp/classMR_1_1NextEdgeSameOrigin.html", "classMR_1_1NextEdgeSameOrigin" ],
+    [ "MR.NextEdgeSameOrigin", "classMR_1_1NextEdgeSameOrigin.html", "classMR_1_1NextEdgeSameOrigin" ],
     [ "MR.Const_NextEdgeSameLeft", "classMR_1_1Const__NextEdgeSameLeft.html", "classMR_1_1Const__NextEdgeSameLeft" ],
-    [ "MR.NextEdgeSameLeft", "../Cpp/classMR_1_1NextEdgeSameLeft.html", "classMR_1_1NextEdgeSameLeft" ]
+    [ "MR.NextEdgeSameLeft", "classMR_1_1NextEdgeSameLeft.html", "classMR_1_1NextEdgeSameLeft" ]
 ];

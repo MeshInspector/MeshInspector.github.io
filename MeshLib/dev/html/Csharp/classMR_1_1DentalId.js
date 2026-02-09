@@ -1,7 +1,6 @@
 var classMR_1_1DentalId =
 [
-    [ "fdi", "../Cpp/classMR_1_1DentalId.html#ac1858ebe9d631ac97732981502ccc423", null ],
-    [ "fromFDI", "../Cpp/classMR_1_1DentalId.html#ac7bbd13981e37cfd5f67ff65e8974d12", null ],
-    [ "fromFDI", "../Cpp/classMR_1_1DentalId.html#a2440c61bc1fa2c93aa20ddbbe050279c", null ],
-    [ "operator<=>", "../Cpp/classMR_1_1DentalId.html#a413835c53825417d3814e4320110741f", null ]
+    [ "DentalId", "classMR_1_1DentalId.html#aca22899cb003a1846667491d9f34df6b", null ],
+    [ "DentalId", "classMR_1_1DentalId.html#a99aa357d14f15b07c0d7285b81f686e8", null ],
+    [ "assign", "classMR_1_1DentalId.html#ab87c6e44f95f2235ccc9eb6ca079fcd1", null ]
 ];

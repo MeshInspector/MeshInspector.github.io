@@ -174,7 +174,7 @@ Classes</h2></td></tr>
 Public Types</h2></td></tr>
 <tr class="memitem:ae831e755d5fa4e114cf8d2eaef532bdc" id="r_ae831e755d5fa4e114cf8d2eaef532bdc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae831e755d5fa4e114cf8d2eaef532bdc">ElemVar</a> = std::variant&lt;std::string, <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ada21c38059140ab54d2c729c198e39f4">TextIcon</a>, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html">TextColor</a>, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html">TextFont</a>&gt;</td></tr>
 <tr class="separator:ae831e755d5fa4e114cf8d2eaef532bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65617319e0c1b767525aede65d4607b5" id="r_a65617319e0c1b767525aede65d4607b5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65617319e0c1b767525aede65d4607b5">FontFunc</a> = std::function&lt;FontAndSize()&gt;</td></tr>
+<tr class="memitem:a65617319e0c1b767525aede65d4607b5" id="r_a65617319e0c1b767525aede65d4607b5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65617319e0c1b767525aede65d4607b5">FontFunc</a> = std::function&lt;<a class="el" href="namespaceMR.html#a21a70f8b86cebf1f5e5b5f65c4baa936">FontAndSize</a>()&gt;</td></tr>
 <tr class="separator:a65617319e0c1b767525aede65d4607b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -221,7 +221,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af8b5e638410d87130b72445eb3a009cd" id="r_af8b5e638410d87130b72445eb3a009cd"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8b5e638410d87130b72445eb3a009cd">align</a></td></tr>
 <tr class="memdesc:af8b5e638410d87130b72445eb3a009cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alignment. [0,0] = top-left, [1,1] = bottom-right.  <br /></td></tr>
 <tr class="separator:af8b5e638410d87130b72445eb3a009cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6147eeaff8e86f187d95660dc8cdc339" id="r_a6147eeaff8e86f187d95660dc8cdc339"><td class="memItemLeft" align="right" valign="top">FontAndSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6147eeaff8e86f187d95660dc8cdc339">defaultFont</a> = <a class="el" href="#ae4cadaf3ea1172a0c335e927b4e6951c">getStaticDefaultFontFunc</a>()()</td></tr>
+<tr class="memitem:a6147eeaff8e86f187d95660dc8cdc339" id="r_a6147eeaff8e86f187d95660dc8cdc339"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a21a70f8b86cebf1f5e5b5f65c4baa936">FontAndSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6147eeaff8e86f187d95660dc8cdc339">defaultFont</a> = <a class="el" href="#ae4cadaf3ea1172a0c335e927b4e6951c">getStaticDefaultFontFunc</a>()()</td></tr>
 <tr class="separator:a6147eeaff8e86f187d95660dc8cdc339"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada8abd512f2564b6e933ba4332bdce0c" id="r_ada8abd512f2564b6e933ba4332bdce0c"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada8abd512f2564b6e933ba4332bdce0c">computedSize</a></td></tr>
 <tr class="memdesc:ada8abd512f2564b6e933ba4332bdce0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The computed content size. Read-only. Don't set manually, <code><a class="el" href="#a8aa43d24ada469bdbb77f5444b4e6f64">update()</a></code> sets this.  <br /></td></tr>
@@ -254,7 +254,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a65617319e0c1b767525aede65d4607b5">MR::ImGuiMeasurementIndicators::Text::FontFunc</a> = std::function&lt;FontAndSize()&gt;</td>
+          <td class="memname">using <a class="el" href="#a65617319e0c1b767525aede65d4607b5">MR::ImGuiMeasurementIndicators::Text::FontFunc</a> = std::function&lt;<a class="el" href="namespaceMR.html#a21a70f8b86cebf1f5e5b5f65c4baa936">FontAndSize</a>()&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -631,7 +631,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">FontAndSize MR::ImGuiMeasurementIndicators::Text::defaultFont = <a class="el" href="#ae4cadaf3ea1172a0c335e927b4e6951c">getStaticDefaultFontFunc</a>()()</td>
+          <td class="memname"><a class="el" href="namespaceMR.html#a21a70f8b86cebf1f5e5b5f65c4baa936">FontAndSize</a> MR::ImGuiMeasurementIndicators::Text::defaultFont = <a class="el" href="#ae4cadaf3ea1172a0c335e927b4e6951c">getStaticDefaultFontFunc</a>()()</td>
         </tr>
       </table>
 </div><div class="memdoc">

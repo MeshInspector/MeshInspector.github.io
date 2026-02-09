@@ -2,7 +2,7 @@ var MRPdf_8cs =
 [
     [ "MR", "classMR.html", "classMR" ],
     [ "MR.Const_PdfParameters", "classMR_1_1Const__PdfParameters.html", "classMR_1_1Const__PdfParameters" ],
-    [ "MR.PdfParameters", "../Cpp/structMR_1_1PdfParameters.html", "structMR_1_1PdfParameters" ],
+    [ "MR.PdfParameters", "classMR_1_1PdfParameters.html", "classMR_1_1PdfParameters" ],
     [ "MR.Const_Pdf", "classMR_1_1Const__Pdf.html", "classMR_1_1Const__Pdf" ],
     [ "MR.Const_Pdf.Const_Cell", "classMR_1_1Const__Pdf_1_1Const__Cell.html", "classMR_1_1Const__Pdf_1_1Const__Cell" ],
     [ "MR.Const_Pdf.Const_Cell.Const_Empty", "classMR_1_1Const__Pdf_1_1Const__Cell_1_1Const__Empty.html", "classMR_1_1Const__Pdf_1_1Const__Cell_1_1Const__Empty" ],
@@ -18,5 +18,5 @@ var MRPdf_8cs =
     [ "MR.Const_Pdf.TextCellParams", "classMR_1_1Const__Pdf_1_1TextCellParams.html", "classMR_1_1Const__Pdf_1_1TextCellParams" ],
     [ "MR.Const_Pdf.Const_TextParams", "classMR_1_1Const__Pdf_1_1Const__TextParams.html", "classMR_1_1Const__Pdf_1_1Const__TextParams" ],
     [ "MR.Const_Pdf.TextParams", "classMR_1_1Const__Pdf_1_1TextParams.html", "classMR_1_1Const__Pdf_1_1TextParams" ],
-    [ "MR.Pdf", "../Cpp/classMR_1_1Pdf.html", "classMR_1_1Pdf" ]
+    [ "MR.Pdf", "classMR_1_1Pdf.html", "classMR_1_1Pdf" ]
 ];

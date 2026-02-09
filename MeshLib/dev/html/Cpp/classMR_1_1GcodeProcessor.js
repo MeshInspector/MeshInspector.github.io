@@ -3,15 +3,12 @@ var classMR_1_1GcodeProcessor =
     [ "BaseAction", "structMR_1_1GcodeProcessor_1_1BaseAction.html", "structMR_1_1GcodeProcessor_1_1BaseAction" ],
     [ "Command", "structMR_1_1GcodeProcessor_1_1Command.html", "structMR_1_1GcodeProcessor_1_1Command" ],
     [ "MoveAction", "structMR_1_1GcodeProcessor_1_1MoveAction.html", "structMR_1_1GcodeProcessor_1_1MoveAction" ],
-    [ "GcodeProcessor", "../Csharp/classMR_1_1GcodeProcessor.html#a7cea7464f75a10c5ad7574323d255f27", null ],
-    [ "GcodeProcessor", "../Csharp/classMR_1_1GcodeProcessor.html#a6205fb03c66cae8029ba225847086740", null ],
-    [ "GcodeProcessor", "../Csharp/classMR_1_1GcodeProcessor.html#aa43ad6e1996958dc51c4ac7238801c02", null ],
-    [ "GcodeProcessor", "../Csharp/classMR_1_1GcodeProcessor.html#a1981fb0d38c61b0cfe5f932acb337d68", null ],
-    [ "assign", "../Csharp/classMR_1_1GcodeProcessor.html#a028b26e379c9ac9ec8a8469fe1376c18", null ],
-    [ "getCNCMachineSettings", "../Csharp/classMR_1_1GcodeProcessor.html#ab1974efa77013a98d129e57c13b173e7", null ],
-    [ "processLine", "../Csharp/classMR_1_1GcodeProcessor.html#a10e195dabf46d85414f3d33a55f4f3cd", null ],
-    [ "processSource", "../Csharp/classMR_1_1GcodeProcessor.html#a12c95d639d31d6f22c0fe0088e9d64f6", null ],
-    [ "reset", "../Csharp/classMR_1_1GcodeProcessor.html#a7fb5dbc00deba46a6aa0bb7d7f1660c2", null ],
-    [ "setCNCMachineSettings", "../Csharp/classMR_1_1GcodeProcessor.html#a3bceee0ebdb0e283f5dc1755fe4ce7ec", null ],
-    [ "setGcodeSource", "../Csharp/classMR_1_1GcodeProcessor.html#a70322c2f851219016153f202ee3b5b63", null ]
+    [ "BaseAction2f", "classMR_1_1GcodeProcessor.html#a02000ae4305a16e7aca1e6e09bb7e25a", null ],
+    [ "BaseAction3f", "classMR_1_1GcodeProcessor.html#a88ffeb0a2dcab67b585df870268d537d", null ],
+    [ "getCNCMachineSettings", "classMR_1_1GcodeProcessor.html#a3d142a8122850941639d6ac3b62e425c", null ],
+    [ "processLine", "classMR_1_1GcodeProcessor.html#a3330329ae3c98ae35d632ae247a6dd4b", null ],
+    [ "processSource", "classMR_1_1GcodeProcessor.html#ac70b156fa41443a361dc92797369d6dd", null ],
+    [ "reset", "classMR_1_1GcodeProcessor.html#aab85326426858f8da3d65ca24a5e1a6e", null ],
+    [ "setCNCMachineSettings", "classMR_1_1GcodeProcessor.html#aa7d0067f2ea9fa17e9e56e625539e534", null ],
+    [ "setGcodeSource", "classMR_1_1GcodeProcessor.html#ace829c3782f4685968c82c32de66a4d0", null ]
 ];

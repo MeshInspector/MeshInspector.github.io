@@ -236,7 +236,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>performs sampling of cloud points by iteratively removing one point with minimal metric (describing distance to the closest point and previous nearby removals), thus allowing stopping at any given number of samples; returns std::nullopt if it was terminated by the callback Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a418834f2ad787242c43b22fd331d69d7">MR::pointIterativeSampling</a></code>. Parameter <code>cloud</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertBitSet_Destroy()</code> to free it when you're done using it. </p>
+<p>performs sampling of cloud points by iteratively removing one point with minimal metric (describing distance to the closest point and previous nearby removals), thus allowing stopping at any given number of samples; returns std::nullopt if it was terminated by the callback Generated from function <code>MR::pointIterativeSampling</code>. Parameter <code>cloud</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertBitSet_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>

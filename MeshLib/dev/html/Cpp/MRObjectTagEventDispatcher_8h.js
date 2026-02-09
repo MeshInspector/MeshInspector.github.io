@@ -1,4 +1,4 @@
 var MRObjectTagEventDispatcher_8h =
 [
-    [ "MR::ObjectTagEventDispatcher", "../Csharp/classMR_1_1ObjectTagEventDispatcher.html", "classMR_1_1ObjectTagEventDispatcher" ]
+    [ "MR::ObjectTagEventDispatcher", "classMR_1_1ObjectTagEventDispatcher.html", "classMR_1_1ObjectTagEventDispatcher" ]
 ];

@@ -1,7 +1,7 @@
 var MRMarkedContour_8h =
 [
-    [ "MR::MarkedContour3f", "../Csharp/classMR_1_1MarkedContour3f.html", "classMR_1_1MarkedContour3f" ],
-    [ "MR::SplineSettings", "../Csharp/classMR_1_1SplineSettings.html", "classMR_1_1SplineSettings" ],
+    [ "MR::MarkedContour3f", "structMR_1_1MarkedContour3f.html", "structMR_1_1MarkedContour3f" ],
+    [ "MR::SplineSettings", "structMR_1_1SplineSettings.html", "structMR_1_1SplineSettings" ],
     [ "isClosed", "MRMarkedContour_8h.html#acd259cc34db34b6aee3060c1baf8822d", null ],
     [ "makeSpline", "MRMarkedContour_8h.html#a7fdb7eb094811ed5d74ac5dbb128319f", null ],
     [ "makeSpline", "MRMarkedContour_8h.html#aafc7415ee574cd3909c1ba0489b08f15", null ],

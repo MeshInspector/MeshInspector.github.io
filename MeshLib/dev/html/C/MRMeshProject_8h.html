@@ -389,7 +389,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::MeshProjectionResult</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -404,7 +404,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionTransforms.html">MR::MeshProjectionTransforms</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::MeshProjectionTransforms</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -447,7 +447,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::SignedDistanceToMeshResult</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -570,7 +570,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>structure with simplified transforms</dd></dl>
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga2574b6170fb044d2038e7fa9c0e2e4c1">MR::createProjectionTransforms</a></code>. Parameter <code>storageXf</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a57de8d8e23e1bd0bf230640ec1341fbe" title="Destroys a heap-allocated instance of MR_MeshProjectionTransforms. Does nothing if the pointer is nul...">MR_MeshProjectionTransforms_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code>MR::createProjectionTransforms</code>. Parameter <code>storageXf</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a57de8d8e23e1bd0bf230640ec1341fbe" title="Destroys a heap-allocated instance of MR_MeshProjectionTransforms. Does nothing if the pointer is nul...">MR_MeshProjectionTransforms_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -597,7 +597,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>enumerates all triangles with bounding boxes at least partially in the ball (the triangles themselves can be fully out of ball) until callback returns Stop; the ball during enumeration can shrink (new ball is always within the previous one) but never expand Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga565cdeaec23b7bd65c3776723571fac0">MR::findBoxedTrisInBall</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>ball</code> can not be null. It is a single object. Parameter <code>foundCallback</code> can not be null. It is a single object. </p>
+<p>enumerates all triangles with bounding boxes at least partially in the ball (the triangles themselves can be fully out of ball) until callback returns Stop; the ball during enumeration can shrink (new ball is always within the previous one) but never expand Generated from function <code>MR::findBoxedTrisInBall</code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>ball</code> can not be null. It is a single object. Parameter <code>foundCallback</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -652,7 +652,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">xf</td><td>mesh-to-point transformation, if not specified then identity transformation is assumed </td></tr>
     <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
     <tr><td class="paramname">validFaces</td><td>if provided then only faces from there will be considered as projections </td></tr>
-    <tr><td class="paramname">validProjections</td><td>if provided then only projections passed this test can be returned Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#gaa20d785f3f82fad58fb659bc0009563d">MR::findProjection</a></code>. Parameter <code>pt</code> can not be null. It is a single object. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. Parameter <code>xf</code> defaults to a null pointer in C++. Parameter <code>loDistLimitSq</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>validFaces</code> is a single object. Parameter <code>validFaces</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>validProjections</code> is a single object. Parameter <code>validProjections</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a36b991245ebb55ea0bcc86f7ef50194d" title="Destroys a heap-allocated instance of MR_MeshProjectionResult. Does nothing if the pointer is null.">MR_MeshProjectionResult_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">validProjections</td><td>if provided then only projections passed this test can be returned Generated from function <code>MR::findProjection</code>. Parameter <code>pt</code> can not be null. It is a single object. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. Parameter <code>xf</code> defaults to a null pointer in C++. Parameter <code>loDistLimitSq</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>validFaces</code> is a single object. Parameter <code>validFaces</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>validProjections</code> is a single object. Parameter <code>validProjections</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a36b991245ebb55ea0bcc86f7ef50194d" title="Destroys a heap-allocated instance of MR_MeshProjectionResult. Does nothing if the pointer is null.">MR_MeshProjectionResult_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -716,7 +716,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">xf</td><td>mesh-to-point transformation, if not specified then identity transformation is assumed </td></tr>
     <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
     <tr><td class="paramname">validFaces</td><td>if provided then only faces from there will be considered as projections </td></tr>
-    <tr><td class="paramname">validProjections</td><td>if provided then only projections passed this test can be returned Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga415d472754b9db893c0765c00951faad">MR::findProjectionSubtree</a></code>. Parameter <code>pt</code> can not be null. It is a single object. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>tree</code> can not be null. It is a single object. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. Parameter <code>xf</code> defaults to a null pointer in C++. Parameter <code>loDistLimitSq</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>validFaces</code> is a single object. Parameter <code>validFaces</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>validProjections</code> is a single object. Parameter <code>validProjections</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a36b991245ebb55ea0bcc86f7ef50194d" title="Destroys a heap-allocated instance of MR_MeshProjectionResult. Does nothing if the pointer is null.">MR_MeshProjectionResult_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">validProjections</td><td>if provided then only projections passed this test can be returned Generated from function <code>MR::findProjectionSubtree</code>. Parameter <code>pt</code> can not be null. It is a single object. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>tree</code> can not be null. It is a single object. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. Parameter <code>xf</code> defaults to a null pointer in C++. Parameter <code>loDistLimitSq</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>validFaces</code> is a single object. Parameter <code>validFaces</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>validProjections</code> is a single object. Parameter <code>validProjections</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a36b991245ebb55ea0bcc86f7ef50194d" title="Destroys a heap-allocated instance of MR_MeshProjectionResult. Does nothing if the pointer is null.">MR_MeshProjectionResult_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -756,7 +756,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger then the function exits returning nullopt </td></tr>
-    <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if the real distance smaller then the function exits returning nullopt Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga23c1ed1442e2de62ef49a64b7179d809">MR::findSignedDistance</a></code>. Parameter <code>pt</code> can not be null. It is a single object. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. Parameter <code>loDistLimitSq</code> has a default argument: <code>0</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_SignedDistanceToMeshResult_Destroy()</code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if the real distance smaller then the function exits returning nullopt Generated from function <code>MR::findSignedDistance</code>. Parameter <code>pt</code> can not be null. It is a single object. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>upDistLimitSq</code> has a default argument: <code>3.40282347e38f</code>, pass a null pointer to use it. Parameter <code>loDistLimitSq</code> has a default argument: <code>0</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_SignedDistanceToMeshResult_Destroy()</code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -791,7 +791,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>enumerates all triangles within the ball until callback returns Stop; the ball during enumeration can shrink (new ball is always within the previous one) but never expand Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga354aa28c5105859923d024949d724b5f">MR::findTrisInBall</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>ball</code> can not be null. It is a single object. Parameter <code>foundCallback</code> can not be null. It is a single object. Parameter <code>validFaces</code> is a single object. Parameter <code>validFaces</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>enumerates all triangles within the ball until callback returns Stop; the ball during enumeration can shrink (new ball is always within the previous one) but never expand Generated from function <code>MR::findTrisInBall</code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>ball</code> can not be null. It is a single object. Parameter <code>foundCallback</code> can not be null. It is a single object. Parameter <code>validFaces</code> is a single object. Parameter <code>validFaces</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -840,7 +840,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a></code> elementwise. Parameter <code>proj</code> can not be null. It is a single object. The reference to the parameter <code>proj</code> might be preserved in the constructed object. Parameter <code>mtp</code> can not be null. It is a single object. The reference to the parameter <code>mtp</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a36b991245ebb55ea0bcc86f7ef50194d" title="Destroys a heap-allocated instance of MR_MeshProjectionResult. Does nothing if the pointer is null.">MR_MeshProjectionResult_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::MeshProjectionResult</code> elementwise. Parameter <code>proj</code> can not be null. It is a single object. The reference to the parameter <code>proj</code> might be preserved in the constructed object. Parameter <code>mtp</code> can not be null. It is a single object. The reference to the parameter <code>mtp</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a36b991245ebb55ea0bcc86f7ef50194d" title="Destroys a heap-allocated instance of MR_MeshProjectionResult. Does nothing if the pointer is null.">MR_MeshProjectionResult_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -858,7 +858,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1MeshProjectionResult.html#a751457aa2de847d39b666525bfb5c509">MR::MeshProjectionResult::MeshProjectionResult</a></code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a36b991245ebb55ea0bcc86f7ef50194d" title="Destroys a heap-allocated instance of MR_MeshProjectionResult. Does nothing if the pointer is null.">MR_MeshProjectionResult_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::MeshProjectionResult::MeshProjectionResult</code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a36b991245ebb55ea0bcc86f7ef50194d" title="Destroys a heap-allocated instance of MR_MeshProjectionResult. Does nothing if the pointer is null.">MR_MeshProjectionResult_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -968,7 +968,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>squared distance from original projected point to proj Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a></code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>squared distance from original projected point to proj Returns a pointer to a member variable of class <code>MR::MeshProjectionResult</code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -986,7 +986,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>its barycentric representation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a></code> named <code>mtp</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>its barycentric representation Returns a pointer to a member variable of class <code>MR::MeshProjectionResult</code> named <code>mtp</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1004,7 +1004,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the closest point on mesh, transformed by xf if it is given Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a></code> named <code>proj</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the closest point on mesh, transformed by xf if it is given Returns a pointer to a member variable of class <code>MR::MeshProjectionResult</code> named <code>proj</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1022,7 +1022,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>squared distance from original projected point to proj Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a></code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>squared distance from original projected point to proj Returns a mutable pointer to a member variable of class <code>MR::MeshProjectionResult</code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1040,7 +1040,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>its barycentric representation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a></code> named <code>mtp</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>its barycentric representation Returns a mutable pointer to a member variable of class <code>MR::MeshProjectionResult</code> named <code>mtp</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1058,7 +1058,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the closest point on mesh, transformed by xf if it is given Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a></code> named <code>proj</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the closest point on mesh, transformed by xf if it is given Returns a mutable pointer to a member variable of class <code>MR::MeshProjectionResult</code> named <code>proj</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1124,7 +1124,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>squared distance from original projected point to proj Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a></code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>distSq</code>. </p>
+<p>squared distance from original projected point to proj Modifies a member variable of class <code>MR::MeshProjectionResult</code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>distSq</code>. </p>
 
 </div>
 </div>
@@ -1146,7 +1146,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>its barycentric representation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a></code> named <code>mtp</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>mtp</code>. When this function is called, this object will drop object references it had previously in <code>mtp</code>. </p>
+<p>its barycentric representation Modifies a member variable of class <code>MR::MeshProjectionResult</code> named <code>mtp</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>mtp</code>. When this function is called, this object will drop object references it had previously in <code>mtp</code>. </p>
 
 </div>
 </div>
@@ -1168,7 +1168,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the closest point on mesh, transformed by xf if it is given Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a></code> named <code>proj</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>proj</code>. When this function is called, this object will drop object references it had previously in <code>proj</code>. </p>
+<p>the closest point on mesh, transformed by xf if it is given Modifies a member variable of class <code>MR::MeshProjectionResult</code> named <code>proj</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>proj</code>. When this function is called, this object will drop object references it had previously in <code>proj</code>. </p>
 
 </div>
 </div>
@@ -1186,7 +1186,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>check for validity, otherwise the projection was not found Generated from method <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionResult.html#aad2307485f017b773541d0466cc30e9f">MR::MeshProjectionResult::valid</a></code>. Parameter <code>_this</code> can not be null. It is a single object. this xf is applied to point to move it into projection space Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionTransforms.html">MR::MeshProjectionTransforms</a></code> named <code>rigidXfPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>check for validity, otherwise the projection was not found Generated from method <code>MR::MeshProjectionResult::valid</code>. Parameter <code>_this</code> can not be null. It is a single object. this xf is applied to point to move it into projection space Returns a pointer to a member variable of class <code>MR::MeshProjectionTransforms</code> named <code>rigidXfPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1230,7 +1230,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionTransforms.html">MR::MeshProjectionTransforms</a></code> elementwise. The reference to the parameter <code>rigidXfPoint</code> might be preserved in the constructed object. The reference to the parameter <code>nonRigidXfTree</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a57de8d8e23e1bd0bf230640ec1341fbe" title="Destroys a heap-allocated instance of MR_MeshProjectionTransforms. Does nothing if the pointer is nul...">MR_MeshProjectionTransforms_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::MeshProjectionTransforms</code> elementwise. The reference to the parameter <code>rigidXfPoint</code> might be preserved in the constructed object. The reference to the parameter <code>nonRigidXfTree</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a57de8d8e23e1bd0bf230640ec1341fbe" title="Destroys a heap-allocated instance of MR_MeshProjectionTransforms. Does nothing if the pointer is nul...">MR_MeshProjectionTransforms_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -1248,7 +1248,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1MeshProjectionTransforms.html#a2cbf72c55d1022d7cd6d70b760c80186">MR::MeshProjectionTransforms::MeshProjectionTransforms</a></code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a57de8d8e23e1bd0bf230640ec1341fbe" title="Destroys a heap-allocated instance of MR_MeshProjectionTransforms. Does nothing if the pointer is nul...">MR_MeshProjectionTransforms_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::MeshProjectionTransforms::MeshProjectionTransforms</code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a57de8d8e23e1bd0bf230640ec1341fbe" title="Destroys a heap-allocated instance of MR_MeshProjectionTransforms. Does nothing if the pointer is nul...">MR_MeshProjectionTransforms_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1340,7 +1340,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this xf is applied to AABB tree to move it into projection space Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionTransforms.html">MR::MeshProjectionTransforms</a></code> named <code>nonRigidXfTree</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>nonRigidXfTree</code>. When this function is called, this object will drop object references it had previously in <code>nonRigidXfTree</code>. </p>
+<p>this xf is applied to AABB tree to move it into projection space Modifies a member variable of class <code>MR::MeshProjectionTransforms</code> named <code>nonRigidXfTree</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>nonRigidXfTree</code>. When this function is called, this object will drop object references it had previously in <code>nonRigidXfTree</code>. </p>
 
 </div>
 </div>
@@ -1358,7 +1358,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this xf is applied to point to move it into projection space Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionTransforms.html">MR::MeshProjectionTransforms</a></code> named <code>rigidXfPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>rigidXfPoint</code>. When this function is called, this object will drop object references it had previously in <code>rigidXfPoint</code>. </p>
+<p>this xf is applied to point to move it into projection space Modifies a member variable of class <code>MR::MeshProjectionTransforms</code> named <code>rigidXfPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>rigidXfPoint</code>. When this function is called, this object will drop object references it had previously in <code>rigidXfPoint</code>. </p>
 
 </div>
 </div>
@@ -1393,7 +1393,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this xf is applied to AABB tree to move it into projection space Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionTransforms.html">MR::MeshProjectionTransforms</a></code> named <code>nonRigidXfTree</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this xf is applied to AABB tree to move it into projection space Returns a pointer to a member variable of class <code>MR::MeshProjectionTransforms</code> named <code>nonRigidXfTree</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1459,7 +1459,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this xf is applied to AABB tree to move it into projection space Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionTransforms.html">MR::MeshProjectionTransforms</a></code> named <code>nonRigidXfTree</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this xf is applied to AABB tree to move it into projection space Returns a mutable pointer to a member variable of class <code>MR::MeshProjectionTransforms</code> named <code>nonRigidXfTree</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1481,7 +1481,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this xf is applied to point to move it into projection space Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshProjectionTransforms.html">MR::MeshProjectionTransforms</a></code> named <code>rigidXfPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this xf is applied to point to move it into projection space Returns a mutable pointer to a member variable of class <code>MR::MeshProjectionTransforms</code> named <code>rigidXfPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1530,7 +1530,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></code> elementwise. Parameter <code>proj</code> can not be null. It is a single object. The reference to the parameter <code>proj</code> might be preserved in the constructed object. Parameter <code>mtp</code> can not be null. It is a single object. The reference to the parameter <code>mtp</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a8dca0842b83ea36055e9e7d0d828d257" title="Destroys a heap-allocated instance of MR_SignedDistanceToMeshResult. Does nothing if the pointer is n...">MR_SignedDistanceToMeshResult_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::SignedDistanceToMeshResult</code> elementwise. Parameter <code>proj</code> can not be null. It is a single object. The reference to the parameter <code>proj</code> might be preserved in the constructed object. Parameter <code>mtp</code> can not be null. It is a single object. The reference to the parameter <code>mtp</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a8dca0842b83ea36055e9e7d0d828d257" title="Destroys a heap-allocated instance of MR_SignedDistanceToMeshResult. Does nothing if the pointer is n...">MR_SignedDistanceToMeshResult_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -1548,7 +1548,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1SignedDistanceToMeshResult.html#aacf2869100ab7d211214e6934e6c48fc">MR::SignedDistanceToMeshResult::SignedDistanceToMeshResult</a></code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a8dca0842b83ea36055e9e7d0d828d257" title="Destroys a heap-allocated instance of MR_SignedDistanceToMeshResult. Does nothing if the pointer is n...">MR_SignedDistanceToMeshResult_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::SignedDistanceToMeshResult::SignedDistanceToMeshResult</code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a8dca0842b83ea36055e9e7d0d828d257" title="Destroys a heap-allocated instance of MR_SignedDistanceToMeshResult. Does nothing if the pointer is n...">MR_SignedDistanceToMeshResult_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1640,7 +1640,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>distance from pt to proj (positive - outside, negative - inside the mesh) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>distance from pt to proj (positive - outside, negative - inside the mesh) Returns a pointer to a member variable of class <code>MR::SignedDistanceToMeshResult</code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1658,7 +1658,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>its barycentric representation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></code> named <code>mtp</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>its barycentric representation Returns a pointer to a member variable of class <code>MR::SignedDistanceToMeshResult</code> named <code>mtp</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1676,7 +1676,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the closest point on mesh Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></code> named <code>proj</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the closest point on mesh Returns a pointer to a member variable of class <code>MR::SignedDistanceToMeshResult</code> named <code>proj</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1694,7 +1694,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>distance from pt to proj (positive - outside, negative - inside the mesh) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>distance from pt to proj (positive - outside, negative - inside the mesh) Returns a mutable pointer to a member variable of class <code>MR::SignedDistanceToMeshResult</code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1712,7 +1712,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>its barycentric representation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></code> named <code>mtp</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>its barycentric representation Returns a mutable pointer to a member variable of class <code>MR::SignedDistanceToMeshResult</code> named <code>mtp</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1730,7 +1730,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the closest point on mesh Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></code> named <code>proj</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the closest point on mesh Returns a mutable pointer to a member variable of class <code>MR::SignedDistanceToMeshResult</code> named <code>proj</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1796,7 +1796,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>distance from pt to proj (positive - outside, negative - inside the mesh) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>dist</code>. </p>
+<p>distance from pt to proj (positive - outside, negative - inside the mesh) Modifies a member variable of class <code>MR::SignedDistanceToMeshResult</code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>dist</code>. </p>
 
 </div>
 </div>
@@ -1818,7 +1818,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>its barycentric representation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></code> named <code>mtp</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>mtp</code>. When this function is called, this object will drop object references it had previously in <code>mtp</code>. </p>
+<p>its barycentric representation Modifies a member variable of class <code>MR::SignedDistanceToMeshResult</code> named <code>mtp</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>mtp</code>. When this function is called, this object will drop object references it had previously in <code>mtp</code>. </p>
 
 </div>
 </div>
@@ -1840,7 +1840,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the closest point on mesh Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></code> named <code>proj</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>proj</code>. When this function is called, this object will drop object references it had previously in <code>proj</code>. </p>
+<p>the closest point on mesh Modifies a member variable of class <code>MR::SignedDistanceToMeshResult</code> named <code>proj</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>proj</code>. When this function is called, this object will drop object references it had previously in <code>proj</code>. </p>
 
 </div>
 </div>

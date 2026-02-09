@@ -1,5 +1,9 @@
 var MRMeshComponents_8h =
 [
+    [ "FaceIncidence", "MRMeshComponents_8h.html#ga7489c91178e90fdd4200bbb0074e025f", [
+      [ "PerEdge", "MRMeshComponents_8h.html#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc", null ],
+      [ "PerVertex", "MRMeshComponents_8h.html#gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c", null ]
+    ] ],
     [ "excludeFullySelectedComponents", "MRMeshComponents_8h.html#gad556a5b5ed5f6001f378455d5b5a822c", null ],
     [ "expandToComponents", "MRMeshComponents_8h.html#gaf0219dbc9312e96572e354d4a8ef45c5", null ],
     [ "getAllComponents", "MRMeshComponents_8h.html#ga180f187a1a42a74bc04780f4108b79f0", null ],

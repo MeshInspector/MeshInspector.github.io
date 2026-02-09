@@ -1,6 +1,6 @@
 var MRSystem_8h =
 [
-    [ "MR::SystemMemory", "../Csharp/classMR_1_1SystemMemory.html", "classMR_1_1SystemMemory" ],
+    [ "MR::SystemMemory", "structMR_1_1SystemMemory.html", "structMR_1_1SystemMemory" ],
     [ "GetCpuId", "MRSystem_8h.html#a7b5e5990972490ea4d3803ccca1b3757", null ],
     [ "getCurrentStacktrace", "MRSystem_8h.html#a69dd7a0499b29eb5608d05713b8feb72", null ],
     [ "GetDetailedOSName", "MRSystem_8h.html#a7d7ea607c1d62759b1a6d09f3b68c78f", null ],

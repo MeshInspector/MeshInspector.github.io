@@ -1,5 +1,7 @@
 var classMR_1_1Features_1_1Primitives =
 [
-    [ "Sphere", "../Cpp/namespaceMR_1_1Features_1_1Primitives.html#a37df2f34cbcd3fec213859b3ca57d3b6", null ],
-    [ "Variant", "../Cpp/namespaceMR_1_1Features_1_1Primitives.html#a955a7f843d9b5df0f393ec7699ada624", null ]
+    [ "ConeSegment", "classMR_1_1Features_1_1Primitives_1_1ConeSegment.html", "classMR_1_1Features_1_1Primitives_1_1ConeSegment" ],
+    [ "Const_ConeSegment", "classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment.html", "classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment" ],
+    [ "Const_Plane", "classMR_1_1Features_1_1Primitives_1_1Const__Plane.html", "classMR_1_1Features_1_1Primitives_1_1Const__Plane" ],
+    [ "Plane", "classMR_1_1Features_1_1Primitives_1_1Plane.html", "classMR_1_1Features_1_1Primitives_1_1Plane" ]
 ];

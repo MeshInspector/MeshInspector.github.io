@@ -1,7 +1,9 @@
 var classMR_1_1PointsLoad =
 [
-    [ "PointsFileLoader", "../Cpp/namespaceMR_1_1PointsLoad.html#acaeabf1d4cced15a0961b626a6e9b868", null ],
-    [ "PointsStreamLoader", "../Cpp/namespaceMR_1_1PointsLoad.html#a0f81139db68679c906d09ff033071478", null ],
+    [ "Const_E57LoadSettings", "classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html", "classMR_1_1PointsLoad_1_1Const__E57LoadSettings" ],
+    [ "Const_NamedCloud", "classMR_1_1PointsLoad_1_1Const__NamedCloud.html", "classMR_1_1PointsLoad_1_1Const__NamedCloud" ],
+    [ "E57LoadSettings", "classMR_1_1PointsLoad_1_1E57LoadSettings.html", "classMR_1_1PointsLoad_1_1E57LoadSettings" ],
+    [ "NamedCloud", "classMR_1_1PointsLoad_1_1NamedCloud.html", "classMR_1_1PointsLoad_1_1NamedCloud" ],
     [ "fromAnySupportedFormat", "classMR_1_1PointsLoad.html#ad3f6f9aefe03d5c1313483f26d459790", null ],
     [ "fromAnySupportedFormat", "classMR_1_1PointsLoad.html#a807e0acdc6797b2e9278c2612d13be55", null ],
     [ "fromCtm", "classMR_1_1PointsLoad.html#a44b48011a7c016b4d451251954b6e56b", null ],

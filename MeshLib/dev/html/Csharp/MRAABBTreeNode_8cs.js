@@ -16,5 +16,5 @@ var MRAABBTreeNode_8cs =
     [ "MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f" ],
     [ "MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", "classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f" ],
     [ "MR.Const_NodeNode", "classMR_1_1Const__NodeNode.html", "classMR_1_1Const__NodeNode" ],
-    [ "MR.NodeNode", "../Cpp/structMR_1_1NodeNode.html", "structMR_1_1NodeNode" ]
+    [ "MR.NodeNode", "classMR_1_1NodeNode.html", "classMR_1_1NodeNode" ]
 ];

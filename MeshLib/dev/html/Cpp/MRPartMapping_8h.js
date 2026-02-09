@@ -1,4 +1,4 @@
 var MRPartMapping_8h =
 [
-    [ "MR::PartMapping", "../Csharp/classMR_1_1PartMapping.html", "classMR_1_1PartMapping" ]
+    [ "MR::PartMapping", "structMR_1_1PartMapping.html", "structMR_1_1PartMapping" ]
 ];

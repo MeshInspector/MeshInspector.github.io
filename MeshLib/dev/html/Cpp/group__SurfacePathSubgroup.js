@@ -1,25 +1,15 @@
 var group__SurfacePathSubgroup =
 [
-    [ "MR::GeodesicPath", "../Csharp/classMR_1_1GeodesicPath.html", [
-      [ "GeodesicPath", "../Csharp/classMR_1_1GeodesicPath.html#a1041cebba080b5c874e56aabda054194", null ],
-      [ "GeodesicPath", "../Csharp/classMR_1_1GeodesicPath.html#a91341dc06e908c798b1a186af909b4b2", null ],
-      [ "GeodesicPath", "../Csharp/classMR_1_1GeodesicPath.html#acdac904ecb17710f716d4b2e6086c9bb", null ],
-      [ "GeodesicPath", "../Csharp/classMR_1_1GeodesicPath.html#ac174e2aee8c5fbe146290d7b8222793c", null ],
-      [ "GeodesicPath", "../Csharp/classMR_1_1GeodesicPath.html#a590e5d350f6100b00c485b51e88317c3", null ],
-      [ "assign", "../Csharp/classMR_1_1GeodesicPath.html#a523306eded154eccf3a6acdf42748c30", null ],
-      [ "end", "../Csharp/classMR_1_1GeodesicPath.html#a24c60fe0fdea7c33b4126cdd99c021d3", null ],
-      [ "mids", "../Csharp/classMR_1_1GeodesicPath.html#a6a22753fc20ff717f9e3e3fa43eec994", null ],
-      [ "start", "../Csharp/classMR_1_1GeodesicPath.html#af400498025204fdb1e2c0093e498c86d", null ]
+    [ "MR::GeodesicPath", "structMR_1_1GeodesicPath.html", [
+      [ "numVertices", "structMR_1_1GeodesicPath.html#a500cd0125a04fdafa54081b9392409e4", null ],
+      [ "end", "structMR_1_1GeodesicPath.html#a8890c95d8a90898ea2d0898884bfa474", null ],
+      [ "mids", "structMR_1_1GeodesicPath.html#af134007969afd8d9e0854c05ab72e99b", null ],
+      [ "start", "structMR_1_1GeodesicPath.html#a0a5eaad44164e2e97b2ce0685dc1a53d", null ]
     ] ],
-    [ "MR::ComputeSteepestDescentPathSettings", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html", [
-      [ "ComputeSteepestDescentPathSettings", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a5d5816d5186fe8a08a9af93f7abbbba0", null ],
-      [ "ComputeSteepestDescentPathSettings", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a4a1de14562cfe2b35b795a50494c9085", null ],
-      [ "ComputeSteepestDescentPathSettings", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a039f7bda688ad753304a770f3fb7cd19", null ],
-      [ "ComputeSteepestDescentPathSettings", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a82fb9636b5a37b8c2bdafb56e7ab8278", null ],
-      [ "assign", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a2e4c7f9581f7207ac3e7474204a10ed9", null ],
-      [ "end", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#ae1872ce5a1f0dd2786cbfcc07e5e198f", null ],
-      [ "outBdReached", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a9beb76581163776c677e35398b266735", null ],
-      [ "outVertexReached", "../Csharp/classMR_1_1ComputeSteepestDescentPathSettings.html#a26028f8f71feb1405babba377b2ce09b", null ]
+    [ "MR::ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", [
+      [ "end", "structMR_1_1ComputeSteepestDescentPathSettings.html#a9c5b63e96c36543a3af9203630d6325c", null ],
+      [ "outBdReached", "structMR_1_1ComputeSteepestDescentPathSettings.html#a133dd657607eb8f8e2745935031c0ed0", null ],
+      [ "outVertexReached", "structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f", null ]
     ] ],
     [ "MR::ExtremeEdgeType", "group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6", [
       [ "MR::ExtremeEdgeType::Ridge", "group__SurfacePathSubgroup.html#gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a", null ],

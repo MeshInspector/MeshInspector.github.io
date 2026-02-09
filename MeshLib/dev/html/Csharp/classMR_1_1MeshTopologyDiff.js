@@ -1,8 +1,10 @@
 var classMR_1_1MeshTopologyDiff =
 [
-    [ "MeshTopologyDiff", "../Cpp/classMR_1_1MeshTopologyDiff.html#af1195b4bb18db9e8ca21e92db9139406", null ],
-    [ "MeshTopologyDiff", "../Cpp/classMR_1_1MeshTopologyDiff.html#a124d70218b979697c0fa67ce32b07c56", null ],
-    [ "any", "../Cpp/classMR_1_1MeshTopologyDiff.html#aeb15ef52dc9593c97da084a462456e23", null ],
-    [ "applyAndSwap", "../Cpp/classMR_1_1MeshTopologyDiff.html#aad4c78043b91fd4835e71c4d2a281a95", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1MeshTopologyDiff.html#a743e293604e551a32e96aba9e63cb091", null ]
+    [ "MeshTopologyDiff", "classMR_1_1MeshTopologyDiff.html#ab7d110cf7a7464a4d6b8531bdf6b7c0d", null ],
+    [ "MeshTopologyDiff", "classMR_1_1MeshTopologyDiff.html#a60eb9ab95581ed9a56c7a101a7452acc", null ],
+    [ "MeshTopologyDiff", "classMR_1_1MeshTopologyDiff.html#a59ae6db07219b6d34220471e3c0a1a76", null ],
+    [ "MeshTopologyDiff", "classMR_1_1MeshTopologyDiff.html#a4493b1ce9c4de8d9a61ba58c34b69627", null ],
+    [ "MeshTopologyDiff", "classMR_1_1MeshTopologyDiff.html#a0e0d8a6b74921f3194d166c4bd05e849", null ],
+    [ "applyAndSwap", "classMR_1_1MeshTopologyDiff.html#a6e3b1493bfaaae3d2627bf665217722b", null ],
+    [ "assign", "classMR_1_1MeshTopologyDiff.html#a326568e5c4c2cb80780c099d3b86ee66", null ]
 ];

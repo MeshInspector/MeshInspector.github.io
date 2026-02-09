@@ -377,7 +377,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>deletes all region faces, inner edges and vertices, but keeps boundary edges and vertices of the region (or whole mesh if region is null); if <code>keepLoneHoles</code> is set - keeps boundary even if it has no valid faces on other side returns edge loops, each having deleted region faces on the left, and not-region faces or holes on the right Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#adacfce1ed3976c8879c40d3eb35423cf">MR::delRegionKeepBd</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Parameter <code>keepLoneHoles</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
+<p>deletes all region faces, inner edges and vertices, but keeps boundary edges and vertices of the region (or whole mesh if region is null); if <code>keepLoneHoles</code> is set - keeps boundary even if it has no valid faces on other side returns edge loops, each having deleted region faces on the left, and not-region faces or holes on the right Generated from function <code>MR::delRegionKeepBd</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Parameter <code>keepLoneHoles</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -406,7 +406,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>tracks are returns all closed loops of edges from the given bit set; if at some reached vertex there are two or more edges originate with set bits in (edges), the path selects the leftmost or the rightmost option depending on</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">turn;</td><td>the bits corresponding to loops are reset in (edges), and to remaining not-closed paths are kept Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6b0c6bd48617b081f8c4e35ca00e873a">MR::extractAllLoops</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">turn;</td><td>the bits corresponding to loops are reset in (edges), and to remaining not-closed paths are kept Generated from function <code>MR::extractAllLoops</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -449,7 +449,7 @@ Functions</h2></td></tr>
 <p>track the path of edges with set bits in (edges) starting from (e0); </p><dl class="section return"><dt>Returns</dt><dd>the last edge of the path or invalid edge if e0's bit in (edge) was reset; if at some reached vertex there are two or more edges originate with set bits in (edges), the path selects the leftmost or the rightmost option depending on</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">turn;</td><td>the bits in (edges) for tracked path edges are reset Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a646cb17e45dd4e0d253cd4bb3780c8d1">MR::extractPath</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. </td></tr>
+    <tr><td class="paramname">turn;</td><td>the bits in (edges) for tracked path edges are reset Generated from function <code>MR::extractPath</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>
@@ -481,7 +481,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>returns all edges (e) for which topology.isLeftBdEdge( e, region ) is true; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">innerMeshEdgesOnly</td><td>if true then edges with no right face are excluded Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7f3c7f8578e17b8c8dba8eb34d687df9">MR::findAllLeftBdEdges</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>innerMeshEdgesOnly</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a9c02438faafb5b467654055dff8238ac" title="Destroys a heap-allocated instance of MR_EdgeBitSet. Does nothing if the pointer is null.">MR_EdgeBitSet_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">innerMeshEdgesOnly</td><td>if true then edges with no right face are excluded Generated from function <code>MR::findAllLeftBdEdges</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>innerMeshEdgesOnly</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a9c02438faafb5b467654055dff8238ac" title="Destroys a heap-allocated instance of MR_EdgeBitSet. Does nothing if the pointer is null.">MR_EdgeBitSet_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -506,7 +506,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all region boundary loops; every loop has region faces on the left, and not-region faces or holes on the right Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1fc4b7cc580d42260b45c0af3ff2fd12">MR::findLeftBoundary</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
+<p>returns all region boundary loops; every loop has region faces on the left, and not-region faces or holes on the right Generated from function <code>MR::findLeftBoundary</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -528,7 +528,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all region boundary paths; every path has region faces on the left, and valid not-region faces on the right Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae00243e83bb9017aa03fcb42bd7f524d">MR::findLeftBoundaryInsideMesh</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
+<p>returns all region boundary paths; every path has region faces on the left, and valid not-region faces on the right Generated from function <code>MR::findLeftBoundaryInsideMesh</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -550,7 +550,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all region boundary edges, where each edge has a region face on one side, and a valid not-region face on another side Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#acb8bc789d5f982acca80ec85c34cfca6">MR::findRegionBoundaryUndirectedEdgesInsideMesh</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns all region boundary edges, where each edge has a region face on one side, and a valid not-region face on another side Generated from function <code>MR::findRegionBoundaryUndirectedEdgesInsideMesh</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -572,7 +572,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>All out of region faces that have a common edge with at least one region face Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab80626">MR::findRegionOuterFaces</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>All out of region faces that have a common edge with at least one region face Generated from function <code>MR::findRegionOuterFaces</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -594,7 +594,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all region boundary loops; every loop has region faces on the right, and not-region faces or holes on the left Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a25514d4f7efbcece3bf2daa5fa1bff62">MR::findRightBoundary</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
+<p>returns all region boundary loops; every loop has region faces on the right, and not-region faces or holes on the left Generated from function <code>MR::findRightBoundary</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -616,7 +616,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>composes the set of all boundary vertices for given region (or whole mesh if !region) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2ea3516bc5bd31a954ef5cea5edd4ae5">MR::getBoundaryVerts</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>composes the set of all boundary vertices for given region (or whole mesh if !region) Generated from function <code>MR::getBoundaryVerts</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -638,7 +638,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>composes the set of all undirected edges, having a face from given set from one of two sides Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a917717848776c5bef68005e7fbdf24ff">MR::getIncidentEdges</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>faces</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>composes the set of all undirected edges, having a face from given set from one of two sides Generated from function <code>MR::getIncidentEdges</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>faces</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -660,7 +660,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>composes the set of all undirected edges, having at least one common vertex with an edge from given set Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a917717848776c5bef68005e7fbdf24ff">MR::getIncidentEdges</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>composes the set of all undirected edges, having at least one common vertex with an edge from given set Generated from function <code>MR::getIncidentEdges</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -682,7 +682,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>composes the set of all faces incident to given edges Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1c01820370782b8d802d74ce6d038985">MR::getIncidentFaces</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>composes the set of all faces incident to given edges Generated from function <code>MR::getIncidentFaces</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -704,7 +704,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>composes the set of all faces incident to given vertices Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1c01820370782b8d802d74ce6d038985">MR::getIncidentFaces</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>composes the set of all faces incident to given vertices Generated from function <code>MR::getIncidentFaces</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -726,7 +726,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>composes the set of all vertices incident to given faces Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a42bfb820a74ca491a32df3c3c86c8053">MR::getIncidentVerts</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>faces</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>composes the set of all vertices incident to given faces Generated from function <code>MR::getIncidentVerts</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>faces</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -748,7 +748,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>composes the set of all vertices incident to given edges Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a42bfb820a74ca491a32df3c3c86c8053">MR::getIncidentVerts</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>composes the set of all vertices incident to given edges Generated from function <code>MR::getIncidentVerts</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -775,7 +775,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if faces-parameter is null pointer then simply returns the reference on all valid vertices; otherwise performs store = getIncidentVerts( topology, *faces ) and returns reference on store Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a42bfb820a74ca491a32df3c3c86c8053">MR::getIncidentVerts</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>store</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if faces-parameter is null pointer then simply returns the reference on all valid vertices; otherwise performs store = getIncidentVerts( topology, *faces ) and returns reference on store Generated from function <code>MR::getIncidentVerts</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>store</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -802,7 +802,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if edges-parameter is null pointer then simply returns the reference on all valid vertices; otherwise performs store = getIncidentVerts( topology, *edges ) and returns reference on store Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a42bfb820a74ca491a32df3c3c86c8053">MR::getIncidentVerts</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>store</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if edges-parameter is null pointer then simply returns the reference on all valid vertices; otherwise performs store = getIncidentVerts( topology, *edges ) and returns reference on store Generated from function <code>MR::getIncidentVerts</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>store</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -824,7 +824,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>composes the set of all edges having both left and right in given region Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#afadfa7c61c73e9a699449d9a2828496d">MR::getInnerEdges</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>composes the set of all edges having both left and right in given region Generated from function <code>MR::getInnerEdges</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -846,7 +846,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>composes the set of all edges with all their vertices in given set Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#afadfa7c61c73e9a699449d9a2828496d">MR::getInnerEdges</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>composes the set of all edges with all their vertices in given set Generated from function <code>MR::getInnerEdges</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -868,7 +868,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>composes the set of all faces with all their vertices in given set Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a4d3bc72716887b5d9dfa102464142635">MR::getInnerFaces</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>composes the set of all faces with all their vertices in given set Generated from function <code>MR::getInnerFaces</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -890,7 +890,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>composes the set of all vertices not on the boundary of a hole and with all their adjacent faces in given set Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aac11bef9a8e5379d5e2c001e26299317">MR::getInnerVerts</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>composes the set of all vertices not on the boundary of a hole and with all their adjacent faces in given set Generated from function <code>MR::getInnerVerts</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -912,7 +912,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>composes the set of all vertices with all their edges in given set Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aac11bef9a8e5379d5e2c001e26299317">MR::getInnerVerts</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>composes the set of all vertices with all their edges in given set Generated from function <code>MR::getInnerVerts</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -934,7 +934,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>composes the set of all left and right faces of given edges Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aebdf2a05f88c6e14134e0029a8aa0cda">MR::getNeighborFaces</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>composes the set of all left and right faces of given edges Generated from function <code>MR::getNeighborFaces</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -956,7 +956,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>composes the set of all boundary vertices for given region, unlike getBoundaryVerts the vertices of mesh boundary having no incident not-region faces are not returned Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a00473b872f5242451db75ba1ba87b378">MR::getRegionBoundaryVerts</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>composes the set of all boundary vertices for given region, unlike getBoundaryVerts the vertices of mesh boundary having no incident not-region faces are not returned Generated from function <code>MR::getRegionBoundaryVerts</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -978,7 +978,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>composes the set of all edges, having a face from given set at the left Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ad236300492a56bcb9401d780f9a30acf">MR::getRegionEdges</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>faces</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a9c02438faafb5b467654055dff8238ac" title="Destroys a heap-allocated instance of MR_EdgeBitSet. Does nothing if the pointer is null.">MR_EdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>composes the set of all edges, having a face from given set at the left Generated from function <code>MR::getRegionEdges</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>faces</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a9c02438faafb5b467654055dff8238ac" title="Destroys a heap-allocated instance of MR_EdgeBitSet. Does nothing if the pointer is null.">MR_EdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1005,7 +1005,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns closed loop of region boundary starting from given region boundary edge (region faces on the left, and not-region faces or holes on the right); if more than two boundary edges connect in one vertex, then the function makes the most abrupt turn to right Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a0deb53e0a4ba2c6305e86e1874919f11">MR::trackLeftBoundaryLoop</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
+<p>returns closed loop of region boundary starting from given region boundary edge (region faces on the left, and not-region faces or holes on the right); if more than two boundary edges connect in one vertex, then the function makes the most abrupt turn to right Generated from function <code>MR::trackLeftBoundaryLoop</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1032,7 +1032,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a0deb53e0a4ba2c6305e86e1874919f11">MR::trackLeftBoundaryLoop</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
+<p>Generated from function <code>MR::trackLeftBoundaryLoop</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1059,7 +1059,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns closed loop of region boundary starting from given region boundary edge (region faces on the right, and not-region faces or holes on the left); if more than two boundary edges connect in one vertex, then the function makes the most abrupt turn to left Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a10723dc5e9c17648ce207691c6c0f547">MR::trackRightBoundaryLoop</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
+<p>returns closed loop of region boundary starting from given region boundary edge (region faces on the right, and not-region faces or holes on the left); if more than two boundary edges connect in one vertex, then the function makes the most abrupt turn to left Generated from function <code>MR::trackRightBoundaryLoop</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1086,7 +1086,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a10723dc5e9c17648ce207691c6c0f547">MR::trackRightBoundaryLoop</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
+<p>Generated from function <code>MR::trackRightBoundaryLoop</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>

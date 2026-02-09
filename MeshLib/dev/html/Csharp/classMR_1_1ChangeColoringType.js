@@ -1,10 +1,12 @@
 var classMR_1_1ChangeColoringType =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangeColoringType.html#a35b932ef1ea3756de261b79a1a7a7677", null ],
-    [ "ChangeColoringType", "../Cpp/classMR_1_1ChangeColoringType.html#a6129a4154bb8fde03e2dfc8d0e310ad2", null ],
-    [ "ChangeColoringType", "../Cpp/classMR_1_1ChangeColoringType.html#a5926f12f23460add64c9ab4b0859f90b", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeColoringType.html#ae42944016a4f6dd2c76e964cfb353bf4", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeColoringType.html#a4c9d248392f35a9e929ab4dd107ff7d2", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeColoringType.html#a531d559082c32567d685d888d4602ddf", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangeColoringType.html#a358cd953d6e5dc8ea2ed1448a1bf7075", null ]
+    [ "ChangeColoringType", "classMR_1_1ChangeColoringType.html#a981d74a6efd4a31b38bacbf13612a218", null ],
+    [ "ChangeColoringType", "classMR_1_1ChangeColoringType.html#a4ec72b7f00f5dfdbe9694b54ca57e7a0", null ],
+    [ "ChangeColoringType", "classMR_1_1ChangeColoringType.html#a6899fdff124634006731b0fc70640a3c", null ],
+    [ "ChangeColoringType", "classMR_1_1ChangeColoringType.html#a5cc1fdcc39882fa6a5ced4e1d0c20c16", null ],
+    [ "ChangeColoringType", "classMR_1_1ChangeColoringType.html#aa72dc4a8619ca9ea158b1c835f875312", null ],
+    [ "action", "classMR_1_1ChangeColoringType.html#a441dd3921cf7fd0bbdc79f29ab37d119", null ],
+    [ "assign", "classMR_1_1ChangeColoringType.html#affc2b2dced5724b57e47a053bcdb4051", null ],
+    [ "operator ChangeColoringType?", "classMR_1_1ChangeColoringType.html#aca989366da3cb421809318d20efa4d52", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeColoringType.html#a9ed92f751b785e8c76dcd52b29aab8a1", null ]
 ];

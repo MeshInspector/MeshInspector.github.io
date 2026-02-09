@@ -1,11 +1,13 @@
 var classMR_1_1CombinedHistoryAction =
 [
-    [ "CombinedHistoryAction", "../Cpp/classMR_1_1CombinedHistoryAction.html#afca8a41417b4242303d650c7996ef7f4", null ],
-    [ "action", "../Cpp/classMR_1_1CombinedHistoryAction.html#a8f6b646cd5256ca2f6cfdafba7db5d07", null ],
-    [ "empty", "../Cpp/classMR_1_1CombinedHistoryAction.html#a24336720e6ef2e49fe759978a653cd93", null ],
-    [ "filter", "../Cpp/classMR_1_1CombinedHistoryAction.html#a25f7969b5daf7f81d5dc52abce1f5850", null ],
-    [ "getStack", "../Cpp/classMR_1_1CombinedHistoryAction.html#aa47d5898040fc2ee2c67bf0ffee6176c", null ],
-    [ "getStack", "../Cpp/classMR_1_1CombinedHistoryAction.html#a304820a24e74e6c61b31a203e017bc48", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1CombinedHistoryAction.html#adba474c4514ebf52c64eb24ed5b104a1", null ],
-    [ "name", "../Cpp/classMR_1_1CombinedHistoryAction.html#a59961c77016991a1c41b6f0c34545ee6", null ]
+    [ "CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html#a700a0fa9718ca688df2b3ab52dae6824", null ],
+    [ "CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html#a2c7d0e924364b90b431fd3ab200657aa", null ],
+    [ "CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html#a021de2ac1529160ed4f49e1d82e581ca", null ],
+    [ "CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html#aee0c2b74bb5b1590616ea67a38a34884", null ],
+    [ "action", "classMR_1_1CombinedHistoryAction.html#ace723fe0552e381f472a4cafa459a886", null ],
+    [ "assign", "classMR_1_1CombinedHistoryAction.html#a2f2013983c21cff27e1c97f5bc39374c", null ],
+    [ "filter", "classMR_1_1CombinedHistoryAction.html#a7198d283a3b62d0fbafe42a05443108f", null ],
+    [ "getStack", "classMR_1_1CombinedHistoryAction.html#a85b30407745962bc5a2675fb77325ef9", null ],
+    [ "operator CombinedHistoryAction?", "classMR_1_1CombinedHistoryAction.html#a2938f49edeee08cfe10804d89af8d3f9", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1CombinedHistoryAction.html#a0d3a6d4cefc8d1d0490713cf45ecfbd5", null ]
 ];

@@ -1,9 +1,7 @@
 var classMR_1_1PlaneAccumulator =
 [
-    [ "PlaneAccumulator", "../Csharp/classMR_1_1PlaneAccumulator.html#aeb8fdb0c950bf55a9131635c4e8f1b76", null ],
-    [ "PlaneAccumulator", "../Csharp/classMR_1_1PlaneAccumulator.html#a5dfbf2eff6134d62793fb71cc4a98ea1", null ],
-    [ "PlaneAccumulator", "../Csharp/classMR_1_1PlaneAccumulator.html#a3890e5e1ba667995733f33fee6a4f729", null ],
-    [ "addPlane", "../Csharp/classMR_1_1PlaneAccumulator.html#ab8cbac71d094d76975e6019ffcbf88bd", null ],
-    [ "addPlane", "../Csharp/classMR_1_1PlaneAccumulator.html#ab708ec3c378d3d44f0b4636ce803765a", null ],
-    [ "assign", "../Csharp/classMR_1_1PlaneAccumulator.html#a8757cbb760594c7f17993d3822069e73", null ]
+    [ "addPlane", "classMR_1_1PlaneAccumulator.html#a561b80488532ac9db2b78daf77f60124", null ],
+    [ "addPlane", "classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6", null ],
+    [ "findBestCrossPoint", "classMR_1_1PlaneAccumulator.html#af8c3f7e07324810201d7e42c25d77fb3", null ],
+    [ "findBestCrossPoint", "classMR_1_1PlaneAccumulator.html#a0255552e85ddcbc57932a70e4eabbb28", null ]
 ];

@@ -1,6 +1,5 @@
 var classMR_1_1DentalId =
 [
-    [ "DentalId", "../Csharp/classMR_1_1DentalId.html#aca22899cb003a1846667491d9f34df6b", null ],
-    [ "DentalId", "../Csharp/classMR_1_1DentalId.html#a99aa357d14f15b07c0d7285b81f686e8", null ],
-    [ "assign", "../Csharp/classMR_1_1DentalId.html#ab87c6e44f95f2235ccc9eb6ca079fcd1", null ]
+    [ "fdi", "classMR_1_1DentalId.html#ac1858ebe9d631ac97732981502ccc423", null ],
+    [ "operator<=>", "classMR_1_1DentalId.html#a413835c53825417d3814e4320110741f", null ]
 ];

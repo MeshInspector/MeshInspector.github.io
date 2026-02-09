@@ -149,6 +149,8 @@ $(function(){initNavTree('MRUnits_8h.html',''); initResizable(true); });
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRUnits.h File Reference</div></div>
 </div><!--header-->
@@ -202,6 +204,33 @@ Macros</h2></td></tr>
 <tr class="memitem:acbc30821abce7e21196166b4dc00e283" id="r_acbc30821abce7e21196166b4dc00e283"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbc30821abce7e21196166b4dc00e283">MR_X</a>(T,  unused)&#160;&#160;&#160;extern template MRVIEWER_API std::string valueToImGuiFormatString( T value, const VarUnitToStringParams&amp; params );</td></tr>
 <tr class="separator:acbc30821abce7e21196166b4dc00e283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:afaef792167a46a382648ec08d36b74e0" id="r_afaef792167a46a382648ec08d36b74e0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#afaef792167a46a382648ec08d36b74e0">MR::VarUnitToStringParams</a></td></tr>
+<tr class="memdesc:afaef792167a46a382648ec08d36b74e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <code>std::variant</code> of <code><a class="el" href="structMR_1_1UnitToStringParams.html" title="Controls how a value with a unit is converted to a string.">UnitToStringParams</a>&lt;E&gt;</code> for all known <code>E</code>s (unit kinds).  <br /></td></tr>
+<tr class="separator:afaef792167a46a382648ec08d36b74e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a09f9590ed4411f71af1c1526458d5dd1" id="r_a09f9590ed4411f71af1c1526458d5dd1"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1">MR::NumberStyle</a> { <a class="el" href="namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1afea087517c26fadd409bd4b9dc642555">MR::normal</a>
+, <a class="el" href="namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1a85a27592021a82ac0d0cce34c2c39963">MR::distributePrecision</a>
+, <a class="el" href="namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1aab3b1598e0b02155373807025b067f9a">MR::exponential</a>
+, <a class="el" href="namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1aef35e675be34b03d23d2f68b3dc409fe">MR::maybeExponential</a>
+ }</td></tr>
+<tr class="separator:a09f9590ed4411f71af1c1526458d5dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6b11352e59ca716da2c9d8bf2371424" id="r_aa6b11352e59ca716da2c9d8bf2371424"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424">MR::DegreesMode</a> { <a class="el" href="namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424a18daee01fc6e54aacd7f4c2eef60ff4d">MR::degrees</a>
+, <a class="el" href="namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424ac91e005f8e0721e9bf70dae1c874449b">MR::degreesMinutes</a>
+, <a class="el" href="namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424afb9d144547524298c83b8c7fa7a5b67d">MR::degreesMinutesSeconds</a>
+, <a class="el" href="namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424ad69186af02738a9b3ced1bc5b652ba55">MR::_count</a>
+ }</td></tr>
+<tr class="memdesc:aa6b11352e59ca716da2c9d8bf2371424"><td class="mdescLeft">&#160;</td><td class="mdescRight">This controls how the degrees are printed.  <a href="namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424">More...</a><br /></td></tr>
+<tr class="separator:aa6b11352e59ca716da2c9d8bf2371424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa591847657e546eba90e70acf2185c02" id="r_aa591847657e546eba90e70acf2185c02"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa591847657e546eba90e70acf2185c02">MR::ZeroMode</a> { <a class="el" href="namespaceMR.html#aa591847657e546eba90e70acf2185c02ace48e9164dfd613f28dec7b3a9985e07">MR::asIs</a>
+, <a class="el" href="namespaceMR.html#aa591847657e546eba90e70acf2185c02a0d0700a75fcdc18a3509f8197b41c699">MR::alwaysPositive</a>
+, <a class="el" href="namespaceMR.html#aa591847657e546eba90e70acf2185c02a1f09e9a69b8a8b71082256a691afc64c">MR::alwaysNegative</a>
+ }</td></tr>
+<tr class="separator:aa591847657e546eba90e70acf2185c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a80607090259b7b45b4ea7809158a48a2" id="r_a80607090259b7b45b4ea7809158a48a2"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E&gt; </td></tr>
@@ -211,13 +240,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a822feec21d0c267d63b63429392323c9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a822feec21d0c267d63b63429392323c9">MR::setDefaultUnitParams</a> (const <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; &amp;newParams)</td></tr>
 <tr class="memdesc:a822feec21d0c267d63b63429392323c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies the default parameters for converting a specific unit type to a string.  <br /></td></tr>
 <tr class="separator:a822feec21d0c267d63b63429392323c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2345d0a738c6f4f2a8fb95b5fb2504a8" id="r_a2345d0a738c6f4f2a8fb95b5fb2504a8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2345d0a738c6f4f2a8fb95b5fb2504a8">MR::toString</a> (DegreesMode mode)</td></tr>
+<tr class="memitem:a2345d0a738c6f4f2a8fb95b5fb2504a8" id="r_a2345d0a738c6f4f2a8fb95b5fb2504a8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2345d0a738c6f4f2a8fb95b5fb2504a8">MR::toString</a> (<a class="el" href="namespaceMR.html#aa6b11352e59ca716da2c9d8bf2371424">DegreesMode</a> mode)</td></tr>
 <tr class="separator:a2345d0a738c6f4f2a8fb95b5fb2504a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d3f8a6d1d7a0498aa353e88c7456182" id="r_a4d3f8a6d1d7a0498aa353e88c7456182"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::Units::Scalar T&gt; </td></tr>
 <tr class="memitem:a4d3f8a6d1d7a0498aa353e88c7456182"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4d3f8a6d1d7a0498aa353e88c7456182">MR::valueToString</a> (T value, const <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; &amp;params=<a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt; E &gt;())</td></tr>
 <tr class="separator:a4d3f8a6d1d7a0498aa353e88c7456182"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae67e358aa67b3bec22536c544a8ed160" id="r_ae67e358aa67b3bec22536c544a8ed160"><td class="memTemplParams" colspan="2">template&lt;detail::Units::Scalar T&gt; </td></tr>
-<tr class="memitem:ae67e358aa67b3bec22536c544a8ed160"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae67e358aa67b3bec22536c544a8ed160">MR::valueToString</a> (T value, const VarUnitToStringParams &amp;params)</td></tr>
+<tr class="memitem:ae67e358aa67b3bec22536c544a8ed160"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae67e358aa67b3bec22536c544a8ed160">MR::valueToString</a> (T value, const <a class="el" href="namespaceMR.html#afaef792167a46a382648ec08d36b74e0">VarUnitToStringParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ae67e358aa67b3bec22536c544a8ed160"><td class="mdescLeft">&#160;</td><td class="mdescRight">This overload lets you select the unit kind at runtime.  <br /></td></tr>
 <tr class="separator:ae67e358aa67b3bec22536c544a8ed160"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33468b27fcfb4e39e7bcbc65162f5dce" id="r_a33468b27fcfb4e39e7bcbc65162f5dce"><td class="memTemplParams" colspan="2">template&lt;detail::Units::Scalar T&gt; </td></tr>
@@ -240,7 +269,7 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="memitem:a888aed091b9c64c5a26d9490cd820f89"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a888aed091b9c64c5a26d9490cd820f89">MR::valueToImGuiFormatString</a> (T value, const <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; &amp;params=<a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt; E &gt;())</td></tr>
 <tr class="separator:a888aed091b9c64c5a26d9490cd820f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3733c3924551342afaddf9b84564e21" id="r_ac3733c3924551342afaddf9b84564e21"><td class="memTemplParams" colspan="2">template&lt;detail::Units::Scalar T&gt; </td></tr>
-<tr class="memitem:ac3733c3924551342afaddf9b84564e21"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac3733c3924551342afaddf9b84564e21">MR::valueToImGuiFormatString</a> (T value, const VarUnitToStringParams &amp;params)</td></tr>
+<tr class="memitem:ac3733c3924551342afaddf9b84564e21"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac3733c3924551342afaddf9b84564e21">MR::valueToImGuiFormatString</a> (T value, const <a class="el" href="namespaceMR.html#afaef792167a46a382648ec08d36b74e0">VarUnitToStringParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ac3733c3924551342afaddf9b84564e21"><td class="mdescLeft">&#160;</td><td class="mdescRight">This overload lets you select the unit kind at runtime.  <br /></td></tr>
 <tr class="separator:ac3733c3924551342afaddf9b84564e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>

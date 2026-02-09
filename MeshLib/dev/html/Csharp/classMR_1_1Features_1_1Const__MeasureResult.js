@@ -6,7 +6,13 @@ var classMR_1_1Features_1_1Const__MeasureResult =
     [ "Const_BasicPart", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart.html", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart" ],
     [ "Const_Distance", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance.html", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance" ],
     [ "Distance", "classMR_1_1Features_1_1Const__MeasureResult_1_1Distance.html", "classMR_1_1Features_1_1Const__MeasureResult_1_1Distance" ],
-    [ "Status", "classMR_1_1Features_1_1Const__MeasureResult.html#a1695eaeaeb34bd746e9bfb7b150635c0", null ],
+    [ "Status", "classMR_1_1Features_1_1Const__MeasureResult.html#a1695eaeaeb34bd746e9bfb7b150635c0", [
+      [ "Ok", "classMR_1_1Features_1_1Const__MeasureResult.html#a1695eaeaeb34bd746e9bfb7b150635c0aa60852f204ed8028c1c58808b746d115", null ],
+      [ "NotImplemented", "classMR_1_1Features_1_1Const__MeasureResult.html#a1695eaeaeb34bd746e9bfb7b150635c0a997ca4ce119685f40f03a9a8a6c5346e", null ],
+      [ "BadFeaturePair", "classMR_1_1Features_1_1Const__MeasureResult.html#a1695eaeaeb34bd746e9bfb7b150635c0a8fa219db02452ea4cfe9bad343d8287c", null ],
+      [ "BadRelativeLocation", "classMR_1_1Features_1_1Const__MeasureResult.html#a1695eaeaeb34bd746e9bfb7b150635c0ab1bc723d1e213c2b6aee133847ba331f", null ],
+      [ "NotFinite", "classMR_1_1Features_1_1Const__MeasureResult.html#a1695eaeaeb34bd746e9bfb7b150635c0aff6e97b110349dae9c6e8be0ff7a85c3", null ]
+    ] ],
     [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html#a68f0f564a167a8f327bd9004098d6bb8", null ],
     [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html#ae658bdbb48abcae76822e3c852754872", null ],
     [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html#ad2cac969d0d14adabbae6d088dafe4c2", null ],

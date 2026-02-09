@@ -1,16 +1,12 @@
 var classMR_1_1VolumeSegmenter =
 [
-    [ "SeedType", "../Cpp/classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5", null ],
-    [ "VolumeSegmenter", "../Cpp/classMR_1_1VolumeSegmenter.html#ab7609ff9b44fa7139370e8384ef35ced", null ],
-    [ "addPathSeeds", "../Cpp/classMR_1_1VolumeSegmenter.html#aeee33a2e1bd2471294daeaa604369631", null ],
-    [ "addSeeds", "../Cpp/classMR_1_1VolumeSegmenter.html#a6b0600fe25a2fbc95527fe3b999ef9d0", null ],
-    [ "createMeshFromSegmentation", "../Cpp/classMR_1_1VolumeSegmenter.html#a1afe2c227ee25b71b24c84a7697afdf6", null ],
-    [ "getMinVoxel", "../Cpp/classMR_1_1VolumeSegmenter.html#a2e6d2f06d40f3437e049a6e4b9846a61", null ],
-    [ "getSeeds", "../Cpp/classMR_1_1VolumeSegmenter.html#ad6047f29bf52a2e1859c00880382c6f0", null ],
-    [ "getVolumePartDimensions", "../Cpp/classMR_1_1VolumeSegmenter.html#a48cec84248c8d9ec9a256f05a574add6", null ],
-    [ "segmentVolume", "../Cpp/classMR_1_1VolumeSegmenter.html#a0cc8f6e40de564a414a9929ff63d5f9a", null ],
-    [ "setSeeds", "../Cpp/classMR_1_1VolumeSegmenter.html#a8accea0d8e4c056fb387513d10d41640", null ],
-    [ "Count", "../Cpp/classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5a28f16f91e9d9bf0f446669e4cdd98750", null ],
-    [ "Inside", "../Cpp/classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5a21796cca7989a91c8335cd29c782f5be", null ],
-    [ "Outside", "../Cpp/classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5ac24c0463f4a46b890b5cac084adf0d2f", null ]
+    [ "VolumeSegmenter", "classMR_1_1VolumeSegmenter.html#a557f727dbad7061d2d7f56635a3ad5da", null ],
+    [ "VolumeSegmenter", "classMR_1_1VolumeSegmenter.html#a9fa1e8b09e026db14ed3858dd6847266", null ],
+    [ "VolumeSegmenter", "classMR_1_1VolumeSegmenter.html#aedfaacc5cdfc01faafbd5c24994019df", null ],
+    [ "VolumeSegmenter", "classMR_1_1VolumeSegmenter.html#afe08c044d7a7f062ee74382664f061ad", null ],
+    [ "addPathSeeds", "classMR_1_1VolumeSegmenter.html#adc0bd50d7fa7c1bd55a15e014bd98633", null ],
+    [ "addSeeds", "classMR_1_1VolumeSegmenter.html#a52e42c1f2611d2737f4df69b42a66ed0", null ],
+    [ "operator VolumeSegmenter", "classMR_1_1VolumeSegmenter.html#aca5e093ace0c9beeeb2ac827ed76d8df", null ],
+    [ "segmentVolume", "classMR_1_1VolumeSegmenter.html#a27eb2853adc27edac76053d61b96bc13", null ],
+    [ "setSeeds", "classMR_1_1VolumeSegmenter.html#a1a656944440414b0aab1aad3ca1aa741", null ]
 ];

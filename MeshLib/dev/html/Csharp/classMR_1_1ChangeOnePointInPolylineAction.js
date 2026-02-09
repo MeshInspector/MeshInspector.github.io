@@ -1,10 +1,12 @@
 var classMR_1_1ChangeOnePointInPolylineAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html#aef7c7a81af0f8a8b89d020602c31298d", null ],
-    [ "ChangeOnePointInPolylineAction", "../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html#ad3c95f6ed93a9497f7a959a770ecc788", null ],
-    [ "ChangeOnePointInPolylineAction", "../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html#a85c6de61b6597e042e5aef9c02ecf52b", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html#a38ca71433b431c0f9253e2140cea35ef", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html#a6fa396d1c46311032a718c9eaf3f34bc", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html#a60545394635e0a3adb2be644e7bdafee", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html#ae85085ed6aab508626ce4cbe86fc6663", null ]
+    [ "ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html#a5be505a4256e3d3d31985508f47ecb42", null ],
+    [ "ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html#aa897f0f0fcb2daff3aea612bf737526c", null ],
+    [ "ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html#adad9aff3af078eea25ea18900e297ace", null ],
+    [ "ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html#a51d591fa750cb9b5938fa03a65788f69", null ],
+    [ "ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html#aecf2ccea7941f87c6ef6bf42377850a9", null ],
+    [ "action", "classMR_1_1ChangeOnePointInPolylineAction.html#aaddf77920eb8860879f0702f7ea1fb57", null ],
+    [ "assign", "classMR_1_1ChangeOnePointInPolylineAction.html#a43f59d7b7d001428dda48d1100edff17", null ],
+    [ "operator ChangeOnePointInPolylineAction?", "classMR_1_1ChangeOnePointInPolylineAction.html#aa353c19c15b340eb6aebef735279fd60", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeOnePointInPolylineAction.html#a9b786df6f5ac21a2407421070a809902", null ]
 ];

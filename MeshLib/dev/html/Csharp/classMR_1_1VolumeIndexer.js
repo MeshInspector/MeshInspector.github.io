@@ -1,26 +1,8 @@
 var classMR_1_1VolumeIndexer =
 [
-    [ "VolumeIndexer", "../Cpp/group__VoxelGroup.html#gad64c0feac5a4c85334c9de7dda628dfb", null ],
-    [ "areNeigbors", "../Cpp/group__VoxelGroup.html#ga991a1f3d21cb03e21402be655ba7c06c", null ],
-    [ "areNeigbors", "../Cpp/group__VoxelGroup.html#gad83baf7155c4c4be0ffa42c4de418e6b", null ],
-    [ "dims", "../Cpp/group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f", null ],
-    [ "endId", "../Cpp/group__VoxelGroup.html#ga926edbe131f216c52d55d31a98f33aaf", null ],
-    [ "getExistingNeighbor", "../Cpp/group__VoxelGroup.html#ga9278508392604ed5b02779e63a573555", null ],
-    [ "getNeighbor", "../Cpp/group__VoxelGroup.html#gafa9df4ffd5452e505b8a11ca3d01f7b4", null ],
-    [ "getNeighbor", "../Cpp/group__VoxelGroup.html#gacc3f28e9566b6b9fb9fe666e09034075", null ],
-    [ "getNeighbor", "../Cpp/group__VoxelGroup.html#gafe8987c6754acf0b39a5d12c2a7d0da9", null ],
-    [ "getNeighbor", "../Cpp/group__VoxelGroup.html#ga70480624af713d6c33abe8a12d5fa6ef", null ],
-    [ "hasNeighbour", "../Cpp/group__VoxelGroup.html#gae847dbed512fd911819dbc766c0dc9bf", null ],
-    [ "isBdVoxel", "../Cpp/group__VoxelGroup.html#ga6e3749e3a300fa4eda0a5dc1eb875a4a", null ],
-    [ "isInDims", "../Cpp/group__VoxelGroup.html#ga1d7ef8146c7e01018cfd181e0967ac35", null ],
-    [ "size", "../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985", null ],
-    [ "sizeXY", "../Cpp/group__VoxelGroup.html#gaf0d94fe95fbc290e175743a06ad3d1c6", null ],
-    [ "toLoc", "../Cpp/group__VoxelGroup.html#ga5bad9caa6f1298325759d64a72cca3b9", null ],
-    [ "toLoc", "../Cpp/group__VoxelGroup.html#ga381737dfbef1fd95586ae4f44b63b468", null ],
-    [ "toPos", "../Cpp/group__VoxelGroup.html#gaf972ceaa48b72a552781412be0e49eb6", null ],
-    [ "toVoxelId", "../Cpp/group__VoxelGroup.html#ga1e9ca6412f80a5ce4751fb16cad4ce2c", null ],
-    [ "dims_", "../Cpp/group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13", null ],
-    [ "neiInc_", "../Cpp/group__VoxelGroup.html#gaa969e84361224c40ebdaea70a2942ea6", null ],
-    [ "size_", "../Cpp/group__VoxelGroup.html#ga8e13ff7ca749a229d273701ff2b833c0", null ],
-    [ "sizeXY_", "../Cpp/group__VoxelGroup.html#ga4640c0c164372ff567a458ce590c241b", null ]
+    [ "VolumeIndexer", "classMR_1_1VolumeIndexer.html#a3aa8901144de8797fecd23bd8b823e58", null ],
+    [ "VolumeIndexer", "classMR_1_1VolumeIndexer.html#aa64488fedc04a3eacd82d7a14e24c4ee", null ],
+    [ "VolumeIndexer", "classMR_1_1VolumeIndexer.html#aeef3f347d6680978b124b70e90c8ac39", null ],
+    [ "assign", "classMR_1_1VolumeIndexer.html#a4ca65ec170656a162716e3387ccb62dd", null ],
+    [ "operator VolumeIndexer", "classMR_1_1VolumeIndexer.html#a3718014ba635ce574343bf8d07e75974", null ]
 ];

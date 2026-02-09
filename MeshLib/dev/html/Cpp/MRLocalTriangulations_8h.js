@@ -1,9 +1,10 @@
 var MRLocalTriangulations_8h =
 [
-    [ "MR::FanRecord", "../Csharp/classMR_1_1FanRecord.html", "classMR_1_1FanRecord" ],
-    [ "MR::FanRecordWithCenter", "../Csharp/classMR_1_1FanRecordWithCenter.html", "classMR_1_1FanRecordWithCenter" ],
-    [ "MR::SomeLocalTriangulations", "../Csharp/classMR_1_1SomeLocalTriangulations.html", "classMR_1_1SomeLocalTriangulations" ],
-    [ "MR::AllLocalTriangulations", "../Csharp/classMR_1_1AllLocalTriangulations.html", "classMR_1_1AllLocalTriangulations" ],
+    [ "MR::FanRecord", "structMR_1_1FanRecord.html", "structMR_1_1FanRecord" ],
+    [ "MR::FanRecordWithCenter", "structMR_1_1FanRecordWithCenter.html", "structMR_1_1FanRecordWithCenter" ],
+    [ "MR::SomeLocalTriangulations", "structMR_1_1SomeLocalTriangulations.html", "structMR_1_1SomeLocalTriangulations" ],
+    [ "MR::AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", "structMR_1_1AllLocalTriangulations" ],
+    [ "TrianglesRepetitions", "MRLocalTriangulations_8h.html#a2e1577ec0c0eb82d6a29e4b16e6661a6", null ],
     [ "autoOrientLocalTriangulations", "MRLocalTriangulations_8h.html#a766eb6ed8020c98e0caeb0118287298c", null ],
     [ "computeNormal", "MRLocalTriangulations_8h.html#a722c841f31a22129cba0c81fb113b9c7", null ],
     [ "computeTrianglesRepetitions", "MRLocalTriangulations_8h.html#a0d986d210124a86a1e5a8a4b4b25e3da", null ],

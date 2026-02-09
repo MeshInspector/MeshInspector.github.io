@@ -1,9 +1,12 @@
 var classMR_1_1ChangeXfAction =
 [
-    [ "ChangeXfAction", "../Cpp/classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b", null ],
-    [ "ChangeXfAction", "../Cpp/classMR_1_1ChangeXfAction.html#ac6aa69f1f7afe95ad6453c38ba4fb80e", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc", null ],
-    [ "obj", "../Cpp/classMR_1_1ChangeXfAction.html#a7ca462bf6ff993310a54857dc66ba1ff", null ]
+    [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html#acb1b4d5b560d1d94f02450e08f399892", null ],
+    [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html#a9e4a96cc6074e6bebf69ad0a3c1b3b02", null ],
+    [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html#a1f5d629c923683c833982184b9a1228e", null ],
+    [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html#a4e7b80b28ca3f0265550998e7d40d52f", null ],
+    [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html#a79b7a6f9fab81ff6c4c7694b332ebd7f", null ],
+    [ "action", "classMR_1_1ChangeXfAction.html#a41ccc6603a8b6a7d46cedf10de7f570b", null ],
+    [ "assign", "classMR_1_1ChangeXfAction.html#ae815e9391aa0939f6e52ef2fa566b74e", null ],
+    [ "operator ChangeXfAction?", "classMR_1_1ChangeXfAction.html#abf120721d809c85d756837ad21f16c81", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeXfAction.html#a32c04adff33159441d7a6c0b3ae534d1", null ]
 ];

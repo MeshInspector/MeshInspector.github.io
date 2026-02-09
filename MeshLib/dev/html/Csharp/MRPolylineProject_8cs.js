@@ -10,5 +10,5 @@ var MRPolylineProject_8cs =
     [ "MR.Const_PolylineProjectionWithOffsetResult3", "classMR_1_1Const__PolylineProjectionWithOffsetResult3.html", "classMR_1_1Const__PolylineProjectionWithOffsetResult3" ],
     [ "MR.PolylineProjectionWithOffsetResult3", "classMR_1_1PolylineProjectionWithOffsetResult3.html", "classMR_1_1PolylineProjectionWithOffsetResult3" ],
     [ "MR.Const_PolylineProjectionResult3Arg", "classMR_1_1Const__PolylineProjectionResult3Arg.html", "classMR_1_1Const__PolylineProjectionResult3Arg" ],
-    [ "MR.PolylineProjectionResult3Arg", "../Cpp/structMR_1_1PolylineProjectionResult3Arg.html", "structMR_1_1PolylineProjectionResult3Arg" ]
+    [ "MR.PolylineProjectionResult3Arg", "classMR_1_1PolylineProjectionResult3Arg.html", "classMR_1_1PolylineProjectionResult3Arg" ]
 ];

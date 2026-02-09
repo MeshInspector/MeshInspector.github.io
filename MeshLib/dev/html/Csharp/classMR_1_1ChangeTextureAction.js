@@ -1,10 +1,12 @@
 var classMR_1_1ChangeTextureAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangeTextureAction.html#a1079ab459c62474b522dc9249a6d4a4c", null ],
-    [ "ChangeTextureAction", "../Cpp/classMR_1_1ChangeTextureAction.html#ac85c185778438e863240862dbd46a152", null ],
-    [ "ChangeTextureAction", "../Cpp/classMR_1_1ChangeTextureAction.html#a146619ea49b7b8835a4f37f1a13cbb8e", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeTextureAction.html#a6415831fcd79f6104620dcc3ae8b96a6", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeTextureAction.html#add3319a36aa18e770733fef0c61d2f9d", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeTextureAction.html#ad5e78402371a9402c2bc3e58851fd874", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangeTextureAction.html#a0b9c1a8d611f0fe25572d24787b67812", null ]
+    [ "ChangeTextureAction", "classMR_1_1ChangeTextureAction.html#a599fadaa33df41a2ee6b0f9e6b1155ba", null ],
+    [ "ChangeTextureAction", "classMR_1_1ChangeTextureAction.html#a0e290867d218258db14f38221136a7b4", null ],
+    [ "ChangeTextureAction", "classMR_1_1ChangeTextureAction.html#a3114ee4bcddafde38606aa3dd94eb6ed", null ],
+    [ "ChangeTextureAction", "classMR_1_1ChangeTextureAction.html#ab76415f665557ec89016f2a9e4529892", null ],
+    [ "ChangeTextureAction", "classMR_1_1ChangeTextureAction.html#a7ccb8400afe8d62f0d0c956b10b2d172", null ],
+    [ "action", "classMR_1_1ChangeTextureAction.html#affdfa1421d10ad05ced49aef622e82dd", null ],
+    [ "assign", "classMR_1_1ChangeTextureAction.html#a9e3b1448167963f74ef5d13c2a8c06a0", null ],
+    [ "operator ChangeTextureAction?", "classMR_1_1ChangeTextureAction.html#afd5d3378fd36c29f4d895069124faaf1", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeTextureAction.html#ad780b3e495089440bee7ca92ce90ad6c", null ]
 ];

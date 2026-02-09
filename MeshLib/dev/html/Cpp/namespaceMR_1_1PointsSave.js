@@ -1,6 +1,9 @@
 var namespaceMR_1_1PointsSave =
 [
+    [ "CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "structMR_1_1PointsSave_1_1CtmSavePointsOptions" ],
     [ "PointsSaver", "structMR_1_1PointsSave_1_1PointsSaver.html", "structMR_1_1PointsSave_1_1PointsSaver" ],
+    [ "PointsFileSaver", "namespaceMR_1_1PointsSave.html#a356417aed0685b9e9741744f7b357eba", null ],
+    [ "PointsStreamSaver", "namespaceMR_1_1PointsSave.html#a1c0d45a07ed1828ee0d1190c6ca69cab", null ],
     [ "toAnySupportedFormat", "group__PointsSaveGroup.html#ga3c8f83fa34faa244672c9f70f436659d", null ],
     [ "toAnySupportedFormat", "group__PointsSaveGroup.html#gaf483fe48c6b9e28ef2cd22358d099b82", null ],
     [ "toAsc", "group__PointsSaveGroup.html#gaac66378aea59c039d4d6f10abc88e0c7", null ],

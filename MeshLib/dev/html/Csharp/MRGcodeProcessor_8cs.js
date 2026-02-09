@@ -10,5 +10,5 @@ var MRGcodeProcessor_8cs =
     [ "MR.Const_GcodeProcessor.Command", "classMR_1_1Const__GcodeProcessor_1_1Command.html", "classMR_1_1Const__GcodeProcessor_1_1Command" ],
     [ "MR.Const_GcodeProcessor.Const_MoveAction", "classMR_1_1Const__GcodeProcessor_1_1Const__MoveAction.html", "classMR_1_1Const__GcodeProcessor_1_1Const__MoveAction" ],
     [ "MR.Const_GcodeProcessor.MoveAction", "classMR_1_1Const__GcodeProcessor_1_1MoveAction.html", "classMR_1_1Const__GcodeProcessor_1_1MoveAction" ],
-    [ "MR.GcodeProcessor", "../Cpp/classMR_1_1GcodeProcessor.html", "classMR_1_1GcodeProcessor" ]
+    [ "MR.GcodeProcessor", "classMR_1_1GcodeProcessor.html", "classMR_1_1GcodeProcessor" ]
 ];

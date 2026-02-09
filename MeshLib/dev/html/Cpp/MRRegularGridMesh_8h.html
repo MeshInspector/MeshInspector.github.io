@@ -147,6 +147,7 @@ $(function(){initNavTree('MRRegularGridMesh_8h.html',''); initResizable(true); }
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRRegularGridMesh.h File Reference</div></div>
 </div><!--header-->
@@ -165,12 +166,24 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a1c3671ae104a3e05c4c521d25a4bab13" id="r_a1c3671ae104a3e05c4c521d25a4bab13"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1c3671ae104a3e05c4c521d25a4bab13">MR::RegularGridLatticeValidator</a> = std::function&lt;bool( size_t x, size_t y )&gt;</td></tr>
+<tr class="memdesc:a1c3671ae104a3e05c4c521d25a4bab13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lambda for validating grid lattice.  <br /></td></tr>
+<tr class="separator:a1c3671ae104a3e05c4c521d25a4bab13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d79ee45f0088d8ef788b1d7dabc72a6" id="r_a4d79ee45f0088d8ef788b1d7dabc72a6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4d79ee45f0088d8ef788b1d7dabc72a6">MR::RegularGridLatticePositioner</a> = std::function&lt;Vector3f( size_t x, size_t y )&gt;</td></tr>
+<tr class="memdesc:a4d79ee45f0088d8ef788b1d7dabc72a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lambda for getting lattice position.  <br /></td></tr>
+<tr class="separator:a4d79ee45f0088d8ef788b1d7dabc72a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a972aa33f2723ecfd1a0f7b41ff77a113" id="r_a972aa33f2723ecfd1a0f7b41ff77a113"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a972aa33f2723ecfd1a0f7b41ff77a113">MR::RegularGridMeshFaceValidator</a></td></tr>
+<tr class="memdesc:a972aa33f2723ecfd1a0f7b41ff77a113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lambda for validating mesh face.  <br /></td></tr>
+<tr class="separator:a972aa33f2723ecfd1a0f7b41ff77a113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a30be8e08775b25a5be92f136b2e4c1c3" id="r_a30be8e08775b25a5be92f136b2e4c1c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt; <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a30be8e08775b25a5be92f136b2e4c1c3">MR::makeRegularGridMesh</a> (size_t <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, size_t <a class="el" href="group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae">height</a>, const RegularGridLatticeValidator &amp;validator, const RegularGridLatticePositioner &amp;positioner, const RegularGridMeshFaceValidator &amp;faceValidator={}, ProgressCallback cb={})</td></tr>
+<tr class="memitem:a30be8e08775b25a5be92f136b2e4c1c3" id="r_a30be8e08775b25a5be92f136b2e4c1c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a30be8e08775b25a5be92f136b2e4c1c3">MR::makeRegularGridMesh</a> (size_t <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, size_t <a class="el" href="group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae">height</a>, const <a class="el" href="namespaceMR.html#a1c3671ae104a3e05c4c521d25a4bab13">RegularGridLatticeValidator</a> &amp;validator, const <a class="el" href="namespaceMR.html#a4d79ee45f0088d8ef788b1d7dabc72a6">RegularGridLatticePositioner</a> &amp;positioner, const <a class="el" href="namespaceMR.html#a972aa33f2723ecfd1a0f7b41ff77a113">RegularGridMeshFaceValidator</a> &amp;faceValidator={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:a30be8e08775b25a5be92f136b2e4c1c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates regular mesh with points in valid grid lattice.  <br /></td></tr>
 <tr class="separator:a30be8e08775b25a5be92f136b2e4c1c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9b59c053cfd08edb266ee3b8aa08ded" id="r_ad9b59c053cfd08edb266ee3b8aa08ded"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt; <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad9b59c053cfd08edb266ee3b8aa08ded">MR::makeRegularGridMesh</a> (<a class="elRef" href="../Csharp/classMR_1_1VertCoords.html">VertCoords</a> pc, ProgressCallback cb={})</td></tr>
+<tr class="memitem:ad9b59c053cfd08edb266ee3b8aa08ded" id="r_ad9b59c053cfd08edb266ee3b8aa08ded"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad9b59c053cfd08edb266ee3b8aa08ded">MR::makeRegularGridMesh</a> (VertCoords pc, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:ad9b59c053cfd08edb266ee3b8aa08ded"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates regular mesh from monotone (connects point with closed x, y neighbors) points.  <br /></td></tr>
 <tr class="separator:ad9b59c053cfd08edb266ee3b8aa08ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>

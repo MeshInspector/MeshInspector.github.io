@@ -1,28 +1,12 @@
 var group__MeshLoadObjGroup =
 [
-    [ "MR::MeshLoad::ObjLoadSettings", "../Csharp/classMR_1_1MeshLoad_1_1ObjLoadSettings.html", [
-      [ "ObjLoadSettings", "../Csharp/classMR_1_1MeshLoad_1_1ObjLoadSettings.html#aacf4640ed66356a1e5d76800bb2f864d", null ],
-      [ "ObjLoadSettings", "../Csharp/classMR_1_1MeshLoad_1_1ObjLoadSettings.html#af27311be9776bc1d61fe156d006bf545", null ],
-      [ "ObjLoadSettings", "../Csharp/classMR_1_1MeshLoad_1_1ObjLoadSettings.html#ac6a778556259a507d3df3ecc312b35f9", null ],
-      [ "ObjLoadSettings", "../Csharp/classMR_1_1MeshLoad_1_1ObjLoadSettings.html#a17fff62a7d725b1f6cadcca9b301f883", null ],
-      [ "ObjLoadSettings", "../Csharp/classMR_1_1MeshLoad_1_1ObjLoadSettings.html#ae2f99913a41cb21c9adc81925cf98ea5", null ],
-      [ "assign", "../Csharp/classMR_1_1MeshLoad_1_1ObjLoadSettings.html#a005338441b18696c7ca219c9fc855ace", null ],
+    [ "MR::MeshLoad::ObjLoadSettings", "structMR_1_1MeshLoad_1_1ObjLoadSettings.html", [
       [ "callback", "group__MeshLoadObjGroup.html#gaeda2f2f6435f3ba3f78394fb87ed0b35", null ],
       [ "countSkippedFaces", "group__MeshLoadObjGroup.html#gaa88281fa5522b4dfb24b0d60f21ad3c7", null ],
       [ "customXf", "group__MeshLoadObjGroup.html#gace2b31e89c8b25c9b8475eacea73c38a", null ],
-      [ "telemetrySignal", "group__MeshLoadObjGroup.html#ga84ada408307af26a9c2f008bedd2a4fc", null ],
-      [ "callback", "../Csharp/classMR_1_1MeshLoad_1_1ObjLoadSettings.html#adc9ae01e8d3819a2f0d50abd55b035cf", null ],
-      [ "countSkippedFaces", "../Csharp/classMR_1_1MeshLoad_1_1ObjLoadSettings.html#a2f3c90fc1ac9cdf841dc2f0b033d728a", null ],
-      [ "customXf", "../Csharp/classMR_1_1MeshLoad_1_1ObjLoadSettings.html#ab8ca00422df92b23690491c8596939f5", null ],
-      [ "telemetrySignal", "../Csharp/classMR_1_1MeshLoad_1_1ObjLoadSettings.html#a9ceee0aff4c7f5e0f43d35c5ed0cca63", null ]
+      [ "telemetrySignal", "group__MeshLoadObjGroup.html#ga84ada408307af26a9c2f008bedd2a4fc", null ]
     ] ],
-    [ "MR::MeshLoad::NamedMesh", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html", [
-      [ "NamedMesh", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#a6626a8d5b9eebf3e8a19cba1a232ec2a", null ],
-      [ "NamedMesh", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#a72ef9ea3a3a2bc185b2088ef681ddf39", null ],
-      [ "NamedMesh", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#a1a3df5c2edc67d9510fe5475f639caf0", null ],
-      [ "NamedMesh", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#ade9c5b0434863d098ff70c7affad180a", null ],
-      [ "NamedMesh", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#aa7abae3b77eee9bf7dee8a25764b667e", null ],
-      [ "assign", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#a29ae8200257b5cc5a4040b19a57a3eb5", null ],
+    [ "MR::MeshLoad::NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", [
       [ "colors", "group__MeshLoadObjGroup.html#gacad26bb0f966762a6201f66dbe3e0f03", null ],
       [ "diffuseColor", "group__MeshLoadObjGroup.html#ga24c0d1fb11f0d559f180bff7fc3fc188", null ],
       [ "duplicatedVertexCount", "group__MeshLoadObjGroup.html#ga26a8bc92daf43830d65572e1f00a40dc", null ],
@@ -32,17 +16,7 @@ var group__MeshLoadObjGroup =
       [ "textureFiles", "group__MeshLoadObjGroup.html#gae14992ee2961e93c9690326874a825e4", null ],
       [ "texturePerFace", "group__MeshLoadObjGroup.html#ga311db5316a105349238e8f439b00d599", null ],
       [ "uvCoords", "group__MeshLoadObjGroup.html#ga216284f1a34367048f2f39d7688b1a72", null ],
-      [ "xf", "group__MeshLoadObjGroup.html#ga62b08df84e9ae3aa8d59b93d284d02d7", null ],
-      [ "colors", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#a83df369949fb7ca4840f095f06ff6672", null ],
-      [ "diffuseColor", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#a812afbc92ca49f2f9bed3b6303377086", null ],
-      [ "duplicatedVertexCount", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#a589a9d13c772f51e18a5c88f602276a9", null ],
-      [ "mesh", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#a413efd77a70baa2e49300c8dac9e610f", null ],
-      [ "name", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#aa1b966c1463f3a195e2c728b9b6c7830", null ],
-      [ "skippedFaceCount", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#ac27181c8e82b2264057bc97d4047b822", null ],
-      [ "textureFiles", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#ac3a26fc116c40a1c6ce876c838c066f9", null ],
-      [ "texturePerFace", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#aad07cab7a883439078ddc87a2bca8067", null ],
-      [ "uvCoords", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#a762e869d6231660434dea2863139fe49", null ],
-      [ "xf", "../Csharp/classMR_1_1MeshLoad_1_1NamedMesh.html#ab38471b0efea5c1d7b13d08a3d6b5ee6", null ]
+      [ "xf", "group__MeshLoadObjGroup.html#ga62b08df84e9ae3aa8d59b93d284d02d7", null ]
     ] ],
     [ "MR::MeshLoad::fromSceneObjFile", "group__MeshLoadObjGroup.html#ga11ad7be5532b39f13f4f6df8f2b49fe7", null ],
     [ "MR::MeshLoad::fromSceneObjFile", "group__MeshLoadObjGroup.html#gab52f28ac17e79efc94fc00389e683c02", null ],

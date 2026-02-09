@@ -1,8 +1,8 @@
 var MRMeshThickness_8h =
 [
-    [ "MR::MeshPoint", "../Csharp/classMR_1_1MeshPoint.html", "classMR_1_1MeshPoint" ],
-    [ "MR::InSphereSearchSettings", "../Csharp/classMR_1_1InSphereSearchSettings.html", "classMR_1_1InSphereSearchSettings" ],
-    [ "MR::InSphere", "../Csharp/classMR_1_1InSphere.html", "classMR_1_1InSphere" ],
+    [ "MR::MeshPoint", "structMR_1_1MeshPoint.html", "structMR_1_1MeshPoint" ],
+    [ "MR::InSphereSearchSettings", "structMR_1_1InSphereSearchSettings.html", "structMR_1_1InSphereSearchSettings" ],
+    [ "MR::InSphere", "structMR_1_1InSphere.html", "structMR_1_1InSphere" ],
     [ "computeInSphereThicknessAtVertices", "MRMeshThickness_8h.html#a3012b3adfc77002b6a98aa0d6d3df46d", null ],
     [ "computeRayThicknessAtVertices", "MRMeshThickness_8h.html#a72fc5e2c323877bad4144cd852748496", null ],
     [ "computeThicknessAtVertices", "MRMeshThickness_8h.html#a86a7a7e15f6ca97ab7fc48a6b80ccfc3", null ],

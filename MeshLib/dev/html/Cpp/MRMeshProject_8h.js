@@ -1,5 +1,7 @@
 var MRMeshProject_8h =
 [
+    [ "FoundBoxedTriCallback", "MRMeshProject_8h.html#ga4349e23b1c03bbeb120c81f3cbb8b615", null ],
+    [ "FoundTriCallback", "MRMeshProject_8h.html#ga3fa10deed3f5f765a28d62f2a9667c0f", null ],
     [ "createProjectionTransforms", "MRMeshProject_8h.html#ga2574b6170fb044d2038e7fa9c0e2e4c1", null ],
     [ "findBoxedTrisInBall", "MRMeshProject_8h.html#ga565cdeaec23b7bd65c3776723571fac0", null ],
     [ "findProjection", "MRMeshProject_8h.html#gaa20d785f3f82fad58fb659bc0009563d", null ],

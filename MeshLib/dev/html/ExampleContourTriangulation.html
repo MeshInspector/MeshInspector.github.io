@@ -150,34 +150,34 @@ $(function(){initNavTree('ExampleContourTriangulation.html',''); initResizable(t
 <div class="contents">
 <div class="textblock"><p>Example of generating a triangulation from a contour.</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRImageLoad_8h.html">MRMesh/MRImageLoad.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRDistanceMap_8h.html">MRMesh/MRDistanceMap.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPolyline_8h.html">MRMesh/MRPolyline.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRImageLoad.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRDistanceMap.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPolyline.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MR2DContoursTriangulation.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// load image as distance map</span></div>
-<div class="line">    <span class="keyword">auto</span> imageLoadRes = <a class="code hl_functionRef" href="./Cpp/group__ImageLoadGroup.html#gad0427ed61cb0d0f0200d126cac01cc2b">MR::ImageLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;logo.jpg&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> imageLoadRes = MR::ImageLoad::fromAnySupportedFormat( <span class="stringliteral">&quot;logo.jpg&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !imageLoadRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; imageLoadRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">        <span class="keywordflow">return</span> 1; <span class="comment">// error while loading file</span></div>
 <div class="line">    }</div>
-<div class="line">    <span class="keyword">auto</span> dmRes = <a class="code hl_functionRef" href="./Cpp/group__DistanceMapGroup.html#gabfddf0510446a24e68326d0574949301">MR::convertImageToDistanceMap</a>( *imageLoadRes );</div>
+<div class="line">    <span class="keyword">auto</span> dmRes = MR::convertImageToDistanceMap( *imageLoadRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !dmRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; dmRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">        <span class="keywordflow">return</span> 1; <span class="comment">// error while converting image to distance map</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">auto</span> pl2 = <a class="code hl_functionRef" href="./Cpp/group__DistanceMapGroup.html#ga91dadb5d280efea2e31e4620ed69cf56">MR::distanceMapTo2DIsoPolyline</a>( *dmRes, 210.0f );</div>
-<div class="line">    <span class="keyword">auto</span> triangulationRes = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1PlanarTriangulation.html#a3a4d8b0d7301b69cd93de010d000bbcc">MR::PlanarTriangulation::triangulateContours</a>( pl2.contours() );</div>
+<div class="line">    <span class="keyword">auto</span> pl2 = MR::distanceMapTo2DIsoPolyline( *dmRes, 210.0f );</div>
+<div class="line">    <span class="keyword">auto</span> triangulationRes = MR::PlanarTriangulation::triangulateContours( pl2.contours() );</div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( triangulationRes, <span class="stringliteral">&quot;LogoMesh.ctm&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( triangulationRes, <span class="stringliteral">&quot;LogoMesh.ctm&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !saveRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; saveRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
@@ -186,17 +186,6 @@ $(function(){initNavTree('ExampleContourTriangulation.html',''); initResizable(t
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
-<div class="ttc" id="aMR2DContoursTriangulation_8h_html"><div class="ttname"><a href="./Cpp/MR2DContoursTriangulation_8h.html">MR2DContoursTriangulation.h</a></div></div>
-<div class="ttc" id="aMRDistanceMap_8h_html"><div class="ttname"><a href="./Cpp/MRDistanceMap_8h.html">MRDistanceMap.h</a></div></div>
-<div class="ttc" id="aMRImageLoad_8h_html"><div class="ttname"><a href="./Cpp/MRImageLoad_8h.html">MRImageLoad.h</a></div></div>
-<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
-<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
-<div class="ttc" id="aMRPolyline_8h_html"><div class="ttname"><a href="./Cpp/MRPolyline_8h.html">MRPolyline.h</a></div></div>
-<div class="ttc" id="agroup__DistanceMapGroup_html_ga91dadb5d280efea2e31e4620ed69cf56"><div class="ttname"><a href="./Cpp/group__DistanceMapGroup.html#ga91dadb5d280efea2e31e4620ed69cf56">MR::distanceMapTo2DIsoPolyline</a></div><div class="ttdeci">MRMESH_API Polyline2 distanceMapTo2DIsoPolyline(const DistanceMap &amp;distMap, float isoValue)</div></div>
-<div class="ttc" id="agroup__DistanceMapGroup_html_gabfddf0510446a24e68326d0574949301"><div class="ttname"><a href="./Cpp/group__DistanceMapGroup.html#gabfddf0510446a24e68326d0574949301">MR::convertImageToDistanceMap</a></div><div class="ttdeci">MRMESH_API Expected&lt; DistanceMap &gt; convertImageToDistanceMap(const Image &amp;image, float threshold=1.f/255, bool invert=true)</div></div>
-<div class="ttc" id="agroup__ImageLoadGroup_html_gad0427ed61cb0d0f0200d126cac01cc2b"><div class="ttname"><a href="./Cpp/group__ImageLoadGroup.html#gad0427ed61cb0d0f0200d126cac01cc2b">MR::ImageLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Image &gt; fromAnySupportedFormat(const std::filesystem::path &amp;path)</div></div>
-<div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
-<div class="ttc" id="anamespaceMR_1_1PlanarTriangulation_html_a3a4d8b0d7301b69cd93de010d000bbcc"><div class="ttname"><a href="./Cpp/namespaceMR_1_1PlanarTriangulation.html#a3a4d8b0d7301b69cd93de010d000bbcc">MR::PlanarTriangulation::triangulateContours</a></div><div class="ttdeci">MRMESH_API Mesh triangulateContours(const Contours2d &amp;contours, const HolesVertIds *holeVertsIds=nullptr)</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</div>
@@ -207,12 +196,12 @@ $(function(){initNavTree('ExampleContourTriangulation.html',''); initResizable(t
 <div class="line"> </div>
 <div class="line">mm.saveMesh(logo_mesh, <span class="stringliteral">&quot;LogoMesh.ctm&quot;</span>)</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRImageLoad_8h.html">MRCMesh/MRImageLoad.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRDistanceMap_8h.html">MRCMesh/MRDistanceMap.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRPolyline_8h.html">MRCMesh/MRPolyline.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMesh_8h.html">MRCMesh/MRMesh.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MR2DContoursTriangulation_8h.html">MRCMesh/MR2DContoursTriangulation.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshSave_8h.html">MRCMesh/MRMeshSave.h</a>&gt;</span></div>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRImageLoad.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRDistanceMap.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRPolyline.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MR2DContoursTriangulation.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshSave.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_MR_Image_std_string.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_MR_DistanceMap_std_string.h&gt;</span></div>
@@ -228,28 +217,28 @@ $(function(){initNavTree('ExampleContourTriangulation.html',''); initResizable(t
 <div class="line">{</div>
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line">    <span class="comment">// load image as distance map</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRJpeg_8h.html#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a>* imageLoadRes = <a class="code hl_functionRef" href="./C/MRImageLoad_8h.html#af48f8daf11d1aac28ea705de5cfeee88">MR_ImageLoad_fromAnySupportedFormat</a>( <span class="stringliteral">&quot;logo.jpg&quot;</span>, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a>* image = MR_expected_MR_Image_std_string_value_mut( imageLoadRes );</div>
+<div class="line">    MR_expected_MR_Image_std_string* imageLoadRes = MR_ImageLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;logo.jpg&quot;</span>, NULL );</div>
+<div class="line">    MR_Image* image = MR_expected_MR_Image_std_string_value_mut( imageLoadRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !image )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load image: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Image_std_string_error( imageLoadRes ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_load; <span class="comment">// error while loading file</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a>* dmRes = <a class="code hl_functionRef" href="./C/MRDistanceMap_8h.html#a030bc73ec31f2e6c0887956115ddd3cd">MR_convertImageToDistanceMap</a>( image, NULL, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a>* dm = MR_expected_MR_DistanceMap_std_string_value_mut( dmRes );</div>
+<div class="line">    MR_expected_MR_DistanceMap_std_string* dmRes = MR_convertImageToDistanceMap( image, NULL, NULL );</div>
+<div class="line">    MR_DistanceMap* dm = MR_expected_MR_DistanceMap_std_string_value_mut( dmRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !dm )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to convert image to distance map: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_DistanceMap_std_string_error( dmRes ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_conversion; <span class="comment">// error while converting image to distance map</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a>* pl2 = <a class="code hl_functionRef" href="./C/MRDistanceMap_8h.html#a7f48c52a7380697aa4d2ed8d7552436a">MR_distanceMapTo2DIsoPolyline_2</a>( dm, 210.0f );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a>* conts = <a class="code hl_functionRef" href="./C/MRPolyline_8h.html#a27dc139f20041b4a399d4034f0e0802f">MR_Polyline2_contours</a>( pl2, NULL );</div>
+<div class="line">    MR_Polyline2* pl2 = MR_distanceMapTo2DIsoPolyline_2( dm, 210.0f );</div>
+<div class="line">    MR_std_vector_std_vector_MR_Vector2f* conts = MR_Polyline2_contours( pl2, NULL );</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* triangulationRes = <a class="code hl_functionRef" href="./C/MR2DContoursTriangulation_8h.html#a729b189bac41c43d382c668875c8abc9">MR_PlanarTriangulation_triangulateContours_std_vector_std_vector_MR_Vector2f</a>( conts, NULL );</div>
+<div class="line">    MR_Mesh* triangulationRes = MR_PlanarTriangulation_triangulateContours_std_vector_std_vector_MR_Vector2f( conts, NULL );</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* saveEx = <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( triangulationRes, <span class="stringliteral">&quot;LogoMesh.ctm&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( triangulationRes, <span class="stringliteral">&quot;LogoMesh.ctm&quot;</span>, NULL, NULL );</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -260,31 +249,15 @@ $(function(){initNavTree('ExampleContourTriangulation.html',''); initResizable(t
 <div class="line">fail_save:</div>
 <div class="line">    MR_expected_void_std_string_Destroy( saveEx );</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a>( triangulationRes );</div>
+<div class="line">    MR_Mesh_Destroy( triangulationRes );</div>
 <div class="line">    MR_std_vector_std_vector_MR_Vector2f_Destroy( conts );</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7">MR_Polyline2_Destroy</a>( pl2 );</div>
+<div class="line">    MR_Polyline2_Destroy( pl2 );</div>
 <div class="line">fail_conversion:</div>
 <div class="line">    MR_expected_MR_DistanceMap_std_string_Destroy( dmRes );</div>
 <div class="line">fail_load:</div>
 <div class="line">    MR_expected_MR_Image_std_string_Destroy( imageLoadRes );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
-<div class="ttc" id="aMR2DContoursTriangulation_8h_html_a603c36c96311a8cb693f3e5500963e17"><div class="ttname"><a href="./C/MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a></div><div class="ttdeci">struct MR_std_vector_std_vector_MR_Vector2f MR_std_vector_std_vector_MR_Vector2f</div></div>
-<div class="ttc" id="aMR2DContoursTriangulation_8h_html_a729b189bac41c43d382c668875c8abc9"><div class="ttname"><a href="./C/MR2DContoursTriangulation_8h.html#a729b189bac41c43d382c668875c8abc9">MR_PlanarTriangulation_triangulateContours_std_vector_std_vector_MR_Vector2f</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_PlanarTriangulation_triangulateContours_std_vector_std_vector_MR_Vector2f(const MR_std_vector_std_vector_MR_Vector2f *contours, const MR_std_vector_std_vector_MR_VertId *holeVertsIds)</div></div>
-<div class="ttc" id="aMRAABBTreePolyline_8h_html_ac19d267fe4a2399b21a578c74213dfd2"><div class="ttname"><a href="./C/MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a></div><div class="ttdeci">struct MR_Polyline2 MR_Polyline2</div></div>
-<div class="ttc" id="aMRCtm_8h_html_a077b8debfae88f9cf2267ad2db95c006"><div class="ttname"><a href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></div><div class="ttdeci">struct MR_expected_void_std_string MR_expected_void_std_string</div></div>
-<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
-<div class="ttc" id="aMRDistanceMap_8h_html_a030bc73ec31f2e6c0887956115ddd3cd"><div class="ttname"><a href="./C/MRDistanceMap_8h.html#a030bc73ec31f2e6c0887956115ddd3cd">MR_convertImageToDistanceMap</a></div><div class="ttdeci">MRC_API MR_expected_MR_DistanceMap_std_string * MR_convertImageToDistanceMap(const MR_Image *image, const float *threshold, const bool *invert)</div></div>
-<div class="ttc" id="aMRDistanceMap_8h_html_a52efa08117d1b3edf97d282ba7127323"><div class="ttname"><a href="./C/MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a></div><div class="ttdeci">struct MR_expected_MR_DistanceMap_std_string MR_expected_MR_DistanceMap_std_string</div></div>
-<div class="ttc" id="aMRDistanceMap_8h_html_a7f48c52a7380697aa4d2ed8d7552436a"><div class="ttname"><a href="./C/MRDistanceMap_8h.html#a7f48c52a7380697aa4d2ed8d7552436a">MR_distanceMapTo2DIsoPolyline_2</a></div><div class="ttdeci">MRC_API MR_Polyline2 * MR_distanceMapTo2DIsoPolyline_2(const MR_DistanceMap *distMap, float isoValue)</div></div>
-<div class="ttc" id="aMRImageLoad_8h_html_af48f8daf11d1aac28ea705de5cfeee88"><div class="ttname"><a href="./C/MRImageLoad_8h.html#af48f8daf11d1aac28ea705de5cfeee88">MR_ImageLoad_fromAnySupportedFormat</a></div><div class="ttdeci">MRC_API MR_expected_MR_Image_std_string * MR_ImageLoad_fromAnySupportedFormat(const char *path, const char *path_end)</div></div>
-<div class="ttc" id="aMRJpeg_8h_html_a4b3fdef77440565efc1c3cf3be1904f6"><div class="ttname"><a href="./C/MRJpeg_8h.html#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Image_std_string MR_expected_MR_Image_std_string</div></div>
-<div class="ttc" id="aMRJpeg_8h_html_a5e2943bfe5a7ecddf6b533bccae5f9c0"><div class="ttname"><a href="./C/MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a></div><div class="ttdeci">struct MR_Image MR_Image</div></div>
-<div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
-<div class="ttc" id="aMRMesh_8h_html_a0fdcb7b4857a7f6b0fa52a17112cace6"><div class="ttname"><a href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a></div><div class="ttdeci">MRC_API void MR_Mesh_Destroy(const MR_Mesh *_this)</div></div>
-<div class="ttc" id="aMRPolyline_8h_html_a27dc139f20041b4a399d4034f0e0802f"><div class="ttname"><a href="./C/MRPolyline_8h.html#a27dc139f20041b4a399d4034f0e0802f">MR_Polyline2_contours</a></div><div class="ttdeci">MRC_API MR_std_vector_std_vector_MR_Vector2f * MR_Polyline2_contours(const MR_Polyline2 *_this, MR_std_vector_std_vector_MR_VertId *vertMap)</div></div>
-<div class="ttc" id="aMRPolyline_8h_html_a93ac8a7595a2c96881b3ea89efc01fc7"><div class="ttname"><a href="./C/MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7">MR_Polyline2_Destroy</a></div><div class="ttdeci">MRC_API void MR_Polyline2_Destroy(const MR_Polyline2 *_this)</div></div>
-<div class="ttc" id="aMRTiff_8h_html_ac5b3176651bd10f11559934b0565b6ee"><div class="ttname"><a href="./C/MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a></div><div class="ttdeci">struct MR_DistanceMap MR_DistanceMap</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

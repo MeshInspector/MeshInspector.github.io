@@ -266,7 +266,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::DetectTunnelSettings</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -444,7 +444,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>detects all not-contractible-in-point and not-equivalent tunnel loops on the mesh; trying to include in the loops the edges with the smallest metric; if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#ga7dd035558540c3818d6d69afc731f953">MR::detectBasisTunnels</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>metric</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Parameter <code>progressCallback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_vector_std_vector_MR_EdgeId_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>detects all not-contractible-in-point and not-equivalent tunnel loops on the mesh; trying to include in the loops the edges with the smallest metric; if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used Generated from function <code>MR::detectBasisTunnels</code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>metric</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Parameter <code>progressCallback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_vector_std_vector_MR_EdgeId_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -466,7 +466,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns tunnels as a number of faces; if you remove these faces and patch every boundary with disk, then the surface will be topology equivalent to sphere Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#gaecd871a653e3af47a39e7017288eb69c">MR::detectTunnelFaces</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_FaceBitSet_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>returns tunnels as a number of faces; if you remove these faces and patch every boundary with disk, then the surface will be topology equivalent to sphere Generated from function <code>MR::detectTunnelFaces</code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_FaceBitSet_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -545,7 +545,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> elementwise. The reference to the parameter <code>metric</code> might be preserved in the constructed object. The reference to the parameter <code>progress</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#acbeccc777d37b1d21bff2e46401d34c8" title="Destroys a heap-allocated instance of MR_DetectTunnelSettings. Does nothing if the pointer is null.">MR_DetectTunnelSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::DetectTunnelSettings</code> elementwise. The reference to the parameter <code>metric</code> might be preserved in the constructed object. The reference to the parameter <code>progress</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#acbeccc777d37b1d21bff2e46401d34c8" title="Destroys a heap-allocated instance of MR_DetectTunnelSettings. Does nothing if the pointer is null.">MR_DetectTunnelSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -567,7 +567,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1DetectTunnelSettings.html#a4eb9d16445155cd8a7d77dd01d2d1655">MR::DetectTunnelSettings::DetectTunnelSettings</a></code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#acbeccc777d37b1d21bff2e46401d34c8" title="Destroys a heap-allocated instance of MR_DetectTunnelSettings. Does nothing if the pointer is null.">MR_DetectTunnelSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::DetectTunnelSettings::DetectTunnelSettings</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#acbeccc777d37b1d21bff2e46401d34c8" title="Destroys a heap-allocated instance of MR_DetectTunnelSettings. Does nothing if the pointer is null.">MR_DetectTunnelSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -659,7 +659,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then for every basis loop, findShortestCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>buildCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then for every basis loop, findShortestCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>buildCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -677,7 +677,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>filterEquivalentCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>filterEquivalentCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -695,7 +695,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -713,7 +713,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal length of tunnel loops to consider Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>maxTunnelLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal length of tunnel loops to consider Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>maxTunnelLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -731,7 +731,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>metric for detectBasisTunnels, if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>metric for detectBasisTunnels, if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -749,7 +749,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to report algorithm progress and cancel from outside Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>to report algorithm progress and cancel from outside Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -767,7 +767,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then for every basis loop, findShortestCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>buildCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then for every basis loop, findShortestCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>buildCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -785,7 +785,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>filterEquivalentCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>filterEquivalentCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -803,7 +803,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -821,7 +821,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal length of tunnel loops to consider Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>maxTunnelLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal length of tunnel loops to consider Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>maxTunnelLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -839,7 +839,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>metric for detectBasisTunnels, if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>metric for detectBasisTunnels, if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -857,7 +857,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to report algorithm progress and cancel from outside Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>to report algorithm progress and cancel from outside Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -923,7 +923,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then for every basis loop, findShortestCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>buildCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>buildCoLoops</code>. </p>
+<p>if true then for every basis loop, findShortestCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels Modifies a member variable of class <code>MR::DetectTunnelSettings</code> named <code>buildCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>buildCoLoops</code>. </p>
 
 </div>
 </div>
@@ -945,7 +945,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>filterEquivalentCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>filterEquivalentCoLoops</code>. </p>
+<p>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Modifies a member variable of class <code>MR::DetectTunnelSettings</code> named <code>filterEquivalentCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>filterEquivalentCoLoops</code>. </p>
 
 </div>
 </div>
@@ -967,7 +967,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxIters</code>. </p>
+<p>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while Modifies a member variable of class <code>MR::DetectTunnelSettings</code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxIters</code>. </p>
 
 </div>
 </div>
@@ -989,7 +989,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal length of tunnel loops to consider Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>maxTunnelLength</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxTunnelLength</code>. </p>
+<p>maximal length of tunnel loops to consider Modifies a member variable of class <code>MR::DetectTunnelSettings</code> named <code>maxTunnelLength</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxTunnelLength</code>. </p>
 
 </div>
 </div>
@@ -1016,7 +1016,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>metric for detectBasisTunnels, if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>metric</code>. When this function is called, this object will drop object references it had previously in <code>metric</code>. </p>
+<p>metric for detectBasisTunnels, if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used Modifies a member variable of class <code>MR::DetectTunnelSettings</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>metric</code>. When this function is called, this object will drop object references it had previously in <code>metric</code>. </p>
 
 </div>
 </div>
@@ -1043,7 +1043,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to report algorithm progress and cancel from outside Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DetectTunnelSettings.html">MR::DetectTunnelSettings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it had previously in <code>progress</code>. </p>
+<p>to report algorithm progress and cancel from outside Modifies a member variable of class <code>MR::DetectTunnelSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>progress</code>. When this function is called, this object will drop object references it had previously in <code>progress</code>. </p>
 
 </div>
 </div>
@@ -1065,7 +1065,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>same as findMinimalCoLoop with euclidean edge length metric Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#gad2b33a572c4859f4df4922d782d63598">MR::findShortestCoLoop</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>loop</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>same as findMinimalCoLoop with euclidean edge length metric Generated from function <code>MR::findShortestCoLoop</code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>loop</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1087,7 +1087,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>same as findSmallestMetricEquivalentLoops with euclidean edge length metric Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#ga58a1b7a9d6de56cf7751d0509ef04452">MR::findShortestEquivalentLoops</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>loop</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
+<p>same as findSmallestMetricEquivalentLoops with euclidean edge length metric Generated from function <code>MR::findShortestEquivalentLoops</code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>loop</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1119,7 +1119,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given not-separating loop on input, finds the loop (also not-separation) that 1) goes from left side of input loop 2) returns to the input loop from its right side 3) goes along the input loop to become closed such that the resulting loop has minimal sum of given metric for its edges; edges 1) and 2) can be only inner or boundary to the given region (they must have region from left or from right) Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#ga237ac3c26c32232e94cd5431869ccadc">MR::findSmallestMetricCoLoop</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>loop</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>given not-separating loop on input, finds the loop (also not-separation) that 1) goes from left side of input loop 2) returns to the input loop from its right side 3) goes along the input loop to become closed such that the resulting loop has minimal sum of given metric for its edges; edges 1) and 2) can be only inner or boundary to the given region (they must have region from left or from right) Generated from function <code>MR::findSmallestMetricCoLoop</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>loop</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1151,7 +1151,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given not-separating loop on input, finds one or several loops such that 1) resulting loops together with input loop separate a part of mesh, 2) returned loops are oriented the same as input loop (and have the separated mesh part from the other side compared to input loop); 3) the sum of the given metric for their edges is minimal; 4) resulting edges can be only inner to the given region. Generated from function <code><a class="elRef" href="../Cpp/group__TunnelDetectorGroup.html#ga0496ff6c99ea415eaab1b519264edaf0">MR::findSmallestMetricEquivalentLoops</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>loop</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
+<p>given not-separating loop on input, finds one or several loops such that 1) resulting loops together with input loop separate a part of mesh, 2) returned loops are oriented the same as input loop (and have the separated mesh part from the other side compared to input loop); 3) the sum of the given metric for their edges is minimal; 4) resulting edges can be only inner to the given region. Generated from function <code>MR::findSmallestMetricEquivalentLoops</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>loop</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_std_vector_MR_EdgeId_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>

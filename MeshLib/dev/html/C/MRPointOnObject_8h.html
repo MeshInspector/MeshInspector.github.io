@@ -238,7 +238,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PointOnObject.html">MR::PointOnObject</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::PointOnObject</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -310,7 +310,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns object normal in local coordinates at given point, </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">interpolated</td><td>if true returns interpolated normal for mesh object, otherwise returns flat normal returns std::nullopt if object or point is invalid, or if it is ObjectLines or ObjectPoints without normals Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#af403dfe39beb0bed1ae39d133f0f01a1">MR::getPickedPointNormal</a></code>. Parameter <code>object</code> can not be null. It is a single object. Parameter <code>point</code> can not be null. It is a single object. Parameter <code>interpolated</code> has a default argument: <code>true</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_Vector3f_Destroy()</code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">interpolated</td><td>if true returns interpolated normal for mesh object, otherwise returns flat normal returns std::nullopt if object or point is invalid, or if it is ObjectLines or ObjectPoints without normals Generated from function <code>MR::getPickedPointNormal</code>. Parameter <code>object</code> can not be null. It is a single object. Parameter <code>point</code> can not be null. It is a single object. Parameter <code>interpolated</code> has a default argument: <code>true</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_Vector3f_Destroy()</code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -335,7 +335,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Converts given point into local coordinates of its object, returns std::nullopt if object or point is invalid, or if it does not present in the object's topology Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aef29f4747473e9f88809ee80f810f06e">MR::getPickedPointPosition</a></code>. Parameter <code>object</code> can not be null. It is a single object. Parameter <code>point</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_Vector3f_Destroy()</code> to free it when you're done using it. </p>
+<p>Converts given point into local coordinates of its object, returns std::nullopt if object or point is invalid, or if it does not present in the object's topology Generated from function <code>MR::getPickedPointPosition</code>. Parameter <code>object</code> can not be null. It is a single object. Parameter <code>point</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_Vector3f_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -375,7 +375,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Cpp/structMR_1_1PointOnObject.html#ae6ddf1f922426da0befb0c18020f6682">MR::PointOnObject::PointOnObject</a></code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa4fc12ac68d602489dff2de27022e06f" title="Destroys a heap-allocated instance of MR_PointOnObject. Does nothing if the pointer is null.">MR_PointOnObject_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::PointOnObject::PointOnObject</code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa4fc12ac68d602489dff2de27022e06f" title="Destroys a heap-allocated instance of MR_PointOnObject. Does nothing if the pointer is null.">MR_PointOnObject_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -393,7 +393,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from conversion operator <code>MR::PointOnObject::operator <a class="elRef" href="../Cpp/structMR_1_1PointOnFace.html">MR::PointOnFace</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPointOnFace_8h.html#aef46133111b54eb9b269689e12cebd5a" title="Destroys a heap-allocated instance of MR_PointOnFace. Does nothing if the pointer is null.">MR_PointOnFace_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from conversion operator <code>MR::PointOnObject::operator MR::PointOnFace</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPointOnFace_8h.html#aef46133111b54eb9b269689e12cebd5a" title="Destroys a heap-allocated instance of MR_PointOnFace. Does nothing if the pointer is null.">MR_PointOnFace_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -485,7 +485,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>3D location on the object in local coordinates Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointOnObject.html">MR::PointOnObject</a></code> named <code>point</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>3D location on the object in local coordinates Returns a pointer to a member variable of class <code>MR::PointOnObject</code> named <code>point</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -503,7 +503,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>z buffer value Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointOnObject.html">MR::PointOnObject</a></code> named <code>zBuffer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>z buffer value Returns a pointer to a member variable of class <code>MR::PointOnObject</code> named <code>zBuffer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -521,7 +521,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>3D location on the object in local coordinates Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointOnObject.html">MR::PointOnObject</a></code> named <code>point</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>3D location on the object in local coordinates Returns a mutable pointer to a member variable of class <code>MR::PointOnObject</code> named <code>point</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -539,7 +539,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>z buffer value Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointOnObject.html">MR::PointOnObject</a></code> named <code>zBuffer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>z buffer value Returns a mutable pointer to a member variable of class <code>MR::PointOnObject</code> named <code>zBuffer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -605,7 +605,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>3D location on the object in local coordinates Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointOnObject.html">MR::PointOnObject</a></code> named <code>point</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>point</code>. When this function is called, this object will drop object references it had previously in <code>point</code>. </p>
+<p>3D location on the object in local coordinates Modifies a member variable of class <code>MR::PointOnObject</code> named <code>point</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>point</code>. When this function is called, this object will drop object references it had previously in <code>point</code>. </p>
 
 </div>
 </div>
@@ -627,7 +627,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>z buffer value Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointOnObject.html">MR::PointOnObject</a></code> named <code>zBuffer</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>zBuffer</code>. </p>
+<p>z buffer value Modifies a member variable of class <code>MR::PointOnObject</code> named <code>zBuffer</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>zBuffer</code>. </p>
 
 </div>
 </div>
@@ -649,7 +649,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Converts PointOnObject coordinates depending on the object type to the PickedPoint variant Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a89a0d173f619c99ee93c0904af771995">MR::pointOnObjectToPickedPoint</a></code>. Parameter <code>pos</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_Destroy()</code> to free it when you're done using it. </p>
+<p>Converts PointOnObject coordinates depending on the object type to the PickedPoint variant Generated from function <code>MR::pointOnObjectToPickedPoint</code>. Parameter <code>pos</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>

@@ -1,10 +1,11 @@
 var classMR_1_1ChangeObjectColorAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangeObjectColorAction.html#a5474abe2fe0d35caaf558c71cb6847d3", null ],
-    [ "Type", "../Cpp/classMR_1_1ChangeObjectColorAction.html#aadf478d3d29a773bd02b96beae263a51", null ],
-    [ "ChangeObjectColorAction", "../Cpp/classMR_1_1ChangeObjectColorAction.html#a0a70aa0463c05950aea6686ecc817d30", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeObjectColorAction.html#afe3b10ca2078780fe08c4e06a3cb8eb3", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeObjectColorAction.html#a8b2119cba575337b8ff6ef6ed838ddad", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeObjectColorAction.html#ada33e7dca54e7e04d9815765bed5fdfe", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangeObjectColorAction.html#ad9d9e4f0637a4624e53532215539aaa9", null ]
+    [ "ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html#a52b89c279f623118bf4fc13e4f082af2", null ],
+    [ "ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html#a5bb10988283b81fba62af16fa217d5b2", null ],
+    [ "ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html#a4c7284fa4fbdf8ce9599f39791e4f038", null ],
+    [ "ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html#a4b06705d9701327dfc2a508e5fdd6991", null ],
+    [ "action", "classMR_1_1ChangeObjectColorAction.html#a1205b93a463ecbdf48d3b77e2b4e9ddd", null ],
+    [ "assign", "classMR_1_1ChangeObjectColorAction.html#a38d2b0b98291fe3fc681f50ca5b214ac", null ],
+    [ "operator ChangeObjectColorAction?", "classMR_1_1ChangeObjectColorAction.html#af20559ea8deddc2284c81b44426ef56c", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeObjectColorAction.html#a79bb045fe70a850380905d3aa61ee4cc", null ]
 ];

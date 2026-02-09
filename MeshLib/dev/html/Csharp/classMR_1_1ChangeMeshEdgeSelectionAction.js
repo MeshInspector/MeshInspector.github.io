@@ -1,11 +1,12 @@
 var classMR_1_1ChangeMeshEdgeSelectionAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangeMeshEdgeSelectionAction.html#a6abc89d21736995bdf8972c00def1b26", null ],
-    [ "ChangeMeshEdgeSelectionAction", "../Cpp/classMR_1_1ChangeMeshEdgeSelectionAction.html#a23e0d32d940cc543ccd81a4b2d55f58a", null ],
-    [ "ChangeMeshEdgeSelectionAction", "../Cpp/classMR_1_1ChangeMeshEdgeSelectionAction.html#a9cce7322e651ade9e044f62b3de92ff6", null ],
-    [ "action", "../Cpp/classMR_1_1ChangeMeshEdgeSelectionAction.html#ac9c2e37493f65f8185015b96da5497a2", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangeMeshEdgeSelectionAction.html#a0943bda0fc9bda571b5de449d3bca979", null ],
-    [ "name", "../Cpp/classMR_1_1ChangeMeshEdgeSelectionAction.html#a59d389a6910ddd51ea9d3a05db2dfcee", null ],
-    [ "selection", "../Cpp/classMR_1_1ChangeMeshEdgeSelectionAction.html#a83696bf7e473dc7c1a58d55fc055d246", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangeMeshEdgeSelectionAction.html#a0c965620f1392c34b40c267beddb2908", null ]
+    [ "ChangeMeshEdgeSelectionAction", "classMR_1_1ChangeMeshEdgeSelectionAction.html#a31d359806339041f958510a09537a8da", null ],
+    [ "ChangeMeshEdgeSelectionAction", "classMR_1_1ChangeMeshEdgeSelectionAction.html#a2abdf5e3dc7864c51b300b36a0d9ddc3", null ],
+    [ "ChangeMeshEdgeSelectionAction", "classMR_1_1ChangeMeshEdgeSelectionAction.html#af7bcc388743a21c455c0964fcf8b5938", null ],
+    [ "ChangeMeshEdgeSelectionAction", "classMR_1_1ChangeMeshEdgeSelectionAction.html#afbb758792dcd12d2715df0a588c5b796", null ],
+    [ "ChangeMeshEdgeSelectionAction", "classMR_1_1ChangeMeshEdgeSelectionAction.html#ae258d1de6d81ace5845d1bf0a61920f5", null ],
+    [ "action", "classMR_1_1ChangeMeshEdgeSelectionAction.html#a4acf78b9d6737bbf5676ab67f78217b7", null ],
+    [ "assign", "classMR_1_1ChangeMeshEdgeSelectionAction.html#abc5e84daad27257241215a9389594b4e", null ],
+    [ "operator ChangeMeshEdgeSelectionAction?", "classMR_1_1ChangeMeshEdgeSelectionAction.html#a618b701faba0c6dfe02f8e101cc16da2", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangeMeshEdgeSelectionAction.html#a315351c36ce4c550ca72315d2bf480e0", null ]
 ];

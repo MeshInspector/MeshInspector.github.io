@@ -1,7 +1,7 @@
 var MRCtm_8h =
 [
-    [ "MR::MeshSave::CtmSaveOptions", "../Csharp/classMR_1_1MeshSave_1_1CtmSaveOptions.html", "classMR_1_1MeshSave_1_1CtmSaveOptions" ],
-    [ "MR::PointsSave::CtmSavePointsOptions", "../Csharp/classMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "classMR_1_1PointsSave_1_1CtmSavePointsOptions" ],
+    [ "MR::MeshSave::CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", "structMR_1_1MeshSave_1_1CtmSaveOptions" ],
+    [ "MR::PointsSave::CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "structMR_1_1PointsSave_1_1CtmSavePointsOptions" ],
     [ "fromCtm", "MRCtm_8h.html#ab8244b145886f1cf25efcd9d04e05901", null ],
     [ "fromCtm", "MRCtm_8h.html#a529ea8e184e964d8d3d75f866acbbfd5", null ],
     [ "fromCtm", "MRCtm_8h.html#a9b59aa67ceb07a2c286623b602b0df14", null ],

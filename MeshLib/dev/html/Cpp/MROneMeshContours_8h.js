@@ -1,9 +1,10 @@
 var MROneMeshContours_8h =
 [
-    [ "MR::SortIntersectionsData", "../Csharp/classMR_1_1SortIntersectionsData.html", "classMR_1_1SortIntersectionsData" ],
-    [ "MR::OneMeshIntersection", "../Csharp/classMR_1_1OneMeshIntersection.html", "classMR_1_1OneMeshIntersection" ],
-    [ "MR::OneMeshContour", "../Csharp/classMR_1_1OneMeshContour.html", "classMR_1_1OneMeshContour" ],
-    [ "MR::SearchPathSettings", "../Csharp/classMR_1_1SearchPathSettings.html", "classMR_1_1SearchPathSettings" ],
+    [ "MR::SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", "structMR_1_1SortIntersectionsData" ],
+    [ "MR::OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", "structMR_1_1OneMeshIntersection" ],
+    [ "MR::OneMeshContour", "structMR_1_1OneMeshContour.html", "structMR_1_1OneMeshContour" ],
+    [ "MR::SearchPathSettings", "structMR_1_1SearchPathSettings.html", "structMR_1_1SearchPathSettings" ],
+    [ "MeshTriPointsConnector", "MROneMeshContours_8h.html#a217b7a3f4fc9168e09f3d423beb790e5", null ],
     [ "convertMeshTriPointsToClosedContour", "MROneMeshContours_8h.html#ga698235aeb90b1a947f95fa76eeb78ff3", null ],
     [ "convertMeshTriPointsToMeshContour", "MROneMeshContours_8h.html#ga33e04ff2f620e99f7bcd23080433c39f", null ],
     [ "convertMeshTriPointsToMeshContour", "MROneMeshContours_8h.html#ga883d13829f7b1336863883d48777b302", null ],

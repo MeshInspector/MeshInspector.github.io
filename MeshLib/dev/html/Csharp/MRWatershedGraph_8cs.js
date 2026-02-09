@@ -8,5 +8,5 @@ var MRWatershedGraph_8cs =
     [ "MR.Const_WatershedGraph.BdInfo", "classMR_1_1Const__WatershedGraph_1_1BdInfo.html", "classMR_1_1Const__WatershedGraph_1_1BdInfo" ],
     [ "MR.Const_WatershedGraph.Const_OverflowPoint", "classMR_1_1Const__WatershedGraph_1_1Const__OverflowPoint.html", "classMR_1_1Const__WatershedGraph_1_1Const__OverflowPoint" ],
     [ "MR.Const_WatershedGraph.OverflowPoint", "classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html", "classMR_1_1Const__WatershedGraph_1_1OverflowPoint" ],
-    [ "MR.WatershedGraph", "../Cpp/classMR_1_1WatershedGraph.html", "classMR_1_1WatershedGraph" ]
+    [ "MR.WatershedGraph", "classMR_1_1WatershedGraph.html", "classMR_1_1WatershedGraph" ]
 ];

@@ -236,7 +236,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a25a67ef52f8bd92bbbc1aaaf37aa7275" id="r_a25a67ef52f8bd92bbbc1aaaf37aa7275"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRDistanceVolumeParams_8h.html#af9c1f01ab3534b48d6b02a0b6c78143e">MR_DistanceVolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25a67ef52f8bd92bbbc1aaaf37aa7275">MR_PointsToDistanceVolumeParams_UpcastTo_MR_DistanceVolumeParams</a> (const <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *object)</td></tr>
 <tr class="separator:a25a67ef52f8bd92bbbc1aaaf37aa7275"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa557db0e8bd14e1c871f1c1a586e95b" id="r_afa557db0e8bd14e1c871f1c1a586e95b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDistanceVolumeParams_8h.html#af9c1f01ab3534b48d6b02a0b6c78143e">MR_DistanceVolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa557db0e8bd14e1c871f1c1a586e95b">MR_PointsToDistanceVolumeParams_MutableUpcastTo_MR_DistanceVolumeParams</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *object)</td></tr>
-<tr class="memdesc:afa557db0e8bd14e1c871f1c1a586e95b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceVolumeParams.html">MR::DistanceVolumeParams</a></code>.  <br /></td></tr>
+<tr class="memdesc:afa557db0e8bd14e1c871f1c1a586e95b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code>MR::PointsToDistanceVolumeParams</code> to its base class <code>MR::DistanceVolumeParams</code>.  <br /></td></tr>
 <tr class="separator:afa557db0e8bd14e1c871f1c1a586e95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a506d8a6c5982a4220b2177e8cef75922" id="r_a506d8a6c5982a4220b2177e8cef75922"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a506d8a6c5982a4220b2177e8cef75922">MR_PointsToDistanceVolumeParams_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_other)</td></tr>
 <tr class="separator:a506d8a6c5982a4220b2177e8cef75922"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -337,7 +337,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1DistanceVolumeParams.html">MR::DistanceVolumeParams</a></code> Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::PointsToDistanceVolumeParams</code>. Base classes: Direct: (non-virtual) <code>MR::DistanceVolumeParams</code> Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -443,7 +443,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">tgtPoints</td><td>some target points </td></tr>
     <tr><td class="paramname">tgtVerts</td><td>mask of valid target points </td></tr>
     <tr><td class="paramname">sigma</td><td>the distance of highest influence of a point </td></tr>
-    <tr><td class="paramname">cb</td><td>progress callback computes the colors in valid target points by averaging the colors from the point cloud Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1746d757b12ddb4f1527a3c3b361ec4c">MR::calcAvgColors</a></code>. Parameter <code>cloud</code> can not be null. It is a single object. Parameter <code>colors</code> can not be null. It is a single object. Parameter <code>tgtPoints</code> can not be null. It is a single object. Parameter <code>tgtVerts</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_VertColors_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">cb</td><td>progress callback computes the colors in valid target points by averaging the colors from the point cloud Generated from function <code>MR::calcAvgColors</code>. Parameter <code>cloud</code> can not be null. It is a single object. Parameter <code>colors</code> can not be null. It is a single object. Parameter <code>tgtPoints</code> can not be null. It is a single object. Parameter <code>tgtVerts</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_VertColors_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -468,7 +468,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>makes FunctionVolume representing signed distances to points with normals Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2a68dc1cf487d20d55f20f536c2dedfc">MR::pointsToDistanceFunctionVolume</a></code>. Parameter <code>cloud</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVoxelsVolume_8h.html#a148acc6ef9eec38ed406af2b65314405" title="Destroys a heap-allocated instance of MR_FunctionVolume. Does nothing if the pointer is null.">MR_FunctionVolume_Destroy()</a></code> to free it when you're done using it. </p>
+<p>makes FunctionVolume representing signed distances to points with normals Generated from function <code>MR::pointsToDistanceFunctionVolume</code>. Parameter <code>cloud</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVoxelsVolume_8h.html#a148acc6ef9eec38ed406af2b65314405" title="Destroys a heap-allocated instance of MR_FunctionVolume. Does nothing if the pointer is null.">MR_FunctionVolume_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -490,7 +490,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>makes SimpleVolume filled with signed distances to points with normals Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a4924b85972ee04b7df75da333d851117">MR::pointsToDistanceVolume</a></code>. Parameter <code>cloud</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_SimpleVolume_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>makes SimpleVolume filled with signed distances to points with normals Generated from function <code>MR::pointsToDistanceVolume</code>. Parameter <code>cloud</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_SimpleVolume_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -539,7 +539,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1PointsToDistanceVolumeParams.html#a614d53054e6698b689f1a4705c57f41e">MR::PointsToDistanceVolumeParams::PointsToDistanceVolumeParams</a></code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6dbe98ad8547f97d4f71099cb47ddfd4" title="Destroys a heap-allocated instance of MR_PointsToDistanceVolumeParams. Does nothing if the pointer is...">MR_PointsToDistanceVolumeParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::PointsToDistanceVolumeParams::PointsToDistanceVolumeParams</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6dbe98ad8547f97d4f71099cb47ddfd4" title="Destroys a heap-allocated instance of MR_PointsToDistanceVolumeParams. Does nothing if the pointer is...">MR_PointsToDistanceVolumeParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -631,7 +631,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>progress callback Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>progress callback Returns a pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -649,7 +649,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>num voxels along each axis Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>dimensions</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>num voxels along each axis Returns a pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>dimensions</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -667,7 +667,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity Returns a pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -685,7 +685,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>origin point of voxels box Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>origin</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>origin point of voxels box Returns a pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>origin</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -703,7 +703,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional input: if this pointer is set then function will use these normals instead of ones present in cloud Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>ptNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional input: if this pointer is set then function will use these normals instead of ones present in cloud Returns a pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>ptNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -721,7 +721,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Returns a pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -739,7 +739,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>size of voxel on each axis Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>size of voxel on each axis Returns a pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -757,7 +757,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>progress callback Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>progress callback Returns a mutable pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -775,7 +775,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>num voxels along each axis Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>dimensions</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>num voxels along each axis Returns a mutable pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>dimensions</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -793,7 +793,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity Returns a mutable pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -811,7 +811,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>origin point of voxels box Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>origin</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>origin point of voxels box Returns a mutable pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>origin</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -829,7 +829,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional input: if this pointer is set then function will use these normals instead of ones present in cloud Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>ptNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional input: if this pointer is set then function will use these normals instead of ones present in cloud Returns a mutable pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>ptNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -847,7 +847,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Returns a mutable pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -865,7 +865,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>size of voxel on each axis Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>size of voxel on each axis Returns a mutable pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -884,7 +884,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceVolumeParams.html">MR::DistanceVolumeParams</a></code>. </p>
+<p>Upcasts an instance of <code>MR::PointsToDistanceVolumeParams</code> to its base class <code>MR::DistanceVolumeParams</code>. </p>
 
 </div>
 </div>
@@ -955,7 +955,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>progress callback Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cb</code>. When this function is called, this object will drop object references it had previously in <code>cb</code>. </p>
+<p>progress callback Modifies a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cb</code>. When this function is called, this object will drop object references it had previously in <code>cb</code>. </p>
 
 </div>
 </div>
@@ -977,7 +977,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>num voxels along each axis Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>dimensions</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>dimensions</code>. When this function is called, this object will drop object references it had previously in <code>dimensions</code>. </p>
+<p>num voxels along each axis Modifies a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>dimensions</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>dimensions</code>. When this function is called, this object will drop object references it had previously in <code>dimensions</code>. </p>
 
 </div>
 </div>
@@ -999,7 +999,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>minWeight</code>. </p>
+<p>minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity Modifies a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>minWeight</code>. </p>
 
 </div>
 </div>
@@ -1021,7 +1021,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>origin point of voxels box Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>origin</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>origin</code>. When this function is called, this object will drop object references it had previously in <code>origin</code>. </p>
+<p>origin point of voxels box Modifies a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>origin</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>origin</code>. When this function is called, this object will drop object references it had previously in <code>origin</code>. </p>
 
 </div>
 </div>
@@ -1043,7 +1043,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional input: if this pointer is set then function will use these normals instead of ones present in cloud Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>ptNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>ptNormals</code>. When this function is called, this object will drop object references it had previously in <code>ptNormals</code>. </p>
+<p>optional input: if this pointer is set then function will use these normals instead of ones present in cloud Modifies a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>ptNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>ptNormals</code>. When this function is called, this object will drop object references it had previously in <code>ptNormals</code>. </p>
 
 </div>
 </div>
@@ -1065,7 +1065,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>sigma</code>. </p>
+<p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Modifies a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>sigma</code>. </p>
 
 </div>
 </div>
@@ -1087,7 +1087,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>size of voxel on each axis Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>voxelSize</code>. When this function is called, this object will drop object references it had previously in <code>voxelSize</code>. </p>
+<p>size of voxel on each axis Modifies a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>voxelSize</code>. When this function is called, this object will drop object references it had previously in <code>voxelSize</code>. </p>
 
 </div>
 </div>
@@ -1105,7 +1105,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1DistanceVolumeParams.html">MR::DistanceVolumeParams</a></code>. This version is acting on mutable pointers. </p>
+<p>Upcasts an instance of <code>MR::PointsToDistanceVolumeParams</code> to its base class <code>MR::DistanceVolumeParams</code>. This version is acting on mutable pointers. </p>
 
 </div>
 </div>

@@ -1,9 +1,11 @@
 var classMR_1_1ChangePolylinePointsAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangePolylinePointsAction.html#a304a69e07ee11c1bf44b60b2c38a8f12", null ],
-    [ "ChangePolylinePointsAction", "../Cpp/classMR_1_1ChangePolylinePointsAction.html#a506a1c3421dec57c85ee978ba69a0591", null ],
-    [ "action", "../Cpp/classMR_1_1ChangePolylinePointsAction.html#a4524618733bcefbd17c242f49c3112e1", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangePolylinePointsAction.html#a63e6b7f8c45895a7781661ac76232a24", null ],
-    [ "name", "../Cpp/classMR_1_1ChangePolylinePointsAction.html#ae04072e7453616bbbf69ed34589627f2", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangePolylinePointsAction.html#ad636c1bfa5ed82b1499e558d3c5903bf", null ]
+    [ "ChangePolylinePointsAction", "classMR_1_1ChangePolylinePointsAction.html#a5962de762f36f785b428e2ff48a8c4b7", null ],
+    [ "ChangePolylinePointsAction", "classMR_1_1ChangePolylinePointsAction.html#ade6d73dbb8cbe99f25a3771cf1018374", null ],
+    [ "ChangePolylinePointsAction", "classMR_1_1ChangePolylinePointsAction.html#ab6a73882f83cde6b0e0ba918ad62127c", null ],
+    [ "ChangePolylinePointsAction", "classMR_1_1ChangePolylinePointsAction.html#aee038ce52a0d541c465d01e50ddb899b", null ],
+    [ "action", "classMR_1_1ChangePolylinePointsAction.html#a4f7d7e5b62810fd511e9e1d32ceb1200", null ],
+    [ "assign", "classMR_1_1ChangePolylinePointsAction.html#aa45539cbca541218cebbf29d9b7a1a63", null ],
+    [ "operator ChangePolylinePointsAction?", "classMR_1_1ChangePolylinePointsAction.html#a058ff8630a457c84f319694838985ae6", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangePolylinePointsAction.html#a4b4211106146431c15e6d5ae6499f533", null ]
 ];

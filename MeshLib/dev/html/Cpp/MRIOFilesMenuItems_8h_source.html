@@ -161,7 +161,7 @@ $(function(){initNavTree('MRIOFilesMenuItems_8h_source.html',''); initResizable(
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">using </span>FileNamesStack = std::vector&lt;std::filesystem::path&gt;;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="namespaceMR.html#abf9e7451b5087b4485b6207161438dc3">   14</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#abf9e7451b5087b4485b6207161438dc3">FileNamesStack</a> = std::vector&lt;std::filesystem::path&gt;;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1OpenDirectoryMenuItem.html">   16</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1OpenDirectoryMenuItem.html">OpenDirectoryMenuItem</a> : <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a></div>
@@ -191,14 +191,14 @@ $(function(){initNavTree('MRIOFilesMenuItems_8h_source.html',''); initResizable(
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> preDraw_() <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">bool</span> dragging_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a> dragPos_;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    Vector2i dragPos_;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">void</span> parseLaunchParams_();</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> setupListUpdate_();</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    boost::signals2::scoped_connection recentStoreConnection_;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    FileNamesStack recentPathsCache_;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    IOFilters filters_;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_typedef" href="namespaceMR.html#abf9e7451b5087b4485b6207161438dc3">FileNamesStack</a> recentPathsCache_;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a> filters_;</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    std::shared_ptr&lt;OpenDirectoryMenuItem&gt; openDirectoryItem_;</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>};</div>
 </div>
@@ -257,14 +257,14 @@ $(function(){initNavTree('MRIOFilesMenuItems_8h_source.html',''); initResizable(
 </div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
 <div class="foldopen" id="foldopen00095" data-start="{" data-end="};">
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="classMR_1_1CaptureScreenshotMenuItem.html">   95</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1CaptureScreenshotMenuItem.html">CaptureScreenshotMenuItem</a> : <span class="keyword">public</span> StatePlugin</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="classMR_1_1CaptureScreenshotMenuItem.html">   95</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1CaptureScreenshotMenuItem.html">CaptureScreenshotMenuItem</a> : <span class="keyword">public</span> <a class="code hl_class" href="classMR_1_1StateListenerPlugin.html">StatePlugin</a></div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>{</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="classMR_1_1CaptureScreenshotMenuItem.html#a6e4d5abb53a5914e552419d36d08880c">   98</a></span>    <a class="code hl_function" href="classMR_1_1CaptureScreenshotMenuItem.html#a6e4d5abb53a5914e552419d36d08880c">CaptureScreenshotMenuItem</a>();</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="classMR_1_1CaptureScreenshotMenuItem.html#a4a5e3c289d1d3b62a2a24aa4ff792400">   99</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1CaptureScreenshotMenuItem.html#a4a5e3c289d1d3b62a2a24aa4ff792400">drawDialog</a>( ImGuiContext* ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="classMR_1_1CaptureScreenshotMenuItem.html#ac4b0cdb8632f4960672d36407fae15e8">  100</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1CaptureScreenshotMenuItem.html#ac4b0cdb8632f4960672d36407fae15e8">blocking</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <a class="code hl_structRef" href="../Csharp/structMR_1_1Vector2i.html">Vector2i</a> resolution_;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    Vector2i resolution_;</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordtype">bool</span> transparentBg_{ <span class="keyword">true</span> };</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>};</div>
 </div>
@@ -297,7 +297,7 @@ $(function(){initNavTree('MRIOFilesMenuItems_8h_source.html',''); initResizable(
 <div class="ttc" id="aclassMR_1_1CaptureScreenshotMenuItem_html"><div class="ttname"><a href="classMR_1_1CaptureScreenshotMenuItem.html">MR::CaptureScreenshotMenuItem</a></div><div class="ttdef"><b>Definition</b> MRIOFilesMenuItems.h:96</div></div>
 <div class="ttc" id="aclassMR_1_1CaptureScreenshotMenuItem_html_a4a5e3c289d1d3b62a2a24aa4ff792400"><div class="ttname"><a href="classMR_1_1CaptureScreenshotMenuItem.html#a4a5e3c289d1d3b62a2a24aa4ff792400">MR::CaptureScreenshotMenuItem::drawDialog</a></div><div class="ttdeci">virtual void drawDialog(ImGuiContext *) override</div></div>
 <div class="ttc" id="aclassMR_1_1CaptureScreenshotMenuItem_html_a6e4d5abb53a5914e552419d36d08880c"><div class="ttname"><a href="classMR_1_1CaptureScreenshotMenuItem.html#a6e4d5abb53a5914e552419d36d08880c">MR::CaptureScreenshotMenuItem::CaptureScreenshotMenuItem</a></div><div class="ttdeci">CaptureScreenshotMenuItem()</div></div>
-<div class="ttc" id="aclassMR_1_1CaptureScreenshotMenuItem_html_ac4b0cdb8632f4960672d36407fae15e8"><div class="ttname"><a href="classMR_1_1CaptureScreenshotMenuItem.html#ac4b0cdb8632f4960672d36407fae15e8">MR::CaptureScreenshotMenuItem::blocking</a></div><div class="ttdeci">virtual bool blocking() const override</div><div class="ttdef"><b>Definition</b> MRIOFilesMenuItems.h:100</div></div>
+<div class="ttc" id="aclassMR_1_1CaptureScreenshotMenuItem_html_ac4b0cdb8632f4960672d36407fae15e8"><div class="ttname"><a href="classMR_1_1CaptureScreenshotMenuItem.html#ac4b0cdb8632f4960672d36407fae15e8">MR::CaptureScreenshotMenuItem::blocking</a></div><div class="ttdeci">virtual bool blocking() const override</div><div class="ttdoc">true if this item is blocking (only one blocking item can be active at once)</div><div class="ttdef"><b>Definition</b> MRIOFilesMenuItems.h:100</div></div>
 <div class="ttc" id="aclassMR_1_1CaptureScreenshotToClipBoardMenuItem_html"><div class="ttname"><a href="classMR_1_1CaptureScreenshotToClipBoardMenuItem.html">MR::CaptureScreenshotToClipBoardMenuItem</a></div><div class="ttdef"><b>Definition</b> MRIOFilesMenuItems.h:114</div></div>
 <div class="ttc" id="aclassMR_1_1CaptureScreenshotToClipBoardMenuItem_html_a5bf6d6d25422d614449691f27a8415d0"><div class="ttname"><a href="classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#a5bf6d6d25422d614449691f27a8415d0">MR::CaptureScreenshotToClipBoardMenuItem::CaptureScreenshotToClipBoardMenuItem</a></div><div class="ttdeci">CaptureScreenshotToClipBoardMenuItem()</div></div>
 <div class="ttc" id="aclassMR_1_1CaptureScreenshotToClipBoardMenuItem_html_aa9768034e77b25ffed92bf08fbe11321"><div class="ttname"><a href="classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321">MR::CaptureScreenshotToClipBoardMenuItem::action</a></div><div class="ttdeci">virtual bool action() override</div><div class="ttdoc">returns true if state of item changed</div></div>
@@ -337,9 +337,11 @@ $(function(){initNavTree('MRIOFilesMenuItems_8h_source.html',''); initResizable(
 <div class="ttc" id="aclassMR_1_1SaveSelectedMenuItem_html_a6d15c06c36d6e528959fddab3548be2c"><div class="ttname"><a href="classMR_1_1SaveSelectedMenuItem.html#a6d15c06c36d6e528959fddab3548be2c">MR::SaveSelectedMenuItem::SaveSelectedMenuItem</a></div><div class="ttdeci">SaveSelectedMenuItem()</div></div>
 <div class="ttc" id="aclassMR_1_1SaveSelectedMenuItem_html_ad064ea5ca7d0f438dae71e8a7ec7446c"><div class="ttname"><a href="classMR_1_1SaveSelectedMenuItem.html#ad064ea5ca7d0f438dae71e8a7ec7446c">MR::SaveSelectedMenuItem::action</a></div><div class="ttdeci">virtual bool action() override</div><div class="ttdoc">returns true if state of item changed</div></div>
 <div class="ttc" id="aclassMR_1_1SceneStateAtLeastCheck_html"><div class="ttname"><a href="classMR_1_1SceneStateAtLeastCheck.html">MR::SceneStateAtLeastCheck</a></div><div class="ttdoc">checks that given vector has at least N objects if type ObjectT</div><div class="ttdef"><b>Definition</b> MRSceneStateCheck.h:122</div></div>
+<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition</b> MRViewerFwd.h:71</div></div>
+<div class="ttc" id="agroup__IOFiltersGroup_html_ga6e5e24c14d4909fcad8aa5fab54d047b"><div class="ttname"><a href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">MR::IOFilters</a></div><div class="ttdeci">std::vector&lt; IOFilter &gt; IOFilters</div><div class="ttdef"><b>Definition</b> MRIOFilters.h:32</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_abf9e7451b5087b4485b6207161438dc3"><div class="ttname"><a href="namespaceMR.html#abf9e7451b5087b4485b6207161438dc3">MR::FileNamesStack</a></div><div class="ttdeci">std::vector&lt; std::filesystem::path &gt; FileNamesStack</div><div class="ttdef"><b>Definition</b> MRIOFilesMenuItems.h:14</div></div>
 <div class="ttc" id="astructMR_1_1MultiListener_html"><div class="ttname"><a href="structMR_1_1MultiListener.html">MR::MultiListener</a></div><div class="ttdef"><b>Definition</b> MRViewerEventsListener.h:29</div></div>
-<div class="ttc" id="astructMR_1_1Vector2i_html"><div class="ttname"><a href="../Csharp/structMR_1_1Vector2i.html">MR::Vector2i</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

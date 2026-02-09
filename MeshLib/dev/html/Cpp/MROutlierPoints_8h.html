@@ -148,6 +148,7 @@ $(function(){initNavTree('MROutlierPoints_8h.html',''); initResizable(true); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MROutlierPoints.h File Reference</div></div>
 </div><!--header-->
@@ -163,13 +164,13 @@ $(function(){initNavTree('MROutlierPoints_8h.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1OutlierParams.html">MR::OutlierParams</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters of various criteria for detecting outlier points. <br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1OutlierParams.html">MR::OutlierParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters of various criteria for detecting outlier points.  <a href="structMR_1_1OutlierParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1OutliersDetector.html">MR::OutliersDetector</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1OutliersDetector.html">MR::OutliersDetector</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1FindOutliersParams.html">MR::FindOutliersParams</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outlier point search parameters. <br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FindOutliersParams.html">MR::FindOutliersParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outlier point search parameters.  <a href="structMR_1_1FindOutliersParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -178,9 +179,23 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ab8659c12eb8fa6618f154566efce6146" id="r_ab8659c12eb8fa6618f154566efce6146"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab8659c12eb8fa6618f154566efce6146">MR::OutlierTypeMask</a> { <br />
+&#160;&#160;<a class="el" href="namespaceMR.html#ab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f">MR::SmallComponents</a> = 1 &lt;&lt; 0
+, <a class="el" href="namespaceMR.html#ab8659c12eb8fa6618f154566efce6146a4d9d1029f8af05810e4083fd45317066">MR::WeaklyConnected</a> = 1 &lt;&lt; 1
+, <a class="el" href="namespaceMR.html#ab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40">MR::FarSurface</a> = 1 &lt;&lt; 2
+, <a class="el" href="namespaceMR.html#ab8659c12eb8fa6618f154566efce6146a477bfe07550f78a628456c08c5871584">MR::AwayNormal</a> = 1 &lt;&lt; 3
+, <br />
+&#160;&#160;<a class="el" href="namespaceMR.html#ab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680">MR::All</a> = SmallComponents | WeaklyConnected | FarSurface | AwayNormal
+<br />
+ }</td></tr>
+<tr class="memdesc:ab8659c12eb8fa6618f154566efce6146"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of outlier points.  <a href="namespaceMR.html#ab8659c12eb8fa6618f154566efce6146">More...</a><br /></td></tr>
+<tr class="separator:ab8659c12eb8fa6618f154566efce6146"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a83c915f7d70a05ed28c1dbf2186f4b17" id="r_a83c915f7d70a05ed28c1dbf2186f4b17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt; <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a83c915f7d70a05ed28c1dbf2186f4b17">MR::findOutliers</a> (const <a class="elRef" href="../Csharp/classMR_1_1PointCloud.html">PointCloud</a> &amp;pc, const <a class="elRef" href="../Csharp/classMR_1_1FindOutliersParams.html">FindOutliersParams</a> &amp;params)</td></tr>
+<tr class="memitem:a83c915f7d70a05ed28c1dbf2186f4b17" id="r_a83c915f7d70a05ed28c1dbf2186f4b17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a83c915f7d70a05ed28c1dbf2186f4b17">MR::findOutliers</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, const <a class="el" href="structMR_1_1FindOutliersParams.html">FindOutliersParams</a> &amp;params)</td></tr>
 <tr class="memdesc:a83c915f7d70a05ed28c1dbf2186f4b17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finding outlier points.  <br /></td></tr>
 <tr class="separator:a83c915f7d70a05ed28c1dbf2186f4b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>

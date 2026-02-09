@@ -1,7 +1,7 @@
 var MRAlignContoursToMesh_8h =
 [
-    [ "MR::ContoursMeshAlignParams", "../Csharp/classMR_1_1ContoursMeshAlignParams.html", "classMR_1_1ContoursMeshAlignParams" ],
-    [ "MR::BendContoursAlongCurveParams", "../Csharp/classMR_1_1BendContoursAlongCurveParams.html", "classMR_1_1BendContoursAlongCurveParams" ],
+    [ "MR::ContoursMeshAlignParams", "structMR_1_1ContoursMeshAlignParams.html", "structMR_1_1ContoursMeshAlignParams" ],
+    [ "MR::BendContoursAlongCurveParams", "structMR_1_1BendContoursAlongCurveParams.html", "structMR_1_1BendContoursAlongCurveParams" ],
     [ "addBaseToPlanarMesh", "MRAlignContoursToMesh_8h.html#a3289f6374ed80e5ac6467f5029cbc89d", null ],
     [ "alignContoursToMesh", "MRAlignContoursToMesh_8h.html#a5d85bb6696e4f27accbd2e795fadb536", null ],
     [ "bendContoursAlongCurve", "MRAlignContoursToMesh_8h.html#a4051b010ed3a3f630d30f6c37ca8133f", null ],

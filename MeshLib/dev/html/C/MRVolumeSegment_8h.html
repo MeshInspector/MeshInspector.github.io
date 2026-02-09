@@ -402,7 +402,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Parameters for volume segmentation. </p>
-<dl class="section see"><dt>See also</dt><dd>segmentVolume Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeSegmentationParameters.html">MR::VolumeSegmentationParameters</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>segmentVolume Generated from class <code>MR::VolumeSegmentationParameters</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </dd></dl>
 
 </div>
 </div>
@@ -437,7 +437,7 @@ Before (b)</div></div>
 After</div></div>
   </td></tr>
 </table>
-<p>Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1VolumeSegmenter.html">MR::VolumeSegmenter</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::VolumeSegmenter</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -526,7 +526,7 @@ After</div></div>
 <p>Creates mesh from voxels mask. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">mask</td><td>in space of whole volume density inside mask is expected to be higher then outside Generated from function <code><a class="elRef" href="../Cpp/group__VolumeSegmentationGroup.html#ga67be2b8fd2ef849261f668ee98abfcc5">MR::meshFromVoxelsMask</a></code>. Parameter <code>volume</code> can not be null. It is a single object. Parameter <code>mask</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">mask</td><td>in space of whole volume density inside mask is expected to be higher then outside Generated from function <code>MR::meshFromVoxelsMask</code>. Parameter <code>volume</code> can not be null. It is a single object. Parameter <code>mask</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -565,7 +565,7 @@ After</div></div>
 </li>
 <li>Mark volume part edges as outside part seeds <br  />
 </li>
-<li>Return mesh from segmented inside part Generated from function <code><a class="elRef" href="../Cpp/group__VolumeSegmentationGroup.html#gad44e7dfa9a22ec4a0c94232c1791b7d2">MR::segmentVolume</a></code>. Parameter <code>volume</code> can not be null. It is a single object. Parameter <code>pairs</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code><a class="elRef" href="../Cpp/structMR_1_1VolumeSegmentationParameters.html">MR::VolumeSegmentationParameters()</a></code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </li>
+<li>Return mesh from segmented inside part Generated from function <code>MR::segmentVolume</code>. Parameter <code>volume</code> can not be null. It is a single object. Parameter <code>pairs</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>MR::VolumeSegmentationParameters()</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </li>
 </ol>
 
 </div>
@@ -600,7 +600,7 @@ After</div></div>
 </div><div class="memdoc">
 <p>Given voxel mask, separate it into components using mincut algorithm </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">minSize</td><td>Minimum size of a segment (in voxels) Generated from function <code><a class="elRef" href="../Cpp/group__VolumeSegmentationGroup.html#ga5d17b05296307303570bd202a858ec1a">MR::segmentVoxelMaskToInstances</a></code>. Parameter <code>mask</code> can not be null. It is a single object. Parameter <code>minSize</code> has a default argument: <code>100</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_vector_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">minSize</td><td>Minimum size of a segment (in voxels) Generated from function <code>MR::segmentVoxelMaskToInstances</code>. Parameter <code>mask</code> can not be null. It is a single object. Parameter <code>minSize</code> has a default argument: <code>100</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_vector_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -652,7 +652,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1VolumeSegmentationParameters.html">MR::VolumeSegmentationParameters</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adab0e4ae4ccbc0a2d4838dda6d1ecec2" title="Destroys a heap-allocated instance of MR_VolumeSegmentationParameters. Does nothing if the pointer is...">MR_VolumeSegmentationParameters_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::VolumeSegmentationParameters</code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adab0e4ae4ccbc0a2d4838dda6d1ecec2" title="Destroys a heap-allocated instance of MR_VolumeSegmentationParameters. Does nothing if the pointer is...">MR_VolumeSegmentationParameters_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -670,7 +670,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1VolumeSegmentationParameters.html#ac5d32997b3f626808fc0dff68bd9f7fa">MR::VolumeSegmentationParameters::VolumeSegmentationParameters</a></code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adab0e4ae4ccbc0a2d4838dda6d1ecec2" title="Destroys a heap-allocated instance of MR_VolumeSegmentationParameters. Does nothing if the pointer is...">MR_VolumeSegmentationParameters_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::VolumeSegmentationParameters::VolumeSegmentationParameters</code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adab0e4ae4ccbc0a2d4838dda6d1ecec2" title="Destroys a heap-allocated instance of MR_VolumeSegmentationParameters. Does nothing if the pointer is...">MR_VolumeSegmentationParameters_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -762,7 +762,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeSegmentationParameters.html">MR::VolumeSegmentationParameters</a></code> named <code>buildPathExponentModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed) Returns a pointer to a member variable of class <code>MR::VolumeSegmentationParameters</code> named <code>buildPathExponentModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -780,7 +780,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeSegmentationParameters.html">MR::VolumeSegmentationParameters</a></code> named <code>segmentationExponentModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut) Returns a pointer to a member variable of class <code>MR::VolumeSegmentationParameters</code> named <code>segmentationExponentModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -798,7 +798,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeSegmentationParameters.html">MR::VolumeSegmentationParameters</a></code> named <code>voxelsExpansion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part) Returns a pointer to a member variable of class <code>MR::VolumeSegmentationParameters</code> named <code>voxelsExpansion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -816,7 +816,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeSegmentationParameters.html">MR::VolumeSegmentationParameters</a></code> named <code>buildPathExponentModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed) Returns a mutable pointer to a member variable of class <code>MR::VolumeSegmentationParameters</code> named <code>buildPathExponentModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -834,7 +834,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeSegmentationParameters.html">MR::VolumeSegmentationParameters</a></code> named <code>segmentationExponentModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut) Returns a mutable pointer to a member variable of class <code>MR::VolumeSegmentationParameters</code> named <code>segmentationExponentModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -852,7 +852,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeSegmentationParameters.html">MR::VolumeSegmentationParameters</a></code> named <code>voxelsExpansion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part) Returns a mutable pointer to a member variable of class <code>MR::VolumeSegmentationParameters</code> named <code>voxelsExpansion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -918,7 +918,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeSegmentationParameters.html">MR::VolumeSegmentationParameters</a></code> named <code>buildPathExponentModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>buildPathExponentModifier</code>. </p>
+<p>Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed) Modifies a member variable of class <code>MR::VolumeSegmentationParameters</code> named <code>buildPathExponentModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>buildPathExponentModifier</code>. </p>
 
 </div>
 </div>
@@ -940,7 +940,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeSegmentationParameters.html">MR::VolumeSegmentationParameters</a></code> named <code>segmentationExponentModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>segmentationExponentModifier</code>. </p>
+<p>Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut) Modifies a member variable of class <code>MR::VolumeSegmentationParameters</code> named <code>segmentationExponentModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>segmentationExponentModifier</code>. </p>
 
 </div>
 </div>
@@ -962,7 +962,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeSegmentationParameters.html">MR::VolumeSegmentationParameters</a></code> named <code>voxelsExpansion</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>voxelsExpansion</code>. </p>
+<p>Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part) Modifies a member variable of class <code>MR::VolumeSegmentationParameters</code> named <code>voxelsExpansion</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>voxelsExpansion</code>. </p>
 
 </div>
 </div>
@@ -994,7 +994,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Builds path with given parameters, marks result as seedType seeds Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VolumeSegmenter.html#aeee33a2e1bd2471294daeaa604369631">MR::VolumeSegmenter::addPathSeeds</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>metricParameters</code> can not be null. It is a single object. Parameter <code>exponentModifier</code> has a default argument: <code>-1.0f</code>, pass a null pointer to use it. </p>
+<p>Builds path with given parameters, marks result as seedType seeds Generated from method <code>MR::VolumeSegmenter::addPathSeeds</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>metricParameters</code> can not be null. It is a single object. Parameter <code>exponentModifier</code> has a default argument: <code>-1.0f</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1021,7 +1021,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds new seeds to stored Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VolumeSegmenter.html#a6b0600fe25a2fbc95527fe3b999ef9d0">MR::VolumeSegmenter::addSeeds</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>seeds</code> can not be null. It is a single object. </p>
+<p>Adds new seeds to stored Generated from method <code>MR::VolumeSegmenter::addSeeds</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>seeds</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1039,7 +1039,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1VolumeSegmenter.html#ab7609ff9b44fa7139370e8384ef35ced">MR::VolumeSegmenter::VolumeSegmenter</a></code>. Parameter <code>volume</code> can not be null. It is a single object. The reference to the parameter <code>volume</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7c87ff99d1b14ea8a13a5ab9d63ecf1b" title="Destroys a heap-allocated instance of MR_VolumeSegmenter. Does nothing if the pointer is null.">MR_VolumeSegmenter_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::VolumeSegmenter::VolumeSegmenter</code>. Parameter <code>volume</code> can not be null. It is a single object. The reference to the parameter <code>volume</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7c87ff99d1b14ea8a13a5ab9d63ecf1b" title="Destroys a heap-allocated instance of MR_VolumeSegmenter. Does nothing if the pointer is null.">MR_VolumeSegmenter_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1061,7 +1061,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Cpp/classMR_1_1VolumeSegmenter.html#ab7609ff9b44fa7139370e8384ef35ced">MR::VolumeSegmenter::VolumeSegmenter</a></code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7c87ff99d1b14ea8a13a5ab9d63ecf1b" title="Destroys a heap-allocated instance of MR_VolumeSegmenter. Does nothing if the pointer is null.">MR_VolumeSegmenter_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::VolumeSegmenter::VolumeSegmenter</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7c87ff99d1b14ea8a13a5ab9d63ecf1b" title="Destroys a heap-allocated instance of MR_VolumeSegmenter. Does nothing if the pointer is null.">MR_VolumeSegmenter_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1083,7 +1083,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns mesh of given segment Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VolumeSegmenter.html#a1afe2c227ee25b71b24c84a7697afdf6">MR::VolumeSegmenter::createMeshFromSegmentation</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>segmentation</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>Returns mesh of given segment Generated from method <code>MR::VolumeSegmenter::createMeshFromSegmentation</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>segmentation</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_Mesh_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1139,7 +1139,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Min voxel of volume part box in whole volume space, filled after segmentation Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VolumeSegmenter.html#a2e6d2f06d40f3437e049a6e4b9846a61">MR::VolumeSegmenter::getMinVoxel</a></code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Min voxel of volume part box in whole volume space, filled after segmentation Generated from method <code>MR::VolumeSegmenter::getMinVoxel</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1161,7 +1161,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Return currently stored seeds Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VolumeSegmenter.html#ad6047f29bf52a2e1859c00880382c6f0">MR::VolumeSegmenter::getSeeds</a></code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Return currently stored seeds Generated from method <code>MR::VolumeSegmenter::getSeeds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1179,7 +1179,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Dimensions of volume part, filled after segmentation Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VolumeSegmenter.html#a48cec84248c8d9ec9a256f05a574add6">MR::VolumeSegmenter::getVolumePartDimensions</a></code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Dimensions of volume part, filled after segmentation Generated from method <code>MR::VolumeSegmenter::getVolumePartDimensions</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1260,7 +1260,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart) Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VolumeSegmenter.html#a0cc8f6e40de564a414a9929ff63d5f9a">MR::VolumeSegmenter::segmentVolume</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>segmentationExponentModifier</code> has a default argument: <code>3000.0f</code>, pass a null pointer to use it. Parameter <code>voxelsExpansion</code> has a default argument: <code>25</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_VoxelBitSet_std_string_Destroy()</code> to free it when you're done using it. </p>
+<p>Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart) Generated from method <code>MR::VolumeSegmenter::segmentVolume</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>segmentationExponentModifier</code> has a default argument: <code>3000.0f</code>, pass a null pointer to use it. Parameter <code>voxelsExpansion</code> has a default argument: <code>25</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_MR_VoxelBitSet_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1287,7 +1287,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Reset seeds with given ones Generated from method <code><a class="elRef" href="../Cpp/classMR_1_1VolumeSegmenter.html#a8accea0d8e4c056fb387513d10d41640">MR::VolumeSegmenter::setSeeds</a></code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>seeds</code> can not be null. It is a single object. </p>
+<p>Reset seeds with given ones Generated from method <code>MR::VolumeSegmenter::setSeeds</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>seeds</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

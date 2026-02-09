@@ -1,8 +1,10 @@
 var MRRingIterator_8h =
 [
     [ "MR::RingIterator< N >", "classMR_1_1RingIterator.html", "classMR_1_1RingIterator" ],
-    [ "MR::NextEdgeSameOrigin", "../Csharp/classMR_1_1NextEdgeSameOrigin.html", "classMR_1_1NextEdgeSameOrigin" ],
-    [ "MR::NextEdgeSameLeft", "../Csharp/classMR_1_1NextEdgeSameLeft.html", "classMR_1_1NextEdgeSameLeft" ],
+    [ "MR::NextEdgeSameOrigin", "classMR_1_1NextEdgeSameOrigin.html", "classMR_1_1NextEdgeSameOrigin" ],
+    [ "MR::NextEdgeSameLeft", "classMR_1_1NextEdgeSameLeft.html", "classMR_1_1NextEdgeSameLeft" ],
+    [ "LeftRingIterator", "MRRingIterator_8h.html#ad2baece747803d447531075a0e80a2c3", null ],
+    [ "OrgRingIterator", "MRRingIterator_8h.html#a1ba9e876bd033bc6803332bb875ee138", null ],
     [ "leftRing", "MRRingIterator_8h.html#ab1ba9bf4b9468525f62bc98e2160eb1f", null ],
     [ "leftRing", "MRRingIterator_8h.html#aa10e8c70214e043065a204ed41c35dd3", null ],
     [ "leftRing0", "MRRingIterator_8h.html#a649c474104e7af19340b277ad9328dfb", null ],

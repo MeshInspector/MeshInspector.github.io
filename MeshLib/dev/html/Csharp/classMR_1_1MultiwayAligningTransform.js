@@ -1,17 +1,13 @@
 var classMR_1_1MultiwayAligningTransform =
 [
-    [ "Stabilizer", "../Cpp/structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html", "structMR_1_1MultiwayAligningTransform_1_1Stabilizer" ],
-    [ "MultiwayAligningTransform", "../Cpp/classMR_1_1MultiwayAligningTransform.html#a41247022db4941f568025a641398d0b8", null ],
-    [ "MultiwayAligningTransform", "../Cpp/classMR_1_1MultiwayAligningTransform.html#a6d91b7804a0259ee9b021e2b87898f83", null ],
-    [ "MultiwayAligningTransform", "../Cpp/classMR_1_1MultiwayAligningTransform.html#ae9a3702a5e0dc2a2a5f9665fd886be0a", null ],
-    [ "~MultiwayAligningTransform", "../Cpp/classMR_1_1MultiwayAligningTransform.html#a75f76046bba7a35ce1c2396c72b47aa8", null ],
-    [ "add", "../Cpp/classMR_1_1MultiwayAligningTransform.html#a339777c7114ede92149acc8c703508d0", null ],
-    [ "add", "../Cpp/classMR_1_1MultiwayAligningTransform.html#a3e485b9e92d58d482847c3dc90afcc8d", null ],
-    [ "add", "../Cpp/classMR_1_1MultiwayAligningTransform.html#ae6740604d1fa635862343a99d6cb5d7e", null ],
-    [ "add", "../Cpp/classMR_1_1MultiwayAligningTransform.html#a1efd4fe910e9f4f9f64b14d2fd1929d4", null ],
-    [ "add", "../Cpp/classMR_1_1MultiwayAligningTransform.html#ac35d132681b885e39cbfa56ee9f11eb0", null ],
-    [ "operator=", "../Cpp/classMR_1_1MultiwayAligningTransform.html#aa7eedfd31142740a16443cbea7089534", null ],
-    [ "reset", "../Cpp/classMR_1_1MultiwayAligningTransform.html#aa867c2ead76afd490b8d287b98ac0ca4", null ],
-    [ "solve", "../Cpp/classMR_1_1MultiwayAligningTransform.html#a3e5b35fce7e3307e85f2dbf172d70b17", null ],
-    [ "solve", "../Cpp/classMR_1_1MultiwayAligningTransform.html#aff88b77e742b2e4c2aad5013dfa2c4c2", null ]
+    [ "MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#aa2b99b5d907960b5b34fba8d76149b49", null ],
+    [ "MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#ab073ab7194d384fdb5a121bc40285553", null ],
+    [ "MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#a724d243960a8c6a4c37c0b7a6f1a31f2", null ],
+    [ "add", "classMR_1_1MultiwayAligningTransform.html#a9e36e5b4797251ca0103b624ac6da2af", null ],
+    [ "add", "classMR_1_1MultiwayAligningTransform.html#a7c5495d2131d1b7c4b39b1ff6e33b551", null ],
+    [ "add", "classMR_1_1MultiwayAligningTransform.html#ac5973d1e6fcb741d9f8229fbcbf3ff02", null ],
+    [ "add", "classMR_1_1MultiwayAligningTransform.html#ac5c0c090a30d9fdf26aed6cc4cf463e8", null ],
+    [ "add", "classMR_1_1MultiwayAligningTransform.html#affdf594eec081c760ced017d90a355a6", null ],
+    [ "assign", "classMR_1_1MultiwayAligningTransform.html#a5ba0d7c7748b3b4dc9b46c8dfb98044d", null ],
+    [ "reset", "classMR_1_1MultiwayAligningTransform.html#a04e34a18ec037af60d1289048c7b0b04", null ]
 ];

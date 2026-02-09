@@ -1,8 +1,8 @@
 var MRFeatures_8h =
 [
-    [ "MR::Features::Primitives::Plane", "../Csharp/classMR_1_1Features_1_1Primitives_1_1Plane.html", "classMR_1_1Features_1_1Primitives_1_1Plane" ],
-    [ "MR::Features::Primitives::ConeSegment", "../Csharp/classMR_1_1Features_1_1Primitives_1_1ConeSegment.html", "classMR_1_1Features_1_1Primitives_1_1ConeSegment" ],
-    [ "MR::Features::MeasureResult", "../Csharp/classMR_1_1Features_1_1MeasureResult.html", "classMR_1_1Features_1_1MeasureResult" ],
+    [ "MR::Features::Primitives::Plane", "structMR_1_1Features_1_1Primitives_1_1Plane.html", "structMR_1_1Features_1_1Primitives_1_1Plane" ],
+    [ "MR::Features::Primitives::ConeSegment", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html", "structMR_1_1Features_1_1Primitives_1_1ConeSegment" ],
+    [ "MR::Features::MeasureResult", "structMR_1_1Features_1_1MeasureResult.html", "structMR_1_1Features_1_1MeasureResult" ],
     [ "MR::Features::MeasureResult::BasicPart", "structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html", "structMR_1_1Features_1_1MeasureResult_1_1BasicPart" ],
     [ "MR::Features::MeasureResult::Distance", "structMR_1_1Features_1_1MeasureResult_1_1Distance.html", "structMR_1_1Features_1_1MeasureResult_1_1Distance" ],
     [ "MR::Features::MeasureResult::Angle", "structMR_1_1Features_1_1MeasureResult_1_1Angle.html", "structMR_1_1Features_1_1MeasureResult_1_1Angle" ],
@@ -19,6 +19,8 @@ var MRFeatures_8h =
     [ "MR::Features::Traits::Binary< Primitives::Plane, Primitives::Plane >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4" ],
     [ "MR::Features::Traits::MeasureSupportedOneWay", "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html", null ],
     [ "MR::Features::MeasureSupported", "conceptMR_1_1Features_1_1MeasureSupported.html", null ],
+    [ "Sphere", "MRFeatures_8h.html#a37df2f34cbcd3fec213859b3ca57d3b6", null ],
+    [ "Variant", "MRFeatures_8h.html#a955a7f843d9b5df0f393ec7699ada624", null ],
     [ "measure", "MRFeatures_8h.html#a39b347d1c16a0e596d16c09cc7839ded", null ],
     [ "measure", "MRFeatures_8h.html#a8ae032d9a48f5e4e7669748c12b6f05c", null ],
     [ "measure", "MRFeatures_8h.html#ada065f0f7c5b74946d5ae2826df2bf0d", null ],

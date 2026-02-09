@@ -1,5 +1,6 @@
 var MRMeshNormals_8h =
 [
+    [ "TriangleCornerNormals", "MRMeshNormals_8h.html#ga59217bfc441b57736e20fa4c8b136c1f", null ],
     [ "computeMeshNormals", "MRMeshNormals_8h.html#ga9d74c5dbc254d3fdb328a8ac37ba7529", null ],
     [ "computePerCornerNormals", "MRMeshNormals_8h.html#gaadd26fa2561ab2ec3b62b2dea079161c", null ],
     [ "computePerFaceNormals", "MRMeshNormals_8h.html#gab8d9ad3d41ea00136ac9d8c59766ab0c", null ],

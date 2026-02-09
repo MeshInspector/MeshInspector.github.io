@@ -163,7 +163,7 @@ $(function(){initNavTree('MRResizeNoInit_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    vec.reserve( targetSize );</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordflow">while</span> ( vec.size() &lt; targetSize )</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        vec.emplace_back( noInit );</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        vec.emplace_back( <a class="code hl_variable" href="namespaceMR.html#aaa8f63a4fb4dcabf0f8f1dc79cdeee90">noInit</a> );</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    vec.resize( targetSize );</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>}</div>
 </div>
@@ -173,6 +173,7 @@ $(function(){initNavTree('MRResizeNoInit_8h_source.html',''); initResizable(true
 <div class="ttc" id="aMRMacros_8h_html_adb4b71f9ebce86e54868bd967010ebbb"><div class="ttname"><a href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a></div><div class="ttdeci">#define MR_REQUIRES_IF_SUPPORTED(...)</div><div class="ttdef"><b>Definition</b> MRMacros.h:34</div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_aaa8f63a4fb4dcabf0f8f1dc79cdeee90"><div class="ttname"><a href="namespaceMR.html#aaa8f63a4fb4dcabf0f8f1dc79cdeee90">MR::noInit</a></div><div class="ttdeci">constexpr NoInit noInit</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:95</div></div>
 <div class="ttc" id="anamespaceMR_html_ad4c1d1b7c1a447ffccea9b5d867ef98b"><div class="ttname"><a href="namespaceMR.html#ad4c1d1b7c1a447ffccea9b5d867ef98b">MR::resizeNoInit</a></div><div class="ttdeci">void resizeNoInit(std::vector&lt; T &gt; &amp;vec, size_t targetSize) MR_REQUIRES_IF_SUPPORTED(sizeof(T) &gt; 0 &amp;&amp;std</div><div class="ttdef"><b>Definition</b> MRResizeNoInit.h:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -28,5 +28,5 @@ var MRBitSet_8cs =
     [ "MR.Const_TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag" ],
     [ "MR.TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag" ],
     [ "MR.Const_BitSet", "classMR_1_1Const__BitSet.html", "classMR_1_1Const__BitSet" ],
-    [ "MR.BitSet", "../Cpp/classMR_1_1BitSet.html", "classMR_1_1BitSet" ]
+    [ "MR.BitSet", "classMR_1_1BitSet.html", "classMR_1_1BitSet" ]
 ];

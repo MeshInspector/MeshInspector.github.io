@@ -1,10 +1,12 @@
 var classMR_1_1ChangePointCloudNormalsAction =
 [
-    [ "Obj", "../Cpp/classMR_1_1ChangePointCloudNormalsAction.html#ab1318bc8719ca89bb19cd901f204ad49", null ],
-    [ "ChangePointCloudNormalsAction", "../Cpp/classMR_1_1ChangePointCloudNormalsAction.html#aa3fc74b29ef4cc3ed08c0e8f0a5f342e", null ],
-    [ "ChangePointCloudNormalsAction", "../Cpp/classMR_1_1ChangePointCloudNormalsAction.html#a763106472cb85bcb84e8b3a97ad638d6", null ],
-    [ "action", "../Cpp/classMR_1_1ChangePointCloudNormalsAction.html#a3f4a62aa8bcd5d820f520ab6dea9a48d", null ],
-    [ "heapBytes", "../Cpp/classMR_1_1ChangePointCloudNormalsAction.html#a2bcd7434c87c613e94dd6c3ea18b541e", null ],
-    [ "name", "../Cpp/classMR_1_1ChangePointCloudNormalsAction.html#aec6f4ff965e50adb3b9f2605fa2662a8", null ],
-    [ "setObjectDirty", "../Cpp/classMR_1_1ChangePointCloudNormalsAction.html#a868b166b721b17e855621bf815b7d555", null ]
+    [ "ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html#aa7a2aeacaca06768fcba73c554ba8531", null ],
+    [ "ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html#a08af33fc4b4f274834c17a5c0ae26b3e", null ],
+    [ "ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html#a99fb827c41967277937cf7fe6808d2e5", null ],
+    [ "ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html#abb91888c6ea678d0d22fc80c533440b7", null ],
+    [ "ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html#afbef521bc410d949f068fbcbe62ae144", null ],
+    [ "action", "classMR_1_1ChangePointCloudNormalsAction.html#aa2251976886e04940bc79fbf6860e9e4", null ],
+    [ "assign", "classMR_1_1ChangePointCloudNormalsAction.html#acc9e94c29fc415268a4680ee53dd7101", null ],
+    [ "operator ChangePointCloudNormalsAction?", "classMR_1_1ChangePointCloudNormalsAction.html#ac23c204350a22f16d96579d2dd7c08ab", null ],
+    [ "operator MR.HistoryAction", "classMR_1_1ChangePointCloudNormalsAction.html#ad9e478021c187636504d5a8ddaf62903", null ]
 ];

@@ -1,5 +1,13 @@
 var MRSurfacePath_8h =
 [
+    [ "ExtremeEdgeType", "MRSurfacePath_8h.html#ga3887057b7aa95d9993b5ce57130c25a6", [
+      [ "Ridge", "MRSurfacePath_8h.html#gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a", null ],
+      [ "Gorge", "MRSurfacePath_8h.html#gga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4", null ]
+    ] ],
+    [ "PathError", "MRSurfacePath_8h.html#gaf2c93aa0da8a9748d23340f32349a8b8", [
+      [ "StartEndNotConnected", "MRSurfacePath_8h.html#ggaf2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f", null ],
+      [ "InternalError", "MRSurfacePath_8h.html#ggaf2c93aa0da8a9748d23340f32349a8b8a8462b58246e70e5c83e5b939a9332cb5", null ]
+    ] ],
     [ "computeClosestSurfacePathTargets", "MRSurfacePath_8h.html#ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5", null ],
     [ "computeFastMarchingPath", "MRSurfacePath_8h.html#ga52601966a3d67cfd9b26ad1e586cd6f4", null ],
     [ "computeGeodesicPath", "MRSurfacePath_8h.html#ga8359c707ab87c6591777e5c2809c7468", null ],
