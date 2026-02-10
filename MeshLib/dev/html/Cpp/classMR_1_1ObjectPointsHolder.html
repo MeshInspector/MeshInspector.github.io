@@ -182,6 +182,9 @@ Public Types</h2></td></tr>
 <tr class="memitem:a47af96d907b055836d92ad8ff7c21d95" id="r_a47af96d907b055836d92ad8ff7c21d95"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47af96d907b055836d92ad8ff7c21d95">SelectionChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td></tr>
 <tr class="memdesc:a47af96d907b055836d92ad8ff7c21d95"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about points selection changing, triggered in selectPoints  <br /></td></tr>
 <tr class="separator:a47af96d907b055836d92ad8ff7c21d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5973874925d41d27196eb5a6f381ebbc" id="r_a5973874925d41d27196eb5a6f381ebbc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5973874925d41d27196eb5a6f381ebbc">ChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void( uint32_t mask )&gt;</td></tr>
+<tr class="memdesc:a5973874925d41d27196eb5a6f381ebbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about points or normals changing, triggered in setDirtyFlag  <br /></td></tr>
+<tr class="separator:a5973874925d41d27196eb5a6f381ebbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classMR_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:adbe9460ebe355b8838a49e5a8a7d5830 inherit pub_types_classMR_1_1Object" id="r_adbe9460ebe355b8838a49e5a8a7d5830"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#adbe9460ebe355b8838a49e5a8a7d5830">XfChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td></tr>
 <tr class="separator:adbe9460ebe355b8838a49e5a8a7d5830 inherit pub_types_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -657,6 +660,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6fea0837d122988e4317e021db887a42" id="r_a6fea0837d122988e4317e021db887a42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Signal.html">Signal</a>&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fea0837d122988e4317e021db887a42">renderDiscretizationChangedSignal</a></td></tr>
 <tr class="memdesc:a6fea0837d122988e4317e021db887a42"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about render discretization changing, triggered in setRenderDiscretization  <br /></td></tr>
 <tr class="separator:a6fea0837d122988e4317e021db887a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a399b7a5eaf4584900665900719cb2e7f" id="r_a399b7a5eaf4584900665900719cb2e7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5973874925d41d27196eb5a6f381ebbc">ChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a399b7a5eaf4584900665900719cb2e7f">pointsChangedSignal</a></td></tr>
+<tr class="separator:a399b7a5eaf4584900665900719cb2e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89efdd45b8ade4b867e62d9b15297963" id="r_a89efdd45b8ade4b867e62d9b15297963"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5973874925d41d27196eb5a6f381ebbc">ChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89efdd45b8ade4b867e62d9b15297963">normalsChangedSignal</a></td></tr>
+<tr class="separator:a89efdd45b8ade4b867e62d9b15297963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classMR_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object" id="r_a84debbb8e5d281139acb86024c2f7964"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#adbe9460ebe355b8838a49e5a8a7d5830">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964">worldXfChangedSignal</a></td></tr>
 <tr class="separator:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -817,6 +824,22 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>an object that stores a points </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a5973874925d41d27196eb5a6f381ebbc" name="a5973874925d41d27196eb5a6f381ebbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5973874925d41d27196eb5a6f381ebbc">&#9670;&#160;</a></span>ChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a5973874925d41d27196eb5a6f381ebbc">MR::ObjectPointsHolder::ChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void( uint32_t mask )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>signal about points or normals changing, triggered in setDirtyFlag </p>
+
+</div>
+</div>
 <a id="a47af96d907b055836d92ad8ff7c21d95" name="a47af96d907b055836d92ad8ff7c21d95"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a47af96d907b055836d92ad8ff7c21d95">&#9670;&#160;</a></span>SelectionChangedSignal</h2>
 
@@ -1912,8 +1935,6 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a3e72e4b693ea9b28b46b5928167f0e74">MR::VisualObject</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectPoints.html#a59ae83edd6536296039f464a9eabe54e">MR::ObjectPoints</a>.</p>
-
 </div>
 </div>
 <a id="a6d544e708ad4ac5612035941e897ca16" name="a6d544e708ad4ac5612035941e897ca16"></a>
@@ -2256,8 +2277,6 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a82d2749fefb75e38b62dd69a52307680">MR::Object</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectPoints.html#aecd3842d0074e2705c003461b6c785d4">MR::ObjectPoints</a>.</p>
-
 </div>
 </div>
 <a id="a56ae0abc43ac144e212830cf2233d413" name="a56ae0abc43ac144e212830cf2233d413"></a>
@@ -2414,6 +2433,20 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a89efdd45b8ade4b867e62d9b15297963" name="a89efdd45b8ade4b867e62d9b15297963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89efdd45b8ade4b867e62d9b15297963">&#9670;&#160;</a></span>normalsChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a5973874925d41d27196eb5a6f381ebbc">ChangedSignal</a> MR::ObjectPointsHolder::normalsChangedSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af7ab9f32dcef65ad1a79fde9078c19af" name="af7ab9f32dcef65ad1a79fde9078c19af"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af7ab9f32dcef65ad1a79fde9078c19af">&#9670;&#160;</a></span>numSelectedPoints_</h2>
 
@@ -2476,6 +2509,20 @@ Protected Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a399b7a5eaf4584900665900719cb2e7f" name="a399b7a5eaf4584900665900719cb2e7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a399b7a5eaf4584900665900719cb2e7f">&#9670;&#160;</a></span>pointsChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a5973874925d41d27196eb5a6f381ebbc">ChangedSignal</a> MR::ObjectPointsHolder::pointsChangedSignal</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

@@ -1,11 +1,5 @@
 var NAVTREEINDEX167 =
 {
-"classmrmeshpy_1_1std__vector__std__vector__Id__GraphEdgeTag.html":[6,1,0,0,2,992],
-"classmrmeshpy_1_1std__vector__std__vector__Id__GraphEdgeTag.html":[6,1,1,0,1,992],
-"classmrmeshpy_1_1std__vector__std__vector__Id__GraphEdgeTag.html#a0338fe8ab3e2239bc2a301238c10778b":[6,1,0,0,2,992,0],
-"classmrmeshpy_1_1std__vector__std__vector__Id__GraphEdgeTag.html#a0338fe8ab3e2239bc2a301238c10778b":[6,1,1,0,1,992,0],
-"classmrmeshpy_1_1std__vector__std__vector__Id__GraphEdgeTag.html#a0ca49fb0bc543f6fb01232d8f31a8f0e":[6,1,0,0,2,992,22],
-"classmrmeshpy_1_1std__vector__std__vector__Id__GraphEdgeTag.html#a0ca49fb0bc543f6fb01232d8f31a8f0e":[6,1,1,0,1,992,22],
 "classmrmeshpy_1_1std__vector__std__vector__Id__GraphEdgeTag.html#a1e16251425d52ebb9f9e6350e8767a51":[6,1,0,0,2,992,25],
 "classmrmeshpy_1_1std__vector__std__vector__Id__GraphEdgeTag.html#a1e16251425d52ebb9f9e6350e8767a51":[6,1,1,0,1,992,25],
 "classmrmeshpy_1_1std__vector__std__vector__Id__GraphEdgeTag.html#a1ef0aa4b93d2d6046ede4185ee9555b1":[6,1,0,0,2,992,21],
@@ -249,5 +243,11 @@ var NAVTREEINDEX167 =
 "classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a6153374cc9c566f6552cd60ee139956d":[6,1,0,0,2,996,15],
 "classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a6153374cc9c566f6552cd60ee139956d":[6,1,1,0,1,996,15],
 "classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a64a1e51fe6a76e92339d5c5b296c2b2b":[6,1,0,0,2,996,6],
-"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a64a1e51fe6a76e92339d5c5b296c2b2b":[6,1,1,0,1,996,6]
+"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a64a1e51fe6a76e92339d5c5b296c2b2b":[6,1,1,0,1,996,6],
+"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a68439af13ad9b76b5afc0d4a5686b73f":[6,1,0,0,2,996,7],
+"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a68439af13ad9b76b5afc0d4a5686b73f":[6,1,1,0,1,996,7],
+"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a698c7add4ad221935846719fc0449200":[6,1,0,0,2,996,22],
+"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a698c7add4ad221935846719fc0449200":[6,1,1,0,1,996,22],
+"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a744713e87b89628447685cc03d45046b":[6,1,0,0,2,996,12],
+"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a744713e87b89628447685cc03d45046b":[6,1,1,0,1,996,12]
 };

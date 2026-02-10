@@ -177,7 +177,7 @@ var NAVTREEINDEX =
 "classMR_1_1MeshTopology.html#a0204101063d00f8b0784f8488ba43a0e",
 "classMR_1_1MoveObjectByMouseImpl.html#adb167ed72d4e0abf3fd5ebc2bf23acc6",
 "classMR_1_1ObjectDistanceMap.html#a909bc94c17de8482114192a257f196a6",
-"classMR_1_1ObjectMesh.html#af9b93365f1a3106e6b452c197251afba",
+"classMR_1_1ObjectMeshHolder.html#a00b7332057379b5380b52ad91a88ed4e",
 "classMR_1_1ObjectMeshHolder.html#acee748e7294050525fc705701ce36f2a",
 "classMR_1_1ObjectTransformWidget.html#ab22daeb26cd1e936593d97d63cc407b5",
 "classMR_1_1PartialChangeMeshAction.html#ac0f4b54184a26f86a0cc6d39d093506e",

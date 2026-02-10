@@ -1,11 +1,5 @@
 var NAVTREEINDEX81 =
 {
-"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a7ecd86dd59d60e8b2cbda055e203a7b8":[6,1,0,0,2,788,1,3],
-"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a7ecd86dd59d60e8b2cbda055e203a7b8":[6,1,1,0,1,788,1,3],
-"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#aa89580c8214680080ce86738be4e93db":[6,1,0,0,2,788,1,4],
-"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#aa89580c8214680080ce86738be4e93db":[6,1,1,0,1,788,1,4],
-"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#aad05dcee7d1dbf4d6efc45d28e156a15":[6,1,0,0,2,788,1,1],
-"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#aad05dcee7d1dbf4d6efc45d28e156a15":[6,1,1,0,1,788,1,1],
 "classmrmeshpy_1_1SceneSettings_1_1FloatType.html#aade170c031aaf8c7b6f7ce9d543a1c33":[6,1,0,0,2,788,1,5],
 "classmrmeshpy_1_1SceneSettings_1_1FloatType.html#aade170c031aaf8c7b6f7ce9d543a1c33":[6,1,1,0,1,788,1,5],
 "classmrmeshpy_1_1SceneSettings_1_1FloatType.html#ac5d4aca13114a5e4f6fea3f32fd0aa45":[6,1,0,0,2,788,1,10],
@@ -249,5 +243,11 @@ var NAVTREEINDEX81 =
 "classmrmeshpy_1_1SharpOffsetParameters.html#ad43a0da3e14be66f9ffb8de920604876":[6,1,0,0,2,797,6],
 "classmrmeshpy_1_1SharpOffsetParameters.html#ad43a0da3e14be66f9ffb8de920604876":[6,1,1,0,1,797,6],
 "classmrmeshpy_1_1SharpOffsetParameters.html#ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf":[6,1,0,0,2,797,0],
-"classmrmeshpy_1_1SharpOffsetParameters.html#ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf":[6,1,1,0,1,797,0]
+"classmrmeshpy_1_1SharpOffsetParameters.html#ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf":[6,1,1,0,1,797,0],
+"classmrmeshpy_1_1SharpOffsetParameters.html#aeb4ac64396c544150ae98f2b5550426d":[6,1,0,0,2,797,10],
+"classmrmeshpy_1_1SharpOffsetParameters.html#aeb4ac64396c544150ae98f2b5550426d":[6,1,1,0,1,797,10],
+"classmrmeshpy_1_1SharpOffsetParameters.html#af3f759e106fdf8d0bd831a22353cd480":[6,1,0,0,2,797,8],
+"classmrmeshpy_1_1SharpOffsetParameters.html#af3f759e106fdf8d0bd831a22353cd480":[6,1,1,0,1,797,8],
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html":[6,1,0,0,2,796],
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html":[6,1,1,0,1,796]
 };

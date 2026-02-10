@@ -1,11 +1,5 @@
 var NAVTREEINDEX120 =
 {
-"classmrmeshpy_1_1VolumeToMeshByPartsSettings.html#a609a22a93d6fb9b651da39d1afec2cab":[6,1,0,0,2,1201,2],
-"classmrmeshpy_1_1VolumeToMeshByPartsSettings.html#a609a22a93d6fb9b651da39d1afec2cab":[6,1,1,0,1,1201,2],
-"classmrmeshpy_1_1VolumeToMeshByPartsSettings.html#a66bfb472e994c2ca72ae9f888ada1c36":[6,1,0,0,2,1201,5],
-"classmrmeshpy_1_1VolumeToMeshByPartsSettings.html#a66bfb472e994c2ca72ae9f888ada1c36":[6,1,1,0,1,1201,5],
-"classmrmeshpy_1_1VolumeToMeshByPartsSettings.html#a6847f02f962f463e0b75b67e04000577":[6,1,0,0,2,1201,6],
-"classmrmeshpy_1_1VolumeToMeshByPartsSettings.html#a6847f02f962f463e0b75b67e04000577":[6,1,1,0,1,1201,6],
 "classmrmeshpy_1_1VolumeToMeshByPartsSettings.html#a95c7a0c315ec3b1bea0c178cc465d402":[6,1,0,0,2,1201,1],
 "classmrmeshpy_1_1VolumeToMeshByPartsSettings.html#a95c7a0c315ec3b1bea0c178cc465d402":[6,1,1,0,1,1201,1],
 "classmrmeshpy_1_1VolumeToMeshByPartsSettings.html#ae5b0c52bd5e265c7192847fe1771849a":[6,1,0,0,2,1201,0],
@@ -249,5 +243,11 @@ var NAVTREEINDEX120 =
 "classmrmeshpy_1_1VoxelTraits__Vector__float__VoxelId.html#af1f8007092aef3093cdb96ce95dec250":[6,1,0,0,2,1221,0],
 "classmrmeshpy_1_1VoxelTraits__Vector__float__VoxelId.html#af1f8007092aef3093cdb96ce95dec250":[6,1,0,0,2,1221,2],
 "classmrmeshpy_1_1VoxelTraits__Vector__float__VoxelId.html#af1f8007092aef3093cdb96ce95dec250":[6,1,1,0,1,1221,0],
-"classmrmeshpy_1_1VoxelTraits__Vector__float__VoxelId.html#af1f8007092aef3093cdb96ce95dec250":[6,1,1,0,1,1221,2]
+"classmrmeshpy_1_1VoxelTraits__Vector__float__VoxelId.html#af1f8007092aef3093cdb96ce95dec250":[6,1,1,0,1,1221,2],
+"classmrmeshpy_1_1VoxelTraits__Vector__unsigned__short__VoxelId.html":[6,1,0,0,2,1222],
+"classmrmeshpy_1_1VoxelTraits__Vector__unsigned__short__VoxelId.html":[6,1,1,0,1,1222],
+"classmrmeshpy_1_1VoxelTraits__Vector__unsigned__short__VoxelId.html#a29de32a6c42b71aa95f2a6d2ca4ca4e9":[6,1,0,0,2,1222,1],
+"classmrmeshpy_1_1VoxelTraits__Vector__unsigned__short__VoxelId.html#a29de32a6c42b71aa95f2a6d2ca4ca4e9":[6,1,1,0,1,1222,1],
+"classmrmeshpy_1_1VoxelTraits__Vector__unsigned__short__VoxelId.html#a690f3c23aeabb8eb55061c4ecd3a81da":[6,1,0,0,2,1222,0],
+"classmrmeshpy_1_1VoxelTraits__Vector__unsigned__short__VoxelId.html#a690f3c23aeabb8eb55061c4ecd3a81da":[6,1,0,0,2,1222,2]
 };

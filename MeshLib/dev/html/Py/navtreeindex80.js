@@ -1,11 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"classmrmeshpy_1_1RigidXf3f.html#a7558ae582bebb7a6545188aae23b88bb":[6,1,0,0,2,779,4],
-"classmrmeshpy_1_1RigidXf3f.html#a7558ae582bebb7a6545188aae23b88bb":[6,1,1,0,1,779,4],
-"classmrmeshpy_1_1RigidXf3f.html#a8d0641df792c9464cbf633f32d20a9fa":[6,1,0,0,2,779,3],
-"classmrmeshpy_1_1RigidXf3f.html#a8d0641df792c9464cbf633f32d20a9fa":[6,1,1,0,1,779,3],
-"classmrmeshpy_1_1RigidXf3f.html#a900008cc645ab8f5d18e5fc92f299e7f":[6,1,0,0,2,779,8],
-"classmrmeshpy_1_1RigidXf3f.html#a900008cc645ab8f5d18e5fc92f299e7f":[6,1,1,0,1,779,8],
 "classmrmeshpy_1_1RigidXf3f.html#a94101d095083f1aff95668d433edefa6":[6,1,0,0,2,779,0],
 "classmrmeshpy_1_1RigidXf3f.html#a94101d095083f1aff95668d433edefa6":[6,1,1,0,1,779,0],
 "classmrmeshpy_1_1RigidXf3f.html#aaf06d99be2f70d4b6de370c40e63b1d6":[6,1,0,0,2,779,5],
@@ -249,5 +243,11 @@ var NAVTREEINDEX80 =
 "classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a3192df274299d70119aaae3bdbfb3f19":[6,1,0,0,2,788,1,9],
 "classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a3192df274299d70119aaae3bdbfb3f19":[6,1,1,0,1,788,1,9],
 "classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a6f9be6ef6dcc23df18422eb4a3c47535":[6,1,0,0,2,788,1,7],
-"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a6f9be6ef6dcc23df18422eb4a3c47535":[6,1,1,0,1,788,1,7]
+"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a6f9be6ef6dcc23df18422eb4a3c47535":[6,1,1,0,1,788,1,7],
+"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a7ecd86dd59d60e8b2cbda055e203a7b8":[6,1,0,0,2,788,1,3],
+"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#a7ecd86dd59d60e8b2cbda055e203a7b8":[6,1,1,0,1,788,1,3],
+"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#aa89580c8214680080ce86738be4e93db":[6,1,0,0,2,788,1,4],
+"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#aa89580c8214680080ce86738be4e93db":[6,1,1,0,1,788,1,4],
+"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#aad05dcee7d1dbf4d6efc45d28e156a15":[6,1,0,0,2,788,1,1],
+"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#aad05dcee7d1dbf4d6efc45d28e156a15":[6,1,1,0,1,788,1,1]
 };

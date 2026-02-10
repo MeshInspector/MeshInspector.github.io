@@ -1,11 +1,5 @@
 var NAVTREEINDEX101 =
 {
-"classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#ae76b519516c37c905f2c4740db19dce2":[6,1,0,0,2,1128,16],
-"classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#ae76b519516c37c905f2c4740db19dce2":[6,1,1,0,1,1128,16],
-"classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#aeca105a72e0d6048ec8623192572a504":[6,1,0,0,2,1128,32],
-"classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#aeca105a72e0d6048ec8623192572a504":[6,1,1,0,1,1128,32],
-"classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#af217f90cb099a29d006bc36c6871c682":[6,1,0,0,2,1128,30],
-"classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#af217f90cb099a29d006bc36c6871c682":[6,1,1,0,1,1128,30],
 "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#afba5adedb6072d60872ba11669f6520f":[6,1,0,0,2,1128,29],
 "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#afba5adedb6072d60872ba11669f6520f":[6,1,1,0,1,1128,29],
 "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html":[6,1,0,0,2,1129],
@@ -249,5 +243,11 @@ var NAVTREEINDEX101 =
 "classmrmeshpy_1_1Vector__EdgeId__FaceId.html#af39c9970fbfcecc5aa75d1450c5c7277":[6,1,0,0,2,1133,23],
 "classmrmeshpy_1_1Vector__EdgeId__FaceId.html#af39c9970fbfcecc5aa75d1450c5c7277":[6,1,1,0,1,1133,23],
 "classmrmeshpy_1_1Vector__EdgeId__FaceId.html#afa0b4e431af61cf45bb59f256b8b6356":[6,1,0,0,2,1133,36],
-"classmrmeshpy_1_1Vector__EdgeId__FaceId.html#afa0b4e431af61cf45bb59f256b8b6356":[6,1,1,0,1,1133,36]
+"classmrmeshpy_1_1Vector__EdgeId__FaceId.html#afa0b4e431af61cf45bb59f256b8b6356":[6,1,1,0,1,1133,36],
+"classmrmeshpy_1_1Vector__EdgeId__FaceId.html#afb716c2fc5e54b3690c76971f65c9ea9":[6,1,0,0,2,1133,22],
+"classmrmeshpy_1_1Vector__EdgeId__FaceId.html#afb716c2fc5e54b3690c76971f65c9ea9":[6,1,1,0,1,1133,22],
+"classmrmeshpy_1_1Vector__EdgeId__VertId.html":[6,1,0,0,2,1134],
+"classmrmeshpy_1_1Vector__EdgeId__VertId.html":[6,1,1,0,1,1134],
+"classmrmeshpy_1_1Vector__EdgeId__VertId.html#a000e5199d3c52fb5e1c509773f4fa699":[6,1,0,0,2,1134,25],
+"classmrmeshpy_1_1Vector__EdgeId__VertId.html#a000e5199d3c52fb5e1c509773f4fa699":[6,1,0,0,2,1134,26]
 };

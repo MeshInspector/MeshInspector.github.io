@@ -1,5 +1,6 @@
 var classMR_1_1ObjectMeshHolder =
 [
+    [ "MeshChangedSignal", "classMR_1_1ObjectMeshHolder.html#ac614a0df5c890a819449780ce778d66f", null ],
     [ "SelectionChangedSignal", "classMR_1_1ObjectMeshHolder.html#a805c1ad3440c499cc84cd984e5284780", null ],
     [ "ObjectMeshHolder", "classMR_1_1ObjectMeshHolder.html#afdeea9bea6ac29b86dd0104749f644fc", null ],
     [ "ObjectMeshHolder", "classMR_1_1ObjectMeshHolder.html#a4b6ecb13b750192ac9a2d97d8dce077f", null ],
@@ -128,6 +129,7 @@ var classMR_1_1ObjectMeshHolder =
     [ "faceSelectionChangedSignal", "classMR_1_1ObjectMeshHolder.html#a48c0b6cc10d1a9e2b625d37d6c982ebd", null ],
     [ "faceSelectionColor_", "classMR_1_1ObjectMeshHolder.html#a03a8c271c0681ce20d9510255ef66d78", null ],
     [ "flatShading_", "classMR_1_1ObjectMeshHolder.html#a24fe3e12e40596c73eb4986aa7e32b75", null ],
+    [ "meshChangedSignal", "classMR_1_1ObjectMeshHolder.html#a13d6a31dd591af6acf9a834da59aa1fd", null ],
     [ "meshIsClosed_", "classMR_1_1ObjectMeshHolder.html#adbd8b03aaca3e9e823be43fe1b77f12a", null ],
     [ "numComponents_", "classMR_1_1ObjectMeshHolder.html#a996fcb729de614183881e67181ee8ed9", null ],
     [ "numCreaseEdges_", "classMR_1_1ObjectMeshHolder.html#af410ff87afee85c7978cca07f1616415", null ],

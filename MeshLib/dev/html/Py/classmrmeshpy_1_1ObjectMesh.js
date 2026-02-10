@@ -5,7 +5,6 @@ var classmrmeshpy_1_1ObjectMesh =
     [ "classNameInPlural", "classmrmeshpy_1_1ObjectMesh.html#a0bf0ab6bb49a91a70323cb8806f1e8ee", null ],
     [ "clone", "classmrmeshpy_1_1ObjectMesh.html#a74d05289828bf738860653a727be72e9", null ],
     [ "getInfoLines", "classmrmeshpy_1_1ObjectMesh.html#adc56c57b9eb3aff553e4b128a812afca", null ],
-    [ "setDirtyFlags", "classmrmeshpy_1_1ObjectMesh.html#a34188c8fdfca8040bff1dc0077b91561", null ],
     [ "setMesh", "classmrmeshpy_1_1ObjectMesh.html#a0858482917c22a413b042da6e1c4920a", null ],
     [ "shallowClone", "classmrmeshpy_1_1ObjectMesh.html#acc666f41f06a7e1c289a22ed5fc97e5a", null ],
     [ "typeName", "classmrmeshpy_1_1ObjectMesh.html#a33edc6ff466c80f1b112a02c315e9ddc", null ],

@@ -183,6 +183,9 @@ Public Types</h2></td></tr>
 <tr class="memitem:a805c1ad3440c499cc84cd984e5284780" id="r_a805c1ad3440c499cc84cd984e5284780"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a805c1ad3440c499cc84cd984e5284780">SelectionChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td></tr>
 <tr class="memdesc:a805c1ad3440c499cc84cd984e5284780"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about face selection changing, triggered in selectFaces  <br /></td></tr>
 <tr class="separator:a805c1ad3440c499cc84cd984e5284780"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac614a0df5c890a819449780ce778d66f" id="r_ac614a0df5c890a819449780ce778d66f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac614a0df5c890a819449780ce778d66f">MeshChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void( uint32_t mask )&gt;</td></tr>
+<tr class="memdesc:ac614a0df5c890a819449780ce778d66f"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about mesh changing, triggered in setDirtyFlag  <br /></td></tr>
+<tr class="separator:ac614a0df5c890a819449780ce778d66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classMR_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:adbe9460ebe355b8838a49e5a8a7d5830 inherit pub_types_classMR_1_1Object" id="r_adbe9460ebe355b8838a49e5a8a7d5830"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#adbe9460ebe355b8838a49e5a8a7d5830">XfChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td></tr>
 <tr class="separator:adbe9460ebe355b8838a49e5a8a7d5830 inherit pub_types_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -785,6 +788,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a1292f930863c1ec575b946a71efaa225"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af852a5542908bb08f0eecec630ba0ef8" id="r_af852a5542908bb08f0eecec630ba0ef8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a805c1ad3440c499cc84cd984e5284780">SelectionChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af852a5542908bb08f0eecec630ba0ef8">creasesChangedSignal</a></td></tr>
 <tr class="separator:af852a5542908bb08f0eecec630ba0ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13d6a31dd591af6acf9a834da59aa1fd" id="r_a13d6a31dd591af6acf9a834da59aa1fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac614a0df5c890a819449780ce778d66f">MeshChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13d6a31dd591af6acf9a834da59aa1fd">meshChangedSignal</a></td></tr>
+<tr class="separator:a13d6a31dd591af6acf9a834da59aa1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classMR_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object" id="r_a84debbb8e5d281139acb86024c2f7964"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#adbe9460ebe355b8838a49e5a8a7d5830">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964">worldXfChangedSignal</a></td></tr>
 <tr class="separator:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -988,6 +993,22 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>an object that stores a mesh </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="ac614a0df5c890a819449780ce778d66f" name="ac614a0df5c890a819449780ce778d66f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac614a0df5c890a819449780ce778d66f">&#9670;&#160;</a></span>MeshChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ac614a0df5c890a819449780ce778d66f">MR::ObjectMeshHolder::MeshChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void( uint32_t mask )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>signal about mesh changing, triggered in setDirtyFlag </p>
+
+</div>
+</div>
 <a id="a805c1ad3440c499cc84cd984e5284780" name="a805c1ad3440c499cc84cd984e5284780"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a805c1ad3440c499cc84cd984e5284780">&#9670;&#160;</a></span>SelectionChangedSignal</h2>
 
@@ -3086,7 +3107,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a3e72e4b693ea9b28b46b5928167f0e74">MR::VisualObject</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectMesh.html#a9fa73d57a65988330b1a02591e750953">MR::ObjectMesh</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#a3c066a65c73f77c0e3a8438729f6102b">MR::ObjectVoxels</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectVoxels.html#a3c066a65c73f77c0e3a8438729f6102b">MR::ObjectVoxels</a>.</p>
 
 </div>
 </div>
@@ -3758,7 +3779,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a82d2749fefb75e38b62dd69a52307680">MR::Object</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectMesh.html#aa796e5b6f295b8ef5e724d75ce581e62">MR::ObjectMesh</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#acbc8ed71deeabea4a842af8a85e62b76">MR::ObjectVoxels</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectVoxels.html#acbc8ed71deeabea4a842af8a85e62b76">MR::ObjectVoxels</a>.</p>
 
 </div>
 </div>
@@ -4313,6 +4334,20 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>toggle per-face or per-vertex properties </p>
+
+</div>
+</div>
+<a id="a13d6a31dd591af6acf9a834da59aa1fd" name="a13d6a31dd591af6acf9a834da59aa1fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13d6a31dd591af6acf9a834da59aa1fd">&#9670;&#160;</a></span>meshChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ac614a0df5c890a819449780ce778d66f">MeshChangedSignal</a> MR::ObjectMeshHolder::meshChangedSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

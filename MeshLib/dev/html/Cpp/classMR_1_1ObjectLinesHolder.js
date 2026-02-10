@@ -1,5 +1,6 @@
 var classMR_1_1ObjectLinesHolder =
 [
+    [ "LinesChangedSignal", "classMR_1_1ObjectLinesHolder.html#a43f918db8a7b61c206c15d844dc2f42c", null ],
     [ "ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html#a0e079da74a88e5f0c8d965c012976af4", null ],
     [ "ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html#aacc18afcd4ee476aca853eab342fda72", null ],
     [ "ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html#aee2f0ca0cadeda77ed87b5834547d9f2", null ],
@@ -41,6 +42,7 @@ var classMR_1_1ObjectLinesHolder =
     [ "shallowClone", "classMR_1_1ObjectLinesHolder.html#aa19c36b553adf089ebe87a6220248926", null ],
     [ "supportsVisualizeProperty", "classMR_1_1ObjectLinesHolder.html#a9ebf2f4fb4aaec33e52f3d1be2b2d74d", null ],
     [ "swapBase_", "classMR_1_1ObjectLinesHolder.html#a11d75f9e64cd1cec71eff3f65d040259", null ],
+    [ "swapSignals_", "classMR_1_1ObjectLinesHolder.html#aab5e51bab3ad302cd30461a5ba732274", null ],
     [ "totalLength", "classMR_1_1ObjectLinesHolder.html#a8aa92410cdf7cc0bd3139eb5f31b8d11", null ],
     [ "typeName", "classMR_1_1ObjectLinesHolder.html#a67bbdfa8042874e1a7033f78bb96be59", null ],
     [ "updateLinesColorMap", "classMR_1_1ObjectLinesHolder.html#a59e3e83d9bf413fdb9a84fedda40f08f", null ],
@@ -48,6 +50,7 @@ var classMR_1_1ObjectLinesHolder =
     [ "avgEdgeLen_", "classMR_1_1ObjectLinesHolder.html#a2abf795e99899109737e507f19ac02a7", null ],
     [ "dashed_", "classMR_1_1ObjectLinesHolder.html#a64d69137f11ccce4e6ba7aaa0ef41237", null ],
     [ "dashPattern_", "classMR_1_1ObjectLinesHolder.html#abe70f54ddf2aae2d5784d3aac54214ca", null ],
+    [ "linesChangedSignal", "classMR_1_1ObjectLinesHolder.html#a429bde334a9097fdec8c1d0ae5285f53", null ],
     [ "linesColorMap_", "classMR_1_1ObjectLinesHolder.html#a58e224092d5971b40208e6d4a15e6862", null ],
     [ "lineWidth_", "classMR_1_1ObjectLinesHolder.html#ab981ac159b7e944aef46d972503003e7", null ],
     [ "numComponents_", "classMR_1_1ObjectLinesHolder.html#ac4657e92207e28ae97a59ce816f15f2e", null ],

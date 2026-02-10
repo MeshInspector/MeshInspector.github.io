@@ -180,7 +180,6 @@ var group__DataModelGroup =
       [ "gcodeChangedSignal", "classMR_1_1ObjectGcode.html#af7ac54e95de2f8914777e833e1a83678", null ]
     ] ],
     [ "MR::ObjectLines", "classMR_1_1ObjectLines.html", [
-      [ "LinesChangedSignal", "classMR_1_1ObjectLines.html#ab4dd059872b969f78cf2cde0863184d3", null ],
       [ "ObjectLines", "classMR_1_1ObjectLines.html#a47a26f174a8e83d1f431c49792932ec9", null ],
       [ "ObjectLines", "classMR_1_1ObjectLines.html#ad89a3b7043e91bfde384c2544ada18d4", null ],
       [ "ObjectLines", "classMR_1_1ObjectLines.html#a5fdb9ba748cb7e2c3d3a791362c88fa9", null ],
@@ -191,17 +190,15 @@ var group__DataModelGroup =
       [ "getInfoLines", "classMR_1_1ObjectLines.html#aef5e76ee8e7d04576faa2912fc3de4d0", null ],
       [ "operator=", "classMR_1_1ObjectLines.html#ae26c6b747a929751fcc5ad90b70b9d66", null ],
       [ "serializeFields_", "classMR_1_1ObjectLines.html#ada9a662dc02f094a109afa99afda0e43", null ],
-      [ "setDirtyFlags", "classMR_1_1ObjectLines.html#ac6772461cf43608224ac2b34d3b2edfc", null ],
       [ "setPolyline", "classMR_1_1ObjectLines.html#a5697d7333d8c54ee1fa7cb0d0db16c79", null ],
       [ "shallowClone", "classMR_1_1ObjectLines.html#aff95536683320ad3bdc54a759afe5e7b", null ],
       [ "swapBase_", "classMR_1_1ObjectLines.html#a527fce3c91b8dc02284dab71a95d2ea7", null ],
-      [ "swapSignals_", "classMR_1_1ObjectLines.html#a299d066dfb17e665e3a75b405162aee3", null ],
       [ "typeName", "classMR_1_1ObjectLines.html#a069fc0b9496c10738c79ed84e458c729", null ],
       [ "updatePolyline", "classMR_1_1ObjectLines.html#a14ea493e0ce2d1ce42a9385fa43abfc1", null ],
-      [ "varPolyline", "classMR_1_1ObjectLines.html#a61e5d8f8d6bbc2fcc374ac9e856431ac", null ],
-      [ "linesChangedSignal", "classMR_1_1ObjectLines.html#aa84cc622ce61b383e6065cf2a3ebf3ac", null ]
+      [ "varPolyline", "classMR_1_1ObjectLines.html#a61e5d8f8d6bbc2fcc374ac9e856431ac", null ]
     ] ],
     [ "MR::ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html", [
+      [ "LinesChangedSignal", "classMR_1_1ObjectLinesHolder.html#a43f918db8a7b61c206c15d844dc2f42c", null ],
       [ "ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html#a0e079da74a88e5f0c8d965c012976af4", null ],
       [ "ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html#aacc18afcd4ee476aca853eab342fda72", null ],
       [ "ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html#aee2f0ca0cadeda77ed87b5834547d9f2", null ],
@@ -243,6 +240,7 @@ var group__DataModelGroup =
       [ "shallowClone", "classMR_1_1ObjectLinesHolder.html#aa19c36b553adf089ebe87a6220248926", null ],
       [ "supportsVisualizeProperty", "classMR_1_1ObjectLinesHolder.html#a9ebf2f4fb4aaec33e52f3d1be2b2d74d", null ],
       [ "swapBase_", "classMR_1_1ObjectLinesHolder.html#a11d75f9e64cd1cec71eff3f65d040259", null ],
+      [ "swapSignals_", "classMR_1_1ObjectLinesHolder.html#aab5e51bab3ad302cd30461a5ba732274", null ],
       [ "totalLength", "classMR_1_1ObjectLinesHolder.html#a8aa92410cdf7cc0bd3139eb5f31b8d11", null ],
       [ "typeName", "classMR_1_1ObjectLinesHolder.html#a67bbdfa8042874e1a7033f78bb96be59", null ],
       [ "updateLinesColorMap", "classMR_1_1ObjectLinesHolder.html#a59e3e83d9bf413fdb9a84fedda40f08f", null ],
@@ -250,6 +248,7 @@ var group__DataModelGroup =
       [ "avgEdgeLen_", "classMR_1_1ObjectLinesHolder.html#a2abf795e99899109737e507f19ac02a7", null ],
       [ "dashed_", "classMR_1_1ObjectLinesHolder.html#a64d69137f11ccce4e6ba7aaa0ef41237", null ],
       [ "dashPattern_", "classMR_1_1ObjectLinesHolder.html#abe70f54ddf2aae2d5784d3aac54214ca", null ],
+      [ "linesChangedSignal", "classMR_1_1ObjectLinesHolder.html#a429bde334a9097fdec8c1d0ae5285f53", null ],
       [ "linesColorMap_", "classMR_1_1ObjectLinesHolder.html#a58e224092d5971b40208e6d4a15e6862", null ],
       [ "lineWidth_", "classMR_1_1ObjectLinesHolder.html#ab981ac159b7e944aef46d972503003e7", null ],
       [ "numComponents_", "classMR_1_1ObjectLinesHolder.html#ac4657e92207e28ae97a59ce816f15f2e", null ],
@@ -263,7 +262,6 @@ var group__DataModelGroup =
       [ "worldBox_", "classMR_1_1ObjectLinesHolder.html#af3f76f7286057cda0116754b663cf340", null ]
     ] ],
     [ "MR::ObjectMesh", "classMR_1_1ObjectMesh.html", [
-      [ "MeshChangedSignal", "classMR_1_1ObjectMesh.html#a9d86b40da25331f20375e342d1e6abdd", null ],
       [ "ObjectMesh", "classMR_1_1ObjectMesh.html#a60912e66f88e4d3f0f1330585e37a930", null ],
       [ "ObjectMesh", "classMR_1_1ObjectMesh.html#a250ab5edcdba0ab02a8af6128fdce868", null ],
       [ "ObjectMesh", "classMR_1_1ObjectMesh.html#ae38a2d1f95513ca3dff2fe6f1b1d00fc", null ],
@@ -274,19 +272,15 @@ var group__DataModelGroup =
       [ "getInfoLines", "classMR_1_1ObjectMesh.html#a0b6c4c31b11e372dea9237b6f9fcf5c6", null ],
       [ "operator=", "classMR_1_1ObjectMesh.html#a90e2e79193a58687ce5b39eda75dba30", null ],
       [ "serializeFields_", "classMR_1_1ObjectMesh.html#a03d1a17fadf84a8ad3ec4850334cef11", null ],
-      [ "setDirtyFlags", "classMR_1_1ObjectMesh.html#a9fa73d57a65988330b1a02591e750953", null ],
       [ "setMesh", "classMR_1_1ObjectMesh.html#aee361968c7d91db0ce5b93b65f003d8a", null ],
       [ "shallowClone", "classMR_1_1ObjectMesh.html#a3da846b7d2eebc6602bc67510eb71d34", null ],
       [ "swapBase_", "classMR_1_1ObjectMesh.html#a58768d2ade5a8da7fdf85c181f2382a1", null ],
-      [ "swapSignals_", "classMR_1_1ObjectMesh.html#aa796e5b6f295b8ef5e724d75ce581e62", null ],
       [ "typeName", "classMR_1_1ObjectMesh.html#af9b93365f1a3106e6b452c197251afba", null ],
       [ "updateMesh", "classMR_1_1ObjectMesh.html#a839774fb8213ddc2a1e9c51160ad5d01", null ],
       [ "varMesh", "classMR_1_1ObjectMesh.html#ab3bb6cba075e46e077c30ed748202d77", null ],
-      [ "worldRayIntersection", "classMR_1_1ObjectMesh.html#a4bb899c9fc06e7d174cdd0cdcfda72e7", null ],
-      [ "meshChangedSignal", "classMR_1_1ObjectMesh.html#a9f1c4827307564a1c13839a4cde2868d", null ]
+      [ "worldRayIntersection", "classMR_1_1ObjectMesh.html#a4bb899c9fc06e7d174cdd0cdcfda72e7", null ]
     ] ],
     [ "MR::ObjectPoints", "classMR_1_1ObjectPoints.html", [
-      [ "ChangedSignal", "classMR_1_1ObjectPoints.html#a15c6c099456cf577963e410864c8110e", null ],
       [ "ObjectPoints", "classMR_1_1ObjectPoints.html#a7add507ed0f2abe3843cec2e9f387f8c", null ],
       [ "ObjectPoints", "classMR_1_1ObjectPoints.html#aef4d9f9b0da709f8683994b0e28148f6", null ],
       [ "ObjectPoints", "classMR_1_1ObjectPoints.html#aa61490c1ac4aa372d55e05f695cc5d23", null ],
@@ -298,16 +292,12 @@ var group__DataModelGroup =
       [ "getInfoLines", "classMR_1_1ObjectPoints.html#a8a5af21a0ab52a2d7f2464ba3e3f8131", null ],
       [ "operator=", "classMR_1_1ObjectPoints.html#a5831e567d62ac9ac7959897b98ee75ae", null ],
       [ "serializeFields_", "classMR_1_1ObjectPoints.html#a6e93d56966cf8c7d956767173ee17eae", null ],
-      [ "setDirtyFlags", "classMR_1_1ObjectPoints.html#a59ae83edd6536296039f464a9eabe54e", null ],
       [ "setPointCloud", "classMR_1_1ObjectPoints.html#ac7133f9317fd79fe3af1c4c4f58e0865", null ],
       [ "shallowClone", "classMR_1_1ObjectPoints.html#a0204d43ba94c12cd5f8e20ef283315d2", null ],
       [ "swapBase_", "classMR_1_1ObjectPoints.html#a7cbf8f6689936307fe71452da91038a4", null ],
       [ "swapPointCloud", "classMR_1_1ObjectPoints.html#ae227b0c442a6dc0a141bd56014b45a6a", null ],
-      [ "swapSignals_", "classMR_1_1ObjectPoints.html#aecd3842d0074e2705c003461b6c785d4", null ],
       [ "typeName", "classMR_1_1ObjectPoints.html#af389d74376fb91966716aa2ff7444a5d", null ],
-      [ "varPointCloud", "classMR_1_1ObjectPoints.html#aa134e3602fae441e2eb584f728815c89", null ],
-      [ "normalsChangedSignal", "classMR_1_1ObjectPoints.html#a7c6a2b064f335e03cc02609bb3149ddd", null ],
-      [ "pointsChangedSignal", "classMR_1_1ObjectPoints.html#accd1f51bee9ac990323ede2215e36fb4", null ]
+      [ "varPointCloud", "classMR_1_1ObjectPoints.html#aa134e3602fae441e2eb584f728815c89", null ]
     ] ],
     [ "MR::SceneRoot", "classMR_1_1SceneRoot.html", null ],
     [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", [

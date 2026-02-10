@@ -1,11 +1,5 @@
 var NAVTREEINDEX123 =
 {
-"classmrmeshpy_1_1WholeEdgeMap.html#a6d942e4720440e1d208356c217632677":[6,1,0,0,2,1228,27],
-"classmrmeshpy_1_1WholeEdgeMap.html#a6d942e4720440e1d208356c217632677":[6,1,1,0,1,1228,27],
-"classmrmeshpy_1_1WholeEdgeMap.html#a7ca3ea0a14801d5f7cb04eb621216e7b":[6,1,0,0,2,1228,6],
-"classmrmeshpy_1_1WholeEdgeMap.html#a7ca3ea0a14801d5f7cb04eb621216e7b":[6,1,0,0,2,1228,7],
-"classmrmeshpy_1_1WholeEdgeMap.html#a7ca3ea0a14801d5f7cb04eb621216e7b":[6,1,1,0,1,1228,6],
-"classmrmeshpy_1_1WholeEdgeMap.html#a7ca3ea0a14801d5f7cb04eb621216e7b":[6,1,1,0,1,1228,7],
 "classmrmeshpy_1_1WholeEdgeMap.html#a7f99833c7ddc2bf01f59a0676af57f86":[6,1,0,0,2,1228,4],
 "classmrmeshpy_1_1WholeEdgeMap.html#a7f99833c7ddc2bf01f59a0676af57f86":[6,1,1,0,1,1228,4],
 "classmrmeshpy_1_1WholeEdgeMap.html#a828737bbfad979ef5d8e4a13848e80e0":[6,1,0,0,2,1228,16],
@@ -249,5 +243,11 @@ var NAVTREEINDEX123 =
 "classmrmeshpy_1_1func__AABBTreePoints.html#ae265c366a34726eae3e866c0aad5be31":[6,1,0,0,2,289,1],
 "classmrmeshpy_1_1func__AABBTreePoints.html#ae265c366a34726eae3e866c0aad5be31":[6,1,1,0,1,289,1],
 "classmrmeshpy_1_1func__AABBTreePoints.html#ae792cb614fccd441c32e64d1b36438ff":[6,1,0,0,2,289,0],
-"classmrmeshpy_1_1func__AABBTreePoints.html#ae792cb614fccd441c32e64d1b36438ff":[6,1,1,0,1,289,0]
+"classmrmeshpy_1_1func__AABBTreePoints.html#ae792cb614fccd441c32e64d1b36438ff":[6,1,1,0,1,289,0],
+"classmrmeshpy_1_1func__CurvePoint__from__float.html":[6,1,0,0,2,304],
+"classmrmeshpy_1_1func__CurvePoint__from__float.html":[6,1,1,0,1,304],
+"classmrmeshpy_1_1func__CurvePoint__from__float.html#a2dba4976ce8b16026ef9e84981df4a28":[6,1,0,0,2,304,3],
+"classmrmeshpy_1_1func__CurvePoint__from__float.html#a2dba4976ce8b16026ef9e84981df4a28":[6,1,1,0,1,304,3],
+"classmrmeshpy_1_1func__CurvePoint__from__float.html#a49262827f361f3bf2123be84bcc8a620":[6,1,0,0,2,304,4],
+"classmrmeshpy_1_1func__CurvePoint__from__float.html#a49262827f361f3bf2123be84bcc8a620":[6,1,1,0,1,304,4]
 };

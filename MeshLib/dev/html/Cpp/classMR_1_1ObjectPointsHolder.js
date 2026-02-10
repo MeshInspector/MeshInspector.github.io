@@ -1,5 +1,6 @@
 var classMR_1_1ObjectPointsHolder =
 [
+    [ "ChangedSignal", "classMR_1_1ObjectPointsHolder.html#a5973874925d41d27196eb5a6f381ebbc", null ],
     [ "SelectionChangedSignal", "classMR_1_1ObjectPointsHolder.html#a47af96d907b055836d92ad8ff7c21d95", null ],
     [ "ObjectPointsHolder", "classMR_1_1ObjectPointsHolder.html#a18cfe61ccf4c9bfd32aa9b16db4e68ce", null ],
     [ "ObjectPointsHolder", "classMR_1_1ObjectPointsHolder.html#a35c4a5cdd30d196d5a25bab562012667", null ],
@@ -57,9 +58,11 @@ var classMR_1_1ObjectPointsHolder =
     [ "updateSelectedPoints", "classMR_1_1ObjectPointsHolder.html#a887e143b291be915ac30c0325781824f", null ],
     [ "updateVertsColorMap", "classMR_1_1ObjectPointsHolder.html#a2c17071846cdec9a78120404df0df2ac", null ],
     [ "maxRenderingPoints_", "classMR_1_1ObjectPointsHolder.html#a1bf94b614f61d0c5f7e7e9128c767f12", null ],
+    [ "normalsChangedSignal", "classMR_1_1ObjectPointsHolder.html#a89efdd45b8ade4b867e62d9b15297963", null ],
     [ "numSelectedPoints_", "classMR_1_1ObjectPointsHolder.html#af7ab9f32dcef65ad1a79fde9078c19af", null ],
     [ "numValidPoints_", "classMR_1_1ObjectPointsHolder.html#a20b26902cdfc19f4bd28762ec7add76e", null ],
     [ "points_", "classMR_1_1ObjectPointsHolder.html#abfa588fa9e443c6c2bb637a1e9ad98cb", null ],
+    [ "pointsChangedSignal", "classMR_1_1ObjectPointsHolder.html#a399b7a5eaf4584900665900719cb2e7f", null ],
     [ "pointSize_", "classMR_1_1ObjectPointsHolder.html#aff82edcc80eafd10cf373c842d0c3b8e", null ],
     [ "pointsSelectionChangedSignal", "classMR_1_1ObjectPointsHolder.html#a5bbb21ee63e49be34db52c3c870061a4", null ],
     [ "renderDiscretizationChangedSignal", "classMR_1_1ObjectPointsHolder.html#a6fea0837d122988e4317e021db887a42", null ],
