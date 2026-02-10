@@ -69,27 +69,6 @@ class DoxygenSearchDataProcessor:
                 print(f"Couldn't parse the JS array")
                 return []
 
-    def get_entry_key(self, entry):
-        #Get key for compare entries
-        if not isinstance(entry, list) or len(entry) < 2:
-            return None
-        
-        entry_id = entry[0]
-        entry_data = entry[1]
-        
-        if not isinstance(entry_data, list) or len(entry_data) < 1:
-            return None
-        
-        # Extracting id_name from id (the part before the last underscore)
-        if '_' in entry_id:
-            some_name = entry_id.rsplit('_', 1)[0]
-        else:
-            some_name = entry_id
-        
-        entry_text = str(entry_data[0])
-        
-        return f"{some_name}||{entry_text}"
-
     def update_link(self, link, target_module, source_module):
         if not link.startswith('../'):
             return link
@@ -109,16 +88,27 @@ class DoxygenSearchDataProcessor:
     
     def update_link_title(self, link_title, module):
         if module == "Cpp":
-            return "C++:  " + link_title[4:] # remove "MR::"
+            if len(link_title) > 0:
+                return "C++:  " + link_title[4:] # remove "MR::"
+            else:
+                return "C++"
         elif module == "Python":
-            return "Python:  " + link_title.split('.', 1)[1]
+            if len(link_title) > 0:
+                return "Python:  " + link_title.split('.', 1)[1]
+            else:
+                return "Python"
         elif module == "C":
-            return "C:  " + link_title
+            if len(link_title) > 0:
+                return "C:  " + link_title
+            else:
+                return "C"
         elif module == "Csharp":
-            return "C#:  " + link_title[3:] # remove "MR."
+            if len(link_title) > 0:
+                return "C#:  " + link_title[3:] # remove "MR."
+            else:
+                return "C#"
         else:
             return link_title
-
 
     def load_entries(self):
         for key in self.all_entries:
@@ -128,66 +118,12 @@ class DoxygenSearchDataProcessor:
                 content = f.read()
             module['entries'] = self.parse_js_array(content)
             print(f"Loaded {len(module['entries'])} entries from {module['module']}")
-
-    def merge_entries(self, target_module, source_module, target_entries, source_entries):
-        # Create index of existing entries
-        entry_index = {}
-        for i, entry in enumerate(target_entries):
-            key = self.get_entry_key(entry)
-            if key:
-                entry_index[key] = i
-        
-        # Process data from source
-        for entry in source_entries:
-            key = self.get_entry_key(entry)
-            if not key:
-                continue
-            
-            # Copy entry for modification
-            new_entry = json.loads(json.dumps(entry))  # deep copy
-            
-            if key in entry_index:
-                # Entry already exist - add links
-                target_idx = entry_index[key]
-                target_entry = target_entries[target_idx]
-                
-                # Collect existing links
-                existing_links = set()
-                for link_data in target_entry[1][1:]:
-                    if isinstance(link_data, list) and len(link_data) == 3:
-                        existing_links.add(link_data[0])
-                
-                # Add new link data from source entry
-                for link_data in new_entry[1][1:]:
-                    if isinstance(link_data, list) and len(link_data) == 3:
-                        original_link = link_data[0]
-                        normalized_link = self.update_link(original_link, target_module, source_module)
-                        
-                        if normalized_link not in existing_links:
-                            new_link_data = list(link_data)
-                            new_link_data[0] = normalized_link
-                            new_link_data[2] = self.update_link_title(link_data[2], source_module)
-                            target_entry[1].append(new_link_data)
-            else:
-                # New entry - normalize all links
-                for link_data in new_entry[1][1:]:
-                    if isinstance(link_data, list) and len(link_data) == 3:
-                        original_link = link_data[0]
-                        normalized_link = self.update_link(original_link, target_module, source_module)
-                        link_data[0] = normalized_link
-                        link_data[2] = self.update_link_title(link_data[2], source_module)
-                
-                target_entries.append(new_entry)
-                # update index
-                new_key = self.get_entry_key(new_entry)
-                if new_key:
-                    entry_index[new_key] = len(target_entries) - 1
     
     def save_entries(self, module, entries):
         # Save entries in js file
         module_data = self.all_entries[module]
         file_path = module_data['file']
-        
+        #file_path = file_path.with_name(file_path.stem + "_new" + file_path.suffix)
         # generate js code
         js_content = f"var searchData = {json.dumps(entries, indent=None)};"
         
@@ -197,44 +133,70 @@ class DoxygenSearchDataProcessor:
         
         print(f"Saved {len(entries)} entries in {file_path}")
         
+    def create_entry(self, name_id, title, indexes, module):
+        new_entry = [name_id, [title]]
+        module_keys = list(self.all_entries.keys())
+        for i, idx in enumerate(indexes):
+            if idx == None:
+                continue
+            source_module = module_keys[i]
+            links = self.all_entries[source_module]['entries'][idx][1][1:]
+            for link_data in links:
+                link_data[0] = self.update_link(link_data[0], module, source_module)
+                link_data[2] = self.update_link_title(link_data[2], source_module)
+                new_entry[1].append(link_data)
+        return new_entry
+
     def process(self):
         self.load_entries()
-        
-        modules = list(self.all_entries.keys())
-        
-        for target_module in modules:
-            print(f"\nProcess {target_module}...")
-            
-            target_entries = json.loads(json.dumps(
-                self.all_entries[target_module]['entries']
-            )) # deep copy
-            
-            for source_module in modules:
-                if source_module == target_module:
-                    continue
-                
-                print(f"  Add entries from {source_module}")
-                self.merge_entries(
-                    target_module,
-                    source_module,
-                    target_entries,
-                    self.all_entries[source_module]['entries']
-                )
-            
-            # Save result
-            self.save_entries(target_module, target_entries)
-        
-        print("\nSuccess!")
 
-# Example usage
+        print(f"Prepare all unique pairs name_id + title")
+        modules_count = len(self.all_entries)
+        all_names = {}
+        for module_idx, module_key in enumerate(self.all_entries):
+            entries = self.all_entries[module_key]['entries']
+            for entry_idx, entry in enumerate(entries):
+                name_title = entry[0].rsplit('_', 1)[0] + "||" + entry[1][0]
+                if all_names.get(name_title) == None:
+                    indexes = [None] * modules_count
+                    indexes[module_idx] = entry_idx
+                    all_names[name_title] = indexes
+                else:
+                    indexes = all_names.get(name_title)
+                    indexes[module_idx] = entry_idx
+                    all_names[name_title] = indexes
+
+        all_names = dict(sorted(all_names.items()))
+        print(f"Finded {len(all_names)} unique pairs")
+
+        for module_name in self.all_entries:
+            print(f"Process {module_name}...")
+            new_all_entries = []
+            first_char = ''
+            counter = 0
+            for name in all_names:
+                if len(name) == 0:
+                    continue
+                indexes = all_names[name]
+                if name[0] != first_char:
+                    first_char = name[0]
+                    counter = 0
+                else:
+                    counter += 1
+                name_id = f"{name.split('||', 1)[0]}_{counter}"
+                new_all_entries.append(self.create_entry(name_id, name.split('||', 1)[1], indexes, module_name))
+
+            self.save_entries(module_name, new_all_entries)
+
+        print("Success!")
+               
 if __name__ == "__main__":
     import sys
     
-    # Set root dir
+    # Set default dir
     root_dir = "MeshLib/local"
     if len(sys.argv) > 1:
         root_dir = sys.argv[1]
 
-    # With default directory
     processor = DoxygenSearchDataProcessor( root_dir )
     processor.process()

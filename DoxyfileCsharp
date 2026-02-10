@@ -12,4 +12,4 @@ HTML_OUTPUT            = html/Csharp
 
 # For C# projects
 EXTRACT_STATIC         = YES
-EXCLUDE_SYMBOLS        = Json std _A* _B* _C* _D* _E* _F* _G* _H* _I* _J* _K* _L* _M* _N* _O* _P* _Q* _R* _S* _T* _U* _V* _W* _X* _Y* _Z*
+EXCLUDE_SYMBOLS        = Json std Const_* Mut_* _A* _B* _C* _D* _E* _F* _G* _H* _I* _J* _K* _L* _M* _N* _O* _P* _Q* _R* _S* _T* _U* _V* _W* _X* _Y* _Z*
