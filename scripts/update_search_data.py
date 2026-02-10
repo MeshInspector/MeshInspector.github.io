@@ -9,7 +9,7 @@ class DoxygenSearchDataProcessor:
     def __init__(self, root_dir="MeshLib/local"):
         #self.lang = []
         #self.lang = ["Cpp", "Csharp"] 
-        self.modules = ["Cpp", "Python", "C", "Csharp"]
+        self.lang = ["Cpp", "Python", "C", "Csharp"]
         self.root_dir = Path(root_dir) / "html"
         self.all_entries = {}
 
