@@ -1,5 +1,11 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4":[6,0,2,0,2,25,0,0,0],
+"structMR_1_1SelfIntersections_1_1Settings.html#aca7a5619c15bc97f529b69737ac12bb6":[6,0,1,0,1,40,0,4],
+"structMR_1_1SelfIntersections_1_1Settings.html#aca7a5619c15bc97f529b69737ac12bb6":[6,0,2,0,2,25,0,4],
+"structMR_1_1SelfIntersections_1_1Settings.html#ad3d19d62f4659d2ff0a0415ffecba3c4":[6,0,1,0,1,40,0,1],
+"structMR_1_1SelfIntersections_1_1Settings.html#ad3d19d62f4659d2ff0a0415ffecba3c4":[6,0,2,0,2,25,0,1],
+"structMR_1_1SelfIntersections_1_1Settings.html#ae5606c4ebbd1f6f3acf27a76862219b0":[6,0,1,0,1,40,0,6],
 "structMR_1_1SelfIntersections_1_1Settings.html#ae5606c4ebbd1f6f3acf27a76862219b0":[6,0,2,0,2,25,0,6],
 "structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[6,0,1,0,1,40,0,3],
 "structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[6,0,2,0,2,25,0,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[6,0,0,9,3,1,1],
 "structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[6,0,0,9,3,1,0],
 "structMR_1_1StopOnTrueCombiner.html":[6,0,1,0,1,728],
-"structMR_1_1StopOnTrueCombiner.html":[6,0,2,0,2,710],
-"structMR_1_1StopOnTrueCombiner.html#ac4c7b58291a1f9e59adb38ee87fca271":[6,0,1,0,1,728,1],
-"structMR_1_1StopOnTrueCombiner.html#ac4c7b58291a1f9e59adb38ee87fca271":[6,0,2,0,2,710,1],
-"structMR_1_1StopOnTrueCombiner.html#ae157bdf17a7f295d510dd732d523f78f":[6,0,1,0,1,728,0],
-"structMR_1_1StopOnTrueCombiner.html#ae157bdf17a7f295d510dd732d523f78f":[6,0,2,0,2,710,0],
-"structMR_1_1SubdivideSettings.html":[6,0,0,9,7,0],
-"structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1":[6,0,0,9,7,0,9]
+"structMR_1_1StopOnTrueCombiner.html":[6,0,2,0,2,710]
 };

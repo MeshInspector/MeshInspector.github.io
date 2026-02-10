@@ -259,6 +259,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab27fdb98b5878ebabf7300b8f2affb45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7e11fd226a248ba7223ac77557677be" id="r_aa7e11fd226a248ba7223ac77557677be"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7e11fd226a248ba7223ac77557677be">heapBytes</a> (self)</td></tr>
 <tr class="separator:aa7e11fd226a248ba7223ac77557677be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d4d1bb4eba922f60258d53a0e7d929e" id="r_a8d4d1bb4eba922f60258d53a0e7d929e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d4d1bb4eba922f60258d53a0e7d929e">invalidateMetricsCache</a> (self, int mask)</td></tr>
+<tr class="separator:a8d4d1bb4eba922f60258d53a0e7d929e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08c496d5f2feda4ef87a2e68664cee68" id="r_a08c496d5f2feda4ef87a2e68664cee68"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08c496d5f2feda4ef87a2e68664cee68">isMeshClosed</a> (self)</td></tr>
 <tr class="separator:a08c496d5f2feda4ef87a2e68664cee68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acea2aff8d75e3b354c19d335a57864d6" id="r_acea2aff8d75e3b354c19d335a57864d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acea2aff8d75e3b354c19d335a57864d6">mesh</a> (self)</td></tr>
@@ -307,6 +309,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae0e7868715bbb9606cad718a72eb8bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90370e23c214c82c98540543e9c6f38d" id="r_a90370e23c214c82c98540543e9c6f38d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90370e23c214c82c98540543e9c6f38d">setDirtyFlags</a> (self, int mask, bool invalidateCaches=True)</td></tr>
 <tr class="separator:a90370e23c214c82c98540543e9c6f38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0814c2c450dc71340ad2c63febe9a71" id="r_ae0814c2c450dc71340ad2c63febe9a71"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0814c2c450dc71340ad2c63febe9a71">setDirtyFlagsFast</a> (self, int mask)</td></tr>
+<tr class="separator:ae0814c2c450dc71340ad2c63febe9a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a722ef5a7e4faa0202500f219f7805daa" id="r_a722ef5a7e4faa0202500f219f7805daa"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a722ef5a7e4faa0202500f219f7805daa">setEdgeWidth</a> (self, float edgeWidth)</td></tr>
 <tr class="separator:a722ef5a7e4faa0202500f219f7805daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0a54262f9a55f334149bfbb27de3603" id="r_ac0a54262f9a55f334149bfbb27de3603"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0a54262f9a55f334149bfbb27de3603">setEdgesColor</a> (self, <a class="el" href="classmrmeshpy_1_1Color.html">Color</a> color, <a class="el" href="classmrmeshpy_1_1ViewportId.html">ViewportId</a> id=...)</td></tr>
@@ -1497,6 +1501,28 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
 
 </div>
 </div>
+<a id="a8d4d1bb4eba922f60258d53a0e7d929e" name="a8d4d1bb4eba922f60258d53a0e7d929e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d4d1bb4eba922f60258d53a0e7d929e">&#9670;&#160;</a></span>invalidateMetricsCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.ObjectMeshHolder.invalidateMetricsCache </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">invalidates same caches with mesh metrics (area, volume, ...) as by setDirtyFlags( mask )
+</pre> 
+</div>
+</div>
 <a id="a08c496d5f2feda4ef87a2e68664cee68" name="a08c496d5f2feda4ef87a2e68664cee68"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a08c496d5f2feda4ef87a2e68664cee68">&#9670;&#160;</a></span>isMeshClosed()</h2>
 
@@ -1985,6 +2011,30 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1ObjectVoxels.html#a8e8ef94c4dc4dfb918f87e8c45d88a56">mrmeshpy.ObjectVoxels</a>.</p>
 
+</div>
+</div>
+<a id="ae0814c2c450dc71340ad2c63febe9a71" name="ae0814c2c450dc71340ad2c63febe9a71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0814c2c450dc71340ad2c63febe9a71">&#9670;&#160;</a></span>setDirtyFlagsFast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.ObjectMeshHolder.setDirtyFlagsFast </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">this is a faster version of setDirtyFlags(), which does not invalidate metrics cache (area, volume, ...);
+the user is responsible for calling invalidateMetricsCache( mask ) or setDirtyFlags( mask ) at the end of mesh editing;
+DANGER: all cached values returned until then can be outdated
+</pre> 
 </div>
 </div>
 <a id="ac0a54262f9a55f334149bfbb27de3603" name="ac0a54262f9a55f334149bfbb27de3603"></a>

@@ -1,5 +1,13 @@
 var NAVTREEINDEX50 =
 {
+"classMR_1_1Polynomial__Float__1.html#a7b948dd9376ebfef314bec46beb14453":[6,3,0,0,0,693,0],
+"classMR_1_1Polynomial__Float__1.html#aaea4ca73caeecc054d0c93f5e4c8cdfe":[6,3,0,0,0,693,2],
+"classMR_1_1Polynomial__Float__1.html#ae6031e98221cecffe2700ea13038ee86":[6,3,0,0,0,693,3],
+"classMR_1_1Polynomial__Float__1.html#afd1d4e854b78f9d660b65b22a7025063":[6,3,0,0,0,693,1],
+"classMR_1_1Polynomial__Float__2.html":[6,3,0,0,0,694],
+"classMR_1_1Polynomial__Float__2.html#a155e3825eca930efa632339d8700dae3":[6,3,0,0,0,694,1],
+"classMR_1_1Polynomial__Float__2.html#a220c3249e6bda50b931be47c96383cbb":[6,3,0,0,0,694,4],
+"classMR_1_1Polynomial__Float__2.html#a5d34278c194d59a53ed3d8c003a06c15":[6,3,0,0,0,694,2],
 "classMR_1_1Polynomial__Float__2.html#aa13597a63f23c4fe31407eeddaaf6789":[6,3,0,0,0,694,3],
 "classMR_1_1Polynomial__Float__2.html#ad0e80d680c2f90dcd6f415b702a5ff72":[6,3,0,0,0,694,0],
 "classMR_1_1Polynomial__Float__3.html":[6,3,0,0,0,695],
@@ -241,13 +249,5 @@ var NAVTREEINDEX50 =
 "classMR_1_1RadiusMeasurementObject.html#af4c40a50201f9f81d05dbc82a63bf1f2":[6,3,0,0,0,715,18],
 "classMR_1_1RadiusMeasurementObject.html#af73c234a9610fe6ef89b970f1479faee":[6,3,0,0,0,715,53],
 "classMR_1_1RadiusMeasurementObject.html#af9b13865e54b3f2848de43cd4b223d39":[6,3,0,0,0,715,32],
-"classMR_1_1RawTiffOutput.html":[6,3,0,0,0,716],
-"classMR_1_1RawTiffOutput.html#a2a209081b70b4aa93b3516bba8e24a06":[6,3,0,0,0,716,6],
-"classMR_1_1RawTiffOutput.html#a2f55e3fc0f341bbe652a39c2337151e3":[6,3,0,0,0,716,8],
-"classMR_1_1RawTiffOutput.html#a6d8a4236c52a5a77310bf257bb03d87a":[6,3,0,0,0,716,11],
-"classMR_1_1RawTiffOutput.html#a765f6d3dcdf8a7af0ba48c6bb8c91039":[6,3,0,0,0,716,5],
-"classMR_1_1RawTiffOutput.html#a79eb20b48f5a4af2e6a7a8d2debc9570":[6,3,0,0,0,716,3],
-"classMR_1_1RawTiffOutput.html#a8b830bd9524b4f3771a419d8a301baed":[6,3,0,0,0,716,7],
-"classMR_1_1RawTiffOutput.html#aac82fdd19cd0ad5dc16d223554987caa":[6,3,0,0,0,716,0],
-"classMR_1_1RawTiffOutput.html#acd0aed5aa0912e5b95ff43d9f7d2c48b":[6,3,0,0,0,716,9]
+"classMR_1_1RawTiffOutput.html":[6,3,0,0,0,716]
 };

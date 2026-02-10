@@ -1,5 +1,13 @@
 var NAVTREEINDEX56 =
 {
+"classMR_1_1TriPointf.html#ab528626fcddc3893e782a473c1efac3e":[6,3,0,0,0,817,6],
+"classMR_1_1TriPointf.html#aeda0c60d6d06c3ad7e78c32519c7dc40":[6,3,0,0,0,817,4],
+"classMR_1_1TriangleSegmentIntersectResult.html":[6,3,0,0,0,807],
+"classMR_1_1TriangleSegmentIntersectResult.html#a0c96d53bbe456c72fa0469b3e923f7a7":[6,3,0,0,0,807,0],
+"classMR_1_1TriangleSegmentIntersectResult.html#a14ac2e42bae791ee30debfbaaa2beab4":[6,3,0,0,0,807,1],
+"classMR_1_1TriangleSegmentIntersectResult.html#a1c6e54e441f21e59136d679043c5ab3f":[6,3,0,0,0,807,3],
+"classMR_1_1TriangleSegmentIntersectResult.html#a4b5510afb50fbe36a5156783bd780e23":[6,3,0,0,0,807,4],
+"classMR_1_1TriangleSegmentIntersectResult.html#a6b71c9879583219fa589ab475fc677f0":[6,3,0,0,0,807,5],
 "classMR_1_1TriangleSegmentIntersectResult.html#aa446a1c32b48d0eacbff7120d50ffcce":[6,3,0,0,0,807,2],
 "classMR_1_1TriangleSegmentIntersectResult.html#abc0fa906139af0501505dea989aa973e":[6,3,0,0,0,807,6],
 "classMR_1_1Triangulation.html":[6,3,0,0,0,808],
@@ -241,13 +249,5 @@ var NAVTREEINDEX56 =
 "classMR_1_1UndirectedEdgeBitSet.html#a300660b888018b3d22cb2f29c1fbeb0d":[6,3,0,0,0,823,30],
 "classMR_1_1UndirectedEdgeBitSet.html#a35b163b781a8c9b83fda1a8abffdbe41":[6,3,0,0,0,823,19],
 "classMR_1_1UndirectedEdgeBitSet.html#a4500c95d65827abaca65d9535719e212":[6,3,0,0,0,823,5],
-"classMR_1_1UndirectedEdgeBitSet.html#a452a27cc18d1c8ba1eb0cb372346c81d":[6,3,0,0,0,823,31],
-"classMR_1_1UndirectedEdgeBitSet.html#a57654d71db94fff5f1e5f33c7e16f568":[6,3,0,0,0,823,3],
-"classMR_1_1UndirectedEdgeBitSet.html#a5871f0231b5fe7e995e417a1d2d9efb7":[6,3,0,0,0,823,26],
-"classMR_1_1UndirectedEdgeBitSet.html#a5cbdf29dbdaeb5443003a95750ed74b0":[6,3,0,0,0,823,36],
-"classMR_1_1UndirectedEdgeBitSet.html#a636f4bb88df31ccb7e388d21a6808c19":[6,3,0,0,0,823,7],
-"classMR_1_1UndirectedEdgeBitSet.html#a68103e6f1b6ef5bb8fe68f7aac7e16fc":[6,3,0,0,0,823,10],
-"classMR_1_1UndirectedEdgeBitSet.html#a7ac6a72908e6a7a3eb804db7b2c09dab":[6,3,0,0,0,823,20],
-"classMR_1_1UndirectedEdgeBitSet.html#a7f44e9155c4067b39297de27c9cf491f":[6,3,0,0,0,823,13],
-"classMR_1_1UndirectedEdgeBitSet.html#a82c6cec75f65b0598d6ae8e228e20d13":[6,3,0,0,0,823,12]
+"classMR_1_1UndirectedEdgeBitSet.html#a452a27cc18d1c8ba1eb0cb372346c81d":[6,3,0,0,0,823,31]
 };

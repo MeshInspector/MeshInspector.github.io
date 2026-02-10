@@ -219,6 +219,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5b883e16802b82fc905c2166fba9cbce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a263df6d53d2c8a082a9fc691c248ec46" id="r_a263df6d53d2c8a082a9fc691c248ec46"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a263df6d53d2c8a082a9fc691c248ec46">setDirtyFlags</a> (uint32_t mask, bool invalidateCaches=true) override</td></tr>
 <tr class="separator:a263df6d53d2c8a082a9fc691c248ec46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35ed64e6f4307c9d14a5989ffee7accb" id="r_a35ed64e6f4307c9d14a5989ffee7accb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35ed64e6f4307c9d14a5989ffee7accb">setDirtyFlagsFast</a> (uint32_t mask)</td></tr>
+<tr class="separator:a35ed64e6f4307c9d14a5989ffee7accb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac864caaffa64ff08d668eddfafdb8cd9" id="r_ac864caaffa64ff08d668eddfafdb8cd9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac864caaffa64ff08d668eddfafdb8cd9">invalidateMetricsCache</a> (uint32_t mask)</td></tr>
+<tr class="memdesc:ac864caaffa64ff08d668eddfafdb8cd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">invalidates same caches with mesh metrics (area, volume, ...) as by setDirtyFlags( mask )  <br /></td></tr>
+<tr class="separator:ac864caaffa64ff08d668eddfafdb8cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a697b65bd9396e5efa3f7a8645c661485" id="r_a697b65bd9396e5efa3f7a8645c661485"><td class="memItemLeft" align="right" valign="top">const FaceBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a697b65bd9396e5efa3f7a8645c661485">getSelectedFaces</a> () const</td></tr>
 <tr class="separator:a697b65bd9396e5efa3f7a8645c661485"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dd8c2355f747dedea3a0f888c09e6da" id="r_a9dd8c2355f747dedea3a0f888c09e6da"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dd8c2355f747dedea3a0f888c09e6da">selectFaces</a> (FaceBitSet newSelection)</td></tr>
@@ -2335,6 +2340,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac864caaffa64ff08d668eddfafdb8cd9" name="ac864caaffa64ff08d668eddfafdb8cd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac864caaffa64ff08d668eddfafdb8cd9">&#9670;&#160;</a></span>invalidateMetricsCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectMeshHolder::invalidateMetricsCache </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>mask</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>invalidates same caches with mesh metrics (area, volume, ...) as by setDirtyFlags( mask ) </p>
+
+</div>
+</div>
 <a id="adc32b4c9b303a885eadfbde1f3b7eeb0" name="adc32b4c9b303a885eadfbde1f3b7eeb0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adc32b4c9b303a885eadfbde1f3b7eeb0">&#9670;&#160;</a></span>isMeshClosed()</h2>
 
@@ -3108,6 +3140,32 @@ Protected Attributes</h2></td></tr>
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a3e72e4b693ea9b28b46b5928167f0e74">MR::VisualObject</a>.</p>
 
 <p>Reimplemented in <a class="el" href="classMR_1_1ObjectVoxels.html#a3c066a65c73f77c0e3a8438729f6102b">MR::ObjectVoxels</a>.</p>
+
+</div>
+</div>
+<a id="a35ed64e6f4307c9d14a5989ffee7accb" name="a35ed64e6f4307c9d14a5989ffee7accb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35ed64e6f4307c9d14a5989ffee7accb">&#9670;&#160;</a></span>setDirtyFlagsFast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectMeshHolder::setDirtyFlagsFast </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>mask</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>this is a faster version of <a class="el" href="#a263df6d53d2c8a082a9fc691c248ec46">setDirtyFlags()</a>, which does not invalidate metrics cache (area, volume, ...); the user is responsible for calling invalidateMetricsCache( mask ) or setDirtyFlags( mask ) at the end of mesh editing; DANGER: all cached values returned until then can be outdated </p>
 
 </div>
 </div>

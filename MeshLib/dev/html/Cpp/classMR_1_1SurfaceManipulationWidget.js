@@ -30,6 +30,7 @@ var classMR_1_1SurfaceManipulationWidget =
     [ "ignoreOcclusion", "classMR_1_1SurfaceManipulationWidget.html#ad1d225be203cab7da3f671f7238ec0db", null ],
     [ "init", "classMR_1_1SurfaceManipulationWidget.html#a3aed52f4737f381cd25e1431f64076b9", null ],
     [ "initConnections_", "classMR_1_1SurfaceManipulationWidget.html#a959fcbd7bbe023bb87adc1de1a8dda45", null ],
+    [ "invalidateMetricsCache_", "classMR_1_1SurfaceManipulationWidget.html#a405e5904bb2f5f323394b020acdb5b67", null ],
     [ "isEditOnlyCodirectedSurface", "classMR_1_1SurfaceManipulationWidget.html#ad2b38b4c5264c1e038e71ddbea2b4e19", null ],
     [ "laplacianMoveVert_", "classMR_1_1SurfaceManipulationWidget.html#a297618816e83dce980de3f9075d4657a", null ],
     [ "laplacianPickVert_", "classMR_1_1SurfaceManipulationWidget.html#ad41aeaafb3e4c8632a313f4d729c3561", null ],

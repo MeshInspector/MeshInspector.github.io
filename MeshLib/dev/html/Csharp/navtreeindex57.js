@@ -1,5 +1,13 @@
 var NAVTREEINDEX57 =
 {
+"classMR_1_1UndirectedEdgeBitSet.html#a57654d71db94fff5f1e5f33c7e16f568":[6,3,0,0,0,823,3],
+"classMR_1_1UndirectedEdgeBitSet.html#a5871f0231b5fe7e995e417a1d2d9efb7":[6,3,0,0,0,823,26],
+"classMR_1_1UndirectedEdgeBitSet.html#a5cbdf29dbdaeb5443003a95750ed74b0":[6,3,0,0,0,823,36],
+"classMR_1_1UndirectedEdgeBitSet.html#a636f4bb88df31ccb7e388d21a6808c19":[6,3,0,0,0,823,7],
+"classMR_1_1UndirectedEdgeBitSet.html#a68103e6f1b6ef5bb8fe68f7aac7e16fc":[6,3,0,0,0,823,10],
+"classMR_1_1UndirectedEdgeBitSet.html#a7ac6a72908e6a7a3eb804db7b2c09dab":[6,3,0,0,0,823,20],
+"classMR_1_1UndirectedEdgeBitSet.html#a7f44e9155c4067b39297de27c9cf491f":[6,3,0,0,0,823,13],
+"classMR_1_1UndirectedEdgeBitSet.html#a82c6cec75f65b0598d6ae8e228e20d13":[6,3,0,0,0,823,12],
 "classMR_1_1UndirectedEdgeBitSet.html#a8ed44db11642576591c0e27868ba550f":[6,3,0,0,0,823,14],
 "classMR_1_1UndirectedEdgeBitSet.html#a90afaca40c7af908a463c4bdd372eb94":[6,3,0,0,0,823,24],
 "classMR_1_1UndirectedEdgeBitSet.html#a9622dbbcd5dfdcad3892769c4de0aad9":[6,3,0,0,0,823,18],
@@ -241,13 +249,5 @@ var NAVTREEINDEX57 =
 "classMR_1_1UnorientedTriangle.html#a6f3cd5a63e3662d2ce6acc55c96d5c66":[6,3,0,0,0,842,6],
 "classMR_1_1UnorientedTriangle.html#a7b3efe15b67dcb2eed41e8d87784e0a6":[6,3,0,0,0,842,3],
 "classMR_1_1UnorientedTriangle.html#acc4d47aad933a099f11b9bdaea323d50":[6,3,0,0,0,842,2],
-"classMR_1_1UnorientedTriangle.html#adb08e44235b3f3b76b543eb11f435b69":[6,3,0,0,0,842,1],
-"classMR_1_1UnorientedTriangle.html#aeed58daed0b5191760e8196821155bf8":[6,3,0,0,0,842,5],
-"classMR_1_1VarEdgeTri.html":[6,3,0,0,0,843],
-"classMR_1_1VarEdgeTri.html#a1f28e0d3c4c306611e585de5f4eb85a1":[6,3,0,0,0,843,7],
-"classMR_1_1VarEdgeTri.html#a4b070376c2ab8c71bb9ddf6000c9707f":[6,3,0,0,0,843,5],
-"classMR_1_1VarEdgeTri.html#a64b96b9c400abce05a4b1311d6695f44":[6,3,0,0,0,843,1],
-"classMR_1_1VarEdgeTri.html#a937042cd5f21708e75c60cce7d2a8efe":[6,3,0,0,0,843,0],
-"classMR_1_1VarEdgeTri.html#addc01e47759d41b0227cc3c12a1ba9e2":[6,3,0,0,0,843,3],
-"classMR_1_1VarEdgeTri.html#aee326b52da70a7045fb861e7ae7d81e7":[6,3,0,0,0,843,4]
+"classMR_1_1UnorientedTriangle.html#adb08e44235b3f3b76b543eb11f435b69":[6,3,0,0,0,842,1]
 };

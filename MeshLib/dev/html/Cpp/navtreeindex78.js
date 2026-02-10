@@ -1,5 +1,11 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a114d1d59ef37898d184ed75daaf0b5fa":[6,0,2,0,2,10,4,5],
+"structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a3fe2bba25d7c567c9b75a5a856990f20":[6,0,1,0,1,20,4,4],
+"structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a3fe2bba25d7c567c9b75a5a856990f20":[6,0,2,0,2,10,4,4],
+"structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a5379829943a90af63f2b4db61f7ff57d":[6,0,1,0,1,20,4,3],
+"structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a5379829943a90af63f2b4db61f7ff57d":[6,0,2,0,2,10,4,3],
+"structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a6e04cfb485e0a54e7aaf0c75c8ad0eec":[6,0,1,0,1,20,4,1],
 "structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a6e04cfb485e0a54e7aaf0c75c8ad0eec":[6,0,2,0,2,10,4,1],
 "structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a7a875c31321cd79bd5c7d57c5b9a6f4e":[6,0,1,0,1,20,4,0],
 "structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a7a875c31321cd79bd5c7d57c5b9a6f4e":[6,0,2,0,2,10,4,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1MeshToDistanceMapParams.html#af2eeaa511b9352ea711dc539633b65ec":[6,0,0,5,3,6],
 "structMR_1_1MeshToDistanceVolumeParams.html":[6,0,1,0,1,415],
 "structMR_1_1MeshToDistanceVolumeParams.html":[6,0,2,0,2,397],
-"structMR_1_1MeshToDistanceVolumeParams.html#a360d1bd15bac22e4e7e287a986e68bed":[6,0,1,0,1,415,2],
-"structMR_1_1MeshToDistanceVolumeParams.html#a360d1bd15bac22e4e7e287a986e68bed":[6,0,2,0,2,397,2],
-"structMR_1_1MeshToDistanceVolumeParams.html#a740cc5d8bb375f88ea00678baa716cef":[6,0,1,0,1,415,1],
-"structMR_1_1MeshToDistanceVolumeParams.html#a740cc5d8bb375f88ea00678baa716cef":[6,0,2,0,2,397,1],
-"structMR_1_1MeshToDistanceVolumeParams.html#aa92c916230bc895acd7eca95758104b0":[6,0,1,0,1,415,0],
-"structMR_1_1MeshToDistanceVolumeParams.html#aa92c916230bc895acd7eca95758104b0":[6,0,2,0,2,397,0],
-"structMR_1_1MeshToVolumeParams.html":[6,0,1,0,1,418]
+"structMR_1_1MeshToDistanceVolumeParams.html#a360d1bd15bac22e4e7e287a986e68bed":[6,0,1,0,1,415,2]
 };

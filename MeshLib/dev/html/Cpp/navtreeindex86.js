@@ -1,5 +1,11 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,1,0,1,640,6],
+"structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,2,0,2,622,6],
+"structMR_1_1RibbonNotification.html#a22ab6a5e3459fed757c4443f8d3ad51a":[6,0,1,0,1,640,0],
+"structMR_1_1RibbonNotification.html#a22ab6a5e3459fed757c4443f8d3ad51a":[6,0,2,0,2,622,0],
+"structMR_1_1RibbonNotification.html#a40618c97689369cde22e2db71719697e":[6,0,1,0,1,640,5],
+"structMR_1_1RibbonNotification.html#a40618c97689369cde22e2db71719697e":[6,0,2,0,2,622,5],
 "structMR_1_1RibbonNotification.html#a4da1179863d307c12ec913c673695c06":[6,0,1,0,1,640,7],
 "structMR_1_1RibbonNotification.html#a4da1179863d307c12ec913c673695c06":[6,0,2,0,2,622,7],
 "structMR_1_1RibbonNotification.html#a9a3ccb0e6e8a56c16b1f5b4bf1ee2490":[6,0,1,0,1,640,8],
@@ -243,11 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5":[6,0,2,0,2,25,0,0],
 "structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7":[6,0,1,0,1,40,0,0,1],
 "structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7":[6,0,2,0,2,25,0,0,1],
-"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4":[6,0,1,0,1,40,0,0,0],
-"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4":[6,0,2,0,2,25,0,0,0],
-"structMR_1_1SelfIntersections_1_1Settings.html#aca7a5619c15bc97f529b69737ac12bb6":[6,0,1,0,1,40,0,4],
-"structMR_1_1SelfIntersections_1_1Settings.html#aca7a5619c15bc97f529b69737ac12bb6":[6,0,2,0,2,25,0,4],
-"structMR_1_1SelfIntersections_1_1Settings.html#ad3d19d62f4659d2ff0a0415ffecba3c4":[6,0,1,0,1,40,0,1],
-"structMR_1_1SelfIntersections_1_1Settings.html#ad3d19d62f4659d2ff0a0415ffecba3c4":[6,0,2,0,2,25,0,1],
-"structMR_1_1SelfIntersections_1_1Settings.html#ae5606c4ebbd1f6f3acf27a76862219b0":[6,0,1,0,1,40,0,6]
+"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4":[6,0,1,0,1,40,0,0,0]
 };

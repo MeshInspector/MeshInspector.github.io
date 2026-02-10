@@ -1,5 +1,13 @@
 var NAVTREEINDEX67 =
 {
+"classMR_1_1XfBasedCache__MRBox3f.html#ab585698bbf56f2c5c4e47308f5ab6b4e":[6,3,0,0,0,963,2],
+"classMR_1_1ZCompensateParams.html":[6,3,0,0,0,964],
+"classMR_1_1ZCompensateParams.html#a3f1b0148393f8db7af5d7c985cdc7477":[6,3,0,0,0,964,8],
+"classMR_1_1ZCompensateParams.html#a4b5bf5e96693a295db34a12482033d1d":[6,3,0,0,0,964,3],
+"classMR_1_1ZCompensateParams.html#a58900502a72256ca9db2ad16512b3e10":[6,3,0,0,0,964,5],
+"classMR_1_1ZCompensateParams.html#a6b19a4dde59c64bcbc07bc3f44e6e5ea":[6,3,0,0,0,964,7],
+"classMR_1_1ZCompensateParams.html#a7151ed5110bf1981af95debb4d3f9c04":[6,3,0,0,0,964,9],
+"classMR_1_1ZCompensateParams.html#a78417a5d20ab8cf7989c8d53005e18a9":[6,3,0,0,0,964,0],
 "classMR_1_1ZCompensateParams.html#a87a6b614fdb3f8b49b3f691dfb4609d9":[6,3,0,0,0,964,4],
 "classMR_1_1ZCompensateParams.html#acaf0bd91a5aa01d32777bc585ae3ec7a":[6,3,0,0,0,964,2],
 "classMR_1_1ZCompensateParams.html#ad7dcaa9e3a31703d004ddaa199ae5735":[6,3,0,0,0,964,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1Box1f.html#ac152c5ca3a2f034971e619bf56c232ec":[6,3,0,0,0,60,8],
 "structMR_1_1Box1f.html#ac2e86cbe6bbe2a1e78ca2b69ea799cea":[6,3,0,0,0,60,27],
 "structMR_1_1Box1f.html#ac6c5041f6ca998231f07cd3d87e36289":[6,3,0,0,0,60,24],
-"structMR_1_1Box1f.html#ac8d9f5371fefabe19e8bcb7302370a8a":[6,3,0,0,0,60,7],
-"structMR_1_1Box1f.html#ad0e222593a680fd27ac09eefd4d951cc":[6,3,0,0,0,60,20],
-"structMR_1_1Box1f.html#ad4527be7c669852cd9f72eabbed2d06f":[6,3,0,0,0,60,18],
-"structMR_1_1Box1f.html#aec77cc5f3c95cdce98ee120f1b7319ae":[6,3,0,0,0,60,13],
-"structMR_1_1Box1f.html#af108f2c3b6577b0cc79f82c09cfa50b3":[6,3,0,0,0,60,0],
-"structMR_1_1Box1i.html":[6,3,0,0,0,61],
-"structMR_1_1Box1i.html#a19d3570f031a1f84c004197e7c6a8a5e":[6,3,0,0,0,61,27],
-"structMR_1_1Box1i.html#a1ef449a2d68137443747e37c2319ab91":[6,3,0,0,0,61,19],
-"structMR_1_1Box1i.html#a208c881c99091191ca689b40b3ebdbac":[6,3,0,0,0,61,30]
+"structMR_1_1Box1f.html#ac8d9f5371fefabe19e8bcb7302370a8a":[6,3,0,0,0,60,7]
 };

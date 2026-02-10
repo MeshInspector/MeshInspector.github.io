@@ -190,6 +190,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afa48c806661bccfb1c88c49bdce893db" id="r_afa48c806661bccfb1c88c49bdce893db"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa48c806661bccfb1c88c49bdce893db">setDirtyFlags</a> (uint mask, bool? invalidateCaches=null)</td></tr>
 <tr class="memdesc:afa48c806661bccfb1c88c49bdce893db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <code><a class="el" href="#afa48c806661bccfb1c88c49bdce893db" title="Generated from method MR.ObjectMesh.setDirtyFlags. Parameter invalidateCaches defaults to true.">MR.ObjectMesh.setDirtyFlags</a></code>. Parameter <code>invalidateCaches</code> defaults to <code>true</code>.  <br /></td></tr>
 <tr class="separator:afa48c806661bccfb1c88c49bdce893db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14cc6ced7262e1e439eb0bc034f41a81" id="r_a14cc6ced7262e1e439eb0bc034f41a81"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14cc6ced7262e1e439eb0bc034f41a81">setDirtyFlagsFast</a> (uint mask)</td></tr>
+<tr class="memdesc:a14cc6ced7262e1e439eb0bc034f41a81"><td class="mdescLeft">&#160;</td><td class="mdescRight">this is a faster version of <a class="el" href="#afa48c806661bccfb1c88c49bdce893db" title="Generated from method MR.ObjectMesh.setDirtyFlags. Parameter invalidateCaches defaults to true.">setDirtyFlags()</a>, which does not invalidate metrics cache (area, volume, ...); the user is responsible for calling invalidateMetricsCache( mask ) or setDirtyFlags( mask ) at the end of mesh editing; DANGER: all cached values returned until then can be outdated Generated from method <code><a class="el" href="#a14cc6ced7262e1e439eb0bc034f41a81" title="this is a faster version of setDirtyFlags(), which does not invalidate metrics cache (area,...">MR.ObjectMesh.setDirtyFlagsFast</a></code>.  <br /></td></tr>
+<tr class="separator:a14cc6ced7262e1e439eb0bc034f41a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e2cdddcfafe145e21c2f41316084044" id="r_a6e2cdddcfafe145e21c2f41316084044"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e2cdddcfafe145e21c2f41316084044">invalidateMetricsCache</a> (uint mask)</td></tr>
+<tr class="memdesc:a6e2cdddcfafe145e21c2f41316084044"><td class="mdescLeft">&#160;</td><td class="mdescRight">invalidates same caches with mesh metrics (area, volume, ...) as by setDirtyFlags( mask ) Generated from method <code><a class="el" href="#a6e2cdddcfafe145e21c2f41316084044" title="invalidates same caches with mesh metrics (area, volume, ...) as by setDirtyFlags( mask ) Generated f...">MR.ObjectMesh.invalidateMetricsCache</a></code>.  <br /></td></tr>
+<tr class="separator:a6e2cdddcfafe145e21c2f41316084044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec70e0f3e36afa7b726a2b033ae0eb69" id="r_aec70e0f3e36afa7b726a2b033ae0eb69"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec70e0f3e36afa7b726a2b033ae0eb69">selectFaces</a> (MR._ByValue_FaceBitSet newSelection)</td></tr>
 <tr class="memdesc:aec70e0f3e36afa7b726a2b033ae0eb69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <code><a class="el" href="#aec70e0f3e36afa7b726a2b033ae0eb69" title="Generated from method MR.ObjectMesh.selectFaces.">MR.ObjectMesh.selectFaces</a></code>.  <br /></td></tr>
 <tr class="separator:aec70e0f3e36afa7b726a2b033ae0eb69"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -834,6 +840,33 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>removes this from its parent children list returns false if it was already orphan Generated from method <code><a class="el" href="#ae54796de8634e7cde631b4bc10c161d6" title="removes this from its parent children list returns false if it was already orphan Generated from meth...">MR.ObjectMesh.detachFromParent</a></code>. </p>
+
+</div>
+</div>
+<a id="a6e2cdddcfafe145e21c2f41316084044" name="a6e2cdddcfafe145e21c2f41316084044"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e2cdddcfafe145e21c2f41316084044">&#9670;&#160;</a></span>invalidateMetricsCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.ObjectMesh.invalidateMetricsCache </td>
+          <td>(</td>
+          <td class="paramtype">uint</td>          <td class="paramname"><span class="paramname"><em>mask</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>invalidates same caches with mesh metrics (area, volume, ...) as by setDirtyFlags( mask ) Generated from method <code><a class="el" href="#a6e2cdddcfafe145e21c2f41316084044" title="invalidates same caches with mesh metrics (area, volume, ...) as by setDirtyFlags( mask ) Generated f...">MR.ObjectMesh.invalidateMetricsCache</a></code>. </p>
 
 </div>
 </div>
@@ -1588,6 +1621,33 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <code><a class="el" href="#afa48c806661bccfb1c88c49bdce893db" title="Generated from method MR.ObjectMesh.setDirtyFlags. Parameter invalidateCaches defaults to true.">MR.ObjectMesh.setDirtyFlags</a></code>. Parameter <code>invalidateCaches</code> defaults to <code>true</code>. </p>
+
+</div>
+</div>
+<a id="a14cc6ced7262e1e439eb0bc034f41a81" name="a14cc6ced7262e1e439eb0bc034f41a81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14cc6ced7262e1e439eb0bc034f41a81">&#9670;&#160;</a></span>setDirtyFlagsFast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.ObjectMesh.setDirtyFlagsFast </td>
+          <td>(</td>
+          <td class="paramtype">uint</td>          <td class="paramname"><span class="paramname"><em>mask</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>this is a faster version of <a class="el" href="#afa48c806661bccfb1c88c49bdce893db" title="Generated from method MR.ObjectMesh.setDirtyFlags. Parameter invalidateCaches defaults to true.">setDirtyFlags()</a>, which does not invalidate metrics cache (area, volume, ...); the user is responsible for calling invalidateMetricsCache( mask ) or setDirtyFlags( mask ) at the end of mesh editing; DANGER: all cached values returned until then can be outdated Generated from method <code><a class="el" href="#a14cc6ced7262e1e439eb0bc034f41a81" title="this is a faster version of setDirtyFlags(), which does not invalidate metrics cache (area,...">MR.ObjectMesh.setDirtyFlagsFast</a></code>. </p>
 
 </div>
 </div>

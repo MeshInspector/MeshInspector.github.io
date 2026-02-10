@@ -1,5 +1,11 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1AncillaryPoints.html#a19619544546d28e1fe037cd4d39dfab5":[6,0,1,0,1,67,10],
+"structMR_1_1AncillaryPoints.html#a19619544546d28e1fe037cd4d39dfab5":[6,0,2,0,2,49,10],
+"structMR_1_1AncillaryPoints.html#a1ae6091149af08970f521f474ed0cb1e":[6,0,1,0,1,67,3],
+"structMR_1_1AncillaryPoints.html#a1ae6091149af08970f521f474ed0cb1e":[6,0,2,0,2,49,3],
+"structMR_1_1AncillaryPoints.html#a37e968a4fe6703e8890329ac2f83d978":[6,0,1,0,1,67,1],
+"structMR_1_1AncillaryPoints.html#a37e968a4fe6703e8890329ac2f83d978":[6,0,2,0,2,49,1],
 "structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8":[6,0,1,0,1,67,6],
 "structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8":[6,0,2,0,2,49,6],
 "structMR_1_1AncillaryPoints.html#a537fa4e2293d1858a80b7317ee1f6143":[6,0,1,0,1,67,11],
@@ -243,11 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,2,0,2,76,2],
 "structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[6,0,1,0,1,94,1],
 "structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[6,0,2,0,2,76,1],
-"structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[6,0,1,0,1,94,0],
-"structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[6,0,2,0,2,76,0],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html":[6,0,1,0,1,95,0],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html":[6,0,2,0,2,77,0],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a0ed51b795be6b13b452d9ac27d4409bb":[6,0,1,0,1,95,0,3],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a0ed51b795be6b13b452d9ac27d4409bb":[6,0,2,0,2,77,0,3],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a381406ff0c17d87e6508cfcd62e20f05":[6,0,1,0,1,95,0,0]
+"structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[6,0,1,0,1,94,0]
 };

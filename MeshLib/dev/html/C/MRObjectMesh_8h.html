@@ -324,6 +324,10 @@ Functions</h2></td></tr>
 <tr class="separator:a6639b1a62c312531ba8d969fad0fc7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2109272a2e1fa0c104dcde3296341b77" id="r_a2109272a2e1fa0c104dcde3296341b77"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2109272a2e1fa0c104dcde3296341b77">MR_ObjectMesh_setDirtyFlags</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this, unsigned int mask, const bool *invalidateCaches)</td></tr>
 <tr class="separator:a2109272a2e1fa0c104dcde3296341b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75c76ae663a49a547407063c8273d795" id="r_a75c76ae663a49a547407063c8273d795"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75c76ae663a49a547407063c8273d795">MR_ObjectMesh_setDirtyFlagsFast</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this, unsigned int mask)</td></tr>
+<tr class="separator:a75c76ae663a49a547407063c8273d795"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abef5e4fe3b8cba3e683326390ff40454" id="r_abef5e4fe3b8cba3e683326390ff40454"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abef5e4fe3b8cba3e683326390ff40454">MR_ObjectMesh_invalidateMetricsCache</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this, unsigned int mask)</td></tr>
+<tr class="separator:abef5e4fe3b8cba3e683326390ff40454"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ca2c801078880ce0a14bc48f92edce4" id="r_a8ca2c801078880ce0a14bc48f92edce4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ca2c801078880ce0a14bc48f92edce4">MR_ObjectMesh_getSelectedFaces</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
 <tr class="separator:a8ca2c801078880ce0a14bc48f92edce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae01c14d3ec540130d46abfdcbcac0477" id="r_ae01c14d3ec540130d46abfdcbcac0477"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae01c14d3ec540130d46abfdcbcac0477">MR_ObjectMesh_selectFaces</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this, MR_PassBy newSelection_pass_by, <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *newSelection)</td></tr>
@@ -2866,6 +2870,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="abef5e4fe3b8cba3e683326390ff40454" name="abef5e4fe3b8cba3e683326390ff40454"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abef5e4fe3b8cba3e683326390ff40454">&#9670;&#160;</a></span>MR_ObjectMesh_invalidateMetricsCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectMesh_invalidateMetricsCache </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>invalidates same caches with mesh metrics (area, volume, ...) as by setDirtyFlags( mask ) Generated from method <code>MR::ObjectMesh::invalidateMetricsCache</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a0acbe56e790ff336234e6086237c6d67" name="a0acbe56e790ff336234e6086237c6d67"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0acbe56e790ff336234e6086237c6d67">&#9670;&#160;</a></span>MR_ObjectMesh_isAncestor()</h2>
 
@@ -4029,6 +4055,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from method <code>MR::ObjectMesh::setDirtyFlags</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>invalidateCaches</code> has a default argument: <code>true</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="a75c76ae663a49a547407063c8273d795" name="a75c76ae663a49a547407063c8273d795"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75c76ae663a49a547407063c8273d795">&#9670;&#160;</a></span>MR_ObjectMesh_setDirtyFlagsFast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectMesh_setDirtyFlagsFast </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this is a faster version of setDirtyFlags(), which does not invalidate metrics cache (area, volume, ...); the user is responsible for calling invalidateMetricsCache( mask ) or setDirtyFlags( mask ) at the end of mesh editing; DANGER: all cached values returned until then can be outdated Generated from method <code>MR::ObjectMesh::setDirtyFlagsFast</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

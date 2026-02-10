@@ -322,6 +322,10 @@ Functions</h2></td></tr>
 <tr class="separator:a2b3dfa3743ca0cf85c9e830839497e5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a852940ee15a21073003b65b44a456cf5" id="r_a852940ee15a21073003b65b44a456cf5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a852940ee15a21073003b65b44a456cf5">MR_ObjectDistanceMap_setDirtyFlags</a> (<a class="el" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this, unsigned int mask, const bool *invalidateCaches)</td></tr>
 <tr class="separator:a852940ee15a21073003b65b44a456cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8acc6c4bdd87d882e1590eae4d785ae" id="r_ac8acc6c4bdd87d882e1590eae4d785ae"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8acc6c4bdd87d882e1590eae4d785ae">MR_ObjectDistanceMap_setDirtyFlagsFast</a> (<a class="el" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this, unsigned int mask)</td></tr>
+<tr class="separator:ac8acc6c4bdd87d882e1590eae4d785ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76f6a5279f95f8e3c104ef710367290c" id="r_a76f6a5279f95f8e3c104ef710367290c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76f6a5279f95f8e3c104ef710367290c">MR_ObjectDistanceMap_invalidateMetricsCache</a> (<a class="el" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this, unsigned int mask)</td></tr>
+<tr class="separator:a76f6a5279f95f8e3c104ef710367290c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bea94a550d18241d7904e58142559de" id="r_a2bea94a550d18241d7904e58142559de"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bea94a550d18241d7904e58142559de">MR_ObjectDistanceMap_getSelectedFaces</a> (const <a class="el" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this)</td></tr>
 <tr class="separator:a2bea94a550d18241d7904e58142559de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4a52815a54972cb375f5124cee45820" id="r_ac4a52815a54972cb375f5124cee45820"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4a52815a54972cb375f5124cee45820">MR_ObjectDistanceMap_selectFaces</a> (<a class="el" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this, MR_PassBy newSelection_pass_by, <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *newSelection)</td></tr>
@@ -2787,6 +2791,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a76f6a5279f95f8e3c104ef710367290c" name="a76f6a5279f95f8e3c104ef710367290c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76f6a5279f95f8e3c104ef710367290c">&#9670;&#160;</a></span>MR_ObjectDistanceMap_invalidateMetricsCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectDistanceMap_invalidateMetricsCache </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>invalidates same caches with mesh metrics (area, volume, ...) as by setDirtyFlags( mask ) Generated from method <code>MR::ObjectDistanceMap::invalidateMetricsCache</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a644aded507946b62f853437921ff2560" name="a644aded507946b62f853437921ff2560"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a644aded507946b62f853437921ff2560">&#9670;&#160;</a></span>MR_ObjectDistanceMap_isAncestor()</h2>
 
@@ -3950,6 +3976,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from method <code>MR::ObjectDistanceMap::setDirtyFlags</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>invalidateCaches</code> has a default argument: <code>true</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="ac8acc6c4bdd87d882e1590eae4d785ae" name="ac8acc6c4bdd87d882e1590eae4d785ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8acc6c4bdd87d882e1590eae4d785ae">&#9670;&#160;</a></span>MR_ObjectDistanceMap_setDirtyFlagsFast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectDistanceMap_setDirtyFlagsFast </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this is a faster version of setDirtyFlags(), which does not invalidate metrics cache (area, volume, ...); the user is responsible for calling invalidateMetricsCache( mask ) or setDirtyFlags( mask ) at the end of mesh editing; DANGER: all cached values returned until then can be outdated Generated from method <code>MR::ObjectDistanceMap::setDirtyFlagsFast</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
