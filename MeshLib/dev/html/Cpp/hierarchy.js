@@ -767,6 +767,7 @@ var hierarchy =
     [ "MR::ImGuiMenu::LabelParams", "structMR_1_1ImGuiMenu_1_1LabelParams.html", null ],
     [ "MR::Laplacian", "classMR_1_1Laplacian.html", null ],
     [ "MR::MeshComponents::LargeByAreaComponentsSettings", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", null ],
+    [ "MR::PolylineComponents::LargeByLengthComponentsSettings", "structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html", null ],
     [ "MR::LaunchParams", "structMR_1_1LaunchParams.html", null ],
     [ "MR::RenderDimensions::LengthParams", "structMR_1_1RenderDimensions_1_1LengthParams.html", null ],
     [ "MR::ImGuiMeasurementIndicators::Text::Line", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html", null ],

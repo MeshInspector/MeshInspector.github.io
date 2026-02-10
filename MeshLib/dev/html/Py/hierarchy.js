@@ -579,6 +579,7 @@ var hierarchy =
     [ "mrmeshpy.LabelVisualizePropertyType", "classmrmeshpy_1_1LabelVisualizePropertyType.html", null ],
     [ "mrmeshpy.Laplacian", "classmrmeshpy_1_1Laplacian.html", null ],
     [ "mrmeshpy.MeshComponents.LargeByAreaComponentsSettings", "classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", null ],
+    [ "mrmeshpy.PolylineComponents.LargeByLengthComponentsSettings", "classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html", null ],
     [ "mrmeshpy.LengthUnit", "classmrmeshpy_1_1LengthUnit.html", null ],
     [ "mrmeshpy.Line2d", "classmrmeshpy_1_1Line2d.html", null ],
     [ "mrmeshpy.Line2f", "classmrmeshpy_1_1Line2f.html", null ],

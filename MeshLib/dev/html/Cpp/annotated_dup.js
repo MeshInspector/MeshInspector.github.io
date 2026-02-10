@@ -164,6 +164,9 @@ var annotated_dup =
         [ "CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "structMR_1_1PointsSave_1_1CtmSavePointsOptions" ],
         [ "PointsSaver", "structMR_1_1PointsSave_1_1PointsSaver.html", "structMR_1_1PointsSave_1_1PointsSaver" ]
       ] ],
+      [ "PolylineComponents", "namespaceMR_1_1PolylineComponents.html", [
+        [ "LargeByLengthComponentsSettings", "structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html", "structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" ]
+      ] ],
       [ "RenderDimensions", "namespaceMR_1_1RenderDimensions.html", [
         [ "AngleParams", "structMR_1_1RenderDimensions_1_1AngleParams.html", "structMR_1_1RenderDimensions_1_1AngleParams" ],
         [ "AngleTask", "classMR_1_1RenderDimensions_1_1AngleTask.html", "classMR_1_1RenderDimensions_1_1AngleTask" ],

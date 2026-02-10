@@ -108,14 +108,7 @@ var namespaceMR =
     ] ],
     [ "PointsLoad", "namespaceMR_1_1PointsLoad.html", "namespaceMR_1_1PointsLoad" ],
     [ "PointsSave", "namespaceMR_1_1PointsSave.html", "namespaceMR_1_1PointsSave" ],
-    [ "PolylineComponents", "namespaceMR_1_1PolylineComponents.html", [
-      [ "getAllComponents", "group__ComponentsGroup.html#ga80e95c2ddcd2a35b79f66a0540d4a152", null ],
-      [ "getAllComponents", "group__ComponentsGroup.html#ga2c677b8145a12d5f3bfba158ff3e719d", null ],
-      [ "getComponent", "group__ComponentsGroup.html#gaf31a9bdb0fcd7f0b1ae5f69a4b83415d", null ],
-      [ "getLargestComponent", "group__ComponentsGroup.html#ga75e013eb4185d7d64af9e7898e2727d5", null ],
-      [ "getNumComponents", "namespaceMR_1_1PolylineComponents.html#a7b49dea5ec0f482893a31e642b0118b6", null ],
-      [ "getUnionFindStructure", "group__ComponentsGroup.html#ga4e45c9f9a413927f7c08c3cd1062d8b3", null ]
-    ] ],
+    [ "PolylineComponents", "namespaceMR_1_1PolylineComponents.html", "namespaceMR_1_1PolylineComponents" ],
     [ "ProgressBar", "namespaceMR_1_1ProgressBar.html", [
       [ "TaskWithMainThreadPostProcessing", "namespaceMR_1_1ProgressBar.html#a096de280a40715b2c4db2b4ccfeb821d", null ],
       [ "callBackSetProgress", "namespaceMR_1_1ProgressBar.html#a2682696e53c15a5fbb804436938b94ef", null ],

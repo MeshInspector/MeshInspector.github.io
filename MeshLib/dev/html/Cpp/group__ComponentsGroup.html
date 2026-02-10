@@ -170,11 +170,14 @@ Functions</h2></td></tr>
 <tr class="separator:ga80e95c2ddcd2a35b79f66a0540d4a152"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2c677b8145a12d5f3bfba158ff3e719d" id="r_ga2c677b8145a12d5f3bfba158ff3e719d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::pair&lt; std::vector&lt; UndirectedEdgeBitSet &gt;, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2c677b8145a12d5f3bfba158ff3e719d">MR::PolylineComponents::getAllComponents</a> (const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;topology, int maxComponentCount)</td></tr>
 <tr class="separator:ga2c677b8145a12d5f3bfba158ff3e719d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaff8ff9103faf452503ccfda3a3a8def2" id="r_gaff8ff9103faf452503ccfda3a3a8def2"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:gaff8ff9103faf452503ccfda3a3a8def2"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; UndirectedEdgeBitSet &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaff8ff9103faf452503ccfda3a3a8def2">MR::PolylineComponents::getNLargeByLengthComponents</a> (const <a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;polyline, const <a class="el" href="structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html">LargeByLengthComponentsSettings</a> &amp;settings)</td></tr>
+<tr class="separator:gaff8ff9103faf452503ccfda3a3a8def2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4e45c9f9a413927f7c08c3cd1062d8b3" id="r_ga4e45c9f9a413927f7c08c3cd1062d8b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; UndirectedEdgeId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4e45c9f9a413927f7c08c3cd1062d8b3">MR::PolylineComponents::getUnionFindStructure</a> (const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;topology)</td></tr>
 <tr class="separator:ga4e45c9f9a413927f7c08c3cd1062d8b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga75e013eb4185d7d64af9e7898e2727d5" id="r_ga75e013eb4185d7d64af9e7898e2727d5"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:ga75e013eb4185d7d64af9e7898e2727d5"><td class="memTemplItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga75e013eb4185d7d64af9e7898e2727d5">MR::PolylineComponents::getLargestComponent</a> (const <a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;polyline)</td></tr>
-<tr class="separator:ga75e013eb4185d7d64af9e7898e2727d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0ab7676eb3ec7a769260f636d14c495c" id="r_ga0ab7676eb3ec7a769260f636d14c495c"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:ga0ab7676eb3ec7a769260f636d14c495c"><td class="memTemplItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga0ab7676eb3ec7a769260f636d14c495c">MR::PolylineComponents::getLargestComponent</a> (const <a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;polyline, float minLength=0, int *numSmallerComponents=nullptr)</td></tr>
+<tr class="separator:ga0ab7676eb3ec7a769260f636d14c495c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf8cb6a4fb4e8de9236165ad0636b9ade" id="r_gaf8cb6a4fb4e8de9236165ad0636b9ade"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; VoxelBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf8cb6a4fb4e8de9236165ad0636b9ade">MR::FloatGridComponents::getAllComponents</a> (const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, float isoValue=0.0f)</td></tr>
 <tr class="separator:gaf8cb6a4fb4e8de9236165ad0636b9ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -273,8 +276,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga75e013eb4185d7d64af9e7898e2727d5" name="ga75e013eb4185d7d64af9e7898e2727d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga75e013eb4185d7d64af9e7898e2727d5">&#9670;&#160;</a></span>getLargestComponent()</h2>
+<a id="ga0ab7676eb3ec7a769260f636d14c495c" name="ga0ab7676eb3ec7a769260f636d14c495c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0ab7676eb3ec7a769260f636d14c495c">&#9670;&#160;</a></span>getLargestComponent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,12 +287,45 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname">UndirectedEdgeBitSet MR::PolylineComponents::getLargestComponent </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minLength</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>numSmallerComponents</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>returns largest by length component </p>
+
+</div>
+</div>
+<a id="gaff8ff9103faf452503ccfda3a3a8def2" name="gaff8ff9103faf452503ccfda3a3a8def2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaff8ff9103faf452503ccfda3a3a8def2">&#9670;&#160;</a></span>getNLargeByLengthComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; UndirectedEdgeBitSet &gt; MR::PolylineComponents::getNLargeByLengthComponents </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html">LargeByLengthComponentsSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns requested number of largest by length connected components in descending by length order </p>
 
 </div>
 </div>

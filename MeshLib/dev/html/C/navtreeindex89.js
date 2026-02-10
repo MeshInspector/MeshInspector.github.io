@@ -247,7 +247,7 @@ var NAVTREEINDEX89 =
 "MRPolyline2Intersect_8h.html#af9929c9298916f994f3ddbcbf3058b2f":[6,2,1,0,0,0,1,266,17],
 "MRPolyline2Intersect_8h_source.html":[6,2,1,0,0,0,1,266],
 "MRPolylineComponents_8h.html":[6,2,1,0,0,0,1,267],
-"MRPolylineComponents_8h.html#a02d1fe1568aa3e29e692594602ba76bd":[6,2,1,0,0,0,1,267,0],
-"MRPolylineComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e":[6,2,1,0,0,0,1,267,2],
-"MRPolylineComponents_8h.html#a593b6767c2a25b151672012fccdbd3ac":[6,2,1,0,0,0,1,267,5]
+"MRPolylineComponents_8h.html#a02d1fe1568aa3e29e692594602ba76bd":[6,2,1,0,0,0,1,267,3],
+"MRPolylineComponents_8h.html#a079545ca863e461a470374792a2ddda3":[6,2,1,0,0,0,1,267,26],
+"MRPolylineComponents_8h.html#a1c5aea7c56ec2daf0cdf05311c8b63f2":[6,2,1,0,0,0,1,267,28]
 };

@@ -2573,6 +2573,9 @@ var hierarchy =
       [ "MR.PointsSave.Const_CtmSavePointsOptions", null, [
         [ "MR.PointsSave.CtmSavePointsOptions", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html", null ]
       ] ],
+      [ "MR.PolylineComponents.Const_LargeByLengthComponentsSettings", null, [
+        [ "MR.PolylineComponents.LargeByLengthComponentsSettings", "classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html", null ]
+      ] ],
       [ "MR.SceneLoad.Const_Result", null, [
         [ "MR.SceneLoad.Result", "classMR_1_1SceneLoad_1_1Result.html", null ]
       ] ],
@@ -3665,6 +3668,7 @@ var hierarchy =
       [ "MR.PointsLoad.Const_E57LoadSettings", null, null ],
       [ "MR.PointsLoad.Const_NamedCloud", null, null ],
       [ "MR.PointsSave.Const_CtmSavePointsOptions", null, null ],
+      [ "MR.PolylineComponents.Const_LargeByLengthComponentsSettings", null, null ],
       [ "MR.SceneLoad.Const_Result", null, null ],
       [ "MR.SceneLoad.Const_Settings", null, null ],
       [ "MR.SelfIntersections.Const_Settings", null, null ],

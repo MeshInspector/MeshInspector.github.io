@@ -98,7 +98,7 @@ var NAVTREEINDEX9 =
 "MRPolyline2Project_8h.html":[6,0,3,0,0,1,4,309],
 "MRPolyline2Project_8h_source.html":[6,0,3,0,0,1,4,309],
 "MRPolylineComponents_8h.html":[6,0,3,0,0,1,4,310],
-"MRPolylineComponents_8h.html#a7b49dea5ec0f482893a31e642b0118b6":[6,0,3,0,0,1,4,310,4],
+"MRPolylineComponents_8h.html#a7b49dea5ec0f482893a31e642b0118b6":[6,0,3,0,0,1,4,310,6],
 "MRPolylineComponents_8h_source.html":[6,0,3,0,0,1,4,310],
 "MRPolylineDecimate_8h.html":[6,0,3,0,0,1,4,311],
 "MRPolylineDecimate_8h.html#a123fe754e35b341ca5ffe226b5eecc9a":[6,0,3,0,0,1,4,311,2],

@@ -721,7 +721,7 @@ var annotated_dup =
       [ "Polyline2", "classmrmeshpy_1_1Polyline2.html", "classmrmeshpy_1_1Polyline2" ],
       [ "Polyline2ProjectionWithOffsetResult", "classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html", "classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult" ],
       [ "Polyline3", "classmrmeshpy_1_1Polyline3.html", "classmrmeshpy_1_1Polyline3" ],
-      [ "PolylineComponents", "classmrmeshpy_1_1PolylineComponents.html", null ],
+      [ "PolylineComponents", "classmrmeshpy_1_1PolylineComponents.html", "classmrmeshpy_1_1PolylineComponents" ],
       [ "PolylineIntersectionResult2", "classmrmeshpy_1_1PolylineIntersectionResult2.html", "classmrmeshpy_1_1PolylineIntersectionResult2" ],
       [ "PolylineMaker", "classmrmeshpy_1_1PolylineMaker.html", "classmrmeshpy_1_1PolylineMaker" ],
       [ "PolylineProjectionResult2", "classmrmeshpy_1_1PolylineProjectionResult2.html", "classmrmeshpy_1_1PolylineProjectionResult2" ],
