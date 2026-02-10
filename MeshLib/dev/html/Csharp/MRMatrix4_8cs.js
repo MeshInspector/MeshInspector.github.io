@@ -16,6 +16,5 @@ var MRMatrix4_8cs =
     [ "MR.ConstBox_Matrix4d", "classMR_1_1ConstBox__Matrix4d.html", "classMR_1_1ConstBox__Matrix4d" ],
     [ "MR.Box_Matrix4d", "classMR_1_1Box__Matrix4d.html", "classMR_1_1Box__Matrix4d" ],
     [ "MR.Matrix4d", "structMR_1_1Matrix4d.html", "structMR_1_1Matrix4d" ],
-    [ "MR.Const_Matrix4_UnsignedChar", "classMR_1_1Const__Matrix4__UnsignedChar.html", "classMR_1_1Const__Matrix4__UnsignedChar" ],
     [ "MR.Matrix4_UnsignedChar", "classMR_1_1Matrix4__UnsignedChar.html", "classMR_1_1Matrix4__UnsignedChar" ]
 ];

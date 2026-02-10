@@ -1,10 +1,5 @@
 var classMR_1_1VoxelsLoad =
 [
-    [ "Const_DicomStatus", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus.html", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus" ],
-    [ "Const_DicomVolume", "classMR_1_1VoxelsLoad_1_1Const__DicomVolume.html", "classMR_1_1VoxelsLoad_1_1Const__DicomVolume" ],
-    [ "Const_DicomVolumeAsVdb", "classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb.html", "classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb" ],
-    [ "Const_LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings" ],
-    [ "Const_RawParameters", "classMR_1_1VoxelsLoad_1_1Const__RawParameters.html", "classMR_1_1VoxelsLoad_1_1Const__RawParameters" ],
     [ "DicomStatus", "classMR_1_1VoxelsLoad_1_1DicomStatus.html", "classMR_1_1VoxelsLoad_1_1DicomStatus" ],
     [ "DicomVolume", "classMR_1_1VoxelsLoad_1_1DicomVolume.html", "classMR_1_1VoxelsLoad_1_1DicomVolume" ],
     [ "DicomVolumeAsVdb", "classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html", "classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" ],

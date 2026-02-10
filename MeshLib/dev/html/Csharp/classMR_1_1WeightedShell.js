@@ -1,9 +1,5 @@
 var classMR_1_1WeightedShell =
 [
-    [ "Const_DistanceVolumeCreationParams", "classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams.html", "classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams" ],
-    [ "Const_ParametersBase", "classMR_1_1WeightedShell_1_1Const__ParametersBase.html", "classMR_1_1WeightedShell_1_1Const__ParametersBase" ],
-    [ "Const_ParametersMetric", "classMR_1_1WeightedShell_1_1Const__ParametersMetric.html", "classMR_1_1WeightedShell_1_1Const__ParametersMetric" ],
-    [ "Const_ParametersRegions", "classMR_1_1WeightedShell_1_1Const__ParametersRegions.html", "classMR_1_1WeightedShell_1_1Const__ParametersRegions" ],
     [ "DistanceVolumeCreationParams", "classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html", "classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" ],
     [ "ParametersBase", "classMR_1_1WeightedShell_1_1ParametersBase.html", "classMR_1_1WeightedShell_1_1ParametersBase" ],
     [ "ParametersMetric", "classMR_1_1WeightedShell_1_1ParametersMetric.html", "classMR_1_1WeightedShell_1_1ParametersMetric" ],

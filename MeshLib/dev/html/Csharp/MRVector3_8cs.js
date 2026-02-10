@@ -16,6 +16,5 @@ var MRVector3_8cs =
     [ "MR.ConstBox_Vector3d", "classMR_1_1ConstBox__Vector3d.html", "classMR_1_1ConstBox__Vector3d" ],
     [ "MR.Box_Vector3d", "classMR_1_1Box__Vector3d.html", "classMR_1_1Box__Vector3d" ],
     [ "MR.Vector3d", "structMR_1_1Vector3d.html", "structMR_1_1Vector3d" ],
-    [ "MR.Const_Vector3_UnsignedChar", "classMR_1_1Const__Vector3__UnsignedChar.html", "classMR_1_1Const__Vector3__UnsignedChar" ],
     [ "MR.Vector3_UnsignedChar", "classMR_1_1Vector3__UnsignedChar.html", "classMR_1_1Vector3__UnsignedChar" ]
 ];

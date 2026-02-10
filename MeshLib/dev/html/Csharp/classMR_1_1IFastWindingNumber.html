@@ -160,11 +160,8 @@ $(function(){initNavTree('classMR_1_1IFastWindingNumber.html',''); initResizable
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
-  <img src="classMR_1_1IFastWindingNumber.png" usemap="#MR.IFastWindingNumber_map" alt=""/>
-  <map id="MR.IFastWindingNumber_map" name="MR.IFastWindingNumber_map">
-<area href="classMR_1_1Const__IFastWindingNumber.html" title="Abstract class for fast approximate computation of generalized winding number for a mesh (using its A..." alt="MR.Const_IFastWindingNumber" shape="rect" coords="168,56,495,80"/>
-  </map>
-</div></div>
+  <img src="classMR_1_1IFastWindingNumber.png" alt=""/>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -177,18 +174,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8c8eaa1d923c9751190563795afdea3e" id="r_a8c8eaa1d923c9751190563795afdea3e"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c8eaa1d923c9751190563795afdea3e">calcFromGrid</a> (MR.Std.Vector_Float res, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> dims, in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> gridToMeshXf, float beta, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
 <tr class="memdesc:a8c8eaa1d923c9751190563795afdea3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in each point from a three-dimensional grid  <br /></td></tr>
 <tr class="separator:a8c8eaa1d923c9751190563795afdea3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3a528367bf75b600e2d61d9b09e065c" id="r_aa3a528367bf75b600e2d61d9b09e065c"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3a528367bf75b600e2d61d9b09e065c">calcFromGridWithDistances</a> (MR.Std.Vector_Float res, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> dims, in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> gridToMeshXf, <a class="el" href="classMR_1_1Const__DistanceToMeshOptions.html">MR.Const_DistanceToMeshOptions</a> options, MR.Std.Const_Function_BoolFuncFromFloat cb)</td></tr>
+<tr class="memitem:aa3a528367bf75b600e2d61d9b09e065c" id="r_aa3a528367bf75b600e2d61d9b09e065c"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3a528367bf75b600e2d61d9b09e065c">calcFromGridWithDistances</a> (MR.Std.Vector_Float res, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> dims, in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> gridToMeshXf, MR.Const_DistanceToMeshOptions options, MR.Std.Const_Function_BoolFuncFromFloat cb)</td></tr>
 <tr class="memdesc:aa3a528367bf75b600e2d61d9b09e065c"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point  <br /></td></tr>
 <tr class="separator:aa3a528367bf75b600e2d61d9b09e065c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classMR_1_1Const__IFastWindingNumber"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1Const__IFastWindingNumber')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1Const__IFastWindingNumber.html">MR.Const_IFastWindingNumber</a></td></tr>
-<tr class="memitem:a04b914fd85a4ba6cee47149f0fb5f48c inherit pub_methods_classMR_1_1Const__IFastWindingNumber" id="r_a04b914fd85a4ba6cee47149f0fb5f48c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__IFastWindingNumber.html#a04b914fd85a4ba6cee47149f0fb5f48c">Dispose</a> ()</td></tr>
-<tr class="separator:a04b914fd85a4ba6cee47149f0fb5f48c inherit pub_methods_classMR_1_1Const__IFastWindingNumber"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_classMR_1_1Const__IFastWindingNumber"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classMR_1_1Const__IFastWindingNumber')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classMR_1_1Const__IFastWindingNumber.html">MR.Const_IFastWindingNumber</a></td></tr>
-<tr class="memitem:a846097ec72d3f85805131a0c51ffe61e inherit pro_methods_classMR_1_1Const__IFastWindingNumber" id="r_a846097ec72d3f85805131a0c51ffe61e"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__IFastWindingNumber.html#a846097ec72d3f85805131a0c51ffe61e">Dispose</a> (bool disposing)</td></tr>
-<tr class="separator:a846097ec72d3f85805131a0c51ffe61e inherit pro_methods_classMR_1_1Const__IFastWindingNumber"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract class for fast approximate computation of generalized winding number for a mesh (using its AABB tree) Generated from class <code><a class="el" href="classMR_1_1IFastWindingNumber.html" title="Abstract class for fast approximate computation of generalized winding number for a mesh (using its A...">MR.IFastWindingNumber</a></code>. Derived classes: Direct: (non-virtual) <code><a class="el" href="classMR_1_1FastWindingNumber.html" title="the class for fast approximate computation of winding number for a mesh (using its AABB tree) Note,...">MR.FastWindingNumber</a></code> This is the non-const half of the class. </p>
@@ -276,7 +264,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__DistanceToMeshOptions.html">MR.Const_DistanceToMeshOptions</a></td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
+          <td class="paramtype">MR.Const_DistanceToMeshOptions</td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

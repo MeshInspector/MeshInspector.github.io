@@ -1,9 +1,0 @@
-var classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment =
-[
-    [ "Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html#ab5d6bb98d7784d1ac403896748a7b4c7", null ],
-    [ "Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html#ac129155bb1aca3f1d4c5a2f72f0c1e30", null ],
-    [ "Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html#a3c7ba28901d6fa116631ad43afab91a1", null ],
-    [ "Dispose", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html#af6a64756446a470814bc6245a8d4ad89", null ],
-    [ "Dispose", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html#a8ad7bc77a68eb1847e65b0a1d4501718", null ],
-    [ "measure", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html#a6b5e92b9e046f7c7184e9c9e36c4a83f", null ]
-];

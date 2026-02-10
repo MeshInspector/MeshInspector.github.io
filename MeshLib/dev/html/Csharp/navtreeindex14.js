@@ -118,7 +118,6 @@ var NAVTREEINDEX14 =
 "classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html":[6,3,0,0,0,140],
 "classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a072e32997999050c8c4f410931644264":[6,3,0,0,0,140,0],
 "classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a434cefbc6368e98fd841e5bccdd561bf":[6,3,0,0,0,140,6],
-"classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#aa61168168702e6ea61ab42561aacaea5":[6,3,0,0,0,140,7],
 "classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#aa75457ca4d56fbbebabfa4c141f6dbe7":[6,3,0,0,0,140,3],
 "classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#aab41ce6b77da561ab9db030d7bbe388c":[6,3,0,0,0,140,4],
 "classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#ab305fb14a3a5b1ec997e74eb32d39aa1":[6,3,0,0,0,140,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX14 =
 "classMR_1_1ChangVoxelSelectionAction.html#aa9634997ae77d0208ea81d116feef5d9":[6,3,0,0,0,191,1],
 "classMR_1_1ChangeActiveBoxAction.html":[6,3,0,0,0,152],
 "classMR_1_1ChangeActiveBoxAction.html#a28c1f719cee74a43d273dbe58f70ccbd":[6,3,0,0,0,152,1],
-"classMR_1_1ChangeActiveBoxAction.html#a2e3ba40f267d0d709e933ddb551bf5ae":[6,3,0,0,0,152,7]
+"classMR_1_1ChangeActiveBoxAction.html#a2e3ba40f267d0d709e933ddb551bf5ae":[6,3,0,0,0,152,7],
+"classMR_1_1ChangeActiveBoxAction.html#a2e8f107ef50ad7ba5b4355c5f4d4a49d":[6,3,0,0,0,152,3]
 };

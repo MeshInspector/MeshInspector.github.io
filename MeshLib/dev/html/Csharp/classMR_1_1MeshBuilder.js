@@ -1,14 +1,6 @@
 var classMR_1_1MeshBuilder =
 [
     [ "BuildSettings", "classMR_1_1MeshBuilder_1_1BuildSettings.html", "classMR_1_1MeshBuilder_1_1BuildSettings" ],
-    [ "Const_BuildSettings", "classMR_1_1MeshBuilder_1_1Const__BuildSettings.html", "classMR_1_1MeshBuilder_1_1Const__BuildSettings" ],
-    [ "Const_EqualVector3f", "classMR_1_1MeshBuilder_1_1Const__EqualVector3f.html", "classMR_1_1MeshBuilder_1_1Const__EqualVector3f" ],
-    [ "Const_MeshPiece", "classMR_1_1MeshBuilder_1_1Const__MeshPiece.html", "classMR_1_1MeshBuilder_1_1Const__MeshPiece" ],
-    [ "Const_Triangle", "classMR_1_1MeshBuilder_1_1Const__Triangle.html", "classMR_1_1MeshBuilder_1_1Const__Triangle" ],
-    [ "Const_UniteCloseParams", "classMR_1_1MeshBuilder_1_1Const__UniteCloseParams.html", "classMR_1_1MeshBuilder_1_1Const__UniteCloseParams" ],
-    [ "Const_VertDuplication", "classMR_1_1MeshBuilder_1_1Const__VertDuplication.html", "classMR_1_1MeshBuilder_1_1Const__VertDuplication" ],
-    [ "Const_VertexIdentifier", "classMR_1_1MeshBuilder_1_1Const__VertexIdentifier.html", "classMR_1_1MeshBuilder_1_1Const__VertexIdentifier" ],
-    [ "Const_VertSpan", "classMR_1_1MeshBuilder_1_1Const__VertSpan.html", "classMR_1_1MeshBuilder_1_1Const__VertSpan" ],
     [ "EqualVector3f", "classMR_1_1MeshBuilder_1_1EqualVector3f.html", "classMR_1_1MeshBuilder_1_1EqualVector3f" ],
     [ "MeshPiece", "classMR_1_1MeshBuilder_1_1MeshPiece.html", "classMR_1_1MeshBuilder_1_1MeshPiece" ],
     [ "Triangle", "classMR_1_1MeshBuilder_1_1Triangle.html", "classMR_1_1MeshBuilder_1_1Triangle" ],

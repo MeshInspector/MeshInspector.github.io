@@ -1,9 +1,5 @@
 var classMR_1_1FixUndercuts =
 [
-    [ "Const_DistMapImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html", "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters" ],
-    [ "Const_FindParams", "classMR_1_1FixUndercuts_1_1Const__FindParams.html", "classMR_1_1FixUndercuts_1_1Const__FindParams" ],
-    [ "Const_FixParams", "classMR_1_1FixUndercuts_1_1Const__FixParams.html", "classMR_1_1FixUndercuts_1_1Const__FixParams" ],
-    [ "Const_ImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters.html", "classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters" ],
     [ "DistMapImproveDirectionParameters", "classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
     [ "FindParams", "classMR_1_1FixUndercuts_1_1FindParams.html", "classMR_1_1FixUndercuts_1_1FindParams" ],
     [ "FixParams", "classMR_1_1FixUndercuts_1_1FixParams.html", "classMR_1_1FixUndercuts_1_1FixParams" ],

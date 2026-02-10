@@ -6,6 +6,5 @@ var classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag =
     [ "assign", "classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#aa75457ca4d56fbbebabfa4c141f6dbe7", null ],
     [ "clear", "classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#aab41ce6b77da561ab9db030d7bbe388c", null ],
     [ "data", "classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#af32aa4ef9dfbe074db8b624619c97d50", null ],
-    [ "resize", "classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a434cefbc6368e98fd841e5bccdd561bf", null ],
-    [ "this[MR.Const_Id_MRICPElemtTag i]", "classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#aa61168168702e6ea61ab42561aacaea5", null ]
+    [ "resize", "classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a434cefbc6368e98fd841e5bccdd561bf", null ]
 ];

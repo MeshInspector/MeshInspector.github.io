@@ -1,7 +1,5 @@
 var classMR_1_1MeshComponents =
 [
-    [ "Const_ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams.html", "classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams" ],
-    [ "Const_LargeByAreaComponentsSettings", "classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings.html", "classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings" ],
     [ "ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1ExpandToComponentsParams.html", "classMR_1_1MeshComponents_1_1ExpandToComponentsParams" ],
     [ "LargeByAreaComponentsSettings", "classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", "classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" ],
     [ "FaceIncidence", "classMR_1_1MeshComponents.html#a4456859c6a96d21172917ef5db336722", [

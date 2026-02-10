@@ -1,6 +1,5 @@
 var classMR_1_1PointsSave =
 [
-    [ "Const_CtmSavePointsOptions", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions" ],
     [ "CtmSavePointsOptions", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "classMR_1_1PointsSave_1_1CtmSavePointsOptions" ],
     [ "toAnySupportedFormat", "classMR_1_1PointsSave.html#a7e482985a7a82dc630a58ba71b686485", null ],
     [ "toAnySupportedFormat", "classMR_1_1PointsSave.html#acf3808f220288d8e2eb322198d04f881", null ],

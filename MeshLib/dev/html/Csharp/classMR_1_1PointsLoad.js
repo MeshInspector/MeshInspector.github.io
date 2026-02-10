@@ -1,7 +1,5 @@
 var classMR_1_1PointsLoad =
 [
-    [ "Const_E57LoadSettings", "classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html", "classMR_1_1PointsLoad_1_1Const__E57LoadSettings" ],
-    [ "Const_NamedCloud", "classMR_1_1PointsLoad_1_1Const__NamedCloud.html", "classMR_1_1PointsLoad_1_1Const__NamedCloud" ],
     [ "E57LoadSettings", "classMR_1_1PointsLoad_1_1E57LoadSettings.html", "classMR_1_1PointsLoad_1_1E57LoadSettings" ],
     [ "NamedCloud", "classMR_1_1PointsLoad_1_1NamedCloud.html", "classMR_1_1PointsLoad_1_1NamedCloud" ],
     [ "fromAnySupportedFormat", "classMR_1_1PointsLoad.html#ad3f6f9aefe03d5c1313483f26d459790", null ],

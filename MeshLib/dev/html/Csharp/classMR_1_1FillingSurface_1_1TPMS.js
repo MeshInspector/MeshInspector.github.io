@@ -1,7 +1,5 @@
 var classMR_1_1FillingSurface_1_1TPMS =
 [
-    [ "Const_MeshParams", "classMR_1_1FillingSurface_1_1TPMS_1_1Const__MeshParams.html", "classMR_1_1FillingSurface_1_1TPMS_1_1Const__MeshParams" ],
-    [ "Const_VolumeParams", "classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams.html", "classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams" ],
     [ "MeshParams", "classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html", "classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" ],
     [ "VolumeParams", "classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html", "classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" ],
     [ "Type", "classMR_1_1FillingSurface_1_1TPMS.html#aa0042e4e52a341abae2d86e3f384c63f", [

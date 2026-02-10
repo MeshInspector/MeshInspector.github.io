@@ -1,7 +1,5 @@
 var classMR_1_1MeshLoad =
 [
-    [ "Const_NamedMesh", "classMR_1_1MeshLoad_1_1Const__NamedMesh.html", "classMR_1_1MeshLoad_1_1Const__NamedMesh" ],
-    [ "Const_ObjLoadSettings", "classMR_1_1MeshLoad_1_1Const__ObjLoadSettings.html", "classMR_1_1MeshLoad_1_1Const__ObjLoadSettings" ],
     [ "NamedMesh", "classMR_1_1MeshLoad_1_1NamedMesh.html", "classMR_1_1MeshLoad_1_1NamedMesh" ],
     [ "ObjLoadSettings", "classMR_1_1MeshLoad_1_1ObjLoadSettings.html", "classMR_1_1MeshLoad_1_1ObjLoadSettings" ],
     [ "fromAnyStl", "classMR_1_1MeshLoad.html#aa08b3cb60ecad8b7f08b7ec9a00e6a6d", null ],

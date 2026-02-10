@@ -1,6 +1,5 @@
 var classMR_1_1ColorMapAggregator__MRVertTag =
 [
-    [ "Const_PartialColorMap", "classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap.html", "classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap" ],
     [ "PartialColorMap", "classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap.html", "classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap" ],
     [ "AggregateMode", "classMR_1_1ColorMapAggregator__MRVertTag.html#a7845fa3cb26a19f858d7d78307774467", [
       [ "Overlay", "classMR_1_1ColorMapAggregator__MRVertTag.html#a7845fa3cb26a19f858d7d78307774467a6b551379c3c0b59326abdaf3b4395bd3", null ],

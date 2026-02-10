@@ -37,6 +37,5 @@ var MRBox_8cs =
     [ "MR.ConstBox_Box3d", "classMR_1_1ConstBox__Box3d.html", "classMR_1_1ConstBox__Box3d" ],
     [ "MR.Box_Box3d", "classMR_1_1Box__Box3d.html", "classMR_1_1Box__Box3d" ],
     [ "MR.Box3d", "structMR_1_1Box3d.html", "structMR_1_1Box3d" ],
-    [ "MR.Const_Box_UnsignedShort", "classMR_1_1Const__Box__UnsignedShort.html", "classMR_1_1Const__Box__UnsignedShort" ],
     [ "MR.Box_UnsignedShort", "classMR_1_1Box__UnsignedShort.html", "classMR_1_1Box__UnsignedShort" ]
 ];

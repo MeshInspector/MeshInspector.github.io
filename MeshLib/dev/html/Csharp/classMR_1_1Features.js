@@ -1,7 +1,5 @@
 var classMR_1_1Features =
 [
-    [ "Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html", "classMR_1_1Features_1_1Const__MeasureResult" ],
-    [ "Const_SubfeatureInfo", "classMR_1_1Features_1_1Const__SubfeatureInfo.html", "classMR_1_1Features_1_1Const__SubfeatureInfo" ],
     [ "MeasureResult", "classMR_1_1Features_1_1MeasureResult.html", "classMR_1_1Features_1_1MeasureResult" ],
     [ "Primitives", "classMR_1_1Features_1_1Primitives.html", "classMR_1_1Features_1_1Primitives" ],
     [ "SubfeatureInfo", "classMR_1_1Features_1_1SubfeatureInfo.html", "classMR_1_1Features_1_1SubfeatureInfo" ],
