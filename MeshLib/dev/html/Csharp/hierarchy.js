@@ -746,6 +746,9 @@ var hierarchy =
       [ "MR.Const_EdgeSegment", null, [
         [ "MR.EdgeSegment", "classMR_1_1EdgeSegment.html", null ]
       ] ],
+      [ "MR.Const_EdgeSetBitIterator", null, [
+        [ "MR.EdgeSetBitIterator", "classMR_1_1EdgeSetBitIterator.html", null ]
+      ] ],
       [ "MR.Const_EdgeTri", null, [
         [ "MR.EdgeTri", "classMR_1_1EdgeTri.html", null ]
       ] ],
@@ -799,6 +802,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_FaceScalars", null, [
         [ "MR.FaceScalars", "classMR_1_1FaceScalars.html", null ]
+      ] ],
+      [ "MR.Const_FaceSetBitIterator", null, [
+        [ "MR.FaceSetBitIterator", "classMR_1_1FaceSetBitIterator.html", null ]
       ] ],
       [ "MR.Const_FanRecord", null, [
         [ "MR.FanRecord", "classMR_1_1FanRecord.html", null ]
@@ -1841,6 +1847,9 @@ var hierarchy =
       [ "MR.Const_SeparationPointStorage", null, [
         [ "MR.SeparationPointStorage", "classMR_1_1SeparationPointStorage.html", null ]
       ] ],
+      [ "MR.Const_SetBitIterator", null, [
+        [ "MR.SetBitIterator", "classMR_1_1SetBitIterator.html", null ]
+      ] ],
       [ "MR.Const_SetNew", null, [
         [ "MR.SetNew", "classMR_1_1SetNew.html", null ]
       ] ],
@@ -2087,6 +2096,9 @@ var hierarchy =
       [ "MR.Const_UndirectedEdgeScalars", null, [
         [ "MR.UndirectedEdgeScalars", "classMR_1_1UndirectedEdgeScalars.html", null ]
       ] ],
+      [ "MR.Const_UndirectedEdgeSetBitIterator", null, [
+        [ "MR.UndirectedEdgeSetBitIterator", "classMR_1_1UndirectedEdgeSetBitIterator.html", null ]
+      ] ],
       [ "MR.Const_UndirectedEdgeUndirectedEdge", null, [
         [ "MR.UndirectedEdgeUndirectedEdge", "classMR_1_1UndirectedEdgeUndirectedEdge.html", null ]
       ] ],
@@ -2311,6 +2323,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_VertScalars", null, [
         [ "MR.VertScalars", "classMR_1_1VertScalars.html", null ]
+      ] ],
+      [ "MR.Const_VertSetBitIterator", null, [
+        [ "MR.VertSetBitIterator", "classMR_1_1VertSetBitIterator.html", null ]
       ] ],
       [ "MR.Const_ViewportIterator", null, [
         [ "MR.ViewportIterator", "classMR_1_1ViewportIterator.html", null ]
@@ -2626,12 +2641,16 @@ var hierarchy =
       ] ]
     ] ],
     [ "IEnumerable", null, [
+      [ "MR.Const_BitSet", null, null ],
       [ "MR.Const_IteratorRange_MRChunkIterator", null, null ],
       [ "MR.Const_IteratorRange_MRPolylineUndirectedEdgeIterator", null, null ],
       [ "MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameLeft", null, null ],
       [ "MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin", null, null ],
       [ "MR.Const_IteratorRange_MRUndirectedEdgeIterator", null, null ],
-      [ "MR.Const_ViewportMask", null, null ]
+      [ "MR.Const_UndirectedEdgeBitSet", null, null ],
+      [ "MR.Const_Vector_MRMeshTexture_MRTextureId", null, null ],
+      [ "MR.Const_ViewportMask", null, null ],
+      [ "MR.Vector_MRMeshTexture_MRTextureId", "classMR_1_1Vector__MRMeshTexture__MRTextureId.html", null ]
     ] ],
     [ "System.IEquatable", null, [
       [ "MR.AffineXf2d", "structMR_1_1AffineXf2d.html", null ],
@@ -2723,6 +2742,7 @@ var hierarchy =
       [ "MR.Const_EdgePointPair", null, null ],
       [ "MR.Const_EdgeScalars", null, null ],
       [ "MR.Const_EdgeSegment", null, null ],
+      [ "MR.Const_EdgeSetBitIterator", null, null ],
       [ "MR.Const_EdgeTri", null, null ],
       [ "MR.Const_Edges", null, null ],
       [ "MR.Const_Face2RegionMap", null, null ],
@@ -2731,6 +2751,7 @@ var hierarchy =
       [ "MR.Const_FaceMap", null, null ],
       [ "MR.Const_FaceNormals", null, null ],
       [ "MR.Const_FaceScalars", null, null ],
+      [ "MR.Const_FaceSetBitIterator", null, null ],
       [ "MR.Const_ICPPairData", null, null ],
       [ "MR.Const_Id_MRICPElemtTag", null, null ],
       [ "MR.Const_Matrix3_UnsignedChar", null, null ],
@@ -2764,6 +2785,7 @@ var hierarchy =
       [ "MR.Const_SegmPointd", null, null ],
       [ "MR.Const_SegmPointf", null, null ],
       [ "MR.Const_SegmPointf", null, null ],
+      [ "MR.Const_SetBitIterator", null, null ],
       [ "MR.Const_SimpleVolumeMinMax", null, null ],
       [ "MR.Const_SimpleVolumeMinMaxU16", null, null ],
       [ "MR.Const_Sphere2d", null, null ],
@@ -2787,6 +2809,7 @@ var hierarchy =
       [ "MR.Const_UndirectedEdgeIterator", null, null ],
       [ "MR.Const_UndirectedEdgeMap", null, null ],
       [ "MR.Const_UndirectedEdgeScalars", null, null ],
+      [ "MR.Const_UndirectedEdgeSetBitIterator", null, null ],
       [ "MR.Const_UnorientedTriangle", null, null ],
       [ "MR.Const_VarEdgeTri", null, null ],
       [ "MR.Const_VdbVolume", null, null ],
@@ -2829,6 +2852,7 @@ var hierarchy =
       [ "MR.Const_VertCoords2", null, null ],
       [ "MR.Const_VertMap", null, null ],
       [ "MR.Const_VertScalars", null, null ],
+      [ "MR.Const_VertSetBitIterator", null, null ],
       [ "MR.Const_ViewportIterator", null, null ],
       [ "MR.Const_ViewportMask", null, null ],
       [ "MR.Const_WholeEdgeMap", null, null ],
@@ -3091,6 +3115,7 @@ var hierarchy =
       [ "MR.Const_EdgePointPair", null, null ],
       [ "MR.Const_EdgeScalars", null, null ],
       [ "MR.Const_EdgeSegment", null, null ],
+      [ "MR.Const_EdgeSetBitIterator", null, null ],
       [ "MR.Const_EdgeTri", null, null ],
       [ "MR.Const_Edges", null, null ],
       [ "MR.Const_EmbeddedStructureParameters", null, null ],
@@ -3109,6 +3134,7 @@ var hierarchy =
       [ "MR.Const_FaceMap", null, null ],
       [ "MR.Const_FaceNormals", null, null ],
       [ "MR.Const_FaceScalars", null, null ],
+      [ "MR.Const_FaceSetBitIterator", null, null ],
       [ "MR.Const_FanRecord", null, null ],
       [ "MR.Const_FanRecordWithCenter", null, null ],
       [ "MR.Const_FeatureObjectProjectPointResult", null, null ],
@@ -3426,6 +3452,7 @@ var hierarchy =
       [ "MR.Const_SegmPointf", null, null ],
       [ "MR.Const_SegmentSegmentIntersectResult", null, null ],
       [ "MR.Const_SeparationPointStorage", null, null ],
+      [ "MR.Const_SetBitIterator", null, null ],
       [ "MR.Const_SetNew", null, null ],
       [ "MR.Const_SharpOffsetParameters", null, null ],
       [ "MR.Const_SharpenMarchingCubesMeshSettings", null, null ],
@@ -3507,6 +3534,7 @@ var hierarchy =
       [ "MR.Const_UndirectedEdgeIterator", null, null ],
       [ "MR.Const_UndirectedEdgeMap", null, null ],
       [ "MR.Const_UndirectedEdgeScalars", null, null ],
+      [ "MR.Const_UndirectedEdgeSetBitIterator", null, null ],
       [ "MR.Const_UndirectedEdgeUndirectedEdge", null, null ],
       [ "MR.Const_UniformSamplingSettings", null, null ],
       [ "MR.Const_UnionFind_MRFaceId", null, null ],
@@ -3582,6 +3610,7 @@ var hierarchy =
       [ "MR.Const_VertPathInfo", null, null ],
       [ "MR.Const_VertRenumber", null, null ],
       [ "MR.Const_VertScalars", null, null ],
+      [ "MR.Const_VertSetBitIterator", null, null ],
       [ "MR.Const_ViewportIterator", null, null ],
       [ "MR.Const_ViewportMask", null, null ],
       [ "MR.Const_ViewportProperty_MRAffineXf3f", null, null ],

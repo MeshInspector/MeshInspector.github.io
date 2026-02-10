@@ -14,5 +14,10 @@ var MRBitSet_8cs =
     [ "MR.GraphVertBitSet", "classMR_1_1GraphVertBitSet.html", "classMR_1_1GraphVertBitSet" ],
     [ "MR.GraphEdgeBitSet", "classMR_1_1GraphEdgeBitSet.html", "classMR_1_1GraphEdgeBitSet" ],
     [ "MR.TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag" ],
+    [ "MR.SetBitIterator", "classMR_1_1SetBitIterator.html", "classMR_1_1SetBitIterator" ],
+    [ "MR.FaceSetBitIterator", "classMR_1_1FaceSetBitIterator.html", "classMR_1_1FaceSetBitIterator" ],
+    [ "MR.VertSetBitIterator", "classMR_1_1VertSetBitIterator.html", "classMR_1_1VertSetBitIterator" ],
+    [ "MR.EdgeSetBitIterator", "classMR_1_1EdgeSetBitIterator.html", "classMR_1_1EdgeSetBitIterator" ],
+    [ "MR.UndirectedEdgeSetBitIterator", "classMR_1_1UndirectedEdgeSetBitIterator.html", "classMR_1_1UndirectedEdgeSetBitIterator" ],
     [ "MR.BitSet", "classMR_1_1BitSet.html", "classMR_1_1BitSet" ]
 ];

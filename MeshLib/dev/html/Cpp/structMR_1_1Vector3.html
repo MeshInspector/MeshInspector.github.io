@@ -311,10 +311,10 @@ Related Symbols</h2></td></tr>
 <tr class="memitem:a14f7f0adb55e73e84d46a542b9b91186"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a14f7f0adb55e73e84d46a542b9b91186">unitVector3</a> (T azimuth, T altitude)</td></tr>
 <tr class="memdesc:a14f7f0adb55e73e84d46a542b9b91186"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a point on unit sphere given two angles  <br /></td></tr>
 <tr class="separator:a14f7f0adb55e73e84d46a542b9b91186"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cd1ae952c7615398cbf5b1534f63f24" id="r_a9cd1ae952c7615398cbf5b1534f63f24"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a9cd1ae952c7615398cbf5b1534f63f24"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a9cd1ae952c7615398cbf5b1534f63f24">begin</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v)</td></tr>
-<tr class="memdesc:a9cd1ae952c7615398cbf5b1534f63f24"><td class="mdescLeft">&#160;</td><td class="mdescRight">We don't need to bind those functions themselves. This doesn't prevent <code>__iter__</code> from being generated for the type.  <br /></td></tr>
-<tr class="separator:a9cd1ae952c7615398cbf5b1534f63f24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a77f8e96a4d822dc5af3a747356496c" id="r_a2a77f8e96a4d822dc5af3a747356496c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a2a77f8e96a4d822dc5af3a747356496c"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE_PY auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a2a77f8e96a4d822dc5af3a747356496c">begin</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v)</td></tr>
+<tr class="memdesc:a2a77f8e96a4d822dc5af3a747356496c"><td class="mdescLeft">&#160;</td><td class="mdescRight">We don't need to bind those functions in Python, because this doesn't prevent <code>__iter__</code> from being generated for the type.  <br /></td></tr>
+<tr class="separator:a2a77f8e96a4d822dc5af3a747356496c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
@@ -966,8 +966,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a9cd1ae952c7615398cbf5b1534f63f24" name="a9cd1ae952c7615398cbf5b1534f63f24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cd1ae952c7615398cbf5b1534f63f24">&#9670;&#160;</a></span>begin()</h2>
+<a id="a2a77f8e96a4d822dc5af3a747356496c" name="a2a77f8e96a4d822dc5af3a747356496c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a77f8e96a4d822dc5af3a747356496c">&#9670;&#160;</a></span>begin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -978,7 +978,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> auto begin </td>
+          <td class="memname">MR_BIND_IGNORE_PY auto begin </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
           <td></td>
@@ -991,7 +991,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>We don't need to bind those functions themselves. This doesn't prevent <code>__iter__</code> from being generated for the type. </p>
+<p>We don't need to bind those functions in Python, because this doesn't prevent <code>__iter__</code> from being generated for the type. </p>
 
 </div>
 </div>
