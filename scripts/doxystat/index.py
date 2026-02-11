@@ -1256,7 +1256,7 @@ class CompoundType(GeneratedsSuper):
         if SaveElementTreeNode:
             self.gds_elementtree_node_ = node
         already_processed = set()
-        self.ns_prefix_ = node.prefix
+        self.ns_prefix_ = node.tag.split('}')[0][1:] if '}' in node.tag else ''
         self.buildAttributes(node, node.attrib, already_processed)
         for child in node:
             nodeName_ = Tag_pattern_.match(child.tag).groups()[-1]
@@ -1394,7 +1394,7 @@ class MemberType(GeneratedsSuper):
         if SaveElementTreeNode:
             self.gds_elementtree_node_ = node
         already_processed = set()
-        self.ns_prefix_ = node.prefix
+        self.ns_prefix_ = node.tag.split('}')[0][1:] if '}' in node.tag else ''
         self.buildAttributes(node, node.attrib, already_processed)
         for child in node:
             nodeName_ = Tag_pattern_.match(child.tag).groups()[-1]
