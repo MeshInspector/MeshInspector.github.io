@@ -63,7 +63,6 @@ generate_documentation_simple() {
         end=$(date +%s.%N)
         runtime=$(echo "$end - $start" | bc)
         echo "${MODULE} $runtime seconds" >> log_time.txt
-        rm Doxyfile${MODULE}Tag
     done
 
     # check doxygen error (bad doxyfile, missing sources)
@@ -148,7 +147,7 @@ remove_and_restore_files() {
     # remove tag files
     for MODULE in ${MODULES[*]}
     do
-        rm -f MeshLib/MeshLib${MODULE}.tag
+        [[ -f MeshLib/MeshLib${MODULE}.tag ]] && rm -f MeshLib/MeshLib${MODULE}.tag
     done
     ./scripts/restore_files.sh
 }

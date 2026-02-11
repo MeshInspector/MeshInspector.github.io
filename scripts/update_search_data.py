@@ -7,22 +7,20 @@ from collections import defaultdict
 
 class DoxygenSearchDataProcessor:
     def __init__(self, root_dir="MeshLib/local"):
-        #self.lang = []
-        #self.lang = ["Cpp", "Csharp"] 
-        self.lang = ["Cpp", "Python", "C", "Csharp"]
+        dirs = ["Cpp", "Py", "C", "Csharp"]
         self.root_dir = Path(root_dir) / "html"
         self.all_entries = {}
 
         self.all_entries["Main"] = {
-                'module': "Main",
+                'dir': "",
                 'file': self.root_dir / "search" / "all.js",
                 'entries': []
         }
         
-        for lang in self.lang:
-            self.all_entries[lang] = {
-                    'module': lang,
-                    'file': self.root_dir / lang / "search" / "all.js",
+        for dir in dirs:
+            self.all_entries[dir] = {
+                    'dir': dir,
+                    'file': self.root_dir / dir / "search" / "all.js",
                     'entries': []
             }
 
@@ -89,22 +87,23 @@ class DoxygenSearchDataProcessor:
     def update_link_title(self, link_title, module):
         if module == "Cpp":
             if len(link_title) > 0:
-                return "C++:  " + link_title[4:] # remove "MR::"
+                return "C++: " + link_title
             else:
                 return "C++"
-        elif module == "Python":
+        elif module == "Py":
+            first_word = link_title.split('.', 1)[0] + "."
             if len(link_title) > 0:
-                return "Python:  " + link_title.split('.', 1)[1]
+                return "Python: " + link_title
             else:
                 return "Python"
         elif module == "C":
             if len(link_title) > 0:
-                return "C:  " + link_title
+                return "C: " + link_title
             else:
                 return "C"
         elif module == "Csharp":
             if len(link_title) > 0:
-                return "C#:  " + link_title[3:] # remove "MR."
+                return "C#: " + link_title
             else:
                 return "C#"
         else:
@@ -117,7 +116,7 @@ class DoxygenSearchDataProcessor:
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
             module['entries'] = self.parse_js_array(content)
-            print(f"Loaded {len(module['entries'])} entries from {module['module']}")
+            print(f"Loaded {len(module['entries'])} entries from {key}")
     
     def save_entries(self, module, entries):
         # Save entries in js file
@@ -140,7 +139,7 @@ class DoxygenSearchDataProcessor:
             if idx == None:
                 continue
             source_module = module_keys[i]
-            links = self.all_entries[source_module]['entries'][idx][1][1:]
+            links = [self.all_entries[source_module]['entries'][idx][1][1].copy()] # add only one link for one name from one module
             for link_data in links:
                 link_data[0] = self.update_link(link_data[0], module, source_module)
                 link_data[2] = self.update_link_title(link_data[2], source_module)
