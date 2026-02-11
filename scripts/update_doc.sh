@@ -48,21 +48,19 @@ generate_documentation_simple() {
     # final generation of documentation
     for MODULE in ${MODULES[*]}
     do
-        if [ "$MODULE" = "Cpp" ]; then
+        cp Doxyfile${MODULE} Doxyfile${MODULE}Tag
+        if [ "$MODULE" != "Main" ]; then
             echo "GENERATE_XML = YES" >> Doxyfile${MODULE}Tag
-            echo "XML_OUTPUT = ./xml_cpp" >> Doxyfile${MODULE}Tag
-        fi
-        if [ "$MODULE" = "Csharp" ]; then
-            echo "GENERATE_XML = YES" >> Doxyfile${MODULE}Tag
-            echo "XML_OUTPUT = ./xml_cs" >> Doxyfile${MODULE}Tag
+            echo "XML_OUTPUT = ./xml_${MODULE}" >> Doxyfile${MODULE}Tag
         fi
         echo "========== ${MODULE}" >> log.txt
         echo "========== ${MODULE}" >> log_error.txt
         start=$(date +%s.%N)
-        doxygen -d time ./Doxyfile${MODULE} 1>> log.txt 2>> log_error.txt
+        doxygen -d time ./Doxyfile${MODULE}Tag 1>> log.txt 2>> log_error.txt
         end=$(date +%s.%N)
         runtime=$(echo "$end - $start" | bc)
         echo "${MODULE} $runtime seconds" >> log_time.txt
+        rm Doxyfile${MODULE}Tag
     done
 
     # check doxygen error (bad doxyfile, missing sources)
@@ -158,6 +156,17 @@ post_processing() {
     ./scripts/post.sh "$TARGET_DIR"
 }
 
+show_statistics() {
+    for MODULE in ${MODULES[*]}
+    do
+        if [ "$MODULE" != "Main" ]; then
+            echo "Module ${MODULE}"
+            python3 ./scripts/doxystat/metrics.py ${TARGET_DIR}/xml_${MODULE}
+        fi
+    done
+    cat log_time.txt
+}
+
 fix_comment
 prepare_setting_files
 if [[ $? -ne 0 ]]; then
@@ -172,4 +181,4 @@ if [[ $exit_code -ne 0 ]]; then
     exit $exit_code
 fi
 post_processing
-cat log_time.txt
+show_statistics
